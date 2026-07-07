@@ -1,0 +1,74 @@
+[
+  {
+    "id": "b8a141d7-ee80-4cd3-bb42-d7e445b89af9",
+    "sourceFile": "CHEMISTRY TRIAL QUIZ.docx",
+    "subject": "Chemistry",
+    "questionText": "The first ionization energy generally decreases from left to right of a period in the periodic table.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "d42feb53-d1d3-4e86-9d89-4de171204065",
+    "sourceFile": "CHEMISTRY TRIAL QUIZ.docx",
+    "subject": "Chemistry",
+    "questionText": "The electron affinity of the elements in a period generally increases from left to right of the Periodic Table.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "0e290eda-3025-485a-9ac9-fccef89777c8",
+    "sourceFile": "CHEMISTRY TRIAL QUIZ.docx",
+    "subject": "Chemistry",
+    "questionText": "The first ionization energy of the elements in Group 1 of the Periodic Table decreases down the group.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "ba08256b-b8f9-46d3-bf96-9d34473f90c0",
+    "sourceFile": "CHEMISTRY TRIAL QUIZ.docx",
+    "subject": "Chemistry",
+    "questionText": "The hybridization of carbon in ethene is sp2.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "1dadae7b-aec4-4fa3-a007-e29f5058586a",
+    "sourceFile": "CHEMISTRY TRIAL QUIZ.docx",
+    "subject": "Chemistry",
+    "questionText": "The hybridization of carbon of the carbonyl group is sp2.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "52a32f72-dc48-4498-9ff6-3a84fb349b22",
+    "sourceFile": "CHEMISTRY TRIAL QUIZ.docx",
+    "subject": "Chemistry",
+    "questionText": "The hybridization of oxygen in methanol is sp2.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "ef309865-a019-4f81-9816-7cc21d713ad0",
+    "sourceFile": "CHEMISTRY TRIAL QUIZ.docx",
+    "subject": "Chemistry",
+    "questionText": "Addition of NH3 solution to an aqueous solution of Pb2+ ions produces a white precipitate.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "f359c979-03e7-45c8-8c96-059163fcd808",
+    "sourceFile": "CHEMISTRY TRIAL QUIZ.docx",
+    "subject": "Chemistry",
+    "questionText": "Addition of NaOH solution to an aqueous solution of Cu2+ produces a blue gelatinous precipitate.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "092ff1d2-3750-4635-9e3a-789c12aa2bdb",
+    "sourceFile": "CHEMISTRY TRIAL QUIZ.docx",
+    "subject": "Chemistry",
+    "questionText": "Addition of NaOH solution to an aqueous solution of Ca2+ ions gives no observable change.",
+    "correctAnswer": true,
+    "scored": true
+  }
+]

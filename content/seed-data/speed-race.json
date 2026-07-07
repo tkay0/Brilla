@@ -1,0 +1,58 @@
+[
+  {
+    "id": "57a019ca-7db5-4892-b851-92471de278e7",
+    "sourceFile": "CHEMISTRY TRIAL QUIZ.docx",
+    "subject": "Chemistry",
+    "questionText": "Calculate the pH of 0.10 moldm-3 solution of aqueous ammonia solution, given that the pKb of NH3 is 4.74",
+    "correctAnswer": "11.13",
+    "options": [
+      "11.13",
+      "13.13",
+      "1.11",
+      "-11.13"
+    ],
+    "scored": true
+  },
+  {
+    "id": "79e5e50e-ed9d-405f-8446-d90707c407e6",
+    "sourceFile": "CHEMISTRY TRIAL QUIZ.docx",
+    "subject": "Chemistry",
+    "questionText": "Explain why though both chlorine molecules and bromine molecules experience induced dipole – induced dipole intermolecular forces, bromine is a liquid while chlorine is gaseous.",
+    "correctAnswer": "Bromine atoms are bigger and heavier therefore bromine molecules experience greater intermolecular forces",
+    "options": [
+      "Bromine atoms are bigger and heavier therefore bromine molecules experience greater intermolecular forces",
+      "Bromine forms hydrogen bonds while chlorine does not.",
+      "Bromine has a higher electronegativity than chlorine, resulting in stronger dipole-dipole forces.",
+      "Chlorine atoms are bigger and heavier therefore chlorine molecules experience greater intermolecular forces."
+    ],
+    "scored": true
+  },
+  {
+    "id": "60eca372-a216-4df7-972c-78a63f358730",
+    "sourceFile": "CHEMISTRY TRIAL QUIZ.docx",
+    "subject": "Physics",
+    "questionText": "What industrial preparation may be classified as fixation of nitrogen and why?",
+    "correctAnswer": "Haber Process",
+    "options": [
+      "Haber Process",
+      "Solvay Process",
+      "Ostwald Process",
+      "Contact Process"
+    ],
+    "scored": true
+  },
+  {
+    "id": "63af9cc6-715d-409e-b535-9a711769ffc5",
+    "sourceFile": "CHEMISTRY TRIAL QUIZ.docx",
+    "subject": "Chemistry",
+    "questionText": "Helium is derived from a Greek word. What does the Greek word mean?",
+    "correctAnswer": "Sun",
+    "options": [
+      "Moon",
+      "Sun",
+      "Light",
+      "Star"
+    ],
+    "scored": true
+  }
+]

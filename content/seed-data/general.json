@@ -1,0 +1,98 @@
+[
+  {
+    "id": "3bf5fb26-ee01-4a71-89d4-0534846499fc",
+    "sourceFile": "CHEMISTRY TRIAL QUIZ.docx",
+    "subject": "Chemistry",
+    "questionText": "Explain why endothermic reactions are supposed not to occur spontaneously.",
+    "correctAnswer": "The products formed (thermodynamically) are less stable than the reactants. OR The internal energy of products is higher than the internal energy of the reactants",
+    "scored": false
+  },
+  {
+    "id": "2f84d82b-800e-4c76-b99e-f6d768657f66",
+    "sourceFile": "CHEMISTRY TRIAL QUIZ.docx",
+    "subject": "Chemistry",
+    "questionText": "The combustion of methane to form CO2 and H2O is an exothermic reaction and yet it does not occur spontaneously. Why?",
+    "correctAnswer": "The reaction needs external energy to overcome the activation energy. OR Energy is required to break the strong O-O bond oxygen before oxygen can react",
+    "scored": false
+  },
+  {
+    "id": "63b87807-7a85-4425-a072-885452b07eae",
+    "sourceFile": "CHEMISTRY TRIAL QUIZ.docx",
+    "subject": "Chemistry",
+    "questionText": "Explain why exothermic compounds are supposed to be stable compounds.",
+    "correctAnswer": "When they are formed from their elements in their standard states they are more stable than the reactants. OR They contain less internal energy than the internal energy of the reactants put together",
+    "scored": false
+  },
+  {
+    "id": "70b5754d-b973-43b2-af14-8cf844214f69",
+    "sourceFile": "CHEMISTRY TRIAL QUIZ.docx",
+    "subject": "Chemistry",
+    "questionText": "Which compounds would you need to prepare N-butylpropanamide?",
+    "correctAnswer": "1-butylamine (or 1-butanamine) and propanoic anhydride or chloride",
+    "scored": false
+  },
+  {
+    "id": "4ee9031a-5877-488d-9c82-a3ede3eaffd9",
+    "sourceFile": "CHEMISTRY TRIAL QUIZ.docx",
+    "subject": "Chemistry",
+    "questionText": "What compounds would be needed to prepare phenylmethanoate?",
+    "correctAnswer": "Phenol and methanoic acid",
+    "scored": false
+  },
+  {
+    "id": "5753a86c-faaf-43b3-a9bd-73dea585f41c",
+    "sourceFile": "CHEMISTRY TRIAL QUIZ.docx",
+    "subject": "Chemistry",
+    "questionText": "Which compounds will be needed to prepare propanoic butanoic anhydride?",
+    "correctAnswer": "Propanoic acid and butanoic acid",
+    "scored": false
+  },
+  {
+    "id": "b9537663-4042-4051-93a6-14ab509c73a2",
+    "sourceFile": "CHEMISTRY TRIAL QUIZ.docx",
+    "subject": "Chemistry",
+    "questionText": "Which of the following are not composed of sub-particles? Electron, anti-proton, neutron.",
+    "correctAnswer": "Electron",
+    "scored": false
+  },
+  {
+    "id": "3808153f-8a43-48c3-963d-fd8c7ec6c39c",
+    "sourceFile": "CHEMISTRY TRIAL QUIZ.docx",
+    "subject": "Chemistry",
+    "questionText": "Which of the following are not composed of sub-particles? Anti-neutron, anti-neutrino, proton.",
+    "correctAnswer": "Anti-neutrino",
+    "scored": false
+  },
+  {
+    "id": "c643c494-3e77-4692-83e9-e9dec625eecb",
+    "sourceFile": "CHEMISTRY TRIAL QUIZ.docx",
+    "subject": "Chemistry",
+    "questionText": "Which of the following are not composed of sub-particles? Deuteron, alpha particle, neutrino?",
+    "correctAnswer": "Neutrino",
+    "scored": false
+  },
+  {
+    "id": "3e326edb-09a8-47d2-94bb-449d74689013",
+    "sourceFile": "CHEMISTRY TRIAL QUIZ.docx",
+    "subject": "Chemistry",
+    "questionText": "What is chromatography?",
+    "correctAnswer": "A separation technique that depends on how different compounds move or partition between a moving phase and stationary phase",
+    "scored": false
+  },
+  {
+    "id": "ad79e843-39dd-4a6c-bfca-6482824a3bd5",
+    "sourceFile": "CHEMISTRY TRIAL QUIZ.docx",
+    "subject": "Chemistry",
+    "questionText": "If you perform a column chromatography with the column packed with alumina how is separation achieved?",
+    "correctAnswer": "As solvent is passed down the column, the substances will show different abilities to be adsorbed on the surface of the alumina or desorbed and washed down by the solvent",
+    "scored": false
+  },
+  {
+    "id": "19cc782f-6d99-402a-8a87-21a2809d6676",
+    "sourceFile": "CHEMISTRY TRIAL QUIZ.docx",
+    "subject": "Chemistry",
+    "questionText": "In paper chromatography, how are substances separated?",
+    "correctAnswer": "The paper has incorporated in it some water molecules. The substances have different abilities to partition between the stationary water (molecules) and the moving organic solvent",
+    "scored": false
+  }
+]
