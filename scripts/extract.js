@@ -69,6 +69,14 @@ const ANSWER_BLOCK_RE = new RegExp(ANSWER_PREFIX_RE.source, 'i');
 const ANSWER_LINE_RE = new RegExp(`${ANSWER_PREFIX_RE.source}(.*)$`, 'i');
 const PREAMBLE_BLOCK_RE = /^PREAMBLE[:.\t ]*/i;
 const REASON_BLOCK_RE = /^REASON[:.\t ]*/i;
+// Some docs label an answer as "Answer - Contest 14" / "Answer– Contest 19" - just the
+// contest number repeated as a trailing label, not actual answer content. The real answer
+// follows in later blocks, so this needs to be treated the same as a bare "Answer" label.
+const TRAILING_CONTEST_LABEL_RE = /^[-–—]?\s*contest\s*\d+\.?\s*$/i;
+
+function isEffectivelyEmptyAnswer(rawAnswer) {
+  return rawAnswer.length === 0 || TRAILING_CONTEST_LABEL_RE.test(rawAnswer);
+}
 const WHO_RE = /who\s+(?:am\s+i|are\s+we)\??/i;
 // A block continues the previous ANSWER block rather than starting a new question when it's
 // a short calculation-step fragment ("= 4.74/2 + 0.5", "pH = 14 - 2.87") - i.e. it contains
@@ -113,29 +121,55 @@ function parseQABlocks(bodyText) {
   let pendingQuestionParts = [];
   let preamble = null;
   let lastPair = null;
+  // True once we've seen a bare "Answer"/"ANSWER:" label with nothing after it on the same
+  // block - the real answer text is coming in one or more later blocks (blank-line-separated
+  // paragraphs), not immediately following like "ANSWER: <text>" does.
+  let collectingEmptyAnswer = false;
 
   for (const block of blocks) {
     if (PREAMBLE_BLOCK_RE.test(block)) {
+      collectingEmptyAnswer = false;
       preamble = block.replace(PREAMBLE_BLOCK_RE, '').trim();
       continue;
     }
     if (ANSWER_BLOCK_RE.test(block)) {
       const rawAnswer = block.replace(ANSWER_BLOCK_RE, '').trim();
+      const effectivelyEmpty = isEffectivelyEmptyAnswer(rawAnswer);
+      if (collectingEmptyAnswer && lastPair) {
+        // A second "Answer"-labeled block while still collecting the first one's body - treat
+        // it as more of the same answer rather than losing track of the pairing.
+        if (!effectivelyEmpty) {
+          lastPair.answerText += `${lastPair.answerText ? ' ' : ''}${rawAnswer}`;
+          collectingEmptyAnswer = false;
+        }
+        continue;
+      }
       if (pendingQuestionParts.length === 0) {
         warnings.push(`Answer block with no preceding question: "${block.slice(0, 60)}..."`);
         lastPair = null;
+        collectingEmptyAnswer = false;
         continue;
       }
       let questionText = pendingQuestionParts.join(' ').trim();
       if (preamble) questionText = `${preamble} ${questionText}`;
-      lastPair = { questionText: cleanText(questionText), answerText: rawAnswer };
+      // A trailing-contest-label answer ("Answer - Contest 14") carries no real content -
+      // discard it rather than storing it as the answer, so it doesn't end up prefixed onto
+      // the real answer text collected from later blocks.
+      lastPair = { questionText: cleanText(questionText), answerText: effectivelyEmpty ? '' : rawAnswer };
       pairs.push(lastPair);
       pendingQuestionParts = [];
+      collectingEmptyAnswer = effectivelyEmpty;
       continue;
     }
     if (REASON_BLOCK_RE.test(block)) {
       // Supplementary reasoning for the answer just paired - not part of the next question.
+      collectingEmptyAnswer = false;
       if (lastPair) lastPair.answerText += ` ${block.replace(REASON_BLOCK_RE, '').trim()}`;
+      continue;
+    }
+    if (collectingEmptyAnswer && lastPair) {
+      // A continuation paragraph of a bare "Answer" label's body.
+      lastPair.answerText += `${lastPair.answerText ? ' ' : ''}${block}`;
       continue;
     }
     if (lastPair && CALC_CONTINUATION_RE.test(block)) {
@@ -146,6 +180,7 @@ function parseQABlocks(bodyText) {
       continue;
     }
     lastPair = null;
+    collectingEmptyAnswer = false;
     if (preamble && pendingQuestionParts.length === 0 && STANDALONE_QUESTION_START_RE.test(block)) {
       preamble = null;
     }
@@ -535,6 +570,7 @@ async function main() {
 
   const buckets = { General: [], SpeedRace: [], ProblemOfDay: [], TrueFalse: [], Riddle: [] };
   const allWarnings = [];
+  let defaultedToGeneralCount = 0;
 
   for (const fileName of PILOT_FILES) {
     const filePath = path.join(RAW_DIR, fileName);
@@ -543,12 +579,17 @@ async function main() {
     const segments = splitIntoSegments(text);
 
     for (const segment of segments) {
-      const matchedTypes = matchSegmentTypes(segment);
+      let matchedTypes = matchSegmentTypes(segment);
       if (matchedTypes.length === 0) {
+        // No round-type signal at all (e.g. a doc that only marks segments with "Contest N"
+        // and has no ROUND/SPEED RACE/TRUE OR FALSE sub-headers to key off of). Rather than
+        // silently dropping real question content, default to General and flag it so it's
+        // visible how many segments this happened for.
+        defaultedToGeneralCount++;
         allWarnings.push(
-          `[${fileName}] Segment matched no round type, skipped: "${segment.slice(0, 60).replace(/\n/g, ' ')}..."`
+          `[${fileName}] Segment matched no round type, defaulted to General: "${segment.slice(0, 60).replace(/\n/g, ' ')}..."`
         );
-        continue;
+        matchedTypes = ['General'];
       }
       for (const type of matchedTypes) {
         const warnings = [];
@@ -581,10 +622,10 @@ async function main() {
     fs.writeFileSync(outPath, JSON.stringify(buckets[type], null, 2) + '\n', 'utf8');
   }
 
-  printSummary(buckets, allWarnings);
+  printSummary(buckets, allWarnings, defaultedToGeneralCount);
 }
 
-function printSummary(buckets, warnings) {
+function printSummary(buckets, warnings, defaultedToGeneralCount) {
   const line = (s = '') => console.log(s);
 
   line('='.repeat(90));
@@ -596,6 +637,7 @@ function printSummary(buckets, warnings) {
       `ProblemOfDay ${buckets.ProblemOfDay.length}, TrueFalse ${buckets.TrueFalse.length}, ` +
       `Riddle ${buckets.Riddle.length}`
   );
+  line(`Segments with no round-type signal, defaulted to General: ${defaultedToGeneralCount}`);
   line();
 
   for (const [type, questions] of Object.entries(buckets)) {
