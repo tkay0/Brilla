@@ -20,7 +20,9 @@ const SPEED_RACE_RE = /speed\s*race/i;
 const PROBLEM_OF_DAY_RE = /problem\s+of\s+the\s+day/i;
 const TRUE_FALSE_RE = /true\s*(?:\/|or)\s*false/i;
 const RIDDLE_RE = /riddle/i;
-const WHO_AM_I_RE = /who\s+am\s+i/i;
+// Riddles are sometimes narrated in the collective ("We are ... WHO ARE WE?") rather than
+// singular first person.
+const WHO_AM_I_RE = /who\s+(?:am\s+i|are\s+we)/i;
 const ANSWER_MARKER_RE = /\banswer\s*[:.]|\bans\s*[:.]/i;
 const NUMBERED_ITEM_RE = /^\s*(?:\d{1,3}|x)[.)]\s+\S/im;
 const STANDALONE_TF_RE = /^\s*(?:T|F|TRUE|FALSE)\s*(?:\[[^\]]*\])?\s*$/i;
@@ -103,6 +105,12 @@ function splitIntoSegments(text) {
   });
   if (boundaries.length === 0) return [text];
   const segments = [];
+  // Content before the first boundary (e.g. a title line, or a General round with no
+  // header at all before the first "SPEED RACE"/"TRUE OR FALSE" line) still needs its own
+  // segment, or it's silently dropped entirely.
+  if (boundaries[0] > 0) {
+    segments.push(lines.slice(0, boundaries[0]).join('\n'));
+  }
   for (let i = 0; i < boundaries.length; i++) {
     const start = boundaries[i];
     const end = i + 1 < boundaries.length ? boundaries[i + 1] : lines.length;
