@@ -1,0 +1,38 @@
+{
+  "Biology (Problem of the Day) - one-eighth to finals.docx": {
+    "contentHash": "57e7fc403b00a5b80a7d65cc9b6d9616b29ecdf20f47f7c6e6b159f81190ee05",
+    "processedAt": "2026-07-07T23:29:06.317Z",
+    "status": "processed",
+    "questionsAdded": {
+      "General": 6,
+      "SpeedRace": 0,
+      "ProblemOfDay": 0,
+      "TrueFalse": 0,
+      "Riddle": 0
+    }
+  },
+  "Biology Riddles (2) - Copy.docx": {
+    "contentHash": "703d4d38f86b82cee2f7cbb03e18e71570e7047fce8ed496c4f9a1eccdb71bc9",
+    "processedAt": "2026-07-07T23:29:06.208Z",
+    "status": "processed",
+    "questionsAdded": {
+      "General": 0,
+      "SpeedRace": 0,
+      "ProblemOfDay": 0,
+      "TrueFalse": 0,
+      "Riddle": 36
+    }
+  },
+  "CHEMISTRY TRIAL QUIZ.docx": {
+    "contentHash": "bdea1b6f99b562ff9744b680765871975380f617e3ca25ba973a87e4c4ef9a1e",
+    "processedAt": "2026-07-07T23:29:06.094Z",
+    "status": "processed",
+    "questionsAdded": {
+      "General": 12,
+      "SpeedRace": 4,
+      "ProblemOfDay": 0,
+      "TrueFalse": 9,
+      "Riddle": 1
+    }
+  }
+}

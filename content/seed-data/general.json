@@ -1,6 +1,6 @@
 [
   {
-    "id": "3bf5fb26-ee01-4a71-89d4-0534846499fc",
+    "id": "fcc0e87d-7940-47c9-906f-f54112f4af04",
     "sourceFile": "CHEMISTRY TRIAL QUIZ.docx",
     "subject": "Chemistry",
     "questionText": "Explain why endothermic reactions are supposed not to occur spontaneously.",
@@ -8,7 +8,7 @@
     "scored": false
   },
   {
-    "id": "2f84d82b-800e-4c76-b99e-f6d768657f66",
+    "id": "4a2b25b5-c5f8-4441-91a3-0643e18f7f32",
     "sourceFile": "CHEMISTRY TRIAL QUIZ.docx",
     "subject": "Chemistry",
     "questionText": "The combustion of methane to form CO2 and H2O is an exothermic reaction and yet it does not occur spontaneously. Why?",
@@ -16,7 +16,7 @@
     "scored": false
   },
   {
-    "id": "63b87807-7a85-4425-a072-885452b07eae",
+    "id": "aa8ddcd8-abb8-4cb3-80a7-ecc927457a1a",
     "sourceFile": "CHEMISTRY TRIAL QUIZ.docx",
     "subject": "Chemistry",
     "questionText": "Explain why exothermic compounds are supposed to be stable compounds.",
@@ -24,7 +24,7 @@
     "scored": false
   },
   {
-    "id": "70b5754d-b973-43b2-af14-8cf844214f69",
+    "id": "3dbfd21a-95eb-4647-aade-33c920389ada",
     "sourceFile": "CHEMISTRY TRIAL QUIZ.docx",
     "subject": "Chemistry",
     "questionText": "Which compounds would you need to prepare N-butylpropanamide?",
@@ -32,7 +32,7 @@
     "scored": false
   },
   {
-    "id": "4ee9031a-5877-488d-9c82-a3ede3eaffd9",
+    "id": "11ac028b-6314-4f98-ad80-42c8ba227f46",
     "sourceFile": "CHEMISTRY TRIAL QUIZ.docx",
     "subject": "Chemistry",
     "questionText": "What compounds would be needed to prepare phenylmethanoate?",
@@ -40,7 +40,7 @@
     "scored": false
   },
   {
-    "id": "5753a86c-faaf-43b3-a9bd-73dea585f41c",
+    "id": "e21d7295-474f-4554-9c9e-a5af18b1a1ba",
     "sourceFile": "CHEMISTRY TRIAL QUIZ.docx",
     "subject": "Chemistry",
     "questionText": "Which compounds will be needed to prepare propanoic butanoic anhydride?",
@@ -48,7 +48,7 @@
     "scored": false
   },
   {
-    "id": "b9537663-4042-4051-93a6-14ab509c73a2",
+    "id": "d8111e1d-e5b2-4eea-b87a-a1d9c2d02e0f",
     "sourceFile": "CHEMISTRY TRIAL QUIZ.docx",
     "subject": "Chemistry",
     "questionText": "Which of the following are not composed of sub-particles? Electron, anti-proton, neutron.",
@@ -56,7 +56,7 @@
     "scored": false
   },
   {
-    "id": "3808153f-8a43-48c3-963d-fd8c7ec6c39c",
+    "id": "e80f1c93-81c2-46c0-ba7b-9e3b6e7adb9f",
     "sourceFile": "CHEMISTRY TRIAL QUIZ.docx",
     "subject": "Chemistry",
     "questionText": "Which of the following are not composed of sub-particles? Anti-neutron, anti-neutrino, proton.",
@@ -64,7 +64,7 @@
     "scored": false
   },
   {
-    "id": "c643c494-3e77-4692-83e9-e9dec625eecb",
+    "id": "26c90f58-ca1f-4a0c-8572-fbc3af436a9e",
     "sourceFile": "CHEMISTRY TRIAL QUIZ.docx",
     "subject": "Chemistry",
     "questionText": "Which of the following are not composed of sub-particles? Deuteron, alpha particle, neutrino?",
@@ -72,7 +72,7 @@
     "scored": false
   },
   {
-    "id": "3e326edb-09a8-47d2-94bb-449d74689013",
+    "id": "2d8d4d2d-5195-4da1-b382-f03534bbb003",
     "sourceFile": "CHEMISTRY TRIAL QUIZ.docx",
     "subject": "Chemistry",
     "questionText": "What is chromatography?",
@@ -80,7 +80,7 @@
     "scored": false
   },
   {
-    "id": "ad79e843-39dd-4a6c-bfca-6482824a3bd5",
+    "id": "755339f9-9d26-4353-839a-11c7816a3038",
     "sourceFile": "CHEMISTRY TRIAL QUIZ.docx",
     "subject": "Chemistry",
     "questionText": "If you perform a column chromatography with the column packed with alumina how is separation achieved?",
@@ -88,11 +88,59 @@
     "scored": false
   },
   {
-    "id": "19cc782f-6d99-402a-8a87-21a2809d6676",
+    "id": "80f204cd-2e40-48e8-a0d9-4b2ff75dc02e",
     "sourceFile": "CHEMISTRY TRIAL QUIZ.docx",
     "subject": "Chemistry",
     "questionText": "In paper chromatography, how are substances separated?",
     "correctAnswer": "The paper has incorporated in it some water molecules. The substances have different abilities to partition between the stationary water (molecules) and the moving organic solvent",
+    "scored": false
+  },
+  {
+    "id": "60fa403f-4806-4990-95e6-6a927d8462aa",
+    "sourceFile": "Biology (Problem of the Day) - one-eighth to finals.docx",
+    "subject": "Biology",
+    "questionText": "Some athletes tend to train at higher altitudes for a period of time before major competitions. Give a physiological explanation for the benefit gained by athletes who train at high altitudes before competitions.",
+    "correctAnswer": "The oxygen level at high altitude is very low. This will stimulate an increased production of red blood cells and haemoglobin. If an athlete trains at higher altitude for long enough for this to take effect, he/she will have the ability to carry a higher amount of oxygen in his/her blood stream. This effect will continue even at lower altitudes for some weeks or months after the high altitude training has stopped. High oxygen content of the blood results in more energy through aerobic cellular respiration for muscular contraction",
+    "scored": false
+  },
+  {
+    "id": "c05a8268-4098-4711-88a4-a1b38c7e7cf4",
+    "sourceFile": "Biology (Problem of the Day) - one-eighth to finals.docx",
+    "subject": "Biology",
+    "questionText": "Describe how energy ﬂows from the sun through the various trophic levels in a forest ecosystem. Give reasons for the loss of energy from one trophic level to another in a food chain",
+    "correctAnswer": "Energy from the sun is trapped by green plants in the forest during photosynthesis, producing chemical energy food or carbohydrates Green plants are producers and occupy the first trophic level Green plants are eaten by herbivores (primary producers) as they occupy the second trophic level Herbivores are eaten by carnivores (secondary consumers), which occupy the third trophic level When organisms (plant and animals) die, fungi and bacteria (decomposers and detrivores) which are saprophytic organisms feed on them thus causing them to decompose into simple substances. Decomposers feed on dead organic matter hence cause decomposition and decay which release nutrients for plants, linking biotic and abiotic components i. Inefficient utilization of food resources (wastage) Through respiration Through excretion e.g. urination and sweating",
+    "scored": false
+  },
+  {
+    "id": "9dd30000-becb-4f57-9f12-389828194849",
+    "sourceFile": "Biology (Problem of the Day) - one-eighth to finals.docx",
+    "subject": "Biology",
+    "questionText": "In a genetics class, the students were made to cross true-breeding tall and hairy stemmed okro plants with true breeding dwarf and hairless okro plants. They found that all the F1 generation produced as the result of the cross were tall and hairy stemmed. The F1 plants were crossed with each other to obtain 1200 F2 plants. Of these 1200 F2 okro plants, they observed the following numbers of four different phenotypes, Phonotype Number of plants Tall and hairy plants 678 Tall and hairless stem-stemmed plants 230 Dwarf and hairy-stemmed 220 Dwarf and hairless-stemmed plants 72 Which height characteristic is dominant, tallness or dwarfness? Which stem characteristic is dominant, hairiness or hairless. Using the alleles, T for tallness, t for dwarfness, H for hairiness, and h for hairless, state the genotypes of the original true breeding plants. Using the same alleles as in c above, state the genotypes of the F1 hybrid. Using the same alleles, state the genotypes of the four types of okro plants found in the F2 generation? What were the expected numbers okro plants of each type in the F2 generation? Why do the observed number of okro plants of each type in the F2 generation differ from the expected?",
+    "correctAnswer": "Tallness is dominant Hairiness is dominant The tall hairy-stemmed true-breeding parent has a genotype TTHH. The dwarf hairless-stemmed true breeding parent has the genotype tthh The F1 plants have the same genotype, TtHh Tall and hairy-stemmed okro plants : TTHH, TTHh, TtHh, TtHH Tall and hairless stemmed okro plants: TThh, Tthh Dwarf and hairy stemmed okro plants: ttHH, ttHh Dwarf and hairless stemmed okro plants : tthh Since it follows the 9:3:3:1, pattern the expected numbers were as follows Tall and hairy-stemmed okro plants: 675 Tall and hairless stemmed okro plants: 225 Dwarf and hairy stemmed okro plants: 225 Dwarf and hairless stemmed okro plants: 75 The expected numbers are based on probabilities. The actual numbers should be close to the expected, but would not be exactly the same as the expected numbers",
+    "scored": false
+  },
+  {
+    "id": "cae2cb90-7919-4a66-89c4-6c2adba8e08a",
+    "sourceFile": "Biology (Problem of the Day) - one-eighth to finals.docx",
+    "subject": "Biology",
+    "questionText": "DNA replication is semiconservative, meaning that each strand in the DNA double helix acts as a template for the synthesis of a new, complementary strand. This process takes us from one starting molecule to two \"daughter\" molecules, with each newly formed double helix containing one new and one old strand. Each new DNA molecule contains one strand from a parent template and a newly synthesized strand Using the letters O to represent original strands of a parent DNA, and N1, N2 and N3 to represent new complementary strands after 1st, 2nd and 3rd replications respectively, determine the strands of the DNA after three successive replications. Using the letters provided, state and list DNA molecules that do not contain an original strand at the end of the second replication. Determine the number of DNA molecules that contain a parent strand at the end of the third replication. How many of the DNA molecules produced at the end of the third replication do not contain any of the strands produced at the end of the first replication?",
+    "correctAnswer": "1. O = original strand Before replication PARENT OO FIRST REPLICATION ON1 ON1 SECOND REPLICATION ON2 N1N2 ON2 N1N2 THIRD REPLICATION ON3 N2N3 N1N3 N2N3 ON3 N2N3 N1N3 N2N3 2. Two of them (all N1N2) 3. Two of them (all ON3) 4. 4 of them and they are all N2N3",
+    "scored": false
+  },
+  {
+    "id": "ca17a166-853a-438c-9584-f3bbdafd7374",
+    "sourceFile": "Biology (Problem of the Day) - one-eighth to finals.docx",
+    "subject": "Biology",
+    "questionText": "People with diabetes mellitus normally take their insulin as an injection. Using your knowledge in what happens in the stomach and small intestines of humans in terms of digestion and absorption, explain why insulin is not taken as a pill. An Individual who has had his gall bladder removed was advised to reduce the intake of fat containing foods. What effect will the removal of the individual’s gall bladder have on his ability to absorb and digest fat?",
+    "correctAnswer": "People with diabetes mellitus normally take their insulin as an injection. Using your knowledge in what happens in the stomach and small intestines of humans in terms of digestion and absorption, explain why insulin is not taken as a pill. Insulin is a protein Protein digestion begins in the stomach The pepsin produced by the glands in the stomach will break down the insulin which is a protein The insulin will therefore not make its way to the small intestine where most substances are absorbed. An Individual who has had his gall bladder removed was advised to reduce the intake of fat containing foods. What effect will the removal of the individual’s gall bladder have on his ability to absorb and digest fat? The gallbladder is a small storage organ located inferior and posterior to the liver. The gallbladder holds bile produced in the liver until it is needed for digesting fatty foods in the duodenum of the small intestine. Without normal amounts and concentrations of bile, the individual will have difficulty digesting and absorbing fat. Fats will remain in the intestines and cause abdominal discomfort. The Individual may also suffer from fat soluble vitamin deficiency due to the difficulty the individual will have in absorbing fat",
+    "scored": false
+  },
+  {
+    "id": "1a22a345-c678-4db9-af0e-d7f3783c8bbe",
+    "sourceFile": "Biology (Problem of the Day) - one-eighth to finals.docx",
+    "subject": "Chemistry",
+    "questionText": "In a form three class at a senior high school, the students were are asked to design an experiment to see whether vitamin A improves night vision. They selected 100 general arts students and gave 50 of the students extra vitamin A for 6 weeks and then compared their night vision with that of the rest of the class. As a member of the science class explain the following (a) How you would select the group to be given the extra vitamin A (b) How would you standardize their intake of vitamins? (c) What tests would you conduct before giving the vitamin supplement? (d) How would you record and test the students’ night vision? (e) How would you analyze your results?",
+    "correctAnswer": "Initially, any student already taking vitamin A supplements would be excluded as well as students on a special diet. The group to receive the supplement would be selected at random, and the experimenter should not know which students were in which group. Students would be asked not to change their diet from their normal one during the course of the experiment. Vitamin A tablets of a recommended dose would then be taken at intervals specified by a dietician or doctor. Students' night vision should be tested at the start of the experiment to establish a 'base line' for each student. A standard test card could be used, at a specified distance, in a dimly lit room not influenced by changes in the outside light intensity. Left and right eyes would be tested separately. A method of scoring would have to be devised, e.g. the number of correct identifications, weighted for the size of type. A standard time for students to become acclimatized to the dim light before starting the test would have to be decided. The mean score for each group would be calculated and the difference determined. It would then have to be judged whether this difference was significantly greater than the differences within either of the groups",
     "scored": false
   }
 ]

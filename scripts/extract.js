@@ -1,16 +1,17 @@
 #!/usr/bin/env node
-// Stage 2 pilot extraction: turns Stage 1's segment-level classification into individual
-// structured questions for exactly two hand-picked files (one riddle-type doc, one
-// full-contest doc), so extraction quality can be reviewed before wiring this up to the
-// full 300+ file corpus and content/manifest.json.
+// Stage 2 extraction: turns Stage 1's segment-level classification into individual
+// structured questions, written incrementally to content/seed-data/*.json and tracked in
+// content/manifest.json so re-running is cheap and safe - unchanged files are skipped,
+// changed files are reprocessed, and existing question IDs are never regenerated.
 //
-// Pilot files (chosen from content/question-classification.csv for clean, unambiguous
-// formatting):
-//   - "Biology Riddles (2) - Copy.docx"  - dedicated Riddle doc, 36 clean "Contest N /
-//     clues / WHO AM I? <answer>" entries, single subject (Biology).
-//   - "CHEMISTRY TRIAL QUIZ.docx"        - full-contest doc (General, Speed Race,
-//     True/False, Riddle - no Problem of the Day in this particular file), all sections
-//     use consistent "ANSWER:"/"Ans:" markers with no OCR garbling.
+// Usage:
+//   node scripts/extract.js                          process every file in raw-questions
+//   node scripts/extract.js --only "a.docx,b.doc"     process just these files
+//   node scripts/extract.js --dry-run                 preview only, writes nothing
+//
+// Files listed in content/known-exceptions.md (questions/answers split across separate
+// files or sections, which segment-level parsing can't reassemble) are skipped with a
+// single log line instead of producing a pile of parse warnings.
 
 const fs = require('fs');
 const path = require('path');
@@ -24,8 +25,20 @@ const {
 } = require('./classify-questions');
 
 const OUT_DIR = path.join(__dirname, '..', 'content', 'seed-data');
+const MANIFEST_PATH = path.join(__dirname, '..', 'content', 'manifest.json');
+const KNOWN_EXCEPTIONS_PATH = path.join(__dirname, '..', 'content', 'known-exceptions.md');
 
-const PILOT_FILES = ['CHEMISTRY TRIAL QUIZ.docx', 'Biology Riddles (2) - Copy.docx'];
+const ROUND_TYPE_FILE_MAP = {
+  General: 'general.json',
+  SpeedRace: 'speed-race.json',
+  ProblemOfDay: 'problem-of-the-day.json',
+  TrueFalse: 'true-false.json',
+  Riddle: 'riddles.json',
+};
+
+function zeroCounts() {
+  return Object.fromEntries(Object.keys(ROUND_TYPE_FILE_MAP).map((t) => [t, 0]));
+}
 
 // ---------------------------------------------------------------------------------------
 // Text helpers
@@ -562,90 +575,275 @@ function shuffleOptions(correctAnswer, distractors) {
 }
 
 // ---------------------------------------------------------------------------------------
+// Manifest, known-exceptions, and hashing
+// ---------------------------------------------------------------------------------------
+
+function sha256(text) {
+  return crypto.createHash('sha256').update(text, 'utf8').digest('hex');
+}
+
+function loadManifest() {
+  if (!fs.existsSync(MANIFEST_PATH)) return {};
+  return JSON.parse(fs.readFileSync(MANIFEST_PATH, 'utf8'));
+}
+
+function writeManifest(manifest) {
+  const sorted = Object.fromEntries(Object.entries(manifest).sort(([a], [b]) => a.localeCompare(b)));
+  fs.writeFileSync(MANIFEST_PATH, JSON.stringify(sorted, null, 2) + '\n', 'utf8');
+}
+
+// Parses the "## Files to skip entirely" section of known-exceptions.md for backtick-quoted
+// filenames anchored at the start of a bullet line - deliberately narrow (only the first
+// backtick span per "- `...`" line) so a filename mentioned in another bullet's prose (e.g.
+// "the answer lives in `CONTEST 40 DIAGRAM.docx`") doesn't get misparsed as its own entry
+// unless it also has its own top-level bullet.
+function loadKnownExceptions() {
+  const fullSkip = new Set();
+  if (!fs.existsSync(KNOWN_EXCEPTIONS_PATH)) return { fullSkip };
+
+  const md = fs.readFileSync(KNOWN_EXCEPTIONS_PATH, 'utf8');
+  const sections = md.split(/^## /m).slice(1); // drop preamble before the first ## heading
+  const target = sections.find((s) => s.startsWith('Files to skip entirely'));
+  if (!target) return { fullSkip };
+
+  for (const line of target.split('\n')) {
+    const m = line.match(/^-\s*`([^`]+)`/);
+    if (m) fullSkip.add(m[1]);
+  }
+  return { fullSkip };
+}
+
+// The one partial exception (Biology Problem of the Day's Contest 16/17 split) isn't worth
+// a generic markdown parser for a single case - hardcoded here, cross-referenced in
+// known-exceptions.md's "Partial exception" section.
+const PARTIAL_EXCEPTION_FILE = 'Biology (Problem of the Day) - one-eighth to finals.docx';
+const PARTIAL_EXCEPTION_HEADER_RE = /^Contest 1[67]\b/i;
+
+function isPartialExceptionSegment(fileName, segment) {
+  if (fileName !== PARTIAL_EXCEPTION_FILE) return false;
+  const header = segment.split(/\r?\n/).find((l) => l.trim().length > 0) || '';
+  return PARTIAL_EXCEPTION_HEADER_RE.test(header.trim());
+}
+
+// ---------------------------------------------------------------------------------------
+// Bucket (seed-data) accumulation
+// ---------------------------------------------------------------------------------------
+
+function loadExistingBuckets() {
+  const buckets = {};
+  for (const [type, fileName] of Object.entries(ROUND_TYPE_FILE_MAP)) {
+    const p = path.join(OUT_DIR, fileName);
+    buckets[type] = fs.existsSync(p) ? JSON.parse(fs.readFileSync(p, 'utf8')) : [];
+  }
+  return buckets;
+}
+
+function removeQuestionsFromSource(buckets, fileName) {
+  for (const type of Object.keys(buckets)) {
+    buckets[type] = buckets[type].filter((q) => q.sourceFile !== fileName);
+  }
+}
+
+// ---------------------------------------------------------------------------------------
+// Per-file extraction (unchanged parsing/distractor logic, called for new/changed files)
+// ---------------------------------------------------------------------------------------
+
+function extractFile(fileName, text) {
+  const fileSubjectHint = [...detectSubjects(fileName, text)][0] || null;
+  const allSegments = splitIntoSegments(text);
+  const questions = { General: [], SpeedRace: [], ProblemOfDay: [], TrueFalse: [], Riddle: [] };
+  const warnings = [];
+  let defaultedToGeneralCount = 0;
+  let knownExceptionSegmentCount = 0;
+
+  const segments = allSegments.filter((segment) => {
+    if (isPartialExceptionSegment(fileName, segment)) {
+      knownExceptionSegmentCount++;
+      return false;
+    }
+    return true;
+  });
+  if (knownExceptionSegmentCount > 0) {
+    warnings.push(
+      `skipped ${knownExceptionSegmentCount} known-exception segment(s) (see known-exceptions.md)`
+    );
+  }
+
+  for (const segment of segments) {
+    let matchedTypes = matchSegmentTypes(segment);
+    if (matchedTypes.length === 0) {
+      defaultedToGeneralCount++;
+      matchedTypes = ['General'];
+    }
+    for (const type of matchedTypes) {
+      const segWarnings = [];
+      let segQuestions = [];
+      if (type === 'General') segQuestions = extractGeneral(fileName, segment, fileSubjectHint, segWarnings);
+      else if (type === 'ProblemOfDay')
+        segQuestions = extractProblemOfDay(fileName, segment, fileSubjectHint, segWarnings);
+      else if (type === 'SpeedRace')
+        segQuestions = extractSpeedRace(fileName, segment, fileSubjectHint, segWarnings);
+      else if (type === 'TrueFalse')
+        segQuestions = extractTrueFalse(fileName, segment, fileSubjectHint, segWarnings);
+      else if (type === 'Riddle') segQuestions = extractRiddle(fileName, segment, fileSubjectHint, segWarnings);
+
+      questions[type].push(...segQuestions);
+      warnings.push(...segWarnings);
+    }
+  }
+  if (defaultedToGeneralCount > 0) {
+    warnings.push(`${defaultedToGeneralCount} segment(s) had no round-type signal, defaulted to General`);
+  }
+
+  return { questions, warnings };
+}
+
+// ---------------------------------------------------------------------------------------
 // Main
 // ---------------------------------------------------------------------------------------
 
+function parseArgs(argv) {
+  const isDryRun = argv.includes('--dry-run');
+  const onlyIdx = argv.indexOf('--only');
+  const only =
+    onlyIdx !== -1 && argv[onlyIdx + 1]
+      ? argv[onlyIdx + 1].split(',').map((s) => s.trim()).filter(Boolean)
+      : null;
+  return { isDryRun, only };
+}
+
+function getCandidateFiles(only) {
+  const all = fs
+    .readdirSync(RAW_DIR)
+    .filter((f) => fs.statSync(path.join(RAW_DIR, f)).isFile())
+    .filter((f) => ['.doc', '.docx'].includes(path.extname(f).toLowerCase()))
+    .sort();
+  if (!only) return all;
+  const allSet = new Set(all);
+  const missing = only.filter((f) => !allSet.has(f));
+  if (missing.length > 0) {
+    throw new Error(`--only file(s) not found in ${path.relative(process.cwd(), RAW_DIR)}: ${missing.join(', ')}`);
+  }
+  return only;
+}
+
 async function main() {
+  const { isDryRun, only } = parseArgs(process.argv.slice(2));
   fs.mkdirSync(OUT_DIR, { recursive: true });
 
-  const buckets = { General: [], SpeedRace: [], ProblemOfDay: [], TrueFalse: [], Riddle: [] };
-  const allWarnings = [];
-  let defaultedToGeneralCount = 0;
+  const manifest = loadManifest();
+  const { fullSkip } = loadKnownExceptions();
+  const buckets = loadExistingBuckets();
+  const candidateFiles = getCandidateFiles(only);
 
-  for (const fileName of PILOT_FILES) {
+  const report = { new: [], changed: [], skippedUnchanged: [], skippedKnownException: [], errored: [] };
+  const thisRunQuestions = { General: [], SpeedRace: [], ProblemOfDay: [], TrueFalse: [], Riddle: [] };
+  const thisRunWarnings = [];
+
+  for (const fileName of candidateFiles) {
     const filePath = path.join(RAW_DIR, fileName);
-    const text = await extractText(filePath);
-    const fileSubjectHint = [...detectSubjects(fileName, text)][0] || null;
-    const segments = splitIntoSegments(text);
+    let text;
+    try {
+      text = await extractText(filePath);
+    } catch (err) {
+      report.errored.push(fileName);
+      thisRunWarnings.push(`[${fileName}] skipped: could not extract text (${err.message})`);
+      continue;
+    }
+    const hash = sha256(text || '');
+    const prior = manifest[fileName];
 
-    for (const segment of segments) {
-      let matchedTypes = matchSegmentTypes(segment);
-      if (matchedTypes.length === 0) {
-        // No round-type signal at all (e.g. a doc that only marks segments with "Contest N"
-        // and has no ROUND/SPEED RACE/TRUE OR FALSE sub-headers to key off of). Rather than
-        // silently dropping real question content, default to General and flag it so it's
-        // visible how many segments this happened for.
-        defaultedToGeneralCount++;
-        allWarnings.push(
-          `[${fileName}] Segment matched no round type, defaulted to General: "${segment.slice(0, 60).replace(/\n/g, ' ')}..."`
-        );
-        matchedTypes = ['General'];
+    if (fullSkip.has(fileName)) {
+      report.skippedKnownException.push(fileName);
+      thisRunWarnings.push(`[${fileName}] skipped: known exception`);
+      if (!isDryRun) {
+        manifest[fileName] = {
+          contentHash: hash,
+          processedAt: new Date().toISOString(),
+          status: 'skipped-known-exception',
+          questionsAdded: zeroCounts(),
+        };
       }
-      for (const type of matchedTypes) {
-        const warnings = [];
-        let questions = [];
-        if (type === 'General') questions = extractGeneral(fileName, segment, fileSubjectHint, warnings);
-        else if (type === 'ProblemOfDay')
-          questions = extractProblemOfDay(fileName, segment, fileSubjectHint, warnings);
-        else if (type === 'SpeedRace')
-          questions = extractSpeedRace(fileName, segment, fileSubjectHint, warnings);
-        else if (type === 'TrueFalse')
-          questions = extractTrueFalse(fileName, segment, fileSubjectHint, warnings);
-        else if (type === 'Riddle') questions = extractRiddle(fileName, segment, fileSubjectHint, warnings);
+      continue;
+    }
 
-        buckets[type].push(...questions);
-        allWarnings.push(...warnings.map((w) => `[${fileName}] ${w}`));
-      }
+    if (prior && prior.contentHash === hash) {
+      report.skippedUnchanged.push(fileName);
+      continue;
+    }
+
+    const isChanged = Boolean(prior);
+    if (isChanged) {
+      report.changed.push(fileName);
+      thisRunWarnings.push(`[${fileName}] changed since last run (hash mismatch) - reprocessing`);
+    } else {
+      report.new.push(fileName);
+    }
+    // Unconditional, not just for the "changed" case: seed-data/*.json may already contain
+    // entries for this file from before manifest.json existed (e.g. the original pilot run),
+    // which would otherwise get duplicated alongside a freshly-generated batch. A no-op when
+    // there's nothing to remove.
+    removeQuestionsFromSource(buckets, fileName);
+
+    const { questions, warnings } = extractFile(fileName, text);
+    const addedCounts = {};
+    for (const type of Object.keys(ROUND_TYPE_FILE_MAP)) {
+      buckets[type].push(...questions[type]);
+      thisRunQuestions[type].push(...questions[type]);
+      addedCounts[type] = questions[type].length;
+    }
+    thisRunWarnings.push(...warnings.map((w) => `[${fileName}] ${w}`));
+
+    if (!isDryRun) {
+      manifest[fileName] = {
+        contentHash: hash,
+        processedAt: new Date().toISOString(),
+        status: 'processed',
+        questionsAdded: addedCounts,
+      };
     }
   }
 
-  const fileMap = {
-    General: 'general.json',
-    SpeedRace: 'speed-race.json',
-    ProblemOfDay: 'problem-of-the-day.json',
-    TrueFalse: 'true-false.json',
-    Riddle: 'riddles.json',
-  };
-
-  for (const [type, outFile] of Object.entries(fileMap)) {
-    const outPath = path.join(OUT_DIR, outFile);
-    fs.writeFileSync(outPath, JSON.stringify(buckets[type], null, 2) + '\n', 'utf8');
+  if (!isDryRun) {
+    for (const [type, fileName] of Object.entries(ROUND_TYPE_FILE_MAP)) {
+      fs.writeFileSync(path.join(OUT_DIR, fileName), JSON.stringify(buckets[type], null, 2) + '\n', 'utf8');
+    }
+    writeManifest(manifest);
   }
 
-  printSummary(buckets, allWarnings, defaultedToGeneralCount);
+  printSummary({ isDryRun, report, buckets, thisRunQuestions, thisRunWarnings });
 }
 
-function printSummary(buckets, warnings, defaultedToGeneralCount) {
+function printSummary({ isDryRun, report, buckets, thisRunQuestions, thisRunWarnings }) {
   const line = (s = '') => console.log(s);
 
   line('='.repeat(90));
-  line('STAGE 2 PILOT EXTRACTION SUMMARY');
+  line(`STAGE 2 EXTRACTION SUMMARY${isDryRun ? '  [DRY RUN - nothing written]' : ''}`);
   line('='.repeat(90));
-  line(`Files processed: ${PILOT_FILES.join(', ')}`);
+  line(`New files processed: ${report.new.length} ${report.new.length ? `(${report.new.join(', ')})` : ''}`);
+  line(`Changed files reprocessed: ${report.changed.length} ${report.changed.length ? `(${report.changed.join(', ')})` : ''}`);
+  line(`Skipped, unchanged: ${report.skippedUnchanged.length} ${report.skippedUnchanged.length ? `(${report.skippedUnchanged.join(', ')})` : ''}`);
+  line(`Skipped, known exception: ${report.skippedKnownException.length} ${report.skippedKnownException.length ? `(${report.skippedKnownException.join(', ')})` : ''}`);
+  line(`Errored (text extraction failed): ${report.errored.length} ${report.errored.length ? `(${report.errored.join(', ')})` : ''}`);
+  line();
   line(
-    `Question counts: General ${buckets.General.length}, SpeedRace ${buckets.SpeedRace.length}, ` +
+    `Questions added this run: General ${thisRunQuestions.General.length}, SpeedRace ${thisRunQuestions.SpeedRace.length}, ` +
+      `ProblemOfDay ${thisRunQuestions.ProblemOfDay.length}, TrueFalse ${thisRunQuestions.TrueFalse.length}, ` +
+      `Riddle ${thisRunQuestions.Riddle.length}`
+  );
+  line(
+    `Total accumulated in content/seed-data: General ${buckets.General.length}, SpeedRace ${buckets.SpeedRace.length}, ` +
       `ProblemOfDay ${buckets.ProblemOfDay.length}, TrueFalse ${buckets.TrueFalse.length}, ` +
       `Riddle ${buckets.Riddle.length}`
   );
-  line(`Segments with no round-type signal, defaulted to General: ${defaultedToGeneralCount}`);
   line();
 
-  for (const [type, questions] of Object.entries(buckets)) {
+  for (const [type, questions] of Object.entries(thisRunQuestions)) {
     line('-'.repeat(90));
-    line(`${type} (${questions.length})`);
+    line(`${type} - added this run (${questions.length})`);
     line('-'.repeat(90));
     if (questions.length === 0) {
-      line('  (none found in the pilot files)');
+      line('  (none added this run)');
     }
     questions.forEach((q, i) => {
       line(`${i + 1}. [${q.subject || 'unknown subject'}] (${q.sourceFile})`);
@@ -654,11 +852,7 @@ function printSummary(buckets, warnings, defaultedToGeneralCount) {
         line(`   Blanks: ${q.blanks.map((b) => `#${b.order}=${b.answer}`).join(', ')}`);
       } else {
         line(`   Q: ${q.questionText}`);
-        if (typeof q.correctAnswer === 'boolean') {
-          line(`   Answer: ${q.correctAnswer}`);
-        } else {
-          line(`   Answer: ${q.correctAnswer}`);
-        }
+        line(`   Answer: ${q.correctAnswer}`);
         if (q.clues) {
           line(`   Clues: ${q.clues.map((c) => `(${c.order}) ${c.text}`).join(' | ')}`);
         }
@@ -674,15 +868,20 @@ function printSummary(buckets, warnings, defaultedToGeneralCount) {
   }
 
   line('='.repeat(90));
-  line(`WARNINGS (${warnings.length})`);
+  line(`WARNINGS (${thisRunWarnings.length})`);
   line('='.repeat(90));
-  if (warnings.length === 0) {
+  if (thisRunWarnings.length === 0) {
     line('  (none)');
   } else {
-    warnings.forEach((w) => line(`  - ${w}`));
+    thisRunWarnings.forEach((w) => line(`  - ${w}`));
   }
   line();
-  line(`Wrote output to ${path.relative(process.cwd(), OUT_DIR)}/{general,speed-race,problem-of-the-day,true-false,riddles}.json`);
+  if (isDryRun) {
+    line('Dry run - no files were written.');
+  } else {
+    line(`Wrote output to ${path.relative(process.cwd(), OUT_DIR)}/{general,speed-race,problem-of-the-day,true-false,riddles}.json`);
+    line(`Wrote manifest to ${path.relative(process.cwd(), MANIFEST_PATH)}`);
+  }
 }
 
 main().catch((err) => {
