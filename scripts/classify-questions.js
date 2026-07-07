@@ -24,6 +24,14 @@ const WHO_AM_I_RE = /who\s+am\s+i/i;
 const ANSWER_MARKER_RE = /\banswer\s*[:.]|\bans\s*[:.]/i;
 const NUMBERED_ITEM_RE = /^\s*(?:\d{1,3}|x)[.)]\s+\S/im;
 const STANDALONE_TF_RE = /^\s*(?:T|F|TRUE|FALSE)\s*(?:\[[^\]]*\])?\s*$/i;
+// Inline "ANSWER: T" / "ANSWER: F [explanation]" markers, as opposed to a bare T/F on its
+// own line. Requires the T/F to be the whole answer (optionally with a bracketed or
+// parenthetical note) - anchored to end-of-line so it doesn't match a coincidental
+// single-letter answer that continues into more content, e.g. "ANSWER: F = 9.65 x 10^4"
+// (Faraday's constant), "ANSWER: T-G-C-A" (a DNA sequence), or "ANSWER: f(x) = x2" (a
+// composite-function answer) - none of which are true/false rounds.
+const INLINE_ANSWER_TF_RE =
+  /\bANSWER:\s*[TF]\s*(?:\[[^\]]*\]|\([^)]*\))?\s*$/im;
 // Numbered section headers ("CONTEST 3", "ROUND 4 - Riddles") - prefix match, since these
 // often carry trailing suffixes like " - True or False" on the same line.
 const NUM_BOUNDARY_RE = /^\s*(?:CONTEST|ROUND)\s*[-#]?\s*\d+/i;
@@ -75,6 +83,11 @@ function countStandaloneTF(text) {
   return count;
 }
 
+function countInlineAnswerTF(text) {
+  const matches = text.match(new RegExp(INLINE_ANSWER_TF_RE, 'gim'));
+  return matches ? matches.length : 0;
+}
+
 function isBoundaryLine(line) {
   const t = line.trim();
   if (!t) return false;
@@ -102,7 +115,7 @@ function countQuestionsInSegment(seg) {
   const numbered = (seg.match(new RegExp(NUMBERED_ITEM_RE, 'gim')) || []).length;
   const answers = (seg.match(/\banswer\s*[:.]|\bans\s*[:.]/gi) || []).length;
   const whoAmI = (seg.match(/who\s+am\s+i/gi) || []).length;
-  const tf = countStandaloneTF(seg);
+  const tf = Math.max(countStandaloneTF(seg), countInlineAnswerTF(seg));
   let count = Math.max(numbered, answers, whoAmI, tf);
   // Some formats (e.g. Speed Race transcripts, single Problem of the Day write-ups) have no
   // numbering or "ANSWER:" label at all - fall back to counting question marks so these
@@ -122,7 +135,12 @@ function matchSegmentTypes(seg) {
   const matchedTypes = [];
   if (SPEED_RACE_RE.test(seg)) matchedTypes.push('SpeedRace');
   if (PROBLEM_OF_DAY_RE.test(seg)) matchedTypes.push('ProblemOfDay');
-  if (TRUE_FALSE_RE.test(seg) || countStandaloneTF(seg) >= 2) matchedTypes.push('TrueFalse');
+  if (
+    TRUE_FALSE_RE.test(seg) ||
+    countStandaloneTF(seg) >= 2 ||
+    countInlineAnswerTF(seg) >= 2
+  )
+    matchedTypes.push('TrueFalse');
   if (RIDDLE_RE.test(seg) || WHO_AM_I_RE.test(seg)) matchedTypes.push('Riddle');
 
   if (matchedTypes.length === 0) {
@@ -329,6 +347,7 @@ module.exports = {
   detectYear,
   detectSubjects,
   countStandaloneTF,
+  countInlineAnswerTF,
   isBoundaryLine,
   splitIntoSegments,
   matchSegmentTypes,
