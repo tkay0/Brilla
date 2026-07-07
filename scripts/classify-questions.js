@@ -114,10 +114,25 @@ function countQuestionsInSegment(seg) {
   return count;
 }
 
-// Walks CONTEST/ROUND-delimited segments, tags each with the round type(s) it matches
-// (a segment can match more than one, e.g. true/false statements immediately followed by
-// a riddle under the same "Round 5" header), and falls back to "General" for segments that
-// show question/answer structure but no special-round keyword.
+// Classifies a single segment's round type(s). A segment can match more than one special
+// type at once (e.g. true/false statements immediately followed by a riddle under the same
+// "Round 5" header), and falls back to "General" only when no special-round keyword matched
+// but the segment still shows question/answer structure.
+function matchSegmentTypes(seg) {
+  const matchedTypes = [];
+  if (SPEED_RACE_RE.test(seg)) matchedTypes.push('SpeedRace');
+  if (PROBLEM_OF_DAY_RE.test(seg)) matchedTypes.push('ProblemOfDay');
+  if (TRUE_FALSE_RE.test(seg) || countStandaloneTF(seg) >= 2) matchedTypes.push('TrueFalse');
+  if (RIDDLE_RE.test(seg) || WHO_AM_I_RE.test(seg)) matchedTypes.push('Riddle');
+
+  if (matchedTypes.length === 0) {
+    const hasQA = ANSWER_MARKER_RE.test(seg) || NUMBERED_ITEM_RE.test(seg);
+    if (hasQA) matchedTypes.push('General');
+  }
+  return matchedTypes;
+}
+
+// Walks CONTEST/ROUND-delimited segments and tags each with matchSegmentTypes().
 function analyzeRounds(fileName, text) {
   const roundTypesFound = new Set();
   const perTypeQuestionCounts = Object.fromEntries(ROUND_TYPES.map((t) => [t, 0]));
@@ -125,17 +140,7 @@ function analyzeRounds(fileName, text) {
 
   const segments = splitIntoSegments(text);
   for (const seg of segments) {
-    const matchedTypes = [];
-    if (SPEED_RACE_RE.test(seg)) matchedTypes.push('SpeedRace');
-    if (PROBLEM_OF_DAY_RE.test(seg)) matchedTypes.push('ProblemOfDay');
-    if (TRUE_FALSE_RE.test(seg) || countStandaloneTF(seg) >= 2) matchedTypes.push('TrueFalse');
-    if (RIDDLE_RE.test(seg) || WHO_AM_I_RE.test(seg)) matchedTypes.push('Riddle');
-
-    if (matchedTypes.length === 0) {
-      const hasQA = ANSWER_MARKER_RE.test(seg) || NUMBERED_ITEM_RE.test(seg);
-      if (hasQA) matchedTypes.push('General');
-    }
-
+    const matchedTypes = matchSegmentTypes(seg);
     const segCount = countQuestionsInSegment(seg);
     for (const t of matchedTypes) {
       roundTypesFound.add(t);
@@ -308,7 +313,34 @@ async function main() {
   );
 }
 
-main().catch((err) => {
-  console.error(err);
-  process.exit(1);
-});
+if (require.main === module) {
+  main().catch((err) => {
+    console.error(err);
+    process.exit(1);
+  });
+}
+
+module.exports = {
+  RAW_DIR,
+  OUT_CSV,
+  ROUND_TYPES,
+  SUBJECTS,
+  extractText,
+  detectYear,
+  detectSubjects,
+  countStandaloneTF,
+  isBoundaryLine,
+  splitIntoSegments,
+  matchSegmentTypes,
+  analyzeRounds,
+  classifyDocType,
+  countQuestionsInSegment,
+  approxQuestionCount,
+  SPEED_RACE_RE,
+  PROBLEM_OF_DAY_RE,
+  TRUE_FALSE_RE,
+  RIDDLE_RE,
+  WHO_AM_I_RE,
+  ANSWER_MARKER_RE,
+  NUMBERED_ITEM_RE,
+};

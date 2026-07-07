@@ -1,0 +1,3831 @@
+General-segment sample check
+Generated: 2026-07-07T17:39:37.094Z
+Sampled 20 of 768 total General segments, drawn from 20 distinct files (201 files have at least one General segment).
+================================================================================
+
+--- Sample 1/20 ---
+File: ROUND 5-5.doc
+Segment index in doc: 1
+Previous segment header: CONTEST1
+Next segment header: Riddles
+Near-miss keywords within segment: (none found)
+Segment text:
+--------------------------------------------------------------------------------
+ROUND5
+
+1. The classification of blood groups in humans is based on different types of   
+     Haemoglobin. 
+ 	ANSWER: F [different types of antigens on red blood cells]
+2. Electron diffraction occurs because electrons can behave as waves
+	ANSWER: T
+3. Whereas iron II salts are pale green, salts of Cu II are either pale green or blue.
+	ANSWER: T 
+4. The cosine of an angle is always greater than its sine.
+        	ANSWER: F 
+5. The volume of a circular cone is  r2 h
+ 	ANSWER: T
+6. The malphigian layer of the skin is made up of actively dividing cells.
+	ANSWER: T 
+7. Protons cannot exhibit diffraction effects.
+	ANSWER: F [Matter can exhibit wave properties, since protons are subatomic, 			           they exhibit pronounced diffraction phenomena]
+8. Addition of either dilute NaOH or dilute ammonia to Cu II solution will produce a pale
+    green precipitate. 
+	ANSWER: F (Pale blue ppt)
+9. For the same number of carbon atoms, the hydrocarbon with a straight chain will have
+    a lower boiling point than the one with a branched chain.
+	ANSWER: F 
+10. A cuboid is a prism.
+	 ANSWER: T
+11. The malphigian layer of the skin is very thick in the palms of the hand and soles of
+      the feet. 
+	 ANSWER: F [cornified layer is thick]
+12. The velocity of a wave traveling in a stretched wire can be decreased by increasing 
+       the length of the wire. 
+	ANSWER: F [Velocity is independent of length of wire]
+13. Sound travels more slowly in a dense solid. [Travels faster in a dense solid]
+	ANSWER: F
+14. 2, 2, 3, 3-tetramethylnonane contains fewer carbons than duodecane. 
+	ANSWER: F [2, 2, 3, 3-tetramethylnonane (4+9) C vs. 12C]
+15. Tan 30o =]
+	ANSWER: F [Tan 30o =1/]
+16. Hemoglobin can be found only in animals. 
+	ANSWER: F [Present in vertebrates, e.g. fish]
+17. The cosine of an angle is always greater than it sine.
+	ANSWER: F
+
+
+
+--------------------------------------------------------------------------------
+
+--- Sample 2/20 ---
+File: ROUND1-1.doc
+Segment index in doc: 1
+Previous segment header: CONTEST 13
+Next segment header: (none - last segment in doc)
+Near-miss keywords within segment: (none found)
+Segment text:
+--------------------------------------------------------------------------------
+ROUND 1 
+Find the next term in the sequence 2, 5, 7, 12, 19 …
+      ANSWER: 31
+      SOLUTION: 2 + 5 = 7, 5 + 7 = 12, 7 +12 = 19,
+	 Next term is 12 +19 = 31
+(Apart from the first two terms, each term is the sum of previous two terms)
+Find the next term in the sequence 1, 1, 2, 3, 5, 8…
+      ANSWER: 13
+      SOLUTION: 1 + 1 = 2, 1 + 2 = 3, 2 + 3 = 5, 3 + 5 = 8
+        	  Next term is 5 + 8 = 13
+
+
+FILL IN THE BLANK
+A barometer is used in measuring …………. (1 attempt)
+ANSWER: Pressure
+A manometer is used in measuring……..(1 attempt)
+ANSWER: Pressure
+Which postulate of the Kinetic Theory explains  the fact that gases are easily compressible
+ANSWER: (Postulate: Gases are compound of molecules / atoms whose size is 		     		 negligible compared to the average distance between them.
+Which postulate of the Kinetic Theory explains the fact that a given gas at constant temperature and volume maintains constant pressure?
+      ANSWER: When molecules collide with one another, the collisions are elastic               	              		 (i.e. an elastic collision, the total kinetic energy remains constant)
+Botanically or in Botanical terms, what does the hard stony part of coconut represent? 
+ANSWER: Endocarp 
+Botanically, what does the succulent edible part of the pawpaw fruit represent? 
+          ANSWER: Mesocarp
+
+
+One number is thrice another. The positive difference of the two numbers is 26. Find the numbers.
+      ANSWER: 13, and 39
+SOLUTION: Let the smaller number be n. The other number is 3n.
+	  3n - n = 2n = 26, hence n = 13
+The numbers are 13 and 39
+The sum of three consecutive odd numbers is 75. Find the three numbers.
+ANSWER: 23, 25, 27
+SOLUTION:  Let the numbers be n, n + 2, n + 4
+                n + (n + 2) + (n + 4) = 75, hence 3n + 6 = 75,
+                3n = 75 - 6 = 69; n = 23. Numbers are 23, 25, and 27
+Mention one medical use of radioactive elements. 
+      ANSWER: Cancer treatment, sterilization of surgical tools
+What is meant by "Field Emission"? 
+       ANSWER: It is the emission of electrons from a (metallic) surface by the application of an
+                           electric field.
+Name the substance which together with Na2CO3 in solution will form a buffer.
+      ANSWER: (Sodium hydrogen trioxocarbonate IV or NaHCO3 or sodium bicarbonate)
+Name the substance which together with NH4Cl in solution ( ammonium chloride) will from a buffer
+      ANSWER: (Ammonia or NH3)
+FILL IN THE LETTERED BLANKS IN THE FOLLOWING STATEMENTS
+The end of a skeletal muscle attached to an immovable bone is called______(a)  while the end attached to a movable bone is called_______ (b)
+      ANSWER: (a) origin (b) Insertion
+The joint between the atlas and the axis is a_______(a) joint while  that between the humenus and ulna is a_______ (b) joint
+      ANSWER: (a) Pivot (b) Hinge
+
+
+
+
+--------------------------------------------------------------------------------
+
+--- Sample 3/20 ---
+File: MONICAS 2.docx
+Segment index in doc: 0
+Previous segment header: (none - first segment in doc)
+Next segment header: ROUND 2
+Near-miss keywords within segment: "speed" present without "race" nearby
+Segment text:
+--------------------------------------------------------------------------------
+ROUND 1
+
+PREAMBLE: find (in S.I units) the impulse of 
+
+A force 6i + 2j + k acting for 3s/ 			Ans.: 18i + 6j +6k
+
+A force –I -3j + 2k acting for 2s 			Ans. : -2i -6j + 4k
+
+A force  2i + j - 5k acting for 5s 			Ans.: 10i + 5j - 25k
+
+
+
+PREAMBLE: Determine the trend  of the following periodic properties down the group
+
+
+
+Atomic Radius
+
+Answer : Increases down the group
+
+First Electron Affinity
+
+Answer : It decreases down the group
+
+First Ionization energy
+
+Answer : It decreases down the group
+
+
+
+PREAMBLE: An A.C  circuit contains a 4 ohms resistor in series with a 20uF and an inductance of 2milliHenry.
+
+
+
+What is the impedance of the circuit at resonance?
+
+Answer: 4 ohms
+
+What is the total impedance of the circuit at an angular frequency of 104rad/s. Leave your answer as a surd.
+
+Answer: square root of 241 ohms
+
+What is the angular frequency of the circuit ?
+
+Answer: 5*103rad/s
+
+
+
+PREAMBLE : Give the part of the brain that the following names refer to
+
+
+
+Diencephalon
+
+Answer: Thalamus and Hypothalamus
+
+Prosencephalon
+
+Answer : Fore Brain
+
+Khombencephalon
+
+Answer: Hind Brain
+
+
+
+
+
+
+
+
+
+
+
+
+
+Preamble: Find the solution set of the linear inequality
+
+ | x + 4|< 8
+
+Ans:   {x : -12 < x < 4 }              [ -8 < x + 4 < 8, -12 < x < 4]
+
+ | x – 5| > 7
+
+Ans: {x : x > 12, or x < -2}        [ x – 5 > 7, or x – 5 < -7, x > 12 or x < -2]
+
+  | x + 7| < - 5
+
+Ans. the empty set or no solution        [absolute value cannot be negative]
+
+
+
+PREAMBLE : Give in three significant figures the value of the following constants
+
+
+
+Avogadro`s Constant
+
+Answer: 6.02*1023 entities/particles per mole
+
+Plank`s Constant
+
+Answer : 6.63*10-34 Joule second
+
+Faraday`s Constant
+
+Answer : 96,5 00 Coloumbs per mole
+
+Why does light from an Incandescent lamp not appear as white as sunlight ?
+
+Answer: It operates at low temperature
+
+Why does light from a fluorescent lamp appears white yet the lamp is cooler than an Incandescent lamp of the same temperature ?
+
+Answer: The white light is not a thermal reaction[It’s a mixture of various colours produced by fluroscence
+
+Why does moon act as a luminous body but cannot produce its own light
+
+Answer : It reflects the ligth of sun as if it is producing its own light
+
+
+
+PREAMBLE : give the name of the enzyme that catalyses the following biochemical reactioms
+
+Combination of carbon dioxide with water to form carbonic acid
+
+Answer carbonic anhydrase
+
+The combination of carbon dioxide with riboluse biphospahte durin the dark stage of photosynthesis 
+
+Answer ribulose biphospahte carboxylase
+
+The activation of glucose to form glucose (VI) phosphate during glucolysis
+
+Answer hexokinase
+
+Preamble Factor into a product of two binomials
+
+x2 – xy – 12y2
+
+Ans.  (x + 3y)(x – 4y)        [x2 + 3xy - 4xy – 12y2 = x(x +3y) – 4y(x + 3y) = (x + 3y)(x – 4y)]
+
+ 8x2 – 2xy -  y2
+
+Ans.   (4x + y)(2x – y) 	[8x2 – 4xy + 2xy – y2 = 4x(2x – y) + y(2x – y) = (4x + y)(2x – y)]
+
+ 5x2 – 4xy – 12y2
+
+Ans. : (5x + 6y)(x – 2y)       [5x2- 10xy + 6xy – 12y2 =  5x(x – 2y)+ 6y(x – 2y) = (5x + 6y)(x – 2y) ]
+
+Preamble:  Use the following organisms to construct possible food chains.
+
+
+
+Mackerel, shark, plankton, snail
+
+Ans. Plankton - snail - mackerel– shark
+
+Squid, fish, phytoplankton, copepod
+
+Ans. Phytoplankton - copepod - fish – squid
+
+Dragon fly larva, algae, fish, and mosquito larva
+
+Algae - mosquito larva - dragonfly larva - fish 
+
+An object is launched vertically upward with speed . Find the time the object takes to return to the launch point.
+
+Ans: 
+
+
+
+An object is launched vertically upward with speed . Find the time the object takes to attain its highest point.
+
+Ans: 
+
+
+
+Find the time it takes a stone to fall to the ground when released from a height of .
+
+Ans: 
+
+
+
+Potassium bromide can be made by the action of bromine on warm concentrated aqueous KOH. Other products of the reaction are KBrO3 and water. Give a balanced equation for the reaction. 
+
+Ans:	3Br2	+	6KOH	→	5KBr	+	KBrO3	+	3H2O 
+
+Potassium trioxobromate (V) when heated with charcoal gives potassium bromide and CO2. Give a balanced equation for the reaction. 
+
+Ans:	2KBrO3	+	3C	→	2KBr	+	3CO2
+
+KO2 (known as potassium superoxide) reacts with water evolving oxygen gas and forming hydrogen peroxide and KOH. Give a balanced equation. 
+
+Ans:	2KO2	+	2H2O	→	2KOH	+	H2O2	+	O2
+
+--------------------------------------------------------------------------------
+
+--- Sample 4/20 ---
+File: MAIN CONTEST 28.docx
+Segment index in doc: 5
+Previous segment header: RIDDLE 28
+Next segment header: ROUND 3
+Near-miss keywords within segment: (none found)
+Segment text:
+--------------------------------------------------------------------------------
+ROUND 1
+
+How many moles of copper are present in 62.5g of CuSO4.5H2O
+
+Cu = 64.0, S = 32.0, O = 16.0, H = 1.0
+
+Ans:	CuSO4.5H2O	=	64 + 32 + 64 + 5*18	=	250
+
+	250.0g	CuSO4.5H2O	=	1mol
+
+	62.5g	CuSO4.5H2O	=	1/4 	or	0.25mol
+
+	Hence	mole	of	Cu	=	0.25
+
+If you dissolve 57.2g of Na2CO3.10H2O in 1dm3 of de-ionized water, what is the concentration of the solution with respect to Na+ ions? Na = 23.0, C = 12.0, O = 16.0,     H = 1.
+
+Ans:	Na2CO3.10H2O	=	46 + 12 + 48 + 180	=	286
+
+	57.2g	Na2CO3.10H2O	≡	57.2/286	mol	of	Na2CO3
+
+				=	1/5	or	0.2 mol of Na2CO3
+
+				=	2/5	or	0.4	mol	of	Na
+
+	Concentration with respect to Na	=	0.4 moldm-3	
+
+A 200cm3 solution of concentration 0.15moldm-3 with respect to Cu2+ is to be prepared using CuSO4.5H2O crystals. How much of the solid must be dissolved in the 200cm3 of water. Cu = 64.0, S = 32.0, O = 16.0, H = 1.0
+
+Ans:	CuSO4.5H2O	=	64 + 32 + 64 +90
+
+			=	250
+
+	1 dm3	of 0.15mol of Cu2+	=	250*0.15
+
+						=	37.5
+
+	200cm3				=	1/5*37.5	=	7.5g
+
+--------------------------------------------------------------------------------
+
+--- Sample 5/20 ---
+File: MAIN CONTEST 32.docx
+Segment index in doc: 2
+Previous segment header: ROUND 1
+Next segment header: ROUND 1
+Near-miss keywords within segment: (none found)
+Segment text:
+--------------------------------------------------------------------------------
+ROUND 1
+
+The electrode potential of the half-cell A+/A where A is a metal, is -0.40v. Will this metal be able to liberate hydrogen gas from a mineral acid? Explain your answer
+
+Ans:	Yes,	The reaction	A	+	H+	→	A+	+	½ H2
+
+	will be the cell reaction of a cell with positive emf.
+
+Consider the two half-cells and their corresponding electrode potentials:
+
+B+/B, -0.62V and C+/C, +0.37V. Deduce which of the two B and C can act as a reducing agent in a redox reaction.
+
+Ans:	a)	Positive emf:	B	+	C+	→	B+	+	C
+
+	b)	Hence B can act as a reducing agent on C+
+
+The Cu2+/Cu and Fe2+/Fe half-cells have the electrode potentials +0.34 and -0.44. State if anything will happen if an iron nail is accidentally dropped into a solution of CuSO4 and explain why?
+
+Ans:	A bit of the nail will dissolve and the nail will have a thin coating of copper metal.
+
+Reason:	Fe	+	Cu2+	→	Fe2+	+	Cu                           will have positive emf.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--------------------------------------------------------------------------------
+
+--- Sample 6/20 ---
+File: CONTEST 9 (2).doc
+Segment index in doc: 0
+Previous segment header: (none - first segment in doc)
+Next segment header: PROBLEM OF THE DAY
+Near-miss keywords within segment: "true" present but phrase "true...false" not found (standalone T/F line count: 0, threshold is 2)
+Segment text:
+--------------------------------------------------------------------------------
+ROUND 1
+
+Give an expression for the effective resistance of three parallel resistors with resistance ,  and .
+
+		ANSWER: 
+
+Give an expression for the effective capacitance of three parallel capacitances ,  and .
+
+		ANSWER: 
+
+Give an expression for the effective impedance of three series impedances ,  and .
+
+		ANSWER: 
+
+Factorise the quadratic expressions 
+ 
+x2 - 5xy - 6y2
+
+	ANSWER:  (x + y)(x - 6y)       [ x2 - 5xy - 6y2 = x2 - 6xy + xy - 6y2 = x(x - 6y) 				+ y(x  - 6y) = (x + y)(x - 6y)]
+
+3x2 + 5xy + 2y2
+
+	ANSWER: (3x +2y)(x + y)      [ 3x2 + 5xy + 2y2 = 3x2 + 3xy + 2xy + 2y2 = 3x(x + 			y) + 2y(x + y) = (3x + 2y)(x + y)]
+
+5x2 - 2xy - 7y2
+
+	ANSWER:   (x + y)(5x - 7y)     [5x2 - 2xy - 7y2  = 5x2 + 5xy - 7xy - 7y2 = 5x(x 				+y)- 7y(x + y) = (x + y)(5x - 7y) ]
+
+What name is given to the two genetically identical chromosomes that are attached to each other?
+
+	ANSWER: Sister Chromatids
+
+Sister Chromatids are constricted and attached to each other at a region called
+
+	ANSWER: centromere
+
+What name is given to a microtubule structure that brings about chromosomal movement during cell division?
+
+	ANSWER: Spindle
+How many elements are present in the Group 1 of the Periodic Table?
+ANSWER:	Seven including hydrogen.
+How many elements are present in the first d-Transition series of elements?
+ANSWER:	10 including Cu and Zn
+How many inert gases are known?
+ANSWER:	Six (He, Ne, Ar, Kr, Xe and Rn)
+What is the upper fixed point on the Celsius scale?
+
+		ANSWER: The steam point, the temperature of boiling water at standard atmospheric 				pressure
+
+What is the lower fixed point on the Kelvin scale?
+
+		ANSWER: Absolute zero, the state of zero pressure of a gas
+
+What is the lower fixed point on the Celsius scale?
+
+		ANSWER: The ice point, the temperature of melting pure ice
+
+Complete the sentence 
+The measure of an acute angle is less than . . . 
+
+	ANSWER:  90 degrees
+
+The measure of an obtuse angle is greater than . . . 
+
+	ANSWER: 90 degrees
+
+The measure of a reflex angle is greater than . . . 
+	
+	ANSWER:  180 degrees
+
+Name the process by which organisms can become modified over time
+
+	ANSWER: Natural selection
+
+The maintenance of the internal conditions of an animal within certain boundaries is called 
+
+	ANSWER: Homeostasis
+
+Changes that occur in populations of organisms with the passage of time which results in increased adaptation of the organisms to the prevailing environment is called.
+
+	ANSWER: Evolution
+			
+How do atomic orbitals overlap to form sigma bonds?
+ANSWER:	Orbitals overlap headlong
+What is the hybridization of carbon in carbon II oxide?
+ANSWER:	sp hybridization
+Why do compounds with pi bonds undergo addition reaction readily?
+ANSWER:	The pi electron cloud is very much exposed and therefore attracts 	reagents especially electrophiles
+What is a saturated vapour?
+
+		ANSWER: A vapour which is in dynamic equilibrium with its liquid or solid
+
+What is the critical point of a substance?
+
+		ANSWER: The unique temperature and pressure above both of which only a gas phase 				exists?
+
+What is the dew point?
+
+		ANSWER: The temperature at which there is sufficient water vapour in air to saturate it 
+Complete the sentences using either mean, mode, median or standard deviation
+
+The middle value of a set of data (numbers) is the . .. .
+
+	ANSWER:    MEDIAN
+
+The average of a set of data is the  . . .
+
+	ANSWER:  MEAN
+
+The most common value of a set of numbers is the . . . 
+
+	ANSWER:  MODE
+Fill in the blanks
+The plumule in some seeds may be enclosed in sheathing structures called….
+
+	ANSWER: Coleoptiles
+
+The radicle mal  also be enclosed in a sheathing structures called …………..
+
+	ANSWER: Coleorhiza
+
+The short part of the seedling or embryo just above the cotyledons is called ….
+
+	ANSWER: Epicotyl
+
+Solid CO2 is called 'dry ice'.  Will dry ice melt or sublime if allowed to warm up?
+
+ANSWER:  Solid CO2 sublimes'
+Which kind of substances react with both acids and bases?
+ANSWER: Amphoteric substances
+What is electroplating?
+ANSWER:  It is the deposition of a thin film of metal on an object by electrolysis.
+What is the beat frequency from a 256 Hz note and a 252 Hz note sounded together?
+
+		ANSWER: 4 Hz   [The beat frequency is the difference in frequency.]
+
+If the pressure amplitude of the sound wave from a loud speaker is 0.2 mPa at a distance of 1 m from the speaker, what is the amplitude 5 m away?  
+
+		ANSWER: 0.04 mPa  [Amplitude is inversely proportional to distance so pressure at 5 m 					is ].
+
+What is the ratio of the intensity of sound at 2 m to the intensity at 10 m from a small speaker?
+
+		ANSWER: 25 	[Intensity obeys the inverse square law so 								.]
+
+Find the base if the subtraction ( 225 - 136) = 56 is true
+
+	ANSWER:   7                    [ x + 5 - 6 = 6, hence x = 7]
+
+Find the base if the addition   (156 + 77) =244 is true.
+	ANSWER:   9                     [ 6 + 7 - x = 4,   x = 13 -4 = 9 ]
+
+Change the decimal number 38 to a number in base 6.
+
+	ANSWER:   102six              [ 38 = 36 + 2 = 1(62) + 0(6) + 2(60)
+
+Describe the following types of fruits
+
+Drupe 
+	ANSWER: Simple fleshy fruit with a single seed enclosed in a hard 				stony endocarp
+Berry 
+	ANSWER:  Fleshy fruits that normally develop from compound ovary 				and commonly contain more than one seed
+Pome 
+	ANSWER: Simple fleshy fruit flesh is derived primarily from the 				receptacle/ The exocarp and mesocarp of a pome may be 				fleshy and difficult to distinguish from one another.
+Magnesium reacts with HCl to give magnesium chloride and hydrogen gas. If 0.15 mol of magnesium is added to 0.24 mol HCl how many moles of magnesium chloride will be formed?
+ANSWER:		Mg	+	2HCl	=	MgCl2		+	H2
+		0.15		0.24
+		0.24 mol of HCl will react with 0.12 mol of Mg
+		Therefore mol of MgCl2 that will be formed = 0.12
+What volume of HCl gas in litres must be dissolved in 300cm3 of water in order to produce 0.20 moldm-3 of hydrochloric acid? Assume molar vole of gas is 22.4 litres?
+ANSWER:		300cm3 of 0.20 moldm-3 of hydrochloric acid  ≡  0.6 mol HCl
+		1 mol HCl	≡	22.4 litre of HCl gas
+		0.6mol		=	(0.6/1) x 22.4
+				=	13.44 litre
+
+100 cm3 of 0.10 moldm-3 NaCl solution are added to 200 cm3 of 0.04 moldm-3 silver nitrate solution. How many moles of free chloride ions will be left in solution?
+ANSWER:	Initial moles of chloride	=	(100/1000) x 0.1
+					=	0.01
+	Initial moles of silver ions	=	(200/1000) x 0.04
+					=	0.008
+	Therefore excess moles of Cl- =	0.01 - 0.008
+					=	0.002
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--------------------------------------------------------------------------------
+
+--- Sample 7/20 ---
+File: Prelims Round 4 - Physics 2017-1.docx
+Segment index in doc: 26
+Previous segment header: Contest 14a
+Next segment header: Contest 15a
+Near-miss keywords within segment: "true"/"false" present but phrase "true...false" not found (standalone T/F line count: 0, threshold is 2)
+Segment text:
+--------------------------------------------------------------------------------
+Contest 14b
+
+
+
+
+
+(4)
+
+When an ideal gas absorbs heat isothermally, its internal energy increases.
+
+
+
+Ans: False
+
+
+
+   
+
+(5)
+
+When an ideal gas rejects heat isothermally, its internal energy decreases.
+
+
+
+Ans: False
+
+
+
+
+
+(6)
+
+When an ideal gas absorbs a quantity of heat isothermally, it does an equal amount of work on its environment.
+
+
+
+Ans: True
+
+
+
+
+
+
+
+--------------------------------------------------------------------------------
+
+--- Sample 8/20 ---
+File: PHYSICS 2015 (1).docx
+Segment index in doc: 0
+Previous segment header: (none - first segment in doc)
+Next segment header: Riddle #1
+Near-miss keywords within segment: "speed" present without "race" nearby
+Segment text:
+--------------------------------------------------------------------------------
+ROUND 1(FUNDAMENTAL CONCEPTS) 
+
+[PRELIMS] 
+
+(1-27) 
+
+PREAMBLE: Give the SI unit of the physical quantity. 
+
+1. Luminous intensity. 
+
+ANSWER: Candela 
+
+2. Solid angle. 
+
+ANSWER: Steradian 
+
+Amount of substance.  
+
+ANSWER: Mole 
+
+PREAMBLE: The magnitude of the charge on an electron is approximately. 1.6 × 10−19 C. 
+
+A copper wire carries a current of 8 A. Find the rate of flow of electrons through the wire. 
+
+ANSWER: 𝟓 × 𝟏𝟎𝟏𝟗/𝐬 
+
+Rate = 𝐼/𝑒 = 8 A ÷ (1.6 × 10−19 C) = 5 × 1019/𝑠 
+
+A plating bath operates with an electron flow rate of 1.0 × 1016/s. Find the bath current. ANSWER: 𝟏. 𝟔 𝐦𝐀 
+
+𝐼 = 𝑒 × Rate = 1.6 × 10−3 A = 1.6 mA 
+
+An aluminium wire carries a current of 40 mA. Find the rate of flow of electrons through the 
+
+wire. 
+
+ANSWER: 𝟐𝟓 × 𝟏𝟎𝟏𝟔/𝐬 = 𝟐. 𝟓 × 𝟏𝟎𝟏𝟕/𝐬 
+
+Rate = 𝐼/𝑒 = 40 mA ÷ (1.6 × 10−19 C) = 25 × 1016/𝑠 
+
+PREAMBLE: The acceleration due to gravity is approximately 10 m\s2. 
+
+An object floating in water displaces 5 kg of water. Find the weight of the object. 
+
+ANSWER: 50 N        
+
+Weight = weight of water displaced. 
+
+An object floating in water displaces 2 kg of water. Find the upthrust on the object. 
+
+ANSWER: 20 N 
+
+Upthrust = weight of water displaced = 2 kg×10 m/s^2=20 N 
+
+The upthrust on an object submerged in water is 30 N. Find the mass of water displaced by the object.  
+
+ANSWER:  3 kg 
+
+Mass of water displaced = upthrust/g = 30 N÷10 m/s^2=3 kg 
+
+The speed of an object moving with a uniform acceleration of 2 m/s2 is 10 m/s at a certain instant. Find its speed 10 s later. 
+
+ 	 	ANSWER:  𝟑𝟎 𝐦/𝐬 
+
+ 	 	 	𝑣 = 𝑢 + 𝑎𝑡 = 10 m/s + 2 m/s2 × 10 s = 30 m/s 
+
+The speed of an object moving with a uniform acceleration of 5 m/s2 is 10 m/s at a certain instant. 
+
+Find the time it takes to reach a speed of 50 m/s. 
+
+ 	 	ANSWER:   𝟖 𝐬 
+
+ 	 	 	𝑡 = (𝑣 − 𝑢)/𝑎 = (50 m/s − 10 m/s) ÷ (5 m/s2) = 8 s 
+
+The speed of an object moving with a uniform acceleration of 2 m/s2 is 10 m/s at a certain instant. 
+
+Find its speed 2 s earlier. 
+
+ 	 	ANSWER:  𝟔 𝐦/𝐬 
+
+ 	 	 	𝑣 = 𝑢 + 𝑎𝑡 = 10 m/s + 2 m/s2 × (−2 s) = 6 m/s 
+
+ 	    
+
+PREAMBLE:  A 20 kg object on a horizontal surface is pulled by a 50 N force that makes an angle of 30° to the horizontal. The object does not move. The acceleration due to gravity is approximately 10 m/s2. 
+
+Find the weight of the object. 
+
+ 	 	ANSWER: 𝟐𝟎𝟎 𝐍 
+
+ 	 	 	𝑤 = 𝑚𝑔 = 20 kg × 10 m/s2 = 200 N 
+
+Find the magnitude of the normal force on the object. 
+
+ 	 	ANSWER: 𝟏𝟕𝟓 𝐍 
+
+ 	 	 	𝑁 = 𝑚𝑔 − 𝐹 cos 60° = 200 N − 50 N × cos 60° = 175 N 
+
+Find the magnitude of the static friction force on the object.  
+
+
+
+	 	𝑓 = 𝐹 cos 30° = 25√3 N = 43 N  
+
+
+
+ANSWER: 𝟐𝟓√𝟑 𝐍 = 𝟒𝟑 𝐍 
+
+What is the mass number for a nuclide with neutron number 20 and atomic number 20? 
+
+ 	 	ANSWER:    40 
+
+What is the atomic number for a nuclide with mass number 65 and neutron number 35? 
+
+ 	 	ANSWER:    30 
+
+How many protons are there in a nuclide with 21 neutrons and a mass number of 39?  
+
+ 	 	ANSWER:    18 
+
+The image distance in a concave mirror is 50 cm when the object distance is 50 cm. Find the focal length of the mirror. 
+
+ANSWER: 𝟐𝟓 𝐜𝐦                 𝑓 = 𝑢𝑣/(𝑢 + 𝑣) = 25 cm 
+
+The image distance in a concave mirror with focal length 20 cm is 40 cm. Find the object distance. 
+
+ANSWER: 𝟒𝟎 𝐜𝐦               𝑢 = 𝑓𝑣/(𝑣 − 𝑓) = (20 cm)(40 cm)/(20 cm) = 40 cm 
+
+The object distance in a concave mirror with focal length 20 cm is 40 cm. Find the magnification. ANSWER: 𝟏                          𝑀 = 𝑣/𝑢 = 𝑓/(𝑢 − 𝑓) = 1 
+
+PREAMBLE:  A 20 kg object lies on a horizontal rough surface. The limiting coefficient of static friction is 0.4. The acceleration due to gravity is approximately 10 m/s2. 
+
+Find the magnitude of the smallest force that can cause the object to move horizontally. 
+
+ANSWER: 𝟖𝟎 𝐍 
+
+𝐹 = 𝑓𝑠 = 𝜇𝑠𝑁 = 0.4 × 20 kg × 10 m/s2 = 80 N 
+
+Find the acceleration of the object when a 120 N horizontal force acts on it if the coefficient of kinetic friction is 0.2. 
+
+ANSWER: 𝟒 𝐦/𝐬𝟐 
+
+𝑎 = 𝐹net/𝑚 = [120 N − (0.2 × 20 kg × 10 m/s2)]/(20 kg) = 4 m/s2 
+
+Find the magnitude of the smallest horizontal force that can keep the object moving steadily if the coefficient of kinetic friction is 0.2 
+
+ANSWER: 𝟒𝟎 𝐍 
+
+      	 	 	 	 	𝐹 = 𝑓 = 𝜇𝑁 = (0.2 × 20 kg × 10 m/s2) = 40 N 
+
+Find the magnitude of the force needed to stretch a spring with spring constant 20 N/m by 5 mm. 
+
+	ANSWER: 𝟎. 𝟏 𝐍 	 	𝐹 = 𝑘|𝑥| = 20 N/m × 5 × 10−3 m = 0.1 N 
+
+Find the extension of a spring with spring constant 200 N/m when it is stretched by a 2 N force. 
+
+	ANSWER: 𝟏𝟎 𝐦𝐦 	|𝑥| = 𝐹/𝑘 = 2 N/(200 N/m) = 0.01 m = 10 mm = 1 cm 
+
+A spring is needed which will compress by 1 mm when a 10 N force is exerted on it. What must its 
+
+spring constant be? 
+
+ANSWER: 𝟏𝟎 𝟎𝟎𝟎 𝐍/𝐦 = 𝟏𝟎 𝐤𝐍/𝐦 = 𝟏𝟎 𝐍/𝐦𝐦 = 𝟏𝟎𝟎 𝐍/𝐜𝐦 
+
+𝑘 = |𝐹/𝑥| = 10 N ÷ 10−3 m = 10 000 N/m 
+
+An object moves at constant speed in a horizontal circle of radius 5 m. Find its acceleration if its speed is 10 m/s. 
+
+ANSWER:  20 m/s2 
+
+𝑎 = 𝑣2/𝑅 = (10 m/s)2 ÷ (5 m) = 20 m/s2 
+
+An object moves at constant speed in a horizontal circle of radius 5 m. Find its speed if its acceleration is 
+
+4.9 m/s2. 
+
+ANSWER:  
+
+ 
+
+An object moves in a circle at a constant speed of 10 m/s. Find the radius of the circle if its acceleration is 5 m/s2. 
+
+ANSWER:    20 m                   𝑅 = 𝑣2/𝑎 = 20 m 
+
+PREAMBLE: A 3 𝜇F capacitor is in series with a 2 𝜇F capacitor. 
+
+What is the net capacitance of the pair? ANSWER: 1.2 𝜇F 
+
+𝐶 = 𝐶1𝐶2/(𝐶1 + 𝐶2) = 1.2 𝜇F 
+
+What is the total charge stored when a potential difference of 50 V is applied across the pair? ANSWER: 60 𝜇C 
+
+𝑄 = 𝐶𝑉 = 1.2 𝜇F × 50 V = 60 𝜇C 
+
+What is the potential difference across the 3 𝜇F capacitor when a potential difference of 50 V is applied across the pair? 
+
+ANSWER:   20 V 
+
+𝑉1 = 𝑄/𝐶1 = 60 𝜇C ÷ 3 𝜇F = 20 V 
+
+How many protons does the tritium nucleus contain? 
+
+ANSWER: 1 
+
+How many neutrons does the tritium nucleus contain? 
+
+ANSWER: 2 
+
+What is the mass number of deuterium? ANSWER:  2 
+
+PREAMBLE: Two identical objects moving towards each other with the same speed undergo a head-on perfectly inelastic collision. 
+
+What is the initial total linear momentum of the objects? 
+
+	 	ANSWER: 0 
+
+Find the initial total kinetic energy if the initial linear momentum of each object has magnitude 1 kg m/s and the mass of each is 1 kg. 
+
+	 	ANSWER:  1 J          𝑇 = ∑ 𝑝𝑖2/2𝑚 = 2 × (1 kg m/s)2/(2 × 1 kg) = 1 J 
+
+Find the final total kinetic energy of the particles. 
+
+	 	ANSWER:  0 
+
+	 	The particles coalesce so the final common velocity is zero since the final momentum is zero. 
+
+PREAMBLE: A cell with emf 0.8 V has internal resistance 5 Ω. 
+
+Find the terminal voltage when a 3 Ω resistor is connected across the terminals of the cell. 
+
+	 	ANSWER:  0.3 V = 300 mV 
+
+𝑉 = 𝐼𝑅 = (0.8 V ÷ (5 Ω + 3 Ω)) × 3 Ω = 0.1 A × 3 Ω = 0.3 V 
+
+Find the current supplied by the cell when it delivers maximum power.  	ANSWER: 0.08 A = 80 mA        𝐼 = (0.8 V ÷ (5 Ω + 5 Ω)) = 0.08 A  	 	 	because maximum power is delivered when the load equals the internal resistance. 
+
+Find the terminal voltage when the cell delivers maximum power. 
+
+	 	ANSWER:  0.4 V = 400 mV     𝑉 = 𝐼𝑅 = (0.8 V ÷ (5 Ω + 5 Ω)) × 5 Ω = 0.08 A × 5 Ω = 0.4 V 
+
+PREAMBLE: The speed of light in vacuum is approximately 3 × 108 m/s. 
+
+The refractive index of a liquid is 3/2. Find the speed of light in the liquid. 
+
+	 	ANSWER: 2 × 108 m/s        𝑣 = 𝑐/𝑛 = 2 × 108 m/s 
+
+The speed of light in a material is 1.5 × 108 m/s. Find the refractive index of the material. 
+
+	 	ANSWER:  2           𝑛 = 𝑐/𝑣 = 2 
+
+The speed of light in a liquid is 2 × 108 m/s and the speed of light in a solid is 1.6 × 108 m/s. Find the 
+
+refractive index of the liquid relative to the solid. 
+
+	 	ANSWER:  0.8     𝑠 𝑛𝑙 = 𝑣𝑠/𝑣𝑙 = 0.8 
+
+PREAMBLE:  A heat engine absorbs 200 kJ of thermal energy and does 80 kJ of work in 10 s. 
+
+Find the thermal efficiency of the engine. 
+
+	 	ANSWER:  40% 
+
+𝜂 = 80 kJ ÷ 200 kJ = 2/5 = 0.4 = 40%  
+
+Find the energy wasted by the engine in 10 s. 
+
+	 	ANSWER:  120 kJ 
+
+ 
+
+Find the average power of the engine. 
+
+	 	ANSWER: 8 kW 
+
+𝑃 = 𝑊/𝑡 = 80 kJ/10 s = 8 kW 
+
+PREAMBLE:   Find the effective resistance. 
+
+5 Ω in series with a parallel combination of 10 Ω and 15 Ω. 
+
+	 	ANSWER:   11 Ω 
+
+𝑅 = 5 Ω + (10 Ω × 15 Ω)/(10 Ω + 15 Ω) = 11 Ω  
+
+5 Ω in parallel with a series combination of 8 Ω and 12 Ω. 
+
+	 	ANSWER: 4 Ω 
+
+𝑅 = (5 Ω × 20 Ω)/(5 Ω + 20 Ω) = 4 Ω 
+
+A parallel combination of 10 Ω and 15 Ω in series with a series combination of 5 Ω and 15 Ω 
+
+	 	ANSWER:   26 Ω     𝑅 = (10 Ω × 15 Ω)/(10 Ω + 15 Ω) + 20 Ω = 26 Ω 
+
+What is an intrinsic semiconductor? 
+
+	 	ANSWER: A pure semiconductor with equal electron and hole concentrations. 
+
+What is a p-type semiconductor? 
+
+	 	ANSWER: A semiconductor with excess holes. 
+
+What is a compensated semiconductor? 
+
+	 	ANSWER: One that is doped to have equal hole and electron concentrations. 
+
+What is the magnitude of the average gravitational field strength on the surface of the earth? 
+
+                  ANSWER: 𝟗. 𝟖𝟏 𝐍/𝐤𝐠 = 𝟗. 𝟖𝟏 𝐦/𝐬𝟐  
+
+Accept a reasonable approximation. 
+
+What is the magnitude of the average gravitational field strength 5 m above the surface of the earth? 
+
+       ANSWER: 𝟗. 𝟖𝟏 𝐍/𝐤𝐠 = 𝟗. 𝟖𝟏 𝐦/𝐬𝟐  
+
+Accept a reasonable approximation. 
+
+What is the magnitude of the average gravitational field strength one earth radius above the surface of the earth? 
+
+       ANSWER: 𝟐. 𝟒𝟓 𝐍/𝐤𝐠 
+
+Accept a reasonable approximation, say 2.5 N/kg..  
+
+            At one earth radius 𝑅 above the surface, distance to the centre is 𝑟 = 2𝑅. The PREAMBLE: A 3 kg object is projected in an easterly direction at an angle of 60° above the horizontal with a speed of 20 m/s. Air resistance is negligible; sin 60° is approximately 0.87 and cos 60° is 0.50. Take upward and east directions as positive. 
+
+Find the vertical and horizontal components of its initial velocity.         ANSWER: 𝟏𝟕 𝐦/𝐬 vertical and 𝟏𝟎 𝐦/𝐬 horizontal 
+
+𝑣𝑦 = 𝑣 sin 60° = 20 m/s × 0.87 = 17 m/s;   𝑣𝑥 = 20 m/s × 0.50 = 10 m/s 
+
+Find the vertical and horizontal components of its velocity at the highest point of its trajectory. 
+
+ANSWER: 𝟎 vertical and 𝟏𝟎 𝐦/𝐬 horizontal 
+
+Find the vertical and horizontal components of its velocity when it returns to the launch height. 
+
+ANSWER: −𝟏𝟕 𝐦/𝐬 vertical and 𝟏𝟎 𝐦/𝐬 horizontal 
+
+𝑣𝑦 = 𝑣 sin −60° = −20 m/s × 0.87 = −17 m/s;   𝑣𝑥 = 20 m/s × 0.50 = 10 m/s 
+
+PREAMBLE: Convert to SI base units. 
+
+13.5 g/cm3 
+
+ANSWER: 𝟏𝟑𝟓𝟎𝟎 𝐤𝐠/𝐦𝟑 
+
+50 N m 
+
+ANSWER: 𝟓𝟎 𝐤𝐠 𝐦𝟐/𝐬𝟐 
+
+100 mJ s 
+
+ANSWER: 𝟎. 𝟏 𝐤𝐠 𝐦𝟐/𝐬 
+
+PREAMBLE: Give the SI unit of the physical quantity. 
+
+Electrical power  
+
+ANSWER:  Watt 
+
+ 
+
+Thermal energy 
+
+ANSWER:  Joule 
+
+Fluid pressure 
+
+ANSWER:  Pascal 
+
+PREAMBLE: A cube of side 0.2 m is made of a substance which has a density of 2000 kg/m3. 
+
+Acceleration due to gravity is approximately10 m/s2. 
+
+Find the mass of the cube. 
+
+ANSWER:   𝟏𝟔 𝐤𝐠 
+
+𝑚 = 𝜌𝑉 = 2000 kg/m3 × (0.2 m)3 = 16 kg 
+
+Find the weight of the cube. 
+
+ANSWER:   𝟏𝟔𝟎 𝐍 
+
+𝑊 = 𝑚𝑔 = 16 kg × 10 m/s2 = 160 N 
+
+Find the pressure the cube exerts when it rests with one face on a horizontal surface. 
+
+ANSWER:   𝟒 𝐤𝐏𝐚 
+
+𝑃 = 𝑊/𝐴 = 160 N ÷ (0.2 m)2 = 4000 N/m2 = 4 kPa 
+
+PREAMBLE:  A 20 kg object is released from a height of 50 m. 
+
+Find the speed of the object when it has fallen 20 m. 
+
+ANSWER:   𝟐𝟎 𝐦/𝐬 
+
+ 
+
+Find the kinetic energy of the object when it has fallen 20 m. ANSWER:  𝟒 𝐤𝐉 
+
+ 
+
+Find the speed of the object when it has fallen 5 m. 
+
+ ANSWER:   𝟏𝟎 𝐦/𝐬 
+
+ 
+
+ 
+
+A flat disk is spinning at 200 rad/s about a vertical axis. Find the speed of a point on the disk 20 cm from the axis. 
+
+ANSWER:  𝟒𝟎 𝐦/𝐬 
+
+𝑣 = 𝑟𝜔 = 0.2 m × 200 rad/s = 40 m/s 
+
+The speed of a point 10 cm from the axis of a flat disk spinning about a vertical axis is 20 m/s.       Find the angular speed of the disk. 
+
+ANSWER: 𝟐𝟎𝟎 𝐫𝐚𝐝/𝐬 
+
+𝜔 = 𝑣/𝑟 = 20 m/s ÷ 0.1 m = 200 rad/s 
+
+A flat disk is spinning at 100 rad/s about a horizontal axis. Find the speed of a point on the disk 50 cm from the axis. 
+
+ANSWER:    𝟓𝟎 𝐦/𝐬 
+
+𝑣 = 𝑟𝜔 = 0.5 m × 100 rad/s = 50 m/s 
+
+PREAMBLE: The coefficient of kinetic friction between two surfaces is 0.2. 
+
+Find the force needed to maintain steady relative motion between the surfaces when they are pressed 
+
+against each other by a 10 N force. 
+
+ANSWER: 𝟐 𝐍 
+
+Find the magnitude of the work done by friction when the surfaces are pressed against each other by a 10 N force and one of them moves 20 cm. ANSWER: 𝟎. 𝟒 𝐉 
+
+Find the force pressing the surfaces against each other when kinetic friction is 50 N.  
+
+ANSWER: 𝟐𝟓𝟎 𝐍 
+
+PREAMBLE: The refractive index of a variety of glass is 1.5. 
+
+Find the sine of the angle of refraction for light incident on the glass from air at 30°. 
+
+ANSWER:    𝟎. 𝟑 
+
+sin 𝑟 = sin 𝑖 /𝑛 = sin 30° /1.5 = 0.5/1.5 = 0. 3̇ 
+
+Find the sine of the angle of refraction for light incident from the glass to air at 30°. ANSWER:    𝟎. 𝟕𝟓 
+
+𝑛 sin 𝑖 = sin 𝑟 = 1.5 sin 30° = 1.5 × 0.5 = 0.75 
+
+Find the sine of the angle of reflection for light incident from the glass to air at 30°. 
+
+ANSWER:    𝟎. 𝟓 
+
+sin 𝜃𝑟 = sin 𝑖 = sin 30° = 0.5 
+
+PREAMBLE: Find the induced electromotive force in a coil lying in a magnetic field in the given situation. 
+
+The flux linking the coil changes from 20 Wb to 50 Wb in 3 s.  
+
+ANSWER: −𝟏𝟎 𝐕 
+
+𝐸 = −ΔΦ/Δ𝑡 = −(50 Wb − 20 Wb)/3 s = −10 V 
+
+The flux linking the coil changes from 80 Wb to 40 Wb in 2 s. 
+
+ANSWER: 𝟐𝟎 𝐕 
+
+The flux linking the coil changes from −30 Wb to 0 in 3 s. 
+
+  ANSWER: −𝟏𝟎 𝐕 
+
+The focal length of a converging lens is 30 cm. Find the object distance for an image distance of 50 cm. 
+
+ANSWER: 𝟕𝟓 𝐜𝐦 
+
+𝑢 = 𝑓𝑣/(𝑣 − 𝑓) = 30 cm × 50 cm ÷ (50 cm − 30 cm) = 75 cm 
+
+The image distance for a certain lens is 20 cm when the object distance is 80 cm. Find the focal 
+
+length of the lens. 
+
+ANSWER: 𝟒𝟎 𝐜𝐦 
+
+𝑓 = 𝑢𝑣/(𝑢 + 𝑣) = 80 cm × 50 cm ÷ (80 cm + 20 cm) = 40 cm 
+
+The focal length of a converging lens is 10 cm. Find the image distance for an object distance of 30 cm. 
+
+ANSWER: 𝟏𝟓 𝐜𝐦 
+
+𝑣 = 𝑓𝑢/(𝑢 − 𝑓) = 10 cm × 30 cm ÷ (30 cm − 10 cm) = 15 cm 
+
+PREAMBLE: A hydraulic press has two cylinders of areas 100 cm2 and 20 cm2. 7. Find the velocity ratio of the press when the ram cylinder is the large cylinder. 
+
+ANSWER: 𝟓 
+
+VR = 𝐴𝑟/𝐴𝑓 = 100 cm2 ÷ 20 cm2 = 5 
+
+Find the velocity ratio of the press when the ram cylinder is the small cylinder. ANSWER: 𝟏/𝟓 = 𝟎. 𝟐 
+
+Find the minimum effort required to overcome a load of 100 N when the ram cylinder is the 
+
+large cylinder. 
+
+ANSWER: 𝟐𝟎 𝐍 
+
+𝐹𝑓 = 𝐴𝑓 × 𝐹𝑟/𝐴𝑟 = 20 cm2 × 100 N ÷ 100 cm2 = 20 N 
+
+PREAMBLE: A cyclic heat engine absorbs 50 kJ of thermal energy and does 5 kJ of work in one cycle. 
+
+Find the energy wasted by the engine. 
+
+ANSWER:    𝟒𝟓 𝐤𝐉 
+
+Determine the thermal efficiency of the engine. 
+
+ANSWER:   𝟏𝟎% 
+
+Find the change in internal energy of the working substance of the engine when it completes a cycle. 
+
+                     ANSWER:   𝟎 
+
+PREAMBLE: The specific latent heat of vaporization of water is 2300 kJ kg−1 and the specific heat capacity of water is 4200 J kg−1K−1. 
+
+Find the thermal energy rejected by 5 kg of steam when it just condenses to water. 
+
+	  	 	ANSWER:     𝟏𝟏𝟓𝟎𝟎 𝐤𝐉 = 𝟏𝟏. 𝟓 𝐌𝐉 
+
+Find the thermal energy required to just convert 20 kg of water at its boiling point into steam.    ANSWER:    𝟒𝟔𝟎𝟎𝟎 𝐤𝐉 = 𝟒𝟔 𝐌𝐉 
+
+Find the quantity of steam that can be produced by injecting 115 MJ of thermal energy into a large reservoir of water at its boiling point. ANSWER:   𝟓𝟎 𝐤𝐠 
+
+The magnitude of the angular velocity of an object rotating about a fixed axis changes steadily from 20 rad/s to 60 rad/sin 50 s. Find the magnitude of the angular acceleration of the object. ANSWER: 𝟎. 𝟖 𝐫𝐚𝐝/𝐬𝟐 
+
+𝛼 = Δ𝜔/Δ𝑡 = 0.8 rad/s2 
+
+The angular acceleration of an object rotating at 10 rad/sis 5 rad/s2. Find the angular velocity of the object 20 s later if the angular acceleration remains constant. ANSWER:  𝟏𝟏𝟎 𝐫𝐚𝐝/𝐬 
+
+𝜔 = 𝜔0 + 𝛼𝑡 = 10 rad/s + 5 rad/s2 × 20 s = 110 rad/s 
+
+The angular acceleration of an object rotating at 50 rad/sis 5 rad/s2. Find the time it takes to attain an angular speed of 200 rad/s if the angular acceleration remains constant. ANSWER:  𝟑𝟎 𝐬 
+
+𝑡 = (𝜔 − 𝜔0)/𝛼 = 150 rad/s ÷ 5 rad/s2 = 30 s 
+
+The velocity ratio of a simple machine is 2. Find the distance moved by the effort when the load moves 30 cm. 
+
+ANSWER:      𝟔𝟎 𝐜𝐦 
+
+A pair of gears have 100 teeth on the driven wheel and 20 teeth on the driving wheel. Find the angular speed of the driven wheel when the driving wheel rotates at 50 rad/s. ANSWER:      𝟏𝟎 𝐫𝐚𝐝/𝐬 
+
+The velocity ratio of a simple machine is 5. Find the distance moved by the load when the effort moves 20 cm. 
+
+ANSWER:      𝟒 𝐜𝐦 
+
+PREAMBLE:    Give the SI prefix for the given power of ten. 
+
+10−12 
+
+ANSWER:    Pico 
+
+10−15 
+
+ANSWER:    Femto 
+
+109 
+
+ANSWER:    Giga 
+
+PREAMBLE:  The density of water is approximately 1000 kg/m3 and the acceleration due to gravity is approximately 10 m/s2.  
+
+Determine the pressure at a depth of 50 cm below the surface of water. ANSWER:     𝟓𝟎𝟎𝟎 𝐏𝐚 = 𝟓 𝐤𝐏𝐚 
+
+A cylindrical vessel of cross-sectional area 0.4 m2 contains a column of water 3 m deep. Find the force 
+
+the water exerts on the bottom of the vessel. 
+
+ANSWER:     𝟏𝟐 𝐤𝐍 
+
+𝐹 = 𝑝𝐴 = 𝜌𝑔ℎ𝐴 = 1000 kg/m3 × 10 m/s2 × 3 m × 0.4 m2 = 12 000 N = 12 kN 
+
+Find the depth of water that exerts a pressure of 20 kPaon the bottom of a vessel that contains it. ANSWER:     𝟐 𝐦 
+
+ℎ = 𝑝/𝜌𝑔 = 20 kPa ÷ (1000 kg/m3 × 10 m/s2) = 2 m 
+
+PREAMBLE: A spring that obeys Hooke’s law stretches by 4 mm when a 20 N force is applied to it. 
+
+Find the extension of the spring when a 25 N force is applied to it. 
+
+ANSWER:    𝟓 𝐦𝐦 
+
+𝑥 = 𝐹/𝑘 = 25 N ÷ (20 N/4 mm) = 5 mm 
+
+Find the force required to stretch the spring by 6 mm. 
+
+ANSWER:    𝟑𝟎 𝐍 
+
+𝐹 = 𝑘𝑥 = (20 N/4 mm) × 6 mm = 30 N 
+
+Find the extension of the spring when 15 N is applied to it.  ANSWER:    𝟑 𝐦𝐦 
+
+𝑥 = 𝐹/𝑘 = 15 N ÷ (20 N/4 mm) = 3 mm 
+
+ 
+
+PREAMBLE:  A canoe is rowed upstream at 8 km/h relative to the water. 
+
+How fast does the canoe move relative to the bank of the stream if the water flows at 5 km/h? ANSWER:   	 𝟑 𝐤𝐦/𝐡 
+
+What is the speed of the water if the canoe moves downstream relative to the bank at 2 km/h? ANSWER:   	 𝟏𝟎 𝐤𝐦/𝐡 
+
+What is the speed of the water if the canoe moves upstream relative to the bank at 2 km/h? ANSWER:   	 𝟔 𝐤𝐦/𝐡 
+
+PREAMBLE: The speed of light in vacuum is approximately 3 × 108m/s. 
+
+Find the frequency of radio waves with wavelength 5 mm. 
+
+ANSWER:    𝟔𝟎 𝐆𝐇𝐳 
+
+𝑓 = 𝑐/𝜆 = 6 × 1010Hz = 60 GHz 
+
+Find the wavelength of 75 GHz radio waves. 
+
+ANSWER:   𝟒 𝐦𝐦 
+
+𝜆 = 𝑐/𝑓 = 4 × 10−3m = 4 mm 
+
+Find the speed of light in water at the wavelength for which the refractive index of water is 1.2. ANSWER:      𝟐. 𝟓 × 𝟏𝟎𝟖𝐦/𝐬 
+
+𝑣 = 𝑐/𝑛 = 2.5 × 108m/s 
+
+PREAMBLE: A 2 kg particle moving at 5 m/s collides head-on with a 1 kg particle moving in the opposite direction at2 m/s. 
+
+Find the magnitude of the total linear momentum just before the collision. 
+
+ANSWER:   𝟖 𝐤𝐠 𝐦/𝐬 
+
+|∑𝒑𝑖| = |2 kg × 5 m/s − 1 kg × 2 m/s| = 8 kg m/s  
+
+Find the total kinetic energy of the particles just before collision. 
+
+ANSWER:   𝟐𝟕 𝐉 
+
+𝑇 = ∑𝑚𝑖𝑣𝑖2/2 = 27 J 
+
+Find the magnitude of the total linear momentum just after the collision if the particles fuse   	in the collision. 
+
+ANSWER:   𝟖 𝐤𝐠 𝐦/𝐬 
+
+Give the condition under which total linear momentum is conserved. 
+
+ANSWER:   Net force equals zero 
+
+Accept total force. Do not accept just “force.” 
+
+Give the condition under which angular momentum is conserved. 
+
+ANSWER:    Net torque equals zero. 
+
+The velocity of a particle is constant. What can be said about the forces, if any, acting on  
+
+the particle? 
+
+ANSWER:   Net force equals zero. 
+
+A nuclide decays by 𝛽− emission to Ca-42. What is the identity of the nuclide? 
+
+ANSWER:    Al-27 
+
+A nuclide decays by 𝛾 emission to Ni-60. What is the identity of the nuclide? 
+
+ANSWER:    Ni-60 
+
+Na-24 decays by 𝛽− emission. What is the daughter nuclide? 
+
+ANSWER:     Mg-24 
+
+PREAMBLE: The speed of light in vacuum is approximately 3 × 108m/s. 
+
+Find the total energy of a particle of mass 5 × 10−15kg. 
+
+ANSWER:    𝟒𝟓𝟎 𝐉 
+
+𝐸 = 𝑚𝑐2 = 450 J 
+
+Find the mass of a particle whose total energy is 630 kJ. 
+
+ ANSWER:    𝟕 × 𝟏𝟎−𝟏𝟐𝐤𝐠 
+
+𝑚 = 𝐸/𝑐2 = 7 × 10−12kg 
+
+Find the total energy of a particle of mass 3 × 10−14kg. 
+
+ANSWER:     2700J = 2.7kJ 
+
+A negatively charged insulated sphere is brought close to but does not touch an insulated metal sphere. 
+
+Describe the electrical state of the metal sphere. 
+
+ ANSWER:    Polarized with positive charge on parts of its surface closest to the charged  
+
+          sphere, negative charge on parts farthest from the charged sphere 
+
+A positively charged insulated sphere is brought close to but does not touch a grounded metal sphere. 
+
+Describe the electrical state of the metal sphere. 
+
+ANSWER:    Negative charge is induced on the surface of the metal sphere, with more  
+
+        charge on the parts of the surface near the insulated sphere 
+
+A negatively charged insulated sphere is brought close to but does not touch a grounded metal sphere. 
+
+Describe the electrical state of the metal sphere. 
+
+ANSWER:    Positive charge is induced on the surface of the metal sphere, with more  
+
+         charge on the parts of the surface near the insulated sphere 
+
+Name one and only one heat transfer process in which particles of the medium transfer the thermal energy. 
+
+ANSWER:    Conduction or convection 
+
+One only 
+
+Name one other heat transfer process in which particles of the medium transfer the thermal energy. 
+
+ANSWER:    Conduction or convection 
+
+Name the heat transfer process in which particles of the medium transfer the thermal energy but which only occurs in fluids. 
+
+ANSWER:    Convection 
+
+PREAMBLE:   A particle initially at the origin moves from rest with a constant acceleration of 5 m/s2 along the positive x-axis. 
+
+Find the velocity of the particle after 8 s. 
+
+ANSWER:   𝟒𝟎 𝐦/𝐬 
+
+𝑣 = 𝑢 + 𝑎𝑡 = 40 m/s 
+
+Find the displacement of the particle after 8 s. 
+
+ANSWER:    𝟏𝟔𝟎 𝐦 
+
+ 
+
+Find the time it takes to attain a speed of 80 m/s. ANSWER:     𝟏𝟔 𝐬 
+
+Find the final pressure of 5 m3 of ideal gas at 100 kPa when it is compressed isothermally to a volume of 2 m3. 
+
+ANSWER:     𝟐𝟓𝟎 𝐤𝐏𝐚 
+
+Find the final volume of 5 m3 of ideal gas at 100 kPa when it is compressed isothermally to a pressure of 500 kPa. 
+
+ANSWER:     𝟏 𝐦𝟑 
+
+Find the final pressure of 20 m3 of ideal gas at 10 kPa when it is compressed isothermally to a volume of 5 m3. 
+
+ANSWER:    𝟒𝟎 𝐤𝐏𝐚 
+
+Give the energy of the first excited state of the hydrogen atom in terms of the ground state energy𝐸0. 
+
+ANSWER:    𝑬𝟎/𝟒 
+
+Give the energy difference between the first and second excited states of the hydrogen atom in terms of 
+
+the ground state energy 𝐸0. 
+
+ANSWER:   𝑬𝟎(𝟏/𝟒 − 𝟏/𝟗) = 𝟓𝑬𝟎/𝟑𝟔 
+
+Give the energy of the third excited state of the hydrogen atom in terms of the ground state energy 𝐸0. 
+
+ANSWER:     𝑬𝟎/𝟏𝟔 
+
+The activity of a radioactive sample is 1 Bq. How many disintegrations occur in 100 s? 
+
+ANSWER: 100 
+
+The activity of a radioactive sample is 1 Ci. What is the activity of the sample in Bq? 
+
+ANSWER: 𝟑. 𝟕 × 𝟏𝟎𝟏𝟎 𝐁𝐪 
+
+Give the SI unit for radioactive decay constant.  
+
+ANSWER: 𝐬−𝟏 
+
+PREAMBLE:   Ato is riding a bicycle at a steady speed of 10 km/h along a straight path towards Emefa, who is 1 km ahead and walking steadily at 5 km/h in the same direction towards a village 2 km away from her. 
+
+How soon does Ato overtake Emefa? ANSWER: 𝟎. 𝟐 𝐡 = 𝟏𝟐 𝐦𝐢𝐧 
+
+𝑡 = 𝑠𝐴𝐸/(𝑢𝐴 − 𝑢𝐸) = 1 km ÷ (10 km/h − 5 km/h) = 0.2 h 
+
+How far is Ato away from the village when he overtakes Emefa? ANSWER: 𝟏 𝐤𝐦 
+
+𝑠𝑉 − 𝑠𝐴 = 𝑠0 − 𝑢𝐴𝑡 = (1 km + 2 km) − 𝑢𝐴𝑡 = 3 km − 10 km/h × 0.2 h = 1 km 
+
+How far is Emefa from the village when Ato just gets there? 
+
+ANSWER: 𝟎. 𝟓 𝐤𝐦 
+
+𝑠𝑉 − 𝑠𝐸 = 2 km − (5 km/h × 0.3 h) = 0.5 km 
+
+Emefa would have been walking for 0.3 h when Ato gets to the village. 
+
+PREAMBLE: Acceleration due to gravity is approximately10 m/s2. 
+
+Find the angular frequency of a simple pendulum of length 0.4 m. 
+
+ANSWER:  
+
+Find the length of a simple pendulum whose angular frequency is 2 rad/s. ANSWER: 𝟐. 𝟓 𝐦    𝑙 = 𝑔/𝜔2 = 10 m/s2 ÷ (2 rad/s)2 
+
+Find the angular frequency of a simple pendulum of length 0.625 m. 
+
+ANSWER:  
+
+PREAMBLE:   The heat capacity of an object made of a pure substance is 2 kJ/K. 
+
+Find the thermal energy required to increase the temperature of the object by 20 K. ANSWER: 𝟒𝟎 𝐤𝐉     𝑄 = 𝐶Δ𝑇 = 2 kJ/K × 20 K = 40 kJ 
+
+Find the specific heat capacity of the substance if the mass of the object is 0.5 kg. 
+
+ANSWER: 𝟒 𝐤𝐉 𝐤𝐠−𝟏 𝐊−𝟏     𝑐 = 𝐶/𝑚 = 2 kJ/K ÷ 0.5 kg = 4 kJ kg−1 K−1 
+
+Find the change in temperature of the object when it absorbs 50 kJ of thermal energy. 
+
+ANSWER: 𝟐𝟓 𝐊     Δ𝑇 = 𝑄/𝐶 = 50 kJ ÷ 2 kJ/K = 25 K 
+
+PREAMBLE:  A length of wire has a resistance of 300 Ω at 0 ℃ and 310 Ω at 100 ℃. 
+
+Find the resistance of the wire at 20 ℃. ANSWER: 𝟑𝟎𝟐 𝛀 
+
+Find the temperature at which the resistance of the wire is 309 Ω. 
+
+ANSWER: 𝟗𝟎 ℃ 
+
+Find the temperature at which the resistance of the wire is 304 Ω. 
+
+ANSWER: 𝟒𝟎 ℃ 
+
+ 
+
+What is a Wheatstone bridge usually used for? 
+
+ANSWER: Resistance measurements 
+
+Why must one not slide the jockey along the wire of a Wheatstone bridge? 
+
+ANSWER: To avoid destroying its uniformity. 
+
+How does one determine that a Wheatstone bridge is balanced? 
+
+ANSWER: Zero deflection of the galvanometer. 
+
+PREAMBLE: The electrical resistivity of the material of various pieces of wire is 4 × 10−6 Ω m. 
+
+Find the resistance of a uniform wire 2 m long with a cross sectional area of 4 × 10−6 m2. 
+
+	ANSWER: 𝟐 𝛀 	𝑅 = 𝜌𝐿/𝐴 
+
+The resistance of a uniform wire 50 m long is 20 Ω. Find its cross sectional area. 
+
+ANSWER: 𝟏𝟎 × 𝟏𝟎−𝟔 𝐦𝟐 = 𝟏𝟎 𝐦𝐦𝟐 = 𝟏 × 𝟏𝟎−𝟓 𝐦𝟐    𝐴 = 𝜌𝐿/𝑅 
+
+The resistance of a uniform wire with cross sectional area 6 × 10−6 m2 is 100 Ω. Find its length. ANSWER: 𝟏𝟓𝟎 𝐦 𝐿 = 𝑅𝐴/𝜌 
+
+Find the linear momentum of a 2 kg object moving at 50 m/s due east. ANSWER:  𝟏𝟎𝟎 𝐤𝐠 𝐦/𝐬 due east         𝒑 = 𝑚𝒗 
+
+A 2 kg object moving at 20 m/s due east is brought to rest in 5 s. Find the average force on the object. ANSWER: 𝟖 𝐍 due west 𝑭 = Δ𝒑/Δ𝑡 = −40 N s due east ÷ 5 s = 8 N due west  
+
+A 5 N force due north acts for 2 s on a stationary 5 kg object. Find the velocity of the object. 
+
+	ANSWER: 𝟐 𝐦/𝐬 due north 	𝒗 = 𝒑/𝑚 = 𝑭𝑡/𝑚 
+
+PREAMBLE:   A beam of white light is incident at an angle on a plane interface between air and glass.  
+
+Give one phenomenon that occurs at the interface. 
+
+ANSWER: Reflection, refraction, and dispersion 
+
+Please do not accept interference or diffraction. 
+
+Give another phenomenon that occurs at the interface. 
+
+ANSWER: Reflection, refraction, and dispersion. 
+
+Please do not accept interference or diffraction. 
+
+Suppose a thin layer of a liquid whose refractive index is different from that of the glass were smeared on the glass. Which of the following may occur at the interface: reflection, refraction, dispersion, interference? 
+
+ANSWER: All 
+
+A 3 N force and a 4 N force act at a point in such a way that the angle between them is 90°. Find the magnitude of the resultant force. 
+
+ANSWER: 𝟓 𝐍      
+
+ 
+
+Two 10 N forces act at a point in such a way that the angle between them is 60°. Find the magnitude of their resultant. 
+
+
+
+ANSWER: 𝟏𝟎√𝟑 𝐍 = 𝟏𝟕 𝐍 
+
+
+
+
+
+𝐹 = √(10 N)2 + (10 N)2 + 2(10 N)(10 N)cos 60° = 10√3 N = 17 N 
+
+Two 5 N forces act at a point in such a way that the angle between them is 120°. Find the magnitude of their resultant. 
+
+
+
+ANSWER: 𝟓 𝐍     𝐹 = √(5 N)2 + (5 N)2 + 2(5 N)(5 N)cos 120° = 5 N 
+
+PREAMBLE: A spring has a spring constant of 20 N/mm. 
+
+Find the magnitude of the force required to stretch the spring by 2 mm. 
+
+ANSWER:  40 N 
+
+Find the potential energy of the spring when it is stretched by 2 mm. 
+
+ANSWER:  0.04 J 
+
+ 
+
+Find the extension of the spring when it stores 9 J. 
+
+ANSWER:  
+
+ 
+
+The internal resistance of a 1.5 V dry cell is 2 Ω. Find the potential difference across its terminals when it supplies 0.2 A to a circuit. 
+
+ANSWER:  1.1 V 
+
+𝑃. 𝐷. = ℰ − 𝐼𝑟 = 1.5 V − 0.2 A × 2 Ω = 1.1 V 
+
+The potential difference across the terminals of a 1.5 V dry cell is 1.2 V when it supplies 0.5 A to a circuit. Find the internal resistance of the cell. 
+
+ANSWER:  0.6 𝛺 
+
+𝑟 = (1.5 V − 1.2 V)/(0.5 A) = 0.6 Ω 
+
+The internal resistance of a 3 V battery is 0.2 Ω. Find the current drawn from the battery when the potential difference across its terminals is 2.8 V 
+
+ANSWER:  1 A 
+
+𝐼 = (3 V − 2.8 V)/(0.2 Ω) = 1 A 
+
+A step-down transformer is required to supply an rms output of 12 V from an rms input of 240 V. Find the number of turns the secondary coil must have if the primary coil has 5000 turns. 
+
+ANSWER:  250 
+
+𝑁𝑠 = 𝑁𝑝𝑉𝑠/𝑉𝑝 = 5000 turns × 12 V ÷ (240 V) = 250 turns 
+
+A step-up transformer is required to supply an rms output of 12 V from an rms input of 1.5 V. Find the number of turns the secondary coil must have if the primary coil has 3 turns. 
+
+ANSWER:  24 
+
+𝑁𝑠 = 𝑁𝑝𝑉𝑠/𝑉𝑝 = 3 turns × 12 V ÷ (1.5 V) = 24 turns 
+
+Find the rms output of a transformer with 2000 primary turns and 50 secondary turns when the rms input applied to its primary coil is 10 V.  
+
+ANSWER:  0.25 V 
+
+𝑉𝑠 = 𝑉𝑝𝑁𝑠/𝑁𝑝 = 10 V × 50 ÷ 2000 = 0.25 V 
+
+PREAMBLE:   The Planck constant is approximately 7 × 10−34J s. 
+
+Find the de Broglie wavelength associated with a particle whose linear momentum has magnitude 5 × 10−15kg m/s. 
+
+ANSWER:      1.4 × 10−19m 
+
+𝜆 = ℎ/𝑝 = 7 × 10−34J s ÷ (5 × 10−15kg m/s) = 1.4 × 10−19m 
+
+Find the linear momentum of a particle whose de Broglie wavelength is 35 pm. 
+
+ANSWER:       2 × 10−23kg m/s 
+
+𝑝 = ℎ/𝜆 = 7 × 10−34J s ÷ (35 × 10−12m) = 2 × 10−23kg m/s 
+
+Find the speed of a particle of mass 2 × 10−25kg when its de Broglie wavelength is 70 nm. ANSWER:     0.05 m/s 
+
+𝑣 = ℎ/(𝑚𝜆) = 7 × 10−34J s ÷ (2 × 10−25 kg × 70 × 10−9m) = 0.05 m/s 
+
+PREAMBLE: The speed of light in vacuum is approximately 3.0 × 108m/s.Give your answer in standard form. 
+
+What is the frequency of a green photon whose wavelength is 540 nm? ANSWER:       5.6 × 1014Hz 
+
+𝑓 = 𝑐/𝜆 = 5. 5̇ × 1014Hz 
+
+What is the frequency of the light emitted by a red laser operating at 630 nm? 
+
+ANSWER:   4.8 × 1014Hz 
+
+𝑓 = 𝑐/𝜆 = 4.8 × 1014Hz 
+
+What is the wavelength of a sodium street lamp whose frequency is 5.1 × 1014Hz? 
+
+ANSWER:       590 nm = 5.9 × 10−9m 
+
+PREAMBLE:  A parallel plate capacitor has plate area 2 m2 and plate separation1 mm. The permittivity of free space is approximately 9 × 10−12F/m. 
+
+Find the capacitance of the capacitor when the space between the plates is evacuated. 
+
+ANSWER:       18 nF 
+
+𝐶 = 𝜖0𝐴/𝑑 = 9 × 10−12F/m × 2 m2 ÷ (10−3m) = 1.8 × 10−8F = 18 nF 
+
+Find the capacitance of the capacitor when the space between the plates is filled with a material with dielectric constant 5. 
+
+	 	ANSWER:      90 nF 
+
+𝐶 = 𝜖0𝜖𝑟𝐴/𝑑 = 9 × 10−8 F = 90 nF 
+
+Find the capacitance of the capacitor when the space between the plates is filled with a material with relative permittivity 10. 
+
+ANSWER:       180 nF 
+
+𝐶 = 𝜖0𝜖𝑟𝐴/𝑑 = 1.8 × 10−7 F = 180 nF 
+
+Give the dimensions of kinetic energy. 
+
+ANSWER:    𝑀𝐿2𝑇−2 
+
+Give the dimensions of angular momentum. 
+
+ANSWER:     𝑀𝐿2𝑇−1 
+
+Give the dimensions of torque. 
+
+ANSWER:        𝑀𝐿2𝑇−2 
+
+PREAMBLE:  An object weighs 30 N in air, 25 N in water, and 26 N in a hydrocarbon liquid. 
+
+Find the relative density (or specific gravity) of the material of the object. 
+
+ANSWER:    6 
+
+𝑅𝐷 = Weight in air ÷ Loss in weight in water = 30 N ÷ 5 N = 6 
+
+Find the relative density of the hydrocarbon. 
+
+ANSWER:     4/5 = 0.8 
+
+𝑅𝐷 = Loss in weight in liquid ÷ Loss in weight in water = 4 N ÷ 5 N = 0.8 
+
+Find the weight of the object in a liquid whose specific gravity is 1.2. ANSWER:    24 N 
+
+How many diodes are used in a full-wave rectifier that employs a centre-tapped transformer? 
+
+ANSWER:      2 
+
+How many diodes are needed in a full-wave rectifier that does not use a centre-tapped transformer? 
+
+ANSWER:    4 
+
+What is the function of the smoothing capacitor in a half-wave rectifier? 
+
+ANSWER:      Filter out a.c. signals 
+
+PREAMBLE:   Electricity costs about GHC 1 per kW h for a certain service category. 
+
+Find the cost of heating food for 5 minutes in a microwave oven operated at 600 W. 
+
+ANSWER:     GHC 0.05 = GHp 5 
+
+Energy consummed = 5 min ÷ (60 h/min) × 0.6 kW = 0.05 kW h 
+
+Find the cost of running a 20 W compact fluorescent lamp for 10 h. 
+
+ANSWER:        GHC 0.20 = GHp 20 
+
+Energy consummed = 10 h × 0.02 kW = 0.2 kW h 
+
+Find the cost of running a 50 W TV set for 2 h. 
+
+ANSWER: 𝐆𝐇𝐂 𝟎.𝟏 = 𝐆𝐇𝐩 𝟏𝟎 
+
+Energy consummed = 2 h × 0.05 kW = 0.1 kW h 
+
+Find the magnitude of the electric force on a 2 nC charge moving at 6 m/s parallel to a 0.5 V/m electric 
+
+field. 
+
+ANSWER:    1 nN 
+
+𝐹 = 𝑞𝐸 = 2 nC × 0.5 V/m = 1 nN 
+
+Find the magnitude of the magnetic force on a 2 nC charge moving at 5 m/s parallel to a 0.1 T magnetic 
+
+field. 
+
+ANSWER:    0 
+
+𝐹 = 𝑞𝑣𝐵 sin 𝜃 = 𝑞𝑣𝐵 sin 0 = 0 
+
+Find the magnitude of the electric force on a 4 nC charge moving at 10 m/s perpendicular to a0.5 V/m 
+
+electric field. 
+
+ANSWER:    2 nN 
+
+𝐹 = 𝑞𝐸 = 4 nC × 0.5 V/m = 2 nN 
+
+What property of the sound produced by an instrument distinguishes it from the sound produced by other instruments? 
+
+ANSWER:   Timbre 
+
+Accept quality 
+
+What property of a sound note is determined by frequency? 
+
+ANSWER:     Pitch 
+
+Two notes are one octave apart. What is the relationship between their frequencies? 
+
+ANSWER:  One is twice the other 
+
+PREAMBLE:  A vessel contains alcohol to a depth of 70 mm. A coin lying at the bottom of the vessel appears to be 50 mm below the surface of the liquid. 
+
+Find the refractive index of the alcohol. 
+
+ANSWER:  7/5 = 1.4 
+
+𝑛 = real depth ÷ apparent depth = 7 cm ÷ 5 cm = 1.4 
+
+Find the apparent depth of the coin when the depth of alcohol in the vessel is increased to 105 mm. 
+
+ANSWER:  75 mm apparent depth = real depth ÷ 𝑛 = 105 mm ÷ 1.4 = 75 mm 
+
+Find the depth of alcohol for which the apparent depth of the coin is 40 mm. 
+
+	 	 	ANSWER: 	56 mm 
+
+real depth = apparent depth × 𝑛 = 56 mm 
+
+PREAMBLE:   A string has mass per unit length 5 g/m. 
+
+Find the speed of transverse waves on the string when it is under a tension of 200 N. 
+
+ANSWER:     
+
+ 
+
+Find the tension in the string at which the speed of transverse waves on the string is 300 m/s. ANSWER:     450 N 
+
+𝑇 = 𝑣2𝜇 = 90000m2/𝑠2 × 5 × 10−3kg/m = 450 N 
+
+Find the speed of transverse waves on the string when it is under a tension of 8 N. 
+
+ANSWER:  
+
+ 
+
+Find the resultant amplitude when two equal frequency sound waves each of amplitude 5 units interfere with a phase difference of 4𝜋. 
+
+	ANSWER:  	 10 units 
+
+Constructive interference 
+
+Find the resultant amplitude when two equal frequency sound waves each of amplitude 5 units interfere with a phase difference of 7𝜋. 
+
+	ANSWER:  	 0 
+
+Destructive interference 
+
+Find the resultant intensity when two equal frequency sound waves each of intensity 4 units interfere with a phase difference of 4𝜋. 
+
+	ANSWER:  	 16 units 
+
+ 
+
+[MAIN CONTEST] 
+
+(28-67) 
+
+PREAMBLE:   The contact angle between a solid and liquids 𝐴, 𝐵, 𝐶, and 𝐷 are 0°, 20°, 120°, and 130° respectively. 
+
+Which of the liquids forms a concave meniscus in a tube made of the solid? 
+
+ANSWER:    𝐴 and 𝐵 
+
+Which of the liquids forms a convex meniscus in a tube made of the solid? ANSWER:       𝐶 and 𝐷 
+
+Which of the liquids completely wets the solid? 
+
+ANSWER:   𝐴 only 
+
+Find the reactance of a series combination of two 20 𝜇F capacitors at an angular frequency of 100 rad/s. 
+
+	ANSWER: 	 1 kΩ 
+
+𝑋𝐶 = 2/(𝜔𝐶) = 1000 Ω = 1 kΩ 
+
+Find the reactance of a parallel combination of two 25 𝜇F capacitors at an angular frequency of 40 rad/s. 
+
+	ANSWER: 	 500 Ω 
+
+𝑋𝐶 = 1/(2𝜔𝐶) = 500 Ω = 0.5 kΩ 
+
+Find the reactance of a series combination of two 10 𝜇F capacitors at an angular frequency of 500 rad/s. 
+
+	ANSWER: 	200 Ω 
+
+𝑋𝐶 = 2/(𝜔𝐶) = 200 Ω = 0.2 kΩ 
+
+A long horizontal wire carries a large current flowing north. In which direction does the north pole of a compass needle point when the compass is placed just beneath the wire? 
+
+	ANSWER: 	West 
+
+A long horizontal wire carries a large current flowing south. In which direction does the north pole of a compass needle point when the compass is placed just above the wire? 
+
+	ANSWER: 	 West 
+
+A long horizontal wire carries a large current flowing north. In which direction does the north pole of a compass needle point when the compass is placed just above the wire? 
+
+	ANSWER: 	 East 
+
+PREAMBLE: The elementary charge is approximately 1.6 × 10−19C. 
+
+ 
+
+Find the electron flow rate through a copper wire carrying a current of 1.6 A. 
+
+	ANSWER: 	 1019s−1 
+
+𝑅 = 𝐼/𝑞 = 1019s−1 
+
+Find the magnitude of current in a copper wire through which the electron flow rate is 5 × 1015s−1. 
+
+	ANSWER: 	 0.8 mA 
+
+𝐼 = 𝑅𝑞 = 8 × 10−4A = 0.8 mA 
+
+Find the electron flow rate through a copper wire carrying a current of 8 A. 
+
+	ANSWER: 	 5 × 1019s−1 
+
+--------------------------------------------------------------------------------
+
+--- Sample 9/20 ---
+File: Contest 15-1.doc
+Segment index in doc: 2
+Previous segment header: ROUND 1
+Next segment header: ROUND 3
+Near-miss keywords within segment: (none found)
+Segment text:
+--------------------------------------------------------------------------------
+ROUND 2
+Q. A chromatographic experiment is to be performed to separate a solid mixture of two differently coloured compounds. The solids are only slightly soluble in petroleum ether but very soluble in chloroform. A column has been prepared for you. This is a glass tube containing the adsorbent in petroleum ether. Describe exactly how you would proceed to perform the experiment and separate the mixture. (C)
+
+A.
+1. Weigh the desired amount of the solid mixture.
+2. Dissolve it in the minimum volume of chloroform.
+3. Drain the column until the solvent level drops to the level of the adsorbent.
+4. Using a Pasteur pipette, transfer the concentrated chloroform solution to the top of the column.
+5. Let the solution drain to the level of the adsorbent.
+6. Add more petroleum ether and collect the eluent at the rate of about a drop per second.
+7. When the two colours are separated, increase the polarity of the solvent/eluent.
+8. Collect 5 or 10 cm3 fractions.
+9. Combine fractions of the same colour.
+10. Distil off most of the solvents and leave concentrated solutions in the fridge to crystallize or distil off all the solvents, combine residues of the same colour and recrystallize residues in suitable solvents.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--------------------------------------------------------------------------------
+
+--- Sample 10/20 ---
+File: ROUND 1-7.doc
+Segment index in doc: 1
+Previous segment header: CONTEST4
+Next segment header: (none - last segment in doc)
+Near-miss keywords within segment: (none found)
+Segment text:
+--------------------------------------------------------------------------------
+ROUND 1
+The sum of three consecutive odd numbers is 99. Find the three odd numbers 
+ANSWER: 31, 33, 35
+SOLUTION: middle number 99/3=33
+The other odd numbers are 31, and 35
+The sum of three consecutive even numbers is150. Find the three even numbers
+ANSWER: 48, 50, 52
+SOLUTION: middle number150/3=50
+The other even numbers are 48 and 52
+Mention one experiment or phenomenon that shows that light behaves as a particle.
+ANSWER: (any of the following)
+The photoelectric effect, Compton Effect, pair production.
+Mention one experiment or phenomenon that shows that light behaves as a wave.
+ANSWER: (any of the following)
+Diffraction, interference, polarization
+Reflection and refraction- ½ mark (since they can also be explained by assuming that light is particulate).
+Where exactly in the body is the pituitary gland located/. [1 attempt]
+ANSWER: At the base of the brain
+Where exactly in the body are the adrenal glands located? [1 attempt]
+ANSWER: On top of each kidney.
+ 
+Define first ionization energy of an element/ atom
+ANSWER: The 1st ionization energy of an element is the amount of energy required to remove one electron from each of a mole (or molecule) of neutral atoms (to form a mole of singly charged atoms).
+Define Electronegativity of an atom/ element and state its units
+ANSWER: It is the ability of the atom/ element to attract electrons to it (when it is in a molecule). Electronegativity has no units.
+
+If the ratio (y + 4) : (y + 1) = the ratio 3 : 2 find y
+ANSWER: y = 5
+SOLUTION: 
+					Hence 3y - 2y = 8 - 3 = 5, y = 5
+If the ratio(x+2): (x+5)= the ratio 4:5, find x
+ANSWER: x = 10
+SOLUTION: 
+					Hence 5x - 4x = 20 - 10 = 10, x = 10
+
+Inductance is measured in units of…[1 attempt]
+ANSWER: Henries
+Reactance is measured in units of…[1 attempt]
+ANSWER: Ohms
+
+What name is given to the surface of the water that collects on a bedrock? [1 attempt]
+ANSWER: Water table
+What name is given to the vertical section of a bedrock and the layers of soil that are located on top of it?[1 attempt]
+ANSWER: Soil profile
+
+How does the average kinetic energy of matter manifest itself. [1 attempt]
+ANSWER: Hotness or coldness of the matter.
+At what temperature is the average kinetic energy zero? [1 attempt]
+ANSWER: Absolute zero or zero degree Kelvin
+
+--------------------------------------------------------------------------------
+
+--- Sample 11/20 ---
+File: NSMQ 2017 Biology Questions Round 1-1.docx
+Segment index in doc: 16
+Previous segment header: Contest 8b
+Next segment header: Contest 9b
+Near-miss keywords within segment: (none found)
+Segment text:
+--------------------------------------------------------------------------------
+Contest 9a
+
+Q. Give one of the main effects of eutrophication on water bodies
+
+
+
+1. Species diversity decreases and the dominant biota changes
+
+2. Plant and animal biomass increase
+
+3. Turbidity increases
+
+4. Rate of sedimentation increases, shortening the lifespan of the lake
+
+5. Anoxic conditions may develop (water that is depleted of dissolved oxygen)
+
+--------------------------------------------------------------------------------
+
+--- Sample 12/20 ---
+File: CONTEST 28.doc
+Segment index in doc: 1
+Previous segment header: CONTEST28
+Next segment header: PROBLEM OF THE DAY
+Near-miss keywords within segment: "day" present without "problem" nearby
+Segment text:
+--------------------------------------------------------------------------------
+ROUND 1
+
+What is photoluminescence?
+		ANSWER: Light emission by absorption of photons
+What is the orbital period of a geosynchronous satellite?
+		ANSWER: 1 sidereal day
+			1 sidereal day equals 23.9344696 h or 23 h 56 m 4.1 s. Accept 24 h.
+Electron beams may be generated by illuminating metal targets with an intense laser beam. What phenomenon accounts for the electron emission?
+		ANSWER: Photoelectric effect
+Give me the binomial coefficients in the expansion of
+(1 + x)3
+	ANSWER:  1, 3, 3, 1
+(1 - x)3
+	ANSWER:   1, -3, 3, -1
+(1 + x)4
+	ANSWER:  1, 4, 6, 4, 1
+What is 'aqua regia'?
+ANSWER:	1:1 mixture of con. HNO3 and Conc. H2SO4
+Which substance is also known as 'aqua fortis'?
+ANSWER:	Concentrated HNO3.
+Nitration of glycerol with HNO3 produces nitroglycerine which explodes when it receives a shock.  Why is nitroglycerine a good explosive?
+ANSWER:	It decomposes to give very large volume of gases (4 moles of 	liquid giving 29 moles of gases)
+Explain why there are a limited number of amino acids, but many types of protein exist. 
+	ANSWER: The Sequence and number of amino acids are different in different 				proteins.
+Explain why the clear white protein part of an egg becomes opaque and firm when cooked.
+	ANSWER: The protein structure changes (The protein becomes denatured)
+Explain why there are many different enzymes in the cytoplasm of a cell but each enzyme is able to catalyze a specific reaction.
+	ANSWER: An enzyme binds to a specific substrate (reactant) for the reaction 				catalyzed.
+Two otherwise identical wires are made of the same material and have the same length but the diameter of one wire is twice the diameter of the other. If the resistance of the thin wire is , what is the resistance of the thick wire?
+		ANSWER: 
+			so 				and 
+What is bioluminescence?
+		ANSWER: Light emission by biochemical processes in living organisms
+Two wires are made of the same material and have the same diameter but the length of one wire is twice the length of the other. If the resistance of the short wire is , what is the resistance of the long wire?
+		ANSWER: 
+			so and 
+Differentiate the expression with respect to x.
+
+(2x - 7)10
+	ANSWER:  20(2x - 7)9    [Let y = (2x - 7)10,  dy/dx = 10(2x - 7)9 2 = 20(2x - 7)9  			(Chain rule) ]
+(4x + 5)-8
+	ANSWER: -32(4x + 5)-9  [Let y = (4x + 5)-8, dy/dx = -8(4x + 5)-9 4 = -32(4x + 5)-9 			(Chain rule) ]
+(8 - 5x)12
+	ANSWER: -60(8 - 5x)11   [ let y = (8 - 5x)12,dy/dx = 12(-5)(8 - 5x)11 =
+			 -60(8 -  5x)11 ]
+Which is more electronegative, oxygen or carbon?
+ANSWER:	Oxygen
+
+Which is more electronegative, carbon or hydrogen?
+ANSWER:	Carbon
+What is the electronegative value for neon?
+ANSWER:	Zero (inert gas)
+Which group or groups of plants dominates the plant kingdom?
+	ANSWER: Angiosperms (Flowering Plants) and Gymnosperms
+Fill in the blank
+Most growth in vascular plants is confined to…………. 
+	ANSWER: Meristems
+Name the tissue that replaces epidermis in stems and shoots with secondary growth.
+	ANSWER: Periderm
+What name is given to a circular geosynchronous orbit over the equator?
+		ANSWER: Geostationary orbit
+Electron beams may be generated by heating suitable materials to high temperatures. What phenomenon accounts for the electron emission?
+		ANSWER: Thermionic emission
+What is cathodoluminescence?
+		ANSWER: Light emission by bombardment with electrons
+1752 - 752
+	ANSWER:  25,000                       [ (175 - 75)(175 + 75) = 100(250) = 25000  ]
+2372 - 1872
+	ANSWER:   21,200                     [  (237 - 187)(237 + 187) = 50(424) = 21200 ]
+2252 - 1752
+	ANSWER: 20,000                       [  (225 - 175)(225 + 175) = (50)(400) 20000  ]
+If the dipole moment of carbon II oxide molecule is 0.10 Debye, what could be the value for carbon IV oxide?
+ANSWER:	Zero	the dipoles cancel out
+If the dipole moment for CHCl3 molecule is 1.02 Debye, what could be the value for CCl4 molecule?
+ANSWER:	Zero	Symmetrical molecules, the 4 dipoles cancel out.
+The dipole moment for CO2 molecule is zero while that for SO2 is 1.64 Debye.  What could account for this difference?
+ANSWER:	CO2 is linear hence dipoles cancel out, SO2 is a bent molecule, 	dipoles do not cancel out. 
+Fill in the blanks
+The first group of plant hormones to be described are the
+	ANSWER: Auxins
+The conducting cells of phloem tissue are called
+	ANSWER: Sieve tube elements (Sieve tube members)
+The ground tissue which is made up of cells with many chloroplasts is located in the 
+	ANSWER: Leaf
+Electron beams may be generated by applying high voltages to pointed objects. What phenomenon accounts for the electron emission?
+		ANSWER: Field emission
+Two otherwise identical wires have the same length and thickness but the resistivity of the material of one wire is three times the resistivity of the material of the other. If the resistance of the high resistivity wire is , what is the resistance of the other wire?
+		ANSWER: 
+			so and 
+Name the geometric figure that describes a non-circular geosynchronous orbit.
+		ANSWER: Ellipse
+The binary operation  on the set Z of integers is defined by . Find the value of 
+
+	ANSWER:     4           [    ]
+
+	ANSWER:  144          [  ]
+
+	ANSWER:   4             [    ]
+Calculate the enthalpy of combustion of ethane, given that the enthalpies of formation of ethane, CO2 and H2O are -85 kJmol-1, -394 kJmol-1 and -286 kJmol-1 respectively.
+ANSWER:	C2H6	+	3½O2	→	2CO2	+	3H2O
+	ΔH(reaction)	=sum of ΔHf(products)  -  sumΔHf(reactants)
+			= ( 2 x-394 +3 x -286) - -85
+			=  -1646  +85
+			=  -1561   or 1.561 x 103kJmol-1
+When a mole of nitroglycerine decomposes 5.70 x 103 kJ of heat is given off.  The balanced equation for the reaction is as follows
+4C3H5(NO3)3(l)  	→	12CO2  +  10H2O(g)  +  O2  +  6N2         If the enthalpies of formation of CO2 and H2O are -394 kJmol-1  and -242 kJmol-1  respectively what is the enthalpy of formation of nitroglycerine?
+ANSWER:	ΔHf (products)	=	12 x -394	+	10 x -242 = -5148
+	4ΔHf (glycerine)	=	ΔHf(products)  -  ΔH(reaction)
+				=	-7148  -  -  5700
+				=	-1448
+	ΔHf(glycerine)		=	-362 kJmol-3
+Calculate the enthalpy of chlorination of a mole of methane to tetrachloromethane, given that enthalpies of formation of CH4, CCl4 and HCl are -75 kJmol-1, -140kJmol-1 and -92 kJmol-1 respectively.
+ANSWER:	CH4	+	4Cl2	→	CCl4	+	4HCl
+	ΔH(reaction)	=	(-140  +  4 x -92)	-	-75
+			=	-508	+	75
+			=	-433 kJmol-1
+Which group of animals were the first to have evolved wings for flying?
+	ANSWER: Insects
+Name the shell-like structure that encases the bodies of anthropods.
+	ANSWER: Exoskeleton
+Name the most diverse group of animal on earth.
+	ANSWER: Insects
+
+--------------------------------------------------------------------------------
+
+--- Sample 13/20 ---
+File: ROUND 4-17.doc
+Segment index in doc: 1
+Previous segment header: CONTEST 22
+Next segment header: (none - last segment in doc)
+Near-miss keywords within segment: (none found)
+Segment text:
+--------------------------------------------------------------------------------
+ROUND 4
+
+A radioactive substance is monitored in the laboratory. After 5 minutes, 10% of it has decayed, and after 15 minutes 55% of it has decayed. Calculate the decay constant. You may leave your answer in units of decays/minute.
+       Recall that In2 = 0.693
+        SOLUTION:  When 10% decays, 90% is left
+                                          ---------------------(1)
+                                When 55% decays, 45% is left
+                                          ----------------------(2)
+                                Solving (1) and (2)
+                                          
+                                                         
+                                                         
+                                                       ln2 = 10 
+                                                          decays/min.
+A radioactive substance is monitored in the laboratory. After 20 minutes, 10% of it has decayed, and after 713 minutes 55% of it has decayed. Calculate the decay constant. You may leave your answer in units of decays/minute.
+       Recall that In2 = 0.693
+        SOLUTION:  When 10% decays, 90% is left
+                                          ---------------------(1)
+                                When 55% decays, 45% is left
+                                          ----------------------(2)
+                                Solving (1) and (2)
+                                          
+                                                          
+                                                        ln2 = 693 
+                                                           or 1 x 10-3 decays/minute
+
+
+
+
+Express as a single trig ration and simplify your answer.
+
+
+      ANSWER: tan60o =  = 1.732
+      SOLUTION: 		
+cos2 15o  - sin2 15o
+       ANSWER: cos30o =  = 0.8660
+     SOLUTION: 		
+Give me the location and function of each of the following three fluids found in the human body:  Synovial Fluid, Cerebrospinal Fluid and Aqueous Humour.
+      ANSWERS: a) Synovial Fluid is found at movable joints. It acts as a lubricant and reduces
+                                 friction at the joint.
+                            b) Cerebrospinal Fluid bathes the brain and spinal cord. It protects them from
+                                 harmful chemicals and from mechanical damage. 
+                            c) Aqueous Humour is located between the lens and cornea of the eye. It
+                                carries nutrients to them and also helps to maintain the shape of the eye. 
+Give me the location and function of each of the following three muscles:
+      Erector muscle, Ciliary muscle and Temporal muscle.
+      ANSWERS: a) Erector muscle is located in the skin and causes the hairs to stand upright 
+                                when one is exposed to cold.
+                            b) Ciliary muscle is located in the eye and is used for focusing objects on the
+                                retina, i.e. accommodation by altering the shape of the lens. 
+                            c) Temporal muscle muscle is located in the jaw and is used for the mastication 
+                                of food. 
+
+A radioisotope of an element x with mass number 210 amu has a half-life of 10 days. It decays by -emission. Calculate the moles of helium gas that can be obtained from 21g of x-210 at STP in 30days.
+      SOLUTION:  30 days  3 half - lifes
+                             21g of x-210  0.1 mol.
+                             
+                              Total mol of He produced = 0.05 + 0.025 + 0.0125 = 0.0875 mol 
+A radioisotope of an element Q with mass number 209 amu has a half-life of 12 hours an it decays by particle-emission. Calculate the volume of gas at STP that can be obtained from 167.2g of the radioisotope in 36 hours. (Moles volumes of gas at STP = 22.4dm3)
+      SOLUTION:  36 hours  3 half - lifes
+                             167.2g of Q-209  = 0.8 mols.
+                             
+                             Total mol of He  = 0.7
+                             Volume at STP = (0.7 x 22.4) dm3
+                                                            = 15.68 dm3
+
+
+--------------------------------------------------------------------------------
+
+--- Sample 14/20 ---
+File: ROUND2-5.doc
+Segment index in doc: 1
+Previous segment header: CONTEST 7
+Next segment header: (none - last segment in doc)
+Near-miss keywords within segment: (none found)
+Segment text:
+--------------------------------------------------------------------------------
+ROUND 2
+The gastric juice of young mammals contains an enzyme called rennin which curdles or coagulates milk. What is the importance of this?
+     ANSWER:  The curdling of milk slows down its passage through the stomach and this
+                           allows time for pepsin to act on milk protein.
+Explain how the secretion of pancreatic juice is regulated.
+     ANSWER:  The presence of food in the duodenum causes the duodenal lining to secrete a  
+                            hormone called secretin (on pancreozymin) this hormone is carried by the                
+                            blood to the pancreas and causes it to secrete pancreatic juice.
+What is the relationship between oxygen gas and ozone?
+       ANSWER: They are both allotropes of the element oxygen.
+Name the three natural isotopes of oxygen.
+ANSWER: 3,   O-16,   O-17 and   O-18
+ Factorise completely
+X4-1
+      ANSWER: (x - 1)(x +1)(x2 +1)
+                 SOLUTION: x4 - 1 = (x2)2 - 1 = (x2 - 1)(x2 + 1) = ( x - 1)(x - 1(x2 + 1)
+                                 (Difference of two squares)
+3x-3x3y2
+    ANSWER: 3x (1 - xy) (1 + xy)
+                        SOLUTION: 3x - 3x3y2  = 3x(x2y2 - 1) = 3x(xy - 1)(xy + 1)
+                                  (Differences of two squares)
+In most solar-electric or photo-voltaic applications, a battery bank is an integral part of the installation. Explain why batteries are needed in a solar installation.
+ANSWER: To store the electrical energy generated by the photo-voltaic cells.
+In a typical application of utilizing the thermal energy from the sun in generating electricity, arrays of parabolic mirrors are often used. Explain the purpose of these mirrors.
+ANSWER: The mirrors are used to concentrate the rays of the sun, so that higher 
+                  temperatures can be achieved. This may then be used for generating steam for 
+                    running a turbine.
+
+Animals that live in streams and rivers are similar to those in ponds and lakes. Animals that live in 
+streams and rivers however face the danger of being swept away by the water current. How do the 
+following survive water currents?
+Ancylus
+ANSWER: It has a smooth flat shell over which water flows easily without sweeping it 
+                   away.
+The larva of the black fly 
+ANSWER: It has a ring of hooks at its posterior end with which it attaches itself firmly to 
+                   rocky surfaces.
+Name any device which transforms chemical energy into mechanical energy. 
+      ANSWER: Explosives; Internal combustion engine
+Name any device in which chemical energy is transformed into electrical energy. 
+      ANSWER: Voltaic cells / battery
+An object appears black when viewed in white light. What will be the colour of the object when viewed in yellow light? Explain your answer.
+ANSWER: The object will still appear black in yellow light. It appears black in white light
+                   because it absorbs all the light incident on it. Since white light contains all the
+                     wavelengths of light (including yellow), it means that yellow light incident on 
+                     the object will be absorbed and the object will appear black in yellow light.
+An object appears red when viewed in red light. What will be the colour of the object when viewed in white light? Will the object still appear red, or is the information supplied insufficient? Explain your answer.
+ANSWER: The information supplied is insufficient. Since the object is viewed in red light and
+                   appears red, all that can be inferred is that the object is not absorbing red light.
+                     No conclusion can be made as to which other wavelengths the object may or
+                     may not absorb. Therefore; the information supplied is insufficient to determine
+                     the colour of the object in white light. 
+The perimeter of a rectangular field is 600 meters and the length is 80 meters more than the width. Find the dimensions of the field. 
+ANSWER: Length = 190m, and Width = 110m
+    SOLUTION: 2(L + W) = 600 and L - W = 80 (Solve for L and W)
+                          L + W = 300
+                                                2L = 380 and L = 190, W = 190 - 80 = 110
+The perimeter of a rectangular field is 420 meters and the length is twice the width. Find the dimensions of the rectangular field.
+	ANSWER: Length = 140m, and Width = 70m
+	    SOLUTION: 2(L + W) = 4 20 and L = 2W
+	                          Hence 2(3W) = 420      (Substitute L = 2W)
+   W =70 and L =140
+
+
+--------------------------------------------------------------------------------
+
+--- Sample 15/20 ---
+File: CONTEST 23.doc
+Segment index in doc: 1
+Previous segment header: CONTEST23
+Next segment header: PROBLEM OF THE DAY
+Near-miss keywords within segment: (none found)
+Segment text:
+--------------------------------------------------------------------------------
+ROUND 1
+
+What will account for the difference in the boiling point of water in Accra almost at sea level and on top of Mt Everest?
+	ANSWER:  Atmospheric pressures at Accra which is at sea level, and on top 			of Mt. Everest are different hence the temperatures at which the 			liquids will boil will be different
+Two liquids A and B have boiling points 80oC and 60oC respectively.  Which of these would have the higher vapour pressure at room temperature?
+	ANSWER:  B with the lower boiling point
+Why does the addition of say table salt to water raise the boiling point of water?
+	ANSWER:  Addition of non-volatile solute such as table salt to water lowers 			the vapour pressure so the temperature at which the lowered 			vapour pressure will be equal to the atmospheric pressure is higher.
+When photocathodes A and B are illuminated with light of wavelength 650 nm, electrons are just emitted from cathode A but not from B. It is known that the work functions of A and B are close in value but not equal.
+
+Which photocathode has a lower work function than the other?
+
+		ANSWER: A
+
+If the wavelength is increased, which of the photocathodes will likely emit electrons?
+
+		ANSWER: None
+				Increasing the wavelength decreases the photon energy below the work 				function of even metal A.
+
+If the two photocathodes were illuminated with ultraviolet light, which of them is likely to emit photoelectrons?
+
+		ANSWER: Both
+	Fill in the blank
+Arteries divide into small thin walled vessels called……….
+	ANSWER: Arterioles
+What type of tissue forms the outer layer of arteries?
+	ANSWER: Fibrous connective tissue
+What is the function of the fibrous connective tissue?
+	ANSWER: Prevents extreme expansion of the arteries
+Find the equation of the circle
+with center C(2, 3) passing through the point A(6 ,6)
+	ANSWER:  (x - 2)2 + (y - 3)2 = 25   [ radius = , 				(x -2)2 + (y - 3)2 = 52]
+
+with a diameter with endpoints at A(0, 0) and B(-6, 8)
+	ANSWER:  (x + 3)2 + (y - 4)2 = 25                                                                                                                              		[center is (-3, 4) and radius r = , hence (x +3)2 + (y - 4)2 = 25]
+
+with center at the origin and passing through the point A(5, -12)
+	ANSWER:  x2 + y2 = 169    [ radius = , hence x2 + y2 = 169]
+When ethanol is heated over alumina a gas that can be collected over water is formed.  What is this gas?
+ANSWER:	Ethene or C2H4
+When vegetable oils are fully saponified an alkanol is formed among other products. What is this alkanol?
+ANSWER:	1,2,3-propantriol or glycerol
+What is the product formed when toluene is heated with alkaline KMnO4?
+ANSWER:	Benzoic acid
+Name the subatomic particle that initiates fission of uranium nuclei in a thermal nuclear reactor.
+		ANSWER: Neutron
+What is the function of the moderator in a thermal nuclear reactor?
+		ANSWER: Reduction of neutron speeds to increase capture probability
+Name a material typically used forthe moderator of a thermal nuclear reactor.
+		ANSWER: Graphite or water
+Which structure in Rhizopus is responsible for anchorage?
+	ANSWER: Rhizoids
+In Rhizopus, which structure produces spores for asexual reproduction?
+	ANSWER: Sporangia
+Which structure in Rhizopus holds the sporangia in position for dispersal of spores? 
+	ANSWER: Sporangiophore
+Find the range of the function
+y = cosx
+	ANSWER:   [-1, 1] or 
+y = 2sinx
+	 ANSWER   [-2, 2]  or 
+y = tanx
+	ANSWER:  all real values of y,    or   
+Why is the strength of the carbon-carbon double bond not twice as much as that of carbon-carbon single bond?
+ANSWER:  The double is made up of one sigma bond and one pie bond. The 	strength of the pie bond is not as much as the sigma bond
+Why does the carbon-carbon double bond strongly attract electrophiles?
+ANSWER:  The pie cloud extends above and below the plane of the molecule and 	it can easily accessed by electrophiles.
+Why do alkanones and alkanals strongly attract nucleophiles?
+ANSWER:  Alkanones and alkanals contain the carbonyl group which is carbon-oxygen double bond. The group is planar and polarized with positive charge on the carbon.  Nuleophiles can approach the positively charged carbon with ease.
+The wavelength for maximum intensity in the emission spectrum of a blackbody at is .
+What is the wavelength for maximum emission at ?
+		ANSWER: 
+			By Wien's displacement law, .
+At what temperature will the wavelength for maximum intensity be ?
+		ANSWER: 
+			By Wien's displacement law, .
+If solar radiation has an intensity maximum at , what is the temperature of the sun if it can be regarded as a blackbody?
+		ANSWER: 
+			By Wien's displacement law, .
+The Krebs' cycle reactions take place in which organelle?
+	ANSWER: Mitochondria
+Name the part of the Mitochondria where the Krebs cycle takes place.
+	ANSWER: Matrix
+Name the part of the cell where glycolysis takes place.
+	ANSWER: Cytoplasm (Cytosol)
+A gradient function of y is given by  = 3x2 - 6x + 2. Express y in terms of x given that y = 3 for x = 0.
+	ANSWER:        [ , y 			= 3 for x = 0 , C = 3]
+Given that , find an expression for y in terms of x
+	ANSWER:                      []
+Given that  and y = 1 for x = 1, express y in terms of x
+	ANSWER:       [, y = 1 for x 				= 1 hence C = 0]
+Ammonium tetraoxosulphate VI is a common fertilizer.  What is the percentage nitrogen in the compound? [S = 32.0;	N = 14.0;	O = 16.0;	H = 1.0]
+	ANSWER:	(NH4)2SO4 = (14 +4)*2 + 32 + 64 = 132
+			% N 	=	(28/132) x 100
+				=	21.2
+What is the percentage sulphur in ammonium tetraoxosulphate VI? [ S = 32.0;	          N = 14.0;	O = 16.0;	H = 1.0].
+	ANSWER:	(NH4)2SO4 = (14 +4)*2 + 32 + 64 = 132
+			%S	=	(32/132) x 100
+				=	24.2
+Ammonium trioxonitrate V is also a common nitrogenous fertilizer. Calculate its nitrogen content as a percentage. [N = 14.0;	O = 16.0;	H = 1.0]
+	ANSWER:	NH4NO3  =  14 + 4 + 14 + 48 = 80
+			%N	=	(28/80) x 100
+				=	35
+When two notes are sounded together, a 2 Hz beat is heard.
+What are the frequencies of the notes if the note frequencies are lower than 256 Hz and the lower frequency note produces a 6 Hz beat with a 256 Hz note?
+		ANSWER:  and 
+			and so  and .
+What are the frequencies of the notes if the note frequencies are higher than 256 Hz and the lower frequency note produces a 6 Hz beat with a 256 Hz note?
+		ANSWER:  and 
+			and  so  and .
+What are the frequencies of the notes if the note frequencies are lower than 256 Hz and the higher frequency note produces a 6 Hz beat with a 256 Hz note? 
+		ANSWER:  and 
+			and  so  and .
+State one adaptation of Tilapia to its mode of nutrition.
+Wide mouth for trapping food
+Numerous small teeth for holding or nibbling food
+Nostrils for smelling food
+Presence of wide eyes to locate food
+Gill rakes to trap food
+
+
+Write down the inequality which defines the region:
+above the line through the origin with slope 1
+	ANSWER:  y > x           [ line is y = x, the region above the line is given by y > x
+above the line with equation x + y = 2
+	ANSWER:    x + y > 2
+below the line 2x - y + 4 = 0
+	ANSWER:  2x - y + 4 > 0,  or      y < 2x + 4
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--------------------------------------------------------------------------------
+
+--- Sample 16/20 ---
+File: ROUND 2-14.doc
+Segment index in doc: 1
+Previous segment header: CONTEST 16
+Next segment header: (none - last segment in doc)
+Near-miss keywords within segment: (none found)
+Segment text:
+--------------------------------------------------------------------------------
+ROUND 2
+The arc of a circle has length 15cm and the radius of the circle is 10cm. find the angle in radians subtended by the arc at the centre of the circle.
+ANSWER: 1.5 radians
+		 [s =r]
+An arc of a circle subtends an angle of 1 radian at the centre of the circle. If the radius is 10cm, calculate the area of the sector.
+ANSWER: 50cm2
+		  [A =]
+Explain why the spectrum of hydrogen has many lines, even though the hydrogen atom has only one electron
+ANSWER: Even though hydrogen has only one electron, there are many energy levels (or 
+                    states) available and the electrons can be in any one of these states, leading to
+                     many lines in the absorption and emission spectra.
+A quantity of pure silicon is melted in a furnace. While molten, a small amount of pure Gallium is added to the silicon. What sort of semiconductor material will be formed when the silicon solidifies? Explain your answer.
+ANSWER: P-type silicon will be formed. This is because, each Gallium atom has one less 
+                    electron than a silicon atom, leading to less electrons i.e. more holes, which are
+                    positively charged, in the semiconductor.
+If A is an acute angle and cos A =  calculate cos 2A.
+ANSWER:  or - 0.778                           
+SOLUTION: Cos2A = cos2Asin2A = cos2A - (1 - cos2A) 
+			 = 2cos2 A - 1
+			 = 2.                   
+If A is acute and tan A = , calculate sin 2A
+ANSWER:  or 0.96      
+SOLUTION:                
+		     Cos A =       
+		       Sin A =        
+		    = 
+You are given a single converging lens. When you observe the image formed by this lens, you find that the edges of the image are coloured. What is the name given to this phenomenon? Explain why the image appears the way it does.
+ANSWER: The name of the phenomenon is 'chromatic aberration'. It is caused by the lens
+                    dispersing light from the object according to the components of the light; i.e., the
+                    different components of the light are focused at slightly different points. For
+                    example, blue light will be focused closer to the lens than red light.
+
+Objects that are closer to your eyes appear larger than objects that are far away.  For example, a pencil held at arms length appears larger than a storey building hundreds of meters away. Explain why this is so.
+ANSWER: The length (or size) of an image that is formed by the eye is proportional to the 
+                    'visual angle' at the eye - i.e. the angle subtended at the eye by the object. The
+                     larger the visual angle, the greater the apparent size of the object. Since the
+                     visual angle is largest when the object is close to the eye, such objects appear
+                     larger.
+
+Are denitrifying bacteria beneficial or undesirable? Explain your answer.
+ANSWER: They are undesirable because they convert nitrates in the soil into atmospheric
+                    nitrogen, thereby decreasing the amount of nitrates in the soil available to plants.
+
+Can a haploid cell undergo meiosis? Explain your answer.
+ANSWER: No, a haploid cell cannot undergo meiosis. This is because it has not got 
+                    homologous chromosomes to pair up.
+
+Alternate two times,
+Common preamble: Name the polymer and the monomer used in making these household items 
+						    ANSWER:
+Coating for electric and telephone wires	    Polyethene(ethane)(monomer)
+Black plastic bag 			    Polythene (ethene)
+      Plastic chairs 				    Polypropene (propene)
+Ropes		 			    Nylon ( 1,6 - diaminohexane
+Or ( 1,6 -hexa dioic acid)
+A colour blind woman married a man with normal vision. They had ten children -six boys  and four girls. How many will be normal?
+SOLUTION: All the females will be normal but carriers while all the boys will be colour blind i.e.  4 will be normal.
+
+
+A normal woman but not a carrier married a colour blind man and they had ten children, seven boys and 3 girls. How many of them will be normal?
+ANSWER:  All the 10 children will be normal but the girls will be carriers.
+
+
+
+--------------------------------------------------------------------------------
+
+--- Sample 17/20 ---
+File: CONTEST 20-1.docx
+Segment index in doc: 1
+Previous segment header: CONTEST20
+Next segment header: PROBLEM OF THE DAY
+Near-miss keywords within segment: "speed" present without "race" nearby
+Segment text:
+--------------------------------------------------------------------------------
+ROUND 1
+
+What is the general formula for alkynes
+
+	ANSWER:	CnH2n-2
+
+Two compounds have been shown to be carbonyl compounds, one aldehyde (alkanal) and the other a ketone (alkanone).How can you establish their identities
+
+	ANSWER:	Aldehyde gives positive test with Fehling’s or Tollens’ reagent but 			ketone does not (Do not accept hydroxylamine, hydrazine, 				phenylhydrazine,  2,4-dinitophenylhydrazine)
+
+A compound of general formula CnH2n does not decolourise bromine in CHCl3. What may be the type of compound?
+
+	ANSWER:	Compound is likely to be a cycloalkane
+
+Which fin is responsible for rapid forward movement in fishes?
+
+		ANSWER: Caudal/Tail fin
+
+Which fins in fishes control yawing (the tendency of the body zig-zag from side to side)?
+
+		ANSWER: Dorsal and Anal fins.
+
+Which fins control pitching in fishes? (The tendency for the head to rise and fall). 
+
+		ANSWER: Pectoral and Anal fins
+
+	Which of the following is an SI base unit?
+
+Meter, ohm, candela, tesla.
+
+
+
+			ANSWER: Meter and candela
+
+
+
+Joule, kilogram, newton, second.
+
+
+
+			ANSWER: Kilogram and second
+
+
+
+Coulomb, ampere, kelvin, weber.
+
+
+
+			ANSWER: Ampere and kelvin
+
+
+
+Find the equation of the tangent to the curve y= f(x) at the point on the curve with given x-value.
+
+y = x3 – 3x2   at x = 2
+
+		ANSWER: y = -4,    [dy/dx = 3x2 – 6x, at x = 2,m = 12 – 12 = 0, and y = 8 – 12 = -4, 				hence equation of tangent is  (y + 4) = 0(x – 2), or y = -4 ]
+
+y = x – 1/x    at x = -1
+
+		ANSWER:  y = 2x + 2   [dy/dx = 1 + 1/x2,at x = -1,  m = 1 + 1 = 2, y = -1+ 1= 0,  hence 				equation of tangent is   y = 2(x + 1)]
+
+y = x2 – 3x
+
+		ANSWER:   y = -x – 1   [  dy/dx = 2x – 3, at x = 1, m = 2 – 3 = -1, and y = 1 – 3 = -2, 				hence equation of tangent is   (y + 2) = - (x – 1)  or  y = -x – 1 ]
+
+What additional apparatus is required to change a set up for simple distillation into a set-up for fractional distillation?
+
+		ANSWER:	Fractionating Column
+
+If the glass column in a column chromatography is packed with cellulose and a mixture is washed with n-butanol what is the stationary phase?
+
+		ANSWER:	Water is the stationary phase
+
+What is the principle of separation in a column chromatography packed with alumina?
+
+		ANSWER:	Selective adsorption
+
+State one adaptation of flowers that favours self-pollination.
+
+		ANSWERS:
+
+Each flower is bisexual (hermaphrodite)
+
+Each flower is homogamous (the anthers and stigmas mature at the same time
+
+The flowers remain closed until self-pollination has taken place (Cleistogamous)
+
+The flowers are buried in the ground
+
+
+
+
+
+Name a property that has the same value for two objects in thermal equilibrium.
+
+			ANSWER: Temperature
+
+Which of the following quantities has the same value for two objects in mechanical equilibrium: temperature, pressure, volume, mass?
+
+			ANSWER: Pressure
+
+Which of the following quantities is zero for an object in rotational equilibrium: force, linear momentum, torque, angular momentum?
+
+			ANSWER: Torque
+
+	
+
+Given that sinA = 1/3 and cosB = ½ and A and B are acute angles, evaluate
+
+Sin(A + B)             (You may leave answer as a surd)
+
+		ANSWER:           [ cosA = ,  sinB =,
+
+				 sin(A + B)   = sinAcosB + cosAsinB = ]
+
+cos(A – B)
+
+		ANSWER:          
+
+				 [   cos(A – B) = cosAcosB + sinAsinB = ]
+
+Sin2A	
+
+		ANSWER:                     
+
+				[Sin2A = 2sinAcosA = ] 
+
+Explain why SO2 gas can be collected in a gas jar by upward displacement of air.
+
+		ANSWER:	SO2 is denser than air
+
+How can ammonia gas be collected in a gas jar and why?
+
+		ANSWER:   NH3 can be collected by downward displacement of air because it is lighter than air.
+
+Nitrogen gas prepared in the laboratory cannot be collected by displacement of air. Why?
+
+		ANSWER:	Nitrogen and air have approximately the same density
+
+During germination of seeds, at what point can one say that seed germination is over?
+
+		ANSWER: When the primary root breaks through the seed coat
+
+Name the structure in the endodermal cell wall that forces water and solutes enter the roots to move through the cells
+
+		ANSWER: Casparian strip 
+
+FILL IN THE BLANK
+
+Most membrane functions are carried out by…………. 
+
+		ANSWER: Protein Carriers
+
+The displacement  in meters at time  in seconds of a simple harmonic oscillator is given by . 
+
+What is the angular frequency of the oscillator?
+
+			ANSWER: 
+
+What is the frequency of the oscillator?
+
+			ANSWER:
+
+What is the amplitude of the oscillator?
+
+			ANSWER: 
+
+Evaluate the limit
+
+          
+
+		ANSWER: 4               [ 
+
+             
+
+		ANSWER:   -6             []
+
+    
+
+		ANSWER:  -2          [        ]
+
+		 
+
+A one litre solution containing Fe3+ ions was treated with excess NaOH solution. If 2.675 g of the iron III hydroxide precipitated what was the concentration of the solution?       [Fe = 56;	O = 16;	H =1.0]
+
+	ANSWER:	Fe(OH)3 = 56 +3x17	= 56 + 51 = 107
+
+			2.675 g of = 0.025 mole
+
+			Hence concentration of Fe3+ ions  = 0.025 moldm-3
+
+Iron III tetraoxosulphate VI is precipitated by adding excess Na2SO4 solution to a solution of Fe3+ ions. If the solution contains a total of 0.125 moles of Fe3+ ions what is the mass of precipitate formed?  [Fe = 56;  S = 32;  O = 16]
+
+	ANSWER:	2Fe3+   +   3SO42-	→	Fe2(SO4)3
+
+			2 mol Fe		→	2x56 + 3(32+64)  =  400g
+
+			Therefore 	0.125 mol of Fe  ≡	(0.125/2) x 400g of ppt
+
+						  	   =	25g of ppt
+
+Excess Na2CO3 solution is added to 500 cm3 of a solution containing Ca2+ ions.  If 40g of CaCO3 are harvested what was the concentration of the calcium ions?  [Ca = 40;	O = 16   C = 12]
+
+	ANSWER:	CaCO3 = 40 + 12 + 48
+
+				= 100g
+
+			100g of CaCO3		≡	1 mole of Ca2+ ions
+
+			Therefore 40 g of CaCO3 	≡   0.4 mol of Ca2+ ions in 500 cm3
+
+			Concentration of Ca2+ ions 	=   0.8 moldm-3
+
+State the genotype of F1 offspring of the monohybrid cross AA x aa
+
+		ANSWER: All Aa
+
+Assuming complete dominance, state the phenotypic ratio of the offspring of a cross between Aa x Aa. 
+
+		ANSWER: 3:1
+
+State the genotypic ratio of the offspring of a cross between Aa x Aa
+
+		ANSWER: 1AA:2Aa:1aa 
+
+	A  object moves uniformly in a circle of radius  with a speed of .
+
+What is the acceleration of the object?
+
+
+
+			ANSWER: 
+
+					
+
+
+
+What force is required to maintain the uniform circular motion of the object?
+
+
+
+			ANSWER:  
+
+					
+
+
+
+What would be the velocity of the object if the force were suddenly reduced to zero?
+
+
+
+			ANSWER:   along the tangent to the circle at the location where the force was 						removed
+
+
+
+Solve the simultaneous equations
+
+y = x2 + 3 and y = 4x
+
+		ANSWER:  x = 1, y = 4, and x = 3, y = 12    
+
+			 [x2 + 3 = 4x,  x2 – 4x + 3 = (x – 3)(x – 1) = 0, x = 1, 3,   If x = 1, y = 4 and for x 				= 3, y = 12]
+
+y = x2 + 6, and y = 5x
+
+		ANSWER:   x = 2, y = 10 and x = 3, y = 15
+
+			[ x2 + 6 = 5x, x2 – 5x + 6 = 0, (x – 3)(x – 2) = 0, x = 2,3 ;  if x = 2, y = 10 and if 				x = 3, y = 15
+
+y = x2 and y = 4x + 5
+
+		ANSWER:  x = -1, y = 1   and x = 5 , y = 25
+
+			[ x2 = 4x + 5 ,  x2 – 4x – 5= 0,  (x – 5)(x + 1) = 0, hence x = -1, 5; if  x = -1, y = 				1 and if x = 5, y = 25]
+
+
+
+
+
+
+
+--------------------------------------------------------------------------------
+
+--- Sample 18/20 ---
+File: CONTEST 15.docx
+Segment index in doc: 1
+Previous segment header: CONTEST15
+Next segment header: PROBLEM OF THE DAY
+Near-miss keywords within segment: (none found)
+Segment text:
+--------------------------------------------------------------------------------
+ROUND 1
+
+
+
+Name the complex linear molecule that is responsible for heredity.
+
+
+
+	ANSWER: DNA
+
+
+
+Name the nitrogenous base that is present in DNA but absent in RNA.
+
+
+
+	ANSWER: Thymine
+
+
+
+Name the nitrogenous base that is present in RNA but absent in DNA.
+
+
+
+	ANSWER: Uracil
+
+
+
+What radiation is produced when fast cathode rays decelerate in matter?
+
+
+
+		ANSWER: X-rays
+
+
+
+Name the electromagnetic radiation emitted by radioactive nuclei.
+
+
+
+		ANSWER: -rays
+
+
+
+What radiation is emitted when hard x-rays are absorbed in matter?
+
+
+
+		ANSWER: X-rays
+
+				More precisely, characteristic x-rays are emitted.
+
+
+
+In which of these polygons do the diagonals always intersect at right angles?
+
+          A)  Rectangle,           B)   Trapezium,          C) Kite,                 D)  Quadrilateral
+
+
+
+            ANSWER:   KITE
+
+
+
+In which of these polygons do the diagonals bisect the angles at their ends?
+
+           A)   Parallelogram,    B) Trapezium            C)   Rhombus,      D)  Rectangle
+
+
+
+            ANSWER: RHOMBUS
+
+
+
+In which of these polygons are the opposite sides neither parallel nor congruent?
+
+          A)  Parallelogram,     B)   Rhombus,            C)  Rectangle,       D)  Kite
+
+
+
+            ANSWER:   KITE
+
+
+
+Name the type of cells that make up the cortex of plants.
+
+
+
+	ANSWER: parenchyma
+
+
+
+Name the part of roots where lateral roots arise.
+
+
+
+	ANSWER: Pericycle
+
+
+
+The cluster of thin even-sized roots which develops from the base of the stem is known as 
+
+
+
+	ANSWER: Fibrous roots
+
+
+
+What logic gate is obtained when a NOT gate is connected to the output of an AND gate?  
+
+
+
+		ANSWER: NAND
+
+
+
+What logic gate is obtained when a NOT gate is connected to the output of a NOR gate?
+
+
+
+		ANSWER: OR
+
+
+
+What logic gate is obtained by joining the inputs of a NAND gate? 
+
+
+
+		ANSWER: NOT
+
+
+
+Name the principal chemical constituent of clay.
+
+ANSWER:    Aluminium trioxosilicate  Al2(SiO3)2
+
+In the manufacture of cement limestone, sand and alumina are heated together until the materials fuse to form granules.  Give one possible chemical; component of cement
+
+ANSWER:  Calcium trioxosilicate   CaSiO3   Calcium dioxoaluminate  Ca(AlO2)2
+
+Name one of the chemical components of bleaching powder.
+
+ANSWER:	Calcium oxochlorate Ca(ClO)2	Calcium chloride CaCl2	Calcium hydroxide Ca(OH)2
+
+Find the next term of the sequence
+
+1, 1, 2, 3, 5, . . .
+
+
+
+           ANSWER: 8      [3 + 5 = 8 ]
+
+
+
+2, 3, 5, 8, 12, . . . 
+
+
+
+           ANSWER:  17    [differences are 1, 2, 3, 4, . . .  hence 12 + 5 = 17]
+
+
+
+1, 9, 25, 49, 81, . . . 
+
+
+
+           ANSWER: 121      [ 11, 32, 52, 72, 92,  hence 112 = 121  ]
+
+
+
+A compound was wrongly named as 3,3-dimethybutane.  What should be the actual name?
+
+ANSWER:	2,2-dimethylbutane
+
+A compound was wrongly named as 3,4-dimethylpentane.  What should be its actual name?
+
+ANSWER:	2,3-dimethylpentane
+
+A compound was wrongly named as 2-hydroxy-3-methylbutane.  What should be its actual name?
+
+ANSWER:	3-methylbutan-2-ol or 3-methyl-2-butanol
+
+Fill in the Blanks
+
+The body of paramecium is covered by a thin flexible structure known as…….
+
+
+
+	ANSWER: Pellicle
+
+
+
+Paramecium discharges undigested wastes at a fixed point on the body known as……… 
+
+
+
+	ANSWER: Anal Pore
+
+
+
+Name the structure that is responsible for excretion in paramecium.
+
+
+
+	ANSWER: Contractile vacuole
+
+
+
+An ammeter has an internal resistance of  and full-scale deflection at . What shunt resistance is required for full-scale deflection at ?
+
+
+
+		ANSWER: 
+
+			and so 				
+
+
+
+An ammeter withan internal resistance of  and full-scale deflection at  is to be used as a voltmeter. What multiplier is required for full-scale deflection at ?
+
+
+
+		ANSWER: 
+
+			At full scale, the total resistance required for a 5 V input is  			so the multiplier resistance is 
+
+
+
+A voltmeter with internal resistance  and full-scale deflection of  is to be used to measure voltages up to ? What multiplier is needed?
+
+
+
+		ANSWER: 
+
+			Current at full scale must be , so total resistance needed at 			 is , of which  is internal. The multiplier 			resistance is . 
+
+
+
+Find the stationary points of the given curve
+
+y = x3 – 3x2 + 6
+
+
+
+	ANSWER:  (0, 6) and (2, 2)    
+
+		 [dy/dx = 3x2 - 6x = 0, 3x(x – 2) = 0, hence x = 0, x = 2
+
+                 For x = 0, y = 6 and for x = 2 y = 8 – 12 + 6 = 2,  points are (0, 6) and (2, 2) ]
+
+
+
+y = 3x – x3
+
+
+
+	ANSWER:  (1, 2) and (-1, -2)   
+
+		[ dy/dx = 3 – 3x2 =0, hence x2 = 1, and x = 1, x = -1
+
+                       For x = 1, y = 3 – 1 = 2, and for x = -1, y = -3 + 1= -2, points are (1, 2)
+
+		 and (-1, -2)
+
+
+
+y = x + 1/x
+
+
+
+	ANSWER:  (1, 2) and (-1, -2)       
+
+		 [ dy/dx = 1 – 1/x2 = 0, x2 = 1 and x = 1, x = -1
+
+                   	For x = 1, y = 1 + 1 = 2, and for x = 1, y = -1 + -1 = -2, points are (1, 2) 			and (-1, -2)]
+
+
+
+Which element is the last member of Group 3 (old) or Group 13 (new)
+
+ANSWER:	Thallium	Tl
+
+Which element is third member of Group 4 (old) or Group 14 (new)
+
+ANSWER:	Germanium	Ge
+
+Which element is the last member of Group 2 (old or new).
+
+ANSWER:	Radium	Ra
+
+
+
+The motor and sensory neurons form which type of nervous system in vertebrates.
+
+
+
+	ANSWER:. Peripheral Nervous system
+
+
+
+Which name is given to a specific form of energy that is detected by a receptor?
+
+	
+
+	ANSWER: Stimulus
+
+
+
+What name is given to conscious awareness of a stimulus?
+
+
+
+	ANSWER: Sensation
+
+
+
+A converging lens has a focal length of . Where is the image formed by an axial object  from the lens? 
+
+
+
+		ANSWER: from the lens on the other side of the lens
+
+				so .
+
+
+
+A diverging lens has a focal length of . Where is the image formed by an axial object  from the lens? 
+
+		ANSWER: from the lens on the same side of the lens as the object
+
+			so .
+
+
+
+A converging lens has a focal length of . Where is the image formed by an axial object  from the lens? 
+
+
+
+		ANSWER: from the lens on the same side of the lens as the object
+
+			so .
+
+
+
+Find the equation of a circle with a diameter whose end points are A(2, 0) and B(6, 0).
+
+
+
+	ANSWER:  (x – 4)2 + y2 = 4    
+
+			[centre (4, 0) radius = 4 – 2 = 2, hence (x – 4)2 + y2 = 22  ]
+
+
+
+Find the equation of a circle with centre (4, 5) and which touches the x- axis
+
+
+
+	ANSWER:   (x – 4)2 + (y – 5)2 = 25     
+
+			[ centre (4, 5) and radius = 5, hence (x – 4)2 + (y – 5)2 = 25 ]
+
+
+
+Find the equation of the circle of radius 4, lying in the first quadrant and touching both the x- and y- axes.
+
+	ANSWER: (x – 4)2 + (y – 4)2 = 16    
+
+			[ center   (4, 4), radius = 4, hence (x – 4)2 + (y – 4)2  = 16 ]
+
+
+
+The electrode potentials of the half cells Br2/Br- and I2/I-  are 1.07 and 0.54 volts respectively.  Give the balanced equation for the chemical reaction of a voltaic cell that can be created from the two half-cells and calculate the its initial maximum emf.
+
+ANSWER:	Equation is 	Br2	+	2I-	→	2Br-	+	I2 
+
+			Emf	=	1.07 – 0.54	=	0.53 volts
+
+The electrode potentials of two half cells, A/A- and B+/B are -0.30 and 0.84 volts respectively.  Give the balanced equation for the chemical reaction of a voltaic cell that can be created from the two half-cells and indicate the anode of the cell.
+
+ANSWER:	Equation is	B+	+	A-	→	B	+	A
+
+Anode = oxidation, hence electrode has to be Pt or any inert material since A cannot be a metal/ A is a non-metal
+
+Calculate the emf of a voltaic cell with whose cell reaction is as follows:
+
+H2	+	I2	→	2HI
+
+given that the electrode potential of I2/I- is 1.02 volt
+
+ANSWER:	H2	- 2e	→	2H+	0.00 volt
+
+	I2	+ 2e	→	2I-	1.02 volt
+
+		Emf	=	1.02	volt
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--------------------------------------------------------------------------------
+
+--- Sample 19/20 ---
+File: CONTEST 16-1.docx
+Segment index in doc: 1
+Previous segment header: CONTEST16
+Next segment header: PROBLEM OF THE DAY
+Near-miss keywords within segment: "speed" present without "race" nearby
+Segment text:
+--------------------------------------------------------------------------------
+ROUND 1
+
+Find the image of the point A(2, 4) under
+
+A reflection in the line x = 5 
+
+ANSWER: (8, 4)	[5 – 2 = 3 and 5 + 3 = 8, hence (8, 4)]
+
+A reflection in the line y = 5
+
+ANSWER: (2, 6)	[5 – 4 = 1 AND 5 + 1 = 6, hence (2, 6)]
+
+A rotation through 180 degrees about the origin.
+
+ANSWER: (-2, -4)
+
+Give the systematic name for the compound Cl2O6
+
+ANSWER: Chlorine VI oxide
+
+Give the systematic name for the compound KClO3
+
+ANSWER: Potassium trioxochlorate V
+
+Give the systematic name for the compound SO2Cl2
+
+ANSWER: Dichlorodioxosulphate VI acid; regarded as a derivative of H2SO4
+
+What is the magnitude of the resultant of two parallel displacements each of magnitude 5 m?
+
+ANSWER: 
+
+What is the magnitude of the resultant of two antiparallel displacements each of magnitude 5 m?
+
+ANSWER: 
+
+What is the magnitude of the resultant of two perpendicular displacements each of magnitude 5 m?
+
+ANSWER: 
+
+The magnitude of the resultant is .
+
+The plasma membrane is known to be selectively permeable. State one advantage of this property to the living cell. 
+
+Advantage of this property to the living cell are:
+
+                 ANSWER: 
+
+It controls the entry of unwanted materials.
+
+It allows valuable materials to enter the cell
+
+It allows unwanted materials to leave the cell
+
+It controls the exit of valuable materials.
+
+Find area of an equilateral triangle of side 8 cm
+
+                  ANSWER:  cm2       [A ½ (8)(8)sin 60= 32/2 =  16cm2    ]
+
+Find the area of a trapezium with parallel sides of lengths 5 cm and 7cm separated by 10 cm.
+
+                  ANSWER:  60 cm2       [Area = ½ (a + b)h = ½ (5 + 7)10 = 6(10) = 60 cm2     ]
+
+Find the area of a parallelogram of adjacent sides of lengths 10 cm and 12 cm including an angle of 120 degrees.
+
+                  ANSWER:    60cm2     [Area = 12(10)sin120 = 12(10)  cm2   ]
+
+The electron affinity of chlorine atom is large and negative. Why?
+
+ANSWER: The incoming electron is attracted by the nuclear charge of the atom and the atom accepts the electron to give a unit which has a more stable electronic configuration.
+
+Na and Mg are next to each other in the 3rd Period of the Periodic Table.  One of them has negative electron affinity and the other positive.  Which one has positive electron affinity and why?
+
+ANSWER: It must be Mg.  Mg atom has a complete sub-shell and acceptance of an electron will give a unit with a less stable electronic configuration.
+
+Bromine has a higher electron affinity than iodine. Why?
+
+ANSWER: Bromine atom has a smaller atomic radius.  An incoming electron will be attracted with greater force
+
+An object moves uniformly in a horizontal circle of radius 2 m at 5 revolutions per minute.
+
+What is the angular frequency of the object in radians per second?
+
+ANSWER: 
+
+
+
+What is the speed of the object?
+
+ANSWER: 
+
+
+
+What is the acceleration of the object?
+
+ANSWER: 
+
+
+
+Which process in meiosis allows gametes to obtain one of each kind of chromosomes?
+
+ANSWER: The separation of homologous chromosomes 
+
+The allele for black coat, B, is dominant to the allele for brown, b. State the genotype for homozygous recessive type
+
+ANSWER: bb
+
+Which of the following crosses is a test cross?
+
+1. BB x BB	2. BB x Bb	3. Bb x bb	4. bb x bb
+
+ANSWER: Bb x bb 
+
+  Determine the least positive integer x such that 
+
+          (congruence modulo)
+
+                 ANSWER:  x = 3           [   hence  and ]
+
+
+
+                ANSWER:   x = 1          [ , hence  ]
+
+
+
+               ANSWER:  x = 5           [ ,   ,  ]
+
+TO ALL SCHOOLS: Give one physical property of metals
+
+ANSWERS:
+
+They have shiny, silvery look when clean.
+
+They are malleable.
+
+They are ductile.
+
+They are good conductors of heat
+
+They are good conductors of electricity.
+
+A 70 kg passenger rides up then down in an elevator.
+
+What is the apparent weight of the passenger when the elevator is moving up with constant speed?
+
+ANSWER: 
+
+What is the apparent weight of the passenger when the elevator is moving down with constant speed?
+
+ANSWER: 
+
+What is the apparent weight of the passenger when the elevator falls freely?
+
+ANSWER: 
+
+Fill in the blank
+
+The inner membrane of the mitochondria is folded to form shelve like structures known as .__________.
+
+ANSWER: Cristae
+
+What name is given to the long slender projections of cells that are used for locomotion by some organisms?
+
+ANSWER: Flagellum
+
+Fill in the blank
+
+The structure of the nucleus is bounded a spherical membrane called __________.
+
+ANSWER: Nuclear Envelope
+
+Given that log a= 5 and log b = 3, find a/b
+
+                 ANSWER:  100            [ a = 105, b = 103, hence a/b = 105/103 = 102 = 100] 
+
+Given that log a = -2 and log b = 3, find ab.
+
+                 ANSWER:   10           [ a = 10-2 and b = 103, hence ab = 10-2103= 101 = 10
+
+Given that log a = ½ , and log b = 1/3, evaluate a2/b3
+
+                ANSWER:  1     [ a = 101/2, a2 = 10     b = 101/3,   b3 = 10, hence a2/b3 = 10/10 = 1]
+
+How many millimoles of H+ ions are in 250 cm3 of 0.032 moldm-3 solution of HCl?
+
+ANSWER: moles of H+  =  250/1000 x 0.032
+
+    mmoles of H+  =  mole x 1000	=  250 x 0.032 
+
+		    	                 =  8
+
+How many millimoles of Na+ ions are in 200 cm3 of 0.45 moldm-3 solution of Na2CO3?
+
+ANSWER: mmoles of Na+  =  200 x 0.45 x 2
+
+			    	         =  180
+
+The solubility product of a solid metal halide, MCl2 is 3.6 x 10-11 at 30oC.  How many moles of chloride ions will be present in a saturated solution of the solid at 30oC.
+
+ANSWER: Ksp of MCl2   = 4x3 where x is the solubility of the solid
+
+			        x         = 3.0 x 10-4
+
+      Hence moles of chloride ions  = 2 x 3.0 x 10-4
+
+		 		 	     = 6.0 x 10-4
+
+The displacement x, in meters, of an object at time t, in seconds, is given by x = 2 – 6t + 3t2
+
+What is the velocity of the object, in meters per second, at time t?
+
+
+
+		    ANSWER: 
+
+
+
+What is the acceleration of the object at time t?
+
+
+
+		   ANSWER: 
+
+
+
+When is the object at rest?
+
+
+
+		  ANSWER:
+
+
+
+
+
+What name is given to an organism’s non-reproductive cells?
+
+ANSWER: Somatic cells
+
+What name is given to the hereditary condition in which an individual’s blood is slow to clot or unable to clot.
+
+ANSWER: Haemophilia.
+
+The red colour of a homozygous recessive flowers is its
+
+ANSWER: Phenotype
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--------------------------------------------------------------------------------
+
+--- Sample 20/20 ---
+File: CONTEST 5.doc
+Segment index in doc: 0
+Previous segment header: (none - first segment in doc)
+Next segment header: PROBLEM OF THE DAY
+Near-miss keywords within segment: "speed" present without "race" nearby
+Segment text:
+--------------------------------------------------------------------------------
+ROUND 1
+
+ Fill in the blank.
+
+During pollination, pollen grains adhere to a sticky structure known as ……
+
+		ANSWER: Stigma
+
+Which type of animals are likely to disperse seeds within brightly coloured fleshy fruits?
+
+		ANSWER: Birds  
+
+What name is given to the sweet liquid that insects and other animals seek when they visit fruits?
+
+		ANSWER: Nectar
+
+What is meant by half life of a radioactive substance?
+	ANSWER: Time taken for the radioactivity of a radioactive substance 			       to decrease by 50%
+Define rate constant of a reaction.
+	ANSWER: It is the constant in the Rate Law equation OR it is 				numerically equal to the rate a reaction when the concentration of e			ach reactant is 1 moldm-3  
+A reaction which involves transformation of A to B is said to be a second order reaction. What does second order mean?
+	ANSWER:	The rate of the reaction is proportional to the concentration 				of A to the power 2
+What is the time constant of a circuit with capacitance  and resistance ?
+
+			ANSWER: 
+
+What is the time constant of a circuit with resistance  and inductance ?
+			ANSWER: 
+
+
+
+
+What is the resonance frequency of a circuit with inductance  and capacitance ?
+
+			ANSWER: 
+
+Find the area of a square of perimeter 48 cm
+                       ANSWER:    144 cm2   [ side = 48/4 = 12 cm,  and area = 122 = 144 cm2]
+
+Find the perimeter of a square of area   8 cm2.
+                      ANSWER:     [side = , hence perimeter = 8]
+
+Find the total surface area of a cubic box of  sides 3cm
+                      ANSWER:   54 cm2  [ a cube has six faces each of area  32 cm2 = 9 cm2.
+                                           Hence total area = 6 (9) 54 cm2]
+
+Name the insects that are mostly responsible for pollination 
+
+		ANSWER: Bees
+
+Name the insect type that normally pollinates flowers which possess long slender floral tubes filled with nectar.
+
+		ANSWER: Butterflies
+
+Which type of flowers are not typically pollinated by insects?
+
+    		ANSWER: Red flowers
+
+What is an electrochemical cell?
+	ANSWER:	A set up consisting of electrodes dipping into an electrolyte 		in which a chemical reaction generates or uses an electric 			current.
+What is the name of a cell that uses an electric current to drive a spontaneous reaction?
+	ANSWER:	An Electrolytic cell.
+What is the name of a cell in which a spontaneous reaction generates an electric current?
+	ANSWER:	Voltaic or Galvanic cell
+What accounts for damping of a mechanical oscillator?
+
+			ANSWER: Friction
+
+What accounts for damping in an oscillatory electrical circuit?
+
+			ANSWER: Resistance
+
+Under what damping condition does a damped oscillator attain steady state in the shortest time? 
+
+			ANSWER: Critical damping
+
+Volume of a square pyramid is 64 cm2. If the height is 12 cm, find the side of its square base.
+                       ANSWER:  4 cm        [12x2/3 = 64, hence 4x2 = 64,   x2 = 16 and x = 4 cm]
+
+A cone has base radius 7 cm and height 18 cm. Find its volume   (Use  )
+                      ANSWER: 924 cm3     [Volume = 72(18)(22/7)/3 =7( 6)(22) = 42 (22) =       
+                                                          924 cm3]
+
+If the radius of a sphere is tripled, by how many times is the volume increased?
+                      ANSWER:   27      [Volume = k(3R)3 = 27(kR3)  ]
+
+Name the class of fishes that lack operculum and swim bladder.
+
+		ANSWER: Chondrichthyes
+
+Bony fishes belong to which class of fishes.
+
+  		ANSWER: Osteichthyes
+
+Sharks and rays belong to which class of fishes.
+
+		ANSWER: Chondrichthyes
+ 
+What is a deliquescent chemical?
+		ANSWER: A chemical that absorbs so much water from the atmosphere 				       that it dissolves in it.
+What is an Efflorescent chemical?
+		ANSWER: A chemical that loses water to the atmosphere
+Is sucrose a deliquescent or efflorescent substance?
+		ANSWER:	It is deliquescent
+
+A thin biconvex lens forms a real inverted image of an object at the same location on the axis of the lens as the object.  What is the focal length of the lens if the object is 100 cm from the poles of the lens?
+
+			ANSWER: 50 cm
+			Using the real-is-positive sign convention, so .
+
+
+
+The radius of curvature of a concave mirror is 50 cm. What is the focal length of the mirror?
+
+			ANSWER: 25 cm
+
+A concave mirror forms a real inverted image of an object at the same location on the axis of the mirror as the object. What is the focal length of the mirror if the object is 150 cm from the pole of the mirror?  
+
+			ANSWER: 75 cm
+
+If      x +3y = 2x, find the ratio  x : y
+                        ANSWER:    x : y = 3 : 1     [x = 3y, hence x/y = 3/1 and x: y = 3 : 1]
+
+If    2x - y/2 = y, find the ratio y : x
+                       ANSWER:  y : x = 4 : 3     [2x = 3y/2, hence  y/x = 4/3,    and y : x = 4 : 3 ]
+
+A man spends 90% of his salary and saves GHc 50 a month. Find his annual income.
+                       ANSWER: GHc 6,000
+                                        [monthly income is 10(GHc 50) = GHc 500, hence annual   
+                                         income is 12(GHc 500) = GHc 6000]
+
+What is the function of Lignin in plants?
+ 
+		ANSWER: It provides mechanical support to cells.
+
+What is the advantage of suberin deposition in plants?
+
+		ANSWER: It is waxy in nature and therefore prevents water loss/Make 				      cell walls impervious to water
+
+What is the composition of fungal cell walls?
+
+		ANSWER: Fungal cell walls have chitin
+
+Calculate the concentration in moldm-3 of Na2CO3 solution if 25 cm3 of it require 15 cm3 of 0.10 moldm-3 HCl solution in a titration in which methyl orange is used as indicator.
+ANSWER:	Na2CO3	+	2HCl	→	2NaCl	+  CO2	 +  H2O
+		25.0,  M		15, 0.10
+		(15.0 x 0.10)/(25.0 x M)    =	2/1	hence M   =   0.03 moldm-3
+Calculate the concentration of H2SO4 solution in moldm-3 if in a titration using methyl orange as indicator 20 cm3 of it require 22 cm3 of 0.12 moldm-3 solution of KOH.
+ANSWER:	H2SO4	+	2KOH	→	K2SO4    +     2H2O
+		20, M		22, 0.12
+		(20 x M)/(22 x 0.12)	=	½	hence M	=   0.066
+Calculate the concentration of Na2CO3 solution in moldm-3 if in a titration using phenolphthalein as indicator 25 cm3 of it require 20 cm3 of 0.10 moldm-3 of HCl solution.
+ANSWER:	Na2CO3	+	HCl	→	NaHCO3  +	 NaCl 
+		25.0, M		20, 0.10
+		(25.0 x M)/(20.0 x 0.10)    =    1/1	hence M  =   0.08 moldm-3.
+
+What is the speed of a wavewith period  and wavelength ?
+
+		ANSWER: 
+				
+
+
+
+When an object with volume  is suspended in water by means of a spring balance, the balance reads . What is the weight of the object in air? The density of water is  and acceleration due to gravity is .
+
+		ANSWER: 2.2 N
+			Lost weight equals weight of water displaced or 							 						so total weight is .
+
+
+
+What is the decay constant of a radioactive isotope whose half-life is 0.1 s? 
+
+		ANSWER:or 
+				
+
+A distance of 15 km is represented by 3 cm on a map. Find the scale of the map.
+                 ANSWER:  1 : 500,000     [3cm : 1500000cm   ie 1 : 500,000)
+
+A distance of 200km is represented by 4cm on a map. Find the distance represented by 3 cm on the map.
+                ANSWER:  150 km    [3/4(200) = 150 ]
+
+Find the ratio of the area of a circle of radius 7 cm to the area of a circle of radius 14 cm.
+                 ANSWER:       1 : 4           [  72 : 142 = 1 : 22 = 1 : 4 ]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--------------------------------------------------------------------------------
