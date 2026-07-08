@@ -54,11 +54,31 @@ function stripHeader(segmentText) {
   return lines.slice(i).join('\n');
 }
 
+// A line starting with "ANSWER:"/"ANS:" is an unconditional block boundary, even with no
+// blank line before it. Roughly half the corpus (see scope-check-blank-line-gaps.js) has
+// this label glued directly to the preceding question with no blank-line separator, or has
+// the next question's text glued onto the end of an answer block with no separator either -
+// relying on blank lines alone silently merges those into one unparseable block.
+// Requires a real separator (or end of line, for a bare "ANSWER" label) right after the
+// word - not just `[:.\t ]*` - so prose that happens to start a line with "Answering"/
+// "Answerable" doesn't get mistaken for the marker and split mid-sentence.
+const BLOCK_ANSWER_BOUNDARY_RE = /^(?:ANSWER|ANS)(?:[:.\t ]|$)/i;
+
 function splitBlocks(bodyText) {
-  return bodyText
-    .split(/\n\s*\n+/)
-    .map((b) => b.trim())
-    .filter(Boolean);
+  const blocks = [];
+  for (const blankChunk of bodyText.split(/\n\s*\n+/)) {
+    let current = [];
+    for (const line of blankChunk.split(/\r?\n/)) {
+      if (current.length > 0 && BLOCK_ANSWER_BOUNDARY_RE.test(line.trim())) {
+        blocks.push(current.join('\n'));
+        current = [line];
+      } else {
+        current.push(line);
+      }
+    }
+    if (current.length > 0) blocks.push(current.join('\n'));
+  }
+  return blocks.map((b) => b.trim()).filter(Boolean);
 }
 
 // Collapse whitespace only - keeps punctuation intact, for question/clue text.
@@ -476,15 +496,26 @@ function tryParseCloze(questionText, answerText) {
 // Segment -> question objects, per round type
 // ---------------------------------------------------------------------------------------
 
-function buildBase(fileName, subject) {
-  return { id: crypto.randomUUID(), sourceFile: fileName, subject };
+// Deterministic rather than random: an unchanged question produces the exact same ID on
+// every re-run (no cross-run lookup/matching needed to preserve stability), and editing one
+// question's text only changes that question's own ID - not its siblings' - unlike the old
+// crypto.randomUUID() scheme, where reprocessing a file regenerated every question ID in it
+// even if only one question actually changed. sha256 is called via forward reference to the
+// sha256() function declared later in this file (safe: function declarations are hoisted).
+function questionIdSeed(sourceFile, roundType, text) {
+  return `${sourceFile} ${roundType} ${text.toLowerCase().replace(/\s+/g, ' ').trim()}`;
+}
+
+function buildBase(fileName, subject, roundType, idSeedText) {
+  const id = sha256(questionIdSeed(fileName, roundType, idSeedText)).slice(0, 24);
+  return { id, sourceFile: fileName, subject };
 }
 
 function extractGeneral(fileName, segmentText, fileSubjectHint, warnings) {
   const { pairs, warnings: qaWarnings } = parseQABlocks(stripHeader(segmentText));
   warnings.push(...qaWarnings.map((w) => `[General] ${w}`));
   return pairs.map(({ questionText, answerText }) => ({
-    ...buildBase(fileName, inferSubject(`${questionText} ${answerText}`, fileSubjectHint)),
+    ...buildBase(fileName, inferSubject(`${questionText} ${answerText}`, fileSubjectHint), 'General', questionText),
     questionText,
     correctAnswer: resolveAnswerText(answerText),
     scored: false,
@@ -496,12 +527,13 @@ function extractProblemOfDay(fileName, segmentText, fileSubjectHint, warnings) {
   warnings.push(...qaWarnings.map((w) => `[ProblemOfDay] ${w}`));
   return pairs.map(({ questionText, answerText }) => {
     const subject = inferSubject(`${questionText} ${answerText}`, fileSubjectHint);
+    const base = buildBase(fileName, subject, 'ProblemOfDay', questionText);
     const cloze = tryParseCloze(questionText, answerText);
     if (cloze) {
-      return { ...buildBase(fileName, subject), ...cloze, scored: false };
+      return { ...base, ...cloze, scored: false };
     }
     return {
-      ...buildBase(fileName, subject),
+      ...base,
       questionText,
       correctAnswer: resolveAnswerText(answerText),
       scored: false,
@@ -516,7 +548,7 @@ function extractSpeedRace(fileName, segmentText, fileSubjectHint, warnings) {
     const subject = inferSubject(`${questionText} ${answerText}`, fileSubjectHint);
     const correctAnswer = resolveAnswerText(answerText);
     return {
-      ...buildBase(fileName, subject),
+      ...buildBase(fileName, subject, 'SpeedRace', questionText),
       questionText,
       correctAnswer,
       options: shuffleOptions(correctAnswer, generateDistractors(correctAnswer, subject)),
@@ -536,7 +568,7 @@ function extractTrueFalse(fileName, segmentText, fileSubjectHint, warnings) {
       continue;
     }
     out.push({
-      ...buildBase(fileName, inferSubject(questionText, fileSubjectHint)),
+      ...buildBase(fileName, inferSubject(questionText, fileSubjectHint), 'TrueFalse', questionText),
       questionText,
       correctAnswer: m[1].toLowerCase() === 'true',
       scored: true,
@@ -555,7 +587,7 @@ function extractRiddle(fileName, segmentText, fileSubjectHint, warnings) {
   const subject = inferSubject(`${questionText} ${answerText}`, fileSubjectHint);
   return [
     {
-      ...buildBase(fileName, subject),
+      ...buildBase(fileName, subject, 'Riddle', questionText),
       questionText,
       correctAnswer: answerText,
       options: shuffleOptions(answerText, generateDistractors(answerText, subject)),
