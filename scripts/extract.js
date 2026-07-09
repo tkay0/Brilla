@@ -68,9 +68,21 @@ function stripHeader(segmentText) {
 // "Answerable" doesn't get mistaken for the marker and split mid-sentence.
 const BLOCK_ANSWER_BOUNDARY_RE = /^(?:ANSWER|ANS)(?:[:.\t ]|$)/i;
 
+// Some documents put the answer label inline at the END of the question line
+// ("Find x if 1 = 125 Ans:-11/2", "... find cos2x    ans: 0") rather than on its own line.
+// A break is inserted just before such a mid-line ANSWER:/ANS:/Ans: marker so the block-start
+// logic below can treat the answer as its own block. The leading `(\S)[ \t]*` requires a
+// non-whitespace char earlier ON THE SAME LINE (\n is whitespace, so it never matches across a
+// line start), which limits this to genuinely inline markers and leaves existing
+// start-of-line markers untouched. `\b` guards against substrings like "means:", "plans:",
+// "Hans:", and the trailing `[:.]` requires a real separator so "answering"/"answerable" prose
+// is never split.
+const INLINE_ANSWER_MARKER_RE = /(\S)[ \t]*\b((?:ANSWER|ANS)\s*[:.])/gi;
+
 function splitBlocks(bodyText) {
+  const withInlineBreaks = bodyText.replace(INLINE_ANSWER_MARKER_RE, '$1\n$2');
   const blocks = [];
-  for (const blankChunk of bodyText.split(/\n\s*\n+/)) {
+  for (const blankChunk of withInlineBreaks.split(/\n\s*\n+/)) {
     let current = [];
     for (const line of blankChunk.split(/\r?\n/)) {
       if (current.length > 0 && BLOCK_ANSWER_BOUNDARY_RE.test(line.trim())) {
