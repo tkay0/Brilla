@@ -22,6 +22,10 @@ const {
   splitIntoSegments,
   matchSegmentTypes,
   detectSubjects,
+  SPEED_RACE_RE,
+  PROBLEM_OF_DAY_RE,
+  TRUE_FALSE_RE,
+  RIDDLE_RE,
 } = require('./classify-questions');
 
 const OUT_DIR = path.join(__dirname, '..', 'content', 'seed-data');
@@ -680,12 +684,27 @@ function removeQuestionsFromSource(buckets, fileName) {
 // Per-file extraction (unchanged parsing/distractor logic, called for new/changed files)
 // ---------------------------------------------------------------------------------------
 
+// Round types named only in the file title / head (first 400 chars), the same signal
+// analyzeRounds() in classify-questions.js uses. Mirrors that fallback: a type named in the
+// title but absent from every segment body (e.g. "... - Speed race.docx" whose body carries
+// no per-segment "SPEED RACE" header) would otherwise leave its segments matching nothing and
+// silently defaulting to General.
+function detectTitleRoundTypes(fileName, text) {
+  const head = `${fileName}\n${(text || '').slice(0, 400)}`;
+  const types = new Set();
+  if (SPEED_RACE_RE.test(head)) types.add('SpeedRace');
+  if (PROBLEM_OF_DAY_RE.test(head)) types.add('ProblemOfDay');
+  if (TRUE_FALSE_RE.test(head)) types.add('TrueFalse');
+  if (RIDDLE_RE.test(head)) types.add('Riddle');
+  return types;
+}
+
 function extractFile(fileName, text) {
   const fileSubjectHint = [...detectSubjects(fileName, text)][0] || null;
   const allSegments = splitIntoSegments(text);
   const questions = { General: [], SpeedRace: [], ProblemOfDay: [], TrueFalse: [], Riddle: [] };
   const warnings = [];
-  let defaultedToGeneralCount = 0;
+  let defaultedCount = 0;
   let knownExceptionSegmentCount = 0;
 
   const segments = allSegments.filter((segment) => {
@@ -701,11 +720,24 @@ function extractFile(fileName, text) {
     );
   }
 
+  // Decide what an unmatched segment should default to. If exactly one round type is named in
+  // the title but never matched by any segment body, that whole file is very likely that one
+  // round with the type only stated in the title - route unmatched segments there instead of
+  // General. If zero or several such title-only types exist, it's ambiguous, so keep the
+  // original General default rather than guess.
+  const titleTypes = detectTitleRoundTypes(fileName, text);
+  const segmentMatchedUnion = new Set();
+  for (const segment of segments) {
+    for (const t of matchSegmentTypes(segment)) segmentMatchedUnion.add(t);
+  }
+  const titleOnlyTypes = [...titleTypes].filter((t) => !segmentMatchedUnion.has(t));
+  const fallbackType = titleOnlyTypes.length === 1 ? titleOnlyTypes[0] : 'General';
+
   for (const segment of segments) {
     let matchedTypes = matchSegmentTypes(segment);
     if (matchedTypes.length === 0) {
-      defaultedToGeneralCount++;
-      matchedTypes = ['General'];
+      defaultedCount++;
+      matchedTypes = [fallbackType];
     }
     for (const type of matchedTypes) {
       const segWarnings = [];
@@ -723,8 +755,8 @@ function extractFile(fileName, text) {
       warnings.push(...segWarnings);
     }
   }
-  if (defaultedToGeneralCount > 0) {
-    warnings.push(`${defaultedToGeneralCount} segment(s) had no round-type signal, defaulted to General`);
+  if (defaultedCount > 0) {
+    warnings.push(`${defaultedCount} segment(s) had no round-type signal, defaulted to ${fallbackType}`);
   }
 
   return { questions, warnings };
