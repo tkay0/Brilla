@@ -614,8 +614,15 @@ function extractTrueFalse(fileName, segmentText, fileSubjectHint, warnings) {
   const { pairs, warnings: qaWarnings } = parseQABlocks(stripHeader(segmentText));
   warnings.push(...qaWarnings.map((w) => `[TrueFalse] ${w}`));
   const out = [];
-  for (const { questionText, answerText } of pairs) {
-    const m = answerText.trim().match(/^(true|false)\b/i);
+  // Some files (e.g. the numbered ROUND 5-* set) abbreviate the answer to a bare "T"/"F"
+  // instead of spelling out True/False. The single-letter alternatives are word-boundary
+  // guarded the same way as "true"/"false" - "T"/"F" only matches when followed by a
+  // non-word character (space, bracket, punctuation, end of string), so it can't match the
+  // start of an unrelated word like "Two" or "False" itself is unaffected since "false" is
+  // tried first in the alternation.
+  const TF_ANSWER_RE = /^(true|false|t|f)\b/i;
+  for (const { questionText, answerText, possiblyCorrupted } of pairs) {
+    const m = answerText.trim().match(TF_ANSWER_RE);
     if (!m) {
       warnings.push(`[TrueFalse] Could not parse boolean from answer: "${answerText.slice(0, 40)}..."`);
       continue;
@@ -623,8 +630,17 @@ function extractTrueFalse(fileName, segmentText, fileSubjectHint, warnings) {
     out.push({
       ...buildBase(fileName, inferSubject(questionText, fileSubjectHint), 'TrueFalse', questionText),
       questionText,
-      correctAnswer: m[1].toLowerCase() === 'true',
+      // Compare the first letter, not the whole match, so the single-letter "T"/"F" forms
+      // (which don't equal the literal string "true"/"false") are handled the same as the
+      // spelled-out forms.
+      correctAnswer: /^t/i.test(m[1]),
       scored: true,
+      // Same Pattern-2 lookahead as General (see parseQABlocks): this answer is immediately
+      // followed by another answer block, so the next statement is very likely glued onto this
+      // one's tail. Because TrueFalse is scored, a corrupted statement must never be served to a
+      // student, so carry excludeFromServing alongside the flag from creation - Stage 4's
+      // serving layer will read it rather than having to recompute it.
+      ...(possiblyCorrupted ? { possiblyCorrupted: true, excludeFromServing: true } : {}),
     });
   }
   return out;
@@ -1157,6 +1173,12 @@ function printSummary({ isDryRun, report, buckets, thisRunQuestions, thisRunWarn
     `Total accumulated in content/seed-data: General ${buckets.General.length}, SpeedRace ${buckets.SpeedRace.length}, ` +
       `ProblemOfDay ${buckets.ProblemOfDay.length}, TrueFalse ${buckets.TrueFalse.length}, ` +
       `Riddle ${buckets.Riddle.length}`
+  );
+  const flaggedGeneral = thisRunQuestions.General.filter((q) => q.possiblyCorrupted).length;
+  const flaggedTrueFalse = thisRunQuestions.TrueFalse.filter((q) => q.possiblyCorrupted).length;
+  line(
+    `Flagged possiblyCorrupted this run: General ${flaggedGeneral}, ` +
+      `TrueFalse ${flaggedTrueFalse} (also excludeFromServing)`
   );
   line();
 
