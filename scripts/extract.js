@@ -163,7 +163,8 @@ function parseQABlocks(bodyText) {
   // paragraphs), not immediately following like "ANSWER: <text>" does.
   let collectingEmptyAnswer = false;
 
-  for (const block of blocks) {
+  for (let idx = 0; idx < blocks.length; idx++) {
+    const block = blocks[idx];
     if (PREAMBLE_BLOCK_RE.test(block)) {
       collectingEmptyAnswer = false;
       preamble = block.replace(PREAMBLE_BLOCK_RE, '').trim();
@@ -189,10 +190,22 @@ function parseQABlocks(bodyText) {
       }
       let questionText = pendingQuestionParts.join(' ').trim();
       if (preamble) questionText = `${preamble} ${questionText}`;
+      // Detection only, doesn't change what gets extracted: this block is immediately
+      // followed by another answer-led block, with no question block between them - the
+      // known "swallowed question" signature (see scope-check-blank-line-gaps.js Pattern 2).
+      // That means this pair's answerText below almost certainly has the next question's text
+      // glued onto its tail. Flagged so callers can mark the resulting entry rather than
+      // silently trusting it - not fed back into any parsing decision here.
+      const nextBlock = blocks[idx + 1];
+      const possiblyCorrupted = !effectivelyEmpty && nextBlock !== undefined && ANSWER_BLOCK_RE.test(nextBlock);
       // A trailing-contest-label answer ("Answer - Contest 14") carries no real content -
       // discard it rather than storing it as the answer, so it doesn't end up prefixed onto
       // the real answer text collected from later blocks.
-      lastPair = { questionText: cleanText(questionText), answerText: effectivelyEmpty ? '' : rawAnswer };
+      lastPair = {
+        questionText: cleanText(questionText),
+        answerText: effectivelyEmpty ? '' : rawAnswer,
+        possiblyCorrupted,
+      };
       pairs.push(lastPair);
       pendingQuestionParts = [];
       collectingEmptyAnswer = effectivelyEmpty;
@@ -518,11 +531,12 @@ function buildBase(fileName, subject, roundType, idSeedText) {
 function extractGeneral(fileName, segmentText, fileSubjectHint, warnings) {
   const { pairs, warnings: qaWarnings } = parseQABlocks(stripHeader(segmentText));
   warnings.push(...qaWarnings.map((w) => `[General] ${w}`));
-  return pairs.map(({ questionText, answerText }) => ({
+  return pairs.map(({ questionText, answerText, possiblyCorrupted }) => ({
     ...buildBase(fileName, inferSubject(`${questionText} ${answerText}`, fileSubjectHint), 'General', questionText),
     questionText,
     correctAnswer: resolveAnswerText(answerText),
     scored: false,
+    ...(possiblyCorrupted ? { possiblyCorrupted: true } : {}),
   }));
 }
 
