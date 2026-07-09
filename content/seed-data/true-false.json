@@ -3134,5 +3134,2221 @@
     "questionText": "An electromagnetic wave in vacuum comprises oscillating electric and magnetic fields that are perpendicular to each other.",
     "correctAnswer": true,
     "scored": true
+  },
+  {
+    "id": "d69d21aa9558a97b957559df",
+    "sourceFile": "ROUND 5-1.doc",
+    "subject": null,
+    "questionText": "Though PC13 is trigonal pyramidal and CC14 is tetrahedral, the hybridization of the central atoms are the same.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "5c63039dca9a205641d2070b",
+    "sourceFile": "ROUND 5-1.doc",
+    "subject": null,
+    "questionText": "In the root, auxins become more concentrated on the drier side.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "7a87e44fdf0902226f5fb68c",
+    "sourceFile": "ROUND 5-1.doc",
+    "subject": null,
+    "questionText": "A tetrahedron has four vertices and six edges.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "2d7024bb5013b50f5be58929",
+    "sourceFile": "ROUND 5-1.doc",
+    "subject": "Physics",
+    "questionText": "When a stone attached to one end of a string is whirled in a circular path, the centripetal force acts through the tension in the string.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "6ba6f2d397afa2d0ab134b9c",
+    "sourceFile": "ROUND 5-1.doc",
+    "subject": "Chemistry",
+    "questionText": "The transistor can be used as a switch. T Although SO₂ and CC1₄ have 4 covalent bonds each, SO₂ is polar while CC1₄ is non polar. T [SO₂: bent molecule dipoles do not cancel out] When light is directed at the tip of a shoot, auxins become more concentrated on the dark side. T If a line is perpendicular to two non-parallel lines in a plane, then it is perpendicular to the plane.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "835966f6eb5d84db779bc3e6",
+    "sourceFile": "ROUND 5-1.doc",
+    "subject": "Maths",
+    "questionText": "In a triangle the altitudes all meet in a common point.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "e67a5d9b7cf991a035a61755",
+    "sourceFile": "ROUND 5-1.doc",
+    "subject": "Chemistry",
+    "questionText": "A mass spectrometer is used to study the optical properties of isotopes.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "d5e4653e979b138d2f20d728",
+    "sourceFile": "ROUND 5-1.doc",
+    "subject": "Chemistry",
+    "questionText": "A mole of any substance contains 6.032 x 1023 units of that substance.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "a981266feea9746c122b6b42",
+    "sourceFile": "ROUND 5-1.doc",
+    "subject": "Biology",
+    "questionText": "White blood cells have a longer lifespan than red blood cells.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "7f94a2a8fcf706e1de79c586",
+    "sourceFile": "ROUND 5-1.doc",
+    "subject": "Biology",
+    "questionText": "White blood cells with granules in their cytoplasm tend to have their nucleus divided into lobes.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "1f9aaf55b530a6f7aad3c8d1",
+    "sourceFile": "ROUND 5-10.doc",
+    "subject": null,
+    "questionText": "Each cross-section of a sphere is a circle.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "91fc00c9a25b6577c0747dd5",
+    "sourceFile": "ROUND 5-10.doc",
+    "subject": null,
+    "questionText": "In a high mountainous location boiling point of water is above 100oC.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "84ce362ce1e7e443bdc08845",
+    "sourceFile": "ROUND 5-10.doc",
+    "subject": null,
+    "questionText": "The shape of a density dependent growth curve of a population is bell-shaped.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "7d0b9cce83fb031b6c17d93d",
+    "sourceFile": "ROUND 5-10.doc",
+    "subject": null,
+    "questionText": "In gamma decay, the atomic number of a nucleus increases by 1.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "8cac4a68af36b3c0ccfe42b5",
+    "sourceFile": "ROUND 5-10.doc",
+    "subject": "Chemistry",
+    "questionText": "In the kinetic theory of gases, one of the assumptions made is that the molecules make inelastic collisions with the walls of the container.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "8ab23702d3bdbe6be857938e",
+    "sourceFile": "ROUND 5-10.doc",
+    "subject": null,
+    "questionText": "Each cross-section of a cube is a square.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "81f7f32881b761a789866b21",
+    "sourceFile": "ROUND 5-10.doc",
+    "subject": "Chemistry",
+    "questionText": "Transition state theory explains a reaction in terms of an activated complex which is formed from collision of reactant molecules.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "818e6d4a0c3a719450a30bff",
+    "sourceFile": "ROUND 5-10.doc",
+    "subject": "Biology",
+    "questionText": "The organisms most likely to be controlled by density-independent factors are small, short-lived organisms that can reproduce very rapidly.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "9c3c39a713218bfb377e23eb",
+    "sourceFile": "ROUND 5-10.doc",
+    "subject": null,
+    "questionText": "The secretion of saliva is an example of a reflex that does not involve the brain.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "001e30678975dd416da33cd0",
+    "sourceFile": "ROUND 5-10.doc",
+    "subject": null,
+    "questionText": "The half life of a radioactive material reduces exponentially with time",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "eb813c44115aaeab136d99f2",
+    "sourceFile": "ROUND 5-10.doc",
+    "subject": null,
+    "questionText": "A prime number is divisible only by itself",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "a5783faab2c3a647870b9bfc",
+    "sourceFile": "ROUND 5-10.doc",
+    "subject": "Chemistry",
+    "questionText": "Electrolysis of brine using inert electrodes gives sodium metal and chlorine gas",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "3cf25ebebdf91f8c0fb850d1",
+    "sourceFile": "ROUND 5-10.doc",
+    "subject": "Chemistry",
+    "questionText": "Copper is purified in electrolysis of CuSO4 solution using inert electrodes",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "7c89ff205480cad08d759688",
+    "sourceFile": "ROUND 5-10.doc",
+    "subject": null,
+    "questionText": "The withdrawal of one's hand from a hot object is an example of spinal reflex",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "b32282952ff61373e5852bcf",
+    "sourceFile": "ROUND 5-10.doc",
+    "subject": "Chemistry",
+    "questionText": "The viscosity of a liquid is caused by the molecular attraction between the molecules in the liquid",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "bf863ef39594aef88d2d42b2",
+    "sourceFile": "ROUND 5-10.doc",
+    "subject": null,
+    "questionText": "Every set is a proper subset of itself.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "8e89740e45a9dee887251ad7",
+    "sourceFile": "ROUND 5-2.doc",
+    "subject": null,
+    "questionText": "If the product of two integers is odd, then both integers are odd.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "242c5b1f847beaec2003c797",
+    "sourceFile": "ROUND 5-2.doc",
+    "subject": null,
+    "questionText": "Spider lily is a rhizome",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "6a11243c17b3903abdf95a7d",
+    "sourceFile": "ROUND 5-2.doc",
+    "subject": "Physics",
+    "questionText": "It can be shown from the Gas Law that for a given mass of a gas, its density varies directly with absolute temperature at a constant pressure.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "cfd9e3a9026c5e0405b2a7c7",
+    "sourceFile": "ROUND 5-2.doc",
+    "subject": null,
+    "questionText": "A capacitor can be used in determining the permittivity of free space.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "3141282f8f50ec3062e24e0e",
+    "sourceFile": "ROUND 5-2.doc",
+    "subject": "Physics",
+    "questionText": "The sun is the major source of energy for the earth.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "059f96eaa2871ecd5247c646",
+    "sourceFile": "ROUND 5-2.doc",
+    "subject": null,
+    "questionText": "If the sum of two integers is even, then both integers are even.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "1c58d023416f20d5307cfd65",
+    "sourceFile": "ROUND 5-2.doc",
+    "subject": "Biology",
+    "questionText": "Glycolysis occurs in both aerobic and anaerobic respiration.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "228a4f0256040de5d57ed144",
+    "sourceFile": "ROUND 5-2.doc",
+    "subject": "Physics",
+    "questionText": "For a given amount of gas at a given temperature, its density is inversely proportional to pressure.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "cd4720cf8a1ba6ce8e44d001",
+    "sourceFile": "ROUND 5-2.doc",
+    "subject": null,
+    "questionText": "Kerosene and aviation fuel constitute one fraction in the fractional distillation of crude oil.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "a67ba47d03015d9a96229f96",
+    "sourceFile": "ROUND 5-2.doc",
+    "subject": null,
+    "questionText": "In a first-class lever, the load is between the fulcrum and the effort.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "c60aeb727b776b81f2267a4d",
+    "sourceFile": "ROUND 5-2.doc",
+    "subject": "Maths",
+    "questionText": "If the discriminant of a quadratic equation is position is positive, the equation has two distinct roots.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "e6812fa742825b14cbe7ccc2",
+    "sourceFile": "ROUND 5-2.doc",
+    "subject": null,
+    "questionText": "Glcolysis is an example of a catabolic process.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "edc8794ca63ac7c0a9300fd1",
+    "sourceFile": "ROUND 5-2.doc",
+    "subject": null,
+    "questionText": "Canna lily is a rhizome.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "fc3e7ac4b2fb1078e67cc758",
+    "sourceFile": "ROUND 5-2.doc",
+    "subject": null,
+    "questionText": "Plaster of Paris and Gypsum contain the same cations and anions.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "db26b172f9665117d209d829",
+    "sourceFile": "ROUND 5-2.doc",
+    "subject": "Chemistry",
+    "questionText": "The movement of molecules in a gas is minimum at a temperature of 0 K.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "7496a544a9a8496c9844132e",
+    "sourceFile": "ROUND 5-2.doc",
+    "subject": "Maths",
+    "questionText": "If the angles of a quadrilateral are congruent, then the quadrilateral is equilateral.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "c9838df9b9a95da67c81e7a9",
+    "sourceFile": "ROUND 5-3.doc",
+    "subject": null,
+    "questionText": "When a person is at rest, breathing involving the use of the ribs is more important than the use of the diaphragm.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "26344846285b460b7adf513f",
+    "sourceFile": "ROUND 5-3.doc",
+    "subject": null,
+    "questionText": "A transformer operates on the principle of mutual induction.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "71cf36b4f31e2c42f3dcec2c",
+    "sourceFile": "ROUND 5-3.doc",
+    "subject": "Chemistry",
+    "questionText": "The hydrogen atom exhibits three oxidation states",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "ec2827f292f8156913ea9d71",
+    "sourceFile": "ROUND 5-3.doc",
+    "subject": null,
+    "questionText": "For a reflection in the line y = x, ( x, y )→( y, x )",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "ebb94d57f352c99aae967617",
+    "sourceFile": "ROUND 5-3.doc",
+    "subject": "Maths",
+    "questionText": "In a circle, equal chords subtend equal angles at the centre.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "d2e9a6101b00cac85e09c508",
+    "sourceFile": "ROUND 5-3.doc",
+    "subject": "Biology",
+    "questionText": "During inspiration, contraction of the muscles of the diaphragm increases the transverse diameter of the thorax.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "8c54caf74c7dbb6998e57cd1",
+    "sourceFile": "ROUND 5-3.doc",
+    "subject": "Physics",
+    "questionText": "In reverse bias, a diode normally conducts large currents.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "09f97f856d69d15eab9ed75d",
+    "sourceFile": "ROUND 5-3.doc",
+    "subject": "Chemistry",
+    "questionText": "The oxidation state of carbon in methanal is different from its oxidation state in methanol.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "bcf210225f534424447b0f32",
+    "sourceFile": "ROUND 5-3.doc",
+    "subject": null,
+    "questionText": "Egg shells, marble and gypsum are all chemically identical.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "86690dc43f2c140797dfbb2a",
+    "sourceFile": "ROUND 5-3.doc",
+    "subject": "Biology",
+    "questionText": "Tissue fluid is reabsorbed into the blood at the arterial end of a capillary bed.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "bdc8081156697d82551a66a5",
+    "sourceFile": "ROUND 5-3.doc",
+    "subject": null,
+    "questionText": "A holographic image is three - dimensional",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "0051fd9a846999e4808da4da",
+    "sourceFile": "ROUND 5-3.doc",
+    "subject": "Physics",
+    "questionText": "Alpha particles are always emitted from a nuclear disintegration with definite kinetic energies.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "97be79d3a1130adb5ff57f2c",
+    "sourceFile": "ROUND 5-3.doc",
+    "subject": "Physics",
+    "questionText": "It will require more charge to liberate a mole of Cl2 from molten NaCl than a mole of magnesium from molten MgCl2.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "74c911d2dfb84bc17d1f8df0",
+    "sourceFile": "ROUND 5-3.doc",
+    "subject": "Maths",
+    "questionText": "A function f(x) is odd if f(-x) =f(x)",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "340174c96fb012fee176017d",
+    "sourceFile": "ROUND 5-3.doc",
+    "subject": "Biology",
+    "questionText": "Lymph contains less protein than plasma.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "e0216dac0194b211555d094f",
+    "sourceFile": "ROUND 5-4.doc",
+    "subject": "Biology",
+    "questionText": "During the interphase of mitosis, the nuclear membrane disappears.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "464d24676f5a1dbd0c226f45",
+    "sourceFile": "ROUND 5-4.doc",
+    "subject": null,
+    "questionText": "Sulphur IV oxide, SO2 is an inorganic substance.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "54fb0fad90e915e9332f7c5a",
+    "sourceFile": "ROUND 5-4.doc",
+    "subject": "Physics",
+    "questionText": "Resonance in an LCR circuit occurs at maximum impedance.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "de580178877eebfb21792002",
+    "sourceFile": "ROUND 5-4.doc",
+    "subject": null,
+    "questionText": "If a and b are numbers then |a - b| = |b -a|. (Absolute value of a-b is equal to absolute value of b -a )",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "dd5e8e345eb265479e5bf34a",
+    "sourceFile": "ROUND 5-4.doc",
+    "subject": "Biology",
+    "questionText": "Rough endoplasmic reticulum is more common in cells that secrete enzymes.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "70e03684e0ebf2675ae82424",
+    "sourceFile": "ROUND 5-4.doc",
+    "subject": null,
+    "questionText": "Sulphur IV oxide, SO2 is an inorganic substance and therefore it is ionic.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "0b68c37991f933279d85ebaa",
+    "sourceFile": "ROUND 5-4.doc",
+    "subject": null,
+    "questionText": "Light travels faster in a material medium than in a vacuum.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "af575c019e1b93bd4abac927",
+    "sourceFile": "ROUND 5-4.doc",
+    "subject": null,
+    "questionText": "Unpolarised light can be polarized by reflection.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "93834007768f756acca204bf",
+    "sourceFile": "ROUND 5-4.doc",
+    "subject": null,
+    "questionText": "The LCM of two numbers is the product of their common factors.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "f36a0d62d1fed113f3a2b2ea",
+    "sourceFile": "ROUND 5-4.doc",
+    "subject": "Maths",
+    "questionText": "The cones of the retina function best in dim light.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "8b88b64a7ee012de2c5b65e2",
+    "sourceFile": "ROUND 5-4.doc",
+    "subject": "Chemistry",
+    "questionText": "1 mole of butane gas, molar mass 58, at 0oC and 100 kPa will occupy a bigger volume than 1 mole of hydrogen gas, molar mass 2, also at 0oC and 100 kPa.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "d83a6e8edcffe94facc7e4e7",
+    "sourceFile": "ROUND 5-4.doc",
+    "subject": null,
+    "questionText": "The only gas that rekindles a glowing splint is oxygen. F [N2O also rekindles a glowing splint) A projectile will deviate from a parabolic path if wind resistance is present.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "2fbeabc34a13ba6f5d87fa04",
+    "sourceFile": "ROUND 5-4.doc",
+    "subject": null,
+    "questionText": "x2 + 2xy + y2 is an exact square.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "6b10fe789076ee331ab08099",
+    "sourceFile": "ROUND 5-4.doc",
+    "subject": null,
+    "questionText": "The fovea of the eye contains cones but no rods.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "c65ebc36c2e4d1f146f4ec99",
+    "sourceFile": "ROUND 5-5.doc",
+    "subject": "Biology",
+    "questionText": "1. The classification of blood groups in humans is based on different types of Haemoglobin.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "6b49561c9f900e55df041cee",
+    "sourceFile": "ROUND 5-5.doc",
+    "subject": "Physics",
+    "questionText": "2. Electron diffraction occurs because electrons can behave as waves",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "666a306b6007ea4c2432abae",
+    "sourceFile": "ROUND 5-5.doc",
+    "subject": null,
+    "questionText": "3. Whereas iron II salts are pale green, salts of Cu II are either pale green or blue.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "5640815141ee646c5f0c0df4",
+    "sourceFile": "ROUND 5-5.doc",
+    "subject": "Maths",
+    "questionText": "4. The cosine of an angle is always greater than its sine.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "ebaa4b9ccccc783f55b24ab2",
+    "sourceFile": "ROUND 5-5.doc",
+    "subject": null,
+    "questionText": "5. The volume of a circular cone is r2 h",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "e5862befa0fc86d0484efcb2",
+    "sourceFile": "ROUND 5-5.doc",
+    "subject": "Biology",
+    "questionText": "6. The malphigian layer of the skin is made up of actively dividing cells.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "18dc7ebbdb0f9577f7b102c9",
+    "sourceFile": "ROUND 5-5.doc",
+    "subject": null,
+    "questionText": "7. Protons cannot exhibit diffraction effects.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "d2e2390323e7e530f7b23ce1",
+    "sourceFile": "ROUND 5-5.doc",
+    "subject": "Chemistry",
+    "questionText": "8. Addition of either dilute NaOH or dilute ammonia to Cu II solution will produce a pale green precipitate.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "4a841c1ddc7c2377fc3f382c",
+    "sourceFile": "ROUND 5-5.doc",
+    "subject": null,
+    "questionText": "9. For the same number of carbon atoms, the hydrocarbon with a straight chain will have a lower boiling point than the one with a branched chain.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "0e5b6aab99587fa6ea5b6321",
+    "sourceFile": "ROUND 5-5.doc",
+    "subject": null,
+    "questionText": "10. A cuboid is a prism.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "66171f93180d39de97fd1459",
+    "sourceFile": "ROUND 5-5.doc",
+    "subject": null,
+    "questionText": "11. The malphigian layer of the skin is very thick in the palms of the hand and soles of the feet.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "b73312ff91f2a54d098b8e13",
+    "sourceFile": "ROUND 5-5.doc",
+    "subject": "Physics",
+    "questionText": "12. The velocity of a wave traveling in a stretched wire can be decreased by increasing the length of the wire.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "ce507626fd4cdda1215a13d6",
+    "sourceFile": "ROUND 5-5.doc",
+    "subject": null,
+    "questionText": "13. Sound travels more slowly in a dense solid. [Travels faster in a dense solid]",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "842d1c0e1c5377ce2e2d2b8a",
+    "sourceFile": "ROUND 5-5.doc",
+    "subject": null,
+    "questionText": "14. 2, 2, 3, 3-tetramethylnonane contains fewer carbons than duodecane.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "30ec347d33a68209ca4b7726",
+    "sourceFile": "ROUND 5-5.doc",
+    "subject": "Biology",
+    "questionText": "16. Hemoglobin can be found only in animals.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "612daf62d14a5a3442a1455c",
+    "sourceFile": "ROUND 5-5.doc",
+    "subject": "Maths",
+    "questionText": "17. The cosine of an angle is always greater than it sine.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "53f3c03e49712d5c13895731",
+    "sourceFile": "ROUND 5-6.doc",
+    "subject": "Maths",
+    "questionText": "A function is increasing if the derivative of the function is positive.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "e884057311345ba71642d8eb",
+    "sourceFile": "ROUND 5-6.doc",
+    "subject": "Chemistry",
+    "questionText": "In mass spectrometry, ions are separated on the basis of their masses only.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "d62966be62edd7613b2f955a",
+    "sourceFile": "ROUND 5-6.doc",
+    "subject": null,
+    "questionText": "All amphibians undergo metamorphosis.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "426667d5d09e28208c5833ab",
+    "sourceFile": "ROUND 5-6.doc",
+    "subject": null,
+    "questionText": "The proton is a nucleon.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "47e03674884e96f5864cb55a",
+    "sourceFile": "ROUND 5-6.doc",
+    "subject": "Physics",
+    "questionText": "A magnetic field will do no work on a charged particle moving within it.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "f0cd3351ba5d3e776f48ec3d",
+    "sourceFile": "ROUND 5-6.doc",
+    "subject": "Maths",
+    "questionText": "The sum of the interior angles of a hexagon is 720.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "ca8055c3e9073d9234db1324",
+    "sourceFile": "ROUND 5-6.doc",
+    "subject": "Biology",
+    "questionText": "In Rutherford's α- particle scattering experiments only a few of the α particles were scattered T All organisms in the class Trematoda are endoparasites.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "73bbd4f857c02bb57e3f345d",
+    "sourceFile": "ROUND 5-6.doc",
+    "subject": null,
+    "questionText": "Mosaic disease of tobacco is caused by fungus.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "9399b11a26b8494699f79c02",
+    "sourceFile": "ROUND 5-6.doc",
+    "subject": "Chemistry",
+    "questionText": "The image formed by plane mirror is always diminished. F [The image formed is neither magnified nor diminished]. The rank of a matrix is the number of elements in the matrix.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "6c9f99ad11ab2b4d79e5332b",
+    "sourceFile": "ROUND 5-6.doc",
+    "subject": "Chemistry",
+    "questionText": "Atoms of isotopes have identical chemical properties.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "bece8cd2e6cf500557511289",
+    "sourceFile": "ROUND 5-6.doc",
+    "subject": "Chemistry",
+    "questionText": "Atoms of allotropes of an element are identical.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "22672901baf491115fd3b247",
+    "sourceFile": "ROUND 5-6.doc",
+    "subject": null,
+    "questionText": "The stomach of a rabbit has four chambers.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "d9b68e29c67f5dc57d4a9947",
+    "sourceFile": "ROUND 5-6.doc",
+    "subject": null,
+    "questionText": "Heat reaches the earth from the sun by radiation.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "aed369797035a979cb41b29a",
+    "sourceFile": "ROUND 5-6.doc",
+    "subject": "Maths",
+    "questionText": "When the ratio of successive terms of a sequence is constant, the sequence is an exponential sequence.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "2af7f0e8217824acdb496dbf",
+    "sourceFile": "ROUND 5-7.doc",
+    "subject": "Physics",
+    "questionText": "Radioactivity can be induced in a nucleus by bombarding it with neutrons",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "97054a34706f280c14bdefd0",
+    "sourceFile": "ROUND 5-7.doc",
+    "subject": null,
+    "questionText": "The square of any real number is always non negative",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "d2cea7b7bac22397ed4541f6",
+    "sourceFile": "ROUND 5-7.doc",
+    "subject": "Biology",
+    "questionText": "The x chromosome of human beings carries information on blood clotting and colour vision.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "c9551dfbd833c72798573302",
+    "sourceFile": "ROUND 5-7.doc",
+    "subject": null,
+    "questionText": "Since the molar mass of HCl gas is 36.5, its mass spectrum will have a peak corresponding to m/z = 36.5",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "39aac2c6b1c002a3acba61d3",
+    "sourceFile": "ROUND 5-7.doc",
+    "subject": null,
+    "questionText": "Two of the peaks that will be found in the mass spectrum of HCl are m/e = 36 and 37",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "2e3246162e233057bfa2161a",
+    "sourceFile": "ROUND 5-7.doc",
+    "subject": "Physics",
+    "questionText": "Angular momentum is a conserved quantity.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "4fdcb25da0780431e470edba",
+    "sourceFile": "ROUND 5-7.doc",
+    "subject": null,
+    "questionText": "If a2 b2, then ab",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "eb4121d5d00d3f266b904602",
+    "sourceFile": "ROUND 5-7.doc",
+    "subject": "Biology",
+    "questionText": "Downs syndrome is an example of gene mutation.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "7f5f97712b04dccd350d957e",
+    "sourceFile": "ROUND 5-7.doc",
+    "subject": null,
+    "questionText": "RNA does not replicate",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "7cb15b6396668ddc9333903e",
+    "sourceFile": "ROUND 5-7.doc",
+    "subject": "Chemistry",
+    "questionText": "Methane and chlorine react in the presence of light in an elimination reaction.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "80c4ba9f4938f66d3e9aa7a9",
+    "sourceFile": "ROUND 5-7.doc",
+    "subject": "Chemistry",
+    "questionText": "Line spectra can be used to identify the constituent elements of gas.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "86cb61043b56b214167a9fdf",
+    "sourceFile": "ROUND 5-7.doc",
+    "subject": null,
+    "questionText": "If each side of an inequality is multiplied by a positive number the sense of the inequality is reversed.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "8f3b50a2d3922360e0c26983",
+    "sourceFile": "ROUND 5-7.doc",
+    "subject": "Chemistry",
+    "questionText": "Every linear equation has a solution",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "1b71dc3f354631abc82226f7",
+    "sourceFile": "ROUND 5-7.doc",
+    "subject": null,
+    "questionText": "Mature insects do not grow.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "3266bd799dc279219110ec58",
+    "sourceFile": "ROUND 5-7.doc",
+    "subject": "Chemistry",
+    "questionText": "The reaction between chlorine gas and ethene is addition reaction",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "6238cf87b08ae319ce5bf429",
+    "sourceFile": "ROUND 5-7.doc",
+    "subject": "Physics",
+    "questionText": "Kinetic energy is conserved in an elastic collision.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "a786cb34e196457da3a8d2d2",
+    "sourceFile": "ROUND 5-8.doc",
+    "subject": null,
+    "questionText": "The larger of the two nuclei derived from a pollen grain is called the tube nucleus",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "f561871692fb82779edc87b4",
+    "sourceFile": "ROUND 5-8.doc",
+    "subject": null,
+    "questionText": "The planets in our solar system move in elliptical orbits around the sun.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "97d490f8680057693f4d3afa",
+    "sourceFile": "ROUND 5-8.doc",
+    "subject": "Chemistry",
+    "questionText": "An ion with high reduction electrode potential is a good oxidizing agent.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "3feac37e39857fc790680075",
+    "sourceFile": "ROUND 5-8.doc",
+    "subject": "Maths",
+    "questionText": "The y- intercept of the line with equation ax +by=c is c",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "7e13a82645d95f786e3c1a92",
+    "sourceFile": "ROUND 5-8.doc",
+    "subject": null,
+    "questionText": "The intersection of any two sets is a subset of both sets",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "cda646de9e51924864217bb7",
+    "sourceFile": "ROUND 5-8.doc",
+    "subject": "Biology",
+    "questionText": "The sporophyte of a moss plant is the haploid generation",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "3f4a264b8e1a9f697833aef1",
+    "sourceFile": "ROUND 5-8.doc",
+    "subject": "Physics",
+    "questionText": "An object undergoing oscillatory motion has no acceleration.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "43083152115d093d86fec538",
+    "sourceFile": "ROUND 5-8.doc",
+    "subject": "Chemistry",
+    "questionText": "Cu2+ should have a higher reduction potential than Mg2+.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "533a277ad5f592384be56b1c",
+    "sourceFile": "ROUND 5-8.doc",
+    "subject": "Chemistry",
+    "questionText": "It is easier to prepare an organic ester from carboxylic acid and alkanol than from acid chloride and alkanol.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "96ea8e47dc538ebd42daa273",
+    "sourceFile": "ROUND 5-8.doc",
+    "subject": "Chemistry",
+    "questionText": "Any two simultaneous linear equations in two variables have a solution.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "c6ca58b70c11495175823959",
+    "sourceFile": "ROUND 5-8.doc",
+    "subject": null,
+    "questionText": "An optical microscope magnifies objects.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "e7382cb8738c1c23f12f5834",
+    "sourceFile": "ROUND 5-8.doc",
+    "subject": "Physics",
+    "questionText": "A capacitor is capable of storing electrical energy.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "363186a8e79d4f245c9c8019",
+    "sourceFile": "ROUND 5-8.doc",
+    "subject": "Physics",
+    "questionText": "An inductor is capable of storing electrical energy.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "230ea10cd966c6acf6dba1a0",
+    "sourceFile": "ROUND 5-8.doc",
+    "subject": "Chemistry",
+    "questionText": "Esterification using an organic acid and alkanol uses part of the acid as a catalyst.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "83dc3101e6fa2d7adaa045bf",
+    "sourceFile": "ROUND 5-8.doc",
+    "subject": null,
+    "questionText": "In a linear programming problem, the constraints can involve a quadratic inequality.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "395932adf215146112d24a7a",
+    "sourceFile": "ROUND 5-8.doc",
+    "subject": null,
+    "questionText": "It is always advisable to move the low power objective piece of a light microscope downwards when focusing objects.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "5255da98448e7b90e7cfb3a0",
+    "sourceFile": "ROUND 5-9.doc",
+    "subject": null,
+    "questionText": "In the Rutherford α-particle experiments there were 3 types/groups of scattered particles. T Zener diodes are often used as rectifiers.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "1f6232b53d158471ad2ba941",
+    "sourceFile": "ROUND 5-9.doc",
+    "subject": null,
+    "questionText": "Fats have a respiratory quotient of more than one.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "a68e7ca56e062b216410d398",
+    "sourceFile": "ROUND 5-9.doc",
+    "subject": "Physics",
+    "questionText": "A rhombus has four congruent angles. F [4 congruent sides] In a rhombus, the diagonals are the two axes of symmetry. T In the Rutherford α-particles experiment, some of the α-particles did not show any deflection. T Radioactive isotopes can be used as an energy source. T Lack of antidiuretic hormone causes the passage of small volumes of concentrated urine. F The allele that causes the presence of the Rhesus factor is a dominant allele. T A many to one relation is a mapping. T Phenolphthalein turns colourless when the pH of the solution in which it is present is less than 7 F [turns red at pH below 9] In a nuclear reactor, the purpose of the control rods is to absorb neutrons. T An electric transformer is used to step up or step down direct current. F [alternating current] People with the rhesus positive factor can receive blood from rhesus negative people. T Only some mappings are relations. F [every mapping is a relation] Methyl orange turns red when the pH of the solution in which it is present is 6.5.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "430df4b5edd581f5fb49c47d",
+    "sourceFile": "ROUND 5.doc",
+    "subject": "Physics",
+    "questionText": "All organisms in the order Apicomplexa do not possess locomotory structures T. Evaporation occurs in solids as well as liquids T. The first ionization energy of hydrogen is higher than those of both lithium and helium.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "524f40f078a75f84a6375a76",
+    "sourceFile": "ROUND 5.doc",
+    "subject": null,
+    "questionText": "Two polygons are similar if corresponding sides are in the same ratio.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "192c263c1d9bd2c1fe993195",
+    "sourceFile": "ROUND 5.doc",
+    "subject": "Maths",
+    "questionText": "A triangle is uniquely determined by specifying two sides and any angle.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "211b98b72ae6669d782d28af",
+    "sourceFile": "ROUND 5.doc",
+    "subject": "Biology",
+    "questionText": "All organisms in the order Apicomplexa are parasitic",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "29302018a63afa43bdee9cf6",
+    "sourceFile": "ROUND 5.doc",
+    "subject": "Physics",
+    "questionText": "The internal energy of a gas depends on the number of atoms in the molecules within the gas.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "4fd95e38d4fba443d9cb3963",
+    "sourceFile": "ROUND 5.doc",
+    "subject": "Chemistry",
+    "questionText": "The densities of the transition metals from scandium to nickel are expected to increase from left to right.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "8f3a0ae9e7667d9cf5f485df",
+    "sourceFile": "ROUND 5.doc",
+    "subject": null,
+    "questionText": "To be able to determine the precision of a measurement, the true value should be known.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "66ebd4c460e121f5b5ff6556",
+    "sourceFile": "ROUND 5.doc",
+    "subject": "Maths",
+    "questionText": "The sum of the interior angles of a polygon of n sides is (180n -360)o.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "e5d63cd3249710d1e0689b04",
+    "sourceFile": "ROUND 5.doc",
+    "subject": "Biology",
+    "questionText": "During the prophase of mitosis, bivalent chromosomes come to lie together. F. [occurs during meiosis] When a capacitor is placed in series with a resistor in a circuit, alternating current is unable to flow through the capacitor.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "b17306fb9baea9d6bdeb8d10",
+    "sourceFile": "ROUND 5.doc",
+    "subject": "Physics",
+    "questionText": "A transistor operating in the common-emitter mode is a current amplifier.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "b5647ef8fc7fa1e53deb0b03",
+    "sourceFile": "ROUND 5.doc",
+    "subject": null,
+    "questionText": "Accuracy is simply the difference between an experimental value and the true value.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "f296841a04d014a2f551ff35",
+    "sourceFile": "ROUND 5.doc",
+    "subject": "Maths",
+    "questionText": "In a parallelogram, the diagonals bisect the angles at their ends.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "ed36ac22acab83d71ad1458f",
+    "sourceFile": "ROUND 5.doc",
+    "subject": "Biology",
+    "questionText": "During metaphase 1 of meiosis, no division of centromeres occurs before migration of chromosomes to the poles.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "8daa2abb6c15e0a869abd99f",
+    "sourceFile": "ROUND 5.docx",
+    "subject": "Maths",
+    "questionText": "Vertical lines intersect the graph of a function in no more than one point.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "a4f725dba7238e21197f4d9f",
+    "sourceFile": "ROUND 5.docx",
+    "subject": null,
+    "questionText": "A bright light contains a greater number of photons than dim light.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "a4762cd4099cc96cb2641203",
+    "sourceFile": "ROUND 5.docx",
+    "subject": "Physics",
+    "questionText": "A closed system is one in which only energy can pass across its boundary.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "6f2206c45ef81266834c3a73",
+    "sourceFile": "ROUND 5.docx",
+    "subject": null,
+    "questionText": "Lymphocytes have granules in their cytoplasm.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "3a73fd685d7865d68d2e4f1a",
+    "sourceFile": "ROUND 5.docx",
+    "subject": "Biology",
+    "questionText": "White blood cells with granules in the cytoplasm have a rounded nucleus.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "b855df9295be683d9241cd78",
+    "sourceFile": "ROUND 5.docx",
+    "subject": "Maths",
+    "questionText": "An even function has a graph that is symmetric with respect to the origin.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "ba99a493c903c6607828e87e",
+    "sourceFile": "ROUND 5.docx",
+    "subject": "Physics",
+    "questionText": "Television signals are carried by electromagnetic waves.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "3f05b85c20712a73bcd5e672",
+    "sourceFile": "ROUND 5.docx",
+    "subject": "Physics",
+    "questionText": "An open system is one in which matter and energy can pass across its boundary.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "207425a7126352192573f446",
+    "sourceFile": "ROUND 5.docx",
+    "subject": "Physics",
+    "questionText": "The first ionization energy always increases across the period from Lithium to Neon.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "36586608d5ad046b00d0719c",
+    "sourceFile": "ROUND 5.docx",
+    "subject": null,
+    "questionText": "The flowers of crotolaria are bilaterally symmetrical.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "b25a7d8e4c40c00ad3980384",
+    "sourceFile": "ROUND 5.docx",
+    "subject": null,
+    "questionText": "The circumference of a circle with diameter D is πD.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "b8336ad8a7336aebd7685836",
+    "sourceFile": "ROUND 5.docx",
+    "subject": "Physics",
+    "questionText": "The terminal velocity of an object dropped from a great height is constant.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "9269911fa6c1fb478c4a3ec4",
+    "sourceFile": "ROUND 5.docx",
+    "subject": "Physics",
+    "questionText": "A rotating object does not possess any kinetic energy.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "2bc26c4322f0391fe73c2028",
+    "sourceFile": "ROUND 5.docx",
+    "subject": "Physics",
+    "questionText": "Across the same period, increase in effective nuclear charge and decrease in atomic radius account for the general increase in ionization energy from left to right.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "527930b36213f14155feae21",
+    "sourceFile": "ROUND 5.docx",
+    "subject": null,
+    "questionText": "The flowers of crotalaria have superior ovary.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "a379616e06f0011b011c6d2d",
+    "sourceFile": "ROUND5-1.doc",
+    "subject": "Chemistry",
+    "questionText": "Lightning serves as a catalyst in reactions of certain gases.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "d494f1c4991a8b6466522a4d",
+    "sourceFile": "ROUND5-1.doc",
+    "subject": "Physics",
+    "questionText": "When a ferromagnetic material is inserted into a solenoid through which current is flowing, the magnetic field produced by the solenoid will decrease.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "1374192cdfc1a84bbe0c149e",
+    "sourceFile": "ROUND5-1.doc",
+    "subject": "Maths",
+    "questionText": "If an angle is obtuse, its cosine is negative.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "696064661f50a29e6b54f5b9",
+    "sourceFile": "ROUND5-1.doc",
+    "subject": "Chemistry",
+    "questionText": "Niacin is the chemical name for vitamins B2.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "475baf3f2f24b99ed73005af",
+    "sourceFile": "ROUND5-1.doc",
+    "subject": null,
+    "questionText": "Crinum is the botanical name for water spider lily.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "333a9433d782523edf7368df",
+    "sourceFile": "ROUND5-1.doc",
+    "subject": null,
+    "questionText": "Cis-trans isomers are also stereochemical isomers.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "c2b702529220f00cfbdfc90a",
+    "sourceFile": "ROUND5-1.doc",
+    "subject": null,
+    "questionText": "X-rays can only be produced artificially.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "6af6cf0264bd98f33a78d36c",
+    "sourceFile": "ROUND5-1.doc",
+    "subject": null,
+    "questionText": "Irrational numbers have decimals that neither repeat nor terminate",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "2de13815bc505394996ccdfa",
+    "sourceFile": "ROUND5-1.doc",
+    "subject": null,
+    "questionText": "If each side of a cube is doubled, the surfaces are doubled.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "e4b4e00e658fb11a7744d06f",
+    "sourceFile": "ROUND5-1.doc",
+    "subject": null,
+    "questionText": "Boerhavia is dispersed by explosive mechanism.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "e7b6f0435a6591132d4551a5",
+    "sourceFile": "ROUND5-1.doc",
+    "subject": null,
+    "questionText": "1 - Butene will not show cis-trans isomerism.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "7d88d93107ffaf4376fd1e0d",
+    "sourceFile": "ROUND5-1.doc",
+    "subject": "Physics",
+    "questionText": "For capacitors connected in series, the total charge on all the capacitors is equal to the charge on any one of the capacitors in the series.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "0a9c650b7db746897cc68a08",
+    "sourceFile": "ROUND5-1.doc",
+    "subject": "Physics",
+    "questionText": "A moving electric charge produces a magnetic field.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "dca278fbf581c78a7978f4af",
+    "sourceFile": "ROUND5-1.doc",
+    "subject": null,
+    "questionText": "Plumbago is dispersed by wind.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "5ad7f180f127f10c6be5880e",
+    "sourceFile": "ROUND5-2.doc",
+    "subject": "Maths",
+    "questionText": "The quadratic function has an inverse.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "0c6dfe989a7fc030197e930c",
+    "sourceFile": "ROUND5-2.doc",
+    "subject": "Chemistry",
+    "questionText": "The work function of a metal can be changed by decreasing the wavelength of incident radiation. F [The work function is constant]. The shell of squid is located internally.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "a795bf6e8e9e933d4dfe5306",
+    "sourceFile": "ROUND5-2.doc",
+    "subject": "Chemistry",
+    "questionText": "In a Period of the Periodic Table, electrons of the successive elements enter the same electronic shell.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "27eb7e734555993aeb4db386",
+    "sourceFile": "ROUND5-2.doc",
+    "subject": "Chemistry",
+    "questionText": "In a Group in the Periodic Table, electrons of the successive elements enter the same electronic shell.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "7bf7da29bcb05c2a2bf58b34",
+    "sourceFile": "ROUND5-2.doc",
+    "subject": "Maths",
+    "questionText": "A cubic equation has at least one root.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "a531d73cec4a6b1d7c7172a4",
+    "sourceFile": "ROUND5-2.doc",
+    "subject": "Physics",
+    "questionText": "When a positive charge is moved closer to a fixed positive charge, the potential energy of the system decreases. F [It increases]. The Crocodile masticates or chews its food thoroughly before swallowing.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "b558f4363446b4d89e79ee8d",
+    "sourceFile": "ROUND5-2.doc",
+    "subject": null,
+    "questionText": "A bat is the only mammal that can fly.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "5f1f6139a18fb33549f32356",
+    "sourceFile": "ROUND5-2.doc",
+    "subject": null,
+    "questionText": "A gas that can rekindle a glowing splint could be oxygen or N2O.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "889d3e9d7a24377bf4d4a14a",
+    "sourceFile": "ROUND5-2.doc",
+    "subject": "Maths",
+    "questionText": "The trigonometric equation cos x = 2 has many roots. F [it has no root]. Sound waves cannot undergo diffraction.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "7ade0c82c82d4294503a88cf",
+    "sourceFile": "ROUND5-2.doc",
+    "subject": "Physics",
+    "questionText": "Sound waves cannot be polarized. T [longitudinal waves cannot be polarized]. The grasscutter has no canine teeth.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "8de7efc54b9e1df2aa3be8f0",
+    "sourceFile": "ROUND5-2.doc",
+    "subject": "Chemistry",
+    "questionText": "Tetrachloromethane is non-polar because of the shape of molecules. T [tetrahedral, dipoles cancel out]. The equation |x| = -3 has no root. (NB: |x| is absolute value of x).",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "126c5d768c6b01d9be197f35",
+    "sourceFile": "ROUND5-3.doc",
+    "subject": "Physics",
+    "questionText": "Only about 10% of the sun's energy is incorporated into green plant matter.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "f74eaf02a68e6875dcb6f0e6",
+    "sourceFile": "ROUND5-3.doc",
+    "subject": "Biology",
+    "questionText": "In the fermentation of sucrose, the enzyme that converts sugar into glucose and fructose is invertase.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "2f3af1cecde11586b2d7117c",
+    "sourceFile": "ROUND5-3.doc",
+    "subject": "Physics",
+    "questionText": "The average kinetic energy of the molecules of a gas is proportional to the temperature of the gas.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "a86f239628039c917799e22a",
+    "sourceFile": "ROUND5-3.doc",
+    "subject": null,
+    "questionText": "If two polygons are equilateral, then they are congruent.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "c48c776b3eae8f7f58813a4a",
+    "sourceFile": "ROUND5-3.doc",
+    "subject": "Maths",
+    "questionText": "Every linear function has an inverse.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "6fd83f09f5e2b947a339035f",
+    "sourceFile": "ROUND5-3.doc",
+    "subject": null,
+    "questionText": "Lightening plays a role in the nitrogen cycle by converting nitrites into nitrates.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "f2c3210fc295b17fe0af5c47",
+    "sourceFile": "ROUND5-3.doc",
+    "subject": null,
+    "questionText": "In the fermentation of sucrose, only the glucose units are converted into alcohol.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "60d3c4f77c60233ea71b03e8",
+    "sourceFile": "ROUND5-3.doc",
+    "subject": null,
+    "questionText": "Neutrons can be a accelerated by applying an electric potential difference.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "dfe552f19446877c74970ee5",
+    "sourceFile": "ROUND5-3.doc",
+    "subject": "Physics",
+    "questionText": "When electrons are accelerated through a potential difference, they travel in the same direction as the electric field. F [opposite to electric field; direction of fields is defined as direction in which unit positive charge will move] The net of a hollow cone is an isosceles triangle.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "6cebc260e21cac81e3ae7c82",
+    "sourceFile": "ROUND5-3.doc",
+    "subject": "Physics",
+    "questionText": "The wings of a butterfly and the wings of a bird are an example of divergent evolution. F [convergent evolution] F At a given temperature, the pressure of a given gas is proportional to its concentration.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "8d1039d390737c0389ac0a79",
+    "sourceFile": "ROUND5-3.doc",
+    "subject": "Chemistry",
+    "questionText": "For a reaction in the gaseous phase: A + B C + D, the Kp and Kc are numerically the same.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "963883252ecf320ccf2500c9",
+    "sourceFile": "ROUND5-3.doc",
+    "subject": null,
+    "questionText": "Neutrinos are emitted during radioactive decay.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "f1f2d1d3f6c3495a7bebff7f",
+    "sourceFile": "ROUND5-3.doc",
+    "subject": "Biology",
+    "questionText": "Polyploidy is an example of gene mutation.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "9a512c2b9424e6ce3c160885",
+    "sourceFile": "ROUND5-4.doc",
+    "subject": null,
+    "questionText": "The Haber process is an industrial process for production of ammonia from nitrogen and steam as raw materials.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "1d2fd4bf99b7a81d4936455f",
+    "sourceFile": "ROUND5-4.doc",
+    "subject": null,
+    "questionText": "Sunlight falling on the surface of calm water is reflected as well as refracted. T Progesterone is mainly responsible for the development of female secondary sexual characteristics.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "c9b76e68891679901ab161ac",
+    "sourceFile": "ROUND5-4.doc",
+    "subject": "Maths",
+    "questionText": "For a linear sequence, the difference of successive terms is always a constant. T For an exponential sequence, the ratio of successive terms can vary.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "418c2d305e8d199510fe4cf7",
+    "sourceFile": "ROUND5-4.doc",
+    "subject": null,
+    "questionText": "Crude oil is a raw material for the production of plastics and cosmetics.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "6e83d1105146fdfec478361e",
+    "sourceFile": "ROUND5-4.doc",
+    "subject": null,
+    "questionText": "All electromagnetic radiation travels at the speed of light.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "891448294b81c3b8cfd5432f",
+    "sourceFile": "ROUND5-4.doc",
+    "subject": null,
+    "questionText": "Patients suffering from Diabetes insipidus have sugar in their urine.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "d689ff891e15f5fb026e855a",
+    "sourceFile": "ROUND5-4.doc",
+    "subject": null,
+    "questionText": "Tecoma is dispersed by wind.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "4120d1a3dd9da48ff8d96b25",
+    "sourceFile": "ROUND5-4.doc",
+    "subject": null,
+    "questionText": "The expansion of (a + x)n contains (n +1) terms if n is an integer.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "1f0f12552e7924e123021fda",
+    "sourceFile": "ROUND5-4.doc",
+    "subject": null,
+    "questionText": "Zinc oxide is not soluble in water but it is in dilute ammonia.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "5f83700e2864c747ea822a61",
+    "sourceFile": "ROUND5-4.doc",
+    "subject": "Physics",
+    "questionText": "The electron-volt is a unit of energy.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "6adf60a9ee52b72f77208644",
+    "sourceFile": "ROUND5-4.doc",
+    "subject": null,
+    "questionText": "The capacitance of a parallel plate capacitor can be increased by increasing the distance between the plates.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "faa469a15d8f7b58a2312f63",
+    "sourceFile": "ROUND5-4.doc",
+    "subject": "Biology",
+    "questionText": "Crotolaria is dispersed by animals.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "f5d7ec0ed16c641863acc3ad",
+    "sourceFile": "ROUND5-4.doc",
+    "subject": null,
+    "questionText": "The coefficients of a binomial expansion of (a + x)n always contains terms like nCr.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "6986e5a4758cdd9be542b39c",
+    "sourceFile": "ROUND5-4.doc",
+    "subject": "Chemistry",
+    "questionText": "Lead chloride is insoluble in cold water but soluble in hot water.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "c34f2c3820c0ac85725ff4b1",
+    "sourceFile": "ROUND5-5.doc",
+    "subject": null,
+    "questionText": "J.J Thompson's experiments led to the discovery of the proton.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "75a30447eab89eb187f2bb54",
+    "sourceFile": "ROUND5-5.doc",
+    "subject": "Biology",
+    "questionText": "As an animal increases in size, its body surface area increases faster than its body volume.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "be5aef7f2cb98a3ae8cdefdb",
+    "sourceFile": "ROUND5-5.doc",
+    "subject": "Maths",
+    "questionText": "To specify a triangle uniquely, it is sufficient to have one side and any two angles.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "efb381acdb75bcdb85b53e2c",
+    "sourceFile": "ROUND5-5.doc",
+    "subject": "Physics",
+    "questionText": "A particle undergoing constant acceleration will have a constant velocity.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "410af8b6401ea0c495608383",
+    "sourceFile": "ROUND5-5.doc",
+    "subject": "Physics",
+    "questionText": "A particle moving at a constant velocity has zero acceleration.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "35b7908279a68f4a1cea224b",
+    "sourceFile": "ROUND5-5.doc",
+    "subject": "Chemistry",
+    "questionText": "The first statement of Dalton's Atomic theory that elements are made up of small particles called atoms is still true.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "68627c49afc53a26b14bb650",
+    "sourceFile": "ROUND5-5.doc",
+    "subject": "Biology",
+    "questionText": "All unicellular organisms are poikilotherms.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "4aa2bedd7974f4268bc2bae9",
+    "sourceFile": "ROUND5-5.doc",
+    "subject": "Maths",
+    "questionText": "To specify a triangle uniquely, it is sufficient to have two sides and any one angle.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "a794a9d908d22b4a7956722f",
+    "sourceFile": "ROUND5-5.doc",
+    "subject": null,
+    "questionText": "A reflection in the x-axis is given by the transformation (x,y) (-x,y). F (x,y) (x,-y)] The period of oscillation of a pendulum can be increased by increasing the mass of the pendulum bob.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "c42c11ca1c5537e5217f4067",
+    "sourceFile": "ROUND5-5.doc",
+    "subject": "Physics",
+    "questionText": "The total energy of a pendulum swinging in a vacuum is minimum at the bottom of a swing (or an oscillation).",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "dd2e156b642114a5f74f7500",
+    "sourceFile": "ROUND5-5.doc",
+    "subject": "Biology",
+    "questionText": "There are more vertebrate animals than invertebrates.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "2c4bb67899a64097ede3c9f9",
+    "sourceFile": "ROUND5-5.doc",
+    "subject": null,
+    "questionText": "Fats have a lower oxygen concentration than carbohydrates.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "fc8a4689528f1841bfa4eb1e",
+    "sourceFile": "ROUND5-5.doc",
+    "subject": null,
+    "questionText": "The complement of the complement of a set is the set itself.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "72e47595e447e5899b8de772",
+    "sourceFile": "ROUND5-5.doc",
+    "subject": null,
+    "questionText": "Water vapour is not a greenhouse gas.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "8cb3b29fa3965ebeebf0255e",
+    "sourceFile": "ROUND5-5.doc",
+    "subject": null,
+    "questionText": "Methane is a greenhouse gas",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "5eea2882f537c287ff34f74a",
+    "sourceFile": "ROUND5.doc",
+    "subject": "Biology",
+    "questionText": "Chloroplasts are bounded by a double membrane.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "d09cc8adbda7a16cedf0d9d0",
+    "sourceFile": "ROUND5.doc",
+    "subject": null,
+    "questionText": "Any temperature difference is the same on both the Kelvin and the Celsius scale",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "602473c44de029324aa0f45f",
+    "sourceFile": "ROUND5.doc",
+    "subject": "Maths",
+    "questionText": "A regular polygon whose interior angle has measure of 120o is a hexagon.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "cbdcccd7976ae7ca97bd1c5a",
+    "sourceFile": "ROUND5.doc",
+    "subject": null,
+    "questionText": "The same factors are responsible for the increase in 1st ionization potential and electron affinity across a period.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "9380adffaec0f69876268ec1",
+    "sourceFile": "ROUND5.doc",
+    "subject": null,
+    "questionText": "Electron affinity of nitrogen is lower than that of carbon although nitrogen has a higher atomic number.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "e5514e9e4816b3777b26c3b3",
+    "sourceFile": "ROUND5.doc",
+    "subject": "Biology",
+    "questionText": "The vacuole of a cell is bounded by a double membrane.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "a31842cab3fdb173a1683022",
+    "sourceFile": "ROUND5.doc",
+    "subject": null,
+    "questionText": "In thermal expansion, the increase in length is inversely proportional to the original length.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "35580bfaed290b34dee1e4f8",
+    "sourceFile": "ROUND5.doc",
+    "subject": "Maths",
+    "questionText": "The point of intersection of the perpendicular bisectors of the sides of a triangle is called the circumcenter.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "28bd45b720b774e5076fd697",
+    "sourceFile": "ROUND5.doc",
+    "subject": null,
+    "questionText": "The set of whole numbers is a subset of the set of natural numbers.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "34a993a6afde890700814196",
+    "sourceFile": "ROUND5.doc",
+    "subject": null,
+    "questionText": "Whilst maltase catalyses the hydrolysis of starch to maltose, diastase catalyses the hydrolysis of maltose to glucose.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "596da7e06c9c6678ba4fd448",
+    "sourceFile": "ROUND5.doc",
+    "subject": "Chemistry",
+    "questionText": "An amino acid can be coded for by more than one codon.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "968e09b929ec6a7666c4ba69",
+    "sourceFile": "ROUND5.doc",
+    "subject": "Physics",
+    "questionText": "In matter, phase transitions that are due to heat energy occur at constant temperature.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "b0902b94ce564342b030f6e2",
+    "sourceFile": "ROUND5.doc",
+    "subject": "Physics",
+    "questionText": "Phase transitions do not involve absorption or rejection of heat energy.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "5cbd279e62b3d14c4b42c795",
+    "sourceFile": "ROUND5.doc",
+    "subject": "Maths",
+    "questionText": "The quadratic function y = 4-x2 has a minimum point.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "ed71f2f2919ecae60736a7a3",
+    "sourceFile": "ROUND5.doc",
+    "subject": "Chemistry",
+    "questionText": "Starch and cellulose have the same chemical structure because they have the same monomers.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "8e08d4a69c05b9589f265b07",
+    "sourceFile": "ROUND5.doc",
+    "subject": "Biology",
+    "questionText": "During transcription, both strands of DNA serve as templates for the formation of messenger RNA.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "fdd1ecd22b70f0165d8a6f52",
+    "sourceFile": "Round 5-1.docx",
+    "subject": null,
+    "questionText": "A parabolic mirror does not have a focal point.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "82529a914ec77d9fe8dc1a4b",
+    "sourceFile": "Round 5-1.docx",
+    "subject": null,
+    "questionText": "As x increases in the interval 0 < x < 90o , sin x decreases",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "e082b28b50ca789506aacc4f",
+    "sourceFile": "Round 5-1.docx",
+    "subject": "Chemistry",
+    "questionText": "Spontaneous reactions tend to have low activation energies.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "ade03fb57709c33d69948a51",
+    "sourceFile": "Round 5-1.docx",
+    "subject": "Biology",
+    "questionText": "During the clotting of blood, prothrombin catalyzes the conversion of fibrinogen to fibrin.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "e748c8ebdf4f1ef456059f7c",
+    "sourceFile": "Round 5-1.docx",
+    "subject": null,
+    "questionText": "Clay particles tend to be spherical in shape.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "f36d632ac6d208dfae2bc1ba",
+    "sourceFile": "Round 5-1.docx",
+    "subject": "Physics",
+    "questionText": "All objects can emit electromagnetic radiation as a result of the thermal motion of their constituent atoms or molecules.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "c882ac7fafae319f3157327f",
+    "sourceFile": "Round 5-1.docx",
+    "subject": "Chemistry",
+    "questionText": "Rate of reaction is defined as the rate of change of concentration of either a reactant or a product.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "eaf7e24063b811f84fa28d4a",
+    "sourceFile": "Round 5-1.docx",
+    "subject": null,
+    "questionText": "Since alkanols also contain the OH group just like water, thy also undergo self-ionization.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "eb7a60a97ef380122e5e9ebf",
+    "sourceFile": "Round 5-1.docx",
+    "subject": null,
+    "questionText": "Subsoil is thicker than topsoil.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "fca7131dfc75ebad63e674b9",
+    "sourceFile": "Round 5-1.docx",
+    "subject": "Physics",
+    "questionText": "Light is emitted when an electric current is discharged through an ionized gas.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "0430edb4b23a4c8527de019a",
+    "sourceFile": "Round 5-1.docx",
+    "subject": null,
+    "questionText": "If x is at least 5, then x > 5 (strictly greater than).",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "ba7d24b7cff665a54b736e45",
+    "sourceFile": "Round 5-1.docx",
+    "subject": null,
+    "questionText": "Ghana can make ethanol using crude petroleum as raw material",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "dd9c00959112cdf1caecaeea",
+    "sourceFile": "Round 5-1.docx",
+    "subject": "Biology",
+    "questionText": "Antibodies are a type of plasma protein.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "d1e41795753ec851678100ab",
+    "sourceFile": "Round 5-1.docx",
+    "subject": null,
+    "questionText": "A laser produces a monochromatic beam of light.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "3efd82a6cfc3634f2ecf48ad",
+    "sourceFile": "Round 5-3.docx",
+    "subject": null,
+    "questionText": "The tropic response of roots to gravity is stronger than their tropic response to water.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "91857dbcce6fc6a60ca20e12",
+    "sourceFile": "Round 5-3.docx",
+    "subject": "Chemistry",
+    "questionText": "The solubility of calcium oxalate (or ethane dioate) is expected to be higher in calcium chloride.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "928db81876bee975cacc5616",
+    "sourceFile": "Round 5-3.docx",
+    "subject": null,
+    "questionText": "The sun is in the Milky Way galaxy.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "c30e8ffd6546223c438622cc",
+    "sourceFile": "Round 5-3.docx",
+    "subject": "Maths",
+    "questionText": "Two triangles are similar if their corresponding angles are congruent",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "324dd9efe1cfc17d9c599bb9",
+    "sourceFile": "Round 5-3.docx",
+    "subject": null,
+    "questionText": "The statement ‘neither P nor Q’ is equivalent to ‘not P and not Q’",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "cf1158405f2581e0b21394bd",
+    "sourceFile": "Round 5-3.docx",
+    "subject": null,
+    "questionText": "Most roots are negatively phototropic.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "80d7dbf08e669e8da09159d5",
+    "sourceFile": "Round 5-3.docx",
+    "subject": "Chemistry",
+    "questionText": "Oxygen forms oxides with oxidation states -2, -1 and -½.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "cd21d9fc8471d9cdec15ac36",
+    "sourceFile": "Round 5-3.docx",
+    "subject": null,
+    "questionText": "The stars in the Milky Way galaxy are in orbit about the centre of the galaxy.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "7cd2eb1a0ad68ced3b15e97d",
+    "sourceFile": "Round 5-3.docx",
+    "subject": null,
+    "questionText": "The antineutron is the antiparticle of the neutron.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "a4d75d6f3a2bd152bb0463dd",
+    "sourceFile": "Round 5-3.docx",
+    "subject": null,
+    "questionText": "The perpendicular bisector of a line segment is called the mediator of the line.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "ca07fffae642b657ff4ab3af",
+    "sourceFile": "Round 5-3.docx",
+    "subject": null,
+    "questionText": "The body temperature of mammals is higher than that of birds.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "894bed2c428e39cb04e88e16",
+    "sourceFile": "Round 5-3.docx",
+    "subject": null,
+    "questionText": "Photons are particles with spin ½.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "77c4f85f7e0fde470ee03c24",
+    "sourceFile": "Round 5-3.docx",
+    "subject": "Chemistry",
+    "questionText": "A solution containing H2PO4- and HPO42- is a buffer.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "5199d1da547808529ab054fe",
+    "sourceFile": "Round 5-3.docx",
+    "subject": "Physics",
+    "questionText": "Collision Theory defines activation energy.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "b6ab598e093499b769ea3f05",
+    "sourceFile": "Round 5-3.docx",
+    "subject": null,
+    "questionText": "A rhombus is a cyclic quadrilateral.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "d3b519a6deffc6ea4a071150",
+    "sourceFile": "Round 5-3.docx",
+    "subject": "Biology",
+    "questionText": "Shivering is a metabolic control mechanism to generate heat.",
+    "correctAnswer": true,
+    "scored": true
   }
 ]

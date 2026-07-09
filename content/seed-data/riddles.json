@@ -23054,5 +23054,777 @@
       }
     ],
     "scored": true
+  },
+  {
+    "id": "37fe4045e0fdf2964bf21aaf",
+    "sourceFile": "ROUND 5-1.doc",
+    "subject": "Biology",
+    "questionText": "1) I am a crytalline, colourless, organic compound with a melting point of 2110C. 2) I am an amine so there is a nitrogen atom in my formula. 3) I am a natural product indeed, a hormone. 4) My other name is epinephrine. 5) I am one of the few alkaloids that can be obtained from animals. 6) I am produced by the adrenal medulla and I can raise the blood pressure. Who am I?",
+    "correctAnswer": "Adrenaline",
+    "options": [
+      "Enzyme",
+      "Ecosystem",
+      "Adrenaline",
+      "Chromosome"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "1) I am a crytalline, colourless, organic compound with a melting point of 2110C."
+      },
+      {
+        "order": 2,
+        "text": "2) I am an amine so there is a nitrogen atom in my formula."
+      },
+      {
+        "order": 3,
+        "text": "3) I am a natural product indeed, a hormone."
+      },
+      {
+        "order": 4,
+        "text": "4) My other name is epinephrine."
+      },
+      {
+        "order": 5,
+        "text": "5) I am one of the few alkaloids that can be obtained from animals."
+      },
+      {
+        "order": 6,
+        "text": "6) I am produced by the adrenal medulla and I can raise the blood pressure."
+      }
+    ],
+    "scored": true
+  },
+  {
+    "id": "aebbe29e8bdebb6cb4466844",
+    "sourceFile": "ROUND 5-10.doc",
+    "subject": "Physics",
+    "questionText": "You would not be wrong to think that Physics is all about me. I come in so many forms that one may think that I am full of contradictions. In one form, I am both visible and invisible. Believe me, you can even think of me as mass. I like traveling around, but actually, transformation is my game. Without me, you can do no work. Who am I?",
+    "correctAnswer": "Energy",
+    "options": [
+      "Refraction",
+      "Torque",
+      "Energy",
+      "Momentum"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "You would not be wrong to think that Physics is all about me."
+      },
+      {
+        "order": 2,
+        "text": "I come in so many forms that one may think that I am full of contradictions."
+      },
+      {
+        "order": 3,
+        "text": "In one form, I am both visible and invisible."
+      },
+      {
+        "order": 4,
+        "text": "Believe me, you can even think of me as mass."
+      },
+      {
+        "order": 5,
+        "text": "I like traveling around, but actually, transformation is my game."
+      },
+      {
+        "order": 6,
+        "text": "Without me, you can do no work."
+      }
+    ],
+    "scored": true
+  },
+  {
+    "id": "784b0188b26d2903e234e609",
+    "sourceFile": "ROUND 5-2.doc",
+    "subject": "Physics",
+    "questionText": "I am a well known quantity in Physics. The first half of my name is descriptive and the other half is deceptive. I make electrons move in a wire. I am not a force, as my name suggests. It is better to think of me as an energy, or better still, As a potential energy, since I can do work. Who am I?",
+    "correctAnswer": "Electro-motive force (e.m.f)",
+    "options": [
+      "Amplitude",
+      "Torque",
+      "Momentum",
+      "Electro-motive force (e.m.f)"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "I am a well known quantity in Physics."
+      },
+      {
+        "order": 2,
+        "text": "The first half of my name is descriptive and the other half is deceptive."
+      },
+      {
+        "order": 3,
+        "text": "I make electrons move in a wire."
+      },
+      {
+        "order": 4,
+        "text": "I am not a force, as my name suggests."
+      },
+      {
+        "order": 5,
+        "text": "It is better to think of me as an energy, or better still,"
+      },
+      {
+        "order": 6,
+        "text": "As a potential energy, since I can do work."
+      }
+    ],
+    "scored": true
+  },
+  {
+    "id": "4ff27b438be857a007f7bdaa",
+    "sourceFile": "ROUND 5-3.doc",
+    "subject": null,
+    "questionText": "I am a three digit number. I am a square. To be precise, I am the square of a square. My first digit is an even prime. The sum of my digits is 13 and my last two digits are consecutive integers. The difference of my second digit and my first digit is 3. I am six over a double century and a half Who am I?",
+    "correctAnswer": "256 (162 = (42)2)",
+    "options": [
+      "(no near-neighbor distractor available for \"256 (162 = (42)2)\")",
+      "(no near-neighbor distractor available for \"256 (162 = (42)2)\")",
+      "(no near-neighbor distractor available for \"256 (162 = (42)2)\")",
+      "256 (162 = (42)2)"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "I am a three digit number."
+      },
+      {
+        "order": 2,
+        "text": "I am a square."
+      },
+      {
+        "order": 3,
+        "text": "To be precise, I am the square of a square."
+      },
+      {
+        "order": 4,
+        "text": "My first digit is an even prime."
+      },
+      {
+        "order": 5,
+        "text": "The sum of my digits is 13 and my last two digits are consecutive integers. The difference of my second digit and my first digit is 3."
+      },
+      {
+        "order": 6,
+        "text": "I am six over a double century and a half"
+      }
+    ],
+    "scored": true
+  },
+  {
+    "id": "3fe8f323ba45e54a6abfb5c7",
+    "sourceFile": "ROUND 5-4.doc",
+    "subject": "Physics",
+    "questionText": "I am a device associated with optical instruments such as film projectors and microscopes. I am also associated with steam engines, where I act as a reservoir and collect the part of the steam's internal energy that has not been used in doing work on the piston. In a car engine I receive and store electricity. In optical instruments, my job is to concentrate the light diverging from a compact source. My name suggests that I cool vapor and make it change to liquid. In a light microscope, I am located just below the stage Who am I?",
+    "correctAnswer": "Condenser",
+    "options": [
+      "Condenser",
+      "Torque",
+      "Momentum",
+      "Refraction"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "I am a device associated with optical instruments such as film projectors and microscopes."
+      },
+      {
+        "order": 2,
+        "text": "I am also associated with steam engines, where I act as a reservoir and collect the part of the steam's internal energy that has not been used in doing work on the piston."
+      },
+      {
+        "order": 3,
+        "text": "In a car engine I receive and store electricity."
+      },
+      {
+        "order": 4,
+        "text": "In optical instruments, my job is to concentrate the light diverging from a compact source."
+      },
+      {
+        "order": 5,
+        "text": "My name suggests that I cool vapor and make it change to liquid."
+      },
+      {
+        "order": 6,
+        "text": "In a light microscope, I am located just below the stage"
+      }
+    ],
+    "scored": true
+  },
+  {
+    "id": "0f68fa2de1eab1568b01dd86",
+    "sourceFile": "ROUND 5-5.doc",
+    "subject": "Chemistry",
+    "questionText": "I am a cation I am derived from an element in the main group of the periodic table My element is white, soft, and ductile. Whereas I am soluble in water and quite comfortable in aqueous medium, the element I am derived from is not soluble. When I am in an aqueous solution, I am partly responsible for the solution's inability to lather with soap. I burn in steam and I am a constituent of several, useful light alloys. Who am I?",
+    "correctAnswer": "Mg[magnesium ion]",
+    "options": [
+      "Buffer",
+      "Alkane",
+      "Mg[magnesium ion]",
+      "Isotope"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "I am a cation"
+      },
+      {
+        "order": 2,
+        "text": "I am derived from an element in the main group of the periodic table"
+      },
+      {
+        "order": 3,
+        "text": "My element is white, soft, and ductile."
+      },
+      {
+        "order": 4,
+        "text": "Whereas I am soluble in water and quite comfortable in aqueous medium, the element I am derived from is not soluble."
+      },
+      {
+        "order": 5,
+        "text": "When I am in an aqueous solution, I am partly responsible for the solution's inability to lather with soap."
+      },
+      {
+        "order": 6,
+        "text": "I burn in steam and I am a constituent of several, useful light alloys."
+      }
+    ],
+    "scored": true
+  },
+  {
+    "id": "64a2fea8bd02f90c904e71e2",
+    "sourceFile": "ROUND 5-6.doc",
+    "subject": "Maths",
+    "questionText": "1. I am a point on the graph of a function. 2. My name suggests I am an immovable property. 3. You will always find me at the top of the hill or at the bottom of the valley. 4. The tangent at me is always horizontal. 5. Am definitely not a point of inflexion. 6. I am often classified as a maximum or a minimum point. Who am I?",
+    "correctAnswer": "Stationary point",
+    "options": [
+      "Stationary point",
+      "Coefficient",
+      "Asymptote",
+      "Derivative"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "1. I am a point on the graph of a function."
+      },
+      {
+        "order": 2,
+        "text": "2. My name suggests I am an immovable property."
+      },
+      {
+        "order": 3,
+        "text": "3. You will always find me at the top of the hill or at the bottom of the valley."
+      },
+      {
+        "order": 4,
+        "text": "4. The tangent at me is always horizontal."
+      },
+      {
+        "order": 5,
+        "text": "5. Am definitely not a point of inflexion."
+      },
+      {
+        "order": 6,
+        "text": "6. I am often classified as a maximum or a minimum point."
+      }
+    ],
+    "scored": true
+  },
+  {
+    "id": "ebf1a98f7d75021b219fbfab",
+    "sourceFile": "ROUND 5-7.doc",
+    "subject": null,
+    "questionText": "I may be a circle, a sphere, a line or a curve. I am a set of points I am the set of all possible positions a point can take. I may be a region in a plane or in space, but more often I am a continuous curve I am the path followed by a point subject to some constraint Who am I?",
+    "correctAnswer": "Locus",
+    "options": [
+      "(no near-neighbor distractor available for \"Locus\")",
+      "(no near-neighbor distractor available for \"Locus\")",
+      "(no near-neighbor distractor available for \"Locus\")",
+      "Locus"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "I may be a circle, a sphere, a line or a curve."
+      },
+      {
+        "order": 2,
+        "text": "I am a set of points"
+      },
+      {
+        "order": 3,
+        "text": "I am the set of all possible positions a point can take."
+      },
+      {
+        "order": 4,
+        "text": "I may be a region in a plane or in space, but more often I am a continuous curve"
+      },
+      {
+        "order": 5,
+        "text": "I am the path followed by a point subject to some constraint"
+      }
+    ],
+    "scored": true
+  },
+  {
+    "id": "d59ab628dc712356765dbee0",
+    "sourceFile": "ROUND 5-8.doc",
+    "subject": "Physics",
+    "questionText": "I am a phenomenon associated with waves. I do not discriminate between transverse and longitudinal waves I prefer dealing with two or more waves at the same time, my business is in how they interact. I can be destructive at times, but I can be constructive too. Who am I?",
+    "correctAnswer": "interference",
+    "options": [
+      "Resistance",
+      "interference",
+      "Torque",
+      "Momentum"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "I am a phenomenon associated with waves."
+      },
+      {
+        "order": 2,
+        "text": "I do not discriminate between transverse and longitudinal waves"
+      },
+      {
+        "order": 3,
+        "text": "I prefer dealing with two or more waves at the same time, my business is in how they interact."
+      },
+      {
+        "order": 4,
+        "text": "I can be destructive at times, but I can be constructive too."
+      }
+    ],
+    "scored": true
+  },
+  {
+    "id": "f049572abfdd5ea82323e2f0",
+    "sourceFile": "ROUND 5-9.doc",
+    "subject": "Physics",
+    "questionText": "I am an appendage found in many invertebrates. I am situated near the mouth. In polychaeta worms I am sensitive to touch. In bivalve molluscs, I am ciliated and produce feeding currents. In crustaceans, I form the distal part of the mandibles. In the cockroach, I am sensitive o smell and located on the first and second maxillae, Who am I?",
+    "correctAnswer": "PALP",
+    "options": [
+      "Resistance",
+      "Amplitude",
+      "Torque",
+      "PALP"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "I am an appendage found in many invertebrates."
+      },
+      {
+        "order": 2,
+        "text": "I am situated near the mouth."
+      },
+      {
+        "order": 3,
+        "text": "In polychaeta worms I am sensitive to touch."
+      },
+      {
+        "order": 4,
+        "text": "In bivalve molluscs, I am ciliated and produce feeding currents."
+      },
+      {
+        "order": 5,
+        "text": "In crustaceans, I form the distal part of the mandibles."
+      },
+      {
+        "order": 6,
+        "text": "In the cockroach, I am sensitive o smell and located on the first and second maxillae,"
+      }
+    ],
+    "scored": true
+  },
+  {
+    "id": "72a3133fb812342dc56b98f1",
+    "sourceFile": "ROUND 5.doc",
+    "subject": null,
+    "questionText": "At core, I am just an echo. In nature, I am used by whales. The military makes use of me in submarines. Geographers map the ocean floor with me. I am well known by an acronym. I am an application of sound. Who am I?",
+    "correctAnswer": "Sonar. [Sound navigation and ranging]",
+    "options": [
+      "(no near-neighbor distractor available for \"Sonar. [Sound navigation and ranging]\")",
+      "Sonar. [Sound navigation and ranging]",
+      "(no near-neighbor distractor available for \"Sonar. [Sound navigation and ranging]\")",
+      "(no near-neighbor distractor available for \"Sonar. [Sound navigation and ranging]\")"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "At core, I am just an echo."
+      },
+      {
+        "order": 2,
+        "text": "In nature, I am used by whales."
+      },
+      {
+        "order": 3,
+        "text": "The military makes use of me in submarines."
+      },
+      {
+        "order": 4,
+        "text": "Geographers map the ocean floor with me."
+      },
+      {
+        "order": 5,
+        "text": "I am well known by an acronym."
+      },
+      {
+        "order": 6,
+        "text": "I am an application of sound."
+      }
+    ],
+    "scored": true
+  },
+  {
+    "id": "152e12dd85b4377f462fc373",
+    "sourceFile": "ROUND 5.docx",
+    "subject": null,
+    "questionText": "I come in all shapes and forms. Sometimes I participate in the action, sometimes I only act as a supporter. I am so versatile that you would find me where electricity is generated or used up. What is certain is that without me there is no show or action no show or action. My name, although a noun, is made up of two English verbs joined together, one in the present tense, the other in the past. To elect me, it would be better if you rode a horse to the polling station. Who am I?",
+    "correctAnswer": "Electrode",
+    "options": [
+      "(no near-neighbor distractor available for \"Electrode\")",
+      "(no near-neighbor distractor available for \"Electrode\")",
+      "(no near-neighbor distractor available for \"Electrode\")",
+      "Electrode"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "I come in all shapes and forms."
+      },
+      {
+        "order": 2,
+        "text": "Sometimes I participate in the action, sometimes I only act as a supporter."
+      },
+      {
+        "order": 3,
+        "text": "I am so versatile that you would find me where electricity is generated or used up."
+      },
+      {
+        "order": 4,
+        "text": "What is certain is that without me there is no show or action no show or action."
+      },
+      {
+        "order": 5,
+        "text": "My name, although a noun, is made up of two English verbs joined together, one in the present tense, the other in the past."
+      },
+      {
+        "order": 6,
+        "text": "To elect me, it would be better if you rode a horse to the polling station."
+      }
+    ],
+    "scored": true
+  },
+  {
+    "id": "dc56f89c2f481197843cfa66",
+    "sourceFile": "ROUND5-1.doc",
+    "subject": "Physics",
+    "questionText": "I have nothing to do with punctuality even though I am supposed to be wise so far as time goes. I am a direction but I am neither North nor South, East nor West. So far as direction goes, I have a cousin whose direction goes counter to mine. My direction is determined by the motion of hands of a time - piece. My direction normally indicates an angular displacement. I am as wise as a clock. Who am I?",
+    "correctAnswer": "CLOCKWISE",
+    "options": [
+      "Momentum",
+      "CLOCKWISE",
+      "Resistance",
+      "Refraction"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "I have nothing to do with punctuality even though I am supposed to be wise so far as time goes."
+      },
+      {
+        "order": 2,
+        "text": "I am a direction but I am neither North nor South, East nor West."
+      },
+      {
+        "order": 3,
+        "text": "So far as direction goes, I have a cousin whose direction goes counter to mine."
+      },
+      {
+        "order": 4,
+        "text": "My direction is determined by the motion of hands of a time - piece."
+      },
+      {
+        "order": 5,
+        "text": "My direction normally indicates an angular displacement."
+      },
+      {
+        "order": 6,
+        "text": "I am as wise as a clock."
+      }
+    ],
+    "scored": true
+  },
+  {
+    "id": "4fd59bea2460aed8c02d0a92",
+    "sourceFile": "ROUND5-2.doc",
+    "subject": "Maths",
+    "questionText": "I am a curve but I do not generally represent a function. A tangent at any point of me is always perpendicular to the radial direction at the point. I am closed and I have a central point from which all points of me are equidistant. I am the perfect geometric figure so far as symmetry is concerned. I have an infinite number of axes of symmetry. Who am I?",
+    "correctAnswer": "Circle",
+    "options": [
+      "Derivative",
+      "Circle",
+      "Coefficient",
+      "Polynomial"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "I am a curve but I do not generally represent a function."
+      },
+      {
+        "order": 2,
+        "text": "A tangent at any point of me is always perpendicular to the radial direction at the point."
+      },
+      {
+        "order": 3,
+        "text": "I am closed and I have a central point from which all points of me are equidistant."
+      },
+      {
+        "order": 4,
+        "text": "I am the perfect geometric figure so far as symmetry is concerned."
+      },
+      {
+        "order": 5,
+        "text": "I have an infinite number of axes of symmetry."
+      }
+    ],
+    "scored": true
+  },
+  {
+    "id": "dcb40afee6f87b300e6caebe",
+    "sourceFile": "ROUND5-3.doc",
+    "subject": null,
+    "questionText": "I am a device When there is no air resistance, I am extremely time conscious. All that I require is the right length, And I can keep the time for as long as you please. I am found in student laboratories and in certain clocks. Who am I?",
+    "correctAnswer": "Pendulum",
+    "options": [
+      "Pendulum",
+      "(no near-neighbor distractor available for \"Pendulum\")",
+      "(no near-neighbor distractor available for \"Pendulum\")",
+      "(no near-neighbor distractor available for \"Pendulum\")"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "I am a device"
+      },
+      {
+        "order": 2,
+        "text": "When there is no air resistance, I am extremely time conscious."
+      },
+      {
+        "order": 3,
+        "text": "All that I require is the right length,"
+      },
+      {
+        "order": 4,
+        "text": "And I can keep the time for as long as you please."
+      },
+      {
+        "order": 5,
+        "text": "I am found in student laboratories and in certain clocks."
+      }
+    ],
+    "scored": true
+  },
+  {
+    "id": "b4130d848eaa6fd8ab1def7f",
+    "sourceFile": "ROUND5-4.doc",
+    "subject": null,
+    "questionText": "I am a quadrilateral. I have mirror symmetry about a diagonal. I have one axis of symmetry. I have two pairs of congruent adjacent sides. I fit my outline in two positions. My order of rotational symmetry is one. I have no centre of symmetry, nor a fixed centre of rotation. Who am I?",
+    "correctAnswer": "Kite",
+    "options": [
+      "Kite",
+      "(no near-neighbor distractor available for \"Kite\")",
+      "(no near-neighbor distractor available for \"Kite\")",
+      "(no near-neighbor distractor available for \"Kite\")"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "I am a quadrilateral."
+      },
+      {
+        "order": 2,
+        "text": "I have mirror symmetry about a diagonal."
+      },
+      {
+        "order": 3,
+        "text": "I have one axis of symmetry."
+      },
+      {
+        "order": 4,
+        "text": "I have two pairs of congruent adjacent sides."
+      },
+      {
+        "order": 5,
+        "text": "I fit my outline in two positions."
+      },
+      {
+        "order": 6,
+        "text": "My order of rotational symmetry is one."
+      },
+      {
+        "order": 7,
+        "text": "I have no centre of symmetry, nor a fixed centre of rotation."
+      }
+    ],
+    "scored": true
+  },
+  {
+    "id": "2c0a48bed5cca818b8582029",
+    "sourceFile": "ROUND5-5.doc",
+    "subject": "Physics",
+    "questionText": "You might think I am a rather unstable character because I never stay at one place. However, my motion obeys strict rules, and I always return to where I started and even if I have to leave that spot again, I do it in strict accordance to time. I can be named in electrical and mechanical contexts, in all cases I obey the same mathematical rules. In order to fully analyse me you would think about a stiffness or force constant, restoring force, and angular frequency. Who am I?",
+    "correctAnswer": "oscillator",
+    "options": [
+      "Refraction",
+      "Torque",
+      "Momentum",
+      "oscillator"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "You might think I am a rather unstable character because I never stay at one place."
+      },
+      {
+        "order": 2,
+        "text": "However, my motion obeys strict rules, and I always return to where I started and even if I have to leave that spot again, I do it in strict accordance to time."
+      },
+      {
+        "order": 3,
+        "text": "I can be named in electrical and mechanical contexts, in all cases I obey the same mathematical rules."
+      },
+      {
+        "order": 4,
+        "text": "In order to fully analyse me you would think about a stiffness or force constant, restoring force, and angular frequency."
+      }
+    ],
+    "scored": true
+  },
+  {
+    "id": "be6facf2ffe8239600b05e5f",
+    "sourceFile": "ROUND5.doc",
+    "subject": "Physics",
+    "questionText": "My path is always reversible. I operate on a principle of a difference. The difference is between a ground level value and an imaginary higher ground value. My value really depends on whether when you reach the top you go forward or retention. I am a form of energy associated with reactions. I determine not whether a reaction is spontaneous or not, but rather how fast the reaction will proceed. Who am I?",
+    "correctAnswer": "Activation Energy",
+    "options": [
+      "Activation Energy",
+      "Resistance",
+      "Amplitude",
+      "Refraction"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "My path is always reversible."
+      },
+      {
+        "order": 2,
+        "text": "I operate on a principle of a difference."
+      },
+      {
+        "order": 3,
+        "text": "The difference is between a ground level value and an imaginary higher ground value."
+      },
+      {
+        "order": 4,
+        "text": "My value really depends on whether when you reach the top you go forward or retention."
+      },
+      {
+        "order": 5,
+        "text": "I am a form of energy associated with reactions."
+      },
+      {
+        "order": 6,
+        "text": "I determine not whether a reaction is spontaneous or not, but rather how fast the reaction will proceed."
+      }
+    ],
+    "scored": true
+  },
+  {
+    "id": "e9faefc5e64a3806d4f187ca",
+    "sourceFile": "Round 5-1.docx",
+    "subject": "Physics",
+    "questionText": "I am a phenomenon Whenever I occur, I seem to violate the conservation of energy But in reality, I only steal from mass I can cause an element to be transformed into another element. I was discovered by a very curious couple. Who am I?",
+    "correctAnswer": "Radioactivity",
+    "options": [
+      "Radioactivity",
+      "Resistance",
+      "Refraction",
+      "Amplitude"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "I am a phenomenon"
+      },
+      {
+        "order": 2,
+        "text": "Whenever I occur, I seem to violate the conservation of energy"
+      },
+      {
+        "order": 3,
+        "text": "But in reality, I only steal from mass"
+      },
+      {
+        "order": 4,
+        "text": "I can cause an element to be transformed into another element."
+      },
+      {
+        "order": 5,
+        "text": "I was discovered by a very curious couple."
+      }
+    ],
+    "scored": true
+  },
+  {
+    "id": "63493ad63809302a6927e281",
+    "sourceFile": "Round 5-3.docx",
+    "subject": "Physics",
+    "questionText": "If all pretensions are removed, I am just a beam of light. I am found in homes, offices, hospitals, supermarkets, laboratories and so on. I find widespread use in communications and entertainment. When I was invented, I was called the “Death Ray”. But I have rather brought life and joy to many. I am special because the photons in my beam are all in phase and have the same energy. Who am I?",
+    "correctAnswer": "Laser",
+    "options": [
+      "Momentum",
+      "Laser",
+      "Refraction",
+      "Torque"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "If all pretensions are removed, I am just a beam of light."
+      },
+      {
+        "order": 2,
+        "text": "I am found in homes, offices, hospitals, supermarkets, laboratories and so on."
+      },
+      {
+        "order": 3,
+        "text": "I find widespread use in communications and entertainment."
+      },
+      {
+        "order": 4,
+        "text": "When I was invented, I was called the “Death Ray”."
+      },
+      {
+        "order": 5,
+        "text": "But I have rather brought life and joy to many."
+      },
+      {
+        "order": 6,
+        "text": "I am special because the photons in my beam are all in phase and have the same energy."
+      }
+    ],
+    "scored": true
   }
 ]

@@ -84,6 +84,31 @@ const BLOCK_QUESTION_BOUNDARY_RE = /^Q[.:]/i;
 // Used only by the scoped single-question Problem-of-the-Day parser below.
 const SOLUTION_STANDALONE_RE = /^\s*SOLUTIONS?\s*[:.]?\s*$/i;
 
+// Both of these are scoped to TrueFalse extraction only (passed via the `trueFalseMode`
+// option threaded through splitBlocks()/parseQABlocks() below) - NOT corpus-wide rules, since
+// a bare numbered prefix or a standalone "T"/"F" line would be far too easy to mismatch
+// outside a round that's actually a series of true/false judgments.
+//
+// A line starting with a numbered item marker ("2.", "17.") is a question boundary within
+// True/False rounds - some files number every statement but have no boundary marker for the
+// numbered text itself, so it gets glued onto the tail of the PREVIOUS item's answer block
+// (the Pattern 2 failure). Requires whitespace (or end of line) right after the period/paren,
+// not another digit, so a decimal value at the start of a statement ("2.5 moles...") isn't
+// mistaken for a list marker.
+const TF_NUMBERED_QUESTION_BOUNDARY_RE = /^\d{1,3}[.)](?:\s+|$)/;
+// A line that is ONLY "T"/"F"/"TRUE"/"FALSE" (optionally with a bracketed or parenthetical
+// explanation) is both a block boundary and, directly, the boolean answer value - some files
+// give the True/False verdict this way with no "ANSWER:"/"ANS:" label at all, either
+// abbreviated ("T", "F [a bulb]") or spelled out in full ("False", "True").
+const TF_STANDALONE_LINE_RE = /^(T|F|TRUE|FALSE)\s*(?:\[[^\]]*\]|\([^)]*\))?\s*$/i;
+// Whether a raw answer starts with a recognisable boolean word - used both by
+// extractTrueFalse() to build the actual True/False question, and by typeContentCheckPasses()
+// below to decide whether a TrueFalse-only segment is misclassified. Single-letter "T"/"F" are
+// word-boundary guarded the same way as "true"/"false" - they only match when followed by a
+// non-word character (space, bracket, punctuation, end of string), so they can't match the
+// start of an unrelated word like "Two".
+const TF_ANSWER_RE = /^(true|false|t|f)\b/i;
+
 // Some documents put the answer label inline at the END of the question line
 // ("Find x if 1 = 125 Ans:-11/2", "... find cos2x    ans: 0") rather than on its own line.
 // A break is inserted just before such a mid-line ANSWER:/ANS:/Ans: marker so the block-start
@@ -94,15 +119,48 @@ const SOLUTION_STANDALONE_RE = /^\s*SOLUTIONS?\s*[:.]?\s*$/i;
 // "Hans:", and the trailing `[:.]` requires a real separator so "answering"/"answerable" prose
 // is never split.
 const INLINE_ANSWER_MARKER_RE = /(\S)[ \t]*\b((?:ANSWER|ANS)\s*[:.])/gi;
+// A line that is a single, complete parenthetical aside - opens with "(" and closes with ")"
+// on the very same line, with nothing outside the parens - e.g. "(Answer: DNA -> RNA ->
+// Protein)" restating the correct flow as a clarifying note. That's not a real inline answer
+// label, so such a line is excluded from the inline-marker substitution below: applying it
+// there would split the note into a spurious "Answer: ...)" block and mistake commentary for
+// a real Q/A pairing.
+const FULL_LINE_PARENTHETICAL_RE = /^\([^()]*\)\s*$/;
 
-function splitBlocks(bodyText) {
-  const withInlineBreaks = bodyText.replace(INLINE_ANSWER_MARKER_RE, '$1\n$2');
+// Applies the inline-marker break line by line rather than across the whole text, so the
+// full-line-parenthetical guard above can exempt individual lines without affecting the rest
+// of the body.
+function applyInlineAnswerBreaks(bodyText) {
+  return bodyText
+    .split(/\r?\n/)
+    .map((line) => (FULL_LINE_PARENTHETICAL_RE.test(line.trim()) ? line : line.replace(INLINE_ANSWER_MARKER_RE, '$1\n$2')))
+    .join('\n');
+}
+
+function splitBlocks(bodyText, options = {}) {
+  const withInlineBreaks = applyInlineAnswerBreaks(bodyText);
   const blocks = [];
   for (const blankChunk of withInlineBreaks.split(/\n\s*\n+/)) {
     let current = [];
     for (const line of blankChunk.split(/\r?\n/)) {
       const trimmed = line.trim();
-      if (current.length > 0 && (BLOCK_ANSWER_BOUNDARY_RE.test(trimmed) || BLOCK_QUESTION_BOUNDARY_RE.test(trimmed))) {
+      if (options.trueFalseMode && TF_STANDALONE_LINE_RE.test(trimmed)) {
+        // A standalone T/F line is a complete, self-contained block on its own: seal whatever
+        // was accumulating as the preceding question, then seal this line too, so the NEXT
+        // line starts a fresh block instead of being absorbed into this one (unlike the other
+        // boundary markers below, which start a new block that keeps accumulating until the
+        // next boundary - that's exactly what would otherwise glue the next statement onto
+        // this answer).
+        if (current.length > 0) blocks.push(current.join('\n'));
+        blocks.push(line);
+        current = [];
+        continue;
+      }
+      const isBoundary =
+        BLOCK_ANSWER_BOUNDARY_RE.test(trimmed) ||
+        BLOCK_QUESTION_BOUNDARY_RE.test(trimmed) ||
+        (options.trueFalseMode && TF_NUMBERED_QUESTION_BOUNDARY_RE.test(trimmed));
+      if (current.length > 0 && isBoundary) {
         blocks.push(current.join('\n'));
         current = [line];
       } else {
@@ -188,8 +246,15 @@ function resolveAnswerText(rawAnswer) {
 // next preamble - matches the source format where one preamble introduces several
 // sub-questions (e.g. "Which of the following are not composed of sub-particles?" followed
 // by three short options, each with its own answer).
-function parseQABlocks(bodyText) {
-  const blocks = splitBlocks(bodyText);
+// True when `block` counts as an answer block. Scoped to trueFalseMode: a standalone T/F line
+// (see TF_STANDALONE_LINE_RE) is an answer in its own right, on top of the generic ANSWER:/
+// ANS:/A. label check.
+function isAnswerBlock(block, options) {
+  return (options.trueFalseMode && TF_STANDALONE_LINE_RE.test(block)) || ANSWER_BLOCK_RE.test(block);
+}
+
+function parseQABlocks(bodyText, options = {}) {
+  const blocks = splitBlocks(bodyText, options);
   const pairs = [];
   const warnings = [];
   let pendingQuestionParts = [];
@@ -207,8 +272,13 @@ function parseQABlocks(bodyText) {
       preamble = block.replace(PREAMBLE_BLOCK_RE, '').trim();
       continue;
     }
-    if (ANSWER_BLOCK_RE.test(block)) {
-      const rawAnswer = block.replace(ANSWER_BLOCK_RE, '').trim();
+    if (isAnswerBlock(block, options)) {
+      // A standalone T/F line has no label to strip - the whole block (e.g. "F [a bulb]") IS
+      // the raw answer already.
+      const rawAnswer =
+        options.trueFalseMode && TF_STANDALONE_LINE_RE.test(block)
+          ? block
+          : block.replace(ANSWER_BLOCK_RE, '').trim();
       const effectivelyEmpty = isEffectivelyEmptyAnswer(rawAnswer);
       if (collectingEmptyAnswer && lastPair) {
         // A second "Answer"-labeled block while still collecting the first one's body - treat
@@ -234,7 +304,7 @@ function parseQABlocks(bodyText) {
       // glued onto its tail. Flagged so callers can mark the resulting entry rather than
       // silently trusting it - not fed back into any parsing decision here.
       const nextBlock = blocks[idx + 1];
-      const possiblyCorrupted = !effectivelyEmpty && nextBlock !== undefined && ANSWER_BLOCK_RE.test(nextBlock);
+      const possiblyCorrupted = !effectivelyEmpty && nextBlock !== undefined && isAnswerBlock(nextBlock, options);
       // A trailing-contest-label answer ("Answer - Contest 14") carries no real content -
       // discard it rather than storing it as the answer, so it doesn't end up prefixed onto
       // the real answer text collected from later blocks.
@@ -658,16 +728,12 @@ function extractSpeedRace(fileName, segmentText, fileSubjectHint, warnings) {
 }
 
 function extractTrueFalse(fileName, segmentText, fileSubjectHint, warnings) {
-  const { pairs, warnings: qaWarnings } = parseQABlocks(stripHeader(segmentText));
+  // trueFalseMode: true - enables the two TrueFalse-scoped boundary rules in splitBlocks()/
+  // parseQABlocks() (bare numbered-item markers, and standalone "T"/"F" lines as both a
+  // boundary and the answer itself). Not used by any other extract* function.
+  const { pairs, warnings: qaWarnings } = parseQABlocks(stripHeader(segmentText), { trueFalseMode: true });
   warnings.push(...qaWarnings.map((w) => `[TrueFalse] ${w}`));
   const out = [];
-  // Some files (e.g. the numbered ROUND 5-* set) abbreviate the answer to a bare "T"/"F"
-  // instead of spelling out True/False. The single-letter alternatives are word-boundary
-  // guarded the same way as "true"/"false" - "T"/"F" only matches when followed by a
-  // non-word character (space, bracket, punctuation, end of string), so it can't match the
-  // start of an unrelated word like "Two" or "False" itself is unaffected since "false" is
-  // tried first in the alternation.
-  const TF_ANSWER_RE = /^(true|false|t|f)\b/i;
   for (const { questionText, answerText, possiblyCorrupted } of pairs) {
     const m = answerText.trim().match(TF_ANSWER_RE);
     if (!m) {
@@ -870,6 +936,18 @@ function extractSolutionBlockFile(fileName, text, fileSubjectHint) {
   return { questions, warnings };
 }
 
+// Whether a formed pair's answer fits the given round type's expected content format. Used to
+// decide whether a segment matched to exactly one of these types is actually misclassified
+// (e.g. a diagram's stray "F" force-labels tripping the True/False detector on otherwise
+// ordinary short-answer content) rather than genuinely being that round type. SpeedRace (and
+// anything else) has no content-format rejection at all - extractSpeedRace() accepts any
+// answer text unconditionally - so it trivially always passes and this check can never flag a
+// SpeedRace-only segment as misclassified.
+function typeContentCheckPasses(type, answerText) {
+  if (type === 'TrueFalse') return TF_ANSWER_RE.test(answerText.trim());
+  return true;
+}
+
 function extractFile(fileName, text) {
   const fileSubjectHint = [...detectSubjects(fileName, text)][0] || null;
 
@@ -881,6 +959,7 @@ function extractFile(fileName, text) {
   const questions = { General: [], SpeedRace: [], ProblemOfDay: [], TrueFalse: [], Riddle: [] };
   const warnings = [];
   let defaultedCount = 0;
+  let misclassifiedRerouteCount = 0;
   let knownExceptionSegmentCount = 0;
 
   const segments = allSegments.filter((segment) => {
@@ -914,6 +993,23 @@ function extractFile(fileName, text) {
     if (matchedTypes.length === 0) {
       defaultedCount++;
       matchedTypes = [fallbackType];
+    } else if (matchedTypes.length === 1 && (matchedTypes[0] === 'TrueFalse' || matchedTypes[0] === 'SpeedRace')) {
+      // A segment matched to exactly one of these types, with no General/other type also
+      // matched, has no fallback if that type's content check rejects most of its answers -
+      // they'd just be silently dropped one by one with no path to recover them. Trial-parse
+      // the segment and check: if the majority of the pairs it forms don't actually fit the
+      // matched type's format, this is very likely a misclassification (e.g. a diagram's
+      // stray "F" labels tripping the True/False detector on ordinary short-answer content) -
+      // reroute the whole segment to General instead of losing it.
+      const type = matchedTypes[0];
+      const trialPairs = parseQABlocks(stripHeader(segment), { trueFalseMode: type === 'TrueFalse' }).pairs;
+      if (trialPairs.length > 0) {
+        const failCount = trialPairs.filter((p) => !typeContentCheckPasses(type, p.answerText)).length;
+        if (failCount > trialPairs.length / 2) {
+          misclassifiedRerouteCount++;
+          matchedTypes = ['General'];
+        }
+      }
     }
     for (const type of matchedTypes) {
       const segWarnings = [];
@@ -933,6 +1029,11 @@ function extractFile(fileName, text) {
   }
   if (defaultedCount > 0) {
     warnings.push(`${defaultedCount} segment(s) had no round-type signal, defaulted to ${fallbackType}`);
+  }
+  if (misclassifiedRerouteCount > 0) {
+    warnings.push(
+      `${misclassifiedRerouteCount} segment(s) matched TrueFalse/SpeedRace but majority of answers failed the type's content check - rerouted to General`
+    );
   }
 
   return { questions, warnings };
