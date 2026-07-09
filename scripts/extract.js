@@ -80,6 +80,9 @@ const BLOCK_ANSWER_BOUNDARY_RE = /^(?:(?:ANSWER|ANS)(?:[:.\t ]|$)|A[.:])/i;
 // "Q."/"Q:" is also an unconditional block boundary. Same guard: requires "." or ":" so a bare
 // "Q " (rare, but e.g. a variable named Q) isn't treated as a marker.
 const BLOCK_QUESTION_BOUNDARY_RE = /^Q[.:]/i;
+// A line that is nothing but a "SOLUTION" / "SOLUTIONS" heading (optional trailing : or .).
+// Used only by the scoped single-question Problem-of-the-Day parser below.
+const SOLUTION_STANDALONE_RE = /^\s*SOLUTIONS?\s*[:.]?\s*$/i;
 
 // Some documents put the answer label inline at the END of the question line
 // ("Find x if 1 = 125 Ans:-11/2", "... find cos2x    ans: 0") rather than on its own line.
@@ -745,8 +748,72 @@ function detectTitleRoundTypes(fileName, text) {
   return types;
 }
 
+// ---------------------------------------------------------------------------------------
+// Scoped SOLUTION-block parser: single-question "PROBLEM OF THE DAY-N.doc" files only.
+// ---------------------------------------------------------------------------------------
+// These files hold exactly one Problem-of-the-Day question laid out as: header lines
+// (CONTEST N / PROBLEM OF THE DAY), then the question, then a standalone "SOLUTION" line, then
+// the worked answer. Everything before SOLUTION (minus the headers) is the question; everything
+// after is the answer. Deliberately NOT applied to the multi-question batched files
+// (DOC-20190819, DOC-20190908, NSMQ Finals 2017 Maths PoD) - those need per-sub-question
+// alignment that this simple split would mangle, so they're left unhandled for now.
+const SOLUTION_BLOCK_SKIP = new Set([
+  'DOC-20190819-WA0008.docx',
+  'DOC-20190908-WA0002.docx',
+  'NSMQ Finals 2017 - Maths Questions Problem of the day 2017.docx',
+]);
+// A header/label line at the top of the file that isn't part of the question text.
+const POD_HEADER_LINE_RE = /^(?:CONTEST\s*\d+.*|ROUND\s*\d+.*|PROBLEM\s+OF\s+THE\s+DAY.*)$/i;
+
+// Scoped by filename to the "PROBLEM OF THE DAY-*" set (the NSMQ Finals file merely mentions
+// the phrase mid-name, so a start-anchored test excludes it - the explicit skip set is a
+// second guard). Requires exactly one standalone SOLUTION line, which is what makes it a
+// single-question file; anything with zero or several is left to the normal path / unhandled.
+function isSolutionBlockFile(fileName, text) {
+  if (SOLUTION_BLOCK_SKIP.has(fileName)) return false;
+  if (!/^problem of the day/i.test(fileName)) return false;
+  const solCount = (text || '').split(/\r?\n/).filter((l) => SOLUTION_STANDALONE_RE.test(l)).length;
+  return solCount === 1;
+}
+
+function extractSolutionBlockFile(fileName, text, fileSubjectHint) {
+  const questions = { General: [], SpeedRace: [], ProblemOfDay: [], TrueFalse: [], Riddle: [] };
+  const warnings = [];
+  const lines = text.split(/\r?\n/);
+  const solIdx = lines.findIndex((l) => SOLUTION_STANDALONE_RE.test(l));
+
+  const preLines = lines.slice(0, solIdx).map((l) => l.trim()).filter(Boolean);
+  let qStart = 0;
+  while (qStart < preLines.length && POD_HEADER_LINE_RE.test(preLines[qStart])) qStart++;
+  const questionText = cleanText(preLines.slice(qStart).join(' '));
+  const answerText = cleanAnswer(
+    lines.slice(solIdx + 1).map((l) => l.trim()).filter(Boolean).join(' ')
+  );
+
+  if (!questionText || !answerText) {
+    warnings.push(
+      `[ProblemOfDay] SOLUTION-block file has ${!questionText ? 'no question' : 'no answer'} text - skipped`
+    );
+    return { questions, warnings };
+  }
+
+  const subject = inferSubject(`${questionText} ${answerText}`, fileSubjectHint);
+  questions.ProblemOfDay.push({
+    ...buildBase(fileName, subject, 'ProblemOfDay', questionText),
+    questionText,
+    correctAnswer: answerText,
+    scored: false,
+  });
+  return { questions, warnings };
+}
+
 function extractFile(fileName, text) {
   const fileSubjectHint = [...detectSubjects(fileName, text)][0] || null;
+
+  if (isSolutionBlockFile(fileName, text)) {
+    return extractSolutionBlockFile(fileName, text, fileSubjectHint);
+  }
+
   const allSegments = splitIntoSegments(text);
   const questions = { General: [], SpeedRace: [], ProblemOfDay: [], TrueFalse: [], Riddle: [] };
   const warnings = [];
