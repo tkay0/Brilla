@@ -66,7 +66,20 @@ function stripHeader(segmentText) {
 // Requires a real separator (or end of line, for a bare "ANSWER" label) right after the
 // word - not just `[:.\t ]*` - so prose that happens to start a line with "Answering"/
 // "Answerable" doesn't get mistaken for the marker and split mid-sentence.
-const BLOCK_ANSWER_BOUNDARY_RE = /^(?:ANSWER|ANS)(?:[:.\t ]|$)/i;
+//
+// The single-letter "A."/"A:" form (from the "Q. ... / A. ..." transcript files, ~34 of them)
+// REQUIRES a "." or ":" immediately after the A - never a bare space - so the article "A "
+// starting a sentence ("A ball is thrown ...") and clue lines like "A form of energy" are not
+// mistaken for an answer label. It's only recognised at the start of a line (not inline): a
+// single letter is far too common mid-sentence ("vitamin A. It ...", "point A.") to split on
+// safely, so unlike ANSWER:/ANS: it deliberately has no inline variant.
+const BLOCK_ANSWER_BOUNDARY_RE = /^(?:(?:ANSWER|ANS)(?:[:.\t ]|$)|A[.:])/i;
+// Those same transcript files have no blank line between a "Q." line and the "A." line that
+// follows, nor between an answer and the next "Q." line. Without a question-side boundary too,
+// each answer block would swallow the next question (the Pattern 2 failure). So a line starting
+// "Q."/"Q:" is also an unconditional block boundary. Same guard: requires "." or ":" so a bare
+// "Q " (rare, but e.g. a variable named Q) isn't treated as a marker.
+const BLOCK_QUESTION_BOUNDARY_RE = /^Q[.:]/i;
 
 // Some documents put the answer label inline at the END of the question line
 // ("Find x if 1 = 125 Ans:-11/2", "... find cos2x    ans: 0") rather than on its own line.
@@ -85,7 +98,8 @@ function splitBlocks(bodyText) {
   for (const blankChunk of withInlineBreaks.split(/\n\s*\n+/)) {
     let current = [];
     for (const line of blankChunk.split(/\r?\n/)) {
-      if (current.length > 0 && BLOCK_ANSWER_BOUNDARY_RE.test(line.trim())) {
+      const trimmed = line.trim();
+      if (current.length > 0 && (BLOCK_ANSWER_BOUNDARY_RE.test(trimmed) || BLOCK_QUESTION_BOUNDARY_RE.test(trimmed))) {
         blocks.push(current.join('\n'));
         current = [line];
       } else {
@@ -113,9 +127,15 @@ function cleanAnswer(s) {
     .trim();
 }
 
-const ANSWER_PREFIX_RE = /^(?:ANSWER|ANS)[:.\t ]*/i;
+// Strips the answer label off the front of an answer block. The single-letter "A."/"A:" form
+// requires the "." or ":" (matching BLOCK_ANSWER_BOUNDARY_RE) so it never eats the leading "A "
+// of an ordinary answer sentence.
+const ANSWER_PREFIX_RE = /^(?:(?:ANSWER|ANS)[:.\t ]*|A[.:][ \t]*)/i;
 const ANSWER_BLOCK_RE = new RegExp(ANSWER_PREFIX_RE.source, 'i');
 const ANSWER_LINE_RE = new RegExp(`${ANSWER_PREFIX_RE.source}(.*)$`, 'i');
+// Strips a leading "Q."/"Q:" question label so it doesn't end up inside the stored question
+// text (the transcript files prefix every question with it).
+const QUESTION_PREFIX_RE = /^Q[.:][ \t]*/i;
 const PREAMBLE_BLOCK_RE = /^PREAMBLE[:.\t ]*/i;
 const REASON_BLOCK_RE = /^REASON[:.\t ]*/i;
 // Some docs label an answer as "Answer - Contest 14" / "Answer– Contest 19" - just the
@@ -200,7 +220,7 @@ function parseQABlocks(bodyText) {
         collectingEmptyAnswer = false;
         continue;
       }
-      let questionText = pendingQuestionParts.join(' ').trim();
+      let questionText = pendingQuestionParts.join(' ').trim().replace(QUESTION_PREFIX_RE, '');
       if (preamble) questionText = `${preamble} ${questionText}`;
       // Detection only, doesn't change what gets extracted: this block is immediately
       // followed by another answer-led block, with no question block between them - the
