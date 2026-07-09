@@ -1,48 +1,48 @@
 [
   {
-    "id": "6aa5ed87-1117-4249-8cb6-b00441aa5208",
+    "id": "5de630aaf61220929304744a",
     "sourceFile": "CHEMISTRY TRIAL QUIZ.docx",
     "subject": "Chemistry",
     "questionText": "Calculate the pH of 0.10 moldm-3 solution of aqueous ammonia solution, given that the pKb of NH3 is 4.74",
     "correctAnswer": "11.13",
     "options": [
       "13.13",
-      "-11.13",
       "11.13",
-      "1.11"
+      "1.11",
+      "-11.13"
     ],
     "scored": true
   },
   {
-    "id": "5c2311fd-f2a9-459e-a1b5-e79c65b67e50",
+    "id": "0d249b5f29e97b5428eb011d",
     "sourceFile": "CHEMISTRY TRIAL QUIZ.docx",
     "subject": "Chemistry",
     "questionText": "Explain why though both chlorine molecules and bromine molecules experience induced dipole – induced dipole intermolecular forces, bromine is a liquid while chlorine is gaseous.",
     "correctAnswer": "Bromine atoms are bigger and heavier therefore bromine molecules experience greater intermolecular forces",
     "options": [
-      "Chlorine atoms are bigger and heavier therefore chlorine molecules experience greater intermolecular forces.",
-      "Bromine atoms are bigger and heavier therefore bromine molecules experience greater intermolecular forces",
       "Bromine has a higher electronegativity than chlorine, resulting in stronger dipole-dipole forces.",
+      "Bromine atoms are bigger and heavier therefore bromine molecules experience greater intermolecular forces",
+      "Chlorine atoms are bigger and heavier therefore chlorine molecules experience greater intermolecular forces.",
       "Bromine forms hydrogen bonds while chlorine does not."
     ],
     "scored": true
   },
   {
-    "id": "ed1f50af-dd8f-405b-9fa0-3945f1cdd561",
+    "id": "eb3654b7c827bf8eca415614",
     "sourceFile": "CHEMISTRY TRIAL QUIZ.docx",
     "subject": "Physics",
     "questionText": "What industrial preparation may be classified as fixation of nitrogen and why?",
     "correctAnswer": "Haber Process",
     "options": [
+      "Haber Process",
       "Ostwald Process",
       "Solvay Process",
-      "Contact Process",
-      "Haber Process"
+      "Contact Process"
     ],
     "scored": true
   },
   {
-    "id": "356bc5cc-6448-45ae-a676-4caa5ade5fa4",
+    "id": "e2359a5cb6bde2f2c2bd0fd7",
     "sourceFile": "CHEMISTRY TRIAL QUIZ.docx",
     "subject": "Chemistry",
     "questionText": "Helium is derived from a Greek word. What does the Greek word mean?",
@@ -50,8 +50,8 @@
     "options": [
       "Light",
       "Star",
-      "Sun",
-      "Moon"
+      "Moon",
+      "Sun"
     ],
     "scored": true
   }

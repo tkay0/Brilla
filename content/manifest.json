@@ -1,7 +1,46 @@
 {
+  "2018 (1).docx": {
+    "contentHash": "9bb2d662b829a51e3a1b04276d7b6fc7187839c89a43dacc343fbef6a4441145",
+    "processedAt": "2026-07-09T06:47:06.666Z",
+    "status": "skipped-duplicate",
+    "duplicateOf": "2018.docx",
+    "questionsAdded": {
+      "General": 0,
+      "SpeedRace": 0,
+      "ProblemOfDay": 0,
+      "TrueFalse": 0,
+      "Riddle": 0
+    }
+  },
+  "2018 NSMQ Maths Questions - Copy - Copy.docx": {
+    "contentHash": "81722cfe3b366e3fd8444dd7ab3d640142263b04cc702bc8a28774b023218175",
+    "processedAt": "2026-07-09T06:47:06.667Z",
+    "status": "skipped-duplicate",
+    "duplicateOf": "2018 NSMQ Maths Questions.docx",
+    "questionsAdded": {
+      "General": 0,
+      "SpeedRace": 0,
+      "ProblemOfDay": 0,
+      "TrueFalse": 0,
+      "Riddle": 0
+    }
+  },
+  "2018 NSMQ Maths Questions - Copy.docx": {
+    "contentHash": "81722cfe3b366e3fd8444dd7ab3d640142263b04cc702bc8a28774b023218175",
+    "processedAt": "2026-07-09T06:47:06.667Z",
+    "status": "skipped-duplicate",
+    "duplicateOf": "2018 NSMQ Maths Questions.docx",
+    "questionsAdded": {
+      "General": 0,
+      "SpeedRace": 0,
+      "ProblemOfDay": 0,
+      "TrueFalse": 0,
+      "Riddle": 0
+    }
+  },
   "Biology (Problem of the Day) - one-eighth to finals.docx": {
     "contentHash": "57e7fc403b00a5b80a7d65cc9b6d9616b29ecdf20f47f7c6e6b159f81190ee05",
-    "processedAt": "2026-07-07T23:29:06.317Z",
+    "processedAt": "2026-07-08T06:16:46.419Z",
     "status": "processed",
     "questionsAdded": {
       "General": 6,
@@ -11,9 +50,47 @@
       "Riddle": 0
     }
   },
+  "Biology Questions Riddles.docx": {
+    "contentHash": "923061f4e522758fe9ce62d7154acc25d885f9e5a41524ff46def8964f841f1f",
+    "processedAt": "2026-07-08T06:52:49.213Z",
+    "status": "processed",
+    "questionsAdded": {
+      "General": 0,
+      "SpeedRace": 0,
+      "ProblemOfDay": 0,
+      "TrueFalse": 0,
+      "Riddle": 39
+    }
+  },
+  "Biology Questions True or false-1 (1).docx": {
+    "contentHash": "9f1f3d8ff2cb30a8461f206857e5ca873fa77d038d60d2d5dc5cf45794f6d0e7",
+    "processedAt": "2026-07-09T06:47:06.667Z",
+    "status": "skipped-duplicate",
+    "duplicateOf": "Biology Questions True or false.docx",
+    "questionsAdded": {
+      "General": 0,
+      "SpeedRace": 0,
+      "ProblemOfDay": 0,
+      "TrueFalse": 0,
+      "Riddle": 0
+    }
+  },
+  "Biology Questions True or false-1.docx": {
+    "contentHash": "9f1f3d8ff2cb30a8461f206857e5ca873fa77d038d60d2d5dc5cf45794f6d0e7",
+    "processedAt": "2026-07-09T06:47:06.667Z",
+    "status": "skipped-duplicate",
+    "duplicateOf": "Biology Questions True or false.docx",
+    "questionsAdded": {
+      "General": 0,
+      "SpeedRace": 0,
+      "ProblemOfDay": 0,
+      "TrueFalse": 0,
+      "Riddle": 0
+    }
+  },
   "Biology Riddles (2) - Copy.docx": {
     "contentHash": "703d4d38f86b82cee2f7cbb03e18e71570e7047fce8ed496c4f9a1eccdb71bc9",
-    "processedAt": "2026-07-07T23:29:06.208Z",
+    "processedAt": "2026-07-08T06:16:46.492Z",
     "status": "processed",
     "questionsAdded": {
       "General": 0,
@@ -25,7 +102,7 @@
   },
   "CHEMISTRY TRIAL QUIZ.docx": {
     "contentHash": "bdea1b6f99b562ff9744b680765871975380f617e3ca25ba973a87e4c4ef9a1e",
-    "processedAt": "2026-07-07T23:29:06.094Z",
+    "processedAt": "2026-07-08T06:16:46.519Z",
     "status": "processed",
     "questionsAdded": {
       "General": 12,
@@ -33,6 +110,1369 @@
       "ProblemOfDay": 0,
       "TrueFalse": 9,
       "Riddle": 1
+    }
+  },
+  "CONTEST 1 one.doc": {
+    "contentHash": "96b8a51b3eda9d16ab996588fe53eceb30ac700a2d89b88578ba66e40b4731d3",
+    "processedAt": "2026-07-09T06:47:06.667Z",
+    "status": "skipped-duplicate",
+    "duplicateOf": "CONTEST 1.doc",
+    "questionsAdded": {
+      "General": 0,
+      "SpeedRace": 0,
+      "ProblemOfDay": 0,
+      "TrueFalse": 0,
+      "Riddle": 0
+    }
+  },
+  "Contest 1-1.doc": {
+    "contentHash": "5c489932cfe042a970c47a82acb46926977548b9295a586c9457d533b6f9f39e",
+    "processedAt": "2026-07-08T06:52:49.128Z",
+    "status": "processed",
+    "questionsAdded": {
+      "General": 0,
+      "SpeedRace": 0,
+      "ProblemOfDay": 0,
+      "TrueFalse": 0,
+      "Riddle": 1
+    }
+  },
+  "CONTEST 11 (1).docx": {
+    "contentHash": "adc2be72341d6cfd44c0a9488ace2f67d92539a1c680d747dfabb9a0a091be4e",
+    "processedAt": "2026-07-09T06:47:06.667Z",
+    "status": "skipped-duplicate",
+    "duplicateOf": "CONTEST 11.docx",
+    "questionsAdded": {
+      "General": 0,
+      "SpeedRace": 0,
+      "ProblemOfDay": 0,
+      "TrueFalse": 0,
+      "Riddle": 0
+    }
+  },
+  "CONTEST 11-1.docx": {
+    "contentHash": "adc2be72341d6cfd44c0a9488ace2f67d92539a1c680d747dfabb9a0a091be4e",
+    "processedAt": "2026-07-09T06:47:06.667Z",
+    "status": "skipped-duplicate",
+    "duplicateOf": "CONTEST 11.docx",
+    "questionsAdded": {
+      "General": 0,
+      "SpeedRace": 0,
+      "ProblemOfDay": 0,
+      "TrueFalse": 0,
+      "Riddle": 0
+    }
+  },
+  "CONTEST 12-1.docx": {
+    "contentHash": "c9b6f5dd4822928e757f313d745700a6d390876ae8977a4e6ff037ccd3d4bbf2",
+    "processedAt": "2026-07-09T06:47:06.667Z",
+    "status": "skipped-duplicate",
+    "duplicateOf": "CONTEST 12.docx",
+    "questionsAdded": {
+      "General": 0,
+      "SpeedRace": 0,
+      "ProblemOfDay": 0,
+      "TrueFalse": 0,
+      "Riddle": 0
+    }
+  },
+  "CONTEST 13-1.docx": {
+    "contentHash": "0b575d1f5d882c379733507b702d8e4b29c7453d5fc2230104a73c770efc2096",
+    "processedAt": "2026-07-09T06:47:06.667Z",
+    "status": "skipped-duplicate",
+    "duplicateOf": "CONTEST 13.docx",
+    "questionsAdded": {
+      "General": 0,
+      "SpeedRace": 0,
+      "ProblemOfDay": 0,
+      "TrueFalse": 0,
+      "Riddle": 0
+    }
+  },
+  "CONTEST 15 (1).doc": {
+    "contentHash": "e9192790d2c68b66725f8b7cfd93747dd782a96ce09d27626b6c3fa5bdb97b7f",
+    "processedAt": "2026-07-09T06:47:06.667Z",
+    "status": "skipped-duplicate",
+    "duplicateOf": "CONTEST 15.doc",
+    "questionsAdded": {
+      "General": 0,
+      "SpeedRace": 0,
+      "ProblemOfDay": 0,
+      "TrueFalse": 0,
+      "Riddle": 0
+    }
+  },
+  "Contest 15-1 (1).doc": {
+    "contentHash": "6130a5254187b052ab715b0d3e92b004d955806a7fd339117f30b0cd64967548",
+    "processedAt": "2026-07-09T06:47:06.668Z",
+    "status": "skipped-duplicate",
+    "duplicateOf": "Contest 15-1.doc",
+    "questionsAdded": {
+      "General": 0,
+      "SpeedRace": 0,
+      "ProblemOfDay": 0,
+      "TrueFalse": 0,
+      "Riddle": 0
+    }
+  },
+  "CONTEST 15-1.docx": {
+    "contentHash": "675aa2e1efd9c5e76cde3df6046aa3cf7f6f15bd5011b800f39c7b07bacc2b2f",
+    "processedAt": "2026-07-09T06:47:06.667Z",
+    "status": "skipped-duplicate",
+    "duplicateOf": "CONTEST 15.docx",
+    "questionsAdded": {
+      "General": 0,
+      "SpeedRace": 0,
+      "ProblemOfDay": 0,
+      "TrueFalse": 0,
+      "Riddle": 0
+    }
+  },
+  "Contest 16-1.doc": {
+    "contentHash": "4c0c900030f2b2025be89b587bfcacbdd12bf1d77dcb192aa642a9ef024149e7",
+    "processedAt": "2026-07-09T06:47:06.668Z",
+    "status": "skipped-duplicate",
+    "duplicateOf": "Contest 16.doc",
+    "questionsAdded": {
+      "General": 0,
+      "SpeedRace": 0,
+      "ProblemOfDay": 0,
+      "TrueFalse": 0,
+      "Riddle": 0
+    }
+  },
+  "CONTEST 16-1.docx": {
+    "contentHash": "e30d941b8c3c1aacfadf91a66d66090019c8dda1e1e91e40a40ccbd04ddb37f3",
+    "processedAt": "2026-07-09T06:47:06.667Z",
+    "status": "skipped-duplicate",
+    "duplicateOf": "CONTEST 16.docx",
+    "questionsAdded": {
+      "General": 0,
+      "SpeedRace": 0,
+      "ProblemOfDay": 0,
+      "TrueFalse": 0,
+      "Riddle": 0
+    }
+  },
+  "Contest 17-1.doc": {
+    "contentHash": "204a0e7816f10a65d7d2f5b0a2df65e2b32b8c5c2a496149120e83c72a1575df",
+    "processedAt": "2026-07-09T06:47:06.668Z",
+    "status": "skipped-duplicate",
+    "duplicateOf": "Contest 17.doc",
+    "questionsAdded": {
+      "General": 0,
+      "SpeedRace": 0,
+      "ProblemOfDay": 0,
+      "TrueFalse": 0,
+      "Riddle": 0
+    }
+  },
+  "CONTEST 17-1.docx": {
+    "contentHash": "cbe6bdaf60541d6c1252c07078586fb3435ea2d7fdef7cc2136d82ab28ea935b",
+    "processedAt": "2026-07-09T06:47:06.667Z",
+    "status": "skipped-duplicate",
+    "duplicateOf": "CONTEST 17.docx",
+    "questionsAdded": {
+      "General": 0,
+      "SpeedRace": 0,
+      "ProblemOfDay": 0,
+      "TrueFalse": 0,
+      "Riddle": 0
+    }
+  },
+  "CONTEST 17.docx": {
+    "contentHash": "cbe6bdaf60541d6c1252c07078586fb3435ea2d7fdef7cc2136d82ab28ea935b",
+    "processedAt": "2026-07-08T06:52:48.265Z",
+    "status": "processed",
+    "questionsAdded": {
+      "General": 31,
+      "SpeedRace": 0,
+      "ProblemOfDay": 0,
+      "TrueFalse": 14,
+      "Riddle": 4
+    }
+  },
+  "CONTEST 18-1.docx": {
+    "contentHash": "0f2055158f9293dc2354341ac40f51adf81f8a88f8f62e344a9a5bdfdb6d65fc",
+    "processedAt": "2026-07-09T06:47:06.668Z",
+    "status": "skipped-duplicate",
+    "duplicateOf": "CONTEST 18.docx",
+    "questionsAdded": {
+      "General": 0,
+      "SpeedRace": 0,
+      "ProblemOfDay": 0,
+      "TrueFalse": 0,
+      "Riddle": 0
+    }
+  },
+  "CONTEST 21.doc": {
+    "contentHash": "b92004d6456c56bf657124c00672ad89f586b396e64b3c1a85c9c60b795ccbdd",
+    "processedAt": "2026-07-08T06:52:48.296Z",
+    "status": "processed",
+    "questionsAdded": {
+      "General": 10,
+      "SpeedRace": 0,
+      "ProblemOfDay": 0,
+      "TrueFalse": 7,
+      "Riddle": 4
+    }
+  },
+  "CONTEST 28.doc": {
+    "contentHash": "c9b405788307f6b2215274d5b6d791fe36766f088c8d387902a794d754eaa99c",
+    "processedAt": "2026-07-08T06:52:48.152Z",
+    "status": "processed",
+    "questionsAdded": {
+      "General": 3,
+      "SpeedRace": 0,
+      "ProblemOfDay": 0,
+      "TrueFalse": 2,
+      "Riddle": 4
+    }
+  },
+  "Contest 29 (1).doc": {
+    "contentHash": "ca30ccc3c586eda2fabedf971e5e42047d94b0b4601e55467275e129fb7fc34e",
+    "processedAt": "2026-07-09T06:47:06.668Z",
+    "status": "skipped-duplicate",
+    "duplicateOf": "Contest 29-1.doc",
+    "questionsAdded": {
+      "General": 0,
+      "SpeedRace": 0,
+      "ProblemOfDay": 0,
+      "TrueFalse": 0,
+      "Riddle": 0
+    }
+  },
+  "Contest 30-1 (1).doc": {
+    "contentHash": "af66f346fe5b5134b4de2c82445577a45bf9139f26749cce54e7f4d93c0c1d24",
+    "processedAt": "2026-07-09T06:47:06.668Z",
+    "status": "skipped-duplicate",
+    "duplicateOf": "Contest 30-1.doc",
+    "questionsAdded": {
+      "General": 0,
+      "SpeedRace": 0,
+      "ProblemOfDay": 0,
+      "TrueFalse": 0,
+      "Riddle": 0
+    }
+  },
+  "CONTEST 5.doc": {
+    "contentHash": "b5406778c7ccf855c4f46500f702b42533ae65f544514bd9f0432c00336f00a3",
+    "processedAt": "2026-07-08T06:52:48.307Z",
+    "status": "processed",
+    "questionsAdded": {
+      "General": 34,
+      "SpeedRace": 0,
+      "ProblemOfDay": 0,
+      "TrueFalse": 7,
+      "Riddle": 4
+    }
+  },
+  "CONTEST 6 (1).doc": {
+    "contentHash": "a74a3d0e6358ad6a376a61dc9a9038fb2eff1a69618bca5e20a44bb233032c73",
+    "processedAt": "2026-07-09T06:47:06.668Z",
+    "status": "skipped-duplicate",
+    "duplicateOf": "CONTEST 6.doc",
+    "questionsAdded": {
+      "General": 0,
+      "SpeedRace": 0,
+      "ProblemOfDay": 0,
+      "TrueFalse": 0,
+      "Riddle": 0
+    }
+  },
+  "CONTEST 9 (1).doc": {
+    "contentHash": "ea00e72049f31ef334c1e65ab4198c4ec3334c8408696a2ade8703d518239b14",
+    "processedAt": "2026-07-09T06:47:06.668Z",
+    "status": "skipped-duplicate",
+    "duplicateOf": "CONTEST 9.doc",
+    "questionsAdded": {
+      "General": 0,
+      "SpeedRace": 0,
+      "ProblemOfDay": 0,
+      "TrueFalse": 0,
+      "Riddle": 0
+    }
+  },
+  "CONTEST 9 (2).doc": {
+    "contentHash": "ea00e72049f31ef334c1e65ab4198c4ec3334c8408696a2ade8703d518239b14",
+    "processedAt": "2026-07-09T06:47:06.668Z",
+    "status": "skipped-duplicate",
+    "duplicateOf": "CONTEST 9.doc",
+    "questionsAdded": {
+      "General": 0,
+      "SpeedRace": 0,
+      "ProblemOfDay": 0,
+      "TrueFalse": 0,
+      "Riddle": 0
+    }
+  },
+  "CONTEST 9.doc": {
+    "contentHash": "ea00e72049f31ef334c1e65ab4198c4ec3334c8408696a2ade8703d518239b14",
+    "processedAt": "2026-07-08T06:52:48.285Z",
+    "status": "processed",
+    "questionsAdded": {
+      "General": 30,
+      "SpeedRace": 0,
+      "ProblemOfDay": 0,
+      "TrueFalse": 2,
+      "Riddle": 4
+    }
+  },
+  "Copy Contest 11-1-1.doc": {
+    "contentHash": "5122d1d9fbe5bb998928453173b8c63a9d8c438489219d68a283ec3ee8699951",
+    "processedAt": "2026-07-09T06:47:06.668Z",
+    "status": "skipped-duplicate",
+    "duplicateOf": "Contest 11.doc",
+    "questionsAdded": {
+      "General": 0,
+      "SpeedRace": 0,
+      "ProblemOfDay": 0,
+      "TrueFalse": 0,
+      "Riddle": 0
+    }
+  },
+  "Copy CONTEST 11.doc": {
+    "contentHash": "4339cc9bbe11dd2ca84101ef269b44d80b184fdd41a9b8c261246e7f8bf50820",
+    "processedAt": "2026-07-08T06:52:48.324Z",
+    "status": "processed",
+    "questionsAdded": {
+      "General": 2,
+      "SpeedRace": 0,
+      "ProblemOfDay": 0,
+      "TrueFalse": 1,
+      "Riddle": 4
+    }
+  },
+  "Copy CONTEST 14.doc": {
+    "contentHash": "1c0d8133356ecf2b3694cd36acef3535c90e0586b91917d943a02d39eaf2d8a3",
+    "processedAt": "2026-07-08T06:52:48.190Z",
+    "status": "processed",
+    "questionsAdded": {
+      "General": 1,
+      "SpeedRace": 0,
+      "ProblemOfDay": 0,
+      "TrueFalse": 1,
+      "Riddle": 4
+    }
+  },
+  "Copy CONTEST 16 (1).doc": {
+    "contentHash": "362e335a139fabebe5026d6305120c760ee607ee13b90f92b09ab7f3a0decf21",
+    "processedAt": "2026-07-09T06:47:06.668Z",
+    "status": "skipped-duplicate",
+    "duplicateOf": "Copy CONTEST 16.doc",
+    "questionsAdded": {
+      "General": 0,
+      "SpeedRace": 0,
+      "ProblemOfDay": 0,
+      "TrueFalse": 0,
+      "Riddle": 0
+    }
+  },
+  "DOC-20190614-WA0000.docx": {
+    "contentHash": "b72848d211affb916e91a7cee2ddfa8f9f8f68a53ab54a686d2e6b7546e5ae77",
+    "processedAt": "2026-07-09T06:47:06.668Z",
+    "status": "skipped-duplicate",
+    "duplicateOf": "MONICAS 2.docx",
+    "questionsAdded": {
+      "General": 0,
+      "SpeedRace": 0,
+      "ProblemOfDay": 0,
+      "TrueFalse": 0,
+      "Riddle": 0
+    }
+  },
+  "DOC-20190614-WA0001.docx": {
+    "contentHash": "36553e1ffe1fba528e1f22e1a2c9de9601a7e357b5a5efff7fced9d79bb99d17",
+    "processedAt": "2026-07-09T06:47:06.668Z",
+    "status": "skipped-duplicate",
+    "duplicateOf": "MONICAS 1.docx",
+    "questionsAdded": {
+      "General": 0,
+      "SpeedRace": 0,
+      "ProblemOfDay": 0,
+      "TrueFalse": 0,
+      "Riddle": 0
+    }
+  },
+  "DOC-20190819-WA0002.docx": {
+    "contentHash": "ea6c5b30b5ca4997f4b1f1b56cda697c981c2b838ed72a70aabd251bece2536d",
+    "processedAt": "2026-07-09T06:47:06.668Z",
+    "status": "skipped-duplicate",
+    "duplicateOf": "Prelims Round 5 - Physics 2017.docx",
+    "questionsAdded": {
+      "General": 0,
+      "SpeedRace": 0,
+      "ProblemOfDay": 0,
+      "TrueFalse": 0,
+      "Riddle": 0
+    }
+  },
+  "DOC-20190819-WA0006.docx": {
+    "contentHash": "9f1f3d8ff2cb30a8461f206857e5ca873fa77d038d60d2d5dc5cf45794f6d0e7",
+    "processedAt": "2026-07-09T06:47:06.667Z",
+    "status": "skipped-duplicate",
+    "duplicateOf": "Biology Questions True or false.docx",
+    "questionsAdded": {
+      "General": 0,
+      "SpeedRace": 0,
+      "ProblemOfDay": 0,
+      "TrueFalse": 0,
+      "Riddle": 0
+    }
+  },
+  "DOC-20190819-WA0008.docx": {
+    "contentHash": "dd5e81584e746b35d389e54ce032603333864ac40e6df3221e93745a3084a9dc",
+    "processedAt": "2026-07-08T06:52:49.119Z",
+    "status": "processed",
+    "questionsAdded": {
+      "General": 0,
+      "SpeedRace": 0,
+      "ProblemOfDay": 0,
+      "TrueFalse": 0,
+      "Riddle": 0
+    }
+  },
+  "DOC-20190908-WA0000.docx": {
+    "contentHash": "9f1f3d8ff2cb30a8461f206857e5ca873fa77d038d60d2d5dc5cf45794f6d0e7",
+    "processedAt": "2026-07-09T06:47:06.667Z",
+    "status": "skipped-duplicate",
+    "duplicateOf": "Biology Questions True or false.docx",
+    "questionsAdded": {
+      "General": 0,
+      "SpeedRace": 0,
+      "ProblemOfDay": 0,
+      "TrueFalse": 0,
+      "Riddle": 0
+    }
+  },
+  "DOC-20190908-WA0001.docx": {
+    "contentHash": "ea6c5b30b5ca4997f4b1f1b56cda697c981c2b838ed72a70aabd251bece2536d",
+    "processedAt": "2026-07-09T06:47:06.668Z",
+    "status": "skipped-duplicate",
+    "duplicateOf": "Prelims Round 5 - Physics 2017.docx",
+    "questionsAdded": {
+      "General": 0,
+      "SpeedRace": 0,
+      "ProblemOfDay": 0,
+      "TrueFalse": 0,
+      "Riddle": 0
+    }
+  },
+  "DOC-20190908-WA0002.docx": {
+    "contentHash": "dd5e81584e746b35d389e54ce032603333864ac40e6df3221e93745a3084a9dc",
+    "processedAt": "2026-07-09T06:47:06.668Z",
+    "status": "skipped-duplicate",
+    "duplicateOf": "DOC-20190819-WA0008.docx",
+    "questionsAdded": {
+      "General": 0,
+      "SpeedRace": 0,
+      "ProblemOfDay": 0,
+      "TrueFalse": 0,
+      "Riddle": 0
+    }
+  },
+  "MAIN CONTEST 31 (1).docx": {
+    "contentHash": "d94745da36d7418d0c3225e89c0dcff5896e11d6e76efb70680292c02c0b13e6",
+    "processedAt": "2026-07-09T06:47:06.668Z",
+    "status": "skipped-duplicate",
+    "duplicateOf": "MAIN CONTEST 31.docx",
+    "questionsAdded": {
+      "General": 0,
+      "SpeedRace": 0,
+      "ProblemOfDay": 0,
+      "TrueFalse": 0,
+      "Riddle": 0
+    }
+  },
+  "MATHS QUIZ TRIAL.docx": {
+    "contentHash": "f35612a4175b69600aea2b244b1cdfb3d354bb140ac28a81fcbd8ae1a5c267c0",
+    "processedAt": "2026-07-08T06:52:49.229Z",
+    "status": "processed",
+    "questionsAdded": {
+      "General": 0,
+      "SpeedRace": 0,
+      "ProblemOfDay": 0,
+      "TrueFalse": 0,
+      "Riddle": 1
+    }
+  },
+  "NSMQ 2017 Biology Questions - Speed race (1)-1-1.docx": {
+    "contentHash": "a314fe35ce50f205a2794f259ffd73d8044f5d473e74469e54a344308442ddc6",
+    "processedAt": "2026-07-09T06:47:06.668Z",
+    "status": "skipped-duplicate",
+    "duplicateOf": "NSMQ 2017 Biology Questions - Speed race (1).docx",
+    "questionsAdded": {
+      "General": 0,
+      "SpeedRace": 0,
+      "ProblemOfDay": 0,
+      "TrueFalse": 0,
+      "Riddle": 0
+    }
+  },
+  "NSMQ 2017 Biology Questions - Speed race (1)-1.docx": {
+    "contentHash": "a314fe35ce50f205a2794f259ffd73d8044f5d473e74469e54a344308442ddc6",
+    "processedAt": "2026-07-09T06:47:06.668Z",
+    "status": "skipped-duplicate",
+    "duplicateOf": "NSMQ 2017 Biology Questions - Speed race (1).docx",
+    "questionsAdded": {
+      "General": 0,
+      "SpeedRace": 0,
+      "ProblemOfDay": 0,
+      "TrueFalse": 0,
+      "Riddle": 0
+    }
+  },
+  "NSMQ 2017 Biology Questions - Speed race (1).docx": {
+    "contentHash": "a314fe35ce50f205a2794f259ffd73d8044f5d473e74469e54a344308442ddc6",
+    "processedAt": "2026-07-08T06:52:49.090Z",
+    "status": "processed",
+    "questionsAdded": {
+      "General": 0,
+      "SpeedRace": 0,
+      "ProblemOfDay": 0,
+      "TrueFalse": 0,
+      "Riddle": 0
+    }
+  },
+  "NSMQ 2017 Biology Questions Round 1-1-1.docx": {
+    "contentHash": "01289464f1b638e2075605c4fa02f5f6db54c3fca44c44e89b68e8697b7ddaec",
+    "processedAt": "2026-07-09T06:47:06.668Z",
+    "status": "skipped-duplicate",
+    "duplicateOf": "NSMQ 2017 Biology Questions Round 1.docx",
+    "questionsAdded": {
+      "General": 0,
+      "SpeedRace": 0,
+      "ProblemOfDay": 0,
+      "TrueFalse": 0,
+      "Riddle": 0
+    }
+  },
+  "NSMQ 2017 Biology Questions Round 1-1.docx": {
+    "contentHash": "01289464f1b638e2075605c4fa02f5f6db54c3fca44c44e89b68e8697b7ddaec",
+    "processedAt": "2026-07-09T06:47:06.668Z",
+    "status": "skipped-duplicate",
+    "duplicateOf": "NSMQ 2017 Biology Questions Round 1.docx",
+    "questionsAdded": {
+      "General": 0,
+      "SpeedRace": 0,
+      "ProblemOfDay": 0,
+      "TrueFalse": 0,
+      "Riddle": 0
+    }
+  },
+  "nsmq sample riddles-1 (1).docx": {
+    "contentHash": "a55ac0ff1d1387c260e8e76d43c8d5d94bc923c749610dff60971594256dcae7",
+    "processedAt": "2026-07-09T06:47:06.670Z",
+    "status": "skipped-duplicate",
+    "duplicateOf": "nsmq sample riddles.docx",
+    "questionsAdded": {
+      "General": 0,
+      "SpeedRace": 0,
+      "ProblemOfDay": 0,
+      "TrueFalse": 0,
+      "Riddle": 0
+    }
+  },
+  "nsmq sample riddles-1.docx": {
+    "contentHash": "a55ac0ff1d1387c260e8e76d43c8d5d94bc923c749610dff60971594256dcae7",
+    "processedAt": "2026-07-09T06:47:06.670Z",
+    "status": "skipped-duplicate",
+    "duplicateOf": "nsmq sample riddles.docx",
+    "questionsAdded": {
+      "General": 0,
+      "SpeedRace": 0,
+      "ProblemOfDay": 0,
+      "TrueFalse": 0,
+      "Riddle": 0
+    }
+  },
+  "PHYSICS 2015 (1).docx": {
+    "contentHash": "09c6664cdeab19325c2bb28e353e17d375e07c775bed586eb0c44f05bd5defde",
+    "processedAt": "2026-07-09T06:47:06.668Z",
+    "status": "skipped-duplicate",
+    "duplicateOf": "PHYSICS 2015.docx",
+    "questionsAdded": {
+      "General": 0,
+      "SpeedRace": 0,
+      "ProblemOfDay": 0,
+      "TrueFalse": 0,
+      "Riddle": 0
+    }
+  },
+  "PHYSICS 2015.docx": {
+    "contentHash": "09c6664cdeab19325c2bb28e353e17d375e07c775bed586eb0c44f05bd5defde",
+    "processedAt": "2026-07-08T06:52:49.008Z",
+    "status": "processed",
+    "questionsAdded": {
+      "General": 187,
+      "SpeedRace": 0,
+      "ProblemOfDay": 0,
+      "TrueFalse": 349,
+      "Riddle": 42
+    }
+  },
+  "Prelims Round 2 - Physics 2017-1.docx": {
+    "contentHash": "1e2cd2706af8a52cdcff3865da3956e1c435d64dee02add08917b5b30f8e6910",
+    "processedAt": "2026-07-09T06:47:06.669Z",
+    "status": "skipped-duplicate",
+    "duplicateOf": "Prelims Round 2 - Physics 2017.docx",
+    "questionsAdded": {
+      "General": 0,
+      "SpeedRace": 0,
+      "ProblemOfDay": 0,
+      "TrueFalse": 0,
+      "Riddle": 0
+    }
+  },
+  "Prelims Round 4 - Physics 2017-1.docx": {
+    "contentHash": "8109eab6cf3b06ce1bb9ddeaeee76043f5e3c3e4550404f876dd223a32995562",
+    "processedAt": "2026-07-09T06:47:06.669Z",
+    "status": "skipped-duplicate",
+    "duplicateOf": "Prelims Round 4 - Physics 2017.docx",
+    "questionsAdded": {
+      "General": 0,
+      "SpeedRace": 0,
+      "ProblemOfDay": 0,
+      "TrueFalse": 0,
+      "Riddle": 0
+    }
+  },
+  "Prelims Round 5 - Physics 2017-1.docx": {
+    "contentHash": "ea6c5b30b5ca4997f4b1f1b56cda697c981c2b838ed72a70aabd251bece2536d",
+    "processedAt": "2026-07-09T06:47:06.668Z",
+    "status": "skipped-duplicate",
+    "duplicateOf": "Prelims Round 5 - Physics 2017.docx",
+    "questionsAdded": {
+      "General": 0,
+      "SpeedRace": 0,
+      "ProblemOfDay": 0,
+      "TrueFalse": 0,
+      "Riddle": 0
+    }
+  },
+  "PROBLEM OF THE DAY-17.doc": {
+    "contentHash": "718b5f4077194960f4d81ecedd9047a5a6804775620cd76ec7631ee750ca2166",
+    "processedAt": "2026-07-09T06:47:06.668Z",
+    "status": "skipped-duplicate",
+    "duplicateOf": "PROBLEM OF THE DAY.doc",
+    "questionsAdded": {
+      "General": 0,
+      "SpeedRace": 0,
+      "ProblemOfDay": 0,
+      "TrueFalse": 0,
+      "Riddle": 0
+    }
+  },
+  "PROBLEM OF THE DAY-18 (1).doc": {
+    "contentHash": "c1d36476e5b5543d6a72c2b46c401499eaa2cfc125c842fbd1b0b65bdae82d6e",
+    "processedAt": "2026-07-09T06:47:06.669Z",
+    "status": "skipped-duplicate",
+    "duplicateOf": "PROBLEM OF THE DAY-8.doc",
+    "questionsAdded": {
+      "General": 0,
+      "SpeedRace": 0,
+      "ProblemOfDay": 0,
+      "TrueFalse": 0,
+      "Riddle": 0
+    }
+  },
+  "PROBLEM OF THE DAY-18.doc": {
+    "contentHash": "036939ad28762bcfc3f53a07994253b0c396fc3d35778827e6b8ffdd79ad9b75",
+    "processedAt": "2026-07-09T06:47:06.668Z",
+    "status": "skipped-duplicate",
+    "duplicateOf": "PROBLEM OF THE DAY-1.doc",
+    "questionsAdded": {
+      "General": 0,
+      "SpeedRace": 0,
+      "ProblemOfDay": 0,
+      "TrueFalse": 0,
+      "Riddle": 0
+    }
+  },
+  "PROBLEM OF THE DAY-19.doc": {
+    "contentHash": "4e98ce84512707b47cee293e96a9de8f5b162be7b0f87e6d722573ec581ba04f",
+    "processedAt": "2026-07-09T06:47:06.669Z",
+    "status": "skipped-duplicate",
+    "duplicateOf": "PROBLEM OF THE DAY-2.doc",
+    "questionsAdded": {
+      "General": 0,
+      "SpeedRace": 0,
+      "ProblemOfDay": 0,
+      "TrueFalse": 0,
+      "Riddle": 0
+    }
+  },
+  "PROBLEM OF THE DAY-2 (1).doc": {
+    "contentHash": "a968ec705eb244db12ac21c0dea5f11cb65c9a0a2795a85e3c438d1009af9b4b",
+    "processedAt": "2026-07-09T06:47:06.669Z",
+    "status": "skipped-duplicate",
+    "duplicateOf": "PROBLEM OF THE DAY-9.doc",
+    "questionsAdded": {
+      "General": 0,
+      "SpeedRace": 0,
+      "ProblemOfDay": 0,
+      "TrueFalse": 0,
+      "Riddle": 0
+    }
+  },
+  "PROBLEM OF THE DAY-2 (1).docx": {
+    "contentHash": "60899183c83bbc50ded77cdc1fa1f82676cff8200657a105b517f3bb2a7e75f9",
+    "processedAt": "2026-07-09T06:47:06.669Z",
+    "status": "skipped-duplicate",
+    "duplicateOf": "PROBLEM OF THE DAY.docx",
+    "questionsAdded": {
+      "General": 0,
+      "SpeedRace": 0,
+      "ProblemOfDay": 0,
+      "TrueFalse": 0,
+      "Riddle": 0
+    }
+  },
+  "PROBLEM OF THE DAY-2.docx": {
+    "contentHash": "60899183c83bbc50ded77cdc1fa1f82676cff8200657a105b517f3bb2a7e75f9",
+    "processedAt": "2026-07-09T06:47:06.669Z",
+    "status": "skipped-duplicate",
+    "duplicateOf": "PROBLEM OF THE DAY.docx",
+    "questionsAdded": {
+      "General": 0,
+      "SpeedRace": 0,
+      "ProblemOfDay": 0,
+      "TrueFalse": 0,
+      "Riddle": 0
+    }
+  },
+  "PROBLEM OF THE DAY-20.doc": {
+    "contentHash": "8e3b5f5865f8ffadafe6fbe627ec4d7185a797bb35f4bbafcb586b018fa5ec5d",
+    "processedAt": "2026-07-09T06:47:06.669Z",
+    "status": "skipped-duplicate",
+    "duplicateOf": "PROBLEM OF THE DAY-3.doc",
+    "questionsAdded": {
+      "General": 0,
+      "SpeedRace": 0,
+      "ProblemOfDay": 0,
+      "TrueFalse": 0,
+      "Riddle": 0
+    }
+  },
+  "PROBLEM OF THE DAY-21.doc": {
+    "contentHash": "a264d12ca65ed96826e76eb87a92de468a516ca5236bdab71382ba762c38dd23",
+    "processedAt": "2026-07-09T06:47:06.669Z",
+    "status": "skipped-duplicate",
+    "duplicateOf": "PROBLEM OF THE DAY-4.doc",
+    "questionsAdded": {
+      "General": 0,
+      "SpeedRace": 0,
+      "ProblemOfDay": 0,
+      "TrueFalse": 0,
+      "Riddle": 0
+    }
+  },
+  "PROBLEM OF THE DAY-22.doc": {
+    "contentHash": "d367f39e7375cd9606b4563a946f1233da13175633fb7fe307ce37be8d559b2c",
+    "processedAt": "2026-07-09T06:47:06.669Z",
+    "status": "skipped-duplicate",
+    "duplicateOf": "PROBLEM OF THE DAY-6.doc",
+    "questionsAdded": {
+      "General": 0,
+      "SpeedRace": 0,
+      "ProblemOfDay": 0,
+      "TrueFalse": 0,
+      "Riddle": 0
+    }
+  },
+  "PROBLEM OF THE DAY-23 (1).doc": {
+    "contentHash": "718b5f4077194960f4d81ecedd9047a5a6804775620cd76ec7631ee750ca2166",
+    "processedAt": "2026-07-09T06:47:06.668Z",
+    "status": "skipped-duplicate",
+    "duplicateOf": "PROBLEM OF THE DAY.doc",
+    "questionsAdded": {
+      "General": 0,
+      "SpeedRace": 0,
+      "ProblemOfDay": 0,
+      "TrueFalse": 0,
+      "Riddle": 0
+    }
+  },
+  "PROBLEM OF THE DAY-23.doc": {
+    "contentHash": "94fc1d88501bebd6cd81af39515d9a5f260cb2370785beff9dc6fe4cb4317a75",
+    "processedAt": "2026-07-09T06:47:06.669Z",
+    "status": "skipped-duplicate",
+    "duplicateOf": "PROBLEM OF THE DAY-5.doc",
+    "questionsAdded": {
+      "General": 0,
+      "SpeedRace": 0,
+      "ProblemOfDay": 0,
+      "TrueFalse": 0,
+      "Riddle": 0
+    }
+  },
+  "PROBLEM OF THE DAY-24.doc": {
+    "contentHash": "a9790ea6107eb7ebfd43858847b7ae554278ca1dd55fbd75c1e41198eee03ced",
+    "processedAt": "2026-07-09T06:47:06.669Z",
+    "status": "skipped-duplicate",
+    "duplicateOf": "PROBLEM OF THE DAY-7.doc",
+    "questionsAdded": {
+      "General": 0,
+      "SpeedRace": 0,
+      "ProblemOfDay": 0,
+      "TrueFalse": 0,
+      "Riddle": 0
+    }
+  },
+  "PROBLEM OF THE DAY-26 (1).doc": {
+    "contentHash": "8e3b5f5865f8ffadafe6fbe627ec4d7185a797bb35f4bbafcb586b018fa5ec5d",
+    "processedAt": "2026-07-09T06:47:06.669Z",
+    "status": "skipped-duplicate",
+    "duplicateOf": "PROBLEM OF THE DAY-3.doc",
+    "questionsAdded": {
+      "General": 0,
+      "SpeedRace": 0,
+      "ProblemOfDay": 0,
+      "TrueFalse": 0,
+      "Riddle": 0
+    }
+  },
+  "problem of the day-27.doc": {
+    "contentHash": "e08acf215aa4b7e4dee2bc115a99333b5a33b5ef77c3a2b2e9400d5846f3d14e",
+    "processedAt": "2026-07-09T06:47:06.670Z",
+    "status": "skipped-duplicate",
+    "duplicateOf": "problem of the day-26.doc",
+    "questionsAdded": {
+      "General": 0,
+      "SpeedRace": 0,
+      "ProblemOfDay": 0,
+      "TrueFalse": 0,
+      "Riddle": 0
+    }
+  },
+  "PROBLEM OF THE DAY-4.docx": {
+    "contentHash": "60899183c83bbc50ded77cdc1fa1f82676cff8200657a105b517f3bb2a7e75f9",
+    "processedAt": "2026-07-09T06:47:06.669Z",
+    "status": "skipped-duplicate",
+    "duplicateOf": "PROBLEM OF THE DAY.docx",
+    "questionsAdded": {
+      "General": 0,
+      "SpeedRace": 0,
+      "ProblemOfDay": 0,
+      "TrueFalse": 0,
+      "Riddle": 0
+    }
+  },
+  "PROBLEM OF THE DAY-9 (1).doc": {
+    "contentHash": "e3fe7da8357fb8d1b065a8fdb80a232e17c51e27d2c0c39d5ad53b0915fda98a",
+    "processedAt": "2026-07-09T06:47:06.668Z",
+    "status": "skipped-duplicate",
+    "duplicateOf": "PROBLEM OF THE DAY-16.doc",
+    "questionsAdded": {
+      "General": 0,
+      "SpeedRace": 0,
+      "ProblemOfDay": 0,
+      "TrueFalse": 0,
+      "Riddle": 0
+    }
+  },
+  "ROUND 1-11.doc": {
+    "contentHash": "aa306662e7c52f4449827fbcccce99137e7a4243f3e0b1529a5bc14589da9f73",
+    "processedAt": "2026-07-09T06:47:06.669Z",
+    "status": "skipped-duplicate",
+    "duplicateOf": "ROUND 1-1.doc",
+    "questionsAdded": {
+      "General": 0,
+      "SpeedRace": 0,
+      "ProblemOfDay": 0,
+      "TrueFalse": 0,
+      "Riddle": 0
+    }
+  },
+  "ROUND 1-12.doc": {
+    "contentHash": "2709c4020f5fd6db54ab68f85d12539b1afddbc1076214921102ab6fa27beff4",
+    "processedAt": "2026-07-09T06:47:06.669Z",
+    "status": "skipped-duplicate",
+    "duplicateOf": "ROUND 1-2.doc",
+    "questionsAdded": {
+      "General": 0,
+      "SpeedRace": 0,
+      "ProblemOfDay": 0,
+      "TrueFalse": 0,
+      "Riddle": 0
+    }
+  },
+  "ROUND 1-13.doc": {
+    "contentHash": "41359d115dd9b218508d8d917ab9de24054c8ed4e60313328d40dbaad33328c4",
+    "processedAt": "2026-07-09T06:47:06.669Z",
+    "status": "skipped-duplicate",
+    "duplicateOf": "ROUND 1-3.doc",
+    "questionsAdded": {
+      "General": 0,
+      "SpeedRace": 0,
+      "ProblemOfDay": 0,
+      "TrueFalse": 0,
+      "Riddle": 0
+    }
+  },
+  "ROUND 1-14.doc": {
+    "contentHash": "482d42bd1ea279c32e21a7246b36efc5da5fa4a8487fd3f1dce243f1de982132",
+    "processedAt": "2026-07-09T06:47:06.669Z",
+    "status": "skipped-duplicate",
+    "duplicateOf": "ROUND 1-4.doc",
+    "questionsAdded": {
+      "General": 0,
+      "SpeedRace": 0,
+      "ProblemOfDay": 0,
+      "TrueFalse": 0,
+      "Riddle": 0
+    }
+  },
+  "ROUND 2-1.doc": {
+    "contentHash": "3ec9c730f50db886ec2417ae8f281383a70359e8b4532a2563e2edc705d43fca",
+    "processedAt": "2026-07-08T06:52:48.272Z",
+    "status": "processed",
+    "questionsAdded": {
+      "General": 8,
+      "SpeedRace": 0,
+      "ProblemOfDay": 0,
+      "TrueFalse": 0,
+      "Riddle": 0
+    }
+  },
+  "ROUND 2-12.doc": {
+    "contentHash": "3ec9c730f50db886ec2417ae8f281383a70359e8b4532a2563e2edc705d43fca",
+    "processedAt": "2026-07-09T06:47:06.669Z",
+    "status": "skipped-duplicate",
+    "duplicateOf": "ROUND 2-1.doc",
+    "questionsAdded": {
+      "General": 0,
+      "SpeedRace": 0,
+      "ProblemOfDay": 0,
+      "TrueFalse": 0,
+      "Riddle": 0
+    }
+  },
+  "ROUND 2-13.doc": {
+    "contentHash": "d131a496c0f1fabfd44bb1ff8a9f8c9fe04a231f3651c4b6c5e18372b0fe4f54",
+    "processedAt": "2026-07-09T06:47:06.669Z",
+    "status": "skipped-duplicate",
+    "duplicateOf": "ROUND 2-2.doc",
+    "questionsAdded": {
+      "General": 0,
+      "SpeedRace": 0,
+      "ProblemOfDay": 0,
+      "TrueFalse": 0,
+      "Riddle": 0
+    }
+  },
+  "ROUND 2-14.doc": {
+    "contentHash": "e3ecebb0a946d134b49dc823738df2f06c93585a351fe7afc73d9af6ad692b74",
+    "processedAt": "2026-07-09T06:47:06.669Z",
+    "status": "skipped-duplicate",
+    "duplicateOf": "ROUND 2-3.doc",
+    "questionsAdded": {
+      "General": 0,
+      "SpeedRace": 0,
+      "ProblemOfDay": 0,
+      "TrueFalse": 0,
+      "Riddle": 0
+    }
+  },
+  "ROUND 2-15.doc": {
+    "contentHash": "ee6eedd49cde2e246ba2257f98020f99fac29b8579bda7a7f2dc96a4c607a318",
+    "processedAt": "2026-07-09T06:47:06.669Z",
+    "status": "skipped-duplicate",
+    "duplicateOf": "ROUND 2-4.doc",
+    "questionsAdded": {
+      "General": 0,
+      "SpeedRace": 0,
+      "ProblemOfDay": 0,
+      "TrueFalse": 0,
+      "Riddle": 0
+    }
+  },
+  "Round 2-2.docx": {
+    "contentHash": "69b3c5b7774103369c02b14bf03f3522636298de2ef84358b50ba16fbb78eedd",
+    "processedAt": "2026-07-09T06:47:06.670Z",
+    "status": "skipped-duplicate",
+    "duplicateOf": "Round 2-1.docx",
+    "questionsAdded": {
+      "General": 0,
+      "SpeedRace": 0,
+      "ProblemOfDay": 0,
+      "TrueFalse": 0,
+      "Riddle": 0
+    }
+  },
+  "ROUND 4-11.doc": {
+    "contentHash": "43144ea5ff56e714eb237ae8edbd4087e35e88f61c47ad4cc2d627075ee1479d",
+    "processedAt": "2026-07-09T06:47:06.669Z",
+    "status": "skipped-duplicate",
+    "duplicateOf": "ROUND 4.doc",
+    "questionsAdded": {
+      "General": 0,
+      "SpeedRace": 0,
+      "ProblemOfDay": 0,
+      "TrueFalse": 0,
+      "Riddle": 0
+    }
+  },
+  "ROUND 4-12.doc": {
+    "contentHash": "0f6348a33e936c7628c4a1f057b6e346ff04ce09233ada38d935097fa0ff57f5",
+    "processedAt": "2026-07-09T06:47:06.669Z",
+    "status": "skipped-duplicate",
+    "duplicateOf": "ROUND 4-1.doc",
+    "questionsAdded": {
+      "General": 0,
+      "SpeedRace": 0,
+      "ProblemOfDay": 0,
+      "TrueFalse": 0,
+      "Riddle": 0
+    }
+  },
+  "ROUND 4-13.doc": {
+    "contentHash": "811d39e89e1c580e3e82a327c4c479eb8cd07e3f0a55bd6c9bf69b1a02b72967",
+    "processedAt": "2026-07-09T06:47:06.669Z",
+    "status": "skipped-duplicate",
+    "duplicateOf": "ROUND 4-2.doc",
+    "questionsAdded": {
+      "General": 0,
+      "SpeedRace": 0,
+      "ProblemOfDay": 0,
+      "TrueFalse": 0,
+      "Riddle": 0
+    }
+  },
+  "ROUND 4-14.doc": {
+    "contentHash": "3f31a49265e2b8a975a2243e1082598c74233e1baf1c53a21bb2a07ee24e3ad0",
+    "processedAt": "2026-07-09T06:47:06.669Z",
+    "status": "skipped-duplicate",
+    "duplicateOf": "ROUND 4-3.doc",
+    "questionsAdded": {
+      "General": 0,
+      "SpeedRace": 0,
+      "ProblemOfDay": 0,
+      "TrueFalse": 0,
+      "Riddle": 0
+    }
+  },
+  "ROUND 4-15.doc": {
+    "contentHash": "18bf353840b7cd21dd58b2564a25464e71d9841724662de56417ec59c805b278",
+    "processedAt": "2026-07-09T06:47:06.669Z",
+    "status": "skipped-duplicate",
+    "duplicateOf": "ROUND 4-4.doc",
+    "questionsAdded": {
+      "General": 0,
+      "SpeedRace": 0,
+      "ProblemOfDay": 0,
+      "TrueFalse": 0,
+      "Riddle": 0
+    }
+  },
+  "ROUND 4-16.doc": {
+    "contentHash": "c4fd1c8bc925ea0a2d2d7d882afdd05d85436a80108fc6188c32a17c49ab7fd7",
+    "processedAt": "2026-07-09T06:47:06.669Z",
+    "status": "skipped-duplicate",
+    "duplicateOf": "ROUND 4-5.doc",
+    "questionsAdded": {
+      "General": 0,
+      "SpeedRace": 0,
+      "ProblemOfDay": 0,
+      "TrueFalse": 0,
+      "Riddle": 0
+    }
+  },
+  "ROUND 4-6.doc": {
+    "contentHash": "1fa0e1f5ff9e50c84b29dbb0eb7e68b0c0fa0dcd4c39988dfc098c038de6a4bf",
+    "processedAt": "2026-07-08T06:52:48.169Z",
+    "status": "processed",
+    "questionsAdded": {
+      "General": 11,
+      "SpeedRace": 0,
+      "ProblemOfDay": 0,
+      "TrueFalse": 0,
+      "Riddle": 0
+    }
+  },
+  "ROUND 4-7.doc": {
+    "contentHash": "8e820a4998de373d066aea317df1abef54d654e35035f8def59f6372918f276e",
+    "processedAt": "2026-07-08T06:52:48.178Z",
+    "status": "processed",
+    "questionsAdded": {
+      "General": 7,
+      "SpeedRace": 0,
+      "ProblemOfDay": 0,
+      "TrueFalse": 0,
+      "Riddle": 0
+    }
+  },
+  "ROUND 5-11.doc": {
+    "contentHash": "3013449f1dba8a2b9515d898c4d73e145ed2832427ed49375c48ed0fb67cae5c",
+    "processedAt": "2026-07-09T06:47:06.669Z",
+    "status": "skipped-duplicate",
+    "duplicateOf": "ROUND 5.doc",
+    "questionsAdded": {
+      "General": 0,
+      "SpeedRace": 0,
+      "ProblemOfDay": 0,
+      "TrueFalse": 0,
+      "Riddle": 0
+    }
+  },
+  "ROUND 5-12.doc": {
+    "contentHash": "357ab9316da925b0a253127abe4a0f2cf4e8c1ff3910e6af98b9d748719ce91a",
+    "processedAt": "2026-07-09T06:47:06.669Z",
+    "status": "skipped-duplicate",
+    "duplicateOf": "ROUND 5-1.doc",
+    "questionsAdded": {
+      "General": 0,
+      "SpeedRace": 0,
+      "ProblemOfDay": 0,
+      "TrueFalse": 0,
+      "Riddle": 0
+    }
+  },
+  "ROUND 5-13.doc": {
+    "contentHash": "f5cee882f1fcea070590919b1637e642320c991b1f132955b57fe0cdab786147",
+    "processedAt": "2026-07-09T06:47:06.669Z",
+    "status": "skipped-duplicate",
+    "duplicateOf": "ROUND 5-2.doc",
+    "questionsAdded": {
+      "General": 0,
+      "SpeedRace": 0,
+      "ProblemOfDay": 0,
+      "TrueFalse": 0,
+      "Riddle": 0
+    }
+  },
+  "ROUND 5-14.doc": {
+    "contentHash": "716620c227a25c1b8417f1fc9ce02d7b781fff7a9553ac2797932475771fa985",
+    "processedAt": "2026-07-09T06:47:06.669Z",
+    "status": "skipped-duplicate",
+    "duplicateOf": "ROUND 5-4.doc",
+    "questionsAdded": {
+      "General": 0,
+      "SpeedRace": 0,
+      "ProblemOfDay": 0,
+      "TrueFalse": 0,
+      "Riddle": 0
+    }
+  },
+  "ROUND 5-15.doc": {
+    "contentHash": "acfaba97f2a031ea45597c0f1af810c5d53680c7c807863e7d9a212b7a16df01",
+    "processedAt": "2026-07-09T06:47:06.669Z",
+    "status": "skipped-duplicate",
+    "duplicateOf": "ROUND 5-5.doc",
+    "questionsAdded": {
+      "General": 0,
+      "SpeedRace": 0,
+      "ProblemOfDay": 0,
+      "TrueFalse": 0,
+      "Riddle": 0
+    }
+  },
+  "Round 5-2.docx": {
+    "contentHash": "0d981cb2debf96d7db41be2ebfc4a59176d94f91c337d3dd1b3fb87f64f2625e",
+    "processedAt": "2026-07-09T06:47:06.670Z",
+    "status": "skipped-duplicate",
+    "duplicateOf": "Round 5-1.docx",
+    "questionsAdded": {
+      "General": 0,
+      "SpeedRace": 0,
+      "ProblemOfDay": 0,
+      "TrueFalse": 0,
+      "Riddle": 0
+    }
+  },
+  "ROUND1-10.doc": {
+    "contentHash": "6b7382754cc7c837fb8f98e465edef89ea83ffc279511e29f17e6be5adc4afd9",
+    "processedAt": "2026-07-09T06:47:06.669Z",
+    "status": "skipped-duplicate",
+    "duplicateOf": "ROUND1-1.doc",
+    "questionsAdded": {
+      "General": 0,
+      "SpeedRace": 0,
+      "ProblemOfDay": 0,
+      "TrueFalse": 0,
+      "Riddle": 0
+    }
+  },
+  "ROUND1-11.doc": {
+    "contentHash": "bc3d3e4c60788873d14f12f8afb77e7bbedfb15eac5f31e2ecdd586d452edb11",
+    "processedAt": "2026-07-09T06:47:06.669Z",
+    "status": "skipped-duplicate",
+    "duplicateOf": "ROUND1-3.doc",
+    "questionsAdded": {
+      "General": 0,
+      "SpeedRace": 0,
+      "ProblemOfDay": 0,
+      "TrueFalse": 0,
+      "Riddle": 0
+    }
+  },
+  "ROUND1-12.doc": {
+    "contentHash": "a1d338fb6a764f1cc6be936b211995719e45e9ccd7fa3d547a0f48f6641237e3",
+    "processedAt": "2026-07-09T06:47:06.669Z",
+    "status": "skipped-duplicate",
+    "duplicateOf": "ROUND1-4.doc",
+    "questionsAdded": {
+      "General": 0,
+      "SpeedRace": 0,
+      "ProblemOfDay": 0,
+      "TrueFalse": 0,
+      "Riddle": 0
+    }
+  },
+  "ROUND1-8.doc": {
+    "contentHash": "516e52e9c1b0f691488006c4594377813cb7c985b1142e25155f94fb5ebde647",
+    "processedAt": "2026-07-09T06:47:06.670Z",
+    "status": "skipped-duplicate",
+    "duplicateOf": "ROUND1.doc",
+    "questionsAdded": {
+      "General": 0,
+      "SpeedRace": 0,
+      "ProblemOfDay": 0,
+      "TrueFalse": 0,
+      "Riddle": 0
+    }
+  },
+  "ROUND1-9.doc": {
+    "contentHash": "c9d8fc32259f035eea92961df0b35fc374f150ede2f5a1d355a8cc273ca3da1d",
+    "processedAt": "2026-07-09T06:47:06.669Z",
+    "status": "skipped-duplicate",
+    "duplicateOf": "ROUND1-2.doc",
+    "questionsAdded": {
+      "General": 0,
+      "SpeedRace": 0,
+      "ProblemOfDay": 0,
+      "TrueFalse": 0,
+      "Riddle": 0
+    }
+  },
+  "ROUND2-10.doc": {
+    "contentHash": "c20242b03172ed6be151154d7f787e8a4766fa56081f9cd705f2b93258138da7",
+    "processedAt": "2026-07-09T06:47:06.670Z",
+    "status": "skipped-duplicate",
+    "duplicateOf": "ROUND2-3.doc",
+    "questionsAdded": {
+      "General": 0,
+      "SpeedRace": 0,
+      "ProblemOfDay": 0,
+      "TrueFalse": 0,
+      "Riddle": 0
+    }
+  },
+  "ROUND2-7.doc": {
+    "contentHash": "43ecf19008d76341a59406b61412f62a841a5a92cf5f83d7f46f5ad01f0e9183",
+    "processedAt": "2026-07-09T06:47:06.670Z",
+    "status": "skipped-duplicate",
+    "duplicateOf": "ROUND2.doc",
+    "questionsAdded": {
+      "General": 0,
+      "SpeedRace": 0,
+      "ProblemOfDay": 0,
+      "TrueFalse": 0,
+      "Riddle": 0
+    }
+  },
+  "ROUND2-8.doc": {
+    "contentHash": "6ee17848097c07f4c066320b938d70bd4ed1d16c29b08970e0470f0f87a37062",
+    "processedAt": "2026-07-09T06:47:06.670Z",
+    "status": "skipped-duplicate",
+    "duplicateOf": "ROUND2-1.doc",
+    "questionsAdded": {
+      "General": 0,
+      "SpeedRace": 0,
+      "ProblemOfDay": 0,
+      "TrueFalse": 0,
+      "Riddle": 0
+    }
+  },
+  "ROUND2-9.doc": {
+    "contentHash": "a9eb7f6b28c2d395999d6414187eb84e377f3aac5d9b8adf2380ffa069a78440",
+    "processedAt": "2026-07-09T06:47:06.670Z",
+    "status": "skipped-duplicate",
+    "duplicateOf": "ROUND2-2.doc",
+    "questionsAdded": {
+      "General": 0,
+      "SpeedRace": 0,
+      "ProblemOfDay": 0,
+      "TrueFalse": 0,
+      "Riddle": 0
+    }
+  },
+  "ROUND4 (1).doc": {
+    "contentHash": "7a2cfb3a99b8df7ef1d6a86f0411935f59f4380f77480a14210f66a1b7f2312d",
+    "processedAt": "2026-07-09T06:47:06.670Z",
+    "status": "skipped-duplicate",
+    "duplicateOf": "ROUND4.doc",
+    "questionsAdded": {
+      "General": 0,
+      "SpeedRace": 0,
+      "ProblemOfDay": 0,
+      "TrueFalse": 0,
+      "Riddle": 0
+    }
+  },
+  "ROUND4 (2).doc": {
+    "contentHash": "7a2cfb3a99b8df7ef1d6a86f0411935f59f4380f77480a14210f66a1b7f2312d",
+    "processedAt": "2026-07-09T06:47:06.670Z",
+    "status": "skipped-duplicate",
+    "duplicateOf": "ROUND4.doc",
+    "questionsAdded": {
+      "General": 0,
+      "SpeedRace": 0,
+      "ProblemOfDay": 0,
+      "TrueFalse": 0,
+      "Riddle": 0
+    }
+  },
+  "ROUND4-7.doc": {
+    "contentHash": "59369f564652bd307144bc76edd6db3394904010b80d781c565f22c2ef5c12cd",
+    "processedAt": "2026-07-09T06:47:06.670Z",
+    "status": "skipped-duplicate",
+    "duplicateOf": "ROUND4-1.doc",
+    "questionsAdded": {
+      "General": 0,
+      "SpeedRace": 0,
+      "ProblemOfDay": 0,
+      "TrueFalse": 0,
+      "Riddle": 0
+    }
+  },
+  "ROUND4-8.doc": {
+    "contentHash": "ff9be2b2fb5f27486c478401c121917528daf8e507d87e55039149d759d94aa0",
+    "processedAt": "2026-07-09T06:47:06.670Z",
+    "status": "skipped-duplicate",
+    "duplicateOf": "ROUND4-2.doc",
+    "questionsAdded": {
+      "General": 0,
+      "SpeedRace": 0,
+      "ProblemOfDay": 0,
+      "TrueFalse": 0,
+      "Riddle": 0
+    }
+  },
+  "ROUND5-6.doc": {
+    "contentHash": "73be8c25d361a550d913ec3f829e6cd9b734c0ce9a16bcf4a4da02b1f90d14b7",
+    "processedAt": "2026-07-09T06:47:06.670Z",
+    "status": "skipped-duplicate",
+    "duplicateOf": "ROUND5.doc",
+    "questionsAdded": {
+      "General": 0,
+      "SpeedRace": 0,
+      "ProblemOfDay": 0,
+      "TrueFalse": 0,
+      "Riddle": 0
+    }
+  },
+  "ROUND5-8.doc": {
+    "contentHash": "f38611e68d55ce85e7145cade0e7d33b0beb98d2695d8c837a26e80b79c6e96b",
+    "processedAt": "2026-07-09T06:47:06.670Z",
+    "status": "skipped-duplicate",
+    "duplicateOf": "ROUND5-2.doc",
+    "questionsAdded": {
+      "General": 0,
+      "SpeedRace": 0,
+      "ProblemOfDay": 0,
+      "TrueFalse": 0,
+      "Riddle": 0
     }
   }
 }

@@ -1,6 +1,6 @@
 [
   {
-    "id": "911d7764-a6ed-483b-b888-a13dd5bedfef",
+    "id": "6993a9f0f9e2f2883c02ec5f",
     "sourceFile": "CHEMISTRY TRIAL QUIZ.docx",
     "subject": "Chemistry",
     "questionText": "The first ionization energy generally decreases from left to right of a period in the periodic table.",
@@ -8,7 +8,7 @@
     "scored": true
   },
   {
-    "id": "17c5cbc2-4366-4469-9d5e-04d581729688",
+    "id": "c72d6e6779776f91e9e3eb2f",
     "sourceFile": "CHEMISTRY TRIAL QUIZ.docx",
     "subject": "Chemistry",
     "questionText": "The electron affinity of the elements in a period generally increases from left to right of the Periodic Table.",
@@ -16,7 +16,7 @@
     "scored": true
   },
   {
-    "id": "97bc7c58-4403-4fed-8222-ecff6aba2494",
+    "id": "6b752580ede720ed86a35817",
     "sourceFile": "CHEMISTRY TRIAL QUIZ.docx",
     "subject": "Chemistry",
     "questionText": "The first ionization energy of the elements in Group 1 of the Periodic Table decreases down the group.",
@@ -24,7 +24,7 @@
     "scored": true
   },
   {
-    "id": "889a0356-3490-491b-b55d-13917f7d3696",
+    "id": "e6b2666cf48e406a9e6bbddb",
     "sourceFile": "CHEMISTRY TRIAL QUIZ.docx",
     "subject": "Chemistry",
     "questionText": "The hybridization of carbon in ethene is sp2.",
@@ -32,7 +32,7 @@
     "scored": true
   },
   {
-    "id": "fa90fc03-e97c-4496-9898-d1235de4c7b1",
+    "id": "34208293478304071f069cfb",
     "sourceFile": "CHEMISTRY TRIAL QUIZ.docx",
     "subject": "Chemistry",
     "questionText": "The hybridization of carbon of the carbonyl group is sp2.",
@@ -40,7 +40,7 @@
     "scored": true
   },
   {
-    "id": "1a83eb02-0eee-4c0d-832d-5db315266808",
+    "id": "e0c56dc6d4b3594aa3b85f38",
     "sourceFile": "CHEMISTRY TRIAL QUIZ.docx",
     "subject": "Chemistry",
     "questionText": "The hybridization of oxygen in methanol is sp2.",
@@ -48,7 +48,7 @@
     "scored": true
   },
   {
-    "id": "d4718f31-0ddd-4a29-8d8f-1daefc321677",
+    "id": "175125d2cf5c591999936f95",
     "sourceFile": "CHEMISTRY TRIAL QUIZ.docx",
     "subject": "Chemistry",
     "questionText": "Addition of NH3 solution to an aqueous solution of Pb2+ ions produces a white precipitate.",
@@ -56,7 +56,7 @@
     "scored": true
   },
   {
-    "id": "113bb4e8-4b00-4459-a3c3-7828851f0f3c",
+    "id": "1eaffd94d00138f4dc73bf1e",
     "sourceFile": "CHEMISTRY TRIAL QUIZ.docx",
     "subject": "Chemistry",
     "questionText": "Addition of NaOH solution to an aqueous solution of Cu2+ produces a blue gelatinous precipitate.",
@@ -64,10 +64,3074 @@
     "scored": true
   },
   {
-    "id": "4e32b256-edfd-4a9d-87ce-4e05e8bc00aa",
+    "id": "b4aadfaf92c9f3df9fdc86c2",
     "sourceFile": "CHEMISTRY TRIAL QUIZ.docx",
     "subject": "Chemistry",
     "questionText": "Addition of NaOH solution to an aqueous solution of Ca2+ ions gives no observable change.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "da4f43388c4af432ddcf1bfb",
+    "sourceFile": "CONTEST 28.doc",
+    "subject": "Biology",
+    "questionText": "The enzyme that catalyses the conversion of starch to maltose is maltase",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "0dbc98a168ea97070851a8ba",
+    "sourceFile": "CONTEST 28.doc",
+    "subject": "Chemistry",
+    "questionText": "Tracheids and vessel elements have walls of middle lamella and primary wall.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "c501f1506341daf776d03146",
+    "sourceFile": "Copy CONTEST 14.doc",
+    "subject": "Physics",
+    "questionText": "When two equal frequency sound waves interfere constructively, the resultant sound amplitude equals the sum of the amplitudes of the interfering waves.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "4b17d74d94728f2ce93e82ae",
+    "sourceFile": "CONTEST 17.docx",
+    "subject": "Biology",
+    "questionText": "Sexual reproduction decreases genetic variability",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "ead399bb7cca67e89fdec6aa",
+    "sourceFile": "CONTEST 17.docx",
+    "subject": null,
+    "questionText": "Height is a continuously variable trait",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "85d997fe3b78f30ae67ed727",
+    "sourceFile": "CONTEST 17.docx",
+    "subject": null,
+    "questionText": "The degree to which many alleles are expressed does not depend on the environment. c",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "663bd911dc8d734582821e9f",
+    "sourceFile": "CONTEST 17.docx",
+    "subject": null,
+    "questionText": "Rhizomes are horizontal roots",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "2eae9256f815274cd8ee219a",
+    "sourceFile": "CONTEST 17.docx",
+    "subject": null,
+    "questionText": "Stolons are horizontal stems",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "3ba661c3a4c9b7dc6f82a1fb",
+    "sourceFile": "CONTEST 17.docx",
+    "subject": null,
+    "questionText": "Corms are modified roots",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "ab220505ec0ee3684192da80",
+    "sourceFile": "CONTEST 17.docx",
+    "subject": "Physics",
+    "questionText": "The magnetic field of a circular current loop is proportional to the current in the loop. ANSWER: True The magnetic field on the axis of a circular current loop is perpendicular to the plane of the loop. ANSWER: True The magnetic field on the axis of a circular current loop on one side is opposite in direction to the field on the other side. ANSWER: False The frequency of damped oscillations in a series L-R-C circuit depends only on the values of and . ANSWER: False Damping in a series L-R-C circuit increases as inductance increases. ANSWER: False A critically damped series L-R-C circuit contains less resistance than an overdamped circuit. ANSWER: True If y = ax, then x = logay",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "d384cb5218fc0010aef9910a",
+    "sourceFile": "CONTEST 17.docx",
+    "subject": null,
+    "questionText": "If y2 = x3, then",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "6f5462ec49e6fcf8729cc3ee",
+    "sourceFile": "CONTEST 17.docx",
+    "subject": "Chemistry",
+    "questionText": "An ion with high reduction potential is likely to be a good oxidizing agent.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "a37e85bb0f2a1b248a313a5a",
+    "sourceFile": "CONTEST 17.docx",
+    "subject": "Chemistry",
+    "questionText": "A metal with very low oxidation potential is most likely to be a good reducing agent.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "6c2bfc17fa375b6fcfafe05a",
+    "sourceFile": "CONTEST 17.docx",
+    "subject": "Biology",
+    "questionText": "In Voltaic cells oxidation takes place at the anode whereas in electrolytic cell oxidation takes place at the cathode.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "6099f8dd10b16282b3b5d3dd",
+    "sourceFile": "CONTEST 17.docx",
+    "subject": "Chemistry",
+    "questionText": "The Henderson-Hasselbalch equation relates pH of a buffer solution to concentrations of conjugate acid-base pair.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "db8ca841708a810692be39fd",
+    "sourceFile": "CONTEST 17.docx",
+    "subject": null,
+    "questionText": "In the titration of dilute ammonia with HCl a buffer is formed before the end-point.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "0f41c9a16937083bb8d1aa64",
+    "sourceFile": "CONTEST 17.docx",
+    "subject": "Chemistry",
+    "questionText": "In the titration of dilute ammonia with HCl the stage where the pH change is least on addition of unit titrant is when 50% of the titre has been added.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "93d8e4953aec6095a971e15f",
+    "sourceFile": "CONTEST 9.doc",
+    "subject": null,
+    "questionText": "The set of prime numbers is a subset of the set of odd integers",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "9359a8da257fa89d292ee494",
+    "sourceFile": "CONTEST 9.doc",
+    "subject": null,
+    "questionText": "Arteries are capable of expanding",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "941ed5c15112d5c5d6f588af",
+    "sourceFile": "CONTEST 21.doc",
+    "subject": null,
+    "questionText": "When two figures are similar, they are also congruent.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "4ca7a161eca8391a60b20554",
+    "sourceFile": "CONTEST 21.doc",
+    "subject": null,
+    "questionText": "The pitch a guitar string produces increases as the mass per unit length of the string increases.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "346f53ab28002d46c7330302",
+    "sourceFile": "CONTEST 21.doc",
+    "subject": null,
+    "questionText": "The pitch a piano string produces increases as the tension in the string increases.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "aebe96ceba8b5840f8724ec4",
+    "sourceFile": "CONTEST 21.doc",
+    "subject": null,
+    "questionText": "The pitch of the fundamental note a piano string produces increases as the length of the string increases.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "f90fcf76130f92e8aba61b80",
+    "sourceFile": "CONTEST 21.doc",
+    "subject": "Physics",
+    "questionText": "A charged hollow conductor has charge only on the outside surface of the conductor.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "fe7fb44298ff600b942daaba",
+    "sourceFile": "CONTEST 21.doc",
+    "subject": "Physics",
+    "questionText": "A charged spherical conductor has more charge on its top half than on its bottom half.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "98ef5da2df058f6600290e05",
+    "sourceFile": "CONTEST 21.doc",
+    "subject": "Physics",
+    "questionText": "A charged conical conductor has more charge at the tip of the cone than on any other part.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "86e61761c17f17d4ecf4cfbd",
+    "sourceFile": "CONTEST 5.doc",
+    "subject": "Chemistry",
+    "questionText": "Oxides of non-metals are usually covalent compounds.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "7af92f4f5ae52bc3c16f1e23",
+    "sourceFile": "CONTEST 5.doc",
+    "subject": "Physics",
+    "questionText": "The net torque acting on a body equals the rate of change of angular momentum of the body.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "79285f6e8396037bcfe4cfb5",
+    "sourceFile": "CONTEST 5.doc",
+    "subject": null,
+    "questionText": "An ideal gas condenses to a liquid when cooled to very low temperatures.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "5bdce845f205f76730e6a6a5",
+    "sourceFile": "CONTEST 5.doc",
+    "subject": "Physics",
+    "questionText": "The work done by an ideal gas when its volume increases at constant pressure is greater than the work it does when its volume increases by the same amount at constant temperature.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "2c55e26e68b7959d2e443d3d",
+    "sourceFile": "CONTEST 5.doc",
+    "subject": "Physics",
+    "questionText": "The internal energy of an ideal gas depends only on temperature.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "da899c6c26dcbeb81edd91d0",
+    "sourceFile": "CONTEST 5.doc",
+    "subject": "Biology",
+    "questionText": "DNA make RNA by Transcription",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "9e5ee0e524432d3afff80305",
+    "sourceFile": "CONTEST 5.doc",
+    "subject": "Maths",
+    "questionText": "A straight angle has a measure of two right angles",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "d56dd93b93878aad479dd055",
+    "sourceFile": "Copy CONTEST 11.doc",
+    "subject": null,
+    "questionText": "A decametre is ten times a decimetre.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "7262b39058fbb290928dbbf3",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "[PRELIMS] (1-27) The period of a spring-mass system is directly proportional to the mass of the system.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "481f6e4ef959019c5278d4f4",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The period of a simple pendulum varies nonlinearly with the length of the pendulum.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "b97db8f95680818414decf11",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Frequency in uniform circular motion varies inversely as radius.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "93b3fe163ebbe8c798a9b996",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Chemistry",
+    "questionText": "A deuteron is the nucleus of a helium isotope,",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "3a579a72accdd23ab75dff09",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "A deuteron contains only one neutron.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "543f01262e1f1e3ce2ff238e",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Chemistry",
+    "questionText": "Any helium isotope must contain two neutrons.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "7a9671f063c9e52bfc999a66",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Linear momentum is always conserved.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "2c876eea4e967103854bed79",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "When two objects collide and stick together, the magnitude of total linear momentum after the collision is less than the magnitude of total linear momentum before the collision.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "6a8eb35ea7700ac1e0a76c97",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Total linear momentum is conserved when net force is zero.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "0f986e82950ce9153ed41ec3",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "When helium-6 decays by 𝛽− emission, lithium-6 is produced.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "fa64522226a44c272880e0df",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Decay of tritium by 𝛽− emission produces helium-3.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "2fc9cb7074321fbc44b75aa9",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Deuterium decays by 𝛽− emission to produce helium-4.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "74977f97a8d14b6e735b64bc",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "A capacitor with dielectric between its plates has a capacitance proportional to the dielectric constant of the dielectric.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "15f78c24d709ccb94e08df02",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The dielectric constant of vacuum is 1.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "fc3db5db609f75def94c52fb",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The relative permittivity of a dielectric equals the square root of its dielectric constant.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "d44bfdfecb6f2accd78b04e5",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The upthrust on an object submerged in water equals the weight of the object.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "08136d4fec57a7257b82f884",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "An object floating in water displaces its volume of water.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "386dd6ac31a076f2b5a3050b",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The upthrust on an object floating in water equals the weight of water displaced.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "35b6469493aa18556485ab34",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The diopter is a unit of optical power.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "6ea8468515e920d8d06264f3",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Optical power has dimensions of length.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "89176f2870d44d00b1c89d9b",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "A 0.5 m focal length lens has optical power of half diopter.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "283d3a71818c12c8010a7745",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The Doppler Effect only occurs with sound waves.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "36f2afe556c9bc31c91c30b2",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The Doppler Effect is negligible with light waves because the speed of light is very great.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "afa4fac848e28e356df59806",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The Doppler Effect occurs only with a stationary source and a moving observer.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "e830ed4acd8564ae3ff43a59",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The Coulomb force between a pair of stationary particles acts along the line joinin g them.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "3134152d21a83cfe4ec59e2b",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The magnetic force on a moving charged particle acts in the direction of the magn etic field.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "52f08bcef3690167440b7269",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The magnetic force on a moving charged particle has no effect on the speed of the particle.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "031de9eccd6a029eabfc96f3",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "If an object is at rest, then no forces act on it.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "5b8e10402351b653f43bdfbe",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "If an object moves with constant velocity, then the net force on it is zero.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "156ccd16898ba330690ced04",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "If an object moves with constant speed, then the net force on it is zero.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "9142fe203e4463f5bcf10fa6",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Twice as great a force is needed to stretch a spring that obeys Hooke’s law by 1 mm as is needed to stretch it by 2 mm.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "bec972af9b6d87049fb36c0c",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The elastic energy stored in a spring obeying Hooke’s law that is stretched by 2 mm is twice as great as in the same spring stretched by 1 mm.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "b1f99f794269a0de3bc1af71",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The energy stored in a spring that obeys Hooke’s law is proportional to the extension of the spring.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "e1f2d808a1699256871c03c9",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The reactance of a capacitor is directly proportional to its capacitance.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "491ba54712dd9401427dca3f",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The net reactance of two capacitors in series is the sum of the reactances of the capaci tors.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "1233c4a35f71942a9edd21ab",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The reactance of a capacitor is inversely proportional to frequency.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "3edf713f49d41843b632fda9",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "When two objects collide and stick together, total linear momentum after the collision equals total linear momentum before the collision.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "172053101f6fabb0356758dd",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "When two objects collide and stick together, total kinetic energy after the collision equals total kinetic energy before the collision.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "979973080b87738c07e8a3df",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "A collision between two objects that stick together after colliding is inelastic.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "64c106bb9acf14e7faf8d88f",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The specific heat capacity of a substance is the thermal energy required for a unit change in temperature of unit mass of the substance.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "5584ba7181ff91f6f08f07d8",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The heat capacity of an object is proportional to the mass of the object.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "8aa9bad2f5229fb1be975efa",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Two objects with different specific heat capacity cannot have the same heat capacity.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "61c42dafd3ff2fa97ff5795b",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Maths",
+    "questionText": "The critical angle is the smallest angle of incidence at which total internal reflection occurs.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "03bce49c66dddc898e66e1ec",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Total internal reflection can occur when light is incident from a medium with low refractive index into a medium with high refractive index.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "085fbff43c43ab1379ce1855",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "At the critical angle for light passing from glass to air, the sine of the angle of incidence equals the reciprocal of the refractive index of glass.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "5c5a479b5781fa70aa2119ef",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The electromotive force of a battery comprising three identical cells in series equals three times the electromotive force of one of the cells.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "0c53240af0e73d53e3ceb916",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The electromotive force of a battery comprising two identical cells in parallel equals half the electromotive force of one of the cells.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "e662bfc076112b7a32e62761",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Biology",
+    "questionText": "The internal resistance of a battery comprising two identical cells in parallel equals half the internal resistance of one of the cells.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "9ac5e079f73616d78c8f3882",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "No force is needed to keep an object moving at constant speed.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "236303a48a704ba72548d83e",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The acceleration of a moving object is in direct proportion to the net force acting on the object.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "883acd3b17f94081f923ad55",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "An object that is not moving does not have any forces acting on it.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "7b9159ce386b7ff0388afa6a",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "If two systems are separately in thermal equilibrium with a third system, the two syste ms are also in thermal equilibrium.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "a963d5febab48c4286c6fbf1",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Two systems in thermal equilibrium are characterized by the same temperature.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "ee2fd7da83424a3e3e3aae09",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Two systems in thermal contact attain thermal equilibrium by exchange of particles.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "54106970c489a3f6e632f9dd",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The image in a concave mirror of a paraxial object located at the centre of curvature i s also at the centre of curvature.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "2bd6db3362513ff0e9402c0a",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The focal length of a concave mirror equals its radius of curvature.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "53256985b96945788a2dc643",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The image in a concave mirror of a distant paraxial object is located at the focus of the mirror.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "d5c8f23c5b1e4799e80fbe21",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "A decametre is ten times a decimetre.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "0c21eb7e44a05299cb0d347f",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "One are equals one square decametre.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "e1aded3491f83fd0d55da4f5",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "One cubic decametre equals one thousand cubic metres.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "7a7c538cd13f2ac338473700",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The angular speed of a point on a uniformly rotating disk is proportional to the distan ce of the point from the axis of rotation.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "491f21dfbde3d9ba62c3daf8",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The farther a point on a rotating disk is from the rotation axis, the larger the speed at t he point.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "3d4d8183ab36d0c33ca1243d",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Two points at the same distance from the axis of a rotating disk have the same velocit y.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "b1f658455afe0289955606f7",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The resistivity of a material is independent of its state.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "39154014102295dec81c25d6",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Chemistry",
+    "questionText": "The resistivity of a metal decreases as temperature increases.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "ccbdce2a55e277956ac9c71e",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Chemistry",
+    "questionText": "The density of most metals decreases as temperature increases.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "ac8a37b9c991d9c9427a9a62",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "When a siren approaches a stationary listener, the frequency of the sound heard by the listener is higher than the frequency emitted by the siren.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "5c6640bc8eee82307ea85299",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "When a siren recedes from a stationary listener, the frequency of the sound heard by the listener is higher than the frequency emitted by the siren.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "10676b4331eb0ffec9a0d610",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "When a listener approaches a stationary siren, the frequency of the sound heard by the listener is higher than the frequency emitted by the siren.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "9aee8465c8e6778f4423a088",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "When two forces acting at a point are in equilibrium, their components in any directio n are equal.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "5e08cf45ac1c426beb07d082",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "When two forces acting at a point are in equilibrium, they act in the same direction.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "1d601551e2c528d9b9228403",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "When two forces acting at a point are in equilibrium, their dot product equals zero.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "68a58d09c55ad8777f50446d",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "An isochoric process occurs at constant heat.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "497967f575aa987af2f009da",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "An isothermal process appears as a horizontal line on a pressure-volume graph.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "a8638f9bce14ebeab536ed67",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "An isobaric process appears as a horizontal line on a pressure-volume graph.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "f82e26790aa5af2666b9efad",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "When two equal frequency sound waves interfere constructively, the resultant sound amplitude equals the sum of the amplitudes of the interfering waves.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "0f7b4258415c450900435525",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "When two equal frequency sound waves interfere constructively, the resultant sound intensity equals the sum of the intensities of the interfering waves.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "a8a868e45775f18ac0b4bf61",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "When two equal frequency sound waves interfere destructively, the resultant sound intensity equals the difference in intensity of the interfering waves.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "fba2f8ebf9dce731e6d27824",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "A p-type semiconductor always contains excess protons.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "d9d3769ad4f0f4444372250d",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "An n-type semiconductor always has a net negative charge.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "5ba50b282f3f424a62a8a4f8",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "An intrinsic semiconductor contains equal concentrations of electrons and holes.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "f4dcceac456b227eac3576c5",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The pressure of a fixed quantity of ideal gas is directly proportional to the absolute temperature of the gas.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "7f6c32c18a6149d654d043bf",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The pressure of an ideal gas at a fixed temperature is directly proportional to the density of the gas.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "4bdbecee63719c8d5bd75236",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The temperature of a fixed quantity of an ideal gas at constant pressure is inversely proportional to the volume of the gas.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "4a1130f61d89b1b2a8b8afb8",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Mars orbits closer to the Sun than Jupiter does.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "b793778849486fd75fc1637e",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Mercury is nearly as massive as Earth.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "bd56506705c9df65df4ba695",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Jupiter orbits closer to the Sun than Saturn does.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "a7c9d296e6427a656b3cd4d1",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Newton’s law of universal gravitation only governs the interaction between planets.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "2a7ddcacc37f9cde39244270",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The gravitational attraction between two protons is much smaller than the electrostatic repulsion between them.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "277f8d980c415c8c6924a2a0",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The gravitational attraction between two neutrons is much smaller than the electrostatic repulsion between them.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "0e952131b32f6363111b23cb",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The period of a simple pendulum on Earth is lower than the period of the same pendulum on the Moon.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "68e9a246c881007098bb8206",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The period of a spring-mass oscillator on Earth is lower than the period of the same oscillator on the Moon.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "c671d5404d01a64dd175359e",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The period of a spring-mass oscillator varies inversely as the mass of the oscillator.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "25cd19757fbd06679b0f4b3f",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The speed of sound in air is slightly less than the speed of sound in vacuum.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "56881d3c2aa70c977341c5f3",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Sound only travels in fluids.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "99c454030451bf03bcef1d5e",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The speed of sound in air is less than the speed of sound in iron.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "eda679d9db69a6f120472a56",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The magnetic force on an electric charge that is stationary in a magnetic field is zero.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "681261fa46cb6df73faa9f1e",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The work done by a magnetic field on a moving electric charge equals the change in kinetic energy of the charge.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "b4faac4ecc76e2ebd22f3fca",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "A negative electric charge moving north in a magnetic field directed vertically downward experiences a magnetic force directed east.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "bc10cbd906b279b3738e69ff",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The electric field at a point arising from a collection of charges equals the algebraic sum of the fields at the point due to the individual charges.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "d7c4b530ca90ffe95fabf40f",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The electric potential at a point arising from a collection of charges equals the algebraic sum of the potentials at the point due to the individual charges.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "8176916a142bd395034838b3",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The electric potential due to a point charge is inversely proportional to the distance from the charge.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "0969bed91e4311678ab10ec5",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Nucleons are bound together in a nucleus by electrostatic forces.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "7cd7ca6e7cc496b5323ff66f",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The gravitational attraction between neutrons and protons is responsible for stability of nuclei.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "ec2e13ecffbe6452fd70cac6",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "At the short distances between protons in nuclei, the electrostatic interaction between protons is attractive, accounting for the stability of nuclei.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "8f0aea7b2a79b2fa6cf5e1fc",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The emf induced in a circuit equals the magnetic flux linking the circuit.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "00f9c697ef80f81b6e4cac8f",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The emf induced in a circuit equals the negative of the magnetic flux linking the circuit.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "1e5089798321800c307cf3d5",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The emf induced in a circuit equals the negative rate of change of the magnetic field linking t he circuit.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "48ef9499b811ffef95d8e1c2",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Chemistry",
+    "questionText": "The mean square speed of the molecules of an ideal gas is directly proportional to the pressur e of the gas.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "92753d54a08a526868995238",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Chemistry",
+    "questionText": "The root-mean-square speed of the molecules of an ideal gas is inversely proportional to the t emperature of the gas.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "11128fa69dde50ac82b2564b",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Chemistry",
+    "questionText": "The mean square speed of the molecules of an ideal gas is directly proportional to the temper ature of the gas.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "d7e2a9be96f91fb8a60ebacb",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "A moving object that is slowing down has negative acceleration.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "b8e630dc4c28f053dcad5865",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "If a moving object is slowing down, the net force on it must be zero.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "5b10b64e6170f3ea10c9f49d",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "A moving object that is slowing down has negative velocity.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "7cceaf187c18b9f2248f0029",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The normal force on an object at rest on a plane inclined at an angle to the horizontal equals the w eight of the object.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "7ab46ee985b9297e62a1753e",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Maths",
+    "questionText": "The component of the weight of an object at rest on a plane inclined at an angle to the horizontal equals the weight of the object times the sine of the angle.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "42d54cbc95a145386db034a9",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The friction force on an object at rest on a plane inclined at an angle to the horizontal acts horizon tally.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "e088597ba8a249537e566384",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The work done by a force equals the product of the force and the distance moved by its point of application.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "121224dee97e9987deee2dde",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The work of the gravitational force on an object equals zero when the object is displaced horizontally near the surface of the earth.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "0a11cc702a465c822984e4b9",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The work done by a force is negative when the point of application of the force is displaced in a direction opposite to the force.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "82db16500b6a123bea520568",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "When light passes from water into glass, it is refracted towards the normal.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "94ebab24ad0e20786f27af6a",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Maths",
+    "questionText": "When light is incident from air on a boundary between air and glass at the critical angle, it is total ly reflected.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "781f536ba9945586f60529aa",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "When light is incident normally from air on a boundary between air and glass, it is totally transmi tted.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "ff94c263b725aa02067c8c37",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "When air resistance is negligible, a projectile travels equal horizontal and vertical distances in equ al time.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "0c7bee2e53fd4a7c32464f5c",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "When air resistance is negligible, the horizontal and vertical velocity components of a projectile a re equal.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "bef6a9c4a096851811c2e124",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "When air resistance is negligible, the horizontal acceleration of a projectile is negligible.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "ce8bc2b0dccbb8b577cb0704",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The magnitude of the resultant of two forces equals the sum of the magnitudes of the forces. ANSWER: False The magnitude of the resultant of two forces equals the square root of the sum of squares of the m agnitudes of the forces.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "8aa79a0af52c4760ea9eaaff",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The magnitude of the difference of two forces is always less than the magnitude of the sum of the forces.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "866febc5cec9d3b1e0df39e6",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "A horizontal line on a velocity-time graph for a moving object represents a state of rest of the object.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "a41a2d44e790520d7b7d6a95",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The area under a velocity-time graph gives displacement.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "9ce979cff5d365d4946336d1",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The electric force on a charge in an electric field is given by the product of the charge and the electric field strength.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "2ba796d1d828451242f26865",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The magnetic force on an electric charge in a magnetic field is given by the product of the charge and the magnetic field strength.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "c13c4565d22492fd80667327",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The electric force on a moving charge is always perpendicular to the magnetic force on the charge.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "2886648024d7cffc310801ca",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Radioactive decay by alpha-particle emission reduces the mass of the decaying nuclide by 4 atomic mass units.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "3604a0cbcd776ee8ea42087c",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Radioactive decay by gamma emission reduces the atomic number of the decaying nuclide by one.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "e78c3ad2ad03544312a39e66",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Radioactive decay by electron emission increases the mass of the decaying nuclide by 1 atomic mass unit.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "bbd8884a0bd53169eb4aa0f2",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Biology",
+    "questionText": "When a moving coil voltmeter is connected across the terminals of a primary cell, the reading on the voltmeter represents the emf of the cell.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "265ee4cfb2d2f8318ec555f8",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "An ideal voltmeter must have negligible internal resistance to minimize the voltage dropped across it when in use.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "d80991bdf5c216e0381b854d",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "A current that depends on the internal resistance of a voltmeter flows through the voltmeter when it is connected across the terminals of a battery.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "907039b1fe13d883a19764d9",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "A heated object emits radiation with total intensity proportional to the fourth power of the absolute temperature of the object.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "0549015a566a45b53c693630",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The wavelength for peak intensity of radiation emitted by a heated object is inversely proportional to the fourth power of the absolute temperature of the body.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "c4f0736d6e79c5fe4c112942",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The total intensity of radiation emitted by a heated body is independent of the area of the body.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "763a37e32ed894f23cd605ad",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The wavelength of the fundamental mode of a stretched string fixed at both ends equals half the length of the string.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "d4173f8a70b7efbf9ef8acad",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "For a stretched string fixed at both ends, the wavelength of the mode with only one node equals the length of the string.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "f24b6de12d6ba161c19e0d46",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "For a stretched string fixed at both ends, the second overtone has three nodes.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "24beaca0f5fed5559a649345",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The capacitance of a parallel plate capacitor is directly proportional to the area of the plates and inversely proportional to the distance between the plates.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "a1fb075304a0cd00e8b7cad7",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The capacitance of a parallel plate capacitor is directly proportional to the relative permittivity of the material between the plates.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "4bfa0b5258b1a96553de84ac",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The capacitance of an evacuated parallel plate capacitor is greater than the capacitance of the same capacitor with glass between the plates.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "13600805707d02d71d3fa3d7",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The joule, the watt second, and the newton meter are all units of energy.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "aae139198876d67ea1c1473f",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Weight is to newton as magnetic flux is to weber.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "bcc588af060c8d3a954910e4",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The volt per meter, the newton per coulomb, and the coulomb per farad-meter are all units of electric field strength.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "6494ec4eeaffaa0f4ab84dec",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The average power dissipated by a resistor in an ac circuit equals the product of the rms voltage across the resistor and the rms current through it.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "ed81a2cf2c260e8ccd115436",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The average power dissipated by an ac circuit containing resistors and inductors equals the product of the rms voltage across the circuit and the rms current.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "a3012c48a7303bb95ef129b6",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The average power dissipated by a reactive ac circuit depends on the power factor of the circuit.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "dcf288acf6f4b504d58ecd77",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "At the boiling point of a liquid, relative humidity is maximum.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "3b75bbae2d5cd21f8cddb001",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Evaporation of a liquid only occurs at temperatures close to the boiling point of the liquid.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "a49aa91f6375bc21605d0923",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Boiling of a liquid occurs when its saturated vapour pressure equals ambient pressure.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "8c14124bc37277b8aff996ba",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "[MAIN CONTEST] (28-67) An object in a fluid displaces its own weight of fluid.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "d16b690e8ca7352d70054e8b",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The weight of fluid displaced by a floating body equals the weight of the body.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "d15db0e65b6aae9fe74af30e",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "A solid sphere immersed in a fluid displaces its own volume of fluid.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "5206dfa7afff859aaba454e3",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The reactance of a capacitor is directly proportional to frequency.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "7bf315985d41f6a233a11258",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The reactance of a capacitor is independent of angular frequency.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "d267e1d13a08a347ba1646da",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The reactance of a capacitor varies inversely as the capacitance of the capacitor.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "e53f9c0651792f667023bcbb",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Newton’s second law implies that the net force acting on a body of fixed mass equals the product of the mass of the body and its acceleration.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "61bb30504dd1419060fc4635",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "According to Newton’s second law, a freely moving body will eventually come to rest.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "d1715dd52f663871950e3611",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Newton’s second law can be stated as “the force acting on a body equals the mass of the body times the change in velocity of the body divided by time.”",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "dff31a2a22114c1366d885dc",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The activity of a radioactive sample is directly proportional to the number of active nuclei present in the sample.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "6b38d86bc7f2af7bb51d8d2c",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The activity of a radioactive sample decreases with time.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "86af4e4daf584feb3c6b64e4",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "All active nuclei present in a radioactive specimen decay in the lifetime of the specimen.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "b2e7968446016244ea3349f3",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Two equal stationary charges attract each other with a force inversely proportional to the square of the distance between them.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "518a487224a73e4cb766215b",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The electric field strength midway between two equal stationary charges is zero.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "806109e29339ad2041d0d27a",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Two equal stationary charges repel each other with a force inversely proportional to the product of the charges.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "d4fa6ae5e9d3d963df1dafaf",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The product of the pressure and the volume of an ideal gas is constant.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "f80d403e1474fe215f3efd2b",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The temperature of a fixed quantity and a fixed volume of an ideal gas is proportional to the pressure of the gas.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "f8480f50afde04e147b8bfd6",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Because an ideal gas is made up of non-interacting point particles, its density is always zero.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "6927058467155448513fdbaf",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The dial of a moving iron ammeter is deflected equally by equal changes in current.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "5322b5881998cb3c5849711d",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "A moving-iron ammeter can be used for both DC and AC signals.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "96a47d49c0953a53631e70ec",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The graduation on a moving-iron ammeter is not uniform.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "c5dac769a1f47f42ac997c30",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Equal masses of matter require equal thermal energy for equal temperature change.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "9ac5553408af82035d61be9a",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "It is impossible for an object to absorb heat without an accompanying change in its temperature.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "35828c0f299020f75e78f804",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The temperature of a gas can be increased without adding heat to the gas.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "12802f86f936853bac60b72a",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "A transformer with more primary turns than secondary turns produces a secondary voltage lower than the primary voltage.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "df6f78021d79ec7bb5b06086",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The secondary coil of a step-up transformer is usually wound with thicker wire than the wire used for the primary coil.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "43a4cd5a93a3ddb01acae9d4",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The primary current of a step-down transformer is usually lower than the secondary current.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "8882989d8421ac61386367d8",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "A charged capacitor in series with a resistor loses charge at a constant rate.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "28ed8591c6b2885318ab8b7c",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The rate of loss of charge from a charged capacitor in series with a resistor is proportional to the resistance of the resistor.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "e78ef2bc0662ec08e10ec97d",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The time constant of a capacitor-resistor circuit equals the product of the capacitance of the capacitor and the resistance of the resistor.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "2ee69c7c3f1d8e93426f6d3f",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The electric field between two very large parallel plates carrying equal but opposite charge is uniform near the centre of the plates.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "162c87287460330fc8311a2d",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Because the electric field between a pair of parallel plates is uniform, the electric potential between the plates is constant.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "2a04e0a941cfb734fa38de0b",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The force on a positive charge between two very large parallel plates carrying equal but opposite charge is largest near the plates.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "14883fb4226ee0a7239aadef",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The reverse saturation current of a pn junction diode is the largest current that can be established through the diode.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "3d690ea88cd28e5e3e918a49",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The reverse saturation current flows when a pn junction diode is forward biased.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "9057c4f486466ee28d5b61c0",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The forward current of a pn junction diode can be much larger than its reverse current.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "e5bbf9a20f0dbe27903bd3b5",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "A projectile launched vertically upward spends as much time in its upward flight as in its downward flight to its launch point.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "134c05a935d2804fa67e39df",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Maths",
+    "questionText": "A projectile launched at an angle to the horizontal spends more time in its upward flight than in its downward flight to its launch plane.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "f7c7f39ea7c8ed43269ba209",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Maths",
+    "questionText": "The horizontal range of a projectile increases with launch angle from 0° to 45°.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "5aad7a4c5768f7d985bc287b",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "An object in free fall is not subject to any forces.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "4a414b23fa5b346ba11a2d34",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The acceleration of free fall near the surface of earth is directly proportional to the mass of the falling object.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "c041874ec6f229126a8f1490",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "An object in free fall is weightless.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "cd45814d3c10370260da496e",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "When uranium–238, atomic number 92, under goes radioactive decay to give thorium – 234, atomic number 90, it would have emitted an α-particle.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "6d8122cc588d818d80cb7a2e",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "For a nuclide to increase its atomic number it must undergo a positron emission.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "a13702a00cdd984efd69e3a3",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "1 1 0 1p → 0n + +1e A nuclide that undergoes gamma emission only does not change its mass number and atomic number.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "10646c299342a93a4305327a",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Chemistry",
+    "questionText": "A bimetal strip operates on the principle that different metals have different thermal expansivity.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "da90c0c9557a7dc5a21fa9ae",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "A thick glass bottle is likely to crack when a hot liquid is poured into it because the outside of the bottle is colder than the inside and expands less than the inside.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "90e48cc2144b406afd80aa70",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The change in length of an object due to thermal expansion depends only on the change in temperature of the object and is independent of the size of the object.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "c80ba50bcd2bad4349848c0f",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The resistance of a conducting wire made of copper increases as the temperature of the wire is decreased.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "715ea22231a58ad126efba3f",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The resistance of a conducting wire made of copper increases as the length of the wire is increased.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "118e637c9d2ffa8691b1b74f",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The resistance of a conducting wire made of copper increases as the cross sectional area of the wire increases.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "9ae48b0d34f79cef63cfdbcf",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The energy stored by a stretched spring is proportional to the extension of the spring.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "a9c8742b778f9709687c3b11",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The force required to stretch a spring is inversely proportional to the extension of the spring.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "0eb471991f791394345e2a63",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The work done in stretching a spring is directly proportional to the square of the extension.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "0621f6412fef512974008ed7",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The force that prevents a vehicle from skidding when rounding a curve in a flat road acts at the centre of the curve.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "06c9265e420b7f3b79ded8e0",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Centripetal force is only present when an object moving in a circle is connected by a string to the centre of the circle.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "03692becf2d5a323e7342275",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The centripetal acceleration of an object is proportional to the square of the speed of the object.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "80c65222b05359fb7939b637",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The acceleration of a body moving around a circle with variable speed is directed toward the centre of the circle and is known as centripetal acceleration.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "c3665c65288425dac22f262b",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The centripetal acceleration of a body moving around a circle with variable speed is directed toward the centre of the circle and is proportional to the square of the speed of the body.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "d314a15d3435c6ae6df6167a",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The acceleration of a body moving around a circle with variable speed has a component that is tangent to the circle.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "f41dd35dfd94e26c22c457c5",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The average velocity of molecules in an ideal gas is proportional to the absolute temperature of the gas.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "8933577de5e3111b0c6a4062",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Chemistry",
+    "questionText": "The average speed of molecules of an ideal gas is proportional to the square root of the absolute temperature of the gas.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "597041b8d38b8b319dbc0cd3",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The average velocity of molecules of an ideal gas is proportional to the square root of the absolute temperature of the gas.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "1b2c9e7eb88b3c6a8a8319f4",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "A neutron outside a nucleus is unstable with respect to decay into a proton, an electron, and an electron antineutrino.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "b2b1e1f4a126b7f31df2cd81",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "A proton outside a nucleus is stable with respect to decay into a neutron, a positron, and an electron neutrino.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "4f583cb731bcf8bfe65175fd",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The decay of a free neutron and the stability of a free proton can be understood on the basis of the net electrical charge carried by each particle.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "386e89fb42d66901fea67eed",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The distance between adjacent crests of a wave is the wavelength of the wave.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "97acdceae9f5fee2e6f7ca24",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The difference between maximum displacement and minimum displacement in a wave is the amplitude of the wave.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "561fe150fc12558f143a4f54",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The product of frequency and period of a wave always equals unity.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "20e574035721e6969a3ff866",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "A diamagnetic material is weakly repelled by a strong magnet.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "f0adeec3d2718ee8ad4e8161",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The magnetic properties of a paramagnetic material are independent of temperature.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "8898d28a5cc5d05d46b9b762",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "A ferromagnetic material becomes paramagnetic when its temperature is increased beyond a critical temperature.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "f4cb7cf0a9a4e6ce16ce1f9c",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The quality of a note is mainly determined by the overtones present.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "5efe1f1aa1067cc0778d7144",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The pitch of a note is mainly determined by its quality.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "96c046d77bc9ef06a14a530b",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The loudness of a note is mainly determined by its quality.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "3d237d2f55626d8528bcb669",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Chemistry",
+    "questionText": "Ejection of electrons from the surface of a metal occurs when light with wavelength greater than a threshold value is incident on the surface.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "512711e33c58ab00e395c2a2",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The longer the wavelength of light falling on the surface of a metal, the greater the kinetic energy of photoelectrons ejected from the surface.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "387c40f4da4f9387cfe20999",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The photoelectric current produced by light of suitable wavelength is proportional to the intensity of the light.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "028bd1c0ebbd76925d25e358",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The charge stored on a capacitor is directly proportional to the square of the potential difference across it.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "95c0b91fcdf2f971f8a4eb12",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The energy stored on a capacitor is directly proportional to the square of the potential difference across it.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "bd0c41b6b95f191f8bbb0806",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The charge stored on a capacitor is inversely proportional to the potential difference across it.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "c4cec7e7b611306bbbf3f886",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "A ferromagnetic material contains magnetized regions known as magnetic domains.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "19841cbf4ab89850f095253b",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The magnetic dipoles in a magnetic domain of a ferromagnetic material interact strongly, resulting in spontaneous alignment of the magnetic dipoles in the domain.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "239b8f7dfa0c4f1b20cf97af",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "An unmagnetized ferromagnetic material contains magnetic domains in which the magnetic dipoles are randomly oriented.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "9dd6df668c196d501d9af187",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "An echo is a manifestation of reflection of sound waves.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "cd1295d223b03b2a09be3c34",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Diffraction of sound waves makes it possible to hear around corners.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "b8d08863d800fa735ae57fb1",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Because sound waves are longitudinal waves, interference of sound waves is impossible.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "48beb27fb250ee666c2f0038",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "An ideal gas effuses at a rate that is independent of the pressure and temperature of the gas.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "fd3b6e24ebe56c5ba1cd288a",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The rate of effusion of an ideal gas is directly proportional to the temperature of the gas.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "8c43990f6e4f098c30f9cfc9",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The rate of effusion of an ideal gas is directly proportional to the square root of the temperature of the gas.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "a972ecdc63082abf2597d332",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The wavelength of the fundamental note of a pipe closed at one end is four times the length of the pipe if end effects are neglected.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "85ac3a3361f82f96074ffeb3",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The wavelength of the first overtone of a pipe closed at one end is two times the length of the pipe if end effects are neglected.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "750baa6e5b62162d3ec036a5",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The frequency of the first overtone of a pipe closed at one end is three times the frequency of the fundamental note.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "4397b316471c04ce0f11c461",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The divergence of the leaf of a positively charged gold leaf electroscope decreases when a positively charged rod is brought near the cap of the electroscope.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "3fa819f8a8fe089498226964",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The divergence of the leaf of a negatively charged gold leaf electroscope increases when a negatively charged rod is brought near the cap of the electroscope.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "0c2f63472362d23c1904ca7b",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The divergence of the leaf of a negatively charged gold leaf electroscope increases when a positively charged rod is brought near the cap of the electroscope.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "665c42aa86ab2d56c9e481c0",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "An n type semiconductor is obtained by introducing electron donors into a pure semiconductor, thereby creating a negatively charged material.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "c92483109dad68c808cc403d",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "An intrinsic semiconductor contains as many electrons in the conduction band as holes in the valence band.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "3c44ccb3fd813b9864f8c81c",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "A p type semiconductor contains more electrons in the conduction band than holes in the valence band.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "a6213ded18cf78e50efddcb9",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "An electron moving in a uniform magnetic field experiences a magnetic force that is perpendicular to the magnetic field.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "bc22c20f1a71f75226fc18a3",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "An electron moving in a uniform magnetic field experiences a magnetic force that is perpendicular to the velocity of the electron.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "885e203cb0a28939903245e9",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "An electron moving in a uniform magnetic field undergoes a change in kinetic energy that is proportional to the magnetic field strength.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "c624aeb770b7f90964c294f6",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The alternating current through a resistor is in phase with the alternating voltage across it.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "baa71d0208be7f1afd79e154",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The average power dissipated in a resistor when an alternating current flows through it equals half the peak current times the peak voltage.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "8ba4b53f55e5044dcc0140d0",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The average power dissipated in a resistor when an alternating current flows through it equals half the peak current times the rms voltage.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "2b2e40b3966ff3fccb0b7beb",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The proportional limit of a material is the maximum stress that can be applied without permanent deformation.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "29e52439f8cd39cbb728eefe",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The elastic limit of a material is the maximum stress that is still proportional to strain.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "90364a35e9892ae0ade68f0c",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Young’s modulus of a material is the ratio of stress to strain for stresses lower than the proportional limit.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "de83b5082155d77eb976eba8",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The image formed o the screen of a pinhole camera is always upright.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "2bfc6c6ea4be14ce007b0913",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The height of the image in a pinhole camera is always equals the height of the screen.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "5241bed6d698c8ba51f61a2e",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "If an object is closer to the hole of a pinhole camera than the screen, the image of the object is larger than the object.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "5059847ad52a82ecfe7924d3",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The separation between adjacent energy levels of the hydrogen atom decreases as the principal quantum number decreases.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "21e65ea25bedbf2cf6beb8f8",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The energy difference between the ground state and the first excited state of the hydrogen atom is largest for any pair of adjacent levels of the hydrogen atom.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "4f685bc501106cda22830be2",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The longest transition wavelength in the hydrogen spectrum is associated with the ground and first excited states.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "0712f9c7cab436e4738fdc38",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The energy stored by an inductor varies in direct proportion to the current through it.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "8ba27de0e1ef11a0b15c3f1f",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The energy stored by an inductor depends on the inductance of the inductor.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "033e18b9c25d1f637c790cc8",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "When the current through an inductor is doubled, the energy stored in the inductor is halved.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "52c04b1f065558ca24f7a825",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The most intense wavelength in a black body spectrum is proportional to the fourth power of the temperature of the blackbody.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "590a418c3f248507cfca7c45",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The most intense wavelength in a black body spectrum is inversely proportional to the temperature of the blackbody.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "154b437864687d78620b1a0a",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The Rayleigh-Jeans law correctly describes the short wavelength portion of the radiation emitted by a black body.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "d645f6e2750d5a71e30be239",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The velocity ratio of a simple machine is the ratio of the magnitude of the effort to that of the load.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "5d3506e54e4180ace1091067",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The mechanical advantage of a simple machine is the ratio of the magnitude of the effort to that of the load.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "36cb33510404d97f510c8549",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The efficiency of a simple machine is the ratio of work output to work input.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "548f08b21b01fb08ff8fd7af",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The electromotive force induced in a circuit is always in such a direction as to decrease the magnetic flux linking the circuit.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "9e2160ee4b932135c46acd30",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The electromotive force induced in a circuit equals the rate of decrease of the magnetic flux linkage.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "2e93502950fe7de8f3c1f51d",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Lenz’s law implies that if the flux linkage in a region is increasing, the induced electromotive force is such as to decrease the flux linkage.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "82ecd109218938a89ee0bc52",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The resultant of two forces that make an angle of 30° to each other has a magnitude less than the magnitude of any of the forces.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "574523c64c14eb70848c3d8a",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The resultant of two perpendicular forces has a magnitude greater than the magnitude of any of the forces.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "a1fb62672b1c8d12e6d7a109",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The resultant of two perpendicular forces has a magnitude that is less than the magnitude of the sum of the magnitudes of the forces.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "4abfe106aedf6be10f21376d",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Power is the rate of doing work.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "d667075b7f5dd57269bd6e6d",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The power developed by a force equals the product of the force and the velocity component, in the direction of the force, of the point of application of the force.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "12936237e1c7960d012ced86",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The power developed by a force is greatest when the velocity vector of its point of application is perpendicular to the force.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "477e06cc549757e42fd04d51",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The heat capacity of a body is the heat required for a unit change in temperature of the body.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "3f8d27f06d892d0658cc4fd8",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The SI unit of heat capacity is J kg−1 K−1.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "7408d9480011d7fe3dd16b43",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The heat capacity of a body depends on the mass of the body and the substance it is made of.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "2f7838166db1177dac10fcda",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The absolute refractive index of a medium equals the ratio of the velocity of light in vacuum to the velocity of light in the medium.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "cc00061f734b6ee51b9241a5",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The speed of light in vacuum is the same for all wavelengths in the electromagnetic spectrum.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "c78fd9ae36a938c65bba2d2c",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The speed of light in glass is the same for all wavelengths in the electromagnetic spectrum.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "09d5fea74f6e684ece8f9d27",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "In enriching uranium for nuclear power applications, the target isotope for enrichment is uranium-238.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "88fff9ac9f894f32a926ae20",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Chemistry",
+    "questionText": "Natural uranium contains much more uranium-238 than any other uranium isotope.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "bfd57fef1b20de264970fd0d",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Nuclear energy is renewable but because it is intermittent, enrichment must be carried out to improve availability.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "d1a150ea18acf2df2b5f22c3",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The intensity of sound waves is directly proportional to the distance from the sound source.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "ef41a9e2f3817a4ae68260fe",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The intensity of sound waves is inversely proportional to the distance from the sound source.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "c188aabef1ba24ab9ecda604",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The intensity of sound waves is inversely proportional to the square of the distance from the sound source.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "eb2a58ccc2dbdc4b58e660fa",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "When two capacitors are connected in parallel, the effective capacitance of the combination equals the sum of the capacitances.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "7edf31ab88276acd36dc888c",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "When two resistors are connected in parallel, the effective resistance of the combination equals the sum of the resistances.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "2f2ae9e54ceffc26b28cbc6d",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "When two capacitors are connected in series, the effective capacitance of the combination is less than the capacitance of any of the capacitors.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "9c896387d2973914b879173f",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The de Broglie wavelength associated with a particle decreases as the linear momentum of the particle decreases.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "212e17dca58e521332ab870a",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The de Broglie wavelength of a proton with a given speed is identical to the de Broglie wavelength of an electron with the same speed.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "33ad0d740b86678f0a2a69fc",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The de Broglie wavelength of a molecule with a given linear momentum is identical to the de Broglie wavelength of an electron with the same linear momentum.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "9cd36627db3a2e2dbd04ab64",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "When two long parallel wires carry equal currents in opposite directions, they experience an attractive force that depends on the magnitude of the current in each wire.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "cd79f2f345489fb444b36e23",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The magnetic force between two long parallel wires is proportional to the product of the currents in the wires and is attractive if the currents are in the same direction.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "a0568e054cdc383edeef2c1d",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The magnetic force between two long parallel wires is independent of the distance between the wires.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "6cbfa0fe4a2632bb3d14d38f",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The frequency of oscillations of a spring-mass system is directly proportional to the spring constant of the spring.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "a898df5b6f47664d0b69180d",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The period of oscillations of a spring-mass system is directly proportional to the spring constant of the spring.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "7fc45681fad256cf6f635403",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The frequency of oscillations of a spring-mass system is inversely proportional to the spring constant of the spring.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "b158cc0b8c0e374c9490bd48",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The total energy of a simple harmonic oscillator is proportional to the square of the amplitude of the oscillator.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "4085eeb846d6810e04747a15",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The total energy of a simple harmonic oscillator is independent of the frequency of the oscillator.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "827cf4896a49b545e5664c4c",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The total energy of a simple harmonic oscillator is proportional to the square of the frequency of the oscillator.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "8b48ee91d986e6d526a166b9",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The mass number of the nuclide formed when a radioactive nuclide decays by gamma emission is lower than the mass number of the parent nuclide by unity.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "f110b650424796993a8e1290",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The proton number of the nuclide formed when a radioactive nuclide decays by gamma emission is lower than the proton number of the parent nuclide by unity.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "58ae7f60b7d47030633c3024",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The mass number of the nuclide formed when a radioactive nuclide decays by beta particle emission is the same as the mass number of the parent nuclide.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "fe051878e066a9630da3e15b",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The electric force on a charged particle moving in an electric field is in the direction of the field.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "27f79ff1d6b7b4ee6b85c399",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The magnetic force on a charged particle moving in a magnetic field is perpendicular to the direction of the field.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "9a57f61fa49ca61d76eaaea7",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The magnitude of the electric force on a charged particle moving in an electric field is proportional to the speed of the particle.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "670695b4133b4b839cc65a05",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The impulse of a force is a measure of the change in linear momentum the force produces.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "aff5f217f36c0f47289764db",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "A force that changes only the direction of the linear momentum of a particle has zero impulse.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "04919a8cfce862b6eaa87052",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "A force that changes only the magnitude of the linear momentum of a particle has zero impulse.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "00a4faf3a37a9a2c70a5f67a",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The fermi is a unit of length with 1 fermi representing a length of the order of the size of a nucleus.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "5ee075737be44abb006ace49",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The barn is a unit of area, one barn being equal to 100 fm2, roughly the cross sectional area of a typical nucleus.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "c137de16e8f5b5ab4f6a52c3",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The torr is a unit of mass, one torr being equal to 1000 kg.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "b5ddca9e639e959130c248e4",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The image formed in a converging lens of a real object between the focus and pole of the lens is upright and larger than the object.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "4d74038f0a56e6c2976ac326",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The image formed in a converging lens of a real object at one focus of the lens is located at the other focus.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "e71d6eb9eef00350277478bd",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The image formed in a converging lens of a real object located at twice the focal length from the pole of the lens has unit magnification.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "bcd4d233f6affd5c820ab17d",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Chemistry",
+    "questionText": "The average speed of the molecules of an ideal gas at 40 ℃ is twice the average speed at 20 ℃.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "46a3ea073cb98f805ba9afec",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The average kinetic energy of the molecules of an ideal gas at 200 ℃ is twice the average speed at 100 ℃.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "be993bd77bbb94047d186655",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Chemistry",
+    "questionText": "The average speed of the molecules of an ideal gas at 400 K is twice the average speed at 100 K.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "de254f53f03c50ebf9d77053",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "For standing waves on a vibrating string, the distance between a node and an adjacent antinode equals half the wavelength of the wave.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "96472ba6b9a6ba6efe7cfbc2",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "For standing waves on a vibrating string, the distance between two adjacent antinodes equals the wavelength of the wave.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "239e565b791043147c8cf9a7",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "For standing waves on a vibrating string, the distance between two adjacent nodes equals half the wavelength of the wave.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "bb091c49a2dfb90e61171d70",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The period of a pendulum constructed with a steel wire increases as temperature increases because thermal expansion increases the length of the pendulum.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "a7acf574f05b75b75ac52980",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The mass of the bob of a simple pendulum has no influence on the period or frequency of the pendulum.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "35829f270712eba49ba38648",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The amplitude of oscillations of a simple pendulum has no influence on the period or frequency of the pendulum.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "b2d17ae523ce6eef5d8be036",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The linear momentum of a photon equals the product of its frequency and the Planck constant.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "1720592a6f6a9033d896234c",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The energy of a photon equals the product of its linear momentum and the speed of light in vacuum.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "9c1295cdeb6a23e455b0118c",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The linear momentum of a photon equals the product of its wavelength and the Planck constant.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "4c92534deb7a94bb62835161",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The electric force on a charged particle in an electric field equals the product of the magnitude of the charge and the electric field strength.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "94d1839a6dde6d0cd330fe24",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The work done by an electric field on a charged particle equals the change in kinetic energy of the particle.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "dc49ee2a8bfe6fdd5486e376",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The work done by a magnetic field on a moving charged particle equals the change in kinetic energy of the particle.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "74f6c6a84458fc27d54a22c4",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "A longitudinal wave is characterized by oscillations perpendicular to the direction of wave propagation.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "434936c3a388f1d9c49c779c",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Electromagnetic waves in vacuum are transverse waves in which the oscillating field vectors are parallel to the direction of wave propagation.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "d4369b0083881a8568cacc37",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "An electromagnetic wave in vacuum comprises oscillating electric and magnetic fields that are perpendicular to each other.",
     "correctAnswer": true,
     "scored": true
   }

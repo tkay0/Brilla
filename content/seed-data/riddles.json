@@ -1,51 +1,15 @@
 [
   {
-    "id": "a39b4ba4-9277-4c0f-ad21-1bcaf256b408",
-    "sourceFile": "CHEMISTRY TRIAL QUIZ.docx",
-    "subject": "Chemistry",
-    "questionText": "I am the plentiful metal in earth crust. I virtually never occur in free form, so I am rare. I am one of the few abundant elements that appears to have no beneficial in living cells. I was once considered a precious metal, more valuable than gold. I am obtained by electrolysis from bauxite (Al2O2)…. Who am I?",
-    "correctAnswer": "Aluminium",
-    "options": [
-      "Iron",
-      "Aluminium",
-      "Sodium",
-      "Magnesium"
-    ],
-    "clues": [
-      {
-        "order": 1,
-        "text": "I am the plentiful metal in earth crust."
-      },
-      {
-        "order": 2,
-        "text": "I virtually never occur in free form, so I am rare."
-      },
-      {
-        "order": 3,
-        "text": "I am one of the few abundant elements that appears to have no beneficial in living cells."
-      },
-      {
-        "order": 4,
-        "text": "I was once considered a precious metal, more valuable than gold."
-      },
-      {
-        "order": 5,
-        "text": "I am obtained by electrolysis from bauxite (Al2O2)…."
-      }
-    ],
-    "scored": true
-  },
-  {
-    "id": "5e3ef6b2-50ba-44ea-876f-3b3525ac035f",
+    "id": "9ca6b9b0daa917cc390767aa",
     "sourceFile": "Biology Riddles (2) - Copy.docx",
     "subject": "Biology",
     "questionText": "I principally occur through the process of photosynthesis, but I also occur through chemosynthesis, In aquatic ecosystems I am driven by the availability of nutrients and light and, to a lesser extent, by temperature and other factors. I am important because I am the process that forms the foundation of food webs in most ecosystems. , I am used to refer to the rate at which all the plants in an ecosystem produce net useful chemical energy I am equal to the difference between the rate at which the plants in an ecosystem produce useful chemical energy (GPP) and the rate at which they use some of that energy during respiration Who am I?",
     "correctAnswer": "Primary productivity",
     "options": [
       "Trophic efficiency",
-      "Secondary productivity",
       "Primary productivity",
-      "Net productivity"
+      "Net productivity",
+      "Secondary productivity"
     ],
     "clues": [
       {
@@ -72,15 +36,15 @@
     "scored": true
   },
   {
-    "id": "3a92cefd-99ec-496d-9cf0-4b321d55150d",
+    "id": "881ba4a107c1ca8325c1056c",
     "sourceFile": "Biology Riddles (2) - Copy.docx",
     "subject": "Biology",
     "questionText": "I am a set of metabolic reactions and processes that take place in the cells of organisms Technically, I am a combustion reaction But clearly, I do not resemble one when I occur in a living cell, because of the slow release of energy from the series of reactions. My reactions convert biochemical energy from nutrients into adenosine triphosphate (ATP), and then release waste products. The reactions are catabolic reactions, which break large molecules into smaller ones I am one of the key ways a cell releases chemical energy to fuel cellular activity. Who am I?",
     "correctAnswer": "(Cellular) Respiration",
     "options": [
+      "Glycolysis",
       "Photosynthesis",
       "Fermentation",
-      "Glycolysis",
       "(Cellular) Respiration"
     ],
     "clues": [
@@ -112,7 +76,7 @@
     "scored": true
   },
   {
-    "id": "2605109a-4f93-477c-bb7c-6ee3f66440dd",
+    "id": "be41ef2c77f33e6547be353e",
     "sourceFile": "Biology Riddles (2) - Copy.docx",
     "subject": "Biology",
     "questionText": "I am a molecule that participates in many biochemical reactions in protein, carbohydrate and lipid metabolism I am composed of different pieces of various molecules and chemical groups I am produced by the breakdown of both carbohydrates (by glycolysis) and fats (by β-oxidation). I am mainly used by the body for energy production through the citric acid cycle, or Krebs cycle. My main function is to deliver the acetyl group to the citric acid cycle (Krebs cycle) to be oxidized for energy production. Who am I?",
@@ -148,16 +112,16 @@
     "scored": true
   },
   {
-    "id": "f1a147e5-8f51-41f2-945a-ad1a8b584cc4",
+    "id": "33a56151d8cf5756b0960a8a",
     "sourceFile": "Biology Riddles (2) - Copy.docx",
     "subject": "Biology",
     "questionText": "I am a three word phrase that is used to represent a group of birds Taken literally, I have a wide range of meaning The common names for my members are based on structures, In ornithology, my name has a narrower meaning: This includes birds that have very good eyesight for finding food, Strong feet for holding food, and a strong curved beak for tearing flesh These birds are characterized by keen vision that allows them to detect their prey during flight and powerful talons and beaks. Who am I?",
     "correctAnswer": "\"Bird of prey\"",
     "options": [
-      "\"Bird of prey\"",
       "Songbird",
-      "Game bird",
-      "Wading bird"
+      "\"Bird of prey\"",
+      "Wading bird",
+      "Game bird"
     ],
     "clues": [
       {
@@ -188,16 +152,16 @@
     "scored": true
   },
   {
-    "id": "170eb015-808a-43f3-a702-0091ec4d8bd0",
+    "id": "e74529509ba31abc610403dc",
     "sourceFile": "Biology Riddles (2) - Copy.docx",
     "subject": "Biology",
     "questionText": "There are two popular and overlapping theories that explain the origins of me I am one of the final phases of genetic recombination, I occur at prophase I of meiosis during a process called synapsis I usually occur when matching regions on matching chromosomes break and then reconnect to the other chromosome. I am the exchange of genetic material between homologous chromosomes that results in recombinant chromosomes during sexual reproduction Who am I?",
     "correctAnswer": "Crossing Over",
     "options": [
-      "Crossing Over",
-      "Nondisjunction",
       "Independent assortment",
-      "Synapsis"
+      "Crossing Over",
+      "Synapsis",
+      "Nondisjunction"
     ],
     "clues": [
       {
@@ -224,7 +188,7 @@
     "scored": true
   },
   {
-    "id": "b10b75eb-1b37-4475-827d-6e1e3d351c2e",
+    "id": "74bb310ab0f728d41f02d613",
     "sourceFile": "Biology Riddles (2) - Copy.docx",
     "subject": "Biology",
     "questionText": "I am used to describe the emergence of discontinuities in an organism's preferred environment I can be caused by geological processes that slowly alter the layout of the physical environment Or by human activity such as land conversion, which can alter the environment much faster and causes extinctions of many species I am often a cause of species becoming threatened or endangered I am the process by which habitat loss results in the division of large, continuous habitats into smaller, more isolated remnants Who am I?",
@@ -260,16 +224,16 @@
     "scored": true
   },
   {
-    "id": "650fed71-42cc-4c1f-a655-8454a37493be",
+    "id": "06796ca6c2aacb0cc6d79741",
     "sourceFile": "Biology Riddles (2) - Copy.docx",
     "subject": "Biology",
     "questionText": "I am an important part of eating and drinking by many animals In scientific contexts I am sometimes called deglutition, I am a complex mechanism that uses both skeletal muscle (tongue) and smooth muscles of the pharynx and esophagus During my process, respiration is briefly inhibited as the larynx, or voice box, rises to close the glottis (the opening to the air passage). I am the process in the human or animal body that makes something pass from the mouth, to the pharynx, and into the esophagus, while shutting the epiglottis. Who am I?",
     "correctAnswer": "Swallowing",
     "options": [
-      "Regurgitation",
-      "Swallowing",
+      "Peristalsis",
       "Mastication",
-      "Peristalsis"
+      "Swallowing",
+      "Regurgitation"
     ],
     "clues": [
       {
@@ -296,16 +260,16 @@
     "scored": true
   },
   {
-    "id": "bfc85ed0-d0a6-4a2f-bc74-b79f0f6d1013",
+    "id": "c56259ec18f4a2f578f4e7a9",
     "sourceFile": "Biology Riddles (2) - Copy.docx",
     "subject": "Biology",
     "questionText": "In evolution, it appears I was the first stage of sexual reproduction There are several types of me In one type, the two gametes involved in reproduction may be flagellated, and therefore motile, as occurs in algae such as some species of Chlamydomonas In another type, neither of the gametes is flagellated, as in the case of the mating of yeast I am the form of sexual reproduction that involves the fusion gametes of similar morphology (i.e. similar shape and size) Who am I?",
     "correctAnswer": "Isogamy",
     "options": [
-      "Oogamy",
       "Conjugation",
-      "Isogamy",
-      "Anisogamy"
+      "Anisogamy",
+      "Oogamy",
+      "Isogamy"
     ],
     "clues": [
       {
@@ -332,16 +296,16 @@
     "scored": true
   },
   {
-    "id": "76463982-e05f-44a5-b568-09684e55bf65",
+    "id": "ae2b271504787e8c136ef285",
     "sourceFile": "Biology Riddles (2) - Copy.docx",
     "subject": "Biology",
     "questionText": "I am an immature free-living form of some organisms I often have unique structures and organs that do not occur in my adult form. My diet may also be considerably different from my adult I am frequently adapted to environments separate from adults I am a distinct juvenile form many animals undergo before metamorphosis into adults. Who am I?",
     "correctAnswer": "Larva",
     "options": [
       "Pupa",
-      "Nymph",
       "Larva",
-      "Zygote"
+      "Zygote",
+      "Nymph"
     ],
     "clues": [
       {
@@ -368,7 +332,7 @@
     "scored": true
   },
   {
-    "id": "fb07e100-36ea-46c0-9fdc-65247138e011",
+    "id": "740e30e3a797cb7683f0d7c8",
     "sourceFile": "Biology Riddles (2) - Copy.docx",
     "subject": "Biology",
     "questionText": "I am a cylinder of parenchyma or sclerenchyma cells I am a primary tissue that maintains meristematic activity In plant roots I am located between the endodermis and phloem. In dicot stems, I am situated around the ring of vascular bundles in the stele I am involved in lateral root initiation and development, as well as in secondary root growth. Who am I?",
@@ -404,16 +368,16 @@
     "scored": true
   },
   {
-    "id": "a4a6186a-9b41-4036-8785-0e461faf5a34",
+    "id": "6078ac5ec8f5d86860de4e10",
     "sourceFile": "Biology Riddles (2) - Copy.docx",
     "subject": "Biology",
     "questionText": "I am a multicellular haploid structure Part of my name refers to wild mammals or birds hunted for sport or food Or an activity that one engages in for enjoyment. My major function is to produce gametes In mosses, liverworts, and hornworts I am the most visible stage of the life cycle. Who am I?",
     "correctAnswer": "Gametophyte",
     "options": [
-      "Spore",
       "Zygote",
+      "Gametophyte",
       "Sporophyte",
-      "Gametophyte"
+      "Spore"
     ],
     "clues": [
       {
@@ -440,7 +404,7 @@
     "scored": true
   },
   {
-    "id": "1ef0ccf4-00f2-4abd-8437-fd0127e0020a",
+    "id": "0088a4072636379120a13eca",
     "sourceFile": "Biology Riddles (2) - Copy.docx",
     "subject": "Biology",
     "questionText": "I am a type of bony fish (Osteichthyes) in the phylum Chordata, and the genus Hippocampus. My name can be written as one word or as two separate words When my name is written as two words, they literally give me wrong identity The first part refers to a large body of salty water, And the second part refers to a mammal that is trained to be ridden or driven in a variety of sporting competitions. I am not a sea, neither am I a horse Who am I?",
@@ -448,8 +412,8 @@
     "options": [
       "Sea dragon",
       "Sea cucumber",
-      "Pipefish",
-      "Sea horse"
+      "Sea horse",
+      "Pipefish"
     ],
     "clues": [
       {
@@ -480,16 +444,16 @@
     "scored": true
   },
   {
-    "id": "2bb5b956-faea-4de6-8118-ff069bf7e25f",
+    "id": "1c597081d4b20aec9837d15b",
     "sourceFile": "Biology Riddles (2) - Copy.docx",
     "subject": "Biology",
     "questionText": "My name was first coined by a Danish botanist, plant physiologist, and geneticist He is also best known for his 1903 \"pure line\" experiments in genetics. I can only be determined by biological tests, not by observations I am one of three factors that determine the phenotype of an organism, the other two being inherited epigenetic factors, and non-inherited environmental factors. I am the genetic constitution of an individual organism. Who am I?",
     "correctAnswer": "Genotype",
     "options": [
-      "Allele",
-      "Genotype",
       "Phenotype",
-      "Karyotype"
+      "Allele",
+      "Karyotype",
+      "Genotype"
     ],
     "clues": [
       {
@@ -516,15 +480,15 @@
     "scored": true
   },
   {
-    "id": "2c4d0be8-1ef3-4476-bd5e-c1d774ce568e",
+    "id": "5ebc91372c5e3d339eeaadd9",
     "sourceFile": "Biology Riddles (2) - Copy.docx",
     "subject": "Biology",
     "questionText": "I may be used to refer to a body of students meeting regularly to study the same subject I may also be a group that share the same economic or social status I can also be a division or rating based on grade or quality In biology, I am a major category in biological taxonomy I rank above the order and below the phylum Who am I?",
     "correctAnswer": "Class",
     "options": [
-      "Order",
       "Family",
       "Class",
+      "Order",
       "Phylum"
     ],
     "clues": [
@@ -552,16 +516,16 @@
     "scored": true
   },
   {
-    "id": "7bd6ff12-8b9b-4718-a5b2-188e626be1aa",
+    "id": "e12f28691f4cf5a0c647951b",
     "sourceFile": "Biology Riddles (2) - Copy.docx",
     "subject": "Biology",
     "questionText": "In astronomy I may be a small constellation in the Southern Hemisphere (near Dorado and Horologium) In anatomy I may be any fine network, especially one in the body composed of cells or fibres In zoology, I am one of the four stomachs of a ruminant My contents are regurgitated for further chewing as part of the cud I am the second chamber of the ruminant stomach. Who am I?",
     "correctAnswer": "Reticulum",
     "options": [
       "Omasum",
-      "Rumen",
+      "Abomasum",
       "Reticulum",
-      "Abomasum"
+      "Rumen"
     ],
     "clues": [
       {
@@ -588,14 +552,14 @@
     "scored": true
   },
   {
-    "id": "b09c9e30-1109-4b36-a9f2-83aec4690bee",
+    "id": "8b771c9678a74378b00948cd",
     "sourceFile": "Biology Riddles (2) - Copy.docx",
     "subject": "Biology",
     "questionText": "I am a hollow tube, 5 to 10 micrometres (µm) in diameter, I have a wall that is one cell thick I am the site of exchange of many substances with the interstitial fluid that surround me. I are the smallest blood vessel in the body I convey blood between the arterioles and venules Who am I?",
     "correctAnswer": "Capillary",
     "options": [
-      "Capillary",
       "Artery",
+      "Capillary",
       "Arteriole",
       "Venule"
     ],
@@ -624,16 +588,16 @@
     "scored": true
   },
   {
-    "id": "b1e052af-1cb9-449b-b352-4351bab49d6a",
+    "id": "4c73f90ba669ab685f6f548d",
     "sourceFile": "Biology Riddles (2) - Copy.docx",
     "subject": "Biology",
     "questionText": "I am the name of a group of unsaturated nutritional organic compounds. I have multiple functions I am involved in immune function, vision, reproduction, and cellular communication. I am critical for vision as an essential component of rhodopsin, a protein that absorbs light in the retinal receptor I am the fat soluble vitamin, whose absence results in night blindness in humans Who am I?",
     "correctAnswer": "Vitamin A",
     "options": [
-      "Vitamin D",
       "Vitamin E",
-      "Vitamin K",
-      "Vitamin A"
+      "Vitamin D",
+      "Vitamin A",
+      "Vitamin K"
     ],
     "clues": [
       {
@@ -660,16 +624,16 @@
     "scored": true
   },
   {
-    "id": "caac4a53-97b1-4bbe-a0e0-2f77beeee521",
+    "id": "4bde927348904a106305302e",
     "sourceFile": "Biology Riddles (2) - Copy.docx",
     "subject": "Biology",
     "questionText": "I am a term used to describe an enlarged gland I may be classified either by my growth pattern or by the size of my growth My notable cases were when former US President George H. W. Bush and his wife Barbara Bush were both diagnosed with me Selenium deficiency is considered to be a contributing factor to my cause But worldwide, my most common cause is iodine deficiency Who am I?",
     "correctAnswer": "Goitre",
     "options": [
-      "Goitre",
-      "Hypothyroidism",
       "Hyperthyroidism",
-      "Grave's disease"
+      "Grave's disease",
+      "Hypothyroidism",
+      "Goitre"
     ],
     "clues": [
       {
@@ -696,16 +660,16 @@
     "scored": true
   },
   {
-    "id": "dfaa58cf-22dc-4eaa-810a-ec5df1ebbc0a",
+    "id": "58e841a07a5691a0784e530d",
     "sourceFile": "Biology Riddles (2) - Copy.docx",
     "subject": "Biology",
     "questionText": "I am a biological process present mostly in the plant world I occur commonly in leguminous plants I limit the variety of progeny of plants, and may reduce plant vigour However, I can be advantageous, since I allow plants to spread beyond the range of suitable pollinators I also enable plants to produce offspring in areas where pollinator populations have been greatly reduced or are naturally variable. Who am I?",
     "correctAnswer": "Self-pollination",
     "options": [
-      "Self-fertilization",
       "Vegetative propagation",
+      "Cross-pollination",
       "Self-pollination",
-      "Cross-pollination"
+      "Self-fertilization"
     ],
     "clues": [
       {
@@ -732,16 +696,16 @@
     "scored": true
   },
   {
-    "id": "88219afb-1692-4b82-a1c5-cb413563cf05",
+    "id": "fedc48064f7519a8b37d28e1",
     "sourceFile": "Biology Riddles (2) - Copy.docx",
     "subject": "Biology",
     "questionText": "We are not of major economic importance, but some are used for food, medicine or as ornamentals. We have been the subject of research for our ability to remove some chemical pollutants from the atmosphere. We live in a wide variety of habitats, from remote mountain elevations, to dry desert rock faces, to bodies of water or in open fields Some of us depend on associations with mycorrhizal fungi for nutrients We are a group of vascular plants that reproduce via spores and have neither seeds nor flower. Who am I?",
     "correctAnswer": "Ferns",
     "options": [
       "Mosses",
-      "Horsetails",
+      "Ferns",
       "Liverworts",
-      "Ferns"
+      "Horsetails"
     ],
     "clues": [
       {
@@ -768,7 +732,7 @@
     "scored": true
   },
   {
-    "id": "89a2021e-ccc9-4ff5-94ec-457db98ee551",
+    "id": "edf9891238510836e1d7618a",
     "sourceFile": "Biology Riddles (2) - Copy.docx",
     "subject": "Biology",
     "questionText": "We occur in all freshwater and ocean environments, including caves, and deep-sea habitats Our variety of shapes and behavioral habits is remarkable. Our body sizes range from tiny species to massive sizes which may weigh over 900 kg Our primary characteristic is a skeleton, at least partly composed of true bone (as opposed to cartilage) We form a taxonomic group called Osteichthyes Who am I?",
@@ -804,16 +768,16 @@
     "scored": true
   },
   {
-    "id": "e4d9e792-f698-48bd-813e-3c79f183c497",
+    "id": "4b68875e4f924b7fdf8ff737",
     "sourceFile": "Biology Riddles (2) - Copy.docx",
     "subject": "Biology",
     "questionText": "I am derived from the mesodermal layer of embryonic germ cells I am a soft tissue found in most animals. My cells contain protein filaments I function to produce force and motion. I am primarily responsible for maintaining and changing posture, locomotion, as well as movement of internal organs Who am I?",
     "correctAnswer": "Muscle",
     "options": [
-      "Tendon",
       "Muscle",
-      "Ligament",
-      "Cartilage"
+      "Tendon",
+      "Cartilage",
+      "Ligament"
     ],
     "clues": [
       {
@@ -840,16 +804,16 @@
     "scored": true
   },
   {
-    "id": "f47d36d3-d641-4104-b7f3-6f82dd8308ee",
+    "id": "8b31f38d0285f18fca0d7883",
     "sourceFile": "Biology Riddles (2) - Copy.docx",
     "subject": "Biology",
     "questionText": "I am typically considered the first cranial nerve, or simply CN I, I am the shortest of the twelve cranial nerves Similar to the optic nerve, I do not originate from the brainstem Damage to me impairs ones sense of smell To simply test my function, each nostril is tested with a pungent odor I contain sensory nerve fibers relating to smell. Who am I?",
     "correctAnswer": "Olfactory nerve",
     "options": [
-      "Trigeminal nerve",
       "Optic nerve",
-      "Vagus nerve",
-      "Olfactory nerve"
+      "Olfactory nerve",
+      "Trigeminal nerve",
+      "Vagus nerve"
     ],
     "clues": [
       {
@@ -880,16 +844,16 @@
     "scored": true
   },
   {
-    "id": "eec11162-a562-4c7f-bb6b-5c3ecc349c53",
+    "id": "82c692a971689be45d35ab52",
     "sourceFile": "Biology Riddles (2) - Copy.docx",
     "subject": "Biology",
     "questionText": "My name literally means little foot I may be long, short or completely absent in some plants I transport the energy made in the leaf to the rest of the plant. I also serve to transport nutrients and water that are absorbed by the roots and passed up through the xylem, to the leaf. I am the transition between the stem and the leaf blade In botany, I am the stalk that attaches the leaf blade to the stem Who am I?",
     "correctAnswer": "Petiole / Leaf stalk",
     "options": [
-      "Lamina",
-      "Stipule",
+      "Petiole / Leaf stalk",
       "Rachis",
-      "Petiole / Leaf stalk"
+      "Stipule",
+      "Lamina"
     ],
     "clues": [
       {
@@ -920,16 +884,16 @@
     "scored": true
   },
   {
-    "id": "a915796b-b3f8-432d-be8e-681b4aaf7b8d",
+    "id": "7ad2afc35626d98f1ca7a78f",
     "sourceFile": "Biology Riddles (2) - Copy.docx",
     "subject": "Biology",
     "questionText": "I was first described in the context of insects and flowering plants, I have since been applied to major evolutionary events, including sexual reproduction, infectious diseases, and ecological communities. I function by reciprocal selective pressures on two or more species, Some of my classic examples include predator-prey, host-parasite, and other competitive relationships between species. I result in adaptations for mutual benefit. My typical example is flowering plants and associated pollinators (e.g., bees, birds, and other insect species). Who am I?",
     "correctAnswer": "Coevolution",
     "options": [
-      "Convergent evolution",
-      "Divergent evolution",
+      "Adaptive radiation",
       "Coevolution",
-      "Adaptive radiation"
+      "Divergent evolution",
+      "Convergent evolution"
     ],
     "clues": [
       {
@@ -960,16 +924,16 @@
     "scored": true
   },
   {
-    "id": "57de575a-fcad-406b-8210-46ba68790ef5",
+    "id": "90b76157ef6d583a087ff45a",
     "sourceFile": "Biology Riddles (2) - Copy.docx",
     "subject": "Biology",
     "questionText": "I owe my existence to a Swedish botanist, physician, and zoologist Whose work was published in various sections between 1735 and 1758, He attempted to identify every known plant and animal I was established as a way to bring clarity to discussions of organisms, evolution, and ecology in general. I am the system of scientifically naming organisms, which was developed by Linnaeus. Who am I?",
     "correctAnswer": "Binomial Nomenclature",
     "options": [
       "Cladistics",
-      "Taxonomic classification",
+      "Binomial Nomenclature",
       "Phylogenetics",
-      "Binomial Nomenclature"
+      "Taxonomic classification"
     ],
     "clues": [
       {
@@ -996,7 +960,7 @@
     "scored": true
   },
   {
-    "id": "ddecdde2-400a-49bc-b80b-33313bf6bc73",
+    "id": "afb7640861123afae225c482",
     "sourceFile": "Biology Riddles (2) - Copy.docx",
     "subject": "Biology",
     "questionText": "I am a branch of science believed to be older than science itself I have many sub-disciplines, and am used in many different fields. In general, there are two main types of me: gross or macroscopic, and microscopic However, most biology specialties require knowledge of both types of me. I am the branch of biology which studies how various parts of an organism are connected, and how they are related to other body parts both spatially and functionally. Who am I?",
@@ -1032,16 +996,16 @@
     "scored": true
   },
   {
-    "id": "aa11e75e-b782-402d-8ddd-38ffdfc0195a",
+    "id": "7b8550bfa44f94cee013e07c",
     "sourceFile": "Biology Riddles (2) - Copy.docx",
     "subject": "Biology",
     "questionText": "Scientists have changed their definition of me several times throughout history. I am used to refer to a group of organisms that share a genetic heritage, These organisms are separated from each other by reproductive barriers. These barriers can be geographical, such as a mountain range separating two population My members are able to interbreed, and to create offspring that are also fertile. Who am I?",
     "correctAnswer": "Species",
     "options": [
-      "Population",
       "Species",
-      "Genus",
-      "Subspecies"
+      "Population",
+      "Subspecies",
+      "Genus"
     ],
     "clues": [
       {
@@ -1068,16 +1032,16 @@
     "scored": true
   },
   {
-    "id": "3adc8346-5d4a-4103-821b-6fd2dfce3b3b",
+    "id": "4f489297243d73724e8b30bb",
     "sourceFile": "Biology Riddles (2) - Copy.docx",
     "subject": "Biology",
     "questionText": "Like all ecosystems, I am finely balanced and highly complex I support a great diversity of life with a variety of different habitats. I am easily the most diverse of all the ecosystems on the planet I can be divided into smaller, distinct ecosystems upon closer inspection. However. I am used to refer to the oceans and seas and other salt water environments as a whole Who am I?",
     "correctAnswer": "Marine Ecosystem",
     "options": [
-      "Marine Ecosystem",
-      "Freshwater ecosystem",
       "Terrestrial ecosystem",
-      "Estuarine ecosystem"
+      "Estuarine ecosystem",
+      "Freshwater ecosystem",
+      "Marine Ecosystem"
     ],
     "clues": [
       {
@@ -1104,16 +1068,16 @@
     "scored": true
   },
   {
-    "id": "85c9d328-4061-4bd2-bf38-aee8151b37b0",
+    "id": "859f0bcc43139151ee95dd9b",
     "sourceFile": "Biology Riddles (2) - Copy.docx",
     "subject": "Biology",
     "questionText": "My properties are sometimes plant-like, but I am not a plant I come in different kinds and have become adapted to survive in some of the most extreme environments on earth I also come in many colors, but my color is usually determined by my photosynthetic component My color changes depending on when I am wet or dry. I am a composite organism that arises from algae or cyanobacteria living among filaments of multiple fungi Who am I?",
     "correctAnswer": "Lichen",
     "options": [
-      "Algae",
+      "Lichen",
       "Moss",
-      "Fungus",
-      "Lichen"
+      "Algae",
+      "Fungus"
     ],
     "clues": [
       {
@@ -1140,16 +1104,16 @@
     "scored": true
   },
   {
-    "id": "9ad7030c-5a5a-4b92-ae07-27748b9e3604",
+    "id": "f815e78735c699021ad2acec",
     "sourceFile": "Biology Riddles (2) - Copy.docx",
     "subject": "Biology",
     "questionText": "I am a cavity, but hardly an empty space I am lined with a protective membrane termed the peritoneum I am located below the thoracic cavity, and above the pelvic cavity Vertically I am enclosed by the vertebral column and the abdominal and other muscles I am the large body cavity in humans and many other animals that contains many organs Who am I?",
     "correctAnswer": "Abdominal cavity",
     "options": [
-      "Abdominal cavity",
-      "Cranial cavity",
       "Thoracic cavity",
-      "Pelvic cavity"
+      "Pelvic cavity",
+      "Abdominal cavity",
+      "Cranial cavity"
     ],
     "clues": [
       {
@@ -1176,16 +1140,16 @@
     "scored": true
   },
   {
-    "id": "47f43489-e139-405d-9b68-94b1e04235f6",
+    "id": "e73dc20352a6a1ac82538e51",
     "sourceFile": "Biology Riddles (2) - Copy.docx",
     "subject": "Biology",
     "questionText": "Part of my name is a prefix added to the name of a subject To the chemist, I am a type of isomerism due to the unequal distribution of carbon atoms on either side of a functional group To the biologist, I am the phenomenon of having a linear series of body segments fundamentally similar in structure, I am an important feature of annelids Organisms which exhibit my features are said to be metamerically segmented Who am I?",
     "correctAnswer": "Metamerism",
     "options": [
-      "Metamerism",
+      "Tagmosis",
       "Segmentation",
       "Polymerism",
-      "Tagmosis"
+      "Metamerism"
     ],
     "clues": [
       {
@@ -1212,16 +1176,16 @@
     "scored": true
   },
   {
-    "id": "0d129160-001b-4e7f-9b09-46e31d759465",
+    "id": "42aa153889f82b1dce85e4f3",
     "sourceFile": "Biology Riddles (2) - Copy.docx",
     "subject": "Biology",
     "questionText": "In sports, especially tennis, I am a good player who is given a place on the list of those expected to win games in a particular competition because of the way they have played in the past: To the biologist, my development completes the process of reproduction in certain plants I have been an important development in the reproduction and success of gymnosperm and angiosperm plants, The manner in which I am produced distinguishes the angiosperms from the gymnosperms I am a fertilized ovule containing the plant embryo Who am I?",
     "correctAnswer": "Seed",
     "options": [
-      "Seed",
-      "Spore",
       "Ovule",
-      "Pollen"
+      "Spore",
+      "Pollen",
+      "Seed"
     ],
     "clues": [
       {
@@ -1248,16 +1212,16 @@
     "scored": true
   },
   {
-    "id": "466a3037-d4cd-4070-96ac-41f218633057",
+    "id": "4b30e63ecabe3a0e4ebb38cc",
     "sourceFile": "Biology Riddles (2) - Copy.docx",
     "subject": "Biology",
     "questionText": "I am a tough, usually flexible, but sometimes fairly rigid layer My composition, properties, and form may change during the cell cycle and depend on growth conditions My major function is to act as pressure vessels, preventing over-expansion I may give cells rigidity and strength, offering protection against mechanical stress. In multicellular organisms, I permit the organism to build and hold a definite shape (morphogenesis). I further permit the creation of stable osmotic environments by preventing osmotic lysis and helping to retain water. Who am I?",
     "correctAnswer": "Cell wall",
     "options": [
-      "Cytoskeleton",
+      "Cell membrane",
       "Cuticle",
       "Cell wall",
-      "Cell membrane"
+      "Cytoskeleton"
     ],
     "clues": [
       {
@@ -1288,16 +1252,16 @@
     "scored": true
   },
   {
-    "id": "e89d5c5d-b9bf-49e9-a9d2-512c9e3406d5",
+    "id": "051662db6b9b07d474a57f29",
     "sourceFile": "Biology Riddles (2) - Copy.docx",
     "subject": "Biology",
     "questionText": "I am a crawling movement used by some types of cells and unicellular organisms I am the most common mode of locomotion in eukaryotic cells. My type of movement has been linked to changes in action potential, though the exact mechanism is still unknown I am accomplished by protrusion of cytoplasm of the cell involving the formation of pseudopodia (\"false feet\") and posterior uropods. I am the mechanism of movement commonly demonstrated by Amoeba proteus Who am I?",
     "correctAnswer": "Amoeboid (movement)",
     "options": [
       "Ciliary movement",
+      "Amoeboid (movement)",
       "Peristalsis",
-      "Flagellar movement",
-      "Amoeboid (movement)"
+      "Flagellar movement"
     ],
     "clues": [
       {
@@ -1324,16 +1288,16 @@
     "scored": true
   },
   {
-    "id": "dc2cc549-a43a-4f79-b10e-010c46f20510",
+    "id": "8e141c5668b30ee2835b325e",
     "sourceFile": "Biology Riddles (2) - Copy.docx",
     "subject": "Biology",
     "questionText": "I am a type of biological process There are several types of me, depending upon the type of organism involved in my process. For Most prokaryotes, or bacteria, binary fission is enough for them to complete my process Sexually-reproducing eukaryotes use a special form of me called meiosis to reduce the genetic content in their cell. I am the process cells go through to divide. Who am I?",
     "correctAnswer": "Cell division",
     "options": [
       "Meiosis",
-      "Binary fission",
       "Mitosis",
-      "Cell division"
+      "Cell division",
+      "Binary fission"
     ],
     "clues": [
       {
@@ -1355,6 +1319,4082 @@
       {
         "order": 5,
         "text": "I am the process cells go through to divide."
+      }
+    ],
+    "scored": true
+  },
+  {
+    "id": "acb12682b6e688afa116b20b",
+    "sourceFile": "CHEMISTRY TRIAL QUIZ.docx",
+    "subject": "Chemistry",
+    "questionText": "I am the plentiful metal in earth crust. I virtually never occur in free form, so I am rare. I am one of the few abundant elements that appears to have no beneficial in living cells. I was once considered a precious metal, more valuable than gold. I am obtained by electrolysis from bauxite (Al2O2)…. Who am I?",
+    "correctAnswer": "Aluminium",
+    "options": [
+      "Aluminium",
+      "Sodium",
+      "Magnesium",
+      "Iron"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "I am the plentiful metal in earth crust."
+      },
+      {
+        "order": 2,
+        "text": "I virtually never occur in free form, so I am rare."
+      },
+      {
+        "order": 3,
+        "text": "I am one of the few abundant elements that appears to have no beneficial in living cells."
+      },
+      {
+        "order": 4,
+        "text": "I was once considered a precious metal, more valuable than gold."
+      },
+      {
+        "order": 5,
+        "text": "I am obtained by electrolysis from bauxite (Al2O2)…."
+      }
+    ],
+    "scored": true
+  },
+  {
+    "id": "b97d466feea36f32f6575b36",
+    "sourceFile": "CONTEST 28.doc",
+    "subject": "Physics",
+    "questionText": "I am a form of energy. Systems in thermal equilibrium have definite values of me. When heat is added to a system I may increase. I may also increase when work is done on a system. I am associated with the motions and interactions of the microscopic constituents of a system. I am said to be internal. Who am I?",
+    "correctAnswer": "Internal energy",
+    "options": [
+      "Momentum",
+      "Refraction",
+      "Internal energy",
+      "Amplitude"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "I am a form of energy."
+      },
+      {
+        "order": 2,
+        "text": "Systems in thermal equilibrium have definite values of me."
+      },
+      {
+        "order": 3,
+        "text": "When heat is added to a system I may increase."
+      },
+      {
+        "order": 4,
+        "text": "I may also increase when work is done on a system."
+      },
+      {
+        "order": 5,
+        "text": "I am associated with the motions and interactions of the microscopic constituents of a system."
+      },
+      {
+        "order": 6,
+        "text": "I am said to be internal."
+      }
+    ],
+    "scored": true
+  },
+  {
+    "id": "1c30cbebb11abc99f3dcd9f2",
+    "sourceFile": "CONTEST 28.doc",
+    "subject": "Maths",
+    "questionText": "I am a polygon and I have three of everything. I am formed when two congruent right type of triangles are placed base to base. I fit my outline in two positions. I have one axis of symmetry which bisects an angle and the side opposite the angle. I have a pair of congruent sides and a pair of congruent angles. Who am I?",
+    "correctAnswer": "ISOSCELES TRIANGLE",
+    "options": [
+      "ISOSCELES TRIANGLE",
+      "Derivative",
+      "Polynomial",
+      "Coefficient"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "I am a polygon and I have three of everything."
+      },
+      {
+        "order": 2,
+        "text": "I am formed when two congruent right type of triangles are placed base to base."
+      },
+      {
+        "order": 3,
+        "text": "I fit my outline in two positions."
+      },
+      {
+        "order": 4,
+        "text": "I have one axis of symmetry which bisects an angle and the side opposite the angle."
+      },
+      {
+        "order": 5,
+        "text": "I have a pair of congruent sides and a pair of congruent angles."
+      }
+    ],
+    "scored": true
+  },
+  {
+    "id": "12ebb0df2df9de9323bbd7d9",
+    "sourceFile": "CONTEST 28.doc",
+    "subject": "Chemistry",
+    "questionText": "We have been known to mankind since very early times. We are among the few elements which mankind finds everywhere either in the pure form or in the combined state We are indeed allotropes of the same element. Take us away from the earth and there will be no life as we know it Though we are in a way siblings our beauties are strikingly different. One of us is the hardest natural substance known to mankind Who am I?",
+    "correctAnswer": "- (Allotropes of) CARBON",
+    "options": [
+      "Catalyst",
+      "Isotope",
+      "- (Allotropes of) CARBON",
+      "Buffer"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "We have been known to mankind since very early times."
+      },
+      {
+        "order": 2,
+        "text": "We are among the few elements which mankind finds everywhere either in the pure form or in the combined state"
+      },
+      {
+        "order": 3,
+        "text": "We are indeed allotropes of the same element."
+      },
+      {
+        "order": 4,
+        "text": "Take us away from the earth and there will be no life as we know it"
+      },
+      {
+        "order": 5,
+        "text": "Though we are in a way siblings our beauties are strikingly different."
+      },
+      {
+        "order": 6,
+        "text": "One of us is the hardest natural substance known to mankind"
+      }
+    ],
+    "scored": true
+  },
+  {
+    "id": "84b01d5ab49fafd58dc96f7a",
+    "sourceFile": "CONTEST 28.doc",
+    "subject": "Biology",
+    "questionText": "You may refer to me as the earliest stage of a diploid generation. I contain DNA derived from both parents, and this provides all the genetic information necessary to form a new individual. In single-celled organisms, I undergo meiosis to produce offspring. In multicellular organisms, I am the earliest developmental stage of the embryo. I am the cell created by the union of two gametes. Who am I?",
+    "correctAnswer": "- Zygote",
+    "options": [
+      "Hormone",
+      "- Zygote",
+      "Enzyme",
+      "Ecosystem"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "You may refer to me as the earliest stage of a diploid generation."
+      },
+      {
+        "order": 2,
+        "text": "I contain DNA derived from both parents, and this provides all the genetic information necessary to form a new individual."
+      },
+      {
+        "order": 3,
+        "text": "In single-celled organisms, I undergo meiosis to produce offspring."
+      },
+      {
+        "order": 4,
+        "text": "In multicellular organisms, I am the earliest developmental stage of the embryo."
+      },
+      {
+        "order": 5,
+        "text": "I am the cell created by the union of two gametes."
+      }
+    ],
+    "scored": true
+  },
+  {
+    "id": "d48f3ca1ebf62d433621a8e6",
+    "sourceFile": "Copy CONTEST 14.doc",
+    "subject": "Biology",
+    "questionText": "I am a measuring device. I come in a variety of designs, but all follow the same basic principle. Types of me include the Bubble, the Mass, the Ganong's and the Darwin's. I am sometimes known as a transpirometer. I am used to measure the rate of water loss from a plant (transpiration). Who am I?",
+    "correctAnswer": "Potometer",
+    "options": [
+      "Enzyme",
+      "Ecosystem",
+      "Potometer",
+      "Organelle"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "I am a measuring device."
+      },
+      {
+        "order": 2,
+        "text": "I come in a variety of designs, but all follow the same basic principle."
+      },
+      {
+        "order": 3,
+        "text": "Types of me include the Bubble, the Mass, the Ganong's and the Darwin's."
+      },
+      {
+        "order": 4,
+        "text": "I am sometimes known as a transpirometer."
+      },
+      {
+        "order": 5,
+        "text": "I am used to measure the rate of water loss from a plant (transpiration)."
+      }
+    ],
+    "scored": true
+  },
+  {
+    "id": "863aacb5d6f5b5c3d2d76a08",
+    "sourceFile": "Copy CONTEST 14.doc",
+    "subject": "Physics",
+    "questionText": "I am a force field. I am described by an inverse distance potential. I am always attractive. My sources are massive particles. Who am I?",
+    "correctAnswer": "Gravitational field",
+    "options": [
+      "Gravitational field",
+      "Refraction",
+      "Torque",
+      "Amplitude"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "I am a force field."
+      },
+      {
+        "order": 2,
+        "text": "I am described by an inverse distance potential."
+      },
+      {
+        "order": 3,
+        "text": "I am always attractive."
+      },
+      {
+        "order": 4,
+        "text": "My sources are massive particles."
+      }
+    ],
+    "scored": true
+  },
+  {
+    "id": "45833796b5da853605d48750",
+    "sourceFile": "Copy CONTEST 14.doc",
+    "subject": null,
+    "questionText": "I am a three digit number between 100 and 200. My second digit is the product of two prime numbers. My last digit is the square of an odd prime digit. I am myself an exact square.. The number formed by my first two digits is a square. The sum of my digits is also an exact square. Who am I?",
+    "correctAnswer": "169",
+    "options": [
+      "-169",
+      "169",
+      "194",
+      "16.9"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "I am a three digit number between 100 and 200."
+      },
+      {
+        "order": 2,
+        "text": "My second digit is the product of two prime numbers."
+      },
+      {
+        "order": 3,
+        "text": "My last digit is the square of an odd prime digit."
+      },
+      {
+        "order": 4,
+        "text": "I am myself an exact square.."
+      },
+      {
+        "order": 5,
+        "text": "The number formed by my first two digits is a square."
+      },
+      {
+        "order": 6,
+        "text": "The sum of my digits is also an exact square."
+      }
+    ],
+    "scored": true
+  },
+  {
+    "id": "49714380108433ca541c897b",
+    "sourceFile": "Copy CONTEST 14.doc",
+    "subject": "Chemistry",
+    "questionText": "I help to kick out peer pressure, because I hate it. But I am not in the Police service or the military. I am only a scientific law helping gases to maintain order among them. I ensure that unless there is a chemical reaction, each gas retains its belongings or physical property as much as possible when they assemble. I am particular about individual pressures. I am named after the famous scientist who discovered me and also researched into the composition of matter. Who am I?",
+    "correctAnswer": "Dalton's Law of Partial Pressure",
+    "options": [
+      "Dalton's Law of Partial Pressure",
+      "Catalyst",
+      "Isotope",
+      "Electrolyte"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "I help to kick out peer pressure, because I hate it."
+      },
+      {
+        "order": 2,
+        "text": "But I am not in the Police service or the military."
+      },
+      {
+        "order": 3,
+        "text": "I am only a scientific law helping gases to maintain order among them."
+      },
+      {
+        "order": 4,
+        "text": "I ensure that unless there is a chemical reaction, each gas retains its belongings or physical property as much as possible when they assemble."
+      },
+      {
+        "order": 5,
+        "text": "I am particular about individual pressures."
+      },
+      {
+        "order": 6,
+        "text": "I am named after the famous scientist who discovered me and also researched into the composition of matter."
+      }
+    ],
+    "scored": true
+  },
+  {
+    "id": "4bf1bc2cfc39d5a2529a6425",
+    "sourceFile": "CONTEST 17.docx",
+    "subject": "Biology",
+    "questionText": "I am a type of hereditary condition You may refer to me as Royal, since I was once prevalent among royal families of England Like most recessive sex-linked, X chromosome disorders, I am more likely to occur in males than females. The blood plasma clotting factor levels of the coagulation factors needed for a normal clotting process of my victims are lowered. I am known as the bleeders’ disease, because the blood of affected persons does not clot. Who am I?",
+    "correctAnswer": "Haemophilia",
+    "options": [
+      "Enzyme",
+      "Organelle",
+      "Ecosystem",
+      "Haemophilia"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "I am a type of hereditary condition"
+      },
+      {
+        "order": 2,
+        "text": "You may refer to me as Royal, since I was once prevalent among royal families of England"
+      },
+      {
+        "order": 3,
+        "text": "Like most recessive sex-linked, X chromosome disorders, I am more likely to occur in males than females."
+      },
+      {
+        "order": 4,
+        "text": "The blood plasma clotting factor levels of the coagulation factors needed for a normal clotting process of my victims are lowered."
+      },
+      {
+        "order": 5,
+        "text": "I am known as the bleeders’ disease, because the blood of affected persons does not clot."
+      }
+    ],
+    "scored": true
+  },
+  {
+    "id": "6be9588c47c88f3af5fa87cf",
+    "sourceFile": "CONTEST 17.docx",
+    "subject": null,
+    "questionText": "I am an optical device. I form images of objects. The images I form cannot be received on a screen. They are the same distance from me as the objects they represent. The images I form are laterally inverted. Who am I?",
+    "correctAnswer": "Plane mirror",
+    "options": [
+      "(no near-neighbor distractor available for \"Plane mirror\")",
+      "Plane mirror",
+      "(no near-neighbor distractor available for \"Plane mirror\")",
+      "(no near-neighbor distractor available for \"Plane mirror\")"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "I am an optical device."
+      },
+      {
+        "order": 2,
+        "text": "I form images of objects."
+      },
+      {
+        "order": 3,
+        "text": "The images I form cannot be received on a screen."
+      },
+      {
+        "order": 4,
+        "text": "They are the same distance from me as the objects they represent."
+      },
+      {
+        "order": 5,
+        "text": "The images I form are laterally inverted."
+      }
+    ],
+    "scored": true
+  },
+  {
+    "id": "d5d3eeab3b30299f70d6b4be",
+    "sourceFile": "CONTEST 17.docx",
+    "subject": "Chemistry",
+    "questionText": "We occur in nature as units of natural polymers. We are set free when the polymers are hydrolysed. There are 20 different kinds of us. Chemically we are ampholytes. We have both amino and carboxylic functional groups bonded to the same carbons. Our polymers keep mankind alive Who am I?",
+    "correctAnswer": "Amino acids",
+    "options": [
+      "Alkane",
+      "Catalyst",
+      "Buffer",
+      "Amino acids"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "We occur in nature as units of natural polymers."
+      },
+      {
+        "order": 2,
+        "text": "We are set free when the polymers are hydrolysed."
+      },
+      {
+        "order": 3,
+        "text": "There are 20 different kinds of us."
+      },
+      {
+        "order": 4,
+        "text": "Chemically we are ampholytes."
+      },
+      {
+        "order": 5,
+        "text": "We have both amino and carboxylic functional groups bonded to the same carbons."
+      },
+      {
+        "order": 6,
+        "text": "Our polymers keep mankind alive"
+      }
+    ],
+    "scored": true
+  },
+  {
+    "id": "3df76cdc650d225d071d01b0",
+    "sourceFile": "CONTEST 17.docx",
+    "subject": null,
+    "questionText": "I am a figure in the plane. No matter how I am rotated, reflected or translated I look the same. I fit my outline in infinitely many ways. I have a center of symmetry and a fixed center of rotation. I have many axes of symmetry. Associated with me are tangents and chords. Two tangents from an external point to me are congruent. I have a center which is the point of intersection of the perpendicular bisectors of any two of my chords. Who am I?",
+    "correctAnswer": "CIRCLE",
+    "options": [
+      "(no near-neighbor distractor available for \"CIRCLE\")",
+      "(no near-neighbor distractor available for \"CIRCLE\")",
+      "CIRCLE",
+      "(no near-neighbor distractor available for \"CIRCLE\")"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "I am a figure in the plane."
+      },
+      {
+        "order": 2,
+        "text": "No matter how I am rotated, reflected or translated I look the same."
+      },
+      {
+        "order": 3,
+        "text": "I fit my outline in infinitely many ways."
+      },
+      {
+        "order": 4,
+        "text": "I have a center of symmetry and a fixed center of rotation."
+      },
+      {
+        "order": 5,
+        "text": "I have many axes of symmetry."
+      },
+      {
+        "order": 6,
+        "text": "Associated with me are tangents and chords."
+      },
+      {
+        "order": 7,
+        "text": "Two tangents from an external point to me are congruent."
+      },
+      {
+        "order": 8,
+        "text": "I have a center which is the point of intersection of the perpendicular bisectors of any two of my chords."
+      }
+    ],
+    "scored": true
+  },
+  {
+    "id": "2cefe8dfb783463d7f71580c",
+    "sourceFile": "CONTEST 9.doc",
+    "subject": "Chemistry",
+    "questionText": "I am an electrical property of matter. My value for a substance depends on the type of substance and on temperature. For certain special substances, my value is zero at very low temperatures. For metals, my value generally increases as temperature increases. I behave the opposite way for semiconductors. If you know my value, you can calculate electrical resistance. Who am I?",
+    "correctAnswer": "Electrical resistivity",
+    "options": [
+      "Catalyst",
+      "Electrical resistivity",
+      "Buffer",
+      "Isotope"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "I am an electrical property of matter."
+      },
+      {
+        "order": 2,
+        "text": "My value for a substance depends on the type of substance and on temperature."
+      },
+      {
+        "order": 3,
+        "text": "For certain special substances, my value is zero at very low temperatures."
+      },
+      {
+        "order": 4,
+        "text": "For metals, my value generally increases as temperature increases."
+      },
+      {
+        "order": 5,
+        "text": "I behave the opposite way for semiconductors."
+      },
+      {
+        "order": 6,
+        "text": "If you know my value, you can calculate electrical resistance."
+      }
+    ],
+    "scored": true
+  },
+  {
+    "id": "ec94d9924472c2b523d7f205",
+    "sourceFile": "CONTEST 9.doc",
+    "subject": "Maths",
+    "questionText": "I am a figure in the plane. Of my type, I am one of the simplest. There is nothing circular about me. I have three of everything. I am usually known by the number of my angles. I may be right, equilateral, isosceles or scalene. Who am I?",
+    "correctAnswer": "TRIANGLE",
+    "options": [
+      "Coefficient",
+      "Polynomial",
+      "Matrix",
+      "TRIANGLE"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "I am a figure in the plane."
+      },
+      {
+        "order": 2,
+        "text": "Of my type, I am one of the simplest."
+      },
+      {
+        "order": 3,
+        "text": "There is nothing circular about me."
+      },
+      {
+        "order": 4,
+        "text": "I have three of everything."
+      },
+      {
+        "order": 5,
+        "text": "I am usually known by the number of my angles."
+      },
+      {
+        "order": 6,
+        "text": "I may be right, equilateral, isosceles or scalene."
+      }
+    ],
+    "scored": true
+  },
+  {
+    "id": "9350ee13cc2080d00072a91e",
+    "sourceFile": "CONTEST 9.doc",
+    "subject": "Chemistry",
+    "questionText": "I am a cation. I am derived from a heavy metal I am two electrons less my neutral atom If H2S is bubbled through my aqueous solution a black precipitate is formed If sodium hydroxide solution is added to my aqueous solution, a white precipitate insoluble in excess is obtained If I am derived from an element whose ancestors were all plumbers. Who am I?",
+    "correctAnswer": "Pb2+ /Lead II ions",
+    "options": [
+      "Buffer",
+      "Catalyst",
+      "Pb2+ /Lead II ions",
+      "Isotope"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "I am a cation."
+      },
+      {
+        "order": 2,
+        "text": "I am derived from a heavy metal"
+      },
+      {
+        "order": 3,
+        "text": "I am two electrons less my neutral atom"
+      },
+      {
+        "order": 4,
+        "text": "If H2S is bubbled through my aqueous solution a black precipitate is formed"
+      },
+      {
+        "order": 5,
+        "text": "If sodium hydroxide solution is added to my aqueous solution, a white precipitate insoluble in excess is obtained"
+      },
+      {
+        "order": 6,
+        "text": "If I am derived from an element whose ancestors were all plumbers."
+      }
+    ],
+    "scored": true
+  },
+  {
+    "id": "f8c92d98678b5b9c07b131b2",
+    "sourceFile": "CONTEST 9.doc",
+    "subject": "Biology",
+    "questionText": "I am a mammal. I belong to the cat family. You can say I am one of a kind because I am the only living species of the genus to which I belong. Unlike the domestic cat, climbing is not my specialty. However, you dare not challenge me to a short distance race. I am the fastest four-legged animal. Who am I?",
+    "correctAnswer": "CHEETAH (Acinonyx jubatus)",
+    "options": [
+      "Enzyme",
+      "CHEETAH (Acinonyx jubatus)",
+      "Hormone",
+      "Chromosome"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "I am a mammal."
+      },
+      {
+        "order": 2,
+        "text": "I belong to the cat family."
+      },
+      {
+        "order": 3,
+        "text": "You can say I am one of a kind because I am the only living species of the genus to which I belong."
+      },
+      {
+        "order": 4,
+        "text": "Unlike the domestic cat, climbing is not my specialty."
+      },
+      {
+        "order": 5,
+        "text": "However, you dare not challenge me to a short distance race."
+      },
+      {
+        "order": 6,
+        "text": "I am the fastest four-legged animal."
+      }
+    ],
+    "scored": true
+  },
+  {
+    "id": "6d78049e5f1feb2b2209b499",
+    "sourceFile": "CONTEST 21.doc",
+    "subject": "Physics",
+    "questionText": "I am one of the polymers that occur in nature. Chemically I am a condensation polymer I am a major source of energy to some large families in the animal kingdom. My monomers are joined through carbon-oxygen-carbon bonds Unfortunately human beings cannot break me down in their system. Like starch I am made up of glucose units Who am I?",
+    "correctAnswer": "Cellulose",
+    "options": [
+      "Torque",
+      "Refraction",
+      "Resistance",
+      "Cellulose"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "I am one of the polymers that occur in nature."
+      },
+      {
+        "order": 2,
+        "text": "Chemically I am a condensation polymer"
+      },
+      {
+        "order": 3,
+        "text": "I am a major source of energy to some large families in the animal kingdom."
+      },
+      {
+        "order": 4,
+        "text": "My monomers are joined through carbon-oxygen-carbon bonds"
+      },
+      {
+        "order": 5,
+        "text": "Unfortunately human beings cannot break me down in their system."
+      },
+      {
+        "order": 6,
+        "text": "Like starch I am made up of glucose units"
+      }
+    ],
+    "scored": true
+  },
+  {
+    "id": "62f95e37453a6bcb4f34bf72",
+    "sourceFile": "CONTEST 21.doc",
+    "subject": "Physics",
+    "questionText": "I am an optical instrument. I can make objects appear larger than they are. I can also make objects appear smaller. I am usually made with glass. I have two surfaces. One of my surfaces is convex. I am called converging. Who am I?",
+    "correctAnswer": "Converging lens",
+    "options": [
+      "Refraction",
+      "Converging lens",
+      "Momentum",
+      "Resistance"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "I am an optical instrument."
+      },
+      {
+        "order": 2,
+        "text": "I can make objects appear larger than they are."
+      },
+      {
+        "order": 3,
+        "text": "I can also make objects appear smaller."
+      },
+      {
+        "order": 4,
+        "text": "I am usually made with glass."
+      },
+      {
+        "order": 5,
+        "text": "I have two surfaces."
+      },
+      {
+        "order": 6,
+        "text": "One of my surfaces is convex."
+      },
+      {
+        "order": 7,
+        "text": "I am called converging."
+      }
+    ],
+    "scored": true
+  },
+  {
+    "id": "e77b531c6c279cd7c2d0decf",
+    "sourceFile": "CONTEST 21.doc",
+    "subject": "Biology",
+    "questionText": "I am a deep sea animal abundant in warm waters Even though I do not know how to write, I have an ink gland that ejects a cloud of ink which protects me from detection by predators Devil fish is an alternate (and rather obsolete) name of me But my real name literally means 8 feet and indeed, I have eight arms surrounding my head. Who am I?",
+    "correctAnswer": "Octopus",
+    "options": [
+      "Octopus",
+      "Organelle",
+      "Ecosystem",
+      "Enzyme"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "I am a deep sea animal abundant in warm waters"
+      },
+      {
+        "order": 2,
+        "text": "Even though I do not know how to write, I have an ink gland that ejects a cloud of ink which protects me from detection by predators"
+      },
+      {
+        "order": 3,
+        "text": "Devil fish is an alternate (and rather obsolete) name of me"
+      },
+      {
+        "order": 4,
+        "text": "But my real name literally means 8 feet and indeed, I have eight arms surrounding my head."
+      }
+    ],
+    "scored": true
+  },
+  {
+    "id": "787c818048148c9a9c587144",
+    "sourceFile": "CONTEST 21.doc",
+    "subject": "Maths",
+    "questionText": "I am a quadrilateral. I have two pairs of congruent sides but I am not a parallelogram. Mind you I have only one pair of congruent opposite angles. I have one diagonal as the only axis of symmetry. My diagonals intersect perpendicularly. I can be flown and in some sense I can fly. Mind you I am a bird of prey. Who am I?",
+    "correctAnswer": "KITE",
+    "options": [
+      "Asymptote",
+      "Derivative",
+      "KITE",
+      "Polynomial"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "I am a quadrilateral."
+      },
+      {
+        "order": 2,
+        "text": "I have two pairs of congruent sides but I am not a parallelogram."
+      },
+      {
+        "order": 3,
+        "text": "Mind you I have only one pair of congruent opposite angles."
+      },
+      {
+        "order": 4,
+        "text": "I have one diagonal as the only axis of symmetry."
+      },
+      {
+        "order": 5,
+        "text": "My diagonals intersect perpendicularly."
+      },
+      {
+        "order": 6,
+        "text": "I can be flown and in some sense I can fly."
+      },
+      {
+        "order": 7,
+        "text": "Mind you I am a bird of prey."
+      }
+    ],
+    "scored": true
+  },
+  {
+    "id": "6c3d663c9df6052c8b37c416",
+    "sourceFile": "CONTEST 5.doc",
+    "subject": "Chemistry",
+    "questionText": "I am an element I belong to the Main Group Elements Specifically I belong to Group 1 In my pure state I am a solid with silvery, shiny looks Whether in dry or moist air my shiny looks disappear. I react with chlorine to give a white solid, one of the best seasoning for food. Who am I?",
+    "correctAnswer": "SODIUM",
+    "options": [
+      "Buffer",
+      "Alkane",
+      "SODIUM",
+      "Electrolyte"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "I am an element"
+      },
+      {
+        "order": 2,
+        "text": "I belong to the Main Group Elements"
+      },
+      {
+        "order": 3,
+        "text": "Specifically I belong to Group 1"
+      },
+      {
+        "order": 4,
+        "text": "In my pure state I am a solid with silvery, shiny looks"
+      },
+      {
+        "order": 5,
+        "text": "Whether in dry or moist air my shiny looks disappear."
+      },
+      {
+        "order": 6,
+        "text": "I react with chlorine to give a white solid, one of the best seasoning for food."
+      }
+    ],
+    "scored": true
+  },
+  {
+    "id": "444c0c3990e6ef078845afb2",
+    "sourceFile": "CONTEST 5.doc",
+    "subject": "Physics",
+    "questionText": "I am an indicator. I have a cap. You can call me rich because a part of me is made of gold. I am not very rich because I only have a leaf of gold. I can tell the presence of electric charge. Who am I?",
+    "correctAnswer": "Gold-leaf electroscope",
+    "options": [
+      "Refraction",
+      "Amplitude",
+      "Gold-leaf electroscope",
+      "Resistance"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "I am an indicator."
+      },
+      {
+        "order": 2,
+        "text": "I have a cap."
+      },
+      {
+        "order": 3,
+        "text": "You can call me rich because a part of me is made of gold."
+      },
+      {
+        "order": 4,
+        "text": "I am not very rich because I only have a leaf of gold."
+      },
+      {
+        "order": 5,
+        "text": "I can tell the presence of electric charge."
+      }
+    ],
+    "scored": true
+  },
+  {
+    "id": "c6aff5019436260bfa3b445c",
+    "sourceFile": "CONTEST 5.doc",
+    "subject": "Biology",
+    "questionText": "I am a polygon, but I am not a triangle. I fit my outline in only one position. I have no axis of symmetry and no center of symmetry. I have no fixed center of rotation. I am one of the simplest polygons. If I were an animal, I would walk on all fours making me a quadruped. I have four of everything so far as my type are concerned. Who am I?",
+    "correctAnswer": "QUADRILATERAL",
+    "options": [
+      "Hormone",
+      "Ecosystem",
+      "QUADRILATERAL",
+      "Chromosome"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "I am a polygon, but I am not a triangle."
+      },
+      {
+        "order": 2,
+        "text": "I fit my outline in only one position."
+      },
+      {
+        "order": 3,
+        "text": "I have no axis of symmetry and no center of symmetry."
+      },
+      {
+        "order": 4,
+        "text": "I have no fixed center of rotation."
+      },
+      {
+        "order": 5,
+        "text": "I am one of the simplest polygons."
+      },
+      {
+        "order": 6,
+        "text": "If I were an animal, I would walk on all fours making me a quadruped."
+      },
+      {
+        "order": 7,
+        "text": "I have four of everything so far as my type are concerned."
+      }
+    ],
+    "scored": true
+  },
+  {
+    "id": "23a986455a7582128bf052fd",
+    "sourceFile": "CONTEST 5.doc",
+    "subject": "Biology",
+    "questionText": "I am a type of tissue in plants I am composed of two types of cells that are hollow and non-living Tracheids and vessel elements are the main cells that make up my tissue I am part of the vascular transport tissue In fact, I am responsible of the transport of water and mineral salts from roots to the leaves of plants. Who am I?",
+    "correctAnswer": "Xylem",
+    "options": [
+      "Enzyme",
+      "Organelle",
+      "Xylem",
+      "Chromosome"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "I am a type of tissue in plants"
+      },
+      {
+        "order": 2,
+        "text": "I am composed of two types of cells that are hollow and non-living"
+      },
+      {
+        "order": 3,
+        "text": "Tracheids and vessel elements are the main cells that make up my tissue"
+      },
+      {
+        "order": 4,
+        "text": "I am part of the vascular transport tissue"
+      },
+      {
+        "order": 5,
+        "text": "In fact, I am responsible of the transport of water and mineral salts from roots to the leaves of plants."
+      }
+    ],
+    "scored": true
+  },
+  {
+    "id": "24fb4e73f9700746ccf55bda",
+    "sourceFile": "Copy CONTEST 11.doc",
+    "subject": "Maths",
+    "questionText": "We are neighbours. We are a pair of angles. We have a common vertex. We also have a common side between us. On a straight line we are supplementary. Remember we sit next to each other. Who am I?",
+    "correctAnswer": "Adjacent Angles",
+    "options": [
+      "Polynomial",
+      "Derivative",
+      "Coefficient",
+      "Adjacent Angles"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "We are neighbours."
+      },
+      {
+        "order": 2,
+        "text": "We are a pair of angles."
+      },
+      {
+        "order": 3,
+        "text": "We have a common vertex."
+      },
+      {
+        "order": 4,
+        "text": "We also have a common side between us."
+      },
+      {
+        "order": 5,
+        "text": "On a straight line we are supplementary."
+      },
+      {
+        "order": 6,
+        "text": "Remember we sit next to each other."
+      }
+    ],
+    "scored": true
+  },
+  {
+    "id": "bde574d3ecfd95f825d9bb50",
+    "sourceFile": "Copy CONTEST 11.doc",
+    "subject": "Physics",
+    "questionText": "I am a type of disturbance. I propagate through material media. I can transport energy without transporting the particles of the medium. I cause the particles of the medium in which I propagate to oscillate. I cause the particles of the medium to oscillate perpendicular to the direction in which I propagate. Who am I?",
+    "correctAnswer": "Transverse mechanical wave",
+    "options": [
+      "Refraction",
+      "Transverse mechanical wave",
+      "Resistance",
+      "Amplitude"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "I am a type of disturbance."
+      },
+      {
+        "order": 2,
+        "text": "I propagate through material media."
+      },
+      {
+        "order": 3,
+        "text": "I can transport energy without transporting the particles of the medium."
+      },
+      {
+        "order": 4,
+        "text": "I cause the particles of the medium in which I propagate to oscillate."
+      },
+      {
+        "order": 5,
+        "text": "I cause the particles of the medium to oscillate perpendicular to the direction in which I propagate."
+      }
+    ],
+    "scored": true
+  },
+  {
+    "id": "9407db25f4aa6dac4110275a",
+    "sourceFile": "Copy CONTEST 11.doc",
+    "subject": "Chemistry",
+    "questionText": "I am an organometallic compound. I am also a natural product. I serve as a catalyst in a transformation process. I have something in common with cytochromes except that our functions are different. I help to transform CO2 and water into a carbohydrate. If my metal is the second member of Group (II) elements, then, Who am I?",
+    "correctAnswer": "Chlorophyll",
+    "options": [
+      "Buffer",
+      "Alkane",
+      "Chlorophyll",
+      "Electrolyte"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "I am an organometallic compound."
+      },
+      {
+        "order": 2,
+        "text": "I am also a natural product."
+      },
+      {
+        "order": 3,
+        "text": "I serve as a catalyst in a transformation process."
+      },
+      {
+        "order": 4,
+        "text": "I have something in common with cytochromes except that our functions are different."
+      },
+      {
+        "order": 5,
+        "text": "I help to transform CO2 and water into a carbohydrate."
+      },
+      {
+        "order": 6,
+        "text": "If my metal is the second member of Group (II) elements, then,"
+      }
+    ],
+    "scored": true
+  },
+  {
+    "id": "a2800ed14b12f36bf0dfaef6",
+    "sourceFile": "Copy CONTEST 11.doc",
+    "subject": "Biology",
+    "questionText": "I am a genus of common saprobic fungi on plants and a specialized parasite on animals. I am found on a wide variety of organic substrates, I grow as filamentous, branching hyphae that generally lack cross-walls (i.e. coenocytic). My hyphae may form a fluffy mass, which is whitish in colour. I am commonly referred to as bread mould. Who am I?",
+    "correctAnswer": "Rhizopus",
+    "options": [
+      "Organelle",
+      "Ecosystem",
+      "Rhizopus",
+      "Enzyme"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "I am a genus of common saprobic fungi on plants and a specialized parasite on animals."
+      },
+      {
+        "order": 2,
+        "text": "I am found on a wide variety of organic substrates,"
+      },
+      {
+        "order": 3,
+        "text": "I grow as filamentous, branching hyphae that generally lack cross-walls (i.e. coenocytic)."
+      },
+      {
+        "order": 4,
+        "text": "My hyphae may form a fluffy mass, which is whitish in colour."
+      },
+      {
+        "order": 5,
+        "text": "I am commonly referred to as bread mould."
+      }
+    ],
+    "scored": true
+  },
+  {
+    "id": "949eb61479db731e9776ee2b",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Chemistry",
+    "questionText": "I am an isotope. As isotopes go, I am one of the lightest. I am an isotone of 1. I am named for the Greek god of the sun. Who am I?",
+    "correctAnswer": "Helium-3",
+    "options": [
+      "Helium-3",
+      "Isotope",
+      "Catalyst",
+      "Electrolyte"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "I am an isotope."
+      },
+      {
+        "order": 2,
+        "text": "As isotopes go, I am one of the lightest."
+      },
+      {
+        "order": 3,
+        "text": "I am an isotone of 1."
+      },
+      {
+        "order": 4,
+        "text": "I am named for the Greek god of the sun."
+      }
+    ],
+    "scored": true
+  },
+  {
+    "id": "19f74dd9f92b2b993ca823a8",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "I am a device for energy conversion. I operate between two temperatures. The efficiency with which I convert energy depends on the temperatures between which I operate. I convert energy of disordered motion to an ordered form of energy. Who am I?",
+    "correctAnswer": "Heat engine Riddle #3",
+    "options": [
+      "Resistance",
+      "Momentum",
+      "Heat engine Riddle #3",
+      "Refraction"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "I am a device for energy conversion."
+      },
+      {
+        "order": 2,
+        "text": "I operate between two temperatures."
+      },
+      {
+        "order": 3,
+        "text": "The efficiency with which I convert energy depends on the temperatures between which I operate."
+      },
+      {
+        "order": 4,
+        "text": "I convert energy of disordered motion to an ordered form of energy."
+      }
+    ],
+    "scored": true
+  },
+  {
+    "id": "bcb3e2998b9069c38b9c635f",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "I am a measuring instrument. I am sometimes used to measure mass. But I am designed to measure force. 4. I operate by Hooke, never by crook. Who am I?",
+    "correctAnswer": "Spring balance Riddle #1",
+    "options": [
+      "Amplitude",
+      "Refraction",
+      "Spring balance Riddle #1",
+      "Momentum"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "I am a measuring instrument."
+      },
+      {
+        "order": 2,
+        "text": "I am sometimes used to measure mass."
+      },
+      {
+        "order": 3,
+        "text": "But I am designed to measure force. 4. I operate by Hooke, never by crook."
+      }
+    ],
+    "scored": true
+  },
+  {
+    "id": "5ad0670a59325b74c7a46a20",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "So far as Mathematics and Physics are concerned, I am a force to reckon with. I am credited with the development of Calculus. I am a great scientist of the seventeen century. I have several laws to my credit. My first name is Isaac. I am a measure of force. Who am I?",
+    "correctAnswer": "Newton",
+    "options": [
+      "Resistance",
+      "Newton",
+      "Amplitude",
+      "Refraction"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "So far as Mathematics and Physics are concerned, I am a force to reckon with."
+      },
+      {
+        "order": 2,
+        "text": "I am credited with the development of Calculus."
+      },
+      {
+        "order": 3,
+        "text": "I am a great scientist of the seventeen century."
+      },
+      {
+        "order": 4,
+        "text": "I have several laws to my credit."
+      },
+      {
+        "order": 5,
+        "text": "My first name is Isaac."
+      },
+      {
+        "order": 6,
+        "text": "I am a measure of force."
+      }
+    ],
+    "scored": true
+  },
+  {
+    "id": "ca7bcb7cae68a068cecd780e",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "I am a heavenly body. I am visible in the night sky. I am a planet. Indeed, besides the Moon, I am the brightest object in the night sky. I am the hottest planet in the Solar System. Who am I?",
+    "correctAnswer": "Venus Riddle #2",
+    "options": [
+      "Resistance",
+      "Torque",
+      "Refraction",
+      "Venus Riddle #2"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "I am a heavenly body."
+      },
+      {
+        "order": 2,
+        "text": "I am visible in the night sky."
+      },
+      {
+        "order": 3,
+        "text": "I am a planet."
+      },
+      {
+        "order": 4,
+        "text": "Indeed, besides the Moon, I am the brightest object in the night sky."
+      },
+      {
+        "order": 5,
+        "text": "I am the hottest planet in the Solar System."
+      }
+    ],
+    "scored": true
+  },
+  {
+    "id": "0e3129c9441dd238f1cd806d",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "I am a law of nature. I am a conservation law. I am a law of mechanics and of heat. I express the relationship between internal energy, heat, and work. Who am I?",
+    "correctAnswer": "First Law of Thermodynamics",
+    "options": [
+      "First Law of Thermodynamics",
+      "Torque",
+      "Resistance",
+      "Refraction"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "I am a law of nature."
+      },
+      {
+        "order": 2,
+        "text": "I am a conservation law."
+      },
+      {
+        "order": 3,
+        "text": "I am a law of mechanics and of heat."
+      },
+      {
+        "order": 4,
+        "text": "I express the relationship between internal energy, heat, and work."
+      }
+    ],
+    "scored": true
+  },
+  {
+    "id": "a4e786a8fc6aa2119bb4d4f7",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "I am a magnetic material. I become strongly magnetized in an external magnetic field. I am characterized by a hysteresis loop. My hysteresis loop is thin; Therefore, I am used in electromagnets. Who am I?",
+    "correctAnswer": "Soft ferromagnetic material",
+    "options": [
+      "Soft ferromagnetic material",
+      "Momentum",
+      "Resistance",
+      "Torque"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "I am a magnetic material."
+      },
+      {
+        "order": 2,
+        "text": "I become strongly magnetized in an external magnetic field."
+      },
+      {
+        "order": 3,
+        "text": "I am characterized by a hysteresis loop."
+      },
+      {
+        "order": 4,
+        "text": "My hysteresis loop is thin;"
+      },
+      {
+        "order": 5,
+        "text": "Therefore, I am used in electromagnets."
+      }
+    ],
+    "scored": true
+  },
+  {
+    "id": "5b337a56d336496d38e6ce0e",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "I am a force field. I am described by an inverse distance potential. I am always attractive. My sources are massive particles. Who am I?",
+    "correctAnswer": "Gravitational field",
+    "options": [
+      "Gravitational field",
+      "Torque",
+      "Refraction",
+      "Resistance"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "I am a force field."
+      },
+      {
+        "order": 2,
+        "text": "I am described by an inverse distance potential."
+      },
+      {
+        "order": 3,
+        "text": "I am always attractive."
+      },
+      {
+        "order": 4,
+        "text": "My sources are massive particles."
+      }
+    ],
+    "scored": true
+  },
+  {
+    "id": "11a3c725c5b69453677f46b8",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "I am an experiment in science. I was first conducted by Michael Faraday. So I am named after him. I demonstrate that electric charge resides on the surface of a conductor. Who am I?",
+    "correctAnswer": "Faraday ice pail experiment",
+    "options": [
+      "Amplitude",
+      "Resistance",
+      "Momentum",
+      "Faraday ice pail experiment"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "I am an experiment in science."
+      },
+      {
+        "order": 2,
+        "text": "I was first conducted by Michael Faraday."
+      },
+      {
+        "order": 3,
+        "text": "So I am named after him."
+      },
+      {
+        "order": 4,
+        "text": "I demonstrate that electric charge resides on the surface of a conductor."
+      }
+    ],
+    "scored": true
+  },
+  {
+    "id": "392d0e29c1b5dd20e9cf167e",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "I am a mode of a vibrating string. I am not the fundamental mode. My wavelength is one-third the string length. I have five nodes. Who am I?",
+    "correctAnswer": "Fifth overtone",
+    "options": [
+      "Amplitude",
+      "Momentum",
+      "Fifth overtone",
+      "Torque"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "I am a mode of a vibrating string."
+      },
+      {
+        "order": 2,
+        "text": "I am not the fundamental mode."
+      },
+      {
+        "order": 3,
+        "text": "My wavelength is one-third the string length."
+      },
+      {
+        "order": 4,
+        "text": "I have five nodes."
+      }
+    ],
+    "scored": true
+  },
+  {
+    "id": "5f6e4b3e51dfb873541f71cb",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "I am a semiconductor device. I am composed of a pn junction. I am usually forward biased in operation. I emit electromagnetic radiation. Who am I?",
+    "correctAnswer": "Light emitting diode (LED)",
+    "options": [
+      "Torque",
+      "Refraction",
+      "Resistance",
+      "Light emitting diode (LED)"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "I am a semiconductor device."
+      },
+      {
+        "order": 2,
+        "text": "I am composed of a pn junction."
+      },
+      {
+        "order": 3,
+        "text": "I am usually forward biased in operation."
+      },
+      {
+        "order": 4,
+        "text": "I emit electromagnetic radiation."
+      }
+    ],
+    "scored": true
+  },
+  {
+    "id": "fab9255231ac3758df91386d",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "I am a physical quantity. I am determined by force and area. I am measured in pascals. I am given by the product of modulus and strain. Who am I?",
+    "correctAnswer": "Stress",
+    "options": [
+      "Resistance",
+      "Amplitude",
+      "Stress",
+      "Momentum"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "I am a physical quantity."
+      },
+      {
+        "order": 2,
+        "text": "I am determined by force and area."
+      },
+      {
+        "order": 3,
+        "text": "I am measured in pascals."
+      },
+      {
+        "order": 4,
+        "text": "I am given by the product of modulus and strain."
+      }
+    ],
+    "scored": true
+  },
+  {
+    "id": "7846cf390dcc81c353a9bd21",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "I am a device for energy transformation. I operate between two temperatures. I accept thermal energy at a high temperature and Reject thermal energy at a lower temperature. I do useful mechanical work in the process. Who am I?",
+    "correctAnswer": "Heat engine Riddle #1",
+    "options": [
+      "Momentum",
+      "Heat engine Riddle #1",
+      "Amplitude",
+      "Refraction"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "I am a device for energy transformation."
+      },
+      {
+        "order": 2,
+        "text": "I operate between two temperatures."
+      },
+      {
+        "order": 3,
+        "text": "I accept thermal energy at a high temperature and"
+      },
+      {
+        "order": 4,
+        "text": "Reject thermal energy at a lower temperature."
+      },
+      {
+        "order": 5,
+        "text": "I do useful mechanical work in the process."
+      }
+    ],
+    "scored": true
+  },
+  {
+    "id": "744a2484b351297188e09489",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "1. I am a natural phenomenon. 2. I am associated with waves. I occur when waves encounter obstacles or apertures. I am most pronounced when the wavelength of the wave is comparable to the obstacle or aperture. Who am I?",
+    "correctAnswer": "Diffraction Riddle #4",
+    "options": [
+      "Resistance",
+      "Torque",
+      "Diffraction Riddle #4",
+      "Refraction"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "1. I am a natural phenomenon. 2. I am associated with waves."
+      },
+      {
+        "order": 2,
+        "text": "I occur when waves encounter obstacles or apertures."
+      },
+      {
+        "order": 3,
+        "text": "I am most pronounced when the wavelength of the wave is comparable to the obstacle or aperture."
+      }
+    ],
+    "scored": true
+  },
+  {
+    "id": "3e966164d14987780b53ea65",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "I am a law of nature. I am named for a scientist who performed some of the experiments that led to my discovery. I am a law of electromagnetism. I describe the induced emf in a closed loop. Who am I?",
+    "correctAnswer": "Faraday’s law of electromagnetic induction",
+    "options": [
+      "Amplitude",
+      "Refraction",
+      "Faraday’s law of electromagnetic induction",
+      "Torque"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "I am a law of nature."
+      },
+      {
+        "order": 2,
+        "text": "I am named for a scientist who performed some of the experiments that led to my discovery."
+      },
+      {
+        "order": 3,
+        "text": "I am a law of electromagnetism."
+      },
+      {
+        "order": 4,
+        "text": "I describe the induced emf in a closed loop."
+      }
+    ],
+    "scored": true
+  },
+  {
+    "id": "548d2d1ba6b26cdbafdb4f7b",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "I am an electrical current. I am often unwanted. I am produced when a conductor moves in a magnetic field. I am also produced in a conductor lying in a changing magnetic field. Who am I?",
+    "correctAnswer": "Eddy current",
+    "options": [
+      "Eddy current",
+      "Resistance",
+      "Torque",
+      "Momentum"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "I am an electrical current."
+      },
+      {
+        "order": 2,
+        "text": "I am often unwanted."
+      },
+      {
+        "order": 3,
+        "text": "I am produced when a conductor moves in a magnetic field."
+      },
+      {
+        "order": 4,
+        "text": "I am also produced in a conductor lying in a changing magnetic field."
+      }
+    ],
+    "scored": true
+  },
+  {
+    "id": "7d523cbbd56969426c290984",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "I am a mechanism for energy transfer. In transferring energy, I cause the particles of a medium to move. I cannot transfer energy through vacuum. I am a heat transfer mechanism. Who am I?",
+    "correctAnswer": "Convection",
+    "options": [
+      "Torque",
+      "Amplitude",
+      "Momentum",
+      "Convection"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "I am a mechanism for energy transfer."
+      },
+      {
+        "order": 2,
+        "text": "In transferring energy, I cause the particles of a medium to move."
+      },
+      {
+        "order": 3,
+        "text": "I cannot transfer energy through vacuum."
+      },
+      {
+        "order": 4,
+        "text": "I am a heat transfer mechanism."
+      }
+    ],
+    "scored": true
+  },
+  {
+    "id": "e538bf80532b494847d18acc",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "I am a property of matter. I vary with temperature. For water, I attain a maximal value at 4 ℃. Because my value for ice is less than that for water, ice floats on water. Who am I?",
+    "correctAnswer": "Density",
+    "options": [
+      "Refraction",
+      "Torque",
+      "Resistance",
+      "Density"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "I am a property of matter."
+      },
+      {
+        "order": 2,
+        "text": "I vary with temperature."
+      },
+      {
+        "order": 3,
+        "text": "For water, I attain a maximal value at 4 ℃."
+      },
+      {
+        "order": 4,
+        "text": "Because my value for ice is less than that for water, ice floats on water."
+      }
+    ],
+    "scored": true
+  },
+  {
+    "id": "ed45365923dd9435faa447eb",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "I was first studied in detail in1602. By an Italian scientist. Who is well known for demonstrating that different masses fall through equal heights in equal times? For several hundred years, I was used for making the best instrument for measuring a basic physical quantity. Until the invention of the quartz crystal oscillator. An idealized form of me comprises a point mass and a massless string. Who am I?",
+    "correctAnswer": "Pendulum",
+    "options": [
+      "Pendulum",
+      "Torque",
+      "Resistance",
+      "Refraction"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "I was first studied in detail in1602."
+      },
+      {
+        "order": 2,
+        "text": "By an Italian scientist."
+      },
+      {
+        "order": 3,
+        "text": "Who is well known for demonstrating that different masses fall through equal heights in equal times?"
+      },
+      {
+        "order": 4,
+        "text": "For several hundred years, I was used for making the best instrument for measuring a basic physical quantity."
+      },
+      {
+        "order": 5,
+        "text": "Until the invention of the quartz crystal oscillator."
+      },
+      {
+        "order": 6,
+        "text": "An idealized form of me comprises a point mass and a massless string."
+      }
+    ],
+    "scored": true
+  },
+  {
+    "id": "93820bc9644c49fed013a5d9",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "I was discovered by experiment. I am named for the scientist who discovered me. His name is also given to the unit of an electrical quantity. Although I am called a law, I am not a universal law because. I am an empirical law. I only apply in those instances when current is proportional to potential difference. Who am I?",
+    "correctAnswer": "Ohm’slaw",
+    "options": [
+      "Momentum",
+      "Torque",
+      "Refraction",
+      "Ohm’slaw"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "I was discovered by experiment."
+      },
+      {
+        "order": 2,
+        "text": "I am named for the scientist who discovered me."
+      },
+      {
+        "order": 3,
+        "text": "His name is also given to the unit of an electrical quantity."
+      },
+      {
+        "order": 4,
+        "text": "Although I am called a law, I am not a universal law because."
+      },
+      {
+        "order": 5,
+        "text": "I am an empirical law."
+      },
+      {
+        "order": 6,
+        "text": "I only apply in those instances when current is proportional to potential difference."
+      }
+    ],
+    "scored": true
+  },
+  {
+    "id": "b063b9161d9df4acda104bb3",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "I share a name with a biblical character. An SI unit is named after me for my pioneering work on heat which established a now well-known principle of thermodynamics? I am Prescott. Who am I?",
+    "correctAnswer": "(James Prescott) Joule",
+    "options": [
+      "Momentum",
+      "Torque",
+      "(James Prescott) Joule",
+      "Amplitude"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "I share a name with a biblical character."
+      },
+      {
+        "order": 2,
+        "text": "An SI unit is named after me"
+      },
+      {
+        "order": 3,
+        "text": "for my pioneering work on heat"
+      },
+      {
+        "order": 4,
+        "text": "which established a now well-known principle of thermodynamics?"
+      },
+      {
+        "order": 5,
+        "text": "I am Prescott."
+      }
+    ],
+    "scored": true
+  },
+  {
+    "id": "23c14dee999de83a1e612bfe",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "I am a heat engine. Like any heat engine, I convert thermal energy into mechanical energy. I am a type of internal combustion engine. I have a turbine for compressing air, I also have a nozzle where hot gases are ejected and thrust is developed. I am a prime mover for airliners. Who am I?",
+    "correctAnswer": "Jet engine",
+    "options": [
+      "Jet engine",
+      "Refraction",
+      "Amplitude",
+      "Torque"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "I am a heat engine."
+      },
+      {
+        "order": 2,
+        "text": "Like any heat engine, I convert thermal energy into mechanical energy."
+      },
+      {
+        "order": 3,
+        "text": "I am a type of internal combustion engine."
+      },
+      {
+        "order": 4,
+        "text": "I have a turbine for compressing air,"
+      },
+      {
+        "order": 5,
+        "text": "I also have a nozzle where hot gases are ejected and thrust is developed."
+      },
+      {
+        "order": 6,
+        "text": "I am a prime mover for airliners."
+      }
+    ],
+    "scored": true
+  },
+  {
+    "id": "d8eb32e46bab58fecf23a119",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Maths",
+    "questionText": "I am a property of fundamental particles. I am used to classify particles into one of two categories. You probably think of a top when you think of me. I can have integral or half-integral values. For electrons, I have a value of half. Who am I?",
+    "correctAnswer": "Spin",
+    "options": [
+      "Derivative",
+      "Spin",
+      "Matrix",
+      "Coefficient"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "I am a property of fundamental particles."
+      },
+      {
+        "order": 2,
+        "text": "I am used to classify particles into one of two categories."
+      },
+      {
+        "order": 3,
+        "text": "You probably think of a top when you think of me."
+      },
+      {
+        "order": 4,
+        "text": "I can have integral or half-integral values."
+      },
+      {
+        "order": 5,
+        "text": "For electrons, I have a value of half."
+      }
+    ],
+    "scored": true
+  },
+  {
+    "id": "7f6eb391998a293dc38443a2",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "I am an experiment. I was conducted by Fletcher and another physicist who goes by Robert. I demonstrate that electric charge is quantized. I am conducted with small charged particles of oil. That are introduced into the electric field between two parallel plates. Who am I?",
+    "correctAnswer": "Millikan Oil Drop Experiment",
+    "options": [
+      "Momentum",
+      "Amplitude",
+      "Torque",
+      "Millikan Oil Drop Experiment"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "I am an experiment."
+      },
+      {
+        "order": 2,
+        "text": "I was conducted by Fletcher and another physicist who goes by Robert."
+      },
+      {
+        "order": 3,
+        "text": "I demonstrate that electric charge is quantized."
+      },
+      {
+        "order": 4,
+        "text": "I am conducted with small charged particles of oil."
+      },
+      {
+        "order": 5,
+        "text": "That are introduced into the electric field between two parallel plates."
+      }
+    ],
+    "scored": true
+  },
+  {
+    "id": "6d45e2b63c2ea080b9c9cd1f",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "I am a semiconductor device. I am composed of both p type and n type semiconductors. And I have a pn junction. Light of appropriate wavelength falling on my pn junction generates electrons and holes. In this manner, I convert light into electrical current. Who am I?",
+    "correctAnswer": "Photodiode",
+    "options": [
+      "Resistance",
+      "Amplitude",
+      "Refraction",
+      "Photodiode"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "I am a semiconductor device."
+      },
+      {
+        "order": 2,
+        "text": "I am composed of both p type and n type semiconductors."
+      },
+      {
+        "order": 3,
+        "text": "And I have a pn junction."
+      },
+      {
+        "order": 4,
+        "text": "Light of appropriate wavelength falling on my pn junction generates electrons and holes."
+      },
+      {
+        "order": 5,
+        "text": "In this manner, I convert light into electrical current."
+      }
+    ],
+    "scored": true
+  },
+  {
+    "id": "062eec7e6a44d6227846170c",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "I am a helical object. Other than my helical shape, I have nothing in common with DNA. I can produce magnetic fields. The magnetic field I produce has a strength proportional to the current I carry. I can produce a nearly uniform magnetic field when I am made very long and wound with tight coils. Who am I?",
+    "correctAnswer": "Solenoid",
+    "options": [
+      "Torque",
+      "Resistance",
+      "Solenoid",
+      "Momentum"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "I am a helical object."
+      },
+      {
+        "order": 2,
+        "text": "Other than my helical shape, I have nothing in common with DNA."
+      },
+      {
+        "order": 3,
+        "text": "I can produce magnetic fields."
+      },
+      {
+        "order": 4,
+        "text": "The magnetic field I produce has a strength proportional to the current I carry."
+      },
+      {
+        "order": 5,
+        "text": "I can produce a nearly uniform magnetic field when I am made very long and wound with tight coils."
+      }
+    ],
+    "scored": true
+  },
+  {
+    "id": "863849a70a46f0f397c029a0",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "I was first demonstrated theoretically. But countless experiments affirm my validity. I describe the radiation emitted by a heated object. I am a law. That relates the temperature of an object and the wavelength for peak emission from the object. Who am I?",
+    "correctAnswer": "Wien’s displacement law",
+    "options": [
+      "Wien’s displacement law",
+      "Momentum",
+      "Refraction",
+      "Amplitude"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "I was first demonstrated theoretically."
+      },
+      {
+        "order": 2,
+        "text": "But countless experiments affirm my validity."
+      },
+      {
+        "order": 3,
+        "text": "I describe the radiation emitted by a heated object."
+      },
+      {
+        "order": 4,
+        "text": "I am a law."
+      },
+      {
+        "order": 5,
+        "text": "That relates the temperature of an object and the wavelength for peak emission from the object."
+      }
+    ],
+    "scored": true
+  },
+  {
+    "id": "bd96a86dbbfc0c10da69acd4",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "I am a form of energy. Although I am associated with the configuration of particles. I have nothing to do with gravity. I am associated with deformations. I describe the energy stored in a deformed ideal spring. Who am I?",
+    "correctAnswer": "Elastic Potential Energy",
+    "options": [
+      "Torque",
+      "Momentum",
+      "Amplitude",
+      "Elastic Potential Energy"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "I am a form of energy."
+      },
+      {
+        "order": 2,
+        "text": "Although I am associated with the configuration of particles."
+      },
+      {
+        "order": 3,
+        "text": "I have nothing to do with gravity."
+      },
+      {
+        "order": 4,
+        "text": "I am associated with deformations."
+      },
+      {
+        "order": 5,
+        "text": "I describe the energy stored in a deformed ideal spring."
+      }
+    ],
+    "scored": true
+  },
+  {
+    "id": "a38da2a5bc050b1d2af801f0",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "I am one of the variables that describe the state of a gas. I am a measure of the energy density of an ideal gas. I am proportional to the mean-square speed of the molecules of an ideal gas. I am also proportional to the density and temperature of an ideal gas. I have such units as torr and bar. Who am I?",
+    "correctAnswer": "Pressure",
+    "options": [
+      "Amplitude",
+      "Momentum",
+      "Torque",
+      "Pressure"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "I am one of the variables that describe the state of a gas."
+      },
+      {
+        "order": 2,
+        "text": "I am a measure of the energy density of an ideal gas."
+      },
+      {
+        "order": 3,
+        "text": "I am proportional to the mean-square speed of the molecules of an ideal gas."
+      },
+      {
+        "order": 4,
+        "text": "I am also proportional to the density and temperature of an ideal gas."
+      },
+      {
+        "order": 5,
+        "text": "I have such units as torr and bar."
+      }
+    ],
+    "scored": true
+  },
+  {
+    "id": "98f02e11c67ca54404236e13",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "I am a property of the constituents of matter. I am not mass. But all particles that have me also have mass. Although not all particles that have mass also have me. I distinguish a positron from an electron, a proton from an anti-proton. Who am I?",
+    "correctAnswer": "Electric charge",
+    "options": [
+      "Torque",
+      "Refraction",
+      "Electric charge",
+      "Momentum"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "I am a property of the constituents of matter."
+      },
+      {
+        "order": 2,
+        "text": "I am not mass."
+      },
+      {
+        "order": 3,
+        "text": "But all particles that have me also have mass."
+      },
+      {
+        "order": 4,
+        "text": "Although not all particles that have mass also have me."
+      },
+      {
+        "order": 5,
+        "text": "I distinguish a positron from an electron, a proton from an anti-proton."
+      }
+    ],
+    "scored": true
+  },
+  {
+    "id": "6580c08e11ae9f87c360d23c",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Chemistry",
+    "questionText": "I am distinguished by my electrical conductivity. Which increases as temperature increases. I am a type of semiconductor material. I am not intrinsic. I can be made by introducing controlled amounts of a trivalent element into silicon. I have more holes in my valence band than electrons in my conduction band. Who am I?",
+    "correctAnswer": "P-type semiconductor",
+    "options": [
+      "Isotope",
+      "P-type semiconductor",
+      "Buffer",
+      "Alkane"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "I am distinguished by my electrical conductivity."
+      },
+      {
+        "order": 2,
+        "text": "Which increases as temperature increases."
+      },
+      {
+        "order": 3,
+        "text": "I am a type of semiconductor material."
+      },
+      {
+        "order": 4,
+        "text": "I am not intrinsic."
+      },
+      {
+        "order": 5,
+        "text": "I can be made by introducing controlled amounts of a trivalent element into silicon."
+      },
+      {
+        "order": 6,
+        "text": "I have more holes in my valence band than electrons in my conduction band."
+      }
+    ],
+    "scored": true
+  },
+  {
+    "id": "7db9f739796a4b6464d2843e",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "I am derived from the principle of equipartition of energy. I was invented to describe the radiation emitted by a heated object. I am one of the precursors to the presently accepted theory for the radiation emitted by a heated object. I was successful in describing the low frequency portion of the blackbody spectrum. I am associated with what has come to be known as the ultraviolet catastrophe. Who am I?",
+    "correctAnswer": "Rayleigh-Jeans law",
+    "options": [
+      "Amplitude",
+      "Rayleigh-Jeans law",
+      "Torque",
+      "Momentum"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "I am derived from the principle of equipartition of energy."
+      },
+      {
+        "order": 2,
+        "text": "I was invented to describe the radiation emitted by a heated object."
+      },
+      {
+        "order": 3,
+        "text": "I am one of the precursors to the presently accepted theory for the radiation emitted by a heated object."
+      },
+      {
+        "order": 4,
+        "text": "I was successful in describing the low frequency portion of the blackbody spectrum."
+      },
+      {
+        "order": 5,
+        "text": "I am associated with what has come to be known as the ultraviolet catastrophe."
+      }
+    ],
+    "scored": true
+  },
+  {
+    "id": "f42db4c9eaa8604ca1133af5",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "I am a type of force. Whenever I am present, the velocity of an object changes. My value for a moving particle depends on the path of the particle. I am zero for motion along a straight path. My magnitude is proportional to the square of speed. Who am I?",
+    "correctAnswer": "Centripetal force",
+    "options": [
+      "Amplitude",
+      "Centripetal force",
+      "Momentum",
+      "Refraction"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "I am a type of force."
+      },
+      {
+        "order": 2,
+        "text": "Whenever I am present, the velocity of an object changes."
+      },
+      {
+        "order": 3,
+        "text": "My value for a moving particle depends on the path of the particle."
+      },
+      {
+        "order": 4,
+        "text": "I am zero for motion along a straight path."
+      },
+      {
+        "order": 5,
+        "text": "My magnitude is proportional to the square of speed."
+      }
+    ],
+    "scored": true
+  },
+  {
+    "id": "84d3ed6f597910ad6efe19e4",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "I am a type of solid. I am distinguished by my electrical conductivity and how it behaves with temperature. At absolute zero, I have a full valence band and an empty conduction band. I have such a large energy difference between my conduction and valence bands that. At room temperature, there are hardly any electrons in my conduction band. Who am I?",
+    "correctAnswer": "Insulator",
+    "options": [
+      "Resistance",
+      "Insulator",
+      "Torque",
+      "Refraction"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "I am a type of solid."
+      },
+      {
+        "order": 2,
+        "text": "I am distinguished by my electrical conductivity and how it behaves with temperature."
+      },
+      {
+        "order": 3,
+        "text": "At absolute zero, I have a full valence band and an empty conduction band."
+      },
+      {
+        "order": 4,
+        "text": "I have such a large energy difference between my conduction and valence bands that."
+      },
+      {
+        "order": 5,
+        "text": "At room temperature, there are hardly any electrons in my conduction band."
+      }
+    ],
+    "scored": true
+  },
+  {
+    "id": "fb30f380308d70ddf4677368",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "I am an experiment conducted in the 1910’s By two gentlemen whose names I bear. Electrons accelerated through a low-pressure vapour cell produced a current with maxima and minima as a function of accelerating voltage. In this way, I demonstrated that electrons undergo inelastic collisions with atoms only at particular electron energies, Proving that atomic energies are quantized. Who am I?",
+    "correctAnswer": "Frank-Hertz experiment",
+    "options": [
+      "Frank-Hertz experiment",
+      "Momentum",
+      "Resistance",
+      "Torque"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "I am an experiment conducted in the 1910’s"
+      },
+      {
+        "order": 2,
+        "text": "By two gentlemen whose names I bear."
+      },
+      {
+        "order": 3,
+        "text": "Electrons accelerated through a low-pressure vapour cell produced a current with maxima and minima as a function of accelerating voltage."
+      },
+      {
+        "order": 4,
+        "text": "In this way, I demonstrated that electrons undergo inelastic collisions with atoms only at particular electron energies,"
+      },
+      {
+        "order": 5,
+        "text": "Proving that atomic energies are quantized."
+      }
+    ],
+    "scored": true
+  },
+  {
+    "id": "89b9e65abb34ec37ba14cfbf",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "I am an emission process. I occur only in the presence of photons. I am a process in which photons are emitted. For every photon already present, I generate a new photon. I ensure that the photon generated is coherent with the photon whose presence caused the emission. I can thus be used to construct a light amplifier. Who am I?",
+    "correctAnswer": "Stimulated emission",
+    "options": [
+      "Amplitude",
+      "Stimulated emission",
+      "Resistance",
+      "Torque"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "I am an emission process."
+      },
+      {
+        "order": 2,
+        "text": "I occur only in the presence of photons."
+      },
+      {
+        "order": 3,
+        "text": "I am a process in which photons are emitted."
+      },
+      {
+        "order": 4,
+        "text": "For every photon already present, I generate a new photon."
+      },
+      {
+        "order": 5,
+        "text": "I ensure that the photon generated is coherent with the photon whose presence caused the emission."
+      },
+      {
+        "order": 6,
+        "text": "I can thus be used to construct a light amplifier."
+      }
+    ],
+    "scored": true
+  },
+  {
+    "id": "f9e3bccdfa9c66155d2bcc6e",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "I am synonymous with simplicity. I approximate motion about an equilibrium point. I am described by an equation that contains a term that is linear in displacement. There is harmony wherever I am found. I am a motion whose direction opposes the agent causing it. Who am I?",
+    "correctAnswer": "Simple harmonic motion",
+    "options": [
+      "Resistance",
+      "Simple harmonic motion",
+      "Torque",
+      "Momentum"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "I am synonymous with simplicity."
+      },
+      {
+        "order": 2,
+        "text": "I approximate motion about an equilibrium point."
+      },
+      {
+        "order": 3,
+        "text": "I am described by an equation that contains a term that is linear in displacement."
+      },
+      {
+        "order": 4,
+        "text": "There is harmony wherever I am found."
+      },
+      {
+        "order": 5,
+        "text": "I am a motion whose direction opposes the agent causing it."
+      }
+    ],
+    "scored": true
+  },
+  {
+    "id": "2bfb9e50a88f7c39ae01b7d4",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Chemistry",
+    "questionText": "I am a property of matter. For some materials, I decrease when temperature is increased. For most metals, I decrease as temperature is decreased. At sufficiently low temperatures, I can vanish. A state in which I am zero is called superconducting. Who am I?",
+    "correctAnswer": "Resistivity",
+    "options": [
+      "Alkane",
+      "Electrolyte",
+      "Resistivity",
+      "Isotope"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "I am a property of matter."
+      },
+      {
+        "order": 2,
+        "text": "For some materials, I decrease when temperature is increased."
+      },
+      {
+        "order": 3,
+        "text": "For most metals, I decrease as temperature is decreased."
+      },
+      {
+        "order": 4,
+        "text": "At sufficiently low temperatures, I can vanish."
+      },
+      {
+        "order": 5,
+        "text": "A state in which I am zero is called superconducting."
+      }
+    ],
+    "scored": true
+  },
+  {
+    "id": "6f8205f457dcc870ec03c459",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "I am the path of a moving object; So I am a trajectory. Geometrically, I am a conic section. I am the trajectory of an object moving with constant speed. But whose velocity is not constant. I am the path of an object whose distance from a fixed point is fixed. Who am I?",
+    "correctAnswer": "Circular trajectory (or circle)",
+    "options": [
+      "Amplitude",
+      "Torque",
+      "Circular trajectory (or circle)",
+      "Momentum"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "I am the path of a moving object;"
+      },
+      {
+        "order": 2,
+        "text": "So I am a trajectory."
+      },
+      {
+        "order": 3,
+        "text": "Geometrically, I am a conic section."
+      },
+      {
+        "order": 4,
+        "text": "I am the trajectory of an object moving with constant speed."
+      },
+      {
+        "order": 5,
+        "text": "But whose velocity is not constant."
+      },
+      {
+        "order": 6,
+        "text": "I am the path of an object whose distance from a fixed point is fixed."
+      }
+    ],
+    "scored": true
+  },
+  {
+    "id": "560b993044094787bbfb051d",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "I am a two terminal device commonly found in a physics laboratory. I am used for measuring an electrical quantity. In my digital version, I display readings that change sign when my terminals are interchanged. When a charged capacitor is connected across my terminals, I give a reading that decreases relatively slowly with time. Showing that I have a high internal resistance. Who am I?",
+    "correctAnswer": "Voltmeter Riddle #4",
+    "options": [
+      "Voltmeter Riddle #4",
+      "Torque",
+      "Resistance",
+      "Momentum"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "I am a two terminal device commonly found in a physics laboratory."
+      },
+      {
+        "order": 2,
+        "text": "I am used for measuring an electrical quantity."
+      },
+      {
+        "order": 3,
+        "text": "In my digital version, I display readings that change sign when my terminals are interchanged."
+      },
+      {
+        "order": 4,
+        "text": "When a charged capacitor is connected across my terminals, I give a reading that decreases relatively slowly with time."
+      },
+      {
+        "order": 5,
+        "text": "Showing that I have a high internal resistance."
+      }
+    ],
+    "scored": true
+  },
+  {
+    "id": "1ed678818ec74f3bfc76d752",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "I am a physical constant that governs one of the fundamental interactions in nature. The interaction I govern is a long range one; Whose effects extend over astronomical distances. My value is small and the interaction I govern is weaker than the other long range interaction of nature. I determine the strength of the interaction between particles with mass. Who am I?",
+    "correctAnswer": "Gravitational constant",
+    "options": [
+      "Torque",
+      "Resistance",
+      "Gravitational constant",
+      "Amplitude"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "I am a physical constant that governs one of the fundamental interactions in nature."
+      },
+      {
+        "order": 2,
+        "text": "The interaction I govern is a long range one;"
+      },
+      {
+        "order": 3,
+        "text": "Whose effects extend over astronomical distances."
+      },
+      {
+        "order": 4,
+        "text": "My value is small and the interaction I govern is weaker than the other long range interaction of nature."
+      },
+      {
+        "order": 5,
+        "text": "I determine the strength of the interaction between particles with mass."
+      }
+    ],
+    "scored": true
+  },
+  {
+    "id": "990532220b3c5df6b2c10a0e",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "I am a phenomenon that was discovered by a German physicist whose name I bear. I can be used for converting thermal energy into electrical energy. I am observed with two dissimilar conductors and I occur in the presence of a temperature gradient. I am the phenomenon that underlies the operation of a thermocouple. Who am I?",
+    "correctAnswer": "Seebeck effect",
+    "options": [
+      "Torque",
+      "Resistance",
+      "Seebeck effect",
+      "Amplitude"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "I am a phenomenon that was discovered by a German physicist whose name I bear."
+      },
+      {
+        "order": 2,
+        "text": "I can be used for converting thermal energy into electrical energy."
+      },
+      {
+        "order": 3,
+        "text": "I am observed with two dissimilar conductors and"
+      },
+      {
+        "order": 4,
+        "text": "I occur in the presence of a temperature gradient."
+      },
+      {
+        "order": 5,
+        "text": "I am the phenomenon that underlies the operation of a thermocouple."
+      }
+    ],
+    "scored": true
+  },
+  {
+    "id": "4c346215855c94cafdb35129",
+    "sourceFile": "Contest 1-1.doc",
+    "subject": "Physics",
+    "questionText": "Q. I am emitted by atomic nuclei but I am never found inside the nucleus. When I am emitted from a nucleus, the mass number of the nucleus remains unchanged although I do have mass. If I were traveling at constant speed perpendicular to a magnetic field, my path would be circular. I am deflected by an electric field in a direction opposite to the field. Although I am not found inside a nucleus, I am always found outside the nucleus of a neutral atom, where I am known by another name. Who am I?",
+    "correctAnswer": "(C)",
+    "options": [
+      "Torque",
+      "Momentum",
+      "(C)",
+      "Refraction"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "Q. I am emitted by atomic nuclei but I am never found inside the nucleus. When I am emitted from a nucleus, the mass number of the nucleus remains unchanged although I do have mass. If I were traveling at constant speed perpendicular to a magnetic field, my path would be circular. I am deflected by an electric field in a direction opposite to the field. Although I am not found inside a nucleus, I am always found outside the nucleus of a neutral atom, where I am known by another name."
+      }
+    ],
+    "scored": true
+  },
+  {
+    "id": "eef9f47a9016d725b2792f4a",
+    "sourceFile": "Biology Questions Riddles.docx",
+    "subject": "Biology",
+    "questionText": "Along with the liver, I am one of the master chemists of the body of some organisms. In fact, I am two chemists in one. One of my functions is the production of enzymes for the digestive system in the exocrine tissue. My other function creates hormones as part of the endocrine systems I am a gland, placed between a bend in the upper part of the intestine and the stomach Who am I?",
+    "correctAnswer": "The pancreas",
+    "options": [
+      "Enzyme",
+      "Hormone",
+      "Organelle",
+      "The pancreas"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "Along with the liver, I am one of the master chemists of the body of some organisms."
+      },
+      {
+        "order": 2,
+        "text": "In fact, I am two chemists in one."
+      },
+      {
+        "order": 3,
+        "text": "One of my functions is the production of enzymes for the digestive system in the exocrine tissue."
+      },
+      {
+        "order": 4,
+        "text": "My other function creates hormones as part of the endocrine systems"
+      },
+      {
+        "order": 5,
+        "text": "I am a gland, placed between a bend in the upper part of the intestine and the stomach"
+      }
+    ],
+    "scored": true
+  },
+  {
+    "id": "d9108c164faec28877423c17",
+    "sourceFile": "Biology Questions Riddles.docx",
+    "subject": "Biology",
+    "questionText": "I am found in many places throughout the natural world I am a nitrogen-containing polysaccharide that is a tough, protective, semitransparent substance In my pure, unmodified form, I am translucent, pliable, resilient, and quite tough. But when combined with calcium carbonate, as in the shells of crustaceans and mollusks, I produce a much stronger composite. I am the principal component of the exoskeletons of arthropods and of the bodies of fungi Who am I?",
+    "correctAnswer": "Chitin",
+    "options": [
+      "Hormone",
+      "Ecosystem",
+      "Enzyme",
+      "Chitin"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "I am found in many places throughout the natural world"
+      },
+      {
+        "order": 2,
+        "text": "I am a nitrogen-containing polysaccharide that is a tough, protective, semitransparent substance"
+      },
+      {
+        "order": 3,
+        "text": "In my pure, unmodified form, I am translucent, pliable, resilient, and quite tough."
+      },
+      {
+        "order": 4,
+        "text": "But when combined with calcium carbonate, as in the shells of crustaceans and mollusks, I produce a much stronger composite."
+      },
+      {
+        "order": 5,
+        "text": "I am the principal component of the exoskeletons of arthropods and of the bodies of fungi"
+      }
+    ],
+    "scored": true
+  },
+  {
+    "id": "1aeff044a920f25a675a54e5",
+    "sourceFile": "Biology Questions Riddles.docx",
+    "subject": "Biology",
+    "questionText": "I am an organelle My function and significance vary greatly according to the type of cell in which I am present, I have much greater prominence in the cells of plants, fungi and certain protists than those of animals and bacteria. I am space in a cell's cytoplasm that is surrounded by a membrane and filled with a watery fluid. My fluid stores food prior to digestion or waste products prior to excretion Who am I?",
+    "correctAnswer": "Vacuole",
+    "options": [
+      "Ecosystem",
+      "Hormone",
+      "Chromosome",
+      "Vacuole"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "I am an organelle"
+      },
+      {
+        "order": 2,
+        "text": "My function and significance vary greatly according to the type of cell in which I am present,"
+      },
+      {
+        "order": 3,
+        "text": "I have much greater prominence in the cells of plants, fungi and certain protists than those of animals and bacteria."
+      },
+      {
+        "order": 4,
+        "text": "I am space in a cell's cytoplasm that is surrounded by a membrane and filled with a watery fluid."
+      },
+      {
+        "order": 5,
+        "text": "My fluid stores food prior to digestion or waste products prior to excretion"
+      }
+    ],
+    "scored": true
+  },
+  {
+    "id": "776d4455dceb74f81d3ae236",
+    "sourceFile": "Biology Questions Riddles.docx",
+    "subject": "Biology",
+    "questionText": "I am a biological molecule I was first discovered by a French chemist in 1833. I am not rigid, static structure; instead I have complex internal dynamic motions When studying the fermentation of sugar to alcohol by yeast, Louis Pasteur referred to me as vital force contained within the yeast cells called \"ferments\", Almost all metabolic processes in the cell need me in order to occur at rates fast enough to sustain life Who am I?",
+    "correctAnswer": "Enzyme",
+    "options": [
+      "Enzyme",
+      "Hormone",
+      "Ecosystem",
+      "Organelle"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "I am a biological molecule"
+      },
+      {
+        "order": 2,
+        "text": "I was first discovered by a French chemist in 1833."
+      },
+      {
+        "order": 3,
+        "text": "I am not rigid, static structure; instead I have complex internal dynamic motions"
+      },
+      {
+        "order": 4,
+        "text": "When studying the fermentation of sugar to alcohol by yeast, Louis Pasteur referred to me as vital force contained within the yeast cells called \"ferments\","
+      },
+      {
+        "order": 5,
+        "text": "Almost all metabolic processes in the cell need me in order to occur at rates fast enough to sustain life"
+      }
+    ],
+    "scored": true
+  },
+  {
+    "id": "4308c2ba96e10d9f8a9a4ae3",
+    "sourceFile": "Biology Questions Riddles.docx",
+    "subject": "Biology",
+    "questionText": "I am a molecule with diverse chemical structures, My secretion occurs in response to specific biochemical signals from a wide range of regulatory systems I exit my cell of origin by exocytosis or by means of membrane transport I am used to communicate between organs and tissues for physiological regulation and behavioral activities I work slowly, over time, and affect many different processes, including, Growth and development, Metabolism, Sexual function, Reproduction, Mood I am your body's chemical messengers. Who am I?",
+    "correctAnswer": "Hormone",
+    "options": [
+      "Ecosystem",
+      "Chromosome",
+      "Hormone",
+      "Enzyme"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "I am a molecule with diverse chemical structures,"
+      },
+      {
+        "order": 2,
+        "text": "My secretion occurs in response to specific biochemical signals from a wide range of regulatory systems"
+      },
+      {
+        "order": 3,
+        "text": "I exit my cell of origin by exocytosis or by means of membrane transport"
+      },
+      {
+        "order": 4,
+        "text": "I am used to communicate between organs and tissues for physiological regulation and behavioral activities"
+      },
+      {
+        "order": 5,
+        "text": "I work slowly, over time, and affect many different processes, including, Growth and development, Metabolism, Sexual function, Reproduction, Mood"
+      },
+      {
+        "order": 6,
+        "text": "I am your body's chemical messengers."
+      }
+    ],
+    "scored": true
+  },
+  {
+    "id": "6dfcce9327ab1988972b675a",
+    "sourceFile": "Biology Questions Riddles.docx",
+    "subject": "Biology",
+    "questionText": "I am a hydrophilic substance that is odourless and has no taste The first four letters of my name represent a basic structural, functional, and biological unit or a narrow confining room And the last four letters means - to be unsuccessful in retaining possession of something I am the main component of the cell wall of vascular plants I am mainly used to produce paperboard and paper. Who am I?",
+    "correctAnswer": "Cellulose",
+    "options": [
+      "Cellulose",
+      "Hormone",
+      "Ecosystem",
+      "Chromosome"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "I am a hydrophilic substance that is odourless and has no taste"
+      },
+      {
+        "order": 2,
+        "text": "The first four letters of my name represent a basic structural, functional, and biological unit or a narrow confining room"
+      },
+      {
+        "order": 3,
+        "text": "And the last four letters means - to be unsuccessful in retaining possession of something"
+      },
+      {
+        "order": 4,
+        "text": "I am the main component of the cell wall of vascular plants"
+      },
+      {
+        "order": 5,
+        "text": "I am mainly used to produce paperboard and paper."
+      }
+    ],
+    "scored": true
+  },
+  {
+    "id": "91a550bb9c2499b0308dcce9",
+    "sourceFile": "Biology Questions Riddles.docx",
+    "subject": "Biology",
+    "questionText": "I am a biological oxidation process I was discovered by a Russian microbiologist I am an important step in a particular cycle that occurs in the soil I am an aerobic process performed mostly by small groups of autotrophic bacteria and archaea. I play an important role in the removal of nitrogen from municipal wastewater. In the nitrogen cycle, I am the process by which nitrite is converted to nitrate Who am I?",
+    "correctAnswer": "Nitrification",
+    "options": [
+      "Ecosystem",
+      "Enzyme",
+      "Chromosome",
+      "Nitrification"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "I am a biological oxidation process"
+      },
+      {
+        "order": 2,
+        "text": "I was discovered by a Russian microbiologist"
+      },
+      {
+        "order": 3,
+        "text": "I am an important step in a particular cycle that occurs in the soil"
+      },
+      {
+        "order": 4,
+        "text": "I am an aerobic process performed mostly by small groups of autotrophic bacteria and archaea."
+      },
+      {
+        "order": 5,
+        "text": "I play an important role in the removal of nitrogen from municipal wastewater."
+      },
+      {
+        "order": 6,
+        "text": "In the nitrogen cycle, I am the process by which nitrite is converted to nitrate"
+      }
+    ],
+    "scored": true
+  },
+  {
+    "id": "b64cb99df576cc202afc000e",
+    "sourceFile": "Biology Questions Riddles.docx",
+    "subject": "Biology",
+    "questionText": "I may be a field or range of operation or influence. In Entomology, I am one of the principal longitudinal veins in the anterior portion of the wing of an insect. In Botany, I am a group of ray florets, occurring in such plants as the daisy In anatomy, I am the outer and slightly shorter of the two bones of the human forearm In mathematics I am a line segment that joins the center of a sphere with any point on its surface. Who am I?",
+    "correctAnswer": "Radius",
+    "options": [
+      "Chromosome",
+      "Ecosystem",
+      "Radius",
+      "Enzyme"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "I may be a field or range of operation or influence."
+      },
+      {
+        "order": 2,
+        "text": "In Entomology, I am one of the principal longitudinal veins in the anterior portion of the wing of an insect."
+      },
+      {
+        "order": 3,
+        "text": "In Botany, I am a group of ray florets, occurring in such plants as the daisy"
+      },
+      {
+        "order": 4,
+        "text": "In anatomy, I am the outer and slightly shorter of the two bones of the human forearm"
+      },
+      {
+        "order": 5,
+        "text": "In mathematics I am a line segment that joins the center of a sphere with any point on its surface."
+      }
+    ],
+    "scored": true
+  },
+  {
+    "id": "2436b601505e350f0bcdd38d",
+    "sourceFile": "Biology Questions Riddles.docx",
+    "subject": "Biology",
+    "questionText": "I am a biological process I am completely absent in the animal world I owe my existence to a class of complex organic polymers that form important structural materials My process results in a change in the character of the cell wall of plants and makes them harder I am popularly known by the laying down of lignin in a plant which is the last stage in maturation and represents a heavy loss in nutritional value. Who am I?",
+    "correctAnswer": "Lignification",
+    "options": [
+      "Lignification",
+      "Ecosystem",
+      "Enzyme",
+      "Organelle"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "I am a biological process"
+      },
+      {
+        "order": 2,
+        "text": "I am completely absent in the animal world"
+      },
+      {
+        "order": 3,
+        "text": "I owe my existence to a class of complex organic polymers that form important structural materials"
+      },
+      {
+        "order": 4,
+        "text": "My process results in a change in the character of the cell wall of plants and makes them harder"
+      },
+      {
+        "order": 5,
+        "text": "I am popularly known by the laying down of lignin in a plant which is the last stage in maturation and represents a heavy loss in nutritional value."
+      }
+    ],
+    "scored": true
+  },
+  {
+    "id": "69979b6bb890e20f4eba1b65",
+    "sourceFile": "Biology Questions Riddles.docx",
+    "subject": "Biology",
+    "questionText": "I am a type of organism I provide a rich and diverse habitat for other organisms including animals, fungi, and bacteria. I am a plant that grows harmlessly upon another plant (such as a tree) I differ from a parasite in that I grow on other plants for physical support and do not necessarily negatively affect my host. I derive moisture and nutrients from the air, rain, and sometimes from debris accumulating around my host. Who am I?",
+    "correctAnswer": "Epiphyte",
+    "options": [
+      "Hormone",
+      "Enzyme",
+      "Chromosome",
+      "Epiphyte"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "I am a type of organism"
+      },
+      {
+        "order": 2,
+        "text": "I provide a rich and diverse habitat for other organisms including animals, fungi, and bacteria."
+      },
+      {
+        "order": 3,
+        "text": "I am a plant that grows harmlessly upon another plant (such as a tree)"
+      },
+      {
+        "order": 4,
+        "text": "I differ from a parasite in that I grow on other plants for physical support and do not necessarily negatively affect my host."
+      },
+      {
+        "order": 5,
+        "text": "I derive moisture and nutrients from the air, rain, and sometimes from debris accumulating around my host."
+      }
+    ],
+    "scored": true
+  },
+  {
+    "id": "346e3675128e78c40f2a4232",
+    "sourceFile": "Biology Questions Riddles.docx",
+    "subject": "Biology",
+    "questionText": "The first five letters of my name represent an important organ in mammals and other organisms And the last four letters represent the liquid extracted from the mashing process during the brewing of beer or whisky I am a small non-vascular spore-producing plant. I am not economically important to humans but do provide food for animals, and aid in the disintegration of rocks by my ability to retain moisture. Mosses and my group are traditionally classified together in the Division Bryophyta Who am I?",
+    "correctAnswer": "Liverwort",
+    "options": [
+      "Organelle",
+      "Hormone",
+      "Enzyme",
+      "Liverwort"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "The first five letters of my name represent an important organ in mammals and other organisms"
+      },
+      {
+        "order": 2,
+        "text": "And the last four letters represent the liquid extracted from the mashing process during the brewing of beer or whisky"
+      },
+      {
+        "order": 3,
+        "text": "I am a small non-vascular spore-producing plant."
+      },
+      {
+        "order": 4,
+        "text": "I am not economically important to humans but do provide food for animals, and aid in the disintegration of rocks by my ability to retain moisture."
+      },
+      {
+        "order": 5,
+        "text": "Mosses and my group are traditionally classified together in the Division Bryophyta"
+      }
+    ],
+    "scored": true
+  },
+  {
+    "id": "01d07ace2683fb275abdd8a9",
+    "sourceFile": "Biology Questions Riddles.docx",
+    "subject": "Biology",
+    "questionText": "I am a common feature in the sexual reproduction of many organisms In single-celled organisms, I can divide asexually by mitosis to produce identical offspring. In multicellular organisms, I represent the first stage in the development of a genetically unique organism In land plants, I am formed within a chamber called the archegonium. I am an eukaryotic cell formed by the fusion of two gametes. Who am I?",
+    "correctAnswer": "Zygote",
+    "options": [
+      "Ecosystem",
+      "Hormone",
+      "Zygote",
+      "Organelle"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "I am a common feature in the sexual reproduction of many organisms"
+      },
+      {
+        "order": 2,
+        "text": "In single-celled organisms, I can divide asexually by mitosis to produce identical offspring."
+      },
+      {
+        "order": 3,
+        "text": "In multicellular organisms, I represent the first stage in the development of a genetically unique organism"
+      },
+      {
+        "order": 4,
+        "text": "In land plants, I am formed within a chamber called the archegonium."
+      },
+      {
+        "order": 5,
+        "text": "I am an eukaryotic cell formed by the fusion of two gametes."
+      }
+    ],
+    "scored": true
+  },
+  {
+    "id": "4e62b89eb7f30c1587646e95",
+    "sourceFile": "Biology Questions Riddles.docx",
+    "subject": "Biology",
+    "questionText": "I am a feature and a function of certain structures in cells These structures are essential in maintaining homeostasis Because they regulate the passage of some substances while preventing others from entering the cell The most common example is the phospholipid bilayer plasma membrane that surrounds every cell in our bodies I am the capacity of a membrane to allow some particles to pass through but not others Who am I?",
+    "correctAnswer": "Selective permeability / differential permeability",
+    "options": [
+      "Hormone",
+      "Selective permeability / differential permeability",
+      "Organelle",
+      "Chromosome"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "I am a feature and a function of certain structures in cells"
+      },
+      {
+        "order": 2,
+        "text": "These structures are essential in maintaining homeostasis"
+      },
+      {
+        "order": 3,
+        "text": "Because they regulate the passage of some substances while preventing others from entering the cell"
+      },
+      {
+        "order": 4,
+        "text": "The most common example is the phospholipid bilayer plasma membrane that surrounds every cell in our bodies"
+      },
+      {
+        "order": 5,
+        "text": "I am the capacity of a membrane to allow some particles to pass through but not others"
+      }
+    ],
+    "scored": true
+  },
+  {
+    "id": "4cf08cacbf51df369aca5d6d",
+    "sourceFile": "Biology Questions Riddles.docx",
+    "subject": "Biology",
+    "questionText": "I am used to refer to a striking alteration in appearance, character, or circumstances In biology I am accompanied by alterations of the organism’s physiology, biochemistry, and behaviour. Among the most dramatic and thoroughly studied examples of me are the insects In starfishes and other echinoderms I result in a change from the bilateral symmetry of the larva to the radial symmetry of the adult. In frogs, I result in the transformation of the tadpole, which the is as aquatic larval stage into the land-dwelling frog Who am I?",
+    "correctAnswer": "Metamorphosis",
+    "options": [
+      "Ecosystem",
+      "Enzyme",
+      "Organelle",
+      "Metamorphosis"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "I am used to refer to a striking alteration in appearance, character, or circumstances"
+      },
+      {
+        "order": 2,
+        "text": "In biology I am accompanied by alterations of the organism’s physiology, biochemistry, and behaviour."
+      },
+      {
+        "order": 3,
+        "text": "Among the most dramatic and thoroughly studied examples of me are the insects"
+      },
+      {
+        "order": 4,
+        "text": "In starfishes and other echinoderms I result in a change from the bilateral symmetry of the larva to the radial symmetry of the adult."
+      },
+      {
+        "order": 5,
+        "text": "In frogs, I result in the transformation of the tadpole, which the is as aquatic larval stage into the land-dwelling frog"
+      }
+    ],
+    "scored": true
+  },
+  {
+    "id": "4d92af539b43b21ef3c66bfe",
+    "sourceFile": "Biology Questions Riddles.docx",
+    "subject": "Biology",
+    "questionText": "You may refer to me as a purification technology or process In my process pressure is applied for water molecules to move against a concentration gradient through a partially permeable membrane I am used in desalination of sea water to make it drinkable. In the production of bottled mineral water, I am used to remove pollutants and microorganisms I am the process of osmosis in reverse Who am I?",
+    "correctAnswer": "Reverse osmosis",
+    "options": [
+      "Reverse osmosis",
+      "Organelle",
+      "Chromosome",
+      "Hormone"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "You may refer to me as a purification technology or process"
+      },
+      {
+        "order": 2,
+        "text": "In my process pressure is applied for water molecules to move against a concentration gradient through a partially permeable membrane"
+      },
+      {
+        "order": 3,
+        "text": "I am used in desalination of sea water to make it drinkable."
+      },
+      {
+        "order": 4,
+        "text": "In the production of bottled mineral water, I am used to remove pollutants and microorganisms"
+      },
+      {
+        "order": 5,
+        "text": "I am the process of osmosis in reverse"
+      }
+    ],
+    "scored": true
+  },
+  {
+    "id": "1cc186ccd4f95f570ee13d1d",
+    "sourceFile": "Biology Questions Riddles.docx",
+    "subject": "Biology",
+    "questionText": "My precise shape and size vary widely among different organisms, In classical anatomy, I am divided into four sections I am present in many animals including vertebrates, echinoderms, insects, and molluscs In humans and many other vertebrates I am involved in the second phase of digestion, following mastication I normally lie between the oesophagus and the duodenum Who am I?",
+    "correctAnswer": "Stomach",
+    "options": [
+      "Chromosome",
+      "Stomach",
+      "Hormone",
+      "Organelle"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "My precise shape and size vary widely among different organisms,"
+      },
+      {
+        "order": 2,
+        "text": "In classical anatomy, I am divided into four sections"
+      },
+      {
+        "order": 3,
+        "text": "I am present in many animals including vertebrates, echinoderms, insects, and molluscs"
+      },
+      {
+        "order": 4,
+        "text": "In humans and many other vertebrates I am involved in the second phase of digestion, following mastication"
+      },
+      {
+        "order": 5,
+        "text": "I normally lie between the oesophagus and the duodenum"
+      }
+    ],
+    "scored": true
+  },
+  {
+    "id": "7dd430c99dabc80c5aa51894",
+    "sourceFile": "Biology Questions Riddles.docx",
+    "subject": "Biology",
+    "questionText": "The first three letters of my name means to strike gently with a light blow or blows: Or a valve and spout used to regulate delivery of a fluid at the end of a pipe. The last four letters refer to the embedded portion of a tooth, nail, or hair Typically, I am somewhat straight and very thick, conical in shape, and grows directly downward. I am the large, central, and dominant root from which other roots sprout laterally. Who am I?",
+    "correctAnswer": "Taproot",
+    "options": [
+      "Ecosystem",
+      "Hormone",
+      "Taproot",
+      "Chromosome"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "The first three letters of my name means to strike gently with a light blow or blows:"
+      },
+      {
+        "order": 2,
+        "text": "Or a valve and spout used to regulate delivery of a fluid at the end of a pipe."
+      },
+      {
+        "order": 3,
+        "text": "The last four letters refer to the embedded portion of a tooth, nail, or hair"
+      },
+      {
+        "order": 4,
+        "text": "Typically, I am somewhat straight and very thick, conical in shape, and grows directly downward."
+      },
+      {
+        "order": 5,
+        "text": "I am the large, central, and dominant root from which other roots sprout laterally."
+      }
+    ],
+    "scored": true
+  },
+  {
+    "id": "86c0a99d8f8f48aaae7abb99",
+    "sourceFile": "Biology Questions Riddles.docx",
+    "subject": "Biology",
+    "questionText": "I have been used to protect military equipment such as vehicles, guns, ships, aircraft, and building, as well as individual soldiers and their positions I have been a topic of interest and research in zoology for well over a century Different aspects of me exist due to difference in the sensory abilities of different animals When you see leaf-eating insects green, and bark-feeders mottled-grey; then I am at play to protect them from danger. I am the Structural adaptation that enables species to blend with their surroundings; Which allows them to avoid detection by predators or preys Who am I?",
+    "correctAnswer": "Camouflage",
+    "options": [
+      "Enzyme",
+      "Camouflage",
+      "Chromosome",
+      "Hormone"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "I have been used to protect military equipment such as vehicles, guns, ships, aircraft, and building, as well as individual soldiers and their positions"
+      },
+      {
+        "order": 2,
+        "text": "I have been a topic of interest and research in zoology for well over a century"
+      },
+      {
+        "order": 3,
+        "text": "Different aspects of me exist due to difference in the sensory abilities of different animals"
+      },
+      {
+        "order": 4,
+        "text": "When you see leaf-eating insects green, and bark-feeders mottled-grey; then I am at play to protect them from danger."
+      },
+      {
+        "order": 5,
+        "text": "I am the Structural adaptation that enables species to blend with their surroundings; Which allows them to avoid detection by predators or preys"
+      }
+    ],
+    "scored": true
+  },
+  {
+    "id": "a5f862a34d32357afd73bedb",
+    "sourceFile": "Biology Questions Riddles.docx",
+    "subject": "Chemistry",
+    "questionText": "My most common use is to inform the reader that what follows me, explains, defines, describes, or lists elements of what preceded me In human anatomy, I am a structure consisting of four parts My ascending part travels up the right side of the abdomen. My transverse part runs across the abdomen. My descending part travels down the left abdomen. My sigmoid part forms a short curve, just before the rectum. Who am I?",
+    "correctAnswer": "Colon",
+    "options": [
+      "Isotope",
+      "Catalyst",
+      "Colon",
+      "Buffer"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "My most common use is to inform the reader that what follows me, explains, defines, describes, or lists elements of what preceded me"
+      },
+      {
+        "order": 2,
+        "text": "In human anatomy, I am a structure consisting of four parts"
+      },
+      {
+        "order": 3,
+        "text": "My ascending part travels up the right side of the abdomen."
+      },
+      {
+        "order": 4,
+        "text": "My transverse part runs across the abdomen."
+      },
+      {
+        "order": 5,
+        "text": "My descending part travels down the left abdomen."
+      },
+      {
+        "order": 6,
+        "text": "My sigmoid part forms a short curve, just before the rectum."
+      }
+    ],
+    "scored": true
+  },
+  {
+    "id": "57cb701feb457e29035cdb7c",
+    "sourceFile": "Biology Questions Riddles.docx",
+    "subject": "Biology",
+    "questionText": "I was originally a concept from genetics but am now used in biochemistry, computational biology and evolutionary biology I have a large influence on the shape of evolutionary landscapes I arise due to interactions, either between genes, or within them, leading to non-linear effects. I am a form of gene interaction whereby one gene masks or interferes with the phenotypic expression of one or more genes at other loci; The gene with the expressed phenotype is said to be epistatic, And the phenotype altered or suppressed is then said to be hypostatic. Who am I?",
+    "correctAnswer": "Epistasis",
+    "options": [
+      "Enzyme",
+      "Epistasis",
+      "Chromosome",
+      "Ecosystem"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "I was originally a concept from genetics but am now used in biochemistry, computational biology and evolutionary biology"
+      },
+      {
+        "order": 2,
+        "text": "I have a large influence on the shape of evolutionary landscapes"
+      },
+      {
+        "order": 3,
+        "text": "I arise due to interactions, either between genes, or within them, leading to non-linear effects."
+      },
+      {
+        "order": 4,
+        "text": "I am a form of gene interaction whereby one gene masks or interferes with the phenotypic expression of one or more genes at other loci;"
+      },
+      {
+        "order": 5,
+        "text": "The gene with the expressed phenotype is said to be epistatic,"
+      },
+      {
+        "order": 6,
+        "text": "And the phenotype altered or suppressed is then said to be hypostatic."
+      }
+    ],
+    "scored": true
+  },
+  {
+    "id": "40f3888e89279a8995cd95ec",
+    "sourceFile": "Biology Questions Riddles.docx",
+    "subject": "Biology",
+    "questionText": "Every biology student has to learn about me in his basic botany course, but most people quickly forget about me I was named after my discoverer, a German botanist, in the 19th century. I am a cellular feature found in the roots of all higher plants. I might be viewed rather like mortar in a wall that blocks the passive flow of materials such as water and solutes. I am a band of cell wall material deposited in the radial and transverse walls of the endodermis Who am I?",
+    "correctAnswer": "Casparian strip",
+    "options": [
+      "Enzyme",
+      "Chromosome",
+      "Ecosystem",
+      "Casparian strip"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "Every biology student has to learn about me in his basic botany course, but most people quickly forget about me"
+      },
+      {
+        "order": 2,
+        "text": "I was named after my discoverer, a German botanist, in the 19th century."
+      },
+      {
+        "order": 3,
+        "text": "I am a cellular feature found in the roots of all higher plants."
+      },
+      {
+        "order": 4,
+        "text": "I might be viewed rather like mortar in a wall that blocks the passive flow of materials such as water and solutes."
+      },
+      {
+        "order": 5,
+        "text": "I am a band of cell wall material deposited in the radial and transverse walls of the endodermis"
+      }
+    ],
+    "scored": true
+  },
+  {
+    "id": "cbd194427a0bc9e8f8db5092",
+    "sourceFile": "Biology Questions Riddles.docx",
+    "subject": "Biology",
+    "questionText": "My name literally means \"little vinegar cup Because I was thought to resemble a small vinegar cup. I am the cavity or depression on the lateral surface of the innominate bone This bone is composed of the three bones ilium, ischium, and pubis, I am the socket of the hipbone, into which the head of the femur fits to form ball-and-socket joint Who am I?",
+    "correctAnswer": "Acetabulum",
+    "options": [
+      "Acetabulum",
+      "Organelle",
+      "Hormone",
+      "Chromosome"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "My name literally means \"little vinegar cup"
+      },
+      {
+        "order": 2,
+        "text": "Because I was thought to resemble a small vinegar cup."
+      },
+      {
+        "order": 3,
+        "text": "I am the cavity or depression on the lateral surface of the innominate bone"
+      },
+      {
+        "order": 4,
+        "text": "This bone is composed of the three bones ilium, ischium, and pubis,"
+      },
+      {
+        "order": 5,
+        "text": "I am the socket of the hipbone, into which the head of the femur fits to form ball-and-socket joint"
+      }
+    ],
+    "scored": true
+  },
+  {
+    "id": "fee61f8ec4561def2668cab6",
+    "sourceFile": "Biology Questions Riddles.docx",
+    "subject": "Biology",
+    "questionText": "Compared with most other kinds of tissue, I have few cells. I have a wide variety of functions that depend on the types of cells and the different classes of fibers involved I am of one of the four groups of tissues in the body that maintain the form of the body and its organs and provide cohesion and internal support. The other three types are epithelial, muscle, and nervous tissue I am found in between other tissues everywhere in the body, including the nervous system Who am I?",
+    "correctAnswer": "Connective tissue",
+    "options": [
+      "Connective tissue",
+      "Enzyme",
+      "Hormone",
+      "Chromosome"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "Compared with most other kinds of tissue, I have few cells."
+      },
+      {
+        "order": 2,
+        "text": "I have a wide variety of functions that depend on the types of cells and the different classes of fibers involved"
+      },
+      {
+        "order": 3,
+        "text": "I am of one of the four groups of tissues in the body that maintain the form of the body and its organs and provide cohesion and internal support."
+      },
+      {
+        "order": 4,
+        "text": "The other three types are epithelial, muscle, and nervous tissue"
+      },
+      {
+        "order": 5,
+        "text": "I am found in between other tissues everywhere in the body, including the nervous system"
+      }
+    ],
+    "scored": true
+  },
+  {
+    "id": "e7f7d27124e5947d90122394",
+    "sourceFile": "Biology Questions Riddles.docx",
+    "subject": "Biology",
+    "questionText": "I am a physiological process that occurs in some organisms I occur in both eukaryotic and prokaryotic organisms I am intimately related to excretion because the two of us together maintain homeostasis Some of the organelles and organs that carry out my process include, nephridia, antennal glands, malpighian tubules of invertebrates, salt glands of plants and kidneys of vertebrates. I am the process of regulating water potential in order to keep fluid and electrolyte balance within a cell or organism relative to the surrounding Who am I?",
+    "correctAnswer": "Osmoregulation",
+    "options": [
+      "Hormone",
+      "Organelle",
+      "Chromosome",
+      "Osmoregulation"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "I am a physiological process that occurs in some organisms"
+      },
+      {
+        "order": 2,
+        "text": "I occur in both eukaryotic and prokaryotic organisms"
+      },
+      {
+        "order": 3,
+        "text": "I am intimately related to excretion because the two of us together maintain homeostasis"
+      },
+      {
+        "order": 4,
+        "text": "Some of the organelles and organs that carry out my process include, nephridia, antennal glands, malpighian tubules of invertebrates, salt glands of plants and kidneys of vertebrates."
+      },
+      {
+        "order": 5,
+        "text": "I am the process of regulating water potential in order to keep fluid and electrolyte balance within a cell or organism relative to the surrounding"
+      }
+    ],
+    "scored": true
+  },
+  {
+    "id": "4c8c227b14de3b962001c593",
+    "sourceFile": "Biology Questions Riddles.docx",
+    "subject": "Biology",
+    "questionText": "I am a resilient and smooth elastic tissue, I am not as hard and rigid as bone, but am stiffer and less flexible than muscle. Because of my rigidity, I often serve the purpose of holding tubes open in the body. I am a rubber-like padding that covers and protects the ends of long bones at the joints, I am also a structural component of the rib cage, the ear, the nose, the bronchial tubes, the intervertebral discs, and many other body components. Who am I?",
+    "correctAnswer": "Cartilage",
+    "options": [
+      "Ecosystem",
+      "Chromosome",
+      "Cartilage",
+      "Enzyme"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "I am a resilient and smooth elastic tissue,"
+      },
+      {
+        "order": 2,
+        "text": "I am not as hard and rigid as bone, but am stiffer and less flexible than muscle."
+      },
+      {
+        "order": 3,
+        "text": "Because of my rigidity, I often serve the purpose of holding tubes open in the body."
+      },
+      {
+        "order": 4,
+        "text": "I am a rubber-like padding that covers and protects the ends of long bones at the joints,"
+      },
+      {
+        "order": 5,
+        "text": "I am also a structural component of the rib cage, the ear, the nose, the bronchial tubes, the intervertebral discs, and many other body components."
+      }
+    ],
+    "scored": true
+  },
+  {
+    "id": "524294fad765487b2a539636",
+    "sourceFile": "Biology Questions Riddles.docx",
+    "subject": "Biology",
+    "questionText": "In everyday English I am used when one wants to search a place or an area very carefully in order to find something. I may be a flat piece of plastic or metal with a row of thin teeth I may also be a device that is used for separating or straightening fibers In the world of honey bees, I am a wax cell built to contain their larvae and also store honey and pollen I am the fleshy, more or less serrated outgrowth on the head of certain birds, especially the domestic fowl. Who am I?",
+    "correctAnswer": "Comb",
+    "options": [
+      "Organelle",
+      "Comb",
+      "Chromosome",
+      "Hormone"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "In everyday English I am used when one wants to search a place or an area very carefully in order to find something."
+      },
+      {
+        "order": 2,
+        "text": "I may be a flat piece of plastic or metal with a row of thin teeth"
+      },
+      {
+        "order": 3,
+        "text": "I may also be a device that is used for separating or straightening fibers"
+      },
+      {
+        "order": 4,
+        "text": "In the world of honey bees, I am a wax cell built to contain their larvae and also store honey and pollen"
+      },
+      {
+        "order": 5,
+        "text": "I am the fleshy, more or less serrated outgrowth on the head of certain birds, especially the domestic fowl."
+      }
+    ],
+    "scored": true
+  },
+  {
+    "id": "c011226e9387b45f98033739",
+    "sourceFile": "Biology Questions Riddles.docx",
+    "subject": "Biology",
+    "questionText": "I may be used to refer to something that is very pleasant In Greek folklore I was known as the divine drink Because I was believed to confer immortality on mortals who had the luck to drink me I am useful in agriculture and horticulture because the adult stages of some predatory insects feed on me I am a sugary fluid produced by flowers to attract pollinating insects, birds and bats. Who am I?",
+    "correctAnswer": "Nectar",
+    "options": [
+      "Chromosome",
+      "Nectar",
+      "Enzyme",
+      "Hormone"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "I may be used to refer to something that is very pleasant"
+      },
+      {
+        "order": 2,
+        "text": "In Greek folklore I was known as the divine drink"
+      },
+      {
+        "order": 3,
+        "text": "Because I was believed to confer immortality on mortals who had the luck to drink me"
+      },
+      {
+        "order": 4,
+        "text": "I am useful in agriculture and horticulture because the adult stages of some predatory insects feed on me"
+      },
+      {
+        "order": 5,
+        "text": "I am a sugary fluid produced by flowers to attract pollinating insects, birds and bats."
+      }
+    ],
+    "scored": true
+  },
+  {
+    "id": "92888e633c5311af23ef98e5",
+    "sourceFile": "Biology Questions Riddles.docx",
+    "subject": "Biology",
+    "questionText": "I have been used in war to deprive the enemy of cover for its forces and also vital resources I am an ongoing process in the world and popularly known to be shaping climate and geography There are multiple methods that are appropriate and reliable for reducing and monitoring my occurrence I cause extinction, change climatic conditions, desertification, and displacement of population I am normally used to refer to the cutting, clearing, and removal of rainforest or related ecosystems into less bio-diverse ecosystems Who am I?",
+    "correctAnswer": "Deforestation",
+    "options": [
+      "Enzyme",
+      "Ecosystem",
+      "Chromosome",
+      "Deforestation"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "I have been used in war to deprive the enemy of cover for its forces and also vital resources"
+      },
+      {
+        "order": 2,
+        "text": "I am an ongoing process in the world and popularly known to be shaping climate and geography"
+      },
+      {
+        "order": 3,
+        "text": "There are multiple methods that are appropriate and reliable for reducing and monitoring my occurrence"
+      },
+      {
+        "order": 4,
+        "text": "I cause extinction, change climatic conditions, desertification, and displacement of population"
+      },
+      {
+        "order": 5,
+        "text": "I am normally used to refer to the cutting, clearing, and removal of rainforest or related ecosystems into less bio-diverse ecosystems"
+      }
+    ],
+    "scored": true
+  },
+  {
+    "id": "211cf2d12110ba49e065937e",
+    "sourceFile": "Biology Questions Riddles.docx",
+    "subject": "Biology",
+    "questionText": "I am a complex organ, and as such, there are a very large number of possible conditions that may affect my function I am found in all tetrapods and also in teleosts, although my form and length vary enormously between species I develop from the mid-gut of the primitive gut tube I am the part of the gastrointestinal tract between the stomach and the large intestine I am the region of the alimentary canal where most chemical digestion takes place Who am I?",
+    "correctAnswer": "Small Intestine",
+    "options": [
+      "Hormone",
+      "Ecosystem",
+      "Small Intestine",
+      "Enzyme"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "I am a complex organ, and as such, there are a very large number of possible conditions that may affect my function"
+      },
+      {
+        "order": 2,
+        "text": "I am found in all tetrapods and also in teleosts, although my form and length vary enormously between species"
+      },
+      {
+        "order": 3,
+        "text": "I develop from the mid-gut of the primitive gut tube"
+      },
+      {
+        "order": 4,
+        "text": "I am the part of the gastrointestinal tract between the stomach and the large intestine"
+      },
+      {
+        "order": 5,
+        "text": "I am the region of the alimentary canal where most chemical digestion takes place"
+      }
+    ],
+    "scored": true
+  },
+  {
+    "id": "4213748f422e392b65f3c3b1",
+    "sourceFile": "Biology Questions Riddles.docx",
+    "subject": "Biology",
+    "questionText": "I am home to many several species from different taxa, even though I am an extreme environment for organisms to live I am a type of zone which is an important model system for the study of ecology, especially on wave-swept rocky shores. Organisms living in my zone are unique because of their ability to withstand exposure to air and the force of pounding waves Marine biologists divide me into three zones (low, middle, and high), based on the overall average exposure of the zone. I am the area that is above water at low tide and under water at high tide Who am I?",
+    "correctAnswer": "Intertidal zone / Foreshore / Seashore/ littoral zone",
+    "options": [
+      "Hormone",
+      "Chromosome",
+      "Organelle",
+      "Intertidal zone / Foreshore / Seashore/ littoral zone"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "I am home to many several species from different taxa, even though I am an extreme environment for organisms to live"
+      },
+      {
+        "order": 2,
+        "text": "I am a type of zone which is an important model system for the study of ecology, especially on wave-swept rocky shores."
+      },
+      {
+        "order": 3,
+        "text": "Organisms living in my zone are unique because of their ability to withstand exposure to air and the force of pounding waves"
+      },
+      {
+        "order": 4,
+        "text": "Marine biologists divide me into three zones (low, middle, and high), based on the overall average exposure of the zone."
+      },
+      {
+        "order": 5,
+        "text": "I am the area that is above water at low tide and under water at high tide"
+      }
+    ],
+    "scored": true
+  },
+  {
+    "id": "4f12ddc6d091f1e1648562ab",
+    "sourceFile": "Biology Questions Riddles.docx",
+    "subject": "Biology",
+    "questionText": "I am formed of three bones I am composed of three functional compartments I am one of the strongest and most important joints in the human body. My movements are essential to many everyday activities, including walking, running, sitting and standing. I allow the lower leg to move relative to the thigh while supporting the body’s weight. Who am I?",
+    "correctAnswer": "Knee joint",
+    "options": [
+      "Knee joint",
+      "Organelle",
+      "Hormone",
+      "Ecosystem"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "I am formed of three bones"
+      },
+      {
+        "order": 2,
+        "text": "I am composed of three functional compartments"
+      },
+      {
+        "order": 3,
+        "text": "I am one of the strongest and most important joints in the human body."
+      },
+      {
+        "order": 4,
+        "text": "My movements are essential to many everyday activities, including walking, running, sitting and standing."
+      },
+      {
+        "order": 5,
+        "text": "I allow the lower leg to move relative to the thigh while supporting the body’s weight."
+      }
+    ],
+    "scored": true
+  },
+  {
+    "id": "119f69a3a1c51ea46e37f4c0",
+    "sourceFile": "Biology Questions Riddles.docx",
+    "subject": "Biology",
+    "questionText": "I am one of the earliest concepts related to the issue of scale I was originally used to determine the number of animals that could graze on a segment of land without destroying it. Later, the idea was expanded to more complex populations, like humans In an environment, I may vary for different species and may change over time due to environmental conditions and living space I am the number of individuals an environment can support without significant negative impacts to the given organism and its environment. Who am I?",
+    "correctAnswer": "Carrying capacity",
+    "options": [
+      "Enzyme",
+      "Organelle",
+      "Ecosystem",
+      "Carrying capacity"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "I am one of the earliest concepts related to the issue of scale"
+      },
+      {
+        "order": 2,
+        "text": "I was originally used to determine the number of animals that could graze on a segment of land without destroying it."
+      },
+      {
+        "order": 3,
+        "text": "Later, the idea was expanded to more complex populations, like humans"
+      },
+      {
+        "order": 4,
+        "text": "In an environment, I may vary for different species and may change over time due to environmental conditions and living space"
+      },
+      {
+        "order": 5,
+        "text": "I am the number of individuals an environment can support without significant negative impacts to the given organism and its environment."
+      }
+    ],
+    "scored": true
+  },
+  {
+    "id": "ef2c987ef890f755f425db55",
+    "sourceFile": "Biology Questions Riddles.docx",
+    "subject": "Biology",
+    "questionText": "I am a composite organism that arise from two organisms I have properties that are different from those of my component organisms I grow in a wide range of substrates and habitats, including some of the most extreme conditions on earth. I am among the first living things to grow on fresh rock exposed after an event such as a landslide I arise from algae or cyanobacteria living among filaments of multiple fungi in a mutualistic relationship Who am I?",
+    "correctAnswer": "A lichen",
+    "options": [
+      "A lichen",
+      "Ecosystem",
+      "Enzyme",
+      "Hormone"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "I am a composite organism that arise from two organisms"
+      },
+      {
+        "order": 2,
+        "text": "I have properties that are different from those of my component organisms"
+      },
+      {
+        "order": 3,
+        "text": "I grow in a wide range of substrates and habitats, including some of the most extreme conditions on earth."
+      },
+      {
+        "order": 4,
+        "text": "I am among the first living things to grow on fresh rock exposed after an event such as a landslide"
+      },
+      {
+        "order": 5,
+        "text": "I arise from algae or cyanobacteria living among filaments of multiple fungi in a mutualistic relationship"
+      }
+    ],
+    "scored": true
+  },
+  {
+    "id": "5acf0e7090d0e2f1bb8adb1e",
+    "sourceFile": "Biology Questions Riddles.docx",
+    "subject": "Biology",
+    "questionText": "I may be a conductor by which electromagnetic waves are sent out or received, In biology I am sometimes referred to as a \"feeler\" I vary widely in form, but am always made of one or more jointed segments. I am sometimes modified for other purposes, such as mating, brooding, swimming, and even anchoring an arthropod to a substrate I am the jointed structure in insects that bears organs which are sensitive to touch, smell and vibration Who am I?",
+    "correctAnswer": "Antenna",
+    "options": [
+      "Hormone",
+      "Antenna",
+      "Enzyme",
+      "Organelle"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "I may be a conductor by which electromagnetic waves are sent out or received,"
+      },
+      {
+        "order": 2,
+        "text": "In biology I am sometimes referred to as a \"feeler\""
+      },
+      {
+        "order": 3,
+        "text": "I vary widely in form, but am always made of one or more jointed segments."
+      },
+      {
+        "order": 4,
+        "text": "I am sometimes modified for other purposes, such as mating, brooding, swimming, and even anchoring an arthropod to a substrate"
+      },
+      {
+        "order": 5,
+        "text": "I am the jointed structure in insects that bears organs which are sensitive to touch, smell and vibration"
+      }
+    ],
+    "scored": true
+  },
+  {
+    "id": "e2991c508b25b3936e967ff0",
+    "sourceFile": "Biology Questions Riddles.docx",
+    "subject": "Biology",
+    "questionText": "My name is derived from a Latin verb, which means to boil. I am a process which precedes human history, and humans have exploited me since ancient times, To many people, I simply mean the production of alcohol Localized foods that are prepared by my process may be based on beans, grain, vegetables, fruits, honey, dairy products, fish, meat, or tea. I am the process by which complex organic compounds, such as glucose, are broken down by the action of enzymes into simpler compounds when no oxygen is present. Who am I?",
+    "correctAnswer": "Fermentation",
+    "options": [
+      "Organelle",
+      "Fermentation",
+      "Hormone",
+      "Ecosystem"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "My name is derived from a Latin verb, which means to boil."
+      },
+      {
+        "order": 2,
+        "text": "I am a process which precedes human history, and humans have exploited me since ancient times,"
+      },
+      {
+        "order": 3,
+        "text": "To many people, I simply mean the production of alcohol"
+      },
+      {
+        "order": 4,
+        "text": "Localized foods that are prepared by my process may be based on beans, grain, vegetables, fruits, honey, dairy products, fish, meat, or tea."
+      },
+      {
+        "order": 5,
+        "text": "I am the process by which complex organic compounds, such as glucose, are broken down by the action of enzymes into simpler compounds when no oxygen is present."
+      }
+    ],
+    "scored": true
+  },
+  {
+    "id": "d1f6c3e2f8b2cb8694288712",
+    "sourceFile": "Biology Questions Riddles.docx",
+    "subject": "Biology",
+    "questionText": "I am used metaphorically to refer to reasoning or decision making that is narrow in scope. In science, I am a common condition that affects many people in the world My underlying cause is believed to be a combination of genetic and environmental factors I occur, if the eyeball is too long or the cornea is too curved. (Are you extremely myopic)? I am the condition in which one unable to see distant objects clearly because the images are focused in front of the retina of the eye Who am I?",
+    "correctAnswer": "Myopia / short sightedness",
+    "options": [
+      "Enzyme",
+      "Hormone",
+      "Ecosystem",
+      "Myopia / short sightedness"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "I am used metaphorically to refer to reasoning or decision making that is narrow in scope."
+      },
+      {
+        "order": 2,
+        "text": "In science, I am a common condition that affects many people in the world"
+      },
+      {
+        "order": 3,
+        "text": "My underlying cause is believed to be a combination of genetic and environmental factors"
+      },
+      {
+        "order": 4,
+        "text": "I occur, if the eyeball is too long or the cornea is too curved. (Are you extremely myopic)?"
+      },
+      {
+        "order": 5,
+        "text": "I am the condition in which one unable to see distant objects clearly because the images are focused in front of the retina of the eye"
+      }
+    ],
+    "scored": true
+  },
+  {
+    "id": "39ea4c5d61abdf9e65c559b5",
+    "sourceFile": "Biology Questions Riddles.docx",
+    "subject": "Biology",
+    "questionText": "I have been noticed since ancient times, I am present throughout the animal kingdom, and an almost endless list could be given The reason for my existence was long speculated upon before Darwinian evolution provided a widely accepted explanation I am often homologous to structures that are functioning normally in other species I am a structure that has no apparent function and appears to be residual parts from a past ancestor Who am I?",
+    "correctAnswer": "Vestigial structure",
+    "options": [
+      "Chromosome",
+      "Vestigial structure",
+      "Enzyme",
+      "Hormone"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "I have been noticed since ancient times,"
+      },
+      {
+        "order": 2,
+        "text": "I am present throughout the animal kingdom, and an almost endless list could be given"
+      },
+      {
+        "order": 3,
+        "text": "The reason for my existence was long speculated upon before Darwinian evolution provided a widely accepted explanation"
+      },
+      {
+        "order": 4,
+        "text": "I am often homologous to structures that are functioning normally in other species"
+      },
+      {
+        "order": 5,
+        "text": "I am a structure that has no apparent function and appears to be residual parts from a past ancestor"
+      }
+    ],
+    "scored": true
+  },
+  {
+    "id": "04d0738cab2d23a4b2ed3669",
+    "sourceFile": "Biology Questions Riddles.docx",
+    "subject": "Chemistry",
+    "questionText": "Our name gives us three different identities Part of our name associates us with one of the secondary colours Another part sounds like we are a building for human habitation The last part of our part name places us under one of the states of matter We are a group of compounds that are able to trap heat in the atmosphere, keeping the Earth's surface warmer than it would be if we were not present. Who am I?",
+    "correctAnswer": "Greenhouse gases",
+    "options": [
+      "Greenhouse gases",
+      "Alkane",
+      "Electrolyte",
+      "Buffer"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "Our name gives us three different identities"
+      },
+      {
+        "order": 2,
+        "text": "Part of our name associates us with one of the secondary colours"
+      },
+      {
+        "order": 3,
+        "text": "Another part sounds like we are a building for human habitation"
+      },
+      {
+        "order": 4,
+        "text": "The last part of our part name places us under one of the states of matter"
+      },
+      {
+        "order": 5,
+        "text": "We are a group of compounds that are able to trap heat in the atmosphere, keeping the Earth's surface warmer than it would be if we were not present."
+      }
+    ],
+    "scored": true
+  },
+  {
+    "id": "f56f94117e01b8f27524d9ef",
+    "sourceFile": "Biology Questions Riddles.docx",
+    "subject": "Biology",
+    "questionText": "I may be a room, group of rooms, or building in which someone may live or stay. I may also be an agreement between two groups who have different opinions on a subject In biology, I am the act or state of adjustment or adaptation I am achieved through the action of the ciliary muscles that change the shape of the lens. I am the process by which the focus of the eye changes so that both distant and near objects can be made sharp Who am I?",
+    "correctAnswer": "Accommodation",
+    "options": [
+      "Hormone",
+      "Accommodation",
+      "Organelle",
+      "Chromosome"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "I may be a room, group of rooms, or building in which someone may live or stay."
+      },
+      {
+        "order": 2,
+        "text": "I may also be an agreement between two groups who have different opinions on a subject"
+      },
+      {
+        "order": 3,
+        "text": "In biology, I am the act or state of adjustment or adaptation"
+      },
+      {
+        "order": 4,
+        "text": "I am achieved through the action of the ciliary muscles that change the shape of the lens."
+      },
+      {
+        "order": 5,
+        "text": "I am the process by which the focus of the eye changes so that both distant and near objects can be made sharp"
+      }
+    ],
+    "scored": true
+  },
+  {
+    "id": "55777138e9e0e128e466e7c3",
+    "sourceFile": "MATHS QUIZ TRIAL.docx",
+    "subject": "Physics",
+    "questionText": "You can say I am a rigid body motion. With me I have nothing to do with mirror or mirror lines. I am a transformation and in I preserve shape and size in the plane. I am involved in sliding along a line segment and also am associated with a vector. The vector completely determines my transformation. Who am I?",
+    "correctAnswer": "Translation",
+    "options": [
+      "Momentum",
+      "Translation",
+      "Refraction",
+      "Torque"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "You can say I am a rigid body motion."
+      },
+      {
+        "order": 2,
+        "text": "With me I have nothing to do with mirror or mirror lines."
+      },
+      {
+        "order": 3,
+        "text": "I am a transformation and in I preserve shape and size in the plane."
+      },
+      {
+        "order": 4,
+        "text": "I am involved in sliding along a line segment and also am associated with a vector."
+      },
+      {
+        "order": 5,
+        "text": "The vector completely determines my transformation."
       }
     ],
     "scored": true

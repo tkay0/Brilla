@@ -1,102 +1,6 @@
 [
   {
-    "id": "fcc0e87d-7940-47c9-906f-f54112f4af04",
-    "sourceFile": "CHEMISTRY TRIAL QUIZ.docx",
-    "subject": "Chemistry",
-    "questionText": "Explain why endothermic reactions are supposed not to occur spontaneously.",
-    "correctAnswer": "The products formed (thermodynamically) are less stable than the reactants. OR The internal energy of products is higher than the internal energy of the reactants",
-    "scored": false
-  },
-  {
-    "id": "4a2b25b5-c5f8-4441-91a3-0643e18f7f32",
-    "sourceFile": "CHEMISTRY TRIAL QUIZ.docx",
-    "subject": "Chemistry",
-    "questionText": "The combustion of methane to form CO2 and H2O is an exothermic reaction and yet it does not occur spontaneously. Why?",
-    "correctAnswer": "The reaction needs external energy to overcome the activation energy. OR Energy is required to break the strong O-O bond oxygen before oxygen can react",
-    "scored": false
-  },
-  {
-    "id": "aa8ddcd8-abb8-4cb3-80a7-ecc927457a1a",
-    "sourceFile": "CHEMISTRY TRIAL QUIZ.docx",
-    "subject": "Chemistry",
-    "questionText": "Explain why exothermic compounds are supposed to be stable compounds.",
-    "correctAnswer": "When they are formed from their elements in their standard states they are more stable than the reactants. OR They contain less internal energy than the internal energy of the reactants put together",
-    "scored": false
-  },
-  {
-    "id": "3dbfd21a-95eb-4647-aade-33c920389ada",
-    "sourceFile": "CHEMISTRY TRIAL QUIZ.docx",
-    "subject": "Chemistry",
-    "questionText": "Which compounds would you need to prepare N-butylpropanamide?",
-    "correctAnswer": "1-butylamine (or 1-butanamine) and propanoic anhydride or chloride",
-    "scored": false
-  },
-  {
-    "id": "11ac028b-6314-4f98-ad80-42c8ba227f46",
-    "sourceFile": "CHEMISTRY TRIAL QUIZ.docx",
-    "subject": "Chemistry",
-    "questionText": "What compounds would be needed to prepare phenylmethanoate?",
-    "correctAnswer": "Phenol and methanoic acid",
-    "scored": false
-  },
-  {
-    "id": "e21d7295-474f-4554-9c9e-a5af18b1a1ba",
-    "sourceFile": "CHEMISTRY TRIAL QUIZ.docx",
-    "subject": "Chemistry",
-    "questionText": "Which compounds will be needed to prepare propanoic butanoic anhydride?",
-    "correctAnswer": "Propanoic acid and butanoic acid",
-    "scored": false
-  },
-  {
-    "id": "d8111e1d-e5b2-4eea-b87a-a1d9c2d02e0f",
-    "sourceFile": "CHEMISTRY TRIAL QUIZ.docx",
-    "subject": "Chemistry",
-    "questionText": "Which of the following are not composed of sub-particles? Electron, anti-proton, neutron.",
-    "correctAnswer": "Electron",
-    "scored": false
-  },
-  {
-    "id": "e80f1c93-81c2-46c0-ba7b-9e3b6e7adb9f",
-    "sourceFile": "CHEMISTRY TRIAL QUIZ.docx",
-    "subject": "Chemistry",
-    "questionText": "Which of the following are not composed of sub-particles? Anti-neutron, anti-neutrino, proton.",
-    "correctAnswer": "Anti-neutrino",
-    "scored": false
-  },
-  {
-    "id": "26c90f58-ca1f-4a0c-8572-fbc3af436a9e",
-    "sourceFile": "CHEMISTRY TRIAL QUIZ.docx",
-    "subject": "Chemistry",
-    "questionText": "Which of the following are not composed of sub-particles? Deuteron, alpha particle, neutrino?",
-    "correctAnswer": "Neutrino",
-    "scored": false
-  },
-  {
-    "id": "2d8d4d2d-5195-4da1-b382-f03534bbb003",
-    "sourceFile": "CHEMISTRY TRIAL QUIZ.docx",
-    "subject": "Chemistry",
-    "questionText": "What is chromatography?",
-    "correctAnswer": "A separation technique that depends on how different compounds move or partition between a moving phase and stationary phase",
-    "scored": false
-  },
-  {
-    "id": "755339f9-9d26-4353-839a-11c7816a3038",
-    "sourceFile": "CHEMISTRY TRIAL QUIZ.docx",
-    "subject": "Chemistry",
-    "questionText": "If you perform a column chromatography with the column packed with alumina how is separation achieved?",
-    "correctAnswer": "As solvent is passed down the column, the substances will show different abilities to be adsorbed on the surface of the alumina or desorbed and washed down by the solvent",
-    "scored": false
-  },
-  {
-    "id": "80f204cd-2e40-48e8-a0d9-4b2ff75dc02e",
-    "sourceFile": "CHEMISTRY TRIAL QUIZ.docx",
-    "subject": "Chemistry",
-    "questionText": "In paper chromatography, how are substances separated?",
-    "correctAnswer": "The paper has incorporated in it some water molecules. The substances have different abilities to partition between the stationary water (molecules) and the moving organic solvent",
-    "scored": false
-  },
-  {
-    "id": "60fa403f-4806-4990-95e6-6a927d8462aa",
+    "id": "fe53ee574560d314f870b9a6",
     "sourceFile": "Biology (Problem of the Day) - one-eighth to finals.docx",
     "subject": "Biology",
     "questionText": "Some athletes tend to train at higher altitudes for a period of time before major competitions. Give a physiological explanation for the benefit gained by athletes who train at high altitudes before competitions.",
@@ -104,7 +8,7 @@
     "scored": false
   },
   {
-    "id": "c05a8268-4098-4711-88a4-a1b38c7e7cf4",
+    "id": "b9d42098672eb4248790a3f7",
     "sourceFile": "Biology (Problem of the Day) - one-eighth to finals.docx",
     "subject": "Biology",
     "questionText": "Describe how energy ﬂows from the sun through the various trophic levels in a forest ecosystem. Give reasons for the loss of energy from one trophic level to another in a food chain",
@@ -112,7 +16,7 @@
     "scored": false
   },
   {
-    "id": "9dd30000-becb-4f57-9f12-389828194849",
+    "id": "247db385c4f854b7d371d564",
     "sourceFile": "Biology (Problem of the Day) - one-eighth to finals.docx",
     "subject": "Biology",
     "questionText": "In a genetics class, the students were made to cross true-breeding tall and hairy stemmed okro plants with true breeding dwarf and hairless okro plants. They found that all the F1 generation produced as the result of the cross were tall and hairy stemmed. The F1 plants were crossed with each other to obtain 1200 F2 plants. Of these 1200 F2 okro plants, they observed the following numbers of four different phenotypes, Phonotype Number of plants Tall and hairy plants 678 Tall and hairless stem-stemmed plants 230 Dwarf and hairy-stemmed 220 Dwarf and hairless-stemmed plants 72 Which height characteristic is dominant, tallness or dwarfness? Which stem characteristic is dominant, hairiness or hairless. Using the alleles, T for tallness, t for dwarfness, H for hairiness, and h for hairless, state the genotypes of the original true breeding plants. Using the same alleles as in c above, state the genotypes of the F1 hybrid. Using the same alleles, state the genotypes of the four types of okro plants found in the F2 generation? What were the expected numbers okro plants of each type in the F2 generation? Why do the observed number of okro plants of each type in the F2 generation differ from the expected?",
@@ -120,7 +24,7 @@
     "scored": false
   },
   {
-    "id": "cae2cb90-7919-4a66-89c4-6c2adba8e08a",
+    "id": "8514d98ef23db59890e7c8cc",
     "sourceFile": "Biology (Problem of the Day) - one-eighth to finals.docx",
     "subject": "Biology",
     "questionText": "DNA replication is semiconservative, meaning that each strand in the DNA double helix acts as a template for the synthesis of a new, complementary strand. This process takes us from one starting molecule to two \"daughter\" molecules, with each newly formed double helix containing one new and one old strand. Each new DNA molecule contains one strand from a parent template and a newly synthesized strand Using the letters O to represent original strands of a parent DNA, and N1, N2 and N3 to represent new complementary strands after 1st, 2nd and 3rd replications respectively, determine the strands of the DNA after three successive replications. Using the letters provided, state and list DNA molecules that do not contain an original strand at the end of the second replication. Determine the number of DNA molecules that contain a parent strand at the end of the third replication. How many of the DNA molecules produced at the end of the third replication do not contain any of the strands produced at the end of the first replication?",
@@ -128,7 +32,7 @@
     "scored": false
   },
   {
-    "id": "ca17a166-853a-438c-9584-f3bbdafd7374",
+    "id": "692e181ec3740da0c431aa5e",
     "sourceFile": "Biology (Problem of the Day) - one-eighth to finals.docx",
     "subject": "Biology",
     "questionText": "People with diabetes mellitus normally take their insulin as an injection. Using your knowledge in what happens in the stomach and small intestines of humans in terms of digestion and absorption, explain why insulin is not taken as a pill. An Individual who has had his gall bladder removed was advised to reduce the intake of fat containing foods. What effect will the removal of the individual’s gall bladder have on his ability to absorb and digest fat?",
@@ -136,11 +40,2726 @@
     "scored": false
   },
   {
-    "id": "1a22a345-c678-4db9-af0e-d7f3783c8bbe",
+    "id": "2a5bfe94164f2a9506a634dc",
     "sourceFile": "Biology (Problem of the Day) - one-eighth to finals.docx",
     "subject": "Chemistry",
     "questionText": "In a form three class at a senior high school, the students were are asked to design an experiment to see whether vitamin A improves night vision. They selected 100 general arts students and gave 50 of the students extra vitamin A for 6 weeks and then compared their night vision with that of the rest of the class. As a member of the science class explain the following (a) How you would select the group to be given the extra vitamin A (b) How would you standardize their intake of vitamins? (c) What tests would you conduct before giving the vitamin supplement? (d) How would you record and test the students’ night vision? (e) How would you analyze your results?",
     "correctAnswer": "Initially, any student already taking vitamin A supplements would be excluded as well as students on a special diet. The group to receive the supplement would be selected at random, and the experimenter should not know which students were in which group. Students would be asked not to change their diet from their normal one during the course of the experiment. Vitamin A tablets of a recommended dose would then be taken at intervals specified by a dietician or doctor. Students' night vision should be tested at the start of the experiment to establish a 'base line' for each student. A standard test card could be used, at a specified distance, in a dimly lit room not influenced by changes in the outside light intensity. Left and right eyes would be tested separately. A method of scoring would have to be devised, e.g. the number of correct identifications, weighted for the size of type. A standard time for students to become acclimatized to the dim light before starting the test would have to be decided. The mean score for each group would be calculated and the difference determined. It would then have to be judged whether this difference was significantly greater than the differences within either of the groups",
+    "scored": false
+  },
+  {
+    "id": "898e0cddc7dc23fb3a1d9180",
+    "sourceFile": "CHEMISTRY TRIAL QUIZ.docx",
+    "subject": "Chemistry",
+    "questionText": "Explain why endothermic reactions are supposed not to occur spontaneously.",
+    "correctAnswer": "The products formed (thermodynamically) are less stable than the reactants. OR The internal energy of products is higher than the internal energy of the reactants",
+    "scored": false
+  },
+  {
+    "id": "3c479db71f37989131e08f0c",
+    "sourceFile": "CHEMISTRY TRIAL QUIZ.docx",
+    "subject": "Chemistry",
+    "questionText": "The combustion of methane to form CO2 and H2O is an exothermic reaction and yet it does not occur spontaneously. Why?",
+    "correctAnswer": "The reaction needs external energy to overcome the activation energy. OR Energy is required to break the strong O-O bond oxygen before oxygen can react",
+    "scored": false
+  },
+  {
+    "id": "06810214abfcf01c856b4e55",
+    "sourceFile": "CHEMISTRY TRIAL QUIZ.docx",
+    "subject": "Chemistry",
+    "questionText": "Explain why exothermic compounds are supposed to be stable compounds.",
+    "correctAnswer": "When they are formed from their elements in their standard states they are more stable than the reactants. OR They contain less internal energy than the internal energy of the reactants put together",
+    "scored": false
+  },
+  {
+    "id": "1865562966541d92e8f1146b",
+    "sourceFile": "CHEMISTRY TRIAL QUIZ.docx",
+    "subject": "Chemistry",
+    "questionText": "Which compounds would you need to prepare N-butylpropanamide?",
+    "correctAnswer": "1-butylamine (or 1-butanamine) and propanoic anhydride or chloride",
+    "scored": false
+  },
+  {
+    "id": "fbbf3223167e08ec76f82586",
+    "sourceFile": "CHEMISTRY TRIAL QUIZ.docx",
+    "subject": "Chemistry",
+    "questionText": "What compounds would be needed to prepare phenylmethanoate?",
+    "correctAnswer": "Phenol and methanoic acid",
+    "scored": false
+  },
+  {
+    "id": "c0a323ea49187c2129755165",
+    "sourceFile": "CHEMISTRY TRIAL QUIZ.docx",
+    "subject": "Chemistry",
+    "questionText": "Which compounds will be needed to prepare propanoic butanoic anhydride?",
+    "correctAnswer": "Propanoic acid and butanoic acid",
+    "scored": false
+  },
+  {
+    "id": "e82a86f61fc20801c3392c76",
+    "sourceFile": "CHEMISTRY TRIAL QUIZ.docx",
+    "subject": "Chemistry",
+    "questionText": "Which of the following are not composed of sub-particles? Electron, anti-proton, neutron.",
+    "correctAnswer": "Electron",
+    "scored": false
+  },
+  {
+    "id": "034f85be19378ed8df84462f",
+    "sourceFile": "CHEMISTRY TRIAL QUIZ.docx",
+    "subject": "Chemistry",
+    "questionText": "Which of the following are not composed of sub-particles? Anti-neutron, anti-neutrino, proton.",
+    "correctAnswer": "Anti-neutrino",
+    "scored": false
+  },
+  {
+    "id": "a283f3165d8f26f400b5a126",
+    "sourceFile": "CHEMISTRY TRIAL QUIZ.docx",
+    "subject": "Chemistry",
+    "questionText": "Which of the following are not composed of sub-particles? Deuteron, alpha particle, neutrino?",
+    "correctAnswer": "Neutrino",
+    "scored": false
+  },
+  {
+    "id": "f29e74277764ecc35493c0ed",
+    "sourceFile": "CHEMISTRY TRIAL QUIZ.docx",
+    "subject": "Chemistry",
+    "questionText": "What is chromatography?",
+    "correctAnswer": "A separation technique that depends on how different compounds move or partition between a moving phase and stationary phase",
+    "scored": false
+  },
+  {
+    "id": "a32c806c84a111c0a367cccd",
+    "sourceFile": "CHEMISTRY TRIAL QUIZ.docx",
+    "subject": "Chemistry",
+    "questionText": "If you perform a column chromatography with the column packed with alumina how is separation achieved?",
+    "correctAnswer": "As solvent is passed down the column, the substances will show different abilities to be adsorbed on the surface of the alumina or desorbed and washed down by the solvent",
+    "scored": false
+  },
+  {
+    "id": "88f83360fed803c8732a687e",
+    "sourceFile": "CHEMISTRY TRIAL QUIZ.docx",
+    "subject": "Chemistry",
+    "questionText": "In paper chromatography, how are substances separated?",
+    "correctAnswer": "The paper has incorporated in it some water molecules. The substances have different abilities to partition between the stationary water (molecules) and the moving organic solvent",
+    "scored": false
+  },
+  {
+    "id": "f8ee435a25fb7cbf2ec60915",
+    "sourceFile": "CONTEST 28.doc",
+    "subject": null,
+    "questionText": "What is photoluminescence?",
+    "correctAnswer": "Light emission by absorption of photons What is the orbital period of a geosynchronous satellite?",
+    "scored": false,
+    "possiblyCorrupted": true
+  },
+  {
+    "id": "e8a4939c35e474713e557c7d",
+    "sourceFile": "CONTEST 28.doc",
+    "subject": null,
+    "questionText": "(2x - 7)10",
+    "correctAnswer": "20(2x - 7)9 [Let y = (2x - 7)10, dy/dx = 10(2x - 7)9 2 = 20(2x - 7)9 (Chain rule) ] (4x + 5)-8",
+    "scored": false,
+    "possiblyCorrupted": true
+  },
+  {
+    "id": "ea55f6372d302ac844e13c1f",
+    "sourceFile": "CONTEST 28.doc",
+    "subject": null,
+    "questionText": "Which is more electronegative, carbon or hydrogen?",
+    "correctAnswer": "Carbon What is the electronegative value for neon?",
+    "scored": false,
+    "possiblyCorrupted": true
+  },
+  {
+    "id": "c413a18d714f44270d308510",
+    "sourceFile": "ROUND 4-6.doc",
+    "subject": "Biology",
+    "questionText": "Give me three differences between primary and secondary succession.",
+    "correctAnswer": "Primary succession starts on an uninhabited or virgin ground while secondary succession starts on a previously colonized area. Primary succession starts with lower organisms (e.g. lichens) while secondary succession starts with relatively complex organisms. It takes a longer time for primary succession to reach a climax phase while it takes a relatively shorter period for secondary succession to do so",
+    "scored": false
+  },
+  {
+    "id": "7be8fea5ed55aa7c4e407272",
+    "sourceFile": "ROUND 4-6.doc",
+    "subject": "Biology",
+    "questionText": "Give me three differences between skeletal and smooth muscles.",
+    "correctAnswer": "Skeletal muscles have cross striations while smooth muscles do not. Skeletal muscles fatigue faster while smooth muscles fatigue relatively slowly. Activities of skeletal muscle are controlled voluntarily while those of smooth muscles are controlled by the autonomic (involuntary) nervous system. Skeletal muscles are attached to bones while smooth muscles are not. Skeletal muscle fibers are multi-nucleated while each smooth muscle cell has a single nucleus",
+    "scored": false
+  },
+  {
+    "id": "dee1354261360c1602332e69",
+    "sourceFile": "ROUND 4-6.doc",
+    "subject": "Chemistry",
+    "questionText": "Calculate the volume of CO2 produced at STP when Octane burns completely in air (Molar volume at STP = 22.4dm3",
+    "correctAnswer": "C8 H18 +17 O2 8 CO2 +18 H2O Hence moles of CO2 produced at STP = 8 x 22.4 dm3 =179.2dm3",
+    "scored": false
+  },
+  {
+    "id": "a2d297ba326c9e2834677db0",
+    "sourceFile": "ROUND 4-6.doc",
+    "subject": "Physics",
+    "questionText": "Calculate the volume of CO2 produced at STP when 1- heptene burns completely in air [Molar volume of a gas at STP is 22.4dm3]",
+    "correctAnswer": "1- heptene C7H14 C7H14 + O2 7CO2 + 7H20 Hence volume CO2 at STP = 7 x 22.4 dm3 = 156.8dm3 Calculate the wave number of a wave whose wavelength is",
+    "scored": false,
+    "possiblyCorrupted": true
+  },
+  {
+    "id": "89dbc5c31057e5837476978f",
+    "sourceFile": "ROUND 4-6.doc",
+    "subject": "Physics",
+    "questionText": "Calculate the velocity of a wave that has an angular velocity of = 40rad|s and wave number k = 0.1m-1.",
+    "correctAnswer": "Ѵ = Ѵ = Ѵ = 400m/s",
+    "scored": false
+  },
+  {
+    "id": "fdd1395f214cd17d17deacb6",
+    "sourceFile": "ROUND 4-6.doc",
+    "subject": "Chemistry",
+    "questionText": "Solve the equations completely x3 + 2x2 - 9x - 18 = 0",
+    "correctAnswer": "x = 3, -3, -2 SOLUTION: (x3 +2x2) - (9x + 18) = x2(x + 2) - 9(x + 2) = (x2 - 9)(x + 2)=0 Hence x = 3,-3,-2 2x3-x2-32x+ 16 = 0",
+    "scored": false
+  },
+  {
+    "id": "a2b0b70882676c88353be676",
+    "sourceFile": "ROUND 4-6.doc",
+    "subject": "Physics",
+    "questionText": "What is the major difference between a light microscope and an electron microscope with regard to how they work?",
+    "correctAnswer": "A light microscope works by focusing light rays on an object through lenses while an electron microscope works by beaming electrons on objects by means of magnets",
+    "scored": false
+  },
+  {
+    "id": "c9db1bf45a0899ba8e6ca84f",
+    "sourceFile": "ROUND 4-6.doc",
+    "subject": null,
+    "questionText": "An electron microscope has a higher resolution than a light microscope. What does the term resolution, mean.",
+    "correctAnswer": "Resolution is the ability to distinguish two adjacent and separate objects",
+    "scored": false
+  },
+  {
+    "id": "41bcc98af1e66fadd93efde5",
+    "sourceFile": "ROUND 4-6.doc",
+    "subject": "Physics",
+    "questionText": "to both schools 50cm3 of 0.10 mol dm-3 AlCl3 solution are added to 150cm3 0.06mol dm-3 HCl solution and the mixture shaken to give a uniform solution. Calculate the concentration of the Cl- ion in the new solution. A 2Ω resistor is connector in series with a 4 Ω resistor and a 6 V battery. Calculate the voltage across the 2 Ω resistor.",
+    "correctAnswer": "Current in circuit is given by V = IR I = = = 1 A Since the same current flows through each resistor, the across the 2Ω resistor is V = IR V = (1)(2) V = 2 volts. Two resistors of 20 Ω and 40Ω respectively are connected in parallel across a 4V battery. Calculate the current supplied by the battery",
+    "scored": false,
+    "possiblyCorrupted": true
+  },
+  {
+    "id": "1a3498d261c5808f9049657a",
+    "sourceFile": "ROUND 4-6.doc",
+    "subject": "Physics",
+    "questionText": "to both schools The radius of a spherical ball is increasing at a rate of 0.1cm/sec. 15. Find the rate of increase of volume when the radius is 10cm. Leave your answer in π. The resistance is = + 40Ω -======== = Ω-1 Using V = IR, the current supplied by the battery is I = I = 4 I = I = A Or I = 0.3A",
+    "correctAnswer": "40π cm3 /sec SOLUTION: V = (4π/3) r3; = 4π102 (0.1) = 40π cm3 /sec",
+    "scored": false
+  },
+  {
+    "id": "447a0a87ee54782fa53e4bc9",
+    "sourceFile": "ROUND 4-6.doc",
+    "subject": "Chemistry",
+    "questionText": "to both schools The radius of a spherical ball is increasing at a rate of 0.1cm/sec. 15. Find the rate of increase of volume when the radius is 10cm. Leave your answer in π. 16. Find the rate of increase of surface area when the radius is 20cm. Leave your answer in π.",
+    "correctAnswer": "16π cm2 /sec SOLUTION: A = 4πr2; = 8πr = 160π (0.1) = 16π",
+    "scored": false
+  },
+  {
+    "id": "6c584cc379992b163ce89b82",
+    "sourceFile": "ROUND 4-7.doc",
+    "subject": "Physics",
+    "questionText": "Calculate the total mechanical energy possessed by a 50g stone that is moving at 3m/s at a height of 10m above the ground. Take g=10m/s2 SOLUTION: ET = ½ mv2 + mgh = 0.05 = 0.05 = 0.05 ET = 5.225 J Calculate the tension in a rope on which a 2kg block is hanging. If the rope is cut, what will be the initial velocity of the block? Take g = 10m/s2 SOLUTION: T = mg T = (2)(10) T = 20N If the rope is cut the block will move downwards with an initial velocity of 0m/s. Calculate the concentrationof an NaOH solution of unknown concentration if 25cm3 of it requires 17.0cm3 of 0.15moldm-3 of HCl solution SOLUTION: Calculate the concentration of H2SO4 solution if 18cm3 of it neutralized 25cm3 of 0.10mol dm-3 NaOH solution. Give your answer to 3 places of decimals. SOLUTION: If A and B are acute angles and sin A = ½ and cos B = 1/3, evaluate Sin (A +B)",
+    "correctAnswer": "(1 + 2) /6 SOLUTION: if sin A = ½, then cosA = ()/2 ) If cosB = 1/3, then sin B = Sin (A+B) = sinAcosB + cosAsinB = Cos(A - B)",
+    "scored": false,
+    "possiblyCorrupted": true
+  },
+  {
+    "id": "db6614f61cfca517e3adcc09",
+    "sourceFile": "ROUND 4-7.doc",
+    "subject": "Physics",
+    "questionText": "Given that the speed of light is c = 3 x 108 m/s, calculate the wavelength of a radio transmission at a frequency of 100MHz. SOLUTION: C=f 3 x 108 = 100 x 106 = = 3m Given that the speed of light is c = 3 x 108 m/s, calculate the frequency of a radio transmission at a wavelength of 2cm. SOLUTION: C = f f = C/ f = f = 1.5 x 1010 Hz f = 15 GHz A salt of molar mass 64 forms a dihydrate. What is the percentage water content of the hydrated salt? [H = 1, O = 16] SOLUTION: Salt x (64) forms hydrate x. 2H2O Mass of the dihydrate = 64 +(2 x 18) = 100 % water = A salt of molar mass 64 forms a dihydrate. Calculate the percentage gain in mass when it forms the dihydrate. Give your answer to one place of decimal. SOLUTION: Molar mass of salt =64 Gain in mass when it forms dihydrate = 36 % gain = Find the equation of the tangent and normal to the curve y = x2 +1 at the point on the curve where x=1.",
+    "correctAnswer": "Tangent: y = 2x, Normal: y = -½ x + 5/2 SOLUTION: dy/dx = 2x, hence gradient of tangent at x = 1 is 2. For x = 1, y = 2 Equation of tangent is y - 2 = 2(x - 1), or y = 2x Equation of normal is y - 2 = -½ (x - 1) or y = -½ x + 5/2",
+    "scored": false
+  },
+  {
+    "id": "df00647ad0762a54c4309e6b",
+    "sourceFile": "ROUND 4-7.doc",
+    "subject": "Chemistry",
+    "questionText": "A curve has equation y = x - x2. Find the equations of the tangent and the normal to the curve at the point on the curve where x = -1.",
+    "correctAnswer": "Tangent y =3x +1, Normal: y= -1/3(x+7) SOLUTION: dy/ dx = 1-2x hence gradient at x =-1 is 1+2 = 3. For x = -1, y = -2 Equation of tangent is y +2 = 3(x +1) or y = 3x +1 Equation of normal is y +2 =-1/3 (x +1), or y = -1/3(x+7)",
+    "scored": false
+  },
+  {
+    "id": "51086946bb73bb8fd1ab99b9",
+    "sourceFile": "ROUND 4-7.doc",
+    "subject": null,
+    "questionText": "Where exactly in the body do the following occur? Synthesis of prothrombin",
+    "correctAnswer": "Liver",
+    "scored": false
+  },
+  {
+    "id": "f299aae8bb7d460d482a45d5",
+    "sourceFile": "ROUND 4-7.doc",
+    "subject": null,
+    "questionText": "Conversion of casinogen to casein",
+    "correctAnswer": "Stomach",
+    "scored": false
+  },
+  {
+    "id": "20e7fc888745efb05cf7c882",
+    "sourceFile": "ROUND 4-7.doc",
+    "subject": null,
+    "questionText": "The conversion of trypsinogen to trypsin",
+    "correctAnswer": "Small intestine (duodenum)",
+    "scored": false
+  },
+  {
+    "id": "c98b0fa8169b0dc55ea83636",
+    "sourceFile": "ROUND 4-7.doc",
+    "subject": "Biology",
+    "questionText": "Detection of osmotic changes in blood",
+    "correctAnswer": "Hypothalamus of the brain",
+    "scored": false
+  },
+  {
+    "id": "40707ce174debf6b79a37104",
+    "sourceFile": "Copy CONTEST 14.doc",
+    "subject": "Physics",
+    "questionText": "Find the depth of water that exerts a pressure of on the bottom of a vessel that contains it.",
+    "correctAnswer": "",
+    "scored": false
+  },
+  {
+    "id": "8a191c42558315df074b9c3a",
+    "sourceFile": "CONTEST 17.docx",
+    "subject": null,
+    "questionText": "State whether the indicated physical quantity increases, decreases, or remains unchanged. When a plastic rod is rubbed with fur, the rod becomes negatively charged and the fur becomes positively charged. How do the masses of the rod and fur change?",
+    "correctAnswer": "The mass of the rod increases; the mass of the fur decreases",
+    "scored": false
+  },
+  {
+    "id": "bdcaf68a6ecf5795f84cdd08",
+    "sourceFile": "CONTEST 17.docx",
+    "subject": null,
+    "questionText": "A radioactive sample decays by emitting gamma rays. How does the mass of the sample change?",
+    "correctAnswer": "Decreases",
+    "scored": false
+  },
+  {
+    "id": "ca455d046e955e208cdb2faf",
+    "sourceFile": "CONTEST 17.docx",
+    "subject": "Physics",
+    "questionText": "A sample of water at freezes into ice at ? How does the internal energy of the sample change?",
+    "correctAnswer": "Decreases",
+    "scored": false
+  },
+  {
+    "id": "9c16322298031728cad2886d",
+    "sourceFile": "CONTEST 17.docx",
+    "subject": null,
+    "questionText": "What name is given to the cluster of sporangia on the undersurface of leaves of ferns?",
+    "correctAnswer": "Sori/Sorus",
+    "scored": false
+  },
+  {
+    "id": "8ba34cdd7246939800ab13ec",
+    "sourceFile": "CONTEST 17.docx",
+    "subject": null,
+    "questionText": "Name the protective structure that covers each sorus.",
+    "correctAnswer": "Indusium/Indusia",
+    "scored": false
+  },
+  {
+    "id": "5cebdc070e6f37824481d91f",
+    "sourceFile": "CONTEST 17.docx",
+    "subject": null,
+    "questionText": "Fill in the Blank Spores of ferns germinate into a very small thin heart-shaped structure known as…..",
+    "correctAnswer": "Prothallus",
+    "scored": false
+  },
+  {
+    "id": "ab80ad8c0ba9f79052823de3",
+    "sourceFile": "CONTEST 17.docx",
+    "subject": "Maths",
+    "questionText": "Find the value of the trigonometric ratio leaving your answer in terms of a surd where appropriate. tan 1500",
+    "correctAnswer": "[ tan150 = tan(180 - 30) = - tan30 = -]",
+    "scored": false
+  },
+  {
+    "id": "1e1770cf05ec01042982f3b0",
+    "sourceFile": "CONTEST 17.docx",
+    "subject": null,
+    "questionText": "sin(1350)",
+    "correctAnswer": "[ sin135 = sin(180 - 45) = sin 45 = ]",
+    "scored": false
+  },
+  {
+    "id": "3d48c0f432bc82d367b58058",
+    "sourceFile": "CONTEST 17.docx",
+    "subject": null,
+    "questionText": "cos1200",
+    "correctAnswer": "- ½ [cos120 = cos(180- 60) = -cos60 = - ½",
+    "scored": false
+  },
+  {
+    "id": "d28c8315338745fb43654003",
+    "sourceFile": "CONTEST 17.docx",
+    "subject": "Physics",
+    "questionText": "What is the general name given to forces of attraction between covalent molecules?",
+    "correctAnswer": "van der Waal’s forces",
+    "scored": false
+  },
+  {
+    "id": "3703e954f616fa4e9f2c7e69",
+    "sourceFile": "CONTEST 17.docx",
+    "subject": "Physics",
+    "questionText": "Which is the strongest of the van der Waal’s forces?",
+    "correctAnswer": "Hydrogen bonds",
+    "scored": false
+  },
+  {
+    "id": "d66adb1801e3dab9ac535055",
+    "sourceFile": "CONTEST 17.docx",
+    "subject": "Physics",
+    "questionText": "What kind of intra-molecular forces exist between carbon II oxide molecules?",
+    "correctAnswer": "Dipole-dipole",
+    "scored": false
+  },
+  {
+    "id": "3257cbc1b86e0a9e8227bc7f",
+    "sourceFile": "CONTEST 17.docx",
+    "subject": "Biology",
+    "questionText": "What is the internal resistance of a battery made of three identical cells each with emfand internal resistance connected in series?",
+    "correctAnswer": "What is the emf of a battery made of three identical cells each with emfand internal resistance connected in parallel? What is the internal resistance of a battery made of three identical cells each with potential difference and internal resistance connected in parallel? Which order of insects possesses membranous wings, very large eyes and elongated abdomen? Odonata",
+    "scored": false
+  },
+  {
+    "id": "157cf1e97b2d0429c00e42ba",
+    "sourceFile": "CONTEST 17.docx",
+    "subject": null,
+    "questionText": "Which order of insects possesses piercing and sucking mouthparts modified to form a rostrum?",
+    "correctAnswer": "Hemiptera",
+    "scored": false
+  },
+  {
+    "id": "bca57ae60c992436c181f7ec",
+    "sourceFile": "CONTEST 17.docx",
+    "subject": null,
+    "questionText": "Which order of insects possesses forewings as hard exoskeletal elytra?",
+    "correctAnswer": "Coleoptera",
+    "scored": false
+  },
+  {
+    "id": "2aadcf4294ac6418fa1d0cf7",
+    "sourceFile": "CONTEST 17.docx",
+    "subject": "Maths",
+    "questionText": "Factorise the given expression: x2 -7x – 18",
+    "correctAnswer": "(x – 9)(x – 2) [ x2 – 9x + 2x – 18 = x(x – 9) + 2(x – 9) = (x – 9)(x + 2)",
+    "scored": false
+  },
+  {
+    "id": "1a9e90af92d5ccced605f2a2",
+    "sourceFile": "CONTEST 17.docx",
+    "subject": null,
+    "questionText": "(x – 3)2 – y2",
+    "correctAnswer": "(x – y – 3)(x + y – 3) [ difference of two squares ] 2x2 – 13x + 15 = 0",
+    "scored": false
+  },
+  {
+    "id": "c20b9069855e4017d2a48172",
+    "sourceFile": "CONTEST 17.docx",
+    "subject": "Biology",
+    "questionText": "COMMON PREAMBLE TO ALL SCHOOLS Chemical industries can be classified into 7 main groups. Name any one of them",
+    "correctAnswer": "Heavy Chemicals Fine Chemicals Fertilizers Food and Fermentation Metallurgy Petrochemicals Polymers The moment of inertia of a object is . What is the radius of gyration of the object? The moment of inertia of a rod which is long is about an axis through the centre of the rod. What is the moment of inertia about an axis through the end of the rod? The radius of gyration of a thin-walled hollow cylinder of mass is . What is the moment of inertia of the cylinder? Name the monomer units of chitin which is found in the exoskeleton of some organisms. Glucose",
+    "scored": false
+  },
+  {
+    "id": "8f52fead4958643be8d10103",
+    "sourceFile": "CONTEST 17.docx",
+    "subject": null,
+    "questionText": "Name the sugars that are found in honey.",
+    "correctAnswer": "Fructose and Glucose",
+    "scored": false
+  },
+  {
+    "id": "b7376d05f74a3c6538b1d258",
+    "sourceFile": "CONTEST 17.docx",
+    "subject": null,
+    "questionText": "Explain why cellulose is a recommended part of human diet even though humans cannot digest it.",
+    "correctAnswer": "It provides roughage/It helps maintain regularity of elimination of faeces",
+    "scored": false
+  },
+  {
+    "id": "602a3ac2602c67c8eb520074",
+    "sourceFile": "CONTEST 17.docx",
+    "subject": null,
+    "questionText": "Rationalise the denominator",
+    "correctAnswer": "[]",
+    "scored": false,
+    "possiblyCorrupted": true
+  },
+  {
+    "id": "2b2201ecac561e679e908db0",
+    "sourceFile": "CONTEST 17.docx",
+    "subject": "Chemistry",
+    "questionText": "How can you use dilute NaOH and NH3 to distinguish between a solution containing lead II ions and zinc II ions?",
+    "correctAnswer": "Both give white ppt with NaOH and both ppt dissolve in excess NaOH. Lead gives white ppt with NH3 insoluble in excess. Zinc gives white ppt soluble in excess with NH3",
+    "scored": false
+  },
+  {
+    "id": "ea23c7d34c885778b3ddfaa3",
+    "sourceFile": "CONTEST 17.docx",
+    "subject": "Chemistry",
+    "questionText": "Two test tubes are supposed to contain separately SO32- ions and the SO42- ions. How can you confirm this and identify which test tube contains what?",
+    "correctAnswer": "Test both solutions with either BaCl2 or lead acetate solutions. Ppt in both confirms presence of either SO32- or SO42-",
+    "scored": false
+  },
+  {
+    "id": "f7766138c4452a8b176a9d06",
+    "sourceFile": "CONTEST 17.docx",
+    "subject": "Chemistry",
+    "questionText": "Test both solutions with KMnO4 solution. SO42- does not affect the colour whereas SO32- discharges the colour of the KMnO4 How can you use AgNO3 solution to identify solutions of Br- and I- in separate test tubes?",
+    "correctAnswer": "With AgNO3 solution Br- gives a pale yellow or cream ppt, I- gives deep yellow ppt",
+    "scored": false
+  },
+  {
+    "id": "9ec039561377b21b0f595f4f",
+    "sourceFile": "CONTEST 17.docx",
+    "subject": "Physics",
+    "questionText": "Young’s modulus for a certain plastic is . A specimen of the plastic is 1 m long and has a cross-sectional area of . What is the elongation of the specimen when a stress of is applied assuming it remains elastic?",
+    "correctAnswer": "so elongation is . What is the strainwhen the specimen is stretched by a force? so What stress will produce a strain of ? The nutrition of some plants depend on root-bacterium association known as Root nodules",
+    "scored": false
+  },
+  {
+    "id": "a32ffef22a6aa8465f6bad8c",
+    "sourceFile": "CONTEST 17.docx",
+    "subject": "Biology",
+    "questionText": "The nutrition of some plants depend on root fungus association known as",
+    "correctAnswer": "Mycorrhiza",
+    "scored": false
+  },
+  {
+    "id": "2d780b883176ee7a89d813eb",
+    "sourceFile": "CONTEST 17.docx",
+    "subject": "Biology",
+    "questionText": "What name is given to the association between some fungal species and algae.",
+    "correctAnswer": "Lichens",
+    "scored": false
+  },
+  {
+    "id": "589d91e380779ccf31819839",
+    "sourceFile": "CONTEST 17.docx",
+    "subject": "Maths",
+    "questionText": "Evaluate the integral",
+    "correctAnswer": "18 [ ]",
+    "scored": false,
+    "possiblyCorrupted": true
+  },
+  {
+    "id": "d54ba928278188e989afd548",
+    "sourceFile": "CONTEST 17.docx",
+    "subject": "Chemistry",
+    "questionText": "What volume of CO2 at STP will be discharged into the atmosphere when a mole of butane is burnt completely in excess air? Molar volume of a gas at STP =22.4 litres.",
+    "correctAnswer": "C4H10 + 6½O2 → 4CO2 + 5H2O Hence volume CO2 = 4 x 22.4 = 89.6 litres",
+    "scored": false
+  },
+  {
+    "id": "ceb8fcd51082098b5e3d60b7",
+    "sourceFile": "CONTEST 17.docx",
+    "subject": "Chemistry",
+    "questionText": "What volume of oxygen at STP will be consumed when a mole of ethanol is burnt completely in excess oxygen? Molar volume of a gas at STP =22.4 litres.",
+    "correctAnswer": "C2H5OH + 3O2 → 2CO2 + 3H2O",
+    "scored": false
+  },
+  {
+    "id": "7fdeae88eb17aac194dc67e8",
+    "sourceFile": "CONTEST 17.docx",
+    "subject": "Chemistry",
+    "questionText": "Hence volume of oxygen = 3 x 22.4 = 67.2 litres What volume of CO2 at STP will be discharged into the atmosphere when a mole of benzene is burnt completely in excess oxygen? Molar volume of a gas at STP =22.4 litres.",
+    "correctAnswer": "C6H6 + 7½O2 → 6CO2 + 3H2O",
+    "scored": false
+  },
+  {
+    "id": "51949a0425b0260614da2d5c",
+    "sourceFile": "ROUND 2-1.doc",
+    "subject": "Physics",
+    "questionText": "Use the first law of thermodynamics to explain why the shaft of a bicycle pump heats up when the pump is used to inflate a tire. What other effect could lead to the heating?",
+    "correctAnswer": "According to the first law of thermodynamics, when work is done on a gas, the internal energy increases and heat energy is generated. Work is done on the pump when the piston compresses the air and forces it into the tire. (On the 'upstroke', fresh air is drawn into the shaft before also being compressed- this leads to a continued warming of the shaft). Another effect that leads to heating is friction between the parts of the pump. Explain why the surface of a car tire has grooves on it",
+    "scored": false,
+    "possiblyCorrupted": true
+  },
+  {
+    "id": "62f76f015235f233f9c65fad",
+    "sourceFile": "ROUND 2-1.doc",
+    "subject": "Chemistry",
+    "questionText": "6x-2 + 5x-1 + 1=0",
+    "correctAnswer": "x = -2 or x =-3 SOLUTION: x = -2 or x = -3 In mineral processing, ores are sometimes roasted during the process of extraction/purification. What is roasting?",
+    "scored": false
+  },
+  {
+    "id": "eea840b8c325d673789ecc71",
+    "sourceFile": "ROUND 2-1.doc",
+    "subject": "Physics",
+    "questionText": "Sometimes, when a satellite is de-commissioned, its trajectory is altered so that it re-enters the earth's atmosphere. Explain why this is done, and what happens to the satellite.",
+    "correctAnswer": "This is a means of disposing of the satellite. The satellite will burn up when it enters the atmosphere, due to friction generated by its speed within the atmosphere",
+    "scored": false
+  },
+  {
+    "id": "3d04c52793cbcced9e7e3bde",
+    "sourceFile": "ROUND 2-1.doc",
+    "subject": "Biology",
+    "questionText": "Methane burners are often used in greenhouses where crops like tomatoes are grown. What do you think is the importance of this?",
+    "correctAnswer": "The methane burners produce CO2, giving a CO2 enriched environment. The increased CO2 increases the rate of photosynthesis",
+    "scored": false
+  },
+  {
+    "id": "88cdd4db5de1d983b198a613",
+    "sourceFile": "ROUND 2-1.doc",
+    "subject": "Biology",
+    "questionText": "During rapid photosynthesis, glucose is produced at a rate faster than can be removed by the sieve tubes. The glucose is immediately converted to starch. What do you think is the importance of this?",
+    "correctAnswer": "A high level of glucose in the cells of the leaf can result in the osmotic pressure of the cells being lowered to a harmful level (i.e. the cells can absorb too much water). Starch, being insoluble can accumulate without causing osmotic disturbances",
+    "scored": false
+  },
+  {
+    "id": "52ef1dd368400ee4bf8aee82",
+    "sourceFile": "ROUND 2-1.doc",
+    "subject": "Chemistry",
+    "questionText": "A ship is moving in the direction 070o. It is instructed to move in a new direction 185o. Find the smallest angle it must turn through in order to move in the new direction.",
+    "correctAnswer": "115o. SOLUTION: 185o - 70o =115o",
+    "scored": false
+  },
+  {
+    "id": "b7432141dd6c3dff51c64796",
+    "sourceFile": "ROUND 2-1.doc",
+    "subject": "Chemistry",
+    "questionText": "If the bearing of A and B is 330o, find the bearing of B from A.",
+    "correctAnswer": "150o SOLUTION: 330o - 180o =150o",
+    "scored": false
+  },
+  {
+    "id": "c4b34c3a945b7b4655e8a306",
+    "sourceFile": "ROUND 2-1.doc",
+    "subject": "Chemistry",
+    "questionText": "Give the expected products when ethyl butanoate is reduced with LiAlH4. [1 attempt]",
+    "correctAnswer": "1- Butanol and ethanol SOLUTION: O CH3CH2CH2-OCH2CH3CH3CH2CH2CH2OH + CH3CH2OH Some ethyl butanoate is put in a test- tube and drops of dilute NaOH are added and heated. How can you tell if a reaction has taken place?",
+    "scored": false,
+    "possiblyCorrupted": true
+  },
+  {
+    "id": "8dd754143e7dfbc82939e1b8",
+    "sourceFile": "CONTEST 9.doc",
+    "subject": "Maths",
+    "questionText": "Give an expression for the effective resistance of three parallel resistors with resistance , and .",
+    "correctAnswer": "Give an expression for the effective capacitance of three parallel capacitances , and . Give an expression for the effective impedance of three series impedances , and . Factorise the quadratic expressions x2 - 5xy - 6y2 (x + y)(x - 6y) [ x2 - 5xy - 6y2 = x2 - 6xy + xy - 6y2 = x(x - 6y) + y(x - 6y) = (x + y)(x - 6y)]",
+    "scored": false
+  },
+  {
+    "id": "ff0c0a4aa52f4f315cb4e485",
+    "sourceFile": "CONTEST 9.doc",
+    "subject": null,
+    "questionText": "3x2 + 5xy + 2y2",
+    "correctAnswer": "(3x +2y)(x + y) [ 3x2 + 5xy + 2y2 = 3x2 + 3xy + 2xy + 2y2 = 3x(x + y) + 2y(x + y) = (3x + 2y)(x + y)]",
+    "scored": false
+  },
+  {
+    "id": "e1b8bb66212f7decc1cedbd8",
+    "sourceFile": "CONTEST 9.doc",
+    "subject": null,
+    "questionText": "5x2 - 2xy - 7y2",
+    "correctAnswer": "(x + y)(5x - 7y) [5x2 - 2xy - 7y2 = 5x2 + 5xy - 7xy - 7y2 = 5x(x +y)- 7y(x + y) = (x + y)(5x - 7y) ]",
+    "scored": false
+  },
+  {
+    "id": "f21f0caad903f5a1fc058ca7",
+    "sourceFile": "CONTEST 9.doc",
+    "subject": "Biology",
+    "questionText": "What name is given to the two genetically identical chromosomes that are attached to each other?",
+    "correctAnswer": "Sister Chromatids",
+    "scored": false
+  },
+  {
+    "id": "b56300fcf9129e836e64140a",
+    "sourceFile": "CONTEST 9.doc",
+    "subject": null,
+    "questionText": "Sister Chromatids are constricted and attached to each other at a region called",
+    "correctAnswer": "centromere",
+    "scored": false
+  },
+  {
+    "id": "4906dd54970f858b0f35d44a",
+    "sourceFile": "CONTEST 9.doc",
+    "subject": "Chemistry",
+    "questionText": "What name is given to a microtubule structure that brings about chromosomal movement during cell division?",
+    "correctAnswer": "Spindle How many elements are present in the Group 1 of the Periodic Table?",
+    "scored": false,
+    "possiblyCorrupted": true
+  },
+  {
+    "id": "42f71b40fc46d93465e1d661",
+    "sourceFile": "CONTEST 9.doc",
+    "subject": "Physics",
+    "questionText": "What is the lower fixed point on the Kelvin scale?",
+    "correctAnswer": "Absolute zero, the state of zero pressure of a gas",
+    "scored": false
+  },
+  {
+    "id": "5efe51dab459f487e6434445",
+    "sourceFile": "CONTEST 9.doc",
+    "subject": null,
+    "questionText": "What is the lower fixed point on the Celsius scale?",
+    "correctAnswer": "The ice point, the temperature of melting pure ice",
+    "scored": false
+  },
+  {
+    "id": "3c1c8ab8e2351f64a70405be",
+    "sourceFile": "CONTEST 9.doc",
+    "subject": "Maths",
+    "questionText": "Complete the sentence The measure of an acute angle is less than . . .",
+    "correctAnswer": "90 degrees",
+    "scored": false
+  },
+  {
+    "id": "3dae0f42c44e1d98ebe77516",
+    "sourceFile": "CONTEST 9.doc",
+    "subject": "Maths",
+    "questionText": "The measure of an obtuse angle is greater than . . .",
+    "correctAnswer": "90 degrees",
+    "scored": false
+  },
+  {
+    "id": "29b3089b62e4035c2cda1b75",
+    "sourceFile": "CONTEST 9.doc",
+    "subject": "Maths",
+    "questionText": "The measure of a reflex angle is greater than . . .",
+    "correctAnswer": "180 degrees",
+    "scored": false
+  },
+  {
+    "id": "6d731553875a8f5a1de1d520",
+    "sourceFile": "CONTEST 9.doc",
+    "subject": "Biology",
+    "questionText": "Name the process by which organisms can become modified over time",
+    "correctAnswer": "Natural selection",
+    "scored": false
+  },
+  {
+    "id": "5ba8210829cb20b639b6d8aa",
+    "sourceFile": "CONTEST 9.doc",
+    "subject": "Biology",
+    "questionText": "The maintenance of the internal conditions of an animal within certain boundaries is called",
+    "correctAnswer": "Homeostasis",
+    "scored": false
+  },
+  {
+    "id": "abcf5b9d0e8a48364a02629a",
+    "sourceFile": "CONTEST 9.doc",
+    "subject": "Biology",
+    "questionText": "Changes that occur in populations of organisms with the passage of time which results in increased adaptation of the organisms to the prevailing environment is called.",
+    "correctAnswer": "Evolution",
+    "scored": false
+  },
+  {
+    "id": "3fe2c400b3a2dd9cd49b9d05",
+    "sourceFile": "CONTEST 9.doc",
+    "subject": "Chemistry",
+    "questionText": "How do atomic orbitals overlap to form sigma bonds?",
+    "correctAnswer": "Orbitals overlap headlong What is the hybridization of carbon in carbon II oxide?",
+    "scored": false,
+    "possiblyCorrupted": true
+  },
+  {
+    "id": "4fe9d963fd2377099d494024",
+    "sourceFile": "CONTEST 9.doc",
+    "subject": "Physics",
+    "questionText": "What is the critical point of a substance?",
+    "correctAnswer": "The unique temperature and pressure above both of which only a gas phase exists?",
+    "scored": false
+  },
+  {
+    "id": "fcb1233eb694eb5d0306d9c3",
+    "sourceFile": "CONTEST 9.doc",
+    "subject": null,
+    "questionText": "What is the dew point?",
+    "correctAnswer": "The temperature at which there is sufficient water vapour in air to saturate it Complete the sentences using either mean, mode, median or standard deviation",
+    "scored": false
+  },
+  {
+    "id": "747a76a4da1e4f96d0a7d8a6",
+    "sourceFile": "CONTEST 9.doc",
+    "subject": null,
+    "questionText": "The middle value of a set of data (numbers) is the . .. .",
+    "correctAnswer": "MEDIAN",
+    "scored": false
+  },
+  {
+    "id": "288196475db68d1c6105a69f",
+    "sourceFile": "CONTEST 9.doc",
+    "subject": null,
+    "questionText": "The average of a set of data is the . . .",
+    "correctAnswer": "MEAN",
+    "scored": false
+  },
+  {
+    "id": "e90896ecaee403044453f20e",
+    "sourceFile": "CONTEST 9.doc",
+    "subject": null,
+    "questionText": "The most common value of a set of numbers is the . . .",
+    "correctAnswer": "MODE Fill in the blanks The plumule in some seeds may be enclosed in sheathing structures called",
+    "scored": false,
+    "possiblyCorrupted": true
+  },
+  {
+    "id": "a82fbbcc611e22de593bac2b",
+    "sourceFile": "CONTEST 9.doc",
+    "subject": null,
+    "questionText": "The radicle mal also be enclosed in a sheathing structures called …………..",
+    "correctAnswer": "Coleorhiza",
+    "scored": false
+  },
+  {
+    "id": "7b51a0c243837b3e73d9f06c",
+    "sourceFile": "CONTEST 9.doc",
+    "subject": null,
+    "questionText": "The short part of the seedling or embryo just above the cotyledons is called ….",
+    "correctAnswer": "Epicotyl",
+    "scored": false
+  },
+  {
+    "id": "b2187dbffd252f92a51ac577",
+    "sourceFile": "CONTEST 9.doc",
+    "subject": "Chemistry",
+    "questionText": "Solid CO2 is called 'dry ice'. Will dry ice melt or sublime if allowed to warm up?",
+    "correctAnswer": "Solid CO2 sublimes' Which kind of substances react with both acids and bases?",
+    "scored": false,
+    "possiblyCorrupted": true
+  },
+  {
+    "id": "81f8acf6d2675d7398149d68",
+    "sourceFile": "CONTEST 9.doc",
+    "subject": "Physics",
+    "questionText": "If the pressure amplitude of the sound wave from a loud speaker is 0.2 mPa at a distance of 1 m from the speaker, what is the amplitude 5 m away?",
+    "correctAnswer": "0.04 mPa [Amplitude is inversely proportional to distance so pressure at 5 m is ]",
+    "scored": false
+  },
+  {
+    "id": "b1e5a36f864b08c252b5bd09",
+    "sourceFile": "CONTEST 9.doc",
+    "subject": null,
+    "questionText": "What is the ratio of the intensity of sound at 2 m to the intensity at 10 m from a small speaker?",
+    "correctAnswer": "25 [Intensity obeys the inverse square law so .]",
+    "scored": false
+  },
+  {
+    "id": "3a8622ae59165a7ed98efd78",
+    "sourceFile": "CONTEST 9.doc",
+    "subject": "Chemistry",
+    "questionText": "Find the base if the subtraction ( 225 - 136) = 56 is true",
+    "correctAnswer": "7 [ x + 5 - 6 = 6, hence x = 7]",
+    "scored": false
+  },
+  {
+    "id": "154b24c8532a569825452080",
+    "sourceFile": "CONTEST 9.doc",
+    "subject": "Chemistry",
+    "questionText": "Find the base if the addition (156 + 77) =244 is true.",
+    "correctAnswer": "9 [ 6 + 7 - x = 4, x = 13 -4 = 9 ]",
+    "scored": false
+  },
+  {
+    "id": "3ca7f0b7b1d130488dd9681d",
+    "sourceFile": "CONTEST 9.doc",
+    "subject": "Chemistry",
+    "questionText": "Change the decimal number 38 to a number in base 6.",
+    "correctAnswer": "102six [ 38 = 36 + 2 = 1(62) + 0(6) + 2(60)",
+    "scored": false
+  },
+  {
+    "id": "f676c0c14e8a392816170e89",
+    "sourceFile": "CONTEST 9.doc",
+    "subject": null,
+    "questionText": "Describe the following types of fruits Drupe",
+    "correctAnswer": "Simple fleshy fruit with a single seed enclosed in a hard stony endocarp Berry",
+    "scored": false,
+    "possiblyCorrupted": true
+  },
+  {
+    "id": "48dd36053ec4b1902b2f5e3a",
+    "sourceFile": "CONTEST 9.doc",
+    "subject": "Chemistry",
+    "questionText": "100 cm3 of 0.10 moldm-3 NaCl solution are added to 200 cm3 of 0.04 moldm-3 silver nitrate solution. How many moles of free chloride ions will be left in solution?",
+    "correctAnswer": "Initial moles of chloride = (100/1000) x 0.1 = 0.01 Initial moles of silver ions = (200/1000) x 0.04 = 0.008 Therefore excess moles of Cl- = 0.01 - 0.008 = 0.002",
+    "scored": false
+  },
+  {
+    "id": "ff9d0672efabc352d81b4a70",
+    "sourceFile": "CONTEST 21.doc",
+    "subject": "Chemistry",
+    "questionText": "How many molecules of pyruvate are formed during glycolysis?",
+    "correctAnswer": "2 State the total number of ATP molecules that are consumed during glycolysis",
+    "scored": false,
+    "possiblyCorrupted": true
+  },
+  {
+    "id": "bbf6f344d879a1b767562863",
+    "sourceFile": "CONTEST 21.doc",
+    "subject": null,
+    "questionText": "If the numbers (x - 4), (x + 2) and (3x + 1) are consecutive terms of an Arithmetic Progression find x.",
+    "correctAnswer": "x = 7/2 [ (x + 2) - (x - 4) = (3x + 1) - (x + 2), hence 2x - 1 = 6 and 2x = 7, x = 7/2] The numbers (x - 1), (x + 1) and (x + 9) are consecutive terms of a Geometric Progression. Find x",
+    "scored": false,
+    "possiblyCorrupted": true
+  },
+  {
+    "id": "cae4fd0d6c86930190059064",
+    "sourceFile": "CONTEST 21.doc",
+    "subject": "Biology",
+    "questionText": "Fill in the blanks Root and shoots of plants increase in length through the activity of……….",
+    "correctAnswer": "Apical Meristem Older roots and stems increase in thickness through the activity of",
+    "scored": false,
+    "possiblyCorrupted": true
+  },
+  {
+    "id": "9486484f3b5bb745a7c0b099",
+    "sourceFile": "CONTEST 21.doc",
+    "subject": null,
+    "questionText": "Anal Gills",
+    "correctAnswer": "For gaseous exchange (don't accept breathing) Mouth Brushes",
+    "scored": false,
+    "possiblyCorrupted": true
+  },
+  {
+    "id": "591c9de82e1be4ac4f40c86a",
+    "sourceFile": "CONTEST 21.doc",
+    "subject": null,
+    "questionText": "How long is the object airborne?",
+    "correctAnswer": "Time to highest point is so flight time is",
+    "scored": false
+  },
+  {
+    "id": "2e66cc3fcfe68abc2583386b",
+    "sourceFile": "CONTEST 21.doc",
+    "subject": null,
+    "questionText": "How far from the launch point does the object land?",
+    "correctAnswer": "Range . Find a vector of length 10 parallel to the vector a = 2i - 2j",
+    "scored": false,
+    "possiblyCorrupted": true
+  },
+  {
+    "id": "853ea80eebf6694d860b46da",
+    "sourceFile": "CONTEST 21.doc",
+    "subject": "Physics",
+    "questionText": "What name is given to an allele which has the ability to mask its complementary allele?",
+    "correctAnswer": "Dominant Allele What is the distance through which a 15 kg object is lifted if of work is done in lifting it and acceleration due to gravity is ?",
+    "scored": false,
+    "possiblyCorrupted": true
+  },
+  {
+    "id": "4d4194331c44764a771c525d",
+    "sourceFile": "CONTEST 21.doc",
+    "subject": "Physics",
+    "questionText": "What is the average current through a water heater operated at if it delivers 36 kJ of heat in one minute?",
+    "correctAnswer": "How much electrical work is done when an object carrying a charge of is moved through a potential difference of ? Find the equation of the perpendicular bisector of the line segment with endpoints A(-2, 3) and B(4, -3) y = x + 5 [midpoint is (1, 0), slope of segment (-3 - 3)(4 -(-2)) = - 6/6 = -1 Slope of perpendicular line is 1, hence y - 3 = 1(x + 2), or y = x + 5]",
+    "scored": false
+  },
+  {
+    "id": "0e245e32740dd3ec7a7dba52",
+    "sourceFile": "CONTEST 21.doc",
+    "subject": "Maths",
+    "questionText": "Find the equation of the line through the point A(4,6) and perpendicular to the line with equation 2x + 3y = 6.",
+    "correctAnswer": "y = 3x/2 [slope of line is -2/3, slope of perpendicular line is 3/2, equation of perpendicular line is (y - 6) = (3/2)(x - 4) = 3x/2 - 6, hence y = 3x/2 Find the equation of the line through the point A(5, 5) and parallel to the line with equation 3x - 5y = 10",
+    "scored": false,
+    "possiblyCorrupted": true
+  },
+  {
+    "id": "63118b981bd23749f3b42f25",
+    "sourceFile": "CONTEST 21.doc",
+    "subject": "Chemistry",
+    "questionText": "Tetraoxomanganate VII ion reacts with ethanedioate ion in acid solution to give manganese II ion, carbon IV oxide and water. Write the balanced equation for the reaction.",
+    "correctAnswer": "2MnO4- + 5C2O42- + 16H+ → 2Mn2+ + 10CO2 + 8H2O Hexaoxo-μ-oxo-dichromate VI ion reacts with iron II ion in acid medium to give chromium III ion, iron III ion and water. Write the balanced equation for the reaction",
+    "scored": false,
+    "possiblyCorrupted": true
+  },
+  {
+    "id": "85316fc15eb3509ce392bea4",
+    "sourceFile": "CONTEST 5.doc",
+    "subject": null,
+    "questionText": "Fill in the blank. During pollination, pollen grains adhere to a sticky structure known as ……",
+    "correctAnswer": "Stigma",
+    "scored": false
+  },
+  {
+    "id": "170a94487a358c7c696a8384",
+    "sourceFile": "CONTEST 5.doc",
+    "subject": "Biology",
+    "questionText": "Which type of animals are likely to disperse seeds within brightly coloured fleshy fruits?",
+    "correctAnswer": "Birds",
+    "scored": false
+  },
+  {
+    "id": "afcadb60bcdf8c83607ba954",
+    "sourceFile": "CONTEST 5.doc",
+    "subject": "Biology",
+    "questionText": "What name is given to the sweet liquid that insects and other animals seek when they visit fruits?",
+    "correctAnswer": "Nectar",
+    "scored": false
+  },
+  {
+    "id": "d488fba42f70165679b1de4b",
+    "sourceFile": "CONTEST 5.doc",
+    "subject": "Physics",
+    "questionText": "What is meant by half life of a radioactive substance?",
+    "correctAnswer": "Time taken for the radioactivity of a radioactive substance to decrease by 50% Define rate constant of a reaction",
+    "scored": false,
+    "possiblyCorrupted": true
+  },
+  {
+    "id": "2dee19b14610dc160e82832c",
+    "sourceFile": "CONTEST 5.doc",
+    "subject": "Physics",
+    "questionText": "What is the time constant of a circuit with resistance and inductance ?",
+    "correctAnswer": "What is the resonance frequency of a circuit with inductance and capacitance ? Find the area of a square of perimeter 48 cm 144 cm2 [ side = 48/4 = 12 cm, and area = 122 = 144 cm2]",
+    "scored": false
+  },
+  {
+    "id": "20e30d70fd4dbc53536c688c",
+    "sourceFile": "CONTEST 5.doc",
+    "subject": null,
+    "questionText": "Find the perimeter of a square of area 8 cm2.",
+    "correctAnswer": "[side = , hence perimeter = 8]",
+    "scored": false
+  },
+  {
+    "id": "8fd1b1863b382433c45bb218",
+    "sourceFile": "CONTEST 5.doc",
+    "subject": null,
+    "questionText": "Find the total surface area of a cubic box of sides 3cm",
+    "correctAnswer": "54 cm2 [ a cube has six faces each of area 32 cm2 = 9 cm2. Hence total area = 6 (9) 54 cm2]",
+    "scored": false
+  },
+  {
+    "id": "897bcce8a896fc95f921c84f",
+    "sourceFile": "CONTEST 5.doc",
+    "subject": null,
+    "questionText": "Name the insects that are mostly responsible for pollination",
+    "correctAnswer": "Bees",
+    "scored": false
+  },
+  {
+    "id": "e0d04c2c2ff7628f8a8ee31f",
+    "sourceFile": "CONTEST 5.doc",
+    "subject": null,
+    "questionText": "Name the insect type that normally pollinates flowers which possess long slender floral tubes filled with nectar.",
+    "correctAnswer": "Butterflies",
+    "scored": false
+  },
+  {
+    "id": "667f346fa6c2781b869cf409",
+    "sourceFile": "CONTEST 5.doc",
+    "subject": null,
+    "questionText": "Which type of flowers are not typically pollinated by insects?",
+    "correctAnswer": "Red flowers",
+    "scored": false
+  },
+  {
+    "id": "fb85345290f2d30e7639d5ce",
+    "sourceFile": "CONTEST 5.doc",
+    "subject": "Chemistry",
+    "questionText": "What is an electrochemical cell?",
+    "correctAnswer": "A set up consisting of electrodes dipping into an electrolyte in which a chemical reaction generates or uses an electric current. What is the name of a cell that uses an electric current to drive a spontaneous reaction?",
+    "scored": false,
+    "possiblyCorrupted": true
+  },
+  {
+    "id": "d37fb48edc2190454c91bf7c",
+    "sourceFile": "CONTEST 5.doc",
+    "subject": "Physics",
+    "questionText": "What accounts for damping in an oscillatory electrical circuit?",
+    "correctAnswer": "Resistance",
+    "scored": false
+  },
+  {
+    "id": "095e4813ff81699761c33c9e",
+    "sourceFile": "CONTEST 5.doc",
+    "subject": null,
+    "questionText": "Under what damping condition does a damped oscillator attain steady state in the shortest time?",
+    "correctAnswer": "Critical damping",
+    "scored": false
+  },
+  {
+    "id": "b918a74c1d7e31150b4b4372",
+    "sourceFile": "CONTEST 5.doc",
+    "subject": "Chemistry",
+    "questionText": "Volume of a square pyramid is 64 cm2. If the height is 12 cm, find the side of its square base.",
+    "correctAnswer": "4 cm [12x2/3 = 64, hence 4x2 = 64, x2 = 16 and x = 4 cm]",
+    "scored": false
+  },
+  {
+    "id": "82fdabcdc2a3ebab2fee9492",
+    "sourceFile": "CONTEST 5.doc",
+    "subject": "Chemistry",
+    "questionText": "A cone has base radius 7 cm and height 18 cm. Find its volume (Use )",
+    "correctAnswer": "924 cm3 [Volume = 72(18)(22/7)/3 =7( 6)(22) = 42 (22) = 924 cm3]",
+    "scored": false
+  },
+  {
+    "id": "8622d1fbbc535ae048d58b96",
+    "sourceFile": "CONTEST 5.doc",
+    "subject": null,
+    "questionText": "If the radius of a sphere is tripled, by how many times is the volume increased?",
+    "correctAnswer": "27 [Volume = k(3R)3 = 27(kR3) ]",
+    "scored": false
+  },
+  {
+    "id": "b230ad8e1ba5a9a047a03914",
+    "sourceFile": "CONTEST 5.doc",
+    "subject": null,
+    "questionText": "Name the class of fishes that lack operculum and swim bladder.",
+    "correctAnswer": "Chondrichthyes",
+    "scored": false
+  },
+  {
+    "id": "3daf5ff854b9bee50ec76538",
+    "sourceFile": "CONTEST 5.doc",
+    "subject": null,
+    "questionText": "Bony fishes belong to which class of fishes.",
+    "correctAnswer": "Osteichthyes",
+    "scored": false
+  },
+  {
+    "id": "e406e6f2e272d0ae4c45f30b",
+    "sourceFile": "CONTEST 5.doc",
+    "subject": null,
+    "questionText": "Sharks and rays belong to which class of fishes.",
+    "correctAnswer": "Chondrichthyes",
+    "scored": false
+  },
+  {
+    "id": "5c123ab40c75cf400e1bc7b6",
+    "sourceFile": "CONTEST 5.doc",
+    "subject": "Chemistry",
+    "questionText": "What is a deliquescent chemical?",
+    "correctAnswer": "A chemical that absorbs so much water from the atmosphere that it dissolves in it. What is an Efflorescent chemical?",
+    "scored": false,
+    "possiblyCorrupted": true
+  },
+  {
+    "id": "ad5cf17247623cb22920c56c",
+    "sourceFile": "CONTEST 5.doc",
+    "subject": "Physics",
+    "questionText": "A thin biconvex lens forms a real inverted image of an object at the same location on the axis of the lens as the object. What is the focal length of the lens if the object is 100 cm from the poles of the lens?",
+    "correctAnswer": "50 cm Using the real-is-positive sign convention, so",
+    "scored": false
+  },
+  {
+    "id": "01d2810565a55d826e121446",
+    "sourceFile": "CONTEST 5.doc",
+    "subject": null,
+    "questionText": "The radius of curvature of a concave mirror is 50 cm. What is the focal length of the mirror?",
+    "correctAnswer": "25 cm",
+    "scored": false
+  },
+  {
+    "id": "47a2bdbf4568205f3a374506",
+    "sourceFile": "CONTEST 5.doc",
+    "subject": null,
+    "questionText": "A concave mirror forms a real inverted image of an object at the same location on the axis of the mirror as the object. What is the focal length of the mirror if the object is 150 cm from the pole of the mirror?",
+    "correctAnswer": "75 cm If x +3y = 2x, find the ratio x : y",
+    "scored": false
+  },
+  {
+    "id": "6c5f96d5e827198af673b1df",
+    "sourceFile": "CONTEST 5.doc",
+    "subject": null,
+    "questionText": "If 2x - y/2 = y, find the ratio y : x",
+    "correctAnswer": "y : x = 4 : 3 [2x = 3y/2, hence y/x = 4/3, and y : x = 4 : 3 ]",
+    "scored": false
+  },
+  {
+    "id": "de26a86ea16b1fcee4f24957",
+    "sourceFile": "CONTEST 5.doc",
+    "subject": null,
+    "questionText": "A man spends 90% of his salary and saves GHc 50 a month. Find his annual income.",
+    "correctAnswer": "GHc 6,000 [monthly income is 10(GHc 50) = GHc 500, hence annual income is 12(GHc 500) = GHc 6000]",
+    "scored": false
+  },
+  {
+    "id": "10d12f78c60f247e91e6bd1b",
+    "sourceFile": "CONTEST 5.doc",
+    "subject": "Biology",
+    "questionText": "What is the function of Lignin in plants?",
+    "correctAnswer": "It provides mechanical support to cells",
+    "scored": false
+  },
+  {
+    "id": "125204b8e5024b9006ca048a",
+    "sourceFile": "CONTEST 5.doc",
+    "subject": "Biology",
+    "questionText": "What is the advantage of suberin deposition in plants?",
+    "correctAnswer": "It is waxy in nature and therefore prevents water loss/Make cell walls impervious to water",
+    "scored": false
+  },
+  {
+    "id": "d79434b60f9519274712aa3a",
+    "sourceFile": "CONTEST 5.doc",
+    "subject": "Biology",
+    "questionText": "What is the composition of fungal cell walls?",
+    "correctAnswer": "Fungal cell walls have chitin",
+    "scored": false
+  },
+  {
+    "id": "521bd97f9dda9a8066b2e8cc",
+    "sourceFile": "CONTEST 5.doc",
+    "subject": "Chemistry",
+    "questionText": "Calculate the concentration in moldm-3 of Na2CO3 solution if 25 cm3 of it require 15 cm3 of 0.10 moldm-3 HCl solution in a titration in which methyl orange is used as indicator.",
+    "correctAnswer": "Na2CO3 + 2HCl → 2NaCl + CO2 + H2O 25.0, M 15, 0.10 (15.0 x 0.10)/(25.0 x M) = 2/1 hence M = 0.03 moldm-3 Calculate the concentration of H2SO4 solution in moldm-3 if in a titration using methyl orange as indicator 20 cm3 of it require 22 cm3 of 0.12 moldm-3 solution of KOH",
+    "scored": false,
+    "possiblyCorrupted": true
+  },
+  {
+    "id": "69deecc398c18ad0ce88c8bd",
+    "sourceFile": "CONTEST 5.doc",
+    "subject": "Physics",
+    "questionText": "What is the speed of a wavewith period and wavelength ?",
+    "correctAnswer": "When an object with volume is suspended in water by means of a spring balance, the balance reads . What is the weight of the object in air? The density of water is and acceleration due to gravity is . 2.2 N Lost weight equals weight of water displaced or so total weight is",
+    "scored": false
+  },
+  {
+    "id": "78ce1d11cbb199360fc1bae4",
+    "sourceFile": "CONTEST 5.doc",
+    "subject": "Chemistry",
+    "questionText": "What is the decay constant of a radioactive isotope whose half-life is 0.1 s?",
+    "correctAnswer": "or",
+    "scored": false
+  },
+  {
+    "id": "ac255f8087645f26fba19ecf",
+    "sourceFile": "CONTEST 5.doc",
+    "subject": null,
+    "questionText": "A distance of 15 km is represented by 3 cm on a map. Find the scale of the map.",
+    "correctAnswer": "1 : 500,000 [3cm : 1500000cm ie 1 : 500,000)",
+    "scored": false
+  },
+  {
+    "id": "05feeb3383a950a7304acc91",
+    "sourceFile": "CONTEST 5.doc",
+    "subject": null,
+    "questionText": "A distance of 200km is represented by 4cm on a map. Find the distance represented by 3 cm on the map.",
+    "correctAnswer": "150 km [3/4(200) = 150 ]",
+    "scored": false
+  },
+  {
+    "id": "e460d704c528637a02012d73",
+    "sourceFile": "CONTEST 5.doc",
+    "subject": null,
+    "questionText": "Find the ratio of the area of a circle of radius 7 cm to the area of a circle of radius 14 cm.",
+    "correctAnswer": "1 : 4 [ 72 : 142 = 1 : 22 = 1 : 4 ]",
+    "scored": false
+  },
+  {
+    "id": "b381859fbfa39eec16137bfe",
+    "sourceFile": "Copy CONTEST 11.doc",
+    "subject": "Chemistry",
+    "questionText": "A flat disk is spinning at about a vertical axis. Find the speed of a point on the disk from the axis.",
+    "correctAnswer": "The speed of a point from the axis of a flat disk spinning about a vertical axis is . Find the angular speed of the disk. A flat disk is spinning at about a horizontal axis. Find the speed of a point on the disk from the axis. Give one process each by which nitrogenous compounds are removed from the environment. ANSWERS: a. Nitrification b. Nitrogen fixation c. Denitrification d. Decomposition e. Thunderstorm PREAMBLE: Perform the indicated operation and leave your answer in scientific notation. (5 × 108) × (8 × 107) 4.0 × 1016 [40 × 1015 = 4.0 × 1016] (7 × 10-10) × (6 × 1015)",
+    "scored": false
+  },
+  {
+    "id": "5cfd6de7e756acaab46f2e19",
+    "sourceFile": "Copy CONTEST 11.doc",
+    "subject": "Maths",
+    "questionText": "Find the sine of the angle of refraction for light incident from the glass to air at .",
+    "correctAnswer": "Find the sine of the angle of reflection for light incident from the glass to air at",
+    "scored": false
+  },
+  {
+    "id": "77ccb419554ba5bed75ad561",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Give the SI unit of the physical quantity. [PRELIMS] (1-27) 1. Luminous intensity.",
+    "correctAnswer": "Candela",
+    "scored": false
+  },
+  {
+    "id": "2969dc793af70cc69663ed21",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Maths",
+    "questionText": "Give the SI unit of the physical quantity. 2. Solid angle.",
+    "correctAnswer": "Steradian",
+    "scored": false
+  },
+  {
+    "id": "5270b54ef49a336b42cabc36",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Chemistry",
+    "questionText": "Give the SI unit of the physical quantity. Amount of substance.",
+    "correctAnswer": "Mole",
+    "scored": false
+  },
+  {
+    "id": "f814b542124f14b7cf28d0fb",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The magnitude of the charge on an electron is approximately. 1.6 × 10−19 C. A copper wire carries a current of 8 A. Find the rate of flow of electrons through the wire.",
+    "correctAnswer": "𝟓 × 𝟏𝟎𝟏𝟗/𝐬 Rate = 𝐼/𝑒 = 8 A ÷ (1.6 × 10−19 C) = 5 × 1019/𝑠",
+    "scored": false
+  },
+  {
+    "id": "299cd5f38493bdbaa64af8dc",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The magnitude of the charge on an electron is approximately. 1.6 × 10−19 C. A plating bath operates with an electron flow rate of 1.0 × 1016/s. Find the bath current. ANSWER: 𝟏. 𝟔 𝐦𝐀 𝐼 = 𝑒 × Rate = 1.6 × 10−3 A = 1.6 mA An aluminium wire carries a current of 40 mA. Find the rate of flow of electrons through the wire.",
+    "correctAnswer": "𝟐𝟓 × 𝟏𝟎𝟏𝟔/𝐬 = 𝟐. 𝟓 × 𝟏𝟎𝟏𝟕/𝐬 Rate = 𝐼/𝑒 = 40 mA ÷ (1.6 × 10−19 C) = 25 × 1016/𝑠",
+    "scored": false
+  },
+  {
+    "id": "ccec1c6de7670df582089efb",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The acceleration due to gravity is approximately 10 m\\s2. An object floating in water displaces 5 kg of water. Find the weight of the object.",
+    "correctAnswer": "50 N Weight = weight of water displaced",
+    "scored": false
+  },
+  {
+    "id": "1642dd8649e92f94c3ba4a3c",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The acceleration due to gravity is approximately 10 m\\s2. An object floating in water displaces 2 kg of water. Find the upthrust on the object.",
+    "correctAnswer": "20 N Upthrust = weight of water displaced = 2 kg×10 m/s^2=20 N",
+    "scored": false
+  },
+  {
+    "id": "72c521392aeca541d7367e96",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The acceleration due to gravity is approximately 10 m\\s2. The upthrust on an object submerged in water is 30 N. Find the mass of water displaced by the object.",
+    "correctAnswer": "3 kg",
+    "scored": false
+  },
+  {
+    "id": "cb1c87d6e8498b82f0beb139",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The acceleration due to gravity is approximately 10 m\\s2. Mass of water displaced = upthrust/g = 30 N÷10 m/s^2=3 kg The speed of an object moving with a uniform acceleration of 2 m/s2 is 10 m/s at a certain instant. Find its speed 10 s later.",
+    "correctAnswer": "𝟑𝟎 𝐦/𝐬 𝑣 = 𝑢 + 𝑎𝑡 = 10 m/s + 2 m/s2 × 10 s = 30 m/s",
+    "scored": false
+  },
+  {
+    "id": "81e5097473d3565e5ff06a33",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The acceleration due to gravity is approximately 10 m\\s2. The speed of an object moving with a uniform acceleration of 5 m/s2 is 10 m/s at a certain instant. Find the time it takes to reach a speed of 50 m/s.",
+    "correctAnswer": "𝟖 𝐬 𝑡 = (𝑣 − 𝑢)/𝑎 = (50 m/s − 10 m/s) ÷ (5 m/s2) = 8 s",
+    "scored": false
+  },
+  {
+    "id": "bdf9d2aaacf2861cff70877c",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The acceleration due to gravity is approximately 10 m\\s2. The speed of an object moving with a uniform acceleration of 2 m/s2 is 10 m/s at a certain instant. Find its speed 2 s earlier.",
+    "correctAnswer": "𝟔 𝐦/𝐬 𝑣 = 𝑢 + 𝑎𝑡 = 10 m/s + 2 m/s2 × (−2 s) = 6 m/s",
+    "scored": false
+  },
+  {
+    "id": "9195c617b9aacffa4562691b",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Find the weight of the object.",
+    "correctAnswer": "𝟐𝟎𝟎 𝐍 𝑤 = 𝑚𝑔 = 20 kg × 10 m/s2 = 200 N",
+    "scored": false
+  },
+  {
+    "id": "9b5289008d9a446d588a528e",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Find the magnitude of the normal force on the object.",
+    "correctAnswer": "𝟏𝟕𝟓 𝐍 𝑁 = 𝑚𝑔 − 𝐹 cos 60° = 200 N − 50 N × cos 60° = 175 N",
+    "scored": false
+  },
+  {
+    "id": "1e59493a61c61ffed12bb3ce",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Find the magnitude of the static friction force on the object. 𝑓 = 𝐹 cos 30° = 25√3 N = 43 N",
+    "correctAnswer": "𝟐𝟓√𝟑 𝐍 = 𝟒𝟑 𝐍",
+    "scored": false
+  },
+  {
+    "id": "929a4ee4d3b908047e62adfc",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "What is the mass number for a nuclide with neutron number 20 and atomic number 20?",
+    "correctAnswer": "40",
+    "scored": false
+  },
+  {
+    "id": "94f5fdd5ffde0cebd463ae64",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "What is the atomic number for a nuclide with mass number 65 and neutron number 35?",
+    "correctAnswer": "30",
+    "scored": false
+  },
+  {
+    "id": "d3780bfe1b61b6c8e280802f",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "How many protons are there in a nuclide with 21 neutrons and a mass number of 39?",
+    "correctAnswer": "18",
+    "scored": false
+  },
+  {
+    "id": "618a9796f4fb0e6115e205fb",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The image distance in a concave mirror is 50 cm when the object distance is 50 cm. Find the focal length of the mirror.",
+    "correctAnswer": "𝟐𝟓 𝐜𝐦 𝑓 = 𝑢𝑣/(𝑢 + 𝑣) = 25 cm",
+    "scored": false
+  },
+  {
+    "id": "8ee0eabf8979c5f151f5aa84",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The image distance in a concave mirror with focal length 20 cm is 40 cm. Find the object distance.",
+    "correctAnswer": "𝟒𝟎 𝐜𝐦 𝑢 = 𝑓𝑣/(𝑣 − 𝑓) = (20 cm)(40 cm)/(20 cm) = 40 cm",
+    "scored": false
+  },
+  {
+    "id": "9e96ea8ee78bb85c47eb1b2d",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "A 20 kg object lies on a horizontal rough surface. The limiting coefficient of static friction is 0.4. The acceleration due to gravity is approximately 10 m/s2. The object distance in a concave mirror with focal length 20 cm is 40 cm. Find the magnification. ANSWER: 𝟏 𝑀 = 𝑣/𝑢 = 𝑓/(𝑢 − 𝑓) = 1 Find the magnitude of the smallest force that can cause the object to move horizontally.",
+    "correctAnswer": "𝟖𝟎 𝐍 𝐹 = 𝑓𝑠 = 𝜇𝑠𝑁 = 0.4 × 20 kg × 10 m/s2 = 80 N",
+    "scored": false
+  },
+  {
+    "id": "0cda3ecd9d8b7062174f8244",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Find the acceleration of the object when a 120 N horizontal force acts on it if the coefficient of kinetic friction is 0.2.",
+    "correctAnswer": "𝟒 𝐦/𝐬𝟐 𝑎 = 𝐹net/𝑚 = [120 N − (0.2 × 20 kg × 10 m/s2)]/(20 kg) = 4 m/s2",
+    "scored": false
+  },
+  {
+    "id": "cc109e9c3dbc916dc568c028",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Find the magnitude of the smallest horizontal force that can keep the object moving steadily if the coefficient of kinetic friction is 0.2",
+    "correctAnswer": "𝟒𝟎 𝐍 𝐹 = 𝑓 = 𝜇𝑁 = (0.2 × 20 kg × 10 m/s2) = 40 N",
+    "scored": false
+  },
+  {
+    "id": "58ffdae5804df7741aa41dc5",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Find the magnitude of the force needed to stretch a spring with spring constant 20 N/m by 5 mm.",
+    "correctAnswer": "𝟎. 𝟏 𝐍 𝐹 = 𝑘|𝑥| = 20 N/m × 5 × 10−3 m = 0.1 N",
+    "scored": false
+  },
+  {
+    "id": "92e05787be1a1faf964ebf7f",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Find the extension of a spring with spring constant 200 N/m when it is stretched by a 2 N force.",
+    "correctAnswer": "𝟏𝟎 𝐦𝐦 |𝑥| = 𝐹/𝑘 = 2 N/(200 N/m) = 0.01 m = 10 mm = 1 cm",
+    "scored": false
+  },
+  {
+    "id": "b59f67d952ace7261d2369f8",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "A spring is needed which will compress by 1 mm when a 10 N force is exerted on it. What must its spring constant be?",
+    "correctAnswer": "𝟏𝟎 𝟎𝟎𝟎 𝐍/𝐦 = 𝟏𝟎 𝐤𝐍/𝐦 = 𝟏𝟎 𝐍/𝐦𝐦 = 𝟏𝟎𝟎 𝐍/𝐜𝐦 𝑘 = |𝐹/𝑥| = 10 N ÷ 10−3 m = 10 000 N/m",
+    "scored": false
+  },
+  {
+    "id": "9d7937f9308cc67ef662e48f",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "An object moves at constant speed in a horizontal circle of radius 5 m. Find its acceleration if its speed is 10 m/s.",
+    "correctAnswer": "20 m/s2 𝑎 = 𝑣2/𝑅 = (10 m/s)2 ÷ (5 m) = 20 m/s2",
+    "scored": false
+  },
+  {
+    "id": "e2da24548f836f1948186f09",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "An object moves at constant speed in a horizontal circle of radius 5 m. Find its speed if its acceleration is 4.9 m/s2.",
+    "correctAnswer": "An object moves in a circle at a constant speed of 10 m/s. Find the radius of the circle if its acceleration is 5 m/s2. 20 m 𝑅 = 𝑣2/𝑎 = 20 m",
+    "scored": false
+  },
+  {
+    "id": "54953d995f009bbdf10ef363",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "What is the net capacitance of the pair? ANSWER: 1.2 𝜇F 𝐶 = 𝐶1𝐶2/(𝐶1 + 𝐶2) = 1.2 𝜇F What is the total charge stored when a potential difference of 50 V is applied across the pair? ANSWER: 60 𝜇C 𝑄 = 𝐶𝑉 = 1.2 𝜇F × 50 V = 60 𝜇C What is the potential difference across the 3 𝜇F capacitor when a potential difference of 50 V is applied across the pair?",
+    "correctAnswer": "20 V 𝑉1 = 𝑄/𝐶1 = 60 𝜇C ÷ 3 𝜇F = 20 V",
+    "scored": false
+  },
+  {
+    "id": "31e7e8bcdbb697ee929fe999",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "How many protons does the tritium nucleus contain?",
+    "correctAnswer": "1",
+    "scored": false
+  },
+  {
+    "id": "555f3511eddd3efba1bf3e10",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "How many neutrons does the tritium nucleus contain?",
+    "correctAnswer": "2",
+    "scored": false
+  },
+  {
+    "id": "2d8dae6444ffbda4de585281",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Two identical objects moving towards each other with the same speed undergo a head-on perfectly inelastic collision. What is the mass number of deuterium? ANSWER: 2 What is the initial total linear momentum of the objects?",
+    "correctAnswer": "0",
+    "scored": false
+  },
+  {
+    "id": "1b2e6881913323b410eb6084",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Find the initial total kinetic energy if the initial linear momentum of each object has magnitude 1 kg m/s and the mass of each is 1 kg.",
+    "correctAnswer": "1 J 𝑇 = ∑ 𝑝𝑖2/2𝑚 = 2 × (1 kg m/s)2/(2 × 1 kg) = 1 J",
+    "scored": false
+  },
+  {
+    "id": "b72a41aa77818d3721917a7f",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Find the final total kinetic energy of the particles.",
+    "correctAnswer": "0",
+    "scored": false
+  },
+  {
+    "id": "65452eb626508a905c3ab15b",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "A cell with emf 0.8 V has internal resistance 5 Ω. The particles coalesce so the final common velocity is zero since the final momentum is zero. Find the terminal voltage when a 3 Ω resistor is connected across the terminals of the cell.",
+    "correctAnswer": "0.3 V = 300 mV 𝑉 = 𝐼𝑅 = (0.8 V ÷ (5 Ω + 3 Ω)) × 3 Ω = 0.1 A × 3 Ω = 0.3 V",
+    "scored": false
+  },
+  {
+    "id": "5467904db08e7c9be51a5020",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Find the current supplied by the cell when it delivers maximum power. ANSWER: 0.08 A = 80 mA 𝐼 = (0.8 V ÷ (5 Ω + 5 Ω)) = 0.08 A because maximum power is delivered when the load equals the internal resistance. Find the terminal voltage when the cell delivers maximum power.",
+    "correctAnswer": "0.4 V = 400 mV 𝑉 = 𝐼𝑅 = (0.8 V ÷ (5 Ω + 5 Ω)) × 5 Ω = 0.08 A × 5 Ω = 0.4 V",
+    "scored": false
+  },
+  {
+    "id": "451b3279a94faa61e3927703",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The speed of light in vacuum is approximately 3 × 108 m/s. The refractive index of a liquid is 3/2. Find the speed of light in the liquid.",
+    "correctAnswer": "2 × 108 m/s 𝑣 = 𝑐/𝑛 = 2 × 108 m/s",
+    "scored": false
+  },
+  {
+    "id": "da1122a42e60504c189719af",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The speed of light in vacuum is approximately 3 × 108 m/s. The speed of light in a material is 1.5 × 108 m/s. Find the refractive index of the material.",
+    "correctAnswer": "2 𝑛 = 𝑐/𝑣 = 2",
+    "scored": false
+  },
+  {
+    "id": "2eba5e8660dcad5e4cc7c163",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The speed of light in vacuum is approximately 3 × 108 m/s. The speed of light in a liquid is 2 × 108 m/s and the speed of light in a solid is 1.6 × 108 m/s. Find the refractive index of the liquid relative to the solid.",
+    "correctAnswer": "0.8 𝑠 𝑛𝑙 = 𝑣𝑠/𝑣𝑙 = 0.8",
+    "scored": false
+  },
+  {
+    "id": "27c7a575e3c1af75b26b378d",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Find the thermal efficiency of the engine.",
+    "correctAnswer": "40% 𝜂 = 80 kJ ÷ 200 kJ = 2/5 = 0.4 = 40%",
+    "scored": false
+  },
+  {
+    "id": "8810dbcd58e66b7e7dad4d1c",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Find the energy wasted by the engine in 10 s.",
+    "correctAnswer": "120 kJ",
+    "scored": false
+  },
+  {
+    "id": "77856bfe88addb202fde3dfc",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Find the average power of the engine.",
+    "correctAnswer": "8 kW 𝑃 = 𝑊/𝑡 = 80 kJ/10 s = 8 kW",
+    "scored": false
+  },
+  {
+    "id": "4f41f4784c7c286070d91c32",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Find the effective resistance. 5 Ω in series with a parallel combination of 10 Ω and 15 Ω.",
+    "correctAnswer": "11 Ω 𝑅 = 5 Ω + (10 Ω × 15 Ω)/(10 Ω + 15 Ω) = 11 Ω",
+    "scored": false
+  },
+  {
+    "id": "b5077716a428684f3f1030c6",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Find the effective resistance. 5 Ω in parallel with a series combination of 8 Ω and 12 Ω.",
+    "correctAnswer": "4 Ω 𝑅 = (5 Ω × 20 Ω)/(5 Ω + 20 Ω) = 4 Ω",
+    "scored": false
+  },
+  {
+    "id": "256263f50e445573912f9fb3",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Find the effective resistance. A parallel combination of 10 Ω and 15 Ω in series with a series combination of 5 Ω and 15 Ω",
+    "correctAnswer": "26 Ω 𝑅 = (10 Ω × 15 Ω)/(10 Ω + 15 Ω) + 20 Ω = 26 Ω",
+    "scored": false
+  },
+  {
+    "id": "95534667c2f0c1284e155b7f",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "What is an intrinsic semiconductor?",
+    "correctAnswer": "A pure semiconductor with equal electron and hole concentrations",
+    "scored": false
+  },
+  {
+    "id": "396f67855ceff5cb031a87ff",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "What is a p-type semiconductor?",
+    "correctAnswer": "A semiconductor with excess holes",
+    "scored": false
+  },
+  {
+    "id": "e0e38ea6f3fb5ec553b124f8",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "What is a compensated semiconductor?",
+    "correctAnswer": "One that is doped to have equal hole and electron concentrations",
+    "scored": false
+  },
+  {
+    "id": "e42c5de0a5ae2f2b3e1f8d2b",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "What is the magnitude of the average gravitational field strength on the surface of the earth?",
+    "correctAnswer": "𝟗. 𝟖𝟏 𝐍/𝐤𝐠 = 𝟗. 𝟖𝟏 𝐦/𝐬𝟐",
+    "scored": false
+  },
+  {
+    "id": "20d6c26d7cc79a72f5042b92",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Accept a reasonable approximation. What is the magnitude of the average gravitational field strength 5 m above the surface of the earth?",
+    "correctAnswer": "𝟗. 𝟖𝟏 𝐍/𝐤𝐠 = 𝟗. 𝟖𝟏 𝐦/𝐬𝟐",
+    "scored": false
+  },
+  {
+    "id": "ace5701f104dba4ccfbb60ec",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Accept a reasonable approximation. What is the magnitude of the average gravitational field strength one earth radius above the surface of the earth?",
+    "correctAnswer": "𝟐. 𝟒𝟓 𝐍/𝐤𝐠",
+    "scored": false
+  },
+  {
+    "id": "efa7bc97d7e250b0ed1f59e1",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Accept a reasonable approximation, say 2.5 N/kg.. At one earth radius 𝑅 above the surface, distance to the centre is 𝑟 = 2𝑅. The PREAMBLE: A 3 kg object is projected in an easterly direction at an angle of 60° above the horizontal with a speed of 20 m/s. Air resistance is negligible; sin 60° is approximately 0.87 and cos 60° is 0.50. Take upward and east directions as positive. Find the vertical and horizontal components of its initial velocity. ANSWER: 𝟏𝟕 𝐦/𝐬 vertical and 𝟏𝟎 𝐦/𝐬 horizontal 𝑣𝑦 = 𝑣 sin 60° = 20 m/s × 0.87 = 17 m/s; 𝑣𝑥 = 20 m/s × 0.50 = 10 m/s Find the vertical and horizontal components of its velocity at the highest point of its trajectory.",
+    "correctAnswer": "𝟎 vertical and 𝟏𝟎 𝐦/𝐬 horizontal",
+    "scored": false
+  },
+  {
+    "id": "8692aaa32d5889e93bdb0e97",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Find the vertical and horizontal components of its velocity when it returns to the launch height.",
+    "correctAnswer": "−𝟏𝟕 𝐦/𝐬 vertical and 𝟏𝟎 𝐦/𝐬 horizontal 𝑣𝑦 = 𝑣 sin −60° = −20 m/s × 0.87 = −17 m/s; 𝑣𝑥 = 20 m/s × 0.50 = 10 m/s",
+    "scored": false
+  },
+  {
+    "id": "425e41d639b20bea76a76d38",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Chemistry",
+    "questionText": "Convert to SI base units. 13.5 g/cm3",
+    "correctAnswer": "𝟏𝟑𝟓𝟎𝟎 𝐤𝐠/𝐦𝟑",
+    "scored": false
+  },
+  {
+    "id": "0925290d5a60c60d867c02b9",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Chemistry",
+    "questionText": "Convert to SI base units. 50 N m",
+    "correctAnswer": "𝟓𝟎 𝐤𝐠 𝐦𝟐/𝐬𝟐",
+    "scored": false
+  },
+  {
+    "id": "ae9071659d9cc6bea9297d52",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Chemistry",
+    "questionText": "Convert to SI base units. 100 mJ s",
+    "correctAnswer": "𝟎. 𝟏 𝐤𝐠 𝐦𝟐/𝐬",
+    "scored": false
+  },
+  {
+    "id": "cdfb4eacedd710bf8abeb544",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Give the SI unit of the physical quantity. Electrical power",
+    "correctAnswer": "Watt",
+    "scored": false
+  },
+  {
+    "id": "f99200a1df600131bf903b15",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Give the SI unit of the physical quantity. Thermal energy",
+    "correctAnswer": "Joule",
+    "scored": false
+  },
+  {
+    "id": "c16c624151438bb90fe9400b",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Give the SI unit of the physical quantity. Fluid pressure",
+    "correctAnswer": "Pascal",
+    "scored": false
+  },
+  {
+    "id": "3feadf6959e71cb6bbabcdac",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "A cube of side 0.2 m is made of a substance which has a density of 2000 kg/m3. Acceleration due to gravity is approximately10 m/s2. Find the mass of the cube.",
+    "correctAnswer": "𝟏𝟔 𝐤𝐠 𝑚 = 𝜌𝑉 = 2000 kg/m3 × (0.2 m)3 = 16 kg",
+    "scored": false
+  },
+  {
+    "id": "7edde448d57ade495b08a0e5",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Find the weight of the cube.",
+    "correctAnswer": "𝟏𝟔𝟎 𝐍 𝑊 = 𝑚𝑔 = 16 kg × 10 m/s2 = 160 N",
+    "scored": false
+  },
+  {
+    "id": "50f1e068250eb233dbce6dd0",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Find the pressure the cube exerts when it rests with one face on a horizontal surface.",
+    "correctAnswer": "𝟒 𝐤𝐏𝐚 𝑃 = 𝑊/𝐴 = 160 N ÷ (0.2 m)2 = 4000 N/m2 = 4 kPa",
+    "scored": false
+  },
+  {
+    "id": "53feead5a42b0a4083885044",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Find the speed of the object when it has fallen 20 m.",
+    "correctAnswer": "𝟐𝟎 𝐦/𝐬",
+    "scored": false
+  },
+  {
+    "id": "a3f093a058180a7a85867d5c",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Find the kinetic energy of the object when it has fallen 20 m. ANSWER: 𝟒 𝐤𝐉 Find the speed of the object when it has fallen 5 m.",
+    "correctAnswer": "𝟏𝟎 𝐦/𝐬",
+    "scored": false
+  },
+  {
+    "id": "8e5188fdef7d76dd74caf90f",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "A flat disk is spinning at 200 rad/s about a vertical axis. Find the speed of a point on the disk 20 cm from the axis.",
+    "correctAnswer": "𝟒𝟎 𝐦/𝐬 𝑣 = 𝑟𝜔 = 0.2 m × 200 rad/s = 40 m/s",
+    "scored": false
+  },
+  {
+    "id": "ad9afb57a3b465af7aea0e7a",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The speed of a point 10 cm from the axis of a flat disk spinning about a vertical axis is 20 m/s. Find the angular speed of the disk.",
+    "correctAnswer": "𝟐𝟎𝟎 𝐫𝐚𝐝/𝐬 𝜔 = 𝑣/𝑟 = 20 m/s ÷ 0.1 m = 200 rad/s",
+    "scored": false
+  },
+  {
+    "id": "676d07c61b3b4591b3c29448",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "A flat disk is spinning at 100 rad/s about a horizontal axis. Find the speed of a point on the disk 50 cm from the axis.",
+    "correctAnswer": "𝟓𝟎 𝐦/𝐬 𝑣 = 𝑟𝜔 = 0.5 m × 100 rad/s = 50 m/s",
+    "scored": false
+  },
+  {
+    "id": "48aacd745c45ae30d598cceb",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Find the force needed to maintain steady relative motion between the surfaces when they are pressed against each other by a 10 N force.",
+    "correctAnswer": "𝟐 𝐍",
+    "scored": false
+  },
+  {
+    "id": "c70ba20dad35cbf142e4da16",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Find the magnitude of the work done by friction when the surfaces are pressed against each other by a 10 N force and one of them moves 20 cm. ANSWER: 𝟎. 𝟒 𝐉 Find the force pressing the surfaces against each other when kinetic friction is 50 N.",
+    "correctAnswer": "𝟐𝟓𝟎 𝐍",
+    "scored": false
+  },
+  {
+    "id": "61388aa28543f62404a470e8",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Maths",
+    "questionText": "Find the sine of the angle of refraction for light incident on the glass from air at 30°.",
+    "correctAnswer": "𝟎. 𝟑 sin 𝑟 = sin 𝑖 /𝑛 = sin 30° /1.5 = 0.5/1.5 = 0. 3̇",
+    "scored": false
+  },
+  {
+    "id": "ac942cde1a4c6e9d48799929",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Maths",
+    "questionText": "Find the sine of the angle of refraction for light incident from the glass to air at 30°. ANSWER: 𝟎. 𝟕𝟓 𝑛 sin 𝑖 = sin 𝑟 = 1.5 sin 30° = 1.5 × 0.5 = 0.75 Find the sine of the angle of reflection for light incident from the glass to air at 30°.",
+    "correctAnswer": "𝟎. 𝟓 sin 𝜃𝑟 = sin 𝑖 = sin 30° = 0.5",
+    "scored": false
+  },
+  {
+    "id": "fc5c5e25ef174e75ea6a72e2",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Find the induced electromotive force in a coil lying in a magnetic field in the given situation. The flux linking the coil changes from 20 Wb to 50 Wb in 3 s.",
+    "correctAnswer": "−𝟏𝟎 𝐕 𝐸 = −ΔΦ/Δ𝑡 = −(50 Wb − 20 Wb)/3 s = −10 V",
+    "scored": false
+  },
+  {
+    "id": "cc163a976accf035fa8a418b",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Find the induced electromotive force in a coil lying in a magnetic field in the given situation. The flux linking the coil changes from 80 Wb to 40 Wb in 2 s.",
+    "correctAnswer": "𝟐𝟎 𝐕",
+    "scored": false
+  },
+  {
+    "id": "532e3f054d57ad7e73fd20a6",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Find the induced electromotive force in a coil lying in a magnetic field in the given situation. The flux linking the coil changes from −30 Wb to 0 in 3 s.",
+    "correctAnswer": "−𝟏𝟎 𝐕",
+    "scored": false
+  },
+  {
+    "id": "67d1a06e951c77a1d499e420",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Find the induced electromotive force in a coil lying in a magnetic field in the given situation. The focal length of a converging lens is 30 cm. Find the object distance for an image distance of 50 cm.",
+    "correctAnswer": "𝟕𝟓 𝐜𝐦 𝑢 = 𝑓𝑣/(𝑣 − 𝑓) = 30 cm × 50 cm ÷ (50 cm − 30 cm) = 75 cm",
+    "scored": false
+  },
+  {
+    "id": "71da4b13cc68315675a14ca8",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Find the induced electromotive force in a coil lying in a magnetic field in the given situation. The image distance for a certain lens is 20 cm when the object distance is 80 cm. Find the focal length of the lens.",
+    "correctAnswer": "𝟒𝟎 𝐜𝐦 𝑓 = 𝑢𝑣/(𝑢 + 𝑣) = 80 cm × 50 cm ÷ (80 cm + 20 cm) = 40 cm",
+    "scored": false
+  },
+  {
+    "id": "7bf338811ff5273e21818242",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Find the induced electromotive force in a coil lying in a magnetic field in the given situation. The focal length of a converging lens is 10 cm. Find the image distance for an object distance of 30 cm.",
+    "correctAnswer": "𝟏𝟓 𝐜𝐦 𝑣 = 𝑓𝑢/(𝑢 − 𝑓) = 10 cm × 30 cm ÷ (30 cm − 10 cm) = 15 cm",
+    "scored": false
+  },
+  {
+    "id": "f33a52623da04075c679248b",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "A hydraulic press has two cylinders of areas 100 cm2 and 20 cm2. 7. Find the velocity ratio of the press when the ram cylinder is the large cylinder. VR = 𝐴𝑟/𝐴𝑓 = 100 cm2 ÷ 20 cm2 = 5 Find the velocity ratio of the press when the ram cylinder is the small cylinder. ANSWER: 𝟏/𝟓 = 𝟎. 𝟐 Find the minimum effort required to overcome a load of 100 N when the ram cylinder is the large cylinder.",
+    "correctAnswer": "𝟐𝟎 𝐍 𝐹𝑓 = 𝐴𝑓 × 𝐹𝑟/𝐴𝑟 = 20 cm2 × 100 N ÷ 100 cm2 = 20 N",
+    "scored": false
+  },
+  {
+    "id": "2d92553ab07056a5ce889114",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Find the energy wasted by the engine.",
+    "correctAnswer": "𝟒𝟓 𝐤𝐉",
+    "scored": false
+  },
+  {
+    "id": "fd8e219b88962c85ddf34f34",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Determine the thermal efficiency of the engine.",
+    "correctAnswer": "𝟏𝟎%",
+    "scored": false
+  },
+  {
+    "id": "294f6ed86bcfbe61e62df388",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Find the change in internal energy of the working substance of the engine when it completes a cycle.",
+    "correctAnswer": "𝟎",
+    "scored": false
+  },
+  {
+    "id": "593855190496ce9f0e0dbbf7",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Find the thermal energy rejected by 5 kg of steam when it just condenses to water.",
+    "correctAnswer": "𝟏𝟏𝟓𝟎𝟎 𝐤𝐉 = 𝟏𝟏. 𝟓 𝐌𝐉",
+    "scored": false
+  },
+  {
+    "id": "b23ff00d80d0a34746af7824",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Find the thermal energy required to just convert 20 kg of water at its boiling point into steam. ANSWER: 𝟒𝟔𝟎𝟎𝟎 𝐤𝐉 = 𝟒𝟔 𝐌𝐉 Find the quantity of steam that can be produced by injecting 115 MJ of thermal energy into a large reservoir of water at its boiling point. ANSWER: 𝟓𝟎 𝐤𝐠 The magnitude of the angular velocity of an object rotating about a fixed axis changes steadily from 20 rad/s to 60 rad/sin 50 s. Find the magnitude of the angular acceleration of the object. ANSWER: 𝟎. 𝟖 𝐫𝐚𝐝/𝐬𝟐 𝛼 = Δ𝜔/Δ𝑡 = 0.8 rad/s2 The angular acceleration of an object rotating at 10 rad/sis 5 rad/s2. Find the angular velocity of the object 20 s later if the angular acceleration remains constant. ANSWER: 𝟏𝟏𝟎 𝐫𝐚𝐝/𝐬 𝜔 = 𝜔0 + 𝛼𝑡 = 10 rad/s + 5 rad/s2 × 20 s = 110 rad/s The angular acceleration of an object rotating at 50 rad/sis 5 rad/s2. Find the time it takes to attain an angular speed of 200 rad/s if the angular acceleration remains constant. ANSWER: 𝟑𝟎 𝐬 𝑡 = (𝜔 − 𝜔0)/𝛼 = 150 rad/s ÷ 5 rad/s2 = 30 s The velocity ratio of a simple machine is 2. Find the distance moved by the effort when the load moves 30 cm.",
+    "correctAnswer": "𝟔𝟎 𝐜𝐦",
+    "scored": false
+  },
+  {
+    "id": "772fd67b0e22742a2abc9a60",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "A pair of gears have 100 teeth on the driven wheel and 20 teeth on the driving wheel. Find the angular speed of the driven wheel when the driving wheel rotates at 50 rad/s. ANSWER: 𝟏𝟎 𝐫𝐚𝐝/𝐬 The velocity ratio of a simple machine is 5. Find the distance moved by the load when the effort moves 20 cm.",
+    "correctAnswer": "𝟒 𝐜𝐦",
+    "scored": false
+  },
+  {
+    "id": "c54089ded498200f0b871ed7",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Give the SI prefix for the given power of ten. 10−12",
+    "correctAnswer": "Pico",
+    "scored": false
+  },
+  {
+    "id": "291c19df950590aad8fe34ff",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Give the SI prefix for the given power of ten. 10−15",
+    "correctAnswer": "Femto",
+    "scored": false
+  },
+  {
+    "id": "18051068da28e171533585bc",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Give the SI prefix for the given power of ten. 109",
+    "correctAnswer": "Giga",
+    "scored": false
+  },
+  {
+    "id": "b9003f696ea299a4aa27b8cb",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Determine the pressure at a depth of 50 cm below the surface of water. ANSWER: 𝟓𝟎𝟎𝟎 𝐏𝐚 = 𝟓 𝐤𝐏𝐚 A cylindrical vessel of cross-sectional area 0.4 m2 contains a column of water 3 m deep. Find the force the water exerts on the bottom of the vessel.",
+    "correctAnswer": "𝟏𝟐 𝐤𝐍 𝐹 = 𝑝𝐴 = 𝜌𝑔ℎ𝐴 = 1000 kg/m3 × 10 m/s2 × 3 m × 0.4 m2 = 12 000 N = 12 kN",
+    "scored": false
+  },
+  {
+    "id": "3e9d6342fd9b70d813838a60",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "A spring that obeys Hooke’s law stretches by 4 mm when a 20 N force is applied to it. Find the depth of water that exerts a pressure of 20 kPaon the bottom of a vessel that contains it. ANSWER: 𝟐 𝐦 ℎ = 𝑝/𝜌𝑔 = 20 kPa ÷ (1000 kg/m3 × 10 m/s2) = 2 m Find the extension of the spring when a 25 N force is applied to it.",
+    "correctAnswer": "𝟓 𝐦𝐦 𝑥 = 𝐹/𝑘 = 25 N ÷ (20 N/4 mm) = 5 mm",
+    "scored": false
+  },
+  {
+    "id": "7a50e318e4dcc9c045cfd971",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Find the force required to stretch the spring by 6 mm.",
+    "correctAnswer": "𝟑𝟎 𝐍 𝐹 = 𝑘𝑥 = (20 N/4 mm) × 6 mm = 30 N",
+    "scored": false
+  },
+  {
+    "id": "035fd4bb4ddca258ede0fcfe",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The speed of light in vacuum is approximately 3 × 108m/s. Find the extension of the spring when 15 N is applied to it. ANSWER: 𝟑 𝐦𝐦 𝑥 = 𝐹/𝑘 = 15 N ÷ (20 N/4 mm) = 3 mm How fast does the canoe move relative to the bank of the stream if the water flows at 5 km/h? ANSWER: 𝟑 𝐤𝐦/𝐡 What is the speed of the water if the canoe moves downstream relative to the bank at 2 km/h? ANSWER: 𝟏𝟎 𝐤𝐦/𝐡 What is the speed of the water if the canoe moves upstream relative to the bank at 2 km/h? ANSWER: 𝟔 𝐤𝐦/𝐡 Find the frequency of radio waves with wavelength 5 mm.",
+    "correctAnswer": "𝟔𝟎 𝐆𝐇𝐳 𝑓 = 𝑐/𝜆 = 6 × 1010Hz = 60 GHz",
+    "scored": false
+  },
+  {
+    "id": "c55dafae324d368b7b3014b0",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Find the wavelength of 75 GHz radio waves.",
+    "correctAnswer": "𝟒 𝐦𝐦 𝜆 = 𝑐/𝑓 = 4 × 10−3m = 4 mm",
+    "scored": false
+  },
+  {
+    "id": "e9ebccf50b4b7bae1d5883aa",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "A 2 kg particle moving at 5 m/s collides head-on with a 1 kg particle moving in the opposite direction at2 m/s. Find the speed of light in water at the wavelength for which the refractive index of water is 1.2. ANSWER: 𝟐. 𝟓 × 𝟏𝟎𝟖𝐦/𝐬 𝑣 = 𝑐/𝑛 = 2.5 × 108m/s Find the magnitude of the total linear momentum just before the collision.",
+    "correctAnswer": "𝟖 𝐤𝐠 𝐦/𝐬 |∑𝒑𝑖| = |2 kg × 5 m/s − 1 kg × 2 m/s| = 8 kg m/s",
+    "scored": false
+  },
+  {
+    "id": "ea3838b9a0349d0458b8119c",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Find the total kinetic energy of the particles just before collision.",
+    "correctAnswer": "𝟐𝟕 𝐉 𝑇 = ∑𝑚𝑖𝑣𝑖2/2 = 27 J",
+    "scored": false
+  },
+  {
+    "id": "5356a0d820c3b7784fb408d6",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Find the magnitude of the total linear momentum just after the collision if the particles fuse in the collision.",
+    "correctAnswer": "𝟖 𝐤𝐠 𝐦/𝐬",
+    "scored": false
+  },
+  {
+    "id": "5bffc95e87d64eac2ade11b4",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Give the condition under which total linear momentum is conserved.",
+    "correctAnswer": "Net force equals zero",
+    "scored": false
+  },
+  {
+    "id": "2d9c809dc3292d473a099c6b",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Accept total force. Do not accept just “force.” Give the condition under which angular momentum is conserved.",
+    "correctAnswer": "Net torque equals zero",
+    "scored": false
+  },
+  {
+    "id": "166f678b8063e7dd6155f2b6",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The velocity of a particle is constant. What can be said about the forces, if any, acting on the particle?",
+    "correctAnswer": "Net force equals zero",
+    "scored": false
+  },
+  {
+    "id": "47182ee1ba22c9dd345194a2",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "A nuclide decays by 𝛽− emission to Ca-42. What is the identity of the nuclide?",
+    "correctAnswer": "Al-27",
+    "scored": false
+  },
+  {
+    "id": "c48c50cccc1d93d015123aed",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "A nuclide decays by 𝛾 emission to Ni-60. What is the identity of the nuclide?",
+    "correctAnswer": "Ni-60",
+    "scored": false
+  },
+  {
+    "id": "f5d269a9691b2dedbdc076f8",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Na-24 decays by 𝛽− emission. What is the daughter nuclide?",
+    "correctAnswer": "Mg-24",
+    "scored": false
+  },
+  {
+    "id": "c9ff90eb9a6f303f2759f074",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Find the total energy of a particle of mass 5 × 10−15kg.",
+    "correctAnswer": "𝟒𝟓𝟎 𝐉 𝐸 = 𝑚𝑐2 = 450 J",
+    "scored": false
+  },
+  {
+    "id": "8f2dcef87298232a62ad9f5d",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Find the mass of a particle whose total energy is 630 kJ.",
+    "correctAnswer": "𝟕 × 𝟏𝟎−𝟏𝟐𝐤𝐠 𝑚 = 𝐸/𝑐2 = 7 × 10−12kg",
+    "scored": false
+  },
+  {
+    "id": "1df6d3ff2943160f5770a419",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Find the total energy of a particle of mass 3 × 10−14kg.",
+    "correctAnswer": "2700J = 2.7kJ",
+    "scored": false
+  },
+  {
+    "id": "b70bd74f9cd4e6411dbaf728",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "A negatively charged insulated sphere is brought close to but does not touch an insulated metal sphere. Describe the electrical state of the metal sphere.",
+    "correctAnswer": "Polarized with positive charge on parts of its surface closest to the charged",
+    "scored": false
+  },
+  {
+    "id": "7db870164ec1e779714e5070",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "sphere, negative charge on parts farthest from the charged sphere A positively charged insulated sphere is brought close to but does not touch a grounded metal sphere. Describe the electrical state of the metal sphere.",
+    "correctAnswer": "Negative charge is induced on the surface of the metal sphere, with more",
+    "scored": false
+  },
+  {
+    "id": "f4a79ab64b73e17d2abed5e4",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "charge on the parts of the surface near the insulated sphere A negatively charged insulated sphere is brought close to but does not touch a grounded metal sphere. Describe the electrical state of the metal sphere.",
+    "correctAnswer": "Positive charge is induced on the surface of the metal sphere, with more",
+    "scored": false
+  },
+  {
+    "id": "e8a562a901b4812450309ba4",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "charge on the parts of the surface near the insulated sphere Name one and only one heat transfer process in which particles of the medium transfer the thermal energy.",
+    "correctAnswer": "Conduction or convection",
+    "scored": false
+  },
+  {
+    "id": "b708d3105871d5261cf4cf5b",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "One only Name one other heat transfer process in which particles of the medium transfer the thermal energy.",
+    "correctAnswer": "Conduction or convection",
+    "scored": false
+  },
+  {
+    "id": "2a3d764ea6cf96d6450ce62d",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Name the heat transfer process in which particles of the medium transfer the thermal energy but which only occurs in fluids.",
+    "correctAnswer": "Convection",
+    "scored": false
+  },
+  {
+    "id": "291bb0c8549a211889053711",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Find the velocity of the particle after 8 s.",
+    "correctAnswer": "𝟒𝟎 𝐦/𝐬 𝑣 = 𝑢 + 𝑎𝑡 = 40 m/s",
+    "scored": false
+  },
+  {
+    "id": "5f3d7df23a7417e747fa2ac8",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Find the displacement of the particle after 8 s.",
+    "correctAnswer": "𝟏𝟔𝟎 𝐦",
+    "scored": false
+  },
+  {
+    "id": "02735ac4bafc1e72bc269bad",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Find the time it takes to attain a speed of 80 m/s. ANSWER: 𝟏𝟔 𝐬 Find the final pressure of 5 m3 of ideal gas at 100 kPa when it is compressed isothermally to a volume of 2 m3.",
+    "correctAnswer": "𝟐𝟓𝟎 𝐤𝐏𝐚",
+    "scored": false
+  },
+  {
+    "id": "e9ccf2bcd36dec4d417c9161",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Find the final volume of 5 m3 of ideal gas at 100 kPa when it is compressed isothermally to a pressure of 500 kPa.",
+    "correctAnswer": "𝟏 𝐦𝟑",
+    "scored": false
+  },
+  {
+    "id": "37e91a1c4a6b12376e0bd6f9",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Find the final pressure of 20 m3 of ideal gas at 10 kPa when it is compressed isothermally to a volume of 5 m3.",
+    "correctAnswer": "𝟒𝟎 𝐤𝐏𝐚",
+    "scored": false
+  },
+  {
+    "id": "4c28224a69518976054c8756",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Give the energy of the first excited state of the hydrogen atom in terms of the ground state energy𝐸0.",
+    "correctAnswer": "𝑬𝟎/𝟒",
+    "scored": false
+  },
+  {
+    "id": "8f17c4461261df7765ec6ccf",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Give the energy difference between the first and second excited states of the hydrogen atom in terms of the ground state energy 𝐸0.",
+    "correctAnswer": "𝑬𝟎(𝟏/𝟒 − 𝟏/𝟗) = 𝟓𝑬𝟎/𝟑𝟔",
+    "scored": false
+  },
+  {
+    "id": "5f0aa0428ba68e9e5b7e8804",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Give the energy of the third excited state of the hydrogen atom in terms of the ground state energy 𝐸0.",
+    "correctAnswer": "𝑬𝟎/𝟏𝟔",
+    "scored": false
+  },
+  {
+    "id": "f31dd7c853d8460a43402c17",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The activity of a radioactive sample is 1 Bq. How many disintegrations occur in 100 s?",
+    "correctAnswer": "100",
+    "scored": false
+  },
+  {
+    "id": "b9203b6afdab07548446024f",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The activity of a radioactive sample is 1 Ci. What is the activity of the sample in Bq?",
+    "correctAnswer": "𝟑. 𝟕 × 𝟏𝟎𝟏𝟎 𝐁𝐪",
+    "scored": false
+  },
+  {
+    "id": "ade558cfe0b1990ce2bdda6b",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Give the SI unit for radioactive decay constant.",
+    "correctAnswer": "𝐬−𝟏",
+    "scored": false
+  },
+  {
+    "id": "24b295bc6974d6fb7fae7fc0",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "How soon does Ato overtake Emefa? ANSWER: 𝟎. 𝟐 𝐡 = 𝟏𝟐 𝐦𝐢𝐧 𝑡 = 𝑠𝐴𝐸/(𝑢𝐴 − 𝑢𝐸) = 1 km ÷ (10 km/h − 5 km/h) = 0.2 h How far is Ato away from the village when he overtakes Emefa? ANSWER: 𝟏 𝐤𝐦 𝑠𝑉 − 𝑠𝐴 = 𝑠0 − 𝑢𝐴𝑡 = (1 km + 2 km) − 𝑢𝐴𝑡 = 3 km − 10 km/h × 0.2 h = 1 km How far is Emefa from the village when Ato just gets there?",
+    "correctAnswer": "𝟎. 𝟓 𝐤𝐦 𝑠𝑉 − 𝑠𝐸 = 2 km − (5 km/h × 0.3 h) = 0.5 km",
+    "scored": false
+  },
+  {
+    "id": "a6933017f35965386c16baf6",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Acceleration due to gravity is approximately10 m/s2. Emefa would have been walking for 0.3 h when Ato gets to the village. Find the angular frequency of a simple pendulum of length 0.4 m.",
+    "correctAnswer": "Find the length of a simple pendulum whose angular frequency is 2 rad/s. ANSWER: 𝟐. 𝟓 𝐦 𝑙 = 𝑔/𝜔2 = 10 m/s2 ÷ (2 rad/s)2 Find the angular frequency of a simple pendulum of length 0.625 m",
+    "scored": false
+  },
+  {
+    "id": "259734bd9c49eac951c121fd",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Find the thermal energy required to increase the temperature of the object by 20 K. ANSWER: 𝟒𝟎 𝐤𝐉 𝑄 = 𝐶Δ𝑇 = 2 kJ/K × 20 K = 40 kJ Find the specific heat capacity of the substance if the mass of the object is 0.5 kg.",
+    "correctAnswer": "𝟒 𝐤𝐉 𝐤𝐠−𝟏 𝐊−𝟏 𝑐 = 𝐶/𝑚 = 2 kJ/K ÷ 0.5 kg = 4 kJ kg−1 K−1",
+    "scored": false
+  },
+  {
+    "id": "e9b35cee12ba5ab4c08feac5",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Find the change in temperature of the object when it absorbs 50 kJ of thermal energy.",
+    "correctAnswer": "𝟐𝟓 𝐊 Δ𝑇 = 𝑄/𝐶 = 50 kJ ÷ 2 kJ/K = 25 K",
+    "scored": false
+  },
+  {
+    "id": "3788bd2d59f534f24a22f039",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Find the resistance of the wire at 20 ℃. ANSWER: 𝟑𝟎𝟐 𝛀 Find the temperature at which the resistance of the wire is 309 Ω.",
+    "correctAnswer": "𝟗𝟎 ℃",
+    "scored": false
+  },
+  {
+    "id": "a5ff010cb74064a12f80d94e",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Find the temperature at which the resistance of the wire is 304 Ω.",
+    "correctAnswer": "𝟒𝟎 ℃",
+    "scored": false
+  },
+  {
+    "id": "a25c35a9de76c8b9c8a8a380",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "What is a Wheatstone bridge usually used for?",
+    "correctAnswer": "Resistance measurements",
+    "scored": false
+  },
+  {
+    "id": "0dd27409a27309424df0e027",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Why must one not slide the jockey along the wire of a Wheatstone bridge?",
+    "correctAnswer": "To avoid destroying its uniformity",
+    "scored": false
+  },
+  {
+    "id": "da774fc59635cf2be1a368f0",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "How does one determine that a Wheatstone bridge is balanced?",
+    "correctAnswer": "Zero deflection of the galvanometer",
+    "scored": false
+  },
+  {
+    "id": "06fbd544b09c1976c37728c3",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Find the resistance of a uniform wire 2 m long with a cross sectional area of 4 × 10−6 m2.",
+    "correctAnswer": "𝟐 𝛀 𝑅 = 𝜌𝐿/𝐴",
+    "scored": false
+  },
+  {
+    "id": "973537da41babb72870bb8a0",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The resistance of a uniform wire 50 m long is 20 Ω. Find its cross sectional area.",
+    "correctAnswer": "𝟏𝟎 × 𝟏𝟎−𝟔 𝐦𝟐 = 𝟏𝟎 𝐦𝐦𝟐 = 𝟏 × 𝟏𝟎−𝟓 𝐦𝟐 𝐴 = 𝜌𝐿/𝑅",
+    "scored": false
+  },
+  {
+    "id": "be1b9808773b7423fd8189c5",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The resistance of a uniform wire with cross sectional area 6 × 10−6 m2 is 100 Ω. Find its length. ANSWER: 𝟏𝟓𝟎 𝐦 𝐿 = 𝑅𝐴/𝜌 Find the linear momentum of a 2 kg object moving at 50 m/s due east. ANSWER: 𝟏𝟎𝟎 𝐤𝐠 𝐦/𝐬 due east 𝒑 = 𝑚𝒗 A 2 kg object moving at 20 m/s due east is brought to rest in 5 s. Find the average force on the object. ANSWER: 𝟖 𝐍 due west 𝑭 = Δ𝒑/Δ𝑡 = −40 N s due east ÷ 5 s = 8 N due west A 5 N force due north acts for 2 s on a stationary 5 kg object. Find the velocity of the object.",
+    "correctAnswer": "𝟐 𝐦/𝐬 due north 𝒗 = 𝒑/𝑚 = 𝑭𝑡/𝑚",
+    "scored": false
+  },
+  {
+    "id": "ee3db2d84dcbf3df3b474b65",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Give one phenomenon that occurs at the interface.",
+    "correctAnswer": "Reflection, refraction, and dispersion",
+    "scored": false
+  },
+  {
+    "id": "83d1a3d0c0a7cd2df2f0b2c0",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Please do not accept interference or diffraction. Give another phenomenon that occurs at the interface.",
+    "correctAnswer": "Reflection, refraction, and dispersion",
+    "scored": false
+  },
+  {
+    "id": "5b3c6e68b4b0b3a3b386029b",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Please do not accept interference or diffraction. Suppose a thin layer of a liquid whose refractive index is different from that of the glass were smeared on the glass. Which of the following may occur at the interface: reflection, refraction, dispersion, interference?",
+    "correctAnswer": "All",
+    "scored": false
+  },
+  {
+    "id": "e6dd1b60cc31893ee7cfe414",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "A 3 N force and a 4 N force act at a point in such a way that the angle between them is 90°. Find the magnitude of the resultant force.",
+    "correctAnswer": "𝟓 𝐍",
+    "scored": false
+  },
+  {
+    "id": "0d5b12e9fb13926946d5ec5d",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Two 10 N forces act at a point in such a way that the angle between them is 60°. Find the magnitude of their resultant.",
+    "correctAnswer": "𝟏𝟎√𝟑 𝐍 = 𝟏𝟕 𝐍 𝐹 = √(10 N)2 + (10 N)2 + 2(10 N)(10 N)cos 60° = 10√3 N = 17 N",
+    "scored": false
+  },
+  {
+    "id": "dc0e8060be00960b6eb8d1d3",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Two 5 N forces act at a point in such a way that the angle between them is 120°. Find the magnitude of their resultant.",
+    "correctAnswer": "𝟓 𝐍 𝐹 = √(5 N)2 + (5 N)2 + 2(5 N)(5 N)cos 120° = 5 N",
+    "scored": false
+  },
+  {
+    "id": "006fce878c717106bbf88d6d",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Find the magnitude of the force required to stretch the spring by 2 mm.",
+    "correctAnswer": "40 N",
+    "scored": false
+  },
+  {
+    "id": "f8f2236d7d7d142969b76d7a",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Find the potential energy of the spring when it is stretched by 2 mm.",
+    "correctAnswer": "0.04 J",
+    "scored": false
+  },
+  {
+    "id": "f8456248c8f1b6a5d5b8db7d",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Find the extension of the spring when it stores 9 J.",
+    "correctAnswer": "The internal resistance of a 1.5 V dry cell is 2 Ω. Find the potential difference across its terminals when it supplies 0.2 A to a circuit. 1.1 V 𝑃. 𝐷. = ℰ − 𝐼𝑟 = 1.5 V − 0.2 A × 2 Ω = 1.1 V",
+    "scored": false
+  },
+  {
+    "id": "6de2be7fecc423aa91880dca",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The potential difference across the terminals of a 1.5 V dry cell is 1.2 V when it supplies 0.5 A to a circuit. Find the internal resistance of the cell.",
+    "correctAnswer": "0.6 𝛺 𝑟 = (1.5 V − 1.2 V)/(0.5 A) = 0.6 Ω",
+    "scored": false
+  },
+  {
+    "id": "d3a2acac9e00166bc0d6d6c9",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The internal resistance of a 3 V battery is 0.2 Ω. Find the current drawn from the battery when the potential difference across its terminals is 2.8 V",
+    "correctAnswer": "1 A 𝐼 = (3 V − 2.8 V)/(0.2 Ω) = 1 A",
+    "scored": false
+  },
+  {
+    "id": "dd81b568f0112f56fbee05af",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "A step-down transformer is required to supply an rms output of 12 V from an rms input of 240 V. Find the number of turns the secondary coil must have if the primary coil has 5000 turns.",
+    "correctAnswer": "250 𝑁𝑠 = 𝑁𝑝𝑉𝑠/𝑉𝑝 = 5000 turns × 12 V ÷ (240 V) = 250 turns",
+    "scored": false
+  },
+  {
+    "id": "610598a1c3d41af7d3c66ea6",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "A step-up transformer is required to supply an rms output of 12 V from an rms input of 1.5 V. Find the number of turns the secondary coil must have if the primary coil has 3 turns.",
+    "correctAnswer": "24 𝑁𝑠 = 𝑁𝑝𝑉𝑠/𝑉𝑝 = 3 turns × 12 V ÷ (1.5 V) = 24 turns",
+    "scored": false
+  },
+  {
+    "id": "ef95516a895082fbdf2b8400",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Find the rms output of a transformer with 2000 primary turns and 50 secondary turns when the rms input applied to its primary coil is 10 V.",
+    "correctAnswer": "0.25 V 𝑉𝑠 = 𝑉𝑝𝑁𝑠/𝑁𝑝 = 10 V × 50 ÷ 2000 = 0.25 V",
+    "scored": false
+  },
+  {
+    "id": "4cd6e8c03c0b74f104a7cc01",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Find the de Broglie wavelength associated with a particle whose linear momentum has magnitude 5 × 10−15kg m/s.",
+    "correctAnswer": "1.4 × 10−19m 𝜆 = ℎ/𝑝 = 7 × 10−34J s ÷ (5 × 10−15kg m/s) = 1.4 × 10−19m",
+    "scored": false
+  },
+  {
+    "id": "81b2ed5761de633233e34955",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Find the linear momentum of a particle whose de Broglie wavelength is 35 pm.",
+    "correctAnswer": "2 × 10−23kg m/s 𝑝 = ℎ/𝜆 = 7 × 10−34J s ÷ (35 × 10−12m) = 2 × 10−23kg m/s",
+    "scored": false
+  },
+  {
+    "id": "3cd48268910657ddff99cebc",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "The speed of light in vacuum is approximately 3.0 × 108m/s.Give your answer in standard form. Find the speed of a particle of mass 2 × 10−25kg when its de Broglie wavelength is 70 nm. ANSWER: 0.05 m/s 𝑣 = ℎ/(𝑚𝜆) = 7 × 10−34J s ÷ (2 × 10−25 kg × 70 × 10−9m) = 0.05 m/s What is the frequency of a green photon whose wavelength is 540 nm? ANSWER: 5.6 × 1014Hz 𝑓 = 𝑐/𝜆 = 5. 5̇ × 1014Hz What is the frequency of the light emitted by a red laser operating at 630 nm?",
+    "correctAnswer": "4.8 × 1014Hz 𝑓 = 𝑐/𝜆 = 4.8 × 1014Hz",
+    "scored": false
+  },
+  {
+    "id": "40a9880a4d4790d41432cd4d",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "What is the wavelength of a sodium street lamp whose frequency is 5.1 × 1014Hz?",
+    "correctAnswer": "590 nm = 5.9 × 10−9m",
+    "scored": false
+  },
+  {
+    "id": "4758bb414458ee90268187d7",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Find the capacitance of the capacitor when the space between the plates is evacuated.",
+    "correctAnswer": "18 nF 𝐶 = 𝜖0𝐴/𝑑 = 9 × 10−12F/m × 2 m2 ÷ (10−3m) = 1.8 × 10−8F = 18 nF",
+    "scored": false
+  },
+  {
+    "id": "8d7808226a14ca05a9c6fb89",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Find the capacitance of the capacitor when the space between the plates is filled with a material with dielectric constant 5.",
+    "correctAnswer": "90 nF 𝐶 = 𝜖0𝜖𝑟𝐴/𝑑 = 9 × 10−8 F = 90 nF",
+    "scored": false
+  },
+  {
+    "id": "06182f9c243263faa342f429",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Find the capacitance of the capacitor when the space between the plates is filled with a material with relative permittivity 10.",
+    "correctAnswer": "180 nF 𝐶 = 𝜖0𝜖𝑟𝐴/𝑑 = 1.8 × 10−7 F = 180 nF",
+    "scored": false
+  },
+  {
+    "id": "64974418aea0ca34a9206b49",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Give the dimensions of kinetic energy.",
+    "correctAnswer": "𝑀𝐿2𝑇−2",
+    "scored": false
+  },
+  {
+    "id": "bc827e50166fa7f817c2e602",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Give the dimensions of angular momentum.",
+    "correctAnswer": "𝑀𝐿2𝑇−1",
+    "scored": false
+  },
+  {
+    "id": "70e370ee63424a00fb5341b7",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Give the dimensions of torque.",
+    "correctAnswer": "𝑀𝐿2𝑇−2",
+    "scored": false
+  },
+  {
+    "id": "ed9c13693319bce37ac7aeaa",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Find the relative density (or specific gravity) of the material of the object.",
+    "correctAnswer": "6 𝑅𝐷 = Weight in air ÷ Loss in weight in water = 30 N ÷ 5 N = 6",
+    "scored": false
+  },
+  {
+    "id": "c3288bc916c6369d817a77f2",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Find the relative density of the hydrocarbon.",
+    "correctAnswer": "4/5 = 0.8 𝑅𝐷 = Loss in weight in liquid ÷ Loss in weight in water = 4 N ÷ 5 N = 0.8",
+    "scored": false
+  },
+  {
+    "id": "bddcee0ed733c7618c0fab83",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Find the weight of the object in a liquid whose specific gravity is 1.2. ANSWER: 24 N How many diodes are used in a full-wave rectifier that employs a centre-tapped transformer?",
+    "correctAnswer": "2",
+    "scored": false
+  },
+  {
+    "id": "4ff6385aac5a262720a45cac",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "How many diodes are needed in a full-wave rectifier that does not use a centre-tapped transformer?",
+    "correctAnswer": "4",
+    "scored": false
+  },
+  {
+    "id": "1c0c6edd114c45a3b7bc6823",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "What is the function of the smoothing capacitor in a half-wave rectifier?",
+    "correctAnswer": "Filter out a.c. signals",
+    "scored": false
+  },
+  {
+    "id": "2405a68bfc5a4e9d915ed17f",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Find the cost of heating food for 5 minutes in a microwave oven operated at 600 W.",
+    "correctAnswer": "GHC 0.05 = GHp 5 Energy consummed = 5 min ÷ (60 h/min) × 0.6 kW = 0.05 kW h",
+    "scored": false
+  },
+  {
+    "id": "99f7decb9cecad63b143d9cc",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Find the cost of running a 20 W compact fluorescent lamp for 10 h.",
+    "correctAnswer": "GHC 0.20 = GHp 20 Energy consummed = 10 h × 0.02 kW = 0.2 kW h",
+    "scored": false
+  },
+  {
+    "id": "7d1a474b335d6f03a60cd908",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Find the cost of running a 50 W TV set for 2 h.",
+    "correctAnswer": "𝐆𝐇𝐂 𝟎.𝟏 = 𝐆𝐇𝐩 𝟏𝟎 Energy consummed = 2 h × 0.05 kW = 0.1 kW h",
+    "scored": false
+  },
+  {
+    "id": "0956205ffa1334994b725632",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Find the magnitude of the electric force on a 2 nC charge moving at 6 m/s parallel to a 0.5 V/m electric field.",
+    "correctAnswer": "1 nN 𝐹 = 𝑞𝐸 = 2 nC × 0.5 V/m = 1 nN",
+    "scored": false
+  },
+  {
+    "id": "4f3ebab2ec4f4ce448c94f1e",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Find the magnitude of the magnetic force on a 2 nC charge moving at 5 m/s parallel to a 0.1 T magnetic field.",
+    "correctAnswer": "0 𝐹 = 𝑞𝑣𝐵 sin 𝜃 = 𝑞𝑣𝐵 sin 0 = 0",
+    "scored": false
+  },
+  {
+    "id": "73c7fb1a2b6cbb34e7fa1f39",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Find the magnitude of the electric force on a 4 nC charge moving at 10 m/s perpendicular to a0.5 V/m electric field.",
+    "correctAnswer": "2 nN 𝐹 = 𝑞𝐸 = 4 nC × 0.5 V/m = 2 nN",
+    "scored": false
+  },
+  {
+    "id": "d840773c17d8816616e52266",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "What property of the sound produced by an instrument distinguishes it from the sound produced by other instruments?",
+    "correctAnswer": "Timbre",
+    "scored": false
+  },
+  {
+    "id": "44a33996a5f9109b44c3f190",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Accept quality What property of a sound note is determined by frequency?",
+    "correctAnswer": "Pitch",
+    "scored": false
+  },
+  {
+    "id": "ff214408a3915e5b4347f141",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Two notes are one octave apart. What is the relationship between their frequencies?",
+    "correctAnswer": "One is twice the other",
+    "scored": false
+  },
+  {
+    "id": "bf65e265f92035d60ec07de8",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Find the refractive index of the alcohol.",
+    "correctAnswer": "7/5 = 1.4 𝑛 = real depth ÷ apparent depth = 7 cm ÷ 5 cm = 1.4",
+    "scored": false
+  },
+  {
+    "id": "c6271b302bc9676a4e1077ce",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Find the apparent depth of the coin when the depth of alcohol in the vessel is increased to 105 mm.",
+    "correctAnswer": "75 mm apparent depth = real depth ÷ 𝑛 = 105 mm ÷ 1.4 = 75 mm",
+    "scored": false
+  },
+  {
+    "id": "da767db404ab05d13d81f9e0",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Find the depth of alcohol for which the apparent depth of the coin is 40 mm.",
+    "correctAnswer": "56 mm real depth = apparent depth × 𝑛 = 56 mm",
+    "scored": false
+  },
+  {
+    "id": "53f44c02a7c6126ace7dbd24",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Find the speed of transverse waves on the string when it is under a tension of 200 N.",
+    "correctAnswer": "Find the tension in the string at which the speed of transverse waves on the string is 300 m/s. ANSWER: 450 N 𝑇 = 𝑣2𝜇 = 90000m2/𝑠2 × 5 × 10−3kg/m = 450 N Find the speed of transverse waves on the string when it is under a tension of 8 N. Find the resultant amplitude when two equal frequency sound waves each of amplitude 5 units interfere with a phase difference of 4𝜋. 10 units",
+    "scored": false
+  },
+  {
+    "id": "83cafcb802795de927c873e5",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Constructive interference Find the resultant amplitude when two equal frequency sound waves each of amplitude 5 units interfere with a phase difference of 7𝜋.",
+    "correctAnswer": "0",
+    "scored": false
+  },
+  {
+    "id": "a38848eb8146a80309a9321c",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Destructive interference Find the resultant intensity when two equal frequency sound waves each of intensity 4 units interfere with a phase difference of 4𝜋.",
+    "correctAnswer": "16 units",
+    "scored": false
+  },
+  {
+    "id": "798dde9e1d6113694cbbf0dc",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Maths",
+    "questionText": "The contact angle between a solid and liquids 𝐴, 𝐵, 𝐶, and 𝐷 are 0°, 20°, 120°, and 130° respectively. [MAIN CONTEST] (28-67) Which of the liquids forms a concave meniscus in a tube made of the solid?",
+    "correctAnswer": "𝐴 and 𝐵",
+    "scored": false
+  },
+  {
+    "id": "2f86ffbb3718426f617ae465",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Which of the liquids forms a convex meniscus in a tube made of the solid? ANSWER: 𝐶 and 𝐷 Which of the liquids completely wets the solid?",
+    "correctAnswer": "𝐴 only",
+    "scored": false
+  },
+  {
+    "id": "69cc9806a0b455bf6aa670cd",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Find the reactance of a series combination of two 20 𝜇F capacitors at an angular frequency of 100 rad/s.",
+    "correctAnswer": "1 kΩ 𝑋𝐶 = 2/(𝜔𝐶) = 1000 Ω = 1 kΩ",
+    "scored": false
+  },
+  {
+    "id": "5cc805fb47f885ffa1913631",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Find the reactance of a parallel combination of two 25 𝜇F capacitors at an angular frequency of 40 rad/s.",
+    "correctAnswer": "500 Ω 𝑋𝐶 = 1/(2𝜔𝐶) = 500 Ω = 0.5 kΩ",
+    "scored": false
+  },
+  {
+    "id": "f9ed5107bb00ac6f0280a32f",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Find the reactance of a series combination of two 10 𝜇F capacitors at an angular frequency of 500 rad/s.",
+    "correctAnswer": "200 Ω 𝑋𝐶 = 2/(𝜔𝐶) = 200 Ω = 0.2 kΩ",
+    "scored": false
+  },
+  {
+    "id": "0d2de12572fe1ec316b722cd",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "A long horizontal wire carries a large current flowing north. In which direction does the north pole of a compass needle point when the compass is placed just beneath the wire?",
+    "correctAnswer": "West",
+    "scored": false
+  },
+  {
+    "id": "dd7bbe785c3fc71f92aedf0d",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "A long horizontal wire carries a large current flowing south. In which direction does the north pole of a compass needle point when the compass is placed just above the wire?",
+    "correctAnswer": "West",
+    "scored": false
+  },
+  {
+    "id": "051e79c048cec0c78bdab3df",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "A long horizontal wire carries a large current flowing north. In which direction does the north pole of a compass needle point when the compass is placed just above the wire?",
+    "correctAnswer": "East",
+    "scored": false
+  },
+  {
+    "id": "1bf7d0294642481261f87c95",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Find the electron flow rate through a copper wire carrying a current of 1.6 A.",
+    "correctAnswer": "1019s−1 𝑅 = 𝐼/𝑞 = 1019s−1",
+    "scored": false
+  },
+  {
+    "id": "7d84526f34e786d1fde8eaad",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Find the magnitude of current in a copper wire through which the electron flow rate is 5 × 1015s−1.",
+    "correctAnswer": "0.8 mA 𝐼 = 𝑅𝑞 = 8 × 10−4A = 0.8 mA",
+    "scored": false
+  },
+  {
+    "id": "51ef85a411db3f55388a9fb8",
+    "sourceFile": "PHYSICS 2015.docx",
+    "subject": "Physics",
+    "questionText": "Find the electron flow rate through a copper wire carrying a current of 8 A.",
+    "correctAnswer": "5 × 1019s−1",
     "scored": false
   }
 ]

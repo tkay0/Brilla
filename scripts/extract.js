@@ -881,12 +881,13 @@ function extractFile(fileName, text) {
 
 function parseArgs(argv) {
   const isDryRun = argv.includes('--dry-run');
+  const refreshDuplicates = argv.includes('--refresh-duplicates');
   const onlyIdx = argv.indexOf('--only');
   const only =
     onlyIdx !== -1 && argv[onlyIdx + 1]
       ? argv[onlyIdx + 1].split(',').map((s) => s.trim()).filter(Boolean)
       : null;
-  return { isDryRun, only };
+  return { isDryRun, only, refreshDuplicates };
 }
 
 function getCandidateFiles(only) {
@@ -904,30 +905,173 @@ function getCandidateFiles(only) {
   return only;
 }
 
+// ---------------------------------------------------------------------------------------
+// Content-hash de-duplication
+// ---------------------------------------------------------------------------------------
+// The corpus contains a lot of the same content saved under different filenames (.doc vs
+// .docx, "(1)" copies, re-downloaded "-1"/"-1-1" variants, and even totally unrelated names).
+// Filenames are NOT a reliable duplicate signal - many name-copies are actually different
+// content and many identical files have unrelated names - so duplicates are decided purely by
+// sha256 of the extracted text (the same hash manifest.json already stores). Grouping by exact
+// hash guarantees content-distinct files (e.g. the genuinely different Problem-of-the-Day
+// questions) are never collapsed together.
+
+// Which file a duplicate group collapses to (its name becomes the sourceFile provenance on
+// every extracted question, so "cleanest" matters): prefer .docx over .doc, then a descriptive
+// name over an auto-generated export name like "DOC-20190819-WA0006.docx", then the shortest
+// name, then lexicographic - deterministic so the same file always wins.
+const AUTO_GENERATED_NAME_RE = /^(?:DOC|IMG|VID|AUD)-\d{6,}-WA\d+/i;
+function pickCanonicalFile(group) {
+  const extRank = (f) => {
+    const e = path.extname(f).toLowerCase();
+    return e === '.docx' ? 0 : e === '.doc' ? 1 : 2;
+  };
+  const autoRank = (f) => (AUTO_GENERATED_NAME_RE.test(f) ? 1 : 0);
+  return [...group].sort(
+    (a, b) => extRank(a) - extRank(b) || autoRank(a) - autoRank(b) || a.length - b.length || a.localeCompare(b)
+  )[0];
+}
+
+// Hashes each file's extracted text and groups by identical content. Returns, for every
+// non-canonical duplicate, the canonical file it collapses to, plus caches of the extracted
+// text and hash so callers don't re-extract. Files whose text can't be extracted are left out
+// entirely and never treated as a duplicate.
+async function resolveDuplicates(files) {
+  const byHash = new Map();
+  const textByFile = new Map();
+  const hashByFile = new Map();
+  for (const fileName of files) {
+    let text;
+    try {
+      text = await extractText(path.join(RAW_DIR, fileName));
+    } catch {
+      continue;
+    }
+    const h = sha256(text || '');
+    textByFile.set(fileName, text || '');
+    hashByFile.set(fileName, h);
+    if (!byHash.has(h)) byHash.set(h, []);
+    byHash.get(h).push(fileName);
+  }
+  const duplicateOf = new Map();
+  const groups = [];
+  for (const g of byHash.values()) {
+    if (g.length < 2) continue;
+    groups.push(g);
+    const canonical = pickCanonicalFile(g);
+    for (const f of g) if (f !== canonical) duplicateOf.set(f, canonical);
+  }
+  return { duplicateOf, textByFile, hashByFile, groups };
+}
+
+// --refresh-duplicates: recompute duplicate groups over the whole corpus and record every
+// non-canonical file in the manifest as skipped-duplicate (pointing at its canonical), also
+// clearing any stale questions a previous run left in seed-data for those files. Writes the
+// manifest and seed-data but runs no extraction - a cheap way to populate/refresh the dup list
+// without a full processing pass.
+async function refreshDuplicateManifest({ isDryRun }) {
+  const manifest = loadManifest();
+  const buckets = loadExistingBuckets();
+  const allFiles = getCandidateFiles(null);
+  const { duplicateOf, hashByFile, groups } = await resolveDuplicates(allFiles);
+
+  let staleRemoved = 0;
+  for (const [dup, canonical] of duplicateOf) {
+    const before = Object.values(buckets).reduce((a, v) => a + v.filter((q) => q.sourceFile === dup).length, 0);
+    removeQuestionsFromSource(buckets, dup);
+    staleRemoved += before;
+    manifest[dup] = {
+      contentHash: hashByFile.get(dup),
+      processedAt: new Date().toISOString(),
+      status: 'skipped-duplicate',
+      duplicateOf: canonical,
+      questionsAdded: zeroCounts(),
+    };
+  }
+
+  if (!isDryRun) {
+    for (const [type, fileName] of Object.entries(ROUND_TYPE_FILE_MAP)) {
+      fs.writeFileSync(path.join(OUT_DIR, fileName), JSON.stringify(buckets[type], null, 2) + '\n', 'utf8');
+    }
+    writeManifest(manifest);
+  }
+
+  const line = (s = '') => console.log(s);
+  line('='.repeat(90));
+  line(`DUPLICATE REFRESH${isDryRun ? '  [DRY RUN - nothing written]' : ''}`);
+  line('='.repeat(90));
+  line(`Content-identical groups (2+ files): ${groups.length}`);
+  line(`Files in those groups: ${groups.reduce((a, g) => a + g.length, 0)}`);
+  line(`Recorded as skipped-duplicate (non-canonical): ${duplicateOf.size}`);
+  line(`Canonicals kept for processing: ${groups.length}`);
+  line(`Stale duplicate questions cleared from seed-data: ${staleRemoved}`);
+  line();
+  for (const g of [...groups].sort((a, b) => b.length - a.length)) {
+    const canonical = pickCanonicalFile(g);
+    line(`  [${g.length}] canonical: ${canonical}`);
+    for (const f of g.filter((x) => x !== canonical).sort()) line(`         dup -> ${f}`);
+  }
+  line();
+  line(isDryRun ? 'Dry run - manifest.json and seed-data not written.' : 'Wrote skipped-duplicate entries to manifest.json and cleaned seed-data.');
+}
+
 async function main() {
-  const { isDryRun, only } = parseArgs(process.argv.slice(2));
+  const { isDryRun, only, refreshDuplicates } = parseArgs(process.argv.slice(2));
   fs.mkdirSync(OUT_DIR, { recursive: true });
+
+  if (refreshDuplicates) {
+    await refreshDuplicateManifest({ isDryRun });
+    return;
+  }
 
   const manifest = loadManifest();
   const { fullSkip } = loadKnownExceptions();
   const buckets = loadExistingBuckets();
   const candidateFiles = getCandidateFiles(only);
 
-  const report = { new: [], changed: [], skippedUnchanged: [], skippedKnownException: [], errored: [] };
+  // Decide duplicates up front over the candidate set (over the whole corpus for a real run),
+  // caching extracted text so the per-file loop below never re-extracts. Non-canonical
+  // duplicates are skipped and recorded rather than reprocessed under a different filename.
+  const { duplicateOf, textByFile, hashByFile } = await resolveDuplicates(candidateFiles);
+
+  const report = { new: [], changed: [], skippedUnchanged: [], skippedKnownException: [], skippedDuplicate: [], errored: [] };
   const thisRunQuestions = { General: [], SpeedRace: [], ProblemOfDay: [], TrueFalse: [], Riddle: [] };
   const thisRunWarnings = [];
 
   for (const fileName of candidateFiles) {
     const filePath = path.join(RAW_DIR, fileName);
     let text;
-    try {
-      text = await extractText(filePath);
-    } catch (err) {
-      report.errored.push(fileName);
-      thisRunWarnings.push(`[${fileName}] skipped: could not extract text (${err.message})`);
+    if (textByFile.has(fileName)) {
+      text = textByFile.get(fileName);
+    } else {
+      try {
+        text = await extractText(filePath);
+      } catch (err) {
+        report.errored.push(fileName);
+        thisRunWarnings.push(`[${fileName}] skipped: could not extract text (${err.message})`);
+        continue;
+      }
+    }
+    const hash = hashByFile.get(fileName) || sha256(text || '');
+
+    if (duplicateOf.has(fileName)) {
+      const canonical = duplicateOf.get(fileName);
+      report.skippedDuplicate.push(fileName);
+      thisRunWarnings.push(`[${fileName}] skipped: duplicate of ${canonical}`);
+      // Clear any stale entries a pre-dedup run may have written for this filename.
+      removeQuestionsFromSource(buckets, fileName);
+      if (!isDryRun) {
+        manifest[fileName] = {
+          contentHash: hash,
+          processedAt: new Date().toISOString(),
+          status: 'skipped-duplicate',
+          duplicateOf: canonical,
+          questionsAdded: zeroCounts(),
+        };
+      }
       continue;
     }
-    const hash = sha256(text || '');
+
     const prior = manifest[fileName];
 
     if (fullSkip.has(fileName)) {
@@ -1001,6 +1145,7 @@ function printSummary({ isDryRun, report, buckets, thisRunQuestions, thisRunWarn
   line(`Changed files reprocessed: ${report.changed.length} ${report.changed.length ? `(${report.changed.join(', ')})` : ''}`);
   line(`Skipped, unchanged: ${report.skippedUnchanged.length} ${report.skippedUnchanged.length ? `(${report.skippedUnchanged.join(', ')})` : ''}`);
   line(`Skipped, known exception: ${report.skippedKnownException.length} ${report.skippedKnownException.length ? `(${report.skippedKnownException.join(', ')})` : ''}`);
+  line(`Skipped, duplicate: ${report.skippedDuplicate.length} ${report.skippedDuplicate.length ? `(${report.skippedDuplicate.join(', ')})` : ''}`);
   line(`Errored (text extraction failed): ${report.errored.length} ${report.errored.length ? `(${report.errored.join(', ')})` : ''}`);
   line();
   line(
