@@ -149,7 +149,9 @@ const TRAILING_CONTEST_LABEL_RE = /^[-–—]?\s*contest\s*\d+\.?\s*$/i;
 function isEffectivelyEmptyAnswer(rawAnswer) {
   return rawAnswer.length === 0 || TRAILING_CONTEST_LABEL_RE.test(rawAnswer);
 }
-const WHO_RE = /who\s+(?:am\s+i|are\s+we)\??/i;
+// "1" is accepted alongside "i" in the "am" branch only - a narrow, observed OCR/typo
+// substitution ("Who am 1?" instead of "Who am I?"), not a general digit/letter conflation.
+const WHO_RE = /who\s+(?:am\s+[i1]|are\s+we)\??/i;
 // A block continues the previous ANSWER block rather than starting a new question when it's
 // a short calculation-step fragment ("= 4.74/2 + 0.5", "pH = 14 - 2.87") - i.e. it contains
 // an "=" within its first ~20 characters and isn't long enough to be its own sentence.
@@ -285,9 +287,24 @@ function parseQABlocks(bodyText) {
 // Riddle-specific parsing
 // ---------------------------------------------------------------------------------------
 
-// Handles both riddle formats seen in this corpus: "WHO AM I?" (or "WHO ARE WE?") as its
-// own line followed by a separate "ANSWER:" line, and "... bauxite. Who am I?" inline at
-// the end of the last clue line with the answer on the very next line.
+// Some riddles number their answer line ("8. ANSWER: Root") - a leftover item marker in
+// front of the label the plain prefix check would otherwise miss. Stripped before testing for
+// the answer marker, on the answer-line check only (not the inline "...bauxite. Who am I?"
+// same-line case, which never carries a numbered prefix in this corpus).
+const NUMBERED_ITEM_PREFIX_RE = /^\d{1,3}[.)]\s*/;
+function matchAnswerLine(line) {
+  return line.replace(NUMBERED_ITEM_PREFIX_RE, '').match(ANSWER_LINE_RE);
+}
+
+// A clue-style line in riddle-shaped prose ("I am ...", "I have ...", "My ...", "We are ...").
+// Used only by the closing-question fallback below.
+const CLUE_STYLE_LINE_RE = /^(?:i\s+am\b|i\s+have\b|i\s+can\b|my\s+\S|we\s+are\b|we\s+have\b)/i;
+
+// Handles the riddle formats seen in this corpus: "WHO AM I?" (or "WHO ARE WE?"/"Who am 1?")
+// as its own line followed by a separate "ANSWER:" line, "... bauxite. Who am I?" inline at
+// the end of the last clue line with the answer on the very next line, and (fallback) riddle-
+// shaped prose that closes with a different question ("What is my systematic name?") instead
+// of the standard phrase.
 function parseRiddleSegment(segmentText) {
   const body = stripHeader(segmentText);
   const rawLines = body
@@ -308,26 +325,56 @@ function parseRiddleSegment(segmentText) {
       break;
     }
   }
-  if (whoLineIdx === -1) return null;
 
-  const clueLines = rawLines.slice(0, whoLineIdx);
-  if (beforeWho) clueLines.push(beforeWho);
+  if (whoLineIdx !== -1) {
+    const clueLines = rawLines.slice(0, whoLineIdx);
+    if (beforeWho) clueLines.push(beforeWho);
 
-  let rawAnswer = afterWho.replace(/^[-:.\s]+/, '').trim();
-  if (!rawAnswer) {
-    for (let i = whoLineIdx + 1; i < rawLines.length; i++) {
-      const m = rawLines[i].match(ANSWER_LINE_RE);
-      if (m) {
-        rawAnswer = m[1].trim();
-        break;
+    let rawAnswer = afterWho.replace(/^[-:.\s]+/, '').trim();
+    if (!rawAnswer) {
+      for (let i = whoLineIdx + 1; i < rawLines.length; i++) {
+        const m = matchAnswerLine(rawLines[i]);
+        if (m) {
+          rawAnswer = m[1].trim();
+          break;
+        }
+        break; // first non-blank line after "who am i" wasn't an answer line - give up
       }
-      break; // first non-blank line after "who am i" wasn't an answer line - give up
     }
+    // "who am i" found but no answer followed it anywhere expected - genuine truncation, not
+    // something the closing-question fallback below should try to rescue.
+    if (!rawAnswer) return null;
+
+    const clues = clueLines.map((text, idx) => ({ order: idx + 1, text: cleanText(text) }));
+    const questionText = `${clues.map((c) => c.text).join(' ')} Who am I?`;
+    return { clues, questionText, answerText: resolveAnswerText(rawAnswer) };
+  }
+
+  // No "who am i"/"who are we" phrase anywhere. Accept a differently-phrased closing question
+  // as the prompt when the segment otherwise looks riddle-shaped: at least two "I am"/"My"-
+  // style clue lines, ending in a line that asks a question, followed by a recognizable answer
+  // line. Deliberately narrow - a bare section-header segment (no clue lines) or one with no
+  // question mark at all still falls through and returns null, same as before.
+  const clueLineCount = rawLines.filter((l) => CLUE_STYLE_LINE_RE.test(l)).length;
+  if (clueLineCount < 2) return null;
+
+  const questionLineIdx = rawLines.reduce((last, l, idx) => (l.endsWith('?') ? idx : last), -1);
+  if (questionLineIdx === -1) return null;
+
+  let rawAnswer = '';
+  for (let i = questionLineIdx + 1; i < rawLines.length; i++) {
+    const m = matchAnswerLine(rawLines[i]);
+    if (m) {
+      rawAnswer = m[1].trim();
+      break;
+    }
+    break;
   }
   if (!rawAnswer) return null;
 
+  const clueLines = rawLines.slice(0, questionLineIdx);
   const clues = clueLines.map((text, idx) => ({ order: idx + 1, text: cleanText(text) }));
-  const questionText = `${clues.map((c) => c.text).join(' ')} Who am I?`;
+  const questionText = `${clues.map((c) => c.text).join(' ')} ${cleanText(rawLines[questionLineIdx])}`;
   return { clues, questionText, answerText: resolveAnswerText(rawAnswer) };
 }
 

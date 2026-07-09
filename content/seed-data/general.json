@@ -2761,5 +2761,4086 @@
     "questionText": "Find the electron flow rate through a copper wire carrying a current of 8 A.",
     "correctAnswer": "5 × 1019s−1",
     "scored": false
+  },
+  {
+    "id": "fd0677352a07079fddda5841",
+    "sourceFile": "Contest 11.doc",
+    "subject": null,
+    "questionText": "Which alkali will produce hard soap with vegetable oil or fat? (C)",
+    "correctAnswer": "KOH (Soft soap NaOH)",
+    "scored": false
+  },
+  {
+    "id": "5233091ee05bfa358bde8a35",
+    "sourceFile": "Contest 11.doc",
+    "subject": null,
+    "questionText": "Chemically what is the difference between a vegetable oil and engine oil? (C)",
+    "correctAnswer": "Vegetable oil is a triglyceride (or esters of glycerol) while engine oil is made of hydrocarbons Q. 15 - 7 = 10 or 3 + 9 = 12",
+    "scored": false
+  },
+  {
+    "id": "bd1b833ba7e56502c69d28cd",
+    "sourceFile": "Contest 11.doc",
+    "subject": "Chemistry",
+    "questionText": "Determine the truth value of the compound statement. (M) 3 * 4 = 12 and 7 + 3 =11",
+    "correctAnswer": "False (since 7 + 3 = 11 is false) Q. a (b + c) = ab * ac",
+    "scored": false
+  },
+  {
+    "id": "47400ed40dc03e3d74f7774c",
+    "sourceFile": "Contest 11.doc",
+    "subject": null,
+    "questionText": "State the property illustrated in the operation. (M) ab + c = ba + c",
+    "correctAnswer": "Commutative",
+    "scored": false
+  },
+  {
+    "id": "662eb0ebc540ea5b799902c3",
+    "sourceFile": "Contest 11.doc",
+    "subject": null,
+    "questionText": "State the property illustrated in the operation. (M) How is ammonia gas prepared in the laboratory dried? (C)",
+    "correctAnswer": "By passing the gas through a column of CaO",
+    "scored": false
+  },
+  {
+    "id": "585352ec4982d9790aec74cc",
+    "sourceFile": "Contest 11.doc",
+    "subject": null,
+    "questionText": "State the property illustrated in the operation. (M) How is HCl gas prepared in the laboratory dried? (C)",
+    "correctAnswer": "By bubbling the gas through concentrated H2SO4",
+    "scored": false
+  },
+  {
+    "id": "d8f62b786acacd990f1fb529",
+    "sourceFile": "Contest 11.doc",
+    "subject": null,
+    "questionText": "Rationalise the denominator. (M)",
+    "correctAnswer": "Q. Q. What is the name of a straight chain alkane with 20 carbons? (C) Eicosane",
+    "scored": false
+  },
+  {
+    "id": "7ef124005bf0138980a92dc5",
+    "sourceFile": "Contest 11.doc",
+    "subject": null,
+    "questionText": "Rationalise the denominator. (M) What is the name of a straight chain alkane with 23 carbons? (C)",
+    "correctAnswer": "Tricosane",
+    "scored": false
+  },
+  {
+    "id": "12e09e1e2714fa13fcc86ebf",
+    "sourceFile": "Contest 11.doc",
+    "subject": "Chemistry",
+    "questionText": "Rationalise the denominator. (M) Name the element in Group I of the periodic table named after a country. (C)",
+    "correctAnswer": "Fr - Francium named after France",
+    "scored": false
+  },
+  {
+    "id": "3149a79679e9cdc2c2a47831",
+    "sourceFile": "Contest 11.doc",
+    "subject": "Chemistry",
+    "questionText": "Rationalise the denominator. (M) Name an element in the fourth period of the periodic table apart from gallium named after a country. (C)",
+    "correctAnswer": "Ge - Germanium (Latin for Germany Germania)",
+    "scored": false
+  },
+  {
+    "id": "24658ca8d832ba85652d5bdb",
+    "sourceFile": "Contest 11.doc",
+    "subject": null,
+    "questionText": "Rationalise the denominator. (M) State the condition for a number to be divisible by 3. (M)",
+    "correctAnswer": "The sum of the digits of the numbers is divisible by 3",
+    "scored": false
+  },
+  {
+    "id": "810daa7e4bfa5b4ebef76eba",
+    "sourceFile": "Contest 11.doc",
+    "subject": null,
+    "questionText": "Rationalise the denominator. (M) State the condition for a number to be divisible by 9. (M)",
+    "correctAnswer": "The sum of the digits of the numbers is divisible by 9",
+    "scored": false
+  },
+  {
+    "id": "aa43ef2ade6247b823d72a6d",
+    "sourceFile": "Contest 11.doc",
+    "subject": null,
+    "questionText": "Rationalise the denominator. (M) In Rhizopus, the mycelia that grow horizontally on the surface of the substrum are called … (B)",
+    "correctAnswer": "Stolon",
+    "scored": false
+  },
+  {
+    "id": "987fd8422698e52462107652",
+    "sourceFile": "Contest 11.doc",
+    "subject": null,
+    "questionText": "Rationalise the denominator. (M) In Rhizopus what name is given to the root-like hyphae that arise at points where the stolon makes contact with the substrate? (B)",
+    "correctAnswer": "Rhizoids",
+    "scored": false
+  },
+  {
+    "id": "67f90d67b9c5d2085914456d",
+    "sourceFile": "Contest 11.doc",
+    "subject": "Physics",
+    "questionText": "Rationalise the denominator. (M) How will the inductive reactance of an ac circuit change if the ac frequency is doubled? (P)",
+    "correctAnswer": "It will double",
+    "scored": false
+  },
+  {
+    "id": "5a81b9af320e52038dae5b63",
+    "sourceFile": "Contest 11.doc",
+    "subject": "Physics",
+    "questionText": "Rationalise the denominator. (M) How will the capacitive reactance of an ac circuit change if the ac frequency is halved? (P)",
+    "correctAnswer": "It will double",
+    "scored": false
+  },
+  {
+    "id": "ce61a07c37c0c79cd3889178",
+    "sourceFile": "Contest 11.doc",
+    "subject": null,
+    "questionText": "Rationalise the denominator. (M) Give the characteristics of the intermediate image formed in a normally adjusted astronomical refracting telescope. (P)",
+    "correctAnswer": "Real, inverted, diminished",
+    "scored": false
+  },
+  {
+    "id": "d799ede88b782e49b2ee55f2",
+    "sourceFile": "Contest 11.doc",
+    "subject": null,
+    "questionText": "Rationalise the denominator. (M) The size of the pinhole in a pinhole camera is increased. State the effect on the image. (P)",
+    "correctAnswer": "Brighter but blurry image",
+    "scored": false
+  },
+  {
+    "id": "939afd78a318237ba3799ab5",
+    "sourceFile": "Contest 11.doc",
+    "subject": "Biology",
+    "questionText": "Rationalise the denominator. (M) Lateral roots arise from which tissue? (B)",
+    "correctAnswer": "Pericycle",
+    "scored": false
+  },
+  {
+    "id": "6664b00b87f8ce9ec4f95db4",
+    "sourceFile": "Contest 11.doc",
+    "subject": "Biology",
+    "questionText": "Rationalise the denominator. (M) In plants the loss of water through hydathodes is known as ….. (B)",
+    "correctAnswer": "Guttation",
+    "scored": false
+  },
+  {
+    "id": "07000258a1ffc721559dd68e",
+    "sourceFile": "Contest 11.doc",
+    "subject": "Biology",
+    "questionText": "Rationalise the denominator. (M) In classification of organisms, the smallest division of a kingdom is known as ….. (B)",
+    "correctAnswer": "Phylum",
+    "scored": false
+  },
+  {
+    "id": "037f155a7f8ac241af873b03",
+    "sourceFile": "Contest 11.doc",
+    "subject": "Biology",
+    "questionText": "Rationalise the denominator. (M) In classification of organisms, what name is given to the smallest division of a family? (B)",
+    "correctAnswer": "Genus",
+    "scored": false
+  },
+  {
+    "id": "c871f74d8ec49e4176ee7f2c",
+    "sourceFile": "Contest 11.doc",
+    "subject": null,
+    "questionText": "Rationalise the denominator. (M) In mosses, the fertilised ovum develops into a structure known as ….. (B)",
+    "correctAnswer": "Sporophyte",
+    "scored": false
+  },
+  {
+    "id": "1c52ee9b6ca1c304e681a143",
+    "sourceFile": "Contest 11.doc",
+    "subject": "Biology",
+    "questionText": "Rationalise the denominator. (M) Moss plants reproduce sexually by using male sex organs known as ….. (B)",
+    "correctAnswer": "Antheridia",
+    "scored": false
+  },
+  {
+    "id": "e3bb1ac084b32fb053dd9817",
+    "sourceFile": "Contest 11.doc",
+    "subject": "Physics",
+    "questionText": "Rationalise the denominator. (M) A single-stage transistor amplifier has a voltage gain of 5. What input voltage will give a 5mV output voltage? (P)",
+    "correctAnswer": "1mV )",
+    "scored": false
+  },
+  {
+    "id": "1515dfe3112bf55bb977e862",
+    "sourceFile": "Contest 11.doc",
+    "subject": "Chemistry",
+    "questionText": "Rationalise the denominator. (M) Name the ways in which a single bipolar transistor can be connected in an amplifier. (P)",
+    "correctAnswer": "Common base, common collector or common emitter",
+    "scored": false
+  },
+  {
+    "id": "ce232feade706672e1f84ca1",
+    "sourceFile": "Contest 11.doc",
+    "subject": "Maths",
+    "questionText": "A 10 cm high object is placed in front of a pinhole camera. The camera screen is 1 cm away from the pinhole. (P) How far must the object be from the pinhole if the image height must be 1cm?",
+    "correctAnswer": "10 cm (By similar triangles",
+    "scored": false
+  },
+  {
+    "id": "035bdaaed73fe6a90111c313",
+    "sourceFile": "Contest 11.doc",
+    "subject": null,
+    "questionText": "A 10 cm high object is placed in front of a pinhole camera. The camera screen is 1 cm away from the pinhole. (P) What will the magnification be if the object is placed 20 cm from the pinhole?",
+    "correctAnswer": "0.05",
+    "scored": false
+  },
+  {
+    "id": "9d012f40fac3176d589089c0",
+    "sourceFile": "Contest 11.doc",
+    "subject": "Physics",
+    "questionText": "A photocathode illuminated with light of wavelength 300 * 10-9 m obtained from a mercury lamp emits electrons with maximum energy 5.03 * 10-19J. When the same photocathode is illuminated with a wavelength of 600 * 10-9 m, the maximum energy of the ejected electrons is 1.72 * 10-19J. Use the information provided to determine the value of Planck's constant. (P)",
+    "correctAnswer": "Einstein's photoelectric formula hv = W + K.E. (where = Planck's constant, v = frequency, W = work function) written twice, once for each photon energy given, gives after subtraction (v1 - v2) = K.E.1 - K.E.2 from which",
+    "scored": false
+  },
+  {
+    "id": "927671938af0faa1890e8930",
+    "sourceFile": "Contest 11.doc",
+    "subject": null,
+    "questionText": "The image formed in a camera is real and erect. (P)",
+    "correctAnswer": "F",
+    "scored": false
+  },
+  {
+    "id": "95ede49cd091f5e78fe537ad",
+    "sourceFile": "Contest 11.doc",
+    "subject": "Chemistry",
+    "questionText": "Permanent hardness of water is caused by several chemicals including sodium chloride. (C)",
+    "correctAnswer": "F Q. Sec2A = tan2A + 1 (A is an angle). (M)",
+    "scored": false
+  },
+  {
+    "id": "5a6d51744927ba3f8b7d0b94",
+    "sourceFile": "Contest 11.doc",
+    "subject": null,
+    "questionText": "cos2A - sin2A = 1. (M)",
+    "correctAnswer": "F [cos2A + sin2A = 1]",
+    "scored": false
+  },
+  {
+    "id": "cabcc2cc5eb7399613763d10",
+    "sourceFile": "Contest 11.doc",
+    "subject": "Chemistry",
+    "questionText": "To test for the presence of glucose, the substance is boiled with HCl before Fehling's solution is added. (C)",
+    "correctAnswer": "F [No addition of acid]",
+    "scored": false
+  },
+  {
+    "id": "94d4a01ab1053a91e41a29b7",
+    "sourceFile": "Contest 11.doc",
+    "subject": "Physics",
+    "questionText": "In a photographic camera, the distance between the lens and the focal plane for the best image depends on how far the object is from the camera. (P)",
+    "correctAnswer": "T",
+    "scored": false
+  },
+  {
+    "id": "2d3cd38b73ac5c23da54dc2f",
+    "sourceFile": "Contest 11.doc",
+    "subject": null,
+    "questionText": "Rain water may contain in addition to some dissolved gases; ammonium trioxonitrate (V). (C)",
+    "correctAnswer": "T [oxides of nitrogen and ammonia may be produced by lightening]",
+    "scored": false
+  },
+  {
+    "id": "db1b86858153b36491b6df2f",
+    "sourceFile": "Contest 11.doc",
+    "subject": "Chemistry",
+    "questionText": "Hydrogen bonding in pure ethanoic acid in the vapour phase leads to dimerization. (C)",
+    "correctAnswer": "T",
+    "scored": false
+  },
+  {
+    "id": "9cd59ea4865f12762db00b27",
+    "sourceFile": "Contest 11.doc",
+    "subject": null,
+    "questionText": ". (M)",
+    "correctAnswer": "T",
+    "scored": false
+  },
+  {
+    "id": "c7ca4da65f42e874eb9a4a01",
+    "sourceFile": "Contest 11.doc",
+    "subject": null,
+    "questionText": "Sucrose is a non-reducing sugar. (C)",
+    "correctAnswer": "T",
+    "scored": false
+  },
+  {
+    "id": "36022c1591a0271defc4a174",
+    "sourceFile": "Contest 11.doc",
+    "subject": "Physics",
+    "questionText": "The human eye has a single lens with fixed focal length. (P)",
+    "correctAnswer": "F [The focal length is variable by means of ciliary muscles]",
+    "scored": false
+  },
+  {
+    "id": "ed6bc71ef370ece1e6621e36",
+    "sourceFile": "Contest 11.doc",
+    "subject": null,
+    "questionText": "An upright object forms a real, inverted image on the retina. (P)",
+    "correctAnswer": "T",
+    "scored": false
+  },
+  {
+    "id": "0bec1d66593967bf82170a56",
+    "sourceFile": "Contest 11.doc",
+    "subject": null,
+    "questionText": "Solubility of gases in water generally increases with temperature. (C)",
+    "correctAnswer": "F",
+    "scored": false
+  },
+  {
+    "id": "a2f6697cbd9702fd3550f577",
+    "sourceFile": "Contest 11.doc",
+    "subject": null,
+    "questionText": "The product of a surd and its conjugate is also a surd. (M)",
+    "correctAnswer": "F",
+    "scored": false
+  },
+  {
+    "id": "90465385e4b01c086e9a3acd",
+    "sourceFile": "Contest 11.doc",
+    "subject": "Biology",
+    "questionText": "Meiosis occurs only at certain times in the life cycle of a sexually reproducing organism. (B)",
+    "correctAnswer": "T",
+    "scored": false
+  },
+  {
+    "id": "a7f9562ddee7090b4319557a",
+    "sourceFile": "Contest 11.doc",
+    "subject": "Biology",
+    "questionText": "Mitosis is common because it allows growth and repair of body tissues in multicellular organisms. (B)",
+    "correctAnswer": "T",
+    "scored": false
+  },
+  {
+    "id": "41f36b8c0d102880ebaf08c9",
+    "sourceFile": "Contest 13.doc",
+    "subject": "Physics",
+    "questionText": "In the cathode ray tube of a T.V. set, magnetic fields are used to scan an electron beam up-and-down and left-to-right along the screen of the tube. Give the magnetic field direction for each scan direction. (P)",
+    "correctAnswer": "Horizontal field for up-and-down and vertical field for left-to-right",
+    "scored": false
+  },
+  {
+    "id": "d8fd1abd0e399881c8f7935e",
+    "sourceFile": "Contest 13.doc",
+    "subject": null,
+    "questionText": "In a cathode ray oscilloscope, electric fields are used for deflection od the electron beam. Give the direction for up-down and left-right scanning. (P)",
+    "correctAnswer": "Vertical field for vertical scan and horizontal field for horizontal scan",
+    "scored": false
+  },
+  {
+    "id": "b1687aca4a6ee5f81daa64ab",
+    "sourceFile": "Contest 13.doc",
+    "subject": null,
+    "questionText": "Find the gradient of the line segment joining the points A and B. (M) A(2, 4), B(5, 13)",
+    "correctAnswer": "3 []",
+    "scored": false
+  },
+  {
+    "id": "74b4cf85bc7334fb624a514a",
+    "sourceFile": "Contest 13.doc",
+    "subject": null,
+    "questionText": "Find the gradient of the line segment joining the points A and B. (M) A(-5, -6), B(-3, 4)",
+    "correctAnswer": "5 []",
+    "scored": false
+  },
+  {
+    "id": "32485bb42f9d70bc30b10d7e",
+    "sourceFile": "Contest 13.doc",
+    "subject": null,
+    "questionText": "Find the gradient of the line segment joining the points A and B. (M) Flowers occur as a specialised branch at the tip of a stalk known as ….. (B)",
+    "correctAnswer": "Peduncle/Pedicel",
+    "scored": false
+  },
+  {
+    "id": "073069bdd59a506f3ff0fcec",
+    "sourceFile": "Contest 13.doc",
+    "subject": null,
+    "questionText": "Find the gradient of the line segment joining the points A and B. (M) The peduncle swells at its tip into a small pad known as ….. (B)",
+    "correctAnswer": "Receptacle",
+    "scored": false
+  },
+  {
+    "id": "79eff8e6b59d7620bab4ff12",
+    "sourceFile": "Contest 13.doc",
+    "subject": "Chemistry",
+    "questionText": "Find the gradient of the line segment joining the points A and B. (M) Name one element in Group III of the periodic table named after a country. (C)",
+    "correctAnswer": "Ga - Galium (Latin Gallia = France)",
+    "scored": false
+  },
+  {
+    "id": "95346cc0c3044e7c4ea6fc3a",
+    "sourceFile": "Contest 13.doc",
+    "subject": "Chemistry",
+    "questionText": "Find the gradient of the line segment joining the points A and B. (M) Name one element in the 3rd d-Transition series named after a city in Denmark. (C)",
+    "correctAnswer": "Hafnium (Latin Hafnia for Copenhagan)",
+    "scored": false
+  },
+  {
+    "id": "945d18be3c4f65d04f08e5bf",
+    "sourceFile": "Contest 13.doc",
+    "subject": null,
+    "questionText": "Find the gradient of the line segment joining the points A and B. (M) How many p-n junctions make up an ordinary bipolar junction transistor? (P)",
+    "correctAnswer": "2",
+    "scored": false
+  },
+  {
+    "id": "1523cb0805be9a33f8b729fb",
+    "sourceFile": "Contest 13.doc",
+    "subject": null,
+    "questionText": "Find the gradient of the line segment joining the points A and B. (M) Name two types of transistor. (P)",
+    "correctAnswer": "PNP, NPN, MOSFET, FET, JFET",
+    "scored": false
+  },
+  {
+    "id": "6cdeca451921f8e3a585ee3d",
+    "sourceFile": "Contest 13.doc",
+    "subject": "Maths",
+    "questionText": "Solve the equation. (M)",
+    "correctAnswer": "Q. Q. To which class of echinoderms does a brittle star belong? (B) Class Stelleroidea",
+    "scored": false
+  },
+  {
+    "id": "1b069249fdcb6de71445978b",
+    "sourceFile": "Contest 13.doc",
+    "subject": "Maths",
+    "questionText": "Solve the equation. (M) To which class of chordates does a shark belong? (B)",
+    "correctAnswer": "Class Chondrichthyes",
+    "scored": false
+  },
+  {
+    "id": "172f5425afbc81a2c3954060",
+    "sourceFile": "Contest 13.doc",
+    "subject": "Maths",
+    "questionText": "Solve the equation. (M) What do kenkey, banku, gari, pito, agblema and akpeteshie have in common? (B)",
+    "correctAnswer": "They are fermented foods/products OR They are produced by indigenous biotechnology",
+    "scored": false
+  },
+  {
+    "id": "838fe882f83b2068aa8350a3",
+    "sourceFile": "Contest 13.doc",
+    "subject": "Maths",
+    "questionText": "Solve the equation. (M) What is the distinguishing feature of biotechnology as a means of processing food? (B)",
+    "correctAnswer": "Use of microbes",
+    "scored": false
+  },
+  {
+    "id": "ddd4ef18eb5d989477e8cac6",
+    "sourceFile": "Contest 13.doc",
+    "subject": "Physics",
+    "questionText": "Solve the equation. (M) Why is a large capacitor connected across the terminals of a half-wave rectifier? (P)",
+    "correctAnswer": "To smooth out ripples",
+    "scored": false
+  },
+  {
+    "id": "e80b09d0fedbc57bb7767919",
+    "sourceFile": "Contest 13.doc",
+    "subject": "Maths",
+    "questionText": "Solve the equation. (M) How many diodes are used in a single-phase bridge rectifier? (P)",
+    "correctAnswer": "4",
+    "scored": false
+  },
+  {
+    "id": "db85cf42c694048c8cc80f49",
+    "sourceFile": "Contest 13.doc",
+    "subject": "Maths",
+    "questionText": "Solve the equation. (M) An item bought for GH¢ 50.00 is sold for GH¢ 65.00. Find the % profit. (M)",
+    "correctAnswer": "30 % []",
+    "scored": false
+  },
+  {
+    "id": "ac65b5e1f452a4cffbd0523a",
+    "sourceFile": "Contest 13.doc",
+    "subject": "Maths",
+    "questionText": "Solve the equation. (M) An item bought for GH¢ 20.00 is sold for GH¢ 18.00. Find the % loss. (M)",
+    "correctAnswer": "10 % []",
+    "scored": false
+  },
+  {
+    "id": "3a3a250da4a70e24d4072066",
+    "sourceFile": "Contest 13.doc",
+    "subject": "Maths",
+    "questionText": "Solve the equation. (M) In mosses, the green filamentous structure that grows directly from the germinating spore is called ….. (B)",
+    "correctAnswer": "Protonema",
+    "scored": false
+  },
+  {
+    "id": "317c7daed07b7618a792ded3",
+    "sourceFile": "Contest 13.doc",
+    "subject": "Biology",
+    "questionText": "Solve the equation. (M) The structure that produces the female gametes in mosses is called ….. (B)",
+    "correctAnswer": "Archegonium",
+    "scored": false
+  },
+  {
+    "id": "c5fc469156ec698b1ac76665",
+    "sourceFile": "Contest 13.doc",
+    "subject": "Biology",
+    "questionText": "Solve the equation. (M) Select the species that are isoelectronic from the following: S2-, Cl-, Si4+, Ca2+. (C)",
+    "correctAnswer": "S2-, Cl-, Ca2+ (all have Argon configuration)",
+    "scored": false
+  },
+  {
+    "id": "5d1b1b305da88325c84cee14",
+    "sourceFile": "Contest 13.doc",
+    "subject": "Biology",
+    "questionText": "Solve the equation. (M) Select the species that are isoelectronic from the following: Na+, Al3+, O2-, Cl6+. (C)",
+    "correctAnswer": "Na+, Al3+, O2- (all have Neon configuration)",
+    "scored": false
+  },
+  {
+    "id": "5f7f925193527b1362a7a364",
+    "sourceFile": "Contest 13.doc",
+    "subject": "Physics",
+    "questionText": "Solve the equation. (M) What type of rectification is obtained with a bridge rectifier: half wave or full wave? (P)",
+    "correctAnswer": "Full wave",
+    "scored": false
+  },
+  {
+    "id": "93f9dad89a413525ae1a193d",
+    "sourceFile": "Contest 13.doc",
+    "subject": "Physics",
+    "questionText": "Solve the equation. (M) What is the relationship between input frequency and ripple frequency for a single-phase full wave rectifier? (P)",
+    "correctAnswer": "Ripple frequency is twice input frequency",
+    "scored": false
+  },
+  {
+    "id": "a48d921a56fd0c6952c0bca0",
+    "sourceFile": "Contest 13.doc",
+    "subject": "Maths",
+    "questionText": "Express as a single logarithm and simplify. (M) 3log5 + log4 - log10",
+    "correctAnswer": "log50 []",
+    "scored": false
+  },
+  {
+    "id": "050d04554d68f6505dead688",
+    "sourceFile": "Contest 13.doc",
+    "subject": "Maths",
+    "questionText": "Express as a single logarithm and simplify. (M) log6 - log2 + log3",
+    "correctAnswer": "log9 or 2log3 []",
+    "scored": false
+  },
+  {
+    "id": "e262cdd5968f54e92297cecc",
+    "sourceFile": "Contest 13.doc",
+    "subject": "Maths",
+    "questionText": "Express as a single logarithm and simplify. (M) The stiff outer covering of a paramecium is referred to as a ….. (B)",
+    "correctAnswer": "Pellicle",
+    "scored": false
+  },
+  {
+    "id": "008f3e6905060e527bf1a510",
+    "sourceFile": "Contest 13.doc",
+    "subject": "Maths",
+    "questionText": "Express as a single logarithm and simplify. (M) The oral groove of a paramecium leads backwards into a funnel-shaped tube called the ….. (B)",
+    "correctAnswer": "Gullet",
+    "scored": false
+  },
+  {
+    "id": "750e05f01868b386be3f8432",
+    "sourceFile": "Contest 13.doc",
+    "subject": "Maths",
+    "questionText": "Express as a single logarithm and simplify. (M) What substance is heated with natural rubber during vulcanization of rubber? (C)",
+    "correctAnswer": "Sulphur",
+    "scored": false
+  },
+  {
+    "id": "67eef865e8eba1cb13cf507f",
+    "sourceFile": "Contest 13.doc",
+    "subject": "Maths",
+    "questionText": "Express as a single logarithm and simplify. (M) What kind of polymerisation takes place to give polymeric natural rubber? (C)",
+    "correctAnswer": "Addition polymerisation",
+    "scored": false
+  },
+  {
+    "id": "f439e705da1924eec4f76edd",
+    "sourceFile": "Contest 13.doc",
+    "subject": "Physics",
+    "questionText": "Many elements become radioactive when atoms of the element are irradiated with neutrons. The products usually emit gamma rays which can be used to identify the elements present in the sample. At the neutron activation analysis facility of the Ghana Atomic Energy Commission, the composition of a sample is determined by irradiating the sample with neutrons and measuring the activity of the products formed. After determining the energies of the gamma rays by a particular irradiated sample, the original sample was determined to contain and . The initial gamma ray activities of the product nuclides were determined to be AAu = 2.6 * 1020s-1 and AAs = 1 * 1010s-1with respective half-lives of 3 days and 26 hours.",
+    "correctAnswer": "Give the nuclear reaction between a neutron and each of the detected elements. b. Determine the ratio of the number of radioactive gold atoms to the number of radioactive arsenic atoms present in the sample. (C)",
+    "scored": false,
+    "possiblyCorrupted": true
+  },
+  {
+    "id": "03b528c450bc2f1995639960",
+    "sourceFile": "Contest 13.doc",
+    "subject": null,
+    "questionText": "Both lactose and galactose can be hydrolysed into simple sugars. (C)",
+    "correctAnswer": "F [lactose yes, galactose no]",
+    "scored": false
+  },
+  {
+    "id": "73a27ee1f578f006452967f6",
+    "sourceFile": "Contest 13.doc",
+    "subject": "Biology",
+    "questionText": "Members of the phylum Euglenophyta are flagellates. (B)",
+    "correctAnswer": "T",
+    "scored": false
+  },
+  {
+    "id": "da17b63d1d2ce18e8dc21aef",
+    "sourceFile": "Contest 13.doc",
+    "subject": null,
+    "questionText": "One square meter equals 10,000 cm2. (M)",
+    "correctAnswer": "T",
+    "scored": false
+  },
+  {
+    "id": "90d1064576fad479ddd08c59",
+    "sourceFile": "Contest 13.doc",
+    "subject": null,
+    "questionText": "White light can be produced by combining blue and red light. (P)",
+    "correctAnswer": "F",
+    "scored": false
+  },
+  {
+    "id": "4521b7d2a84af18c0702743b",
+    "sourceFile": "Contest 13.doc",
+    "subject": null,
+    "questionText": "Yellow light can be produced by combining red and green light. (P)",
+    "correctAnswer": "T",
+    "scored": false
+  },
+  {
+    "id": "4b260b91538e4c1671306f79",
+    "sourceFile": "Contest 13.doc",
+    "subject": null,
+    "questionText": "Both glucose and galactose are called reducing sugars because their carbonyl functional groups can be reduced with appropriate reagents. (C)",
+    "correctAnswer": "F [they rather serve as reducing agents]",
+    "scored": false
+  },
+  {
+    "id": "9a84931c98a088a0697ca060",
+    "sourceFile": "Contest 13.doc",
+    "subject": "Biology",
+    "questionText": "Euglenophyta contains photosynthetic and non-photosynthetic species. (B)",
+    "correctAnswer": "T",
+    "scored": false
+  },
+  {
+    "id": "351782d6bb9ba69097f1075d",
+    "sourceFile": "Contest 13.doc",
+    "subject": null,
+    "questionText": "A cube is a polyhedron. (M)",
+    "correctAnswer": "T",
+    "scored": false
+  },
+  {
+    "id": "fea99dab8670df58147b0c23",
+    "sourceFile": "Contest 13.doc",
+    "subject": null,
+    "questionText": "Doubling the radius of a sphere increase the volume four times. (M)",
+    "correctAnswer": "F [volume increases 8 times]",
+    "scored": false
+  },
+  {
+    "id": "f502ae3cef26e7bc4b6a754b",
+    "sourceFile": "Contest 13.doc",
+    "subject": null,
+    "questionText": "A blue flower appears blue in white light because it absorbs blue light and reflects all other colours. (P)",
+    "correctAnswer": "F",
+    "scored": false
+  },
+  {
+    "id": "6b139e96410215961e94daaa",
+    "sourceFile": "Contest 13.doc",
+    "subject": null,
+    "questionText": "Green leaves appear green when illuminated with green light. (P)",
+    "correctAnswer": "T",
+    "scored": false
+  },
+  {
+    "id": "faa53ffa845d805d296e42b4",
+    "sourceFile": "Contest 13.doc",
+    "subject": "Biology",
+    "questionText": "Members of the phylum Oomycota have septate hyphae. (B)",
+    "correctAnswer": "F",
+    "scored": false
+  },
+  {
+    "id": "9b1b92f6596a784e4a4a260b",
+    "sourceFile": "Contest 13.doc",
+    "subject": null,
+    "questionText": "Phytophthora, which causes the black pod disease of cocoa is a virus. (B)",
+    "correctAnswer": "F",
+    "scored": false
+  },
+  {
+    "id": "35a5826b07482db2ced5483f",
+    "sourceFile": "Contest 13.doc",
+    "subject": "Maths",
+    "questionText": "In Mathematics angles measured in a clockwise direction have positive degree measures. (M)",
+    "correctAnswer": "F",
+    "scored": false
+  },
+  {
+    "id": "86b54651f4df011604b1f42f",
+    "sourceFile": "Contest 13.doc",
+    "subject": null,
+    "questionText": "Rubidium should be more electropositive than potassium. (C)",
+    "correctAnswer": "T",
+    "scored": false
+  },
+  {
+    "id": "b415b36e5ae35ec2f975be99",
+    "sourceFile": "Contest 13.doc",
+    "subject": "Chemistry",
+    "questionText": "Iodide ion is bigger than bromide ion. (C)",
+    "correctAnswer": "T",
+    "scored": false
+  },
+  {
+    "id": "d33fe87342d593602b49ddaa",
+    "sourceFile": "Contest 17.doc",
+    "subject": "Maths",
+    "questionText": "Simplify the exponential expression to have a positive exponent. (M) (x-3)-10",
+    "correctAnswer": "x30 [x(-3)(-10) = x30]",
+    "scored": false
+  },
+  {
+    "id": "274a1fa1a150f61aac3a154a",
+    "sourceFile": "Contest 17.doc",
+    "subject": "Maths",
+    "questionText": "Simplify the exponential expression to have a positive exponent. (M)",
+    "correctAnswer": "[]",
+    "scored": false
+  },
+  {
+    "id": "6361f0415bf72e799ac6719c",
+    "sourceFile": "Contest 17.doc",
+    "subject": "Chemistry",
+    "questionText": "Simplify the exponential expression to have a positive exponent. (M) Which element comes after Germanium in the 4th period of the periodic table? (C)",
+    "correctAnswer": "Arsenic (As)",
+    "scored": false
+  },
+  {
+    "id": "a05039fefddba41b2480557f",
+    "sourceFile": "Contest 17.doc",
+    "subject": "Chemistry",
+    "questionText": "Simplify the exponential expression to have a positive exponent. (M) Which element comes after sulphur in Group VI A of the periodic table? (C)",
+    "correctAnswer": "Selenium (Se)",
+    "scored": false
+  },
+  {
+    "id": "d06ffd9c50229743ae47ac43",
+    "sourceFile": "Contest 17.doc",
+    "subject": "Maths",
+    "questionText": "Simplify the exponential expression to have a positive exponent. (M) The calyx and corolla when undifferentiated are referred to as the ….. (B)",
+    "correctAnswer": "Perianth",
+    "scored": false
+  },
+  {
+    "id": "0ed22b679c52fe5cc97d4ed1",
+    "sourceFile": "Contest 17.doc",
+    "subject": "Maths",
+    "questionText": "Simplify the exponential expression to have a positive exponent. (M) The members of a perianth are called ….. (B)",
+    "correctAnswer": "Tepals",
+    "scored": false
+  },
+  {
+    "id": "aa3a875f213d5010c8daab7c",
+    "sourceFile": "Contest 17.doc",
+    "subject": "Physics",
+    "questionText": "Simplify the exponential expression to have a positive exponent. (M) Arrange the following types of material in increasing order of magnetic permeability: diamagnetic, ferromagnetic, paramagnetic. (P)",
+    "correctAnswer": "Diamagnetic, paramagnetic, ferromagnetic",
+    "scored": false
+  },
+  {
+    "id": "cbcdb19d761dc43e7d49993b",
+    "sourceFile": "Contest 17.doc",
+    "subject": "Maths",
+    "questionText": "Simplify the exponential expression to have a positive exponent. (M) Arrange the following types of material in increasing order of remanence: magnet wire, transformer steel, hard steel. (P)",
+    "correctAnswer": "Magnet wire, transformer steel, hard steel [Magnet wire is made of copper; it is diamagnetic and has no remanence. Transformer steel is magnetically soft and has a lower remanence than hard steel]",
+    "scored": false
+  },
+  {
+    "id": "ebee250adfd1cda48d421b25",
+    "sourceFile": "Contest 17.doc",
+    "subject": "Maths",
+    "questionText": "Simplify the exponential expression to have a positive exponent. (M) The mean of three numbers is 70 and two of the numbers are 90 and 60. Find the third number. (M)",
+    "correctAnswer": "60 []",
+    "scored": false
+  },
+  {
+    "id": "6ab531481230cebc9b16c036",
+    "sourceFile": "Contest 17.doc",
+    "subject": "Maths",
+    "questionText": "Simplify the exponential expression to have a positive exponent. (M) Find two numbers whose mean is 55 and whose difference is 10. (M)",
+    "correctAnswer": "60 and 50 []",
+    "scored": false
+  },
+  {
+    "id": "38f7fa73a1dfac57c18aa0cb",
+    "sourceFile": "Contest 17.doc",
+    "subject": "Chemistry",
+    "questionText": "Simplify the exponential expression to have a positive exponent. (M) State the oxidation state of chromium in the Cr2O72- ion. (C)",
+    "correctAnswer": "+6 [7O = -14, 2Cr = +12]",
+    "scored": false
+  },
+  {
+    "id": "0ad3edafaa8e060f42cea90a",
+    "sourceFile": "Contest 17.doc",
+    "subject": "Chemistry",
+    "questionText": "Simplify the exponential expression to have a positive exponent. (M) State the oxidation number of iodine in the IO3- ion. (C)",
+    "correctAnswer": "+5 [3O = -6, I = +5]",
+    "scored": false
+  },
+  {
+    "id": "3a85a5672fae7b51d608724d",
+    "sourceFile": "Contest 17.doc",
+    "subject": "Biology",
+    "questionText": "Simplify the exponential expression to have a positive exponent. (M) What name is given to a single nerve cell which is the basic functional unit of the nervous system? (B)",
+    "correctAnswer": "Neurone",
+    "scored": false
+  },
+  {
+    "id": "00e450e4c713457837f3f9ec",
+    "sourceFile": "Contest 17.doc",
+    "subject": "Biology",
+    "questionText": "Simplify the exponential expression to have a positive exponent. (M) What name is given to the neurone that transmits impulses from the central nervous system to effector muscles? (B)",
+    "correctAnswer": "Motor neuron",
+    "scored": false
+  },
+  {
+    "id": "db10398fec736c9486809686",
+    "sourceFile": "Contest 17.doc",
+    "subject": "Maths",
+    "questionText": "Simplify the exponential expression to have a positive exponent. (M) If the exhaust speed of a rocket engine is 2000 ms-1, what thrust does it develop when the fuel burn rate is 500 kgs-1? (P)",
+    "correctAnswer": "1,000,000 N = 1MN [Thrust = exhaust speed * mass burn rate = 2000 ms-1 * 500 kgs-1 = 1,000,000 N = 1MN]",
+    "scored": false
+  },
+  {
+    "id": "ad6d121192cf32227b1d82a1",
+    "sourceFile": "Contest 17.doc",
+    "subject": "Physics",
+    "questionText": "Simplify the exponential expression to have a positive exponent. (M) If the muzzle velocity of a certain gun is 300 ms-1 when it fires 15g bullets, what is the recoil force if a bullet is ejected in 1s when the gun is fired? (P)",
+    "correctAnswer": "4.5 N [Change in momentum of the bullet is 300 ms-1 * 0.015kg = 4.5 kgms-1, which equals the impulse of the force on it; the force is therefore 4.5 kgms-1/1s = 4.5 N. An equal and opposite force, the recoil force, acts on the gun",
+    "scored": false
+  },
+  {
+    "id": "7c6493db8b2149f528bc95cc",
+    "sourceFile": "Contest 17.doc",
+    "subject": "Maths",
+    "questionText": "Simplify the exponential expression to have a positive exponent. (M) A survey of 100 students showed that 60 read novels, 45 read magazines and 15 read both novels and magazines. How many of the students read neither novels nor magazines? (M)",
+    "correctAnswer": "10",
+    "scored": false
+  },
+  {
+    "id": "f8c89c4141394b1ee2d602d4",
+    "sourceFile": "Contest 17.doc",
+    "subject": "Maths",
+    "questionText": "Simplify the exponential expression to have a positive exponent. (M) Out of 80 students in a class 45 took music, 30 took history and 10 took both music and history. How many of the students took only one of the two subjects? (M)",
+    "correctAnswer": "55",
+    "scored": false
+  },
+  {
+    "id": "51f3eb620bb559b03d13a061",
+    "sourceFile": "Contest 17.doc",
+    "subject": "Maths",
+    "questionText": "Simplify the exponential expression to have a positive exponent. (M) Which is more reactive towards air and water: Aluminium or aluminium oxide? (C)",
+    "correctAnswer": "Aluminium",
+    "scored": false
+  },
+  {
+    "id": "006b932dcd14143b573913d8",
+    "sourceFile": "Contest 17.doc",
+    "subject": "Maths",
+    "questionText": "Simplify the exponential expression to have a positive exponent. (M) If we galvanize iron or steel sheet, what do we do to it? (C)",
+    "correctAnswer": "Form a thin layer of zinc on the iron/steel sheet",
+    "scored": false
+  },
+  {
+    "id": "4fecc05670ce6ac32b6c64e1",
+    "sourceFile": "Contest 17.doc",
+    "subject": "Biology",
+    "questionText": "Simplify the exponential expression to have a positive exponent. (M) Wood is made of what tissue? (B)",
+    "correctAnswer": "Secondary xylem",
+    "scored": false
+  },
+  {
+    "id": "5d7d2595bf846d61dc896407",
+    "sourceFile": "Contest 17.doc",
+    "subject": "Maths",
+    "questionText": "Simplify the exponential expression to have a positive exponent. (M) What name is given to the older darker part of wood that has ceased transporting water and nutrients? (B)",
+    "correctAnswer": "Heartwood",
+    "scored": false
+  },
+  {
+    "id": "eefe83f99cfba1b2bc4f0e98",
+    "sourceFile": "Contest 17.doc",
+    "subject": "Physics",
+    "questionText": "A 3 m vibrating string fixed at both ends has six antinodes. (P) What is the wavelength of the waves on the string?",
+    "correctAnswer": "1m []",
+    "scored": false
+  },
+  {
+    "id": "4854ee72839ccc0c86e0b4fa",
+    "sourceFile": "Contest 17.doc",
+    "subject": null,
+    "questionText": "A 3 m vibrating string fixed at both ends has six antinodes. (P) What is the wavelength of the fundamental mode?",
+    "correctAnswer": "1.5m [The fundamental mode has one antinode so its wavelength is half the length of string.]",
+    "scored": false
+  },
+  {
+    "id": "f57542702e428359121660de",
+    "sourceFile": "Contest 17.doc",
+    "subject": "Maths",
+    "questionText": "A 3 m vibrating string fixed at both ends has six antinodes. (P) Find a if 3, a, 11 are successive terms of a linear sequence. (M)",
+    "correctAnswer": "a = 7 [a - 3 = 11 -a; 2a = 14; a = 7]",
+    "scored": false
+  },
+  {
+    "id": "f7327affa7a8d338a51916a4",
+    "sourceFile": "Contest 17.doc",
+    "subject": "Maths",
+    "questionText": "A 3 m vibrating string fixed at both ends has six antinodes. (P) Find b if 2, b, 18 are successive terms of an exponential sequence. (M)",
+    "correctAnswer": "b = 6 []",
+    "scored": false
+  },
+  {
+    "id": "fc3f9ea027cf3d7d0a9540f6",
+    "sourceFile": "Contest 17.doc",
+    "subject": "Chemistry",
+    "questionText": "A 3 m vibrating string fixed at both ends has six antinodes. (P) Define a heterogeneous reaction. (C)",
+    "correctAnswer": "A reaction in which not all the reactants are in the same physical state",
+    "scored": false
+  },
+  {
+    "id": "4f668ce21f1232ebb5d5e8f4",
+    "sourceFile": "Contest 17.doc",
+    "subject": "Chemistry",
+    "questionText": "A 3 m vibrating string fixed at both ends has six antinodes. (P) Why does an increase in concentration of a reactant increase the rate of reaction? (C)",
+    "correctAnswer": "The collisions per unit time increase",
+    "scored": false
+  },
+  {
+    "id": "9588e698e29ef7e3d7b67991",
+    "sourceFile": "Contest 17.doc",
+    "subject": null,
+    "questionText": "A 3 m vibrating string fixed at both ends has six antinodes. (P) What name is given to the first cervical vertebrae below the skull? (B)",
+    "correctAnswer": "Atlas",
+    "scored": false
+  },
+  {
+    "id": "eae9b69cafbb7b1c7e575a25",
+    "sourceFile": "Contest 17.doc",
+    "subject": null,
+    "questionText": "A 3 m vibrating string fixed at both ends has six antinodes. (P) What name is given to the second cervical vertebrae? (B)",
+    "correctAnswer": "Axis",
+    "scored": false
+  },
+  {
+    "id": "014974fd504661c67cfb933b",
+    "sourceFile": "Contest 17.doc",
+    "subject": "Physics",
+    "questionText": "A 3 m vibrating string fixed at both ends has six antinodes. (P) Which of the following are scalar: torque, angular momentum, moment of inertia, angular acceleration? (P)",
+    "correctAnswer": "Moment of inertia [Impulse equals change in momentum, a vector. Although moment of inertial is a tensor (rank 2), the scalar designation is acceptable at this level.]",
+    "scored": false
+  },
+  {
+    "id": "0c2cec8d654e5985aebd4c79",
+    "sourceFile": "Contest 17.doc",
+    "subject": "Maths",
+    "questionText": "A straight line passes through the points A(-1, 2) and B(1, -2). Find:",
+    "correctAnswer": "The equation of the line AB b. The equation of the line passing through the point C(1, 1) and parallel to AB c. The equation of the line perpendicular to AB and passing through the point D(4, 2) d. The point of intersection of the lines in (b) and (c). (M)",
+    "scored": false
+  },
+  {
+    "id": "2ef38d936ff34defa211236f",
+    "sourceFile": "Contest 17.doc",
+    "subject": "Maths",
+    "questionText": "A",
+    "correctAnswer": "b. Equation of the line through C(1, 1) and parallel to AB: c. Equation of line through D(4, 2) and perpendicular to AB: d. Intersection",
+    "scored": false
+  },
+  {
+    "id": "e6ee05dfb48e491db873e764",
+    "sourceFile": "Contest 17.doc",
+    "subject": "Maths",
+    "questionText": "A function is a set of ordered pairs. (M)",
+    "correctAnswer": "F",
+    "scored": false
+  },
+  {
+    "id": "a0901d7b867835cbe9215772",
+    "sourceFile": "Contest 17.doc",
+    "subject": "Maths",
+    "questionText": "Some functions are not relations. (M)",
+    "correctAnswer": "F",
+    "scored": false
+  },
+  {
+    "id": "e0a5b75fb2446a655c66b84e",
+    "sourceFile": "Contest 17.doc",
+    "subject": null,
+    "questionText": "When expressed in decimal form, irrational numbers neither terminate nor repeat. (M)",
+    "correctAnswer": "T",
+    "scored": false
+  },
+  {
+    "id": "f28ce6bdc06816c85017c8b9",
+    "sourceFile": "Contest 17.doc",
+    "subject": null,
+    "questionText": "The set of real numbers consists of both rational and irrational numbers. (M)",
+    "correctAnswer": "T",
+    "scored": false
+  },
+  {
+    "id": "aa6acca0d57184310b1936de",
+    "sourceFile": "Contest 17.doc",
+    "subject": null,
+    "questionText": "Sodium trioxocarbonate IV is decomposed by heat. (C)",
+    "correctAnswer": "F",
+    "scored": false
+  },
+  {
+    "id": "05019696562c726f5ca872e2",
+    "sourceFile": "Contest 17.doc",
+    "subject": null,
+    "questionText": "Magnesium trioxocarbonate IV is not decomposed by heat. ©",
+    "correctAnswer": "F",
+    "scored": false
+  },
+  {
+    "id": "025eb7e4d6b743a45c5b4d74",
+    "sourceFile": "Contest 17.doc",
+    "subject": "Physics",
+    "questionText": "Brownian motion is evidence for the constant random movement of molecules of a liquid. (C)",
+    "correctAnswer": "T",
+    "scored": false
+  },
+  {
+    "id": "b8c814fc59c8b2c4f24af568",
+    "sourceFile": "Contest 17.doc",
+    "subject": "Biology",
+    "questionText": "Hydrogen molecules will diffuse four times faster through a membrane than oxygen. (C)",
+    "correctAnswer": "T",
+    "scored": false
+  },
+  {
+    "id": "def89b6bda2d95a6b69766e8",
+    "sourceFile": "Contest 17.doc",
+    "subject": "Biology",
+    "questionText": "In leaves of plants, the vascular bundles are found in the veins. (B)",
+    "correctAnswer": "T",
+    "scored": false
+  },
+  {
+    "id": "784cfbb5b3bd698c339e698d",
+    "sourceFile": "Contest 17.doc",
+    "subject": null,
+    "questionText": "Monocots usually have netted venation. (B)",
+    "correctAnswer": "F",
+    "scored": false
+  },
+  {
+    "id": "ee98d07a1dd4d152c0a8b298",
+    "sourceFile": "Contest 17.doc",
+    "subject": null,
+    "questionText": "The plasmodium parasite is a sporozoan. (B)",
+    "correctAnswer": "T",
+    "scored": false
+  },
+  {
+    "id": "8024f4ec36ec8b2b70a86f76",
+    "sourceFile": "Contest 17.doc",
+    "subject": null,
+    "questionText": "Locusts are solitary in life. (B)",
+    "correctAnswer": "F",
+    "scored": false
+  },
+  {
+    "id": "e93005d9f4c4c30554ee7cc8",
+    "sourceFile": "Contest 17.doc",
+    "subject": "Physics",
+    "questionText": "The objective lens of a compound microscope has a longer focal length than the eye piece. (P)",
+    "correctAnswer": "F",
+    "scored": false
+  },
+  {
+    "id": "98383cb909e1e9cb87e54c17",
+    "sourceFile": "Contest 17.doc",
+    "subject": "Chemistry",
+    "questionText": "The final image in a compound microscope is an inverted virtual image of the intermediate image formed by the objective. (P)",
+    "correctAnswer": "F",
+    "scored": false
+  },
+  {
+    "id": "900f6f5c02e3e122eb20761e",
+    "sourceFile": "Contest 17.doc",
+    "subject": null,
+    "questionText": "The effective capacitance of two capacitors parallel is the sum of their capacitance. (P)",
+    "correctAnswer": "T",
+    "scored": false
+  },
+  {
+    "id": "8ba6c794a0f322f3a260b930",
+    "sourceFile": "Contest 17.doc",
+    "subject": "Physics",
+    "questionText": "The total electrical energy stored in two capacitors in series is less than the energy stored if the capacitors are in parallel and connected to the same voltage sources. (P)",
+    "correctAnswer": "T",
+    "scored": false
+  },
+  {
+    "id": "a00d6aac9588035befd76cbb",
+    "sourceFile": "Contest 19.doc",
+    "subject": null,
+    "questionText": "In which part of the leaf are vascular bundles located? (B)",
+    "correctAnswer": "Veins",
+    "scored": false
+  },
+  {
+    "id": "eb1f059b8782d72b68e6ab8b",
+    "sourceFile": "Contest 19.doc",
+    "subject": "Biology",
+    "questionText": "What is a monoecious plant? (B)",
+    "correctAnswer": "A plant bearing both male and female flowers",
+    "scored": false
+  },
+  {
+    "id": "5e1b3f597f434eec33202278",
+    "sourceFile": "Contest 19.doc",
+    "subject": null,
+    "questionText": "Which of the sulphates, MgSO4 and CaSO4 is soluble in water? (C)",
+    "correctAnswer": "MgSO4",
+    "scored": false
+  },
+  {
+    "id": "12cfff50e5d2083f2ddd8401",
+    "sourceFile": "Contest 19.doc",
+    "subject": null,
+    "questionText": "Which of the salts is soluble in hot water: PbSO4 and PbCl2? (C)",
+    "correctAnswer": "PbCl2",
+    "scored": false
+  },
+  {
+    "id": "cfd73aaf705eb15f0ac25fa6",
+    "sourceFile": "Contest 19.doc",
+    "subject": null,
+    "questionText": "Determine the length of resistance wire needed for a 10 W electric heater operated at 20 V if the resistivity of the wire is 10-3 Ωm and its cross-sectional area is 1 mm2? (P)",
+    "correctAnswer": "40 mm []",
+    "scored": false
+  },
+  {
+    "id": "df79f9561b55d553f31edd2f",
+    "sourceFile": "Contest 19.doc",
+    "subject": null,
+    "questionText": "A resistor that dissipates 11 W at 12 V is made with material with temperature coefficient of linear expansion 10-3 K-1 and negligible temperature coefficient of resistivity. What is its resistance temperature increases by 100 K? (P)",
+    "correctAnswer": "12 Ω [",
+    "scored": false
+  },
+  {
+    "id": "752c3f716374026a4c93b637",
+    "sourceFile": "Contest 19.doc",
+    "subject": null,
+    "questionText": "Find the prime factorisation of the number. (M) 196",
+    "correctAnswer": "22 * 72 [196 = 4 * 49 = 22 * 72]",
+    "scored": false
+  },
+  {
+    "id": "dfaf47140be1cb365548ee43",
+    "sourceFile": "Contest 19.doc",
+    "subject": null,
+    "questionText": "Find the prime factorisation of the number. (M) 198",
+    "correctAnswer": "2 * 32 * 11 [198 = 9 * 22 = 2 * 32 * 11]",
+    "scored": false
+  },
+  {
+    "id": "0ff0b910ce7f8ff80e81378a",
+    "sourceFile": "Contest 19.doc",
+    "subject": "Maths",
+    "questionText": "Find the prime factorisation of the number. (M) What is the function of stipules? (B)",
+    "correctAnswer": "Protects young leaves in the bud/When green they manufacture food",
+    "scored": false
+  },
+  {
+    "id": "95ae35459655900ee8fea314",
+    "sourceFile": "Contest 19.doc",
+    "subject": null,
+    "questionText": "Find the prime factorisation of the number. (M) When is the leaf said to be simple? (B)",
+    "correctAnswer": "When it consists of a single blade",
+    "scored": false
+  },
+  {
+    "id": "0ba55df69ec0c8889ddc76b0",
+    "sourceFile": "Contest 19.doc",
+    "subject": null,
+    "questionText": "Find the prime factorisation of the number. (M) What makes graphite and diamond allotropes of carbon? (C)",
+    "correctAnswer": "They are both pure carbon but different crystalline shape",
+    "scored": false
+  },
+  {
+    "id": "17dbfd38354e500a248d08a7",
+    "sourceFile": "Contest 19.doc",
+    "subject": null,
+    "questionText": "Find the prime factorisation of the number. (M) Why is helium rare in the biosphere? (C)",
+    "correctAnswer": "It is light and migrates from the biosphere",
+    "scored": false
+  },
+  {
+    "id": "9c5ac86e308caf1c4e22ce47",
+    "sourceFile": "Contest 19.doc",
+    "subject": "Maths",
+    "questionText": "Find the measures of two supplementary angles whose difference is (M) 38o",
+    "correctAnswer": "71o and 109o [90 ± 38/2 = 90 ± 19 = 109 or 71]",
+    "scored": false
+  },
+  {
+    "id": "1578fca88b9b805fbc48fc32",
+    "sourceFile": "Contest 19.doc",
+    "subject": "Maths",
+    "questionText": "Find the measures of two supplementary angles whose difference is (M) 45o",
+    "correctAnswer": "67.5o and 112.5o [90 ± 45/2 = 90 ± 22.5 = 112.5o or 67.5o]",
+    "scored": false
+  },
+  {
+    "id": "8496c815c46369ca9c6c3ae1",
+    "sourceFile": "Contest 19.doc",
+    "subject": "Physics",
+    "questionText": "Find the measures of two supplementary angles whose difference is (M) A shell moving with a constant speed of 20 ms-1 in a straight line explodes in mid-flight. What is the subsequent motion of the centre of mass of the fragments? (P)",
+    "correctAnswer": "Constant speed of 20 ms-1 in the same straight line",
+    "scored": false
+  },
+  {
+    "id": "fa38b695f4ab00d53ddaf4d3",
+    "sourceFile": "Contest 19.doc",
+    "subject": "Physics",
+    "questionText": "Find the measures of two supplementary angles whose difference is (M) If a rocket rotating freely about its centre of mass with constant angular momentum L explodes, what will be the total angular momentum of the fragments about the centre of mass of the fragments? (P)",
+    "correctAnswer": "L",
+    "scored": false
+  },
+  {
+    "id": "953c84a3a086824d4a5030de",
+    "sourceFile": "Contest 19.doc",
+    "subject": "Biology",
+    "questionText": "Find the measures of two supplementary angles whose difference is (M) The tissues and organs in the body of animals are supported and held in position by which structure? (B)",
+    "correctAnswer": "Connective tissue",
+    "scored": false
+  },
+  {
+    "id": "5ee6a4b73046c92d77390a72",
+    "sourceFile": "Contest 19.doc",
+    "subject": "Maths",
+    "questionText": "Find the measures of two supplementary angles whose difference is (M) Which substance in saliva softens food and acts as a lubricant? (B)",
+    "correctAnswer": "Mucin",
+    "scored": false
+  },
+  {
+    "id": "ae3bbc322e0bb5c6efd8d43c",
+    "sourceFile": "Contest 19.doc",
+    "subject": "Chemistry",
+    "questionText": "Find the measures of two supplementary angles whose difference is (M) What type of bond is expected to be formed between calcium and chlorine? (C)",
+    "correctAnswer": "Ionic",
+    "scored": false
+  },
+  {
+    "id": "b1311d46c0753098d76b9eba",
+    "sourceFile": "Contest 19.doc",
+    "subject": "Chemistry",
+    "questionText": "Find the measures of two supplementary angles whose difference is (M) What type of bond is expected to be formed between a proton and ammonia molecule? (C)",
+    "correctAnswer": "Dative covalent",
+    "scored": false
+  },
+  {
+    "id": "dc98964b81f0c032383e1936",
+    "sourceFile": "Contest 19.doc",
+    "subject": "Maths",
+    "questionText": "Find the measures of two supplementary angles whose difference is (M) Find a number half-way between the numbers and 2. (M)",
+    "correctAnswer": "[]",
+    "scored": false
+  },
+  {
+    "id": "03e4bb9b0441a464143a0d1e",
+    "sourceFile": "Contest 19.doc",
+    "subject": "Maths",
+    "questionText": "Find the measures of two supplementary angles whose difference is (M) The number 2 is half-way between and the number x. Find x. (M)",
+    "correctAnswer": "[]",
+    "scored": false
+  },
+  {
+    "id": "a321f3ffb10be742b051dd1f",
+    "sourceFile": "Contest 19.doc",
+    "subject": "Physics",
+    "questionText": "Find the measures of two supplementary angles whose difference is (M) What is the net resistance of a circuit comprising a series combination of an inductor, a capacitor and a resistor at resonance? (P)",
+    "correctAnswer": "0",
+    "scored": false
+  },
+  {
+    "id": "3aaddaadc6bdb948a7c294fe",
+    "sourceFile": "Contest 19.doc",
+    "subject": "Physics",
+    "questionText": "Find the measures of two supplementary angles whose difference is (M) What is the relationship between period inductance and capacitance of a resonant LC circuit? (P)",
+    "correctAnswer": "Q. What is a portal vein? (B) A vein that begins and ends in capillaries",
+    "scored": false
+  },
+  {
+    "id": "3fec460a470cb3f1a2f7df33",
+    "sourceFile": "Contest 19.doc",
+    "subject": "Physics",
+    "questionText": "Find the measures of two supplementary angles whose difference is (M) The rhythmic wave-like contraction that moves food through the digestive tract is known as ….. (B)",
+    "correctAnswer": "Peristalsis",
+    "scored": false
+  },
+  {
+    "id": "3cedd5794ae15e156ccbf12a",
+    "sourceFile": "Contest 19.doc",
+    "subject": "Chemistry",
+    "questionText": "Find the measures of two supplementary angles whose difference is (M) Give the chemical formula for sodium hexacyanoferrate III. (C)",
+    "correctAnswer": "Na3[Fe(CN)6]",
+    "scored": false
+  },
+  {
+    "id": "b830c7e94675a3bac6dbbdf4",
+    "sourceFile": "Contest 19.doc",
+    "subject": "Chemistry",
+    "questionText": "Find the measures of two supplementary angles whose difference is (M) Give the formula for the compound potassium tetraoxodithioperoxodisulphate. (C)",
+    "correctAnswer": "K2[S4O6]",
+    "scored": false
+  },
+  {
+    "id": "7c2bf5120e96a4d5a0a3eb78",
+    "sourceFile": "Contest 19.doc",
+    "subject": "Physics",
+    "questionText": "Find the measures of two supplementary angles whose difference is (M) Make y the subject of the relation: ax + by = c. (M)",
+    "correctAnswer": "Q. Make t the subject of the relation: v = u + ft. (M) Q. If three parallel resistors each carry a current I, what is the total current out of the combination? (P) 3I",
+    "scored": false
+  },
+  {
+    "id": "8b5bc430fe0b019b5adf36a1",
+    "sourceFile": "Contest 19.doc",
+    "subject": "Physics",
+    "questionText": "Find the measures of two supplementary angles whose difference is (M) If three resistors connected in series each carry a current I, what is the total current out of the combination? (P)",
+    "correctAnswer": "I",
+    "scored": false
+  },
+  {
+    "id": "ad3850220bce2636a9463c16",
+    "sourceFile": "Contest 19.doc",
+    "subject": "Biology",
+    "questionText": "In certain horticultural plant species, red flower (R) is dominant over yellow flower (r) and tallness (T) is dominant over shortness (t). A plant grower in his attempt to produce offsprings that are heterozygous for both traits crossed a plant that is RrTT with a plant that is rrTt. Determine whether he made a good decision. (B)",
+    "correctAnswer": "RrTT X rrTt RrTT gametes RT, rT rrTt gametes rT,rt For the plant to be heterozygous for both traits, the genotype should be RrTt rrTt RrTT rT rt RT RrTT RrTt rT rrTT rrTt From above, the chance of producing off-springs heterozygous for both traits is 25% (1/4). Not a good decision",
+    "scored": false
+  },
+  {
+    "id": "7abe856ca7716ebf71b0e537",
+    "sourceFile": "Contest 19.doc",
+    "subject": "Chemistry",
+    "questionText": "Glucose-phosphate combines with aromatic bases to form nucleotides, which are the monomer units of nucleic acids. (C)",
+    "correctAnswer": "F (Ribose phosphate)",
+    "scored": false
+  },
+  {
+    "id": "2e93d8ad8daffc4d7ba133af",
+    "sourceFile": "Contest 19.doc",
+    "subject": "Biology",
+    "questionText": "Red blood cells are larger than white blood cells. (B)",
+    "correctAnswer": "F",
+    "scored": false
+  },
+  {
+    "id": "0cc9792b25d4b3437cff7265",
+    "sourceFile": "Contest 19.doc",
+    "subject": "Biology",
+    "questionText": "Mature red blood cells have nuclei but immature ones have no nuclei. (B)",
+    "correctAnswer": "F",
+    "scored": false
+  },
+  {
+    "id": "ac785fa2100f520286c2f8d2",
+    "sourceFile": "Contest 19.doc",
+    "subject": null,
+    "questionText": "Sieve tube members have no nuclei at maturity. (B))",
+    "correctAnswer": "T",
+    "scored": false
+  },
+  {
+    "id": "c7ee76551f561882a01da071",
+    "sourceFile": "Contest 19.doc",
+    "subject": null,
+    "questionText": "According to the kinetic theory of gases, most of the volume occupied by a gas is empty. (C)",
+    "correctAnswer": "T",
+    "scored": false
+  },
+  {
+    "id": "8a638707b5ec01e33313fc1a",
+    "sourceFile": "Contest 19.doc",
+    "subject": "Physics",
+    "questionText": "In a mixture of ideal gases, the partial pressure of each gas is proportional to its molar mass. (C)",
+    "correctAnswer": "F [",
+    "scored": false
+  },
+  {
+    "id": "ebb39b244d2869bc9d9053b4",
+    "sourceFile": "Contest 19.doc",
+    "subject": "Chemistry",
+    "questionText": "Electron affinity of elements increases smoothly from left to right in a period. (C)",
+    "correctAnswer": "F",
+    "scored": false
+  },
+  {
+    "id": "db7178fd04291fdd0d683072",
+    "sourceFile": "Contest 19.doc",
+    "subject": null,
+    "questionText": "Electronegativity and electron affinity are interchangeable. (C)",
+    "correctAnswer": "F",
+    "scored": false
+  },
+  {
+    "id": "80d038df204f22d77fb23d43",
+    "sourceFile": "Contest 19.doc",
+    "subject": "Physics",
+    "questionText": "The average molecular speed in a gas depends on pressure and not on temperature. (C)",
+    "correctAnswer": "F",
+    "scored": false
+  },
+  {
+    "id": "b183ad8d6450802d886f2de2",
+    "sourceFile": "Contest 19.doc",
+    "subject": "Chemistry",
+    "questionText": "The root-mean-square speed of all gas molecules at the same temperature is the same. (P)",
+    "correctAnswer": "F",
+    "scored": false
+  },
+  {
+    "id": "189de5d12d85abcfd5917e30",
+    "sourceFile": "Contest 19.doc",
+    "subject": null,
+    "questionText": "At the triple point of water, ice, water and steam coexist in equilibrium. (P)",
+    "correctAnswer": "T",
+    "scored": false
+  },
+  {
+    "id": "2103660969e588fb23c2f29b",
+    "sourceFile": "Contest 19.doc",
+    "subject": "Physics",
+    "questionText": "Unlike dry ice, ordinary ice melts when subjected to high pressure. (P)",
+    "correctAnswer": "T",
+    "scored": false
+  },
+  {
+    "id": "e4d7d8f38f5bdcf200af4361",
+    "sourceFile": "Contest 19.doc",
+    "subject": null,
+    "questionText": "The intersection of a set A and its complement is the universal set. (M)",
+    "correctAnswer": "F []",
+    "scored": false
+  },
+  {
+    "id": "bb22c78eb711f30a776c51ef",
+    "sourceFile": "Contest 19.doc",
+    "subject": null,
+    "questionText": "If A is a subset of B and B is a subset of C, then A is a subset of C. (M)",
+    "correctAnswer": "T",
+    "scored": false
+  },
+  {
+    "id": "655cfa681fd330286e6da18a",
+    "sourceFile": "Contest 19.doc",
+    "subject": null,
+    "questionText": ". (M)",
+    "correctAnswer": "T (7 - 3 = 4 divisible by 4)",
+    "scored": false
+  },
+  {
+    "id": "655cfa681fd330286e6da18a",
+    "sourceFile": "Contest 19.doc",
+    "subject": null,
+    "questionText": ". (M)",
+    "correctAnswer": "T [7 - (-5) = 12 divisible by 4]",
+    "scored": false
+  },
+  {
+    "id": "6b21c9c780e904831c8b3bd3",
+    "sourceFile": "Contest 21-1.doc",
+    "subject": "Biology",
+    "questionText": "What is the name given to the external layer of cells in the vascular cylinder of roots of plants that produce secondary roots? (B)",
+    "correctAnswer": "Pericycle",
+    "scored": false
+  },
+  {
+    "id": "81ceb68b4980c6f08d909f8d",
+    "sourceFile": "Contest 21-1.doc",
+    "subject": null,
+    "questionText": "What name is given to the line of splitting which represents a line of weakness in the wall of the anther? (B)",
+    "correctAnswer": "Stomium",
+    "scored": false
+  },
+  {
+    "id": "5668469f7ccaeb6866755dee",
+    "sourceFile": "Contest 21-1.doc",
+    "subject": null,
+    "questionText": "Which of the following gases is/are odourless and would not affect wet litmus: H2, O2, CO, SO2, NH3? (C)",
+    "correctAnswer": "H2, O2, CO",
+    "scored": false
+  },
+  {
+    "id": "21049c365298435dfed50415",
+    "sourceFile": "Contest 21-1.doc",
+    "subject": null,
+    "questionText": "Which of the following gases can be collected by upward displacement of air: H2S, butane, HCl, NO? (C)",
+    "correctAnswer": "H2S (34), Butane (58), HCl (36.5)",
+    "scored": false
+  },
+  {
+    "id": "08e9536075992f3cf305a4be",
+    "sourceFile": "Contest 21-1.doc",
+    "subject": null,
+    "questionText": "Express in decimal notation (M) 8.62 * 107",
+    "correctAnswer": "0.0000862",
+    "scored": false
+  },
+  {
+    "id": "6e601933c9eadee034ec5af6",
+    "sourceFile": "Contest 21-1.doc",
+    "subject": null,
+    "questionText": "Express in decimal notation (M) 1.764 * 107",
+    "correctAnswer": "17,640,000",
+    "scored": false
+  },
+  {
+    "id": "6bae7d78420cc2a21a6a4460",
+    "sourceFile": "Contest 21-1.doc",
+    "subject": "Physics",
+    "questionText": "When a certain nucleus at rest fissions it produces two fragments A and B of respective mass mA and mB which fly off in opposite directions. (C) What is the ratio of the speed of the A fragment to that of the B fragment?",
+    "correctAnswer": "mB/mA [Conservationn of linear momentum demands mAvA = mBvB so vA/vB = mB/mA",
+    "scored": false
+  },
+  {
+    "id": "532c7440af85abe19456064d",
+    "sourceFile": "Contest 21-1.doc",
+    "subject": "Physics",
+    "questionText": "When a certain nucleus at rest fissions it produces two fragments A and B of respective mass mA and mB which fly off in opposite directions. (C) What is the ratio of kinetic energy of the A fragment to that of the B fragment?",
+    "correctAnswer": "mB/mA []",
+    "scored": false
+  },
+  {
+    "id": "754422d6eb7cd4944dd8db3a",
+    "sourceFile": "Contest 21-1.doc",
+    "subject": "Biology",
+    "questionText": "When a certain nucleus at rest fissions it produces two fragments A and B of respective mass mA and mB which fly off in opposite directions. (C) What is synapsis? (B)",
+    "correctAnswer": "The pairing of homologous chromosomes during meiosis",
+    "scored": false
+  },
+  {
+    "id": "9df5f29aa9a214f07e7e595c",
+    "sourceFile": "Contest 21-1.doc",
+    "subject": "Biology",
+    "questionText": "When a certain nucleus at rest fissions it produces two fragments A and B of respective mass mA and mB which fly off in opposite directions. (C) What is venule? (B)",
+    "correctAnswer": "A vessel that takes blood from capillaries to a vein",
+    "scored": false
+  },
+  {
+    "id": "5b09b0c8774c434469cec319",
+    "sourceFile": "Contest 21-1.doc",
+    "subject": "Chemistry",
+    "questionText": "When a certain nucleus at rest fissions it produces two fragments A and B of respective mass mA and mB which fly off in opposite directions. (C) One of the reactions in the manufacture of glass is sodium oxide with sand and silica. What type of reaction takes place between the two reagents? (C)",
+    "correctAnswer": "Acid - base reaction",
+    "scored": false
+  },
+  {
+    "id": "6b73052669be85b4b7b3fcba",
+    "sourceFile": "Contest 21-1.doc",
+    "subject": "Chemistry",
+    "questionText": "When a certain nucleus at rest fissions it produces two fragments A and B of respective mass mA and mB which fly off in opposite directions. (C) Chemically, cement and glass have a lot in common, why? (C)",
+    "correctAnswer": "Both involve the reaction of silica/sand and CaO",
+    "scored": false
+  },
+  {
+    "id": "8f5e51c99138ef14bcc31464",
+    "sourceFile": "Contest 21-1.doc",
+    "subject": "Maths",
+    "questionText": "Write as a single logarithm. (M)",
+    "correctAnswer": "[ (Quotient rule)]",
+    "scored": false
+  },
+  {
+    "id": "8f5e51c99138ef14bcc31464",
+    "sourceFile": "Contest 21-1.doc",
+    "subject": "Maths",
+    "questionText": "Write as a single logarithm. (M)",
+    "correctAnswer": "[ (Product rule)]",
+    "scored": false
+  },
+  {
+    "id": "41ddd43ac0c402f8b71db323",
+    "sourceFile": "Contest 21-1.doc",
+    "subject": "Physics",
+    "questionText": "Write as a single logarithm. (M) In describing nuclear fission reactions, what does the term critical mean? (C)",
+    "correctAnswer": "The minimum mass of fissionable material required for a sustained chain reaction",
+    "scored": false
+  },
+  {
+    "id": "9d36feb0bdad73115bc79c9f",
+    "sourceFile": "Contest 21-1.doc",
+    "subject": "Maths",
+    "questionText": "Write as a single logarithm. (M) What is the function of the moderator in a nuclear reactor? (P)",
+    "correctAnswer": "It serves to reduce the speed of neutrons so they can be more readily absorbed by fissionable nuclei",
+    "scored": false
+  },
+  {
+    "id": "7d93e995475ff9ebe85845a9",
+    "sourceFile": "Contest 21-1.doc",
+    "subject": "Maths",
+    "questionText": "Write as a single logarithm. (M) What is the anther of a flower? (B)",
+    "correctAnswer": "Part of the stamen where pollen grains develop",
+    "scored": false
+  },
+  {
+    "id": "d1d3602b2aa1e9dc640a2701",
+    "sourceFile": "Contest 21-1.doc",
+    "subject": "Maths",
+    "questionText": "Write as a single logarithm. (M) What name is given to the elongated stalk of the stamen that bears the anther at the tip? (B)",
+    "correctAnswer": "Filament",
+    "scored": false
+  },
+  {
+    "id": "82e7251232eebaabac8bf85f",
+    "sourceFile": "Contest 21-1.doc",
+    "subject": "Biology",
+    "questionText": "Write as a single logarithm. (M) Which organometallic is widely associated with green plants? (B)",
+    "correctAnswer": "Chlorophyll - organomagnesium compound",
+    "scored": false
+  },
+  {
+    "id": "ec0877f45da17dd175c5c5f4",
+    "sourceFile": "Contest 21-1.doc",
+    "subject": "Biology",
+    "questionText": "Write as a single logarithm. (M) Which organometallic compound is associated with blood? (B)",
+    "correctAnswer": "Haem - iron II complex",
+    "scored": false
+  },
+  {
+    "id": "b87c1b673c8aaa4ba4e9eb7a",
+    "sourceFile": "Contest 21-1.doc",
+    "subject": null,
+    "questionText": "Two runners enter a race for charity. One runs at 10 km/hr and the other at 7 km/hr. (P) If they start at the same time, how long will it be until they are ½ km apart?",
+    "correctAnswer": "10 minutes or 1/6 hr []",
+    "scored": false
+  },
+  {
+    "id": "96684719894d4d42dcba1627",
+    "sourceFile": "Contest 21-1.doc",
+    "subject": null,
+    "questionText": "Two runners enter a race for charity. One runs at 10 km/hr and the other at 7 km/hr. (P) If the run has a staggered start and the slower runner is given a 15 minute head-start, find how long it will be until the faster runner catches up?",
+    "correctAnswer": "35 minutes []",
+    "scored": false
+  },
+  {
+    "id": "fc222e2b7b53fc5661bf85d6",
+    "sourceFile": "Contest 21-1.doc",
+    "subject": null,
+    "questionText": "Two runners enter a race for charity. One runs at 10 km/hr and the other at 7 km/hr. (P) What instrument would you use to measure the diameter of the wire on a meter bridge? (P)",
+    "correctAnswer": "Micrometre screw gauge [Accept vernier callipers - modern digital callipers can read down to hundredths of a millimetre]",
+    "scored": false
+  },
+  {
+    "id": "508bac867dc7c551ed1b784b",
+    "sourceFile": "Contest 21-1.doc",
+    "subject": null,
+    "questionText": "Two runners enter a race for charity. One runs at 10 km/hr and the other at 7 km/hr. (P) What instrument would you use to measure the inside diameter of a test tube? (P)",
+    "correctAnswer": "A pair of inside callipers",
+    "scored": false
+  },
+  {
+    "id": "d1b30312b9419a59d6cd0f59",
+    "sourceFile": "Contest 21-1.doc",
+    "subject": null,
+    "questionText": "Two runners enter a race for charity. One runs at 10 km/hr and the other at 7 km/hr. (P) What name is given to the thin shell of air, land and water around the earth that supports life? (B)",
+    "correctAnswer": "Biosphere",
+    "scored": false
+  },
+  {
+    "id": "462561bc42fb729339fcbe1b",
+    "sourceFile": "Contest 21-1.doc",
+    "subject": "Biology",
+    "questionText": "Two runners enter a race for charity. One runs at 10 km/hr and the other at 7 km/hr. (P) What name is given to the process whereby a new species originates? (B)",
+    "correctAnswer": "Speciation",
+    "scored": false
+  },
+  {
+    "id": "c84d3217674d63ab62941572",
+    "sourceFile": "Contest 21-1.doc",
+    "subject": null,
+    "questionText": "Two runners enter a race for charity. One runs at 10 km/hr and the other at 7 km/hr. (P) A kettle is used to boil tap water and after a week white scales are observed in the kettle. What could these white scales be? (C)",
+    "correctAnswer": "Calcium or magnesium trioxocarbonate IV (Ca/MgCO3)",
+    "scored": false
+  },
+  {
+    "id": "3b5a8c1f587ad9b9065da269",
+    "sourceFile": "Contest 21-1.doc",
+    "subject": null,
+    "questionText": "Two runners enter a race for charity. One runs at 10 km/hr and the other at 7 km/hr. (P) Hard water forms scum with soap. Chemically what is scum? (C)",
+    "correctAnswer": "Calcium or magnesium stearate or palmitate",
+    "scored": false
+  },
+  {
+    "id": "966168ffb2be276ec550d47b",
+    "sourceFile": "Contest 21-1.doc",
+    "subject": null,
+    "questionText": "State the negation of each statement. (M) If it rains, there will be no school.",
+    "correctAnswer": "It rains and there is school [] Q. x = 2 and y = 3",
+    "scored": false
+  },
+  {
+    "id": "9d1833ae97d8f6800fd691af",
+    "sourceFile": "Contest 21-1.doc",
+    "subject": "Physics",
+    "questionText": "State the negation of each statement. (M) Which of these are renewable energy sources: coal, solar energy, petroleum gas, wind energy, petroleum oil and tidal wave energy? (P)",
+    "correctAnswer": "Solar energy, wind energy and tidal wave energy",
+    "scored": false
+  },
+  {
+    "id": "c0cca97b1d3354f6f1013b0d",
+    "sourceFile": "Contest 21-1.doc",
+    "subject": "Physics",
+    "questionText": "State the negation of each statement. (M) Which of these sources produce significant environmental pollutants: coal, solar energy, wind energy, petroleum oil, tidal wave energy and petroleum gas?",
+    "correctAnswer": "Coal, petroleum oil and petroleum gas",
+    "scored": false
+  },
+  {
+    "id": "2d448f1061558ee360bd0415",
+    "sourceFile": "Contest 21-1.doc",
+    "subject": null,
+    "questionText": "a. Briefly explain how the light emitted by a hot body can be used to estimate temperature of the body. State the assumptions you make. b. The wavelength of the peak of the emission spectrum from a high temperature furnace was determined to be 3.05 µm. The wavelength for the peak in the solar radiation spectrum measured just outside the terrestrial atmosphere is 451 nm. If the temperature of the sun is approximately 6425 K and both the sun and the furnace can be considered as black bodies, estimate the temperature of the furnace. c. A second furnace is to be operated at twice the temperature of the furnace above. Find the wavelength expected for peak emission from the second furnace and find the ratio of the total radiant emission from the higher temperature furnace to that of the lower temperature furnace. (P)",
+    "correctAnswer": "If a hot body is assumed to be a black body, the spectrum of light it emits depends on temperature. In particular, the wavelength of peak intensity in the spectrum satisfies the displacement law λmT = constant. Thus by determining the peak wavelength, the temperature of the body can be determined. Alternatively, the intensity at several wavelengths can be found and the black body radiation formula can then be used to find T",
+    "scored": false
+  },
+  {
+    "id": "e888d6243b8c4cd5fca24e2c",
+    "sourceFile": "Contest 21-1.doc",
+    "subject": null,
+    "questionText": "a3 - b3 = (a - b)(a2 + b2). (M)",
+    "correctAnswer": "F",
+    "scored": false
+  },
+  {
+    "id": "c99d7d8d34cb08d19d41eb62",
+    "sourceFile": "Contest 21-1.doc",
+    "subject": null,
+    "questionText": "For any two sets A and B . (M)",
+    "correctAnswer": "F []",
+    "scored": false
+  },
+  {
+    "id": "d44637c1b9f2ff896350169e",
+    "sourceFile": "Contest 21-1.doc",
+    "subject": null,
+    "questionText": "Addition of natural numbers is associative. (M)",
+    "correctAnswer": "T",
+    "scored": false
+  },
+  {
+    "id": "7cc2d112daf5dcfd688904e4",
+    "sourceFile": "Contest 21-1.doc",
+    "subject": null,
+    "questionText": "Subtraction of rational numbers is commutative. (M)",
+    "correctAnswer": "F",
+    "scored": false
+  },
+  {
+    "id": "c24485a60d38b2d6a73dc219",
+    "sourceFile": "Contest 21-1.doc",
+    "subject": null,
+    "questionText": "Compared to free living worms, parasitic worms have reduced nervous system. (B)",
+    "correctAnswer": "T",
+    "scored": false
+  },
+  {
+    "id": "1beb1c97ca4822e5917cb271",
+    "sourceFile": "Contest 21-1.doc",
+    "subject": null,
+    "questionText": "Compared to free living worms, parasitic worms have efficient circulatory system. (B)",
+    "correctAnswer": "F",
+    "scored": false
+  },
+  {
+    "id": "57be7dae4888a968d5a2af24",
+    "sourceFile": "Contest 21-1.doc",
+    "subject": null,
+    "questionText": "Asthma is an infectious disease. (B)",
+    "correctAnswer": "F",
+    "scored": false
+  },
+  {
+    "id": "ce8d4b176f5308a3d14f95fd",
+    "sourceFile": "Contest 21-1.doc",
+    "subject": null,
+    "questionText": "Anthrax is caused by bacterium. (B)",
+    "correctAnswer": "T",
+    "scored": false
+  },
+  {
+    "id": "5893c5bee31b057254dbd7cc",
+    "sourceFile": "Contest 21-1.doc",
+    "subject": "Chemistry",
+    "questionText": "Compounds with C - C only in addition to C - H do not undergo oxidation. (C)",
+    "correctAnswer": "F [eg. Combustion of hydrocarbons]",
+    "scored": false
+  },
+  {
+    "id": "b5dbdd50c1c8f9487204bfc3",
+    "sourceFile": "Contest 21-1.doc",
+    "subject": null,
+    "questionText": "Tertiary alcohols cannot be oxidised by removal of hydrogen. (C)",
+    "correctAnswer": "T",
+    "scored": false
+  },
+  {
+    "id": "e5fe854fbe0b534bc27d83ec",
+    "sourceFile": "Contest 21-1.doc",
+    "subject": "Chemistry",
+    "questionText": "Mass spectrometers can be used to determine the number of isotopes an element has. (C)",
+    "correctAnswer": "T [Isotopes have different mass numbers]",
+    "scored": false
+  },
+  {
+    "id": "b5cee8198bb5fd2692e4ab88",
+    "sourceFile": "Contest 21-1.doc",
+    "subject": "Chemistry",
+    "questionText": "Isotopes of the same element have the same number of neutrons but different number of protons in the nucleus. (C)",
+    "correctAnswer": "F [same number of protons but different neutrons]",
+    "scored": false
+  },
+  {
+    "id": "8e1beb8e77b03e1468b5ded5",
+    "sourceFile": "Contest 21-1.doc",
+    "subject": "Physics",
+    "questionText": "The speed of light in transparent medium with high refractive index is higher than its speed in a medium with a low refractive index. (P)",
+    "correctAnswer": "F",
+    "scored": false
+  },
+  {
+    "id": "4f2cfc78ecb912048dbb8159",
+    "sourceFile": "Contest 21-1.doc",
+    "subject": null,
+    "questionText": "Light of a given colour has different frequencies in different media. (P)",
+    "correctAnswer": "F",
+    "scored": false
+  },
+  {
+    "id": "03c73f8d9e9e1c3b38afce83",
+    "sourceFile": "Contest 21-1.doc",
+    "subject": "Physics",
+    "questionText": "Two parallel conductors carrying currents in the same direction experience an attractive force proportional to the product of the currents and inversely proportional to the square of the distance between them. (P)",
+    "correctAnswer": "T",
+    "scored": false
+  },
+  {
+    "id": "48ce14456872ffc1303b5254",
+    "sourceFile": "Contest 21-1.doc",
+    "subject": "Physics",
+    "questionText": "If a current lies in a perpendicular magnetic field and the shape of the circuit is distorted so that its area changes, an emf will be induced. (P)",
+    "correctAnswer": "T",
+    "scored": false
+  },
+  {
+    "id": "77cf800182301dfc316a79a2",
+    "sourceFile": "Contest 21-1.docx",
+    "subject": "Biology",
+    "questionText": "What is the name given to the external layer of cells in the vascular cylinder of roots of plants that produce secondary roots? (B)",
+    "correctAnswer": "Pericycle",
+    "scored": false
+  },
+  {
+    "id": "2aea184c268adec1c4dd3b37",
+    "sourceFile": "Contest 21-1.docx",
+    "subject": null,
+    "questionText": "What name is given to the line of splitting which represents a line of weakness in the wall of the anther? (B)",
+    "correctAnswer": "Stomium",
+    "scored": false
+  },
+  {
+    "id": "0da798dda0f88bffa1b50fe4",
+    "sourceFile": "Contest 21-1.docx",
+    "subject": null,
+    "questionText": "Which of the following gases is/are odourless and would not affect wet litmus: H2, O2, CO, SO2, NH3? (C)",
+    "correctAnswer": "H2, O2, CO",
+    "scored": false
+  },
+  {
+    "id": "9cbfc0517f6c5401ce1162d6",
+    "sourceFile": "Contest 21-1.docx",
+    "subject": null,
+    "questionText": "Which of the following gases can be collected by upward displacement of air: H2S, butane, HCl, NO? (C)",
+    "correctAnswer": "H2S (34), Butane (58), HCl (36.5)",
+    "scored": false
+  },
+  {
+    "id": "b33443c1d7bd798d80d0eb8c",
+    "sourceFile": "Contest 21-1.docx",
+    "subject": null,
+    "questionText": "Express in decimal notation (M) Q. 8.62 * 107",
+    "correctAnswer": "0.0000862",
+    "scored": false
+  },
+  {
+    "id": "bd7715db8d1454c190be3ba3",
+    "sourceFile": "Contest 21-1.docx",
+    "subject": null,
+    "questionText": "1.764 * 107",
+    "correctAnswer": "17,640,000",
+    "scored": false
+  },
+  {
+    "id": "b7f9816b9cd99c76b4292b39",
+    "sourceFile": "Contest 21-1.docx",
+    "subject": "Physics",
+    "questionText": "When a certain nucleus at rest fissions it produces two fragments A and B of respective mass mA and mB which fly off in opposite directions. (C) Q. What is the ratio of the speed of the A fragment to that of the B fragment?",
+    "correctAnswer": "mB/mA [Conservationn of linear momentum demands mAvA = mBvB so vA/vB = mB/mA",
+    "scored": false
+  },
+  {
+    "id": "ddd7b7a6e5026031e3772936",
+    "sourceFile": "Contest 21-1.docx",
+    "subject": "Physics",
+    "questionText": "What is the ratio of kinetic energy of the A fragment to that of the B fragment?",
+    "correctAnswer": "mB/mA []",
+    "scored": false
+  },
+  {
+    "id": "2149a3ebd17470cdf6252e88",
+    "sourceFile": "Contest 21-1.docx",
+    "subject": "Biology",
+    "questionText": "What is synapsis? (B)",
+    "correctAnswer": "The pairing of homologous chromosomes during meiosis",
+    "scored": false
+  },
+  {
+    "id": "d0ad1387795bd448921b3357",
+    "sourceFile": "Contest 21-1.docx",
+    "subject": "Biology",
+    "questionText": "What is venule? (B)",
+    "correctAnswer": "A vessel that takes blood from capillaries to a vein",
+    "scored": false
+  },
+  {
+    "id": "0147863d34b0755d563c59b3",
+    "sourceFile": "Contest 21-1.docx",
+    "subject": "Chemistry",
+    "questionText": "One of the reactions in the manufacture of glass is sodium oxide with sand and silica. What type of reaction takes place between the two reagents? (C)",
+    "correctAnswer": "Acid – base reaction",
+    "scored": false
+  },
+  {
+    "id": "9e2b06fa3f86bec3ae3c72c8",
+    "sourceFile": "Contest 21-1.docx",
+    "subject": "Chemistry",
+    "questionText": "Chemically, cement and glass have a lot in common, why? (C)",
+    "correctAnswer": "Both involve the reaction of silica/sand and CaO",
+    "scored": false
+  },
+  {
+    "id": "43f429e5ce99ad6287c42888",
+    "sourceFile": "Contest 21-1.docx",
+    "subject": "Maths",
+    "questionText": "Write as a single logarithm. (M) Q.",
+    "correctAnswer": "[ (Quotient rule)]",
+    "scored": false
+  },
+  {
+    "id": "4bcc0b2dcfec90119bd883b7",
+    "sourceFile": "Contest 21-1.docx",
+    "subject": null,
+    "questionText": "",
+    "correctAnswer": "[ (Product rule)]",
+    "scored": false
+  },
+  {
+    "id": "641ad8ed17fdc670ac6977f3",
+    "sourceFile": "Contest 21-1.docx",
+    "subject": "Physics",
+    "questionText": "In describing nuclear fission reactions, what does the term critical mean? (C)",
+    "correctAnswer": "The minimum mass of fissionable material required for a sustained chain reaction",
+    "scored": false
+  },
+  {
+    "id": "8073adb5e0884c72130bbe6a",
+    "sourceFile": "Contest 21-1.docx",
+    "subject": "Physics",
+    "questionText": "What is the function of the moderator in a nuclear reactor? (P)",
+    "correctAnswer": "It serves to reduce the speed of neutrons so they can be more readily absorbed by fissionable nuclei",
+    "scored": false
+  },
+  {
+    "id": "6561673d5353a38eae58121c",
+    "sourceFile": "Contest 21-1.docx",
+    "subject": null,
+    "questionText": "What is the anther of a flower? (B)",
+    "correctAnswer": "Part of the stamen where pollen grains develop",
+    "scored": false
+  },
+  {
+    "id": "908d3d3eb19ee6749da7dbb2",
+    "sourceFile": "Contest 21-1.docx",
+    "subject": null,
+    "questionText": "What name is given to the elongated stalk of the stamen that bears the anther at the tip? (B)",
+    "correctAnswer": "Filament",
+    "scored": false
+  },
+  {
+    "id": "4fa584ddf3d59a43e1995930",
+    "sourceFile": "Contest 21-1.docx",
+    "subject": "Biology",
+    "questionText": "Which organometallic is widely associated with green plants? (B)",
+    "correctAnswer": "Chlorophyll – organomagnesium compound",
+    "scored": false
+  },
+  {
+    "id": "b281f3777174402757557604",
+    "sourceFile": "Contest 21-1.docx",
+    "subject": "Biology",
+    "questionText": "Which organometallic compound is associated with blood? (B)",
+    "correctAnswer": "Haem – iron II complex",
+    "scored": false
+  },
+  {
+    "id": "ee79772842e487fd3f32ae03",
+    "sourceFile": "Contest 21-1.docx",
+    "subject": null,
+    "questionText": "Two runners enter a race for charity. One runs at 10 km/hr and the other at 7 km/hr. (P) Q. If they start at the same time, how long will it be until they are ½ km apart?",
+    "correctAnswer": "10 minutes or 1/6 hr []",
+    "scored": false
+  },
+  {
+    "id": "e136503b8990fca05299cef8",
+    "sourceFile": "Contest 21-1.docx",
+    "subject": null,
+    "questionText": "If the run has a staggered start and the slower runner is given a 15 minute head-start, find how long it will be until the faster runner catches up?",
+    "correctAnswer": "35 minutes []",
+    "scored": false
+  },
+  {
+    "id": "cbd0be197776e3fe766eaff2",
+    "sourceFile": "Contest 21-1.docx",
+    "subject": null,
+    "questionText": "What instrument would you use to measure the diameter of the wire on a meter bridge? (P)",
+    "correctAnswer": "Micrometre screw gauge [Accept vernier callipers – modern digital callipers can read down to hundredths of a millimetre]",
+    "scored": false
+  },
+  {
+    "id": "fab1d35f358db6ebaa25a5b0",
+    "sourceFile": "Contest 21-1.docx",
+    "subject": null,
+    "questionText": "What instrument would you use to measure the inside diameter of a test tube? (P)",
+    "correctAnswer": "A pair of inside callipers",
+    "scored": false
+  },
+  {
+    "id": "13072a4ac37d32423125f7d7",
+    "sourceFile": "Contest 21-1.docx",
+    "subject": null,
+    "questionText": "What name is given to the thin shell of air, land and water around the earth that supports life? (B)",
+    "correctAnswer": "Biosphere",
+    "scored": false
+  },
+  {
+    "id": "689ca4e7a882d6f0d4abc5a9",
+    "sourceFile": "Contest 21-1.docx",
+    "subject": "Biology",
+    "questionText": "What name is given to the process whereby a new species originates? (B)",
+    "correctAnswer": "Speciation",
+    "scored": false
+  },
+  {
+    "id": "5db0f3d825b537b73b36ecc7",
+    "sourceFile": "Contest 21-1.docx",
+    "subject": null,
+    "questionText": "A kettle is used to boil tap water and after a week white scales are observed in the kettle. What could these white scales be? (C)",
+    "correctAnswer": "Calcium or magnesium trioxocarbonate IV (Ca/MgCO3)",
+    "scored": false
+  },
+  {
+    "id": "ea7ddb32bf7f8901a9fc0078",
+    "sourceFile": "Contest 21-1.docx",
+    "subject": null,
+    "questionText": "Hard water forms scum with soap. Chemically what is scum? (C)",
+    "correctAnswer": "Calcium or magnesium stearate or palmitate",
+    "scored": false
+  },
+  {
+    "id": "0ac02ae06e13f9700ddd09c8",
+    "sourceFile": "Contest 21-1.docx",
+    "subject": null,
+    "questionText": "State the negation of each statement. (M) Q. If it rains, there will be no school.",
+    "correctAnswer": "It rains and there is school [] Q. x = 2 and y = 3",
+    "scored": false
+  },
+  {
+    "id": "068b0a4ff8a49d7ba27f09f1",
+    "sourceFile": "Contest 21-1.docx",
+    "subject": "Physics",
+    "questionText": "Which of these are renewable energy sources: coal, solar energy, petroleum gas, wind energy, petroleum oil and tidal wave energy? (P)",
+    "correctAnswer": "Solar energy, wind energy and tidal wave energy",
+    "scored": false
+  },
+  {
+    "id": "84f099c89365b8442171e4f4",
+    "sourceFile": "Contest 21-1.docx",
+    "subject": "Physics",
+    "questionText": "Which of these sources produce significant environmental pollutants: coal, solar energy, wind energy, petroleum oil, tidal wave energy and petroleum gas?",
+    "correctAnswer": "Coal, petroleum oil and petroleum gas",
+    "scored": false
+  },
+  {
+    "id": "c66c926d1d62d9558069e9f4",
+    "sourceFile": "Contest 21-1.docx",
+    "subject": null,
+    "questionText": "a. Briefly explain how the light emitted by a hot body can be used to estimate temperature of the body. State the assumptions you make. b. The wavelength of the peak of the emission spectrum from a high temperature furnace was determined to be 3.05 µm. The wavelength for the peak in the solar radiation spectrum measured just outside the terrestrial atmosphere is 451 nm. If the temperature of the sun is approximately 6425 K and both the sun and the furnace can be considered as black bodies, estimate the temperature of the furnace. c. A second furnace is to be operated at twice the temperature of the furnace above. Find the wavelength expected for peak emission from the second furnace and find the ratio of the total radiant emission from the higher temperature furnace to that of the lower temperature furnace. (P)",
+    "correctAnswer": "If a hot body is assumed to be a black body, the spectrum of light it emits depends on temperature. In particular, the wavelength of peak intensity in the spectrum satisfies the displacement law λmT = constant. Thus by determining the peak wavelength, the temperature of the body can be determined. Alternatively, the intensity at several wavelengths can be found and the black body radiation formula can then be used to find T",
+    "scored": false
+  },
+  {
+    "id": "0234d7fcceb3097123fc130b",
+    "sourceFile": "Contest 21-1.docx",
+    "subject": null,
+    "questionText": "a3 – b3 = (a – b)(a2 + b2). (M)",
+    "correctAnswer": "F",
+    "scored": false
+  },
+  {
+    "id": "36961d29b31bfba8a4f0b2ad",
+    "sourceFile": "Contest 21-1.docx",
+    "subject": null,
+    "questionText": "For any two sets A and B . (M)",
+    "correctAnswer": "F []",
+    "scored": false
+  },
+  {
+    "id": "cf34ef4f8c934cd8d0399560",
+    "sourceFile": "Contest 21-1.docx",
+    "subject": null,
+    "questionText": "Addition of natural numbers is associative. (M)",
+    "correctAnswer": "T",
+    "scored": false
+  },
+  {
+    "id": "45663fee33aff579d64757e7",
+    "sourceFile": "Contest 21-1.docx",
+    "subject": null,
+    "questionText": "Subtraction of rational numbers is commutative. (M)",
+    "correctAnswer": "F",
+    "scored": false
+  },
+  {
+    "id": "bb6bc4cbc7651954bbee35d0",
+    "sourceFile": "Contest 21-1.docx",
+    "subject": null,
+    "questionText": "Compared to free living worms, parasitic worms have reduced nervous system. (B)",
+    "correctAnswer": "T",
+    "scored": false
+  },
+  {
+    "id": "666daa632a24fef4894a05aa",
+    "sourceFile": "Contest 21-1.docx",
+    "subject": null,
+    "questionText": "Compared to free living worms, parasitic worms have efficient circulatory system. (B)",
+    "correctAnswer": "F",
+    "scored": false
+  },
+  {
+    "id": "d193f8b16ef71fd458eca45c",
+    "sourceFile": "Contest 21-1.docx",
+    "subject": null,
+    "questionText": "Asthma is an infectious disease. (B)",
+    "correctAnswer": "F",
+    "scored": false
+  },
+  {
+    "id": "99e9453194929ae7872558a0",
+    "sourceFile": "Contest 21-1.docx",
+    "subject": null,
+    "questionText": "Anthrax is caused by bacterium. (B)",
+    "correctAnswer": "T",
+    "scored": false
+  },
+  {
+    "id": "fe5608f61e3fcbcf0ae4964a",
+    "sourceFile": "Contest 21-1.docx",
+    "subject": "Chemistry",
+    "questionText": "Compounds with C – C only in addition to C – H do not undergo oxidation. (C)",
+    "correctAnswer": "F [eg. Combustion of hydrocarbons]",
+    "scored": false
+  },
+  {
+    "id": "b750f3174ccb78a44faea473",
+    "sourceFile": "Contest 21-1.docx",
+    "subject": null,
+    "questionText": "Tertiary alcohols cannot be oxidised by removal of hydrogen. (C)",
+    "correctAnswer": "T",
+    "scored": false
+  },
+  {
+    "id": "8500a5a4213f887b90c1b63b",
+    "sourceFile": "Contest 21-1.docx",
+    "subject": "Chemistry",
+    "questionText": "Mass spectrometers can be used to determine the number of isotopes an element has. (C)",
+    "correctAnswer": "T [Isotopes have different mass numbers]",
+    "scored": false
+  },
+  {
+    "id": "8abb3f1d934604dcd79022fe",
+    "sourceFile": "Contest 21-1.docx",
+    "subject": "Chemistry",
+    "questionText": "Isotopes of the same element have the same number of neutrons but different number of protons in the nucleus. (C)",
+    "correctAnswer": "F [same number of protons but different neutrons]",
+    "scored": false
+  },
+  {
+    "id": "3fa44e5c79a82fea26ecf457",
+    "sourceFile": "Contest 21-1.docx",
+    "subject": "Physics",
+    "questionText": "The speed of light in transparent medium with high refractive index is higher than its speed in a medium with a low refractive index. (P)",
+    "correctAnswer": "F",
+    "scored": false
+  },
+  {
+    "id": "ea4482d20407a62f52c33ebc",
+    "sourceFile": "Contest 21-1.docx",
+    "subject": null,
+    "questionText": "Light of a given colour has different frequencies in different media. (P)",
+    "correctAnswer": "F",
+    "scored": false
+  },
+  {
+    "id": "42adb478575a3ef08df0b90e",
+    "sourceFile": "Contest 21-1.docx",
+    "subject": "Physics",
+    "questionText": "Two parallel conductors carrying currents in the same direction experience an attractive force proportional to the product of the currents and inversely proportional to the square of the distance between them. (P)",
+    "correctAnswer": "T",
+    "scored": false
+  },
+  {
+    "id": "54809466dde2b5353fe67401",
+    "sourceFile": "Contest 21-1.docx",
+    "subject": "Physics",
+    "questionText": "If a current lies in a perpendicular magnetic field and the shape of the circuit is distorted so that its area changes, an emf will be induced. (P)",
+    "correctAnswer": "T",
+    "scored": false
+  },
+  {
+    "id": "8eed03b21a0e7e27664b662d",
+    "sourceFile": "Contest 25-1-1.doc",
+    "subject": "Maths",
+    "questionText": "Factorise the expression. (M) a2 + 2ab + b2",
+    "correctAnswer": "(a + b)2",
+    "scored": false
+  },
+  {
+    "id": "43ae4fc178593c29f1cb21b3",
+    "sourceFile": "Contest 25-1-1.doc",
+    "subject": "Maths",
+    "questionText": "Factorise the expression. (M) a2 - 9b2",
+    "correctAnswer": "(a - 3b)(a + 3b)",
+    "scored": false
+  },
+  {
+    "id": "b315abcddce06b115416b81a",
+    "sourceFile": "Contest 25-1-1.doc",
+    "subject": "Physics",
+    "questionText": "Factorise the expression. (M) With reference to radio communication, what do AM and FM signify? (P)",
+    "correctAnswer": "Amplitude modulation and Frequency modulation",
+    "scored": false
+  },
+  {
+    "id": "65ad747c332da73afed9fc97",
+    "sourceFile": "Contest 25-1-1.doc",
+    "subject": "Maths",
+    "questionText": "Factorise the expression. (M) What modulation format is used in analogue TV transmission? (P)",
+    "correctAnswer": "AM for video and FM for radio",
+    "scored": false
+  },
+  {
+    "id": "3c9316977c11ae73a90ddc11",
+    "sourceFile": "Contest 25-1-1.doc",
+    "subject": "Biology",
+    "questionText": "Factorise the expression. (M) Which class of natural products would cocaine belong to: steroids, carbohydrates, terpenoids, alkaloids or proteins? (C)",
+    "correctAnswer": "Alkaloids",
+    "scored": false
+  },
+  {
+    "id": "0600eef272c16c04f520617a",
+    "sourceFile": "Contest 25-1-1.doc",
+    "subject": "Biology",
+    "questionText": "Factorise the expression. (M) Which class of natural products would camphor belong to: steroids, carbohydrates, terpenoids, alkaloids or proteins? (C)",
+    "correctAnswer": "Terpenoid compounds",
+    "scored": false
+  },
+  {
+    "id": "6bfdc9a8da71726c76428e1d",
+    "sourceFile": "Contest 25-1-1.doc",
+    "subject": "Biology",
+    "questionText": "Factorise the expression. (M) What is an arteriole? (B)",
+    "correctAnswer": "Vessel that takes blood from an artery to capillaries",
+    "scored": false
+  },
+  {
+    "id": "b1e501ecef480fa1d2820d80",
+    "sourceFile": "Contest 25-1-1.doc",
+    "subject": "Biology",
+    "questionText": "Factorise the expression. (M) What is a bivalent? (B)",
+    "correctAnswer": "A pair of homologous chromosomes (each having sister chromatids)",
+    "scored": false
+  },
+  {
+    "id": "a0d56a4b7305cb3698327b70",
+    "sourceFile": "Contest 25-1-1.doc",
+    "subject": "Maths",
+    "questionText": "Factorise the expression. (M) On four exams Kofi's scores were 77, 93, 90 and 76. What mark must he obtain in his fifth exam to have an average score of 80? (M)",
+    "correctAnswer": "64 [",
+    "scored": false
+  },
+  {
+    "id": "cc58a27f692e6ac98f20fddc",
+    "sourceFile": "Contest 25-1-1.doc",
+    "subject": "Maths",
+    "questionText": "Factorise the expression. (M) The average age of 20 pupils in a class is 9 years. What is the age of their teacher if the average age of the 20 pupils and their teacher is 10 years? (M)",
+    "correctAnswer": "30 years [",
+    "scored": false
+  },
+  {
+    "id": "b05e29cca5e550b587c62541",
+    "sourceFile": "Contest 25-1-1.doc",
+    "subject": "Maths",
+    "questionText": "Factorise the expression. (M) What does \"work function\" of a metal refer to? (P)",
+    "correctAnswer": "Minimum energy required to remove an electron from the metal surface",
+    "scored": false
+  },
+  {
+    "id": "c17641315a52c4884a30da4b",
+    "sourceFile": "Contest 25-1-1.doc",
+    "subject": "Physics",
+    "questionText": "Factorise the expression. (M) With reference to the photoelectric effect, what does threshold frequency signify? (P)",
+    "correctAnswer": "The minimum light frequency for electron emission",
+    "scored": false
+  },
+  {
+    "id": "9839ec4499d77ca7bfdbc594",
+    "sourceFile": "Contest 25-1-1.doc",
+    "subject": "Maths",
+    "questionText": "Factorise the expression. (M) What generally happens to ammonium salts when heated strongly? (C)",
+    "correctAnswer": "They decompose and give off ammonia gas",
+    "scored": false
+  },
+  {
+    "id": "8ead64f8d862f2ac008a2621",
+    "sourceFile": "Contest 25-1-1.doc",
+    "subject": "Chemistry",
+    "questionText": "Factorise the expression. (M) CO2 gas is bubbled through a solution of Ca(OH)2 for a long time. What is observed? (C)",
+    "correctAnswer": "A white suspension (of CaCO3) is formed but then dissolves with excess CO2 to give a clear solution (of Ca(HCO3)2)",
+    "scored": false
+  },
+  {
+    "id": "5a5ca13f6c562eac62ad6f65",
+    "sourceFile": "Contest 25-1-1.doc",
+    "subject": "Biology",
+    "questionText": "Factorise the expression. (M) Which part of the heart pumps blood to the lungs? (B)",
+    "correctAnswer": "Right ventricle",
+    "scored": false
+  },
+  {
+    "id": "a4c950d788f9354dd5eb6fcb",
+    "sourceFile": "Contest 25-1-1.doc",
+    "subject": "Maths",
+    "questionText": "Factorise the expression. (M) Why should the left ventricle of the heart possess a thicker wall? (B)",
+    "correctAnswer": "It has a harder function by pumping blood to the entire body. Q. x2 - 3x + 5 = (x + a)2 + b",
+    "scored": false
+  },
+  {
+    "id": "a6bdb3faf27b09d28eeab387",
+    "sourceFile": "Contest 25-1-1.doc",
+    "subject": null,
+    "questionText": "Find a and b such that (M) x2 + 6x - 5 = (x + a)2 + b",
+    "correctAnswer": "Q. What is the plum pudding model and who proposed it? (C) Atom model in the electrons are distributed through a positively charged region as plums in a pudding: the model was proposed by J. J. Thomson",
+    "scored": false
+  },
+  {
+    "id": "adcbc4f62da1ebabaf01f49a",
+    "sourceFile": "Contest 25-1-1.doc",
+    "subject": null,
+    "questionText": "Find a and b such that (M) Why was the Rutherford model of the atom superseded? (C)",
+    "correctAnswer": "It could not explain stability of atoms and line spectra",
+    "scored": false
+  },
+  {
+    "id": "881c277f37ea0231a8d69620",
+    "sourceFile": "Contest 25-1-1.doc",
+    "subject": "Biology",
+    "questionText": "Find a and b such that (M) What is a primary cell? (C)",
+    "correctAnswer": "It is an electrochemical cell (ie. 2 half-cells joined together) that cannot be recharged when the electrolytes are discharged",
+    "scored": false
+  },
+  {
+    "id": "22c7b825a347a79ca53bf898",
+    "sourceFile": "Contest 25-1-1.doc",
+    "subject": "Biology",
+    "questionText": "Find a and b such that (M) Why is a lead storage battery a secondary cell? (C)",
+    "correctAnswer": "It can be recharged by passing electricity through the cell",
+    "scored": false
+  },
+  {
+    "id": "c8a1c3432358b28a13db34cd",
+    "sourceFile": "Contest 25-1-1.doc",
+    "subject": "Biology",
+    "questionText": "Find a and b such that (M) State the condition under which cauliflory is advantageous to a plant. (B)",
+    "correctAnswer": "It is advantageous to a plant pollinated by animals that normally live below the level of its crown",
+    "scored": false
+  },
+  {
+    "id": "b6fe7b7fd4e65f7cb9bd4bbd",
+    "sourceFile": "Contest 25-1-1.doc",
+    "subject": null,
+    "questionText": "Find a and b such that (M) What is the advantage of having a fruit borne directly on the trunk of a tree instead of the branch? (B)",
+    "correctAnswer": "The trunk is mechanically stronger to bear heavy fruits than the branch",
+    "scored": false
+  },
+  {
+    "id": "f63c7028d6fe3e02fb350d29",
+    "sourceFile": "Contest 25-1-1.doc",
+    "subject": null,
+    "questionText": "Find a and b such that (M) Give two characteristics of the hydrogen atom that the Bohr model explains. (C)",
+    "correctAnswer": "Line spectra, spectroscopic series (Balmer, Paschen, Lyman, etc.), stability. Accept any two correct responses",
+    "scored": false
+  },
+  {
+    "id": "64b2d8d93b48830622794588",
+    "sourceFile": "Contest 25-1-1.doc",
+    "subject": "Physics",
+    "questionText": "Find a and b such that (M) Give two characteristics of atoms that the Bohr model cnnot explain. (C)",
+    "correctAnswer": "Angular momentum, energy levels of multi-electron atoms, spin. Accept any two correct responses",
+    "scored": false
+  },
+  {
+    "id": "7be08e2e8e127d6a2733de33",
+    "sourceFile": "Contest 25-1-1.doc",
+    "subject": "Chemistry",
+    "questionText": "Find a and b such that (M) Which of the reagents, diluted HCl and diluted NaOH will produce holes in your polyester shirt or blouse? (C)",
+    "correctAnswer": "Both will (Nylon is polyester which can be hydrolysed by both acids and bases.)",
+    "scored": false
+  },
+  {
+    "id": "717855c5da99ecdec1123862",
+    "sourceFile": "Contest 25-1-1.doc",
+    "subject": "Chemistry",
+    "questionText": "Find a and b such that (M) Why is it that dilute ammonia cannot be titrated against dilute ethanoic acid using methyl orange as indicator? (C)",
+    "correctAnswer": "No sharp end point can be obtained",
+    "scored": false
+  },
+  {
+    "id": "3c87caf7e5a21b9269755f23",
+    "sourceFile": "Contest 25-1-1.doc",
+    "subject": "Biology",
+    "questionText": "Find a and b such that (M) Why are weeds called opportunists of the plant world? (B)",
+    "correctAnswer": "When a clearing is made they quickly colonize the place",
+    "scored": false
+  },
+  {
+    "id": "8678a2d5c3e898d29fa8eceb",
+    "sourceFile": "Contest 25-1-1.doc",
+    "subject": "Biology",
+    "questionText": "Find a and b such that (M) What are cauliflorous plants? (B)",
+    "correctAnswer": "Plants whose flowers are borne on the main trunk and large branches",
+    "scored": false
+  },
+  {
+    "id": "faa777c84e82334e12f22d0a",
+    "sourceFile": "Contest 25-1-1.doc",
+    "subject": null,
+    "questionText": "Find a and b such that (M) The point A (3, 4) is reflected in the line y = x and the image point is further reflected in the x-axis. Find the coordinates of the final image point. (M)",
+    "correctAnswer": "A'' (4, -3) [",
+    "scored": false
+  },
+  {
+    "id": "f9082bc7286e9da1108245e5",
+    "sourceFile": "Contest 25-1-1.doc",
+    "subject": null,
+    "questionText": "Find a and b such that (M) The point B (-1, 2) is translated by the vector and the image point reflected in the y-axis. Find the coordinates of the final image point. (M)",
+    "correctAnswer": "B'' (-2, 4) [",
+    "scored": false
+  },
+  {
+    "id": "adfa62e1842bfdd6a0652620",
+    "sourceFile": "Contest 25-1-1.doc",
+    "subject": "Chemistry",
+    "questionText": "a. Determine the temperature T at which the root-mean-square speed of molecules of a gas is sufficient to allow gas molecules of mass m to escape the gravitational pull of the earth. b. Explain why only a small fraction of the molecules of the gas will actually escape if a small gas sample is heated to temperature T on the surface of the earth. (P)",
+    "correctAnswer": "The rms speed of a molecule of mass m is and the escape speed is so if escape speed and rms speed are equal, temperature must be",
+    "scored": false
+  },
+  {
+    "id": "eec289521df99efc4f46c3b3",
+    "sourceFile": "Contest 25-1-1.doc",
+    "subject": null,
+    "questionText": "A porter carrying a load does zero work on the load as he moves it from point to another. (P)",
+    "correctAnswer": "T",
+    "scored": false
+  },
+  {
+    "id": "42a932e90fd4cc97f0e6bde4",
+    "sourceFile": "Contest 25-1-1.doc",
+    "subject": "Physics",
+    "questionText": "The work done by a porter on a load in lifting it equals the change in gravitational potential energy of the load. (P)",
+    "correctAnswer": "T",
+    "scored": false
+  },
+  {
+    "id": "c979d9a97f693e4c03d85093",
+    "sourceFile": "Contest 25-1-1.doc",
+    "subject": "Physics",
+    "questionText": "The force required to move a body is independent of its inertia. (P)",
+    "correctAnswer": "F",
+    "scored": false
+  },
+  {
+    "id": "b427393e39ec5c2289ac961c",
+    "sourceFile": "Contest 25-1-1.doc",
+    "subject": null,
+    "questionText": "The weight of a body is a measure of its inertia. (P)",
+    "correctAnswer": "F",
+    "scored": false
+  },
+  {
+    "id": "b4e0e9e0fd92d8d11eff8d30",
+    "sourceFile": "Contest 25-1-1.doc",
+    "subject": null,
+    "questionText": "Nematodes have segmented body. (B)",
+    "correctAnswer": "F",
+    "scored": false
+  },
+  {
+    "id": "4279a081bfd43938552026fd",
+    "sourceFile": "Contest 25-1-1.doc",
+    "subject": null,
+    "questionText": "Round worms have radial symmetry. (B)",
+    "correctAnswer": "F (Bilateral)",
+    "scored": false
+  },
+  {
+    "id": "7e1dae26453fa018d443fc12",
+    "sourceFile": "Contest 25-1-1.doc",
+    "subject": "Biology",
+    "questionText": "The first product of photosynthesis is a 6 carbon compound. (B)",
+    "correctAnswer": "F (3C)",
+    "scored": false
+  },
+  {
+    "id": "870f3cbb4ca424d520d8d90a",
+    "sourceFile": "Contest 25-1-1.doc",
+    "subject": "Chemistry",
+    "questionText": "Q, Ribulose biphosphate is the molecule that accepts CO2 in the Calvin cycle. (C)",
+    "correctAnswer": "T",
+    "scored": false
+  },
+  {
+    "id": "4458d0eefe452ad28c440d04",
+    "sourceFile": "Contest 25-1-1.doc",
+    "subject": null,
+    "questionText": "Integration is the reverse of differentiation. (M)",
+    "correctAnswer": "T",
+    "scored": false
+  },
+  {
+    "id": "0cf56f36b6761d9011a058df",
+    "sourceFile": "Contest 25-1-1.doc",
+    "subject": null,
+    "questionText": "Translation is a linear transformation. (M)",
+    "correctAnswer": "F",
+    "scored": false
+  },
+  {
+    "id": "667ec7ef124320e2a3e3d288",
+    "sourceFile": "Contest 25-1-1.doc",
+    "subject": "Maths",
+    "questionText": "A matrix has an inverse if its determinant is zero. (M)",
+    "correctAnswer": "F (Determinant is not equal to zero)",
+    "scored": false
+  },
+  {
+    "id": "0f61ef242b64061cf54e43e5",
+    "sourceFile": "Contest 25-1-1.doc",
+    "subject": "Maths",
+    "questionText": "In a cyclic quadrilateral, adjacent angles are supplementary. (M)",
+    "correctAnswer": "F (opposite angles are supplementary)",
+    "scored": false
+  },
+  {
+    "id": "9ccf47673cc3093bace4f237",
+    "sourceFile": "Contest 25-1-1.doc",
+    "subject": "Chemistry",
+    "questionText": "N - Ethylmethanamide will undergo base-catalysed hydrolysis to give the ethanoate ion. (C)",
+    "correctAnswer": "F",
+    "scored": false
+  },
+  {
+    "id": "51fd31631b76f4a96ad20a36",
+    "sourceFile": "Contest 25-1-1.doc",
+    "subject": "Chemistry",
+    "questionText": "Butylmethanoate undergoes acid hydrolysis to give butanol and methanoic acid. (C)",
+    "correctAnswer": "T",
+    "scored": false
+  },
+  {
+    "id": "cd63c4e11ef352400b9d35b2",
+    "sourceFile": "Contest 25-1-1.doc",
+    "subject": "Physics",
+    "questionText": "The magnetic field in the mass spectrometer causes the ionized molecules or atoms to move in circular paths. (C)",
+    "correctAnswer": "T",
+    "scored": false
+  },
+  {
+    "id": "21b6fc0d0bf349ee4e1ba332",
+    "sourceFile": "Contest 25-1-1.doc",
+    "subject": "Chemistry",
+    "questionText": "In the mass spectrometer the vaporised molecules or atoms are bombarded with fast moving neutrons. (C)",
+    "correctAnswer": "F (fast moving electrons)",
+    "scored": false
+  },
+  {
+    "id": "d06894334d1666c1c73b349f",
+    "sourceFile": "Contest 29-1.doc",
+    "subject": "Biology",
+    "questionText": "What name is given to the potential of a cell to develop into a complete plant? (B)",
+    "correctAnswer": "Totipotency",
+    "scored": false
+  },
+  {
+    "id": "fc7e85b2db6b59dfabcf657e",
+    "sourceFile": "Contest 29-1.doc",
+    "subject": "Physics",
+    "questionText": "What name is given the structure at the tip of a leaf vein through which water is forced by root pressures? (B)",
+    "correctAnswer": "Hydathode",
+    "scored": false
+  },
+  {
+    "id": "b6076f34bce4599dccf4520b",
+    "sourceFile": "Contest 29-1.doc",
+    "subject": "Physics",
+    "questionText": "List the principal energy transformations that occur at the dam at Akosombo. (P)",
+    "correctAnswer": "Gravitational potential energy( kinetic energy(electrical energy",
+    "scored": false
+  },
+  {
+    "id": "873e780f3a10783e375374e7",
+    "sourceFile": "Contest 29-1.doc",
+    "subject": "Physics",
+    "questionText": "List the principal energy transformations that occur at the thermal power plant at Tema. (P)",
+    "correctAnswer": "Chemical energy(thermal energy ( mechanical energy (electrical energy",
+    "scored": false
+  },
+  {
+    "id": "32b8e88d40b0cc39ff48e2b7",
+    "sourceFile": "Contest 29-1.doc",
+    "subject": "Biology",
+    "questionText": "Name the protein substance that is produced by the body cells to stop viruses from multiplying. (B)",
+    "correctAnswer": "Interferon",
+    "scored": false
+  },
+  {
+    "id": "b642fb02630a6bd237449a3b",
+    "sourceFile": "Contest 29-1.doc",
+    "subject": null,
+    "questionText": "The body's ability to resist re-infection by producing antibodies is known as ….. (B)",
+    "correctAnswer": "Immunity",
+    "scored": false
+  },
+  {
+    "id": "37ff7d39432f3e1bd42de37d",
+    "sourceFile": "Contest 29-1.doc",
+    "subject": "Physics",
+    "questionText": "What physical principle governs the use of ultrasonic waves in medical imaging? (P)",
+    "correctAnswer": "Differences in reflectivity of materials (tissues, bones, etc). The differences give rise to distinguishable differences in the echo from different parts of the body which can be used for image reconstruction",
+    "scored": false
+  },
+  {
+    "id": "65179df64381ce846529654f",
+    "sourceFile": "Contest 29-1.doc",
+    "subject": "Biology",
+    "questionText": "What physical principle governs the use of x-rays in medical imaging? (P)",
+    "correctAnswer": "Differences in the absorption of x-rays by different materials (tissues, bones, blood vessels, etc.)",
+    "scored": false
+  },
+  {
+    "id": "3744faf0c79338b6a4954d64",
+    "sourceFile": "Contest 29-1.doc",
+    "subject": null,
+    "questionText": "Which order of the class mammalia has two pairs of chisel-like teeth in the upper jaw? (B)",
+    "correctAnswer": "Order Lagomorpha",
+    "scored": false
+  },
+  {
+    "id": "605b1034b2cf1d1f611ee605",
+    "sourceFile": "Contest 29-1.doc",
+    "subject": null,
+    "questionText": "Which order of the class mammalia has hooves with an even number of toes? (B)",
+    "correctAnswer": "Order Artiodactyla",
+    "scored": false
+  },
+  {
+    "id": "18a34b7367edb9a2ffc7abe1",
+    "sourceFile": "Contest 29-1.doc",
+    "subject": "Physics",
+    "questionText": "It is well known that atoms exhibit both wave and particle properties. Suppose a single atom is made to pass through a very narrow slit unto a screen. What will be observed on the screen? (P)",
+    "correctAnswer": "A spot somewhere on the screen will be observed. An atom is a particle-no diffraction pattern will be observed",
+    "scored": false
+  },
+  {
+    "id": "9b0e2d3f18e1a5c0966da838",
+    "sourceFile": "Contest 29-1.doc",
+    "subject": "Physics",
+    "questionText": "It is well known that light exhibits both wave and particle properties. Suppose a very dim light made up of a single photon is made to pass through a very narrow slit unto a screen. What will be observed on the screen? (P)",
+    "correctAnswer": "A spot somewhere on the screen will be observed. A photon is a particle-no diffraction pattern will be observed (Even an intense beam is made up of particles; the diffraction pattern is made up of a very large number of spots.)",
+    "scored": false
+  },
+  {
+    "id": "4bf53ddd330731a1e349849f",
+    "sourceFile": "Contest 29-1.doc",
+    "subject": null,
+    "questionText": "What name is given to the pollen receptive area of a pistil? (B)",
+    "correctAnswer": "Stigma",
+    "scored": false
+  },
+  {
+    "id": "8493f687e21267b626419851",
+    "sourceFile": "Contest 29-1.doc",
+    "subject": "Biology",
+    "questionText": "What name is given to free floating aquatic organisms that are mostly microscopic? (B)",
+    "correctAnswer": "Plankton/Phytoplankton",
+    "scored": false
+  },
+  {
+    "id": "c16a2dcda3068608b04bf7e2",
+    "sourceFile": "Contest 29-1.doc",
+    "subject": null,
+    "questionText": "How do scientists know the universe is expanding? (P)",
+    "correctAnswer": "The spectral lines in the radiation from stars are red-shifted relative to terrestrial sources",
+    "scored": false
+  },
+  {
+    "id": "77c02494184a8dc24b397a4c",
+    "sourceFile": "Contest 29-1.doc",
+    "subject": null,
+    "questionText": "What is a light year? (P)",
+    "correctAnswer": "The distance light travels in vacuum in one year",
+    "scored": false
+  },
+  {
+    "id": "dff9acb839935b9e6b842b2c",
+    "sourceFile": "Contest 29-1.doc",
+    "subject": "Chemistry",
+    "questionText": "Why are protein affected by both mineral acids and alkali? (C)",
+    "correctAnswer": "The amide bonds linking the amino acids in the proteins are hydrolysed by both acids and bases",
+    "scored": false
+  },
+  {
+    "id": "b2e5318f87a7bb31f2e89e3c",
+    "sourceFile": "Contest 29-1.doc",
+    "subject": "Chemistry",
+    "questionText": "Some dilute HCl is poured into a small polythene bag. What do you expect to observe? (C)",
+    "correctAnswer": "The bag will hold the acid since the acid is not expected to affect the polythene. Q. y = 5sin (2x + 30o)",
+    "scored": false
+  },
+  {
+    "id": "e4f850cfdb7cc12b39190cbb",
+    "sourceFile": "Contest 29-1.doc",
+    "subject": "Maths",
+    "questionText": "Find the maximum value of the trigonometric function. (M) y = 7cos (3x - 60o)",
+    "correctAnswer": "7",
+    "scored": false
+  },
+  {
+    "id": "42e79d8e92deb4f6736c1d70",
+    "sourceFile": "Contest 29-1.doc",
+    "subject": "Chemistry",
+    "questionText": "Find the maximum value of the trigonometric function. (M) An acid solution is labelled as having a concentration of 30% v/v. What does this mean? (C)",
+    "correctAnswer": "Every 100 cm3 of solution contains 3 cm3 of pure acid",
+    "scored": false
+  },
+  {
+    "id": "1a5a09693db72b0f03dc6b39",
+    "sourceFile": "Contest 29-1.doc",
+    "subject": "Maths",
+    "questionText": "Find the maximum value of the trigonometric function. (M) A pesticide is supposed to be diluted to 42 ppm before use. What is 42 ppm? (C)",
+    "correctAnswer": "Every million parts of the solution contains 42 parts of the pure pesticide",
+    "scored": false
+  },
+  {
+    "id": "999899e45adf8371a1373e30",
+    "sourceFile": "Contest 29-1.doc",
+    "subject": null,
+    "questionText": "Convert from radians to degrees. (M)",
+    "correctAnswer": "150o []",
+    "scored": false
+  },
+  {
+    "id": "999899e45adf8371a1373e30",
+    "sourceFile": "Contest 29-1.doc",
+    "subject": null,
+    "questionText": "Convert from radians to degrees. (M)",
+    "correctAnswer": "72o []",
+    "scored": false
+  },
+  {
+    "id": "ad308db3253dc0161e396703",
+    "sourceFile": "Contest 29-1.doc",
+    "subject": null,
+    "questionText": "Convert from radians to degrees. (M) What is methylated spirit or alcohol? (C)",
+    "correctAnswer": "It is ethanol to which a small amount of methanol has been added to make it poisonous",
+    "scored": false
+  },
+  {
+    "id": "3a978a418e0c6045cbbd3be7",
+    "sourceFile": "Contest 29-1.doc",
+    "subject": "Chemistry",
+    "questionText": "Convert from radians to degrees. (M) Chemically, what is vinegar? (C)",
+    "correctAnswer": "It is a dilute solution of ethanoic acid (used for tendering meat or as part of salad dressing)",
+    "scored": false
+  },
+  {
+    "id": "9b9113a6115558d2ee2d6cd2",
+    "sourceFile": "Contest 29-1.doc",
+    "subject": "Maths",
+    "questionText": "Factorise completely. (M) 5x2 - 10x",
+    "correctAnswer": "5x(x - 2)",
+    "scored": false
+  },
+  {
+    "id": "3fe394c3f27c6d3dd5e057cd",
+    "sourceFile": "Contest 29-1.doc",
+    "subject": "Maths",
+    "questionText": "Factorise completely. (M) 4x2 - 1",
+    "correctAnswer": "(2x - 1)(2x + 1)",
+    "scored": false
+  },
+  {
+    "id": "149a2201a59367929c670e17",
+    "sourceFile": "Contest 29-1.doc",
+    "subject": "Maths",
+    "questionText": "Factorise completely. (M) Pick the odd one out and give a reason: Cobalt, chromium, nickel, titanium, molybdenum. (C)",
+    "correctAnswer": "Molybdenum - it is the only one from 2nd d-series. The rest are from 1st d-series",
+    "scored": false
+  },
+  {
+    "id": "c3064ecd063eb5125634c37d",
+    "sourceFile": "Contest 29-1.doc",
+    "subject": "Maths",
+    "questionText": "Factorise completely. (M) Pick the odd one out and give a reason: glucose, starch, maltose, cellulose, lactose. (C)",
+    "correctAnswer": "Glucose - it is the only simple sugar. The rest are disaccharides or polysaccharides",
+    "scored": false
+  },
+  {
+    "id": "525323f5519bc9d0c2730cf0",
+    "sourceFile": "Contest 29-1.doc",
+    "subject": null,
+    "questionText": "Find the remainder when (M) 3x2 - 5x + 2 is divided by (x - 2)",
+    "correctAnswer": "4 [(3*4) - (5*2) + 2 = 14 - 10]",
+    "scored": false
+  },
+  {
+    "id": "98fd0f387b8a923c711ab3c2",
+    "sourceFile": "Contest 29-1.doc",
+    "subject": null,
+    "questionText": "Find the remainder when (M) x3 + 6x + 7 is divided by (x + 1)",
+    "correctAnswer": "0 [-1 - 6 + 7 = 0]",
+    "scored": false
+  },
+  {
+    "id": "02133f7833e96cdc62ead813",
+    "sourceFile": "Contest 29-1.doc",
+    "subject": "Biology",
+    "questionText": "The diagram below shows a segment of a DNA molecule. Determine the RNA codons and the tRNA anticodons. (Remember only the template strand is transcribed). (B)",
+    "correctAnswer": "RNA: ACU, CCU, GAA, UGC, AAA tRNA: UGA, GGA, CUU, ACG, UUU",
+    "scored": false
+  },
+  {
+    "id": "e9af4cab524e5b5aeb4de8ec",
+    "sourceFile": "Contest 29-1.doc",
+    "subject": "Chemistry",
+    "questionText": "Vitamins and inorganic are usually absorbed directly without chemical modification. (C)",
+    "correctAnswer": "T",
+    "scored": false
+  },
+  {
+    "id": "397974247dcf9e27f0a96286",
+    "sourceFile": "Contest 29-1.doc",
+    "subject": null,
+    "questionText": "Some vitamins can be synthesized by the human body. (C)",
+    "correctAnswer": "T (eg. D3)",
+    "scored": false
+  },
+  {
+    "id": "231d6f76824b28af9bd964b9",
+    "sourceFile": "Contest 29-1.doc",
+    "subject": null,
+    "questionText": "All mammals have heterodont dentition. (B)",
+    "correctAnswer": "F(Dolphins have homodont)",
+    "scored": false
+  },
+  {
+    "id": "eaa4bb8b1fa5af76939cf4d5",
+    "sourceFile": "Contest 29-1.doc",
+    "subject": null,
+    "questionText": "Damaged enamel can be replaced naturally. (B)",
+    "correctAnswer": "F",
+    "scored": false
+  },
+  {
+    "id": "09efc8e3fe43a429361a55c8",
+    "sourceFile": "Contest 29-1.doc",
+    "subject": null,
+    "questionText": "There is always an antinode at the closed end of a pipe in which there is a vibrating column of air. (P)",
+    "correctAnswer": "F",
+    "scored": false
+  },
+  {
+    "id": "3538b370ca5330528a7d4045",
+    "sourceFile": "Contest 29-1.doc",
+    "subject": null,
+    "questionText": "There is always a node at the fixed end of a vibrating string. (P)",
+    "correctAnswer": "T",
+    "scored": false
+  },
+  {
+    "id": "b71ffaa406377cd60ce1f738",
+    "sourceFile": "Contest 29-1.doc",
+    "subject": null,
+    "questionText": "The moment of inertia of a sphere about an axis through the centre is independent of orientation of the axis. (P)",
+    "correctAnswer": "T",
+    "scored": false
+  },
+  {
+    "id": "9529a8ecdfb85d9b788b6959",
+    "sourceFile": "Contest 29-1.doc",
+    "subject": null,
+    "questionText": "The moment of inertia of a sphere about an axis tangent to the surface of the sphere is independent of the orientation of the axis. (P)",
+    "correctAnswer": "T",
+    "scored": false
+  },
+  {
+    "id": "3b2dc2fb12f074f9f89ea17f",
+    "sourceFile": "Contest 29-1.doc",
+    "subject": null,
+    "questionText": "Iron II sulphide is a dark brown solid. (C)",
+    "correctAnswer": "F (FeS is black)",
+    "scored": false
+  },
+  {
+    "id": "0932ba06d466df91e5f547cb",
+    "sourceFile": "Contest 29-1.doc",
+    "subject": null,
+    "questionText": "Calcium and zinc sulphides are both colourless solids. (C)",
+    "correctAnswer": "T",
+    "scored": false
+  },
+  {
+    "id": "84562ccafe978330a00240a5",
+    "sourceFile": "Contest 29-1.doc",
+    "subject": null,
+    "questionText": "2-Butene shows cis-trans isomerism. (C)",
+    "correctAnswer": "T",
+    "scored": false
+  },
+  {
+    "id": "d641e5fc2dfc8e5bfc13e6ce",
+    "sourceFile": "Contest 29-1.doc",
+    "subject": null,
+    "questionText": "2-Methyl-butan-2-ol will show optical isomerism. (C)",
+    "correctAnswer": "F",
+    "scored": false
+  },
+  {
+    "id": "a34a2f42620ad3d1336dfa00",
+    "sourceFile": "Contest 29-1.doc",
+    "subject": "Chemistry",
+    "questionText": "A set with three elements has six subsets. (M)",
+    "correctAnswer": "F [23 = 8]",
+    "scored": false
+  },
+  {
+    "id": "09e7b84dc1a64ce7ccb3ad07",
+    "sourceFile": "Contest 29-1.doc",
+    "subject": null,
+    "questionText": "Two sets A and B are disjoint if (empty set). (M)",
+    "correctAnswer": "T",
+    "scored": false
+  },
+  {
+    "id": "b8dd0e2d2831c1c5740ecc93",
+    "sourceFile": "Contest 29-1.doc",
+    "subject": null,
+    "questionText": "The complement of the complement of a set is a set itself. (M)",
+    "correctAnswer": "T",
+    "scored": false
+  },
+  {
+    "id": "af05bf8fb593c125661f70a0",
+    "sourceFile": "Contest 29-1.doc",
+    "subject": "Maths",
+    "questionText": "The graph of an odd function is symmetrical about the x-axis. (M)",
+    "correctAnswer": "F",
+    "scored": false
+  },
+  {
+    "id": "7de8ae9886479097fe41e80d",
+    "sourceFile": "Contest 33-1.doc",
+    "subject": null,
+    "questionText": "What name is given to the clusters of sporangia located at the margins of leaflets of ferns? (B)",
+    "correctAnswer": "Sorus",
+    "scored": false
+  },
+  {
+    "id": "55b7d5e59aca01b74993f175",
+    "sourceFile": "Contest 33-1.doc",
+    "subject": null,
+    "questionText": "What name is given to the protective structure which covers the sorus of a fern? (B)",
+    "correctAnswer": "Indusium",
+    "scored": false
+  },
+  {
+    "id": "3e7fc10b70e50bba5a074b0c",
+    "sourceFile": "Contest 33-1.doc",
+    "subject": "Physics",
+    "questionText": "An electrical circuit has an inductance of in series with a total resistance of . A current of 1 A exists in the circuit at a certain time. (P) How long will it take for the current to decay to 0.37 A? Give your answer in ms.",
+    "correctAnswer": "10 ms [ so the time required is one time constant or ]",
+    "scored": false
+  },
+  {
+    "id": "93987bb62245b63885eba527",
+    "sourceFile": "Contest 33-1.doc",
+    "subject": "Physics",
+    "questionText": "An electrical circuit has an inductance of in series with a total resistance of . A current of 1 A exists in the circuit at a certain time. (P) What is the ratio of energy stored in the inductor when the current has decayed to 0.2 A to the energy stored in it initially?",
+    "correctAnswer": "0.04 []",
+    "scored": false
+  },
+  {
+    "id": "9a9de5546f402f48e23d87e7",
+    "sourceFile": "Contest 33-1.doc",
+    "subject": "Biology",
+    "questionText": "An electrical circuit has an inductance of in series with a total resistance of . A current of 1 A exists in the circuit at a certain time. (P) If a parent cell has 12 chromosomes, prior to mitosis, how many chromosomes will the daughter cells have? (B)",
+    "correctAnswer": "12",
+    "scored": false
+  },
+  {
+    "id": "42a2ee2e158ca61aa943b24e",
+    "sourceFile": "Contest 33-1.doc",
+    "subject": "Physics",
+    "questionText": "An electrical circuit has an inductance of in series with a total resistance of . A current of 1 A exists in the circuit at a certain time. (P) How many molecules of oxygen can a single molecule of haemoglobin carry? (B)",
+    "correctAnswer": "Four (4)",
+    "scored": false
+  },
+  {
+    "id": "d09e9eae741fbea1bc12bb7f",
+    "sourceFile": "Contest 33-1.doc",
+    "subject": "Physics",
+    "questionText": "An electrical circuit has an inductance of in series with a total resistance of . A current of 1 A exists in the circuit at a certain time. (P) If the current in a inductor is changing at a rate of , what is the voltage across the inductor if its resistance is negligible? (P)",
+    "correctAnswer": "5 V []",
+    "scored": false
+  },
+  {
+    "id": "67387e670240e71af53db6f0",
+    "sourceFile": "Contest 33-1.doc",
+    "subject": "Physics",
+    "questionText": "An electrical circuit has an inductance of in series with a total resistance of . A current of 1 A exists in the circuit at a certain time. (P) If the current through a 5 mF capacitor is 10 mA at a certain time, what is the rate of change of voltage at that time? (P)",
+    "correctAnswer": "[]",
+    "scored": false
+  },
+  {
+    "id": "f28cf842448044c4e46adcba",
+    "sourceFile": "Contest 33-1.doc",
+    "subject": "Physics",
+    "questionText": "An electrical circuit has an inductance of in series with a total resistance of . A current of 1 A exists in the circuit at a certain time. (P) What name is given to the period of delayed germination of seeds? (B)",
+    "correctAnswer": "Dormancy",
+    "scored": false
+  },
+  {
+    "id": "03caa59fc11295090e4ea01c",
+    "sourceFile": "Contest 33-1.doc",
+    "subject": "Physics",
+    "questionText": "An electrical circuit has an inductance of in series with a total resistance of . A current of 1 A exists in the circuit at a certain time. (P) What is the most common stimulant for breaking dormancy? (B)",
+    "correctAnswer": "Water",
+    "scored": false
+  },
+  {
+    "id": "80d8030993f4bdcec69446c1",
+    "sourceFile": "Contest 33-1.doc",
+    "subject": "Physics",
+    "questionText": "An electrical circuit has an inductance of in series with a total resistance of . A current of 1 A exists in the circuit at a certain time. (P) Why is a large rounded dome used in the Van de Graaf generator? (P)",
+    "correctAnswer": "To avoid charge loss by point action",
+    "scored": false
+  },
+  {
+    "id": "53eb5eedd8717a0dd7daa9ef",
+    "sourceFile": "Contest 33-1.doc",
+    "subject": "Physics",
+    "questionText": "An electrical circuit has an inductance of in series with a total resistance of . A current of 1 A exists in the circuit at a certain time. (P) What role do the combs play in the Van de Graaf generator? (P)",
+    "correctAnswer": "They transfer charge to the belt and to the dome by the point action effect",
+    "scored": false
+  },
+  {
+    "id": "7a1a0bcf511aa13f2199cd5a",
+    "sourceFile": "Contest 33-1.doc",
+    "subject": "Physics",
+    "questionText": "An electrical circuit has an inductance of in series with a total resistance of . A current of 1 A exists in the circuit at a certain time. (P) What is trickle irrigation? (B)",
+    "correctAnswer": "It involves laying plastic hose pipes with small holes in them along the length of plant row",
+    "scored": false
+  },
+  {
+    "id": "a4f5304f342460a3f968a624",
+    "sourceFile": "Contest 33-1.doc",
+    "subject": "Physics",
+    "questionText": "An electrical circuit has an inductance of in series with a total resistance of . A current of 1 A exists in the circuit at a certain time. (P) What is furrow irrigation? (B)",
+    "correctAnswer": "It involves guiding water from a reliable source along furrows in between the crops",
+    "scored": false
+  },
+  {
+    "id": "6aca3c42beb6a5e92d2a8d5d",
+    "sourceFile": "Contest 33-1.doc",
+    "subject": "Physics",
+    "questionText": "An electrical circuit has an inductance of in series with a total resistance of . A current of 1 A exists in the circuit at a certain time. (P) When an object is placed a certain distance in front of a curved mirror, a real inverted image is observed at the position of the object. What is the relationship between the focal length of the mirror and the object distance? (P)",
+    "correctAnswer": "The mirror is concave (converging) and its focal length is half the object distance",
+    "scored": false
+  },
+  {
+    "id": "8cfed83b905aeba4b8044366",
+    "sourceFile": "Contest 33-1.doc",
+    "subject": "Physics",
+    "questionText": "An electrical circuit has an inductance of in series with a total resistance of . A current of 1 A exists in the circuit at a certain time. (P) Light falls on a mirror at normal incidence. If the mirror is rotated through , through what angle is the reflected light rotated? (P)",
+    "correctAnswer": "Q. How is the atomic number of a nuclide changed when it captures a neutron and emits gamma rays? (C) The atomic number remains unchanged",
+    "scored": false
+  },
+  {
+    "id": "431ded41fe00686745fcd0eb",
+    "sourceFile": "Contest 33-1.doc",
+    "subject": "Physics",
+    "questionText": "An electrical circuit has an inductance of in series with a total resistance of . A current of 1 A exists in the circuit at a certain time. (P) How is a nuclide of boron changed if it emits a β - particle? (C)",
+    "correctAnswer": "The nuclide becomes a nuclide of carbon with the same mass number as the previous nuclide",
+    "scored": false
+  },
+  {
+    "id": "3865926bdc1820fe88588360",
+    "sourceFile": "Contest 33-1.doc",
+    "subject": "Physics",
+    "questionText": "An electrical circuit has an inductance of in series with a total resistance of . A current of 1 A exists in the circuit at a certain time. (P) State the next four prime numbers greater than 10. (M)",
+    "correctAnswer": "11,13,17, 19",
+    "scored": false
+  },
+  {
+    "id": "48ae51c14176079adf963337",
+    "sourceFile": "Contest 33-1.doc",
+    "subject": "Physics",
+    "questionText": "An electrical circuit has an inductance of in series with a total resistance of . A current of 1 A exists in the circuit at a certain time. (P) State the next four prime numbers greater than 20. (M)",
+    "correctAnswer": "23, 29, 31, 37",
+    "scored": false
+  },
+  {
+    "id": "8da280c0d0be1b8ed6d1843c",
+    "sourceFile": "Contest 33-1.doc",
+    "subject": "Physics",
+    "questionText": "An electrical circuit has an inductance of in series with a total resistance of . A current of 1 A exists in the circuit at a certain time. (P) Predict the formula of a compound formed between the element A with the electronic configuration 1s22s22p63s2 and the element B with configuration 1s22s22p4. State whether the compound is ionic or covalent. (C)",
+    "correctAnswer": "AB2, ionic",
+    "scored": false
+  },
+  {
+    "id": "efd765721d882d7100a0cd97",
+    "sourceFile": "Contest 33-1.doc",
+    "subject": "Physics",
+    "questionText": "An electrical circuit has an inductance of in series with a total resistance of . A current of 1 A exists in the circuit at a certain time. (P) Predict the formula of a compound formed between the element D with the electronic configuration 1s22s22p63s23p2 and the element E with configuration 1s22s22p5. State whether the compound is ionic or covalent. (C)",
+    "correctAnswer": "DE4, covalent",
+    "scored": false
+  },
+  {
+    "id": "396dd2d2b6e580874ebecb69",
+    "sourceFile": "Contest 33-1.doc",
+    "subject": "Physics",
+    "questionText": "An electrical circuit has an inductance of in series with a total resistance of . A current of 1 A exists in the circuit at a certain time. (P) When alkanoic acid is treated with thionyl chloride (or SoCl2), what product is obtained? (C)",
+    "correctAnswer": "Acid chloride []",
+    "scored": false
+  },
+  {
+    "id": "313281a92805cc86f15eb7fa",
+    "sourceFile": "Contest 33-1.doc",
+    "subject": "Physics",
+    "questionText": "An electrical circuit has an inductance of in series with a total resistance of . A current of 1 A exists in the circuit at a certain time. (P) When an ethanoic acid is treated with alkanol, what organic compound is obtained? (C)",
+    "correctAnswer": "Ester or alkyl alkanoate",
+    "scored": false
+  },
+  {
+    "id": "fe6b7562017754b948106944",
+    "sourceFile": "Contest 33-1.doc",
+    "subject": "Maths",
+    "questionText": "Find the nth term of the sequence (M) 2, 5, 8, 11,",
+    "correctAnswer": "Un = (3n - 1) [Un = a + (n - 1)d = 2 + (n - 1) 3 = 3n - 1]",
+    "scored": false
+  },
+  {
+    "id": "87a40b9bb0771de009a9e54c",
+    "sourceFile": "Contest 33-1.doc",
+    "subject": "Maths",
+    "questionText": "Find the nth term of the sequence (M) 10, 7, 4, 1, -2,",
+    "correctAnswer": "Un = 7 - 3n [Un = a + (n - 1)d = 10 + (n - 1)(-3) = 10 + (-3n + 3) = 13 - 3n",
+    "scored": false
+  },
+  {
+    "id": "5a556d378738f291abd09442",
+    "sourceFile": "Contest 33-1.doc",
+    "subject": "Physics",
+    "questionText": "A car accelerates uniformly from a speed of 20 ms-1 to a speed of 50 ms-1 in 10 seconds. Calculate (P) the acceleration",
+    "correctAnswer": "f = 3ms-2 []",
+    "scored": false
+  },
+  {
+    "id": "178f255dffab9388c4382c15",
+    "sourceFile": "Contest 33-1.doc",
+    "subject": null,
+    "questionText": "A car accelerates uniformly from a speed of 20 ms-1 to a speed of 50 ms-1 in 10 seconds. Calculate (P) the distance travelled during the 10 seconds",
+    "correctAnswer": "350 metres []",
+    "scored": false
+  },
+  {
+    "id": "cd1daeb0ce813b483e6a29bc",
+    "sourceFile": "Contest 33-1.doc",
+    "subject": "Chemistry",
+    "questionText": "A car accelerates uniformly from a speed of 20 ms-1 to a speed of 50 ms-1 in 10 seconds. Calculate (P) Give the mathematical expression for the half-life of a 1st order reaction. (C)",
+    "correctAnswer": "Q. Give the mathematical equation you can use to calculate the pKa of a weak acid from the pH. (C)",
+    "scored": false
+  },
+  {
+    "id": "fc3550aa1e47f856269c8c4e",
+    "sourceFile": "Contest 33-1.doc",
+    "subject": "Maths",
+    "questionText": "Find an angle whose measure is (M) 36o more than its complement",
+    "correctAnswer": "63o []",
+    "scored": false
+  },
+  {
+    "id": "085d2e3d4071dfc6e5300ea6",
+    "sourceFile": "Contest 33-1.doc",
+    "subject": "Maths",
+    "questionText": "Find an angle whose measure is (M) 68o less than its supplement",
+    "correctAnswer": "56o []",
+    "scored": false
+  },
+  {
+    "id": "7049fcb3090c62a771c6749e",
+    "sourceFile": "Contest 33-1.doc",
+    "subject": null,
+    "questionText": "Light of green wavelengths is the strongest stimulus for phototropism. (B)",
+    "correctAnswer": "F (Blue)",
+    "scored": false
+  },
+  {
+    "id": "46d20beb69256f58c36a5b18",
+    "sourceFile": "Contest 33-1.doc",
+    "subject": "Biology",
+    "questionText": "The flowering process in plants is a phototropic process. (B)",
+    "correctAnswer": "F (Thigmotropic)",
+    "scored": false
+  },
+  {
+    "id": "6eb4c04a1e8fe0e860dde891",
+    "sourceFile": "Contest 33-1.doc",
+    "subject": null,
+    "questionText": "The oldest part of the vertebrate brain provides reflex control of breathing, circulation and other basic activities. (B)",
+    "correctAnswer": "T",
+    "scored": false
+  },
+  {
+    "id": "8fd499aec40cf4b56e40ebdf",
+    "sourceFile": "Contest 33-1.doc",
+    "subject": null,
+    "questionText": "White matter and gray matter are components of the spinal cord alone. (B)",
+    "correctAnswer": "F",
+    "scored": false
+  },
+  {
+    "id": "e3e7f71044d7880dbed7b09d",
+    "sourceFile": "Contest 33-1.doc",
+    "subject": "Physics",
+    "questionText": "No current flows through a reverse biased semiconductor junction diode. (P)",
+    "correctAnswer": "F [A small reverse current carried by minority carriers flows. If the reverse bias is large enough, the reverse current saturates.]",
+    "scored": false
+  },
+  {
+    "id": "806f05b85b514a55a7ffe1f2",
+    "sourceFile": "Contest 33-1.doc",
+    "subject": null,
+    "questionText": "In a forward biased pn junction, electrons drift from the n side to the p side and holes drift in the opposite direction. (P)",
+    "correctAnswer": "T",
+    "scored": false
+  },
+  {
+    "id": "d0180ad447ac5dc71790cb88",
+    "sourceFile": "Contest 33-1.doc",
+    "subject": "Chemistry",
+    "questionText": "In a correctly biased bipolar junction transistor, the base-collector junction is forward biased. (P)",
+    "correctAnswer": "F",
+    "scored": false
+  },
+  {
+    "id": "c9c2ed5538eba8b7488be481",
+    "sourceFile": "Contest 33-1.doc",
+    "subject": "Chemistry",
+    "questionText": "In a correctly biased bipolar junction transistor, the base-emitter junction is forward biased. (P)",
+    "correctAnswer": "T",
+    "scored": false
+  },
+  {
+    "id": "eaf7ae4b6609114290ba2083",
+    "sourceFile": "Contest 33-1.doc",
+    "subject": null,
+    "questionText": "35 is a factor of 105. (M)",
+    "correctAnswer": "T",
+    "scored": false
+  },
+  {
+    "id": "043707aacfbf2696e573cedb",
+    "sourceFile": "Contest 33-1.doc",
+    "subject": null,
+    "questionText": "7 is a multiple of 21. (M)",
+    "correctAnswer": "F [7 is a factor of 21]",
+    "scored": false
+  },
+  {
+    "id": "fc3e778212100aabf40d3c74",
+    "sourceFile": "Contest 33-1.doc",
+    "subject": null,
+    "questionText": "In division, the remainder is always less than the divisor. (M)",
+    "correctAnswer": "T",
+    "scored": false
+  },
+  {
+    "id": "56bc6ef17165b1608025211f",
+    "sourceFile": "Contest 33-1.doc",
+    "subject": null,
+    "questionText": "The product of two integers is always greater than any of the two numbers. (M)",
+    "correctAnswer": "F [9 = 9 * 1]",
+    "scored": false
+  },
+  {
+    "id": "44cf28892d603267d33137e9",
+    "sourceFile": "Contest 33-1.doc",
+    "subject": "Chemistry",
+    "questionText": "1 mole of 16 g of oxygen gas at 298 K and 1 atmosphere will occupy 22.4 dm3. (C)",
+    "correctAnswer": "F [ it is 32 g of oxygen]",
+    "scored": false
+  },
+  {
+    "id": "2162ecc52b3e7b856eff2e4a",
+    "sourceFile": "Contest 33-1.doc",
+    "subject": "Chemistry",
+    "questionText": "Q. 1 mole of helium gas at 298 K and 1 atmosphere will occupy 0.0224 m3. (C)",
+    "correctAnswer": "T [0.0224 m3 = 22.4 dm3]",
+    "scored": false
+  },
+  {
+    "id": "a4b846c29da8fcce040e727c",
+    "sourceFile": "Contest 33-1.doc",
+    "subject": "Chemistry",
+    "questionText": "Aldehydes or alkanals can act as reducing agents or oxidising agents. (C)",
+    "correctAnswer": "T [[it can be oxidised to alkanoic acid and reduced to primary alkanol]",
+    "scored": false
+  },
+  {
+    "id": "6d2d266ebd0501b991069a74",
+    "sourceFile": "Contest 33-1.doc",
+    "subject": null,
+    "questionText": "Vegetable oils go rancid more readily than fats. (C)",
+    "correctAnswer": "T",
+    "scored": false
+  },
+  {
+    "id": "4a5d66fe8dc1b18a5325b7be",
+    "sourceFile": "Contest 5-1.doc",
+    "subject": "Biology",
+    "questionText": "Which substance gives a high tensile strength to cells of sclerenchyma and xylem? (B)",
+    "correctAnswer": "Lignin",
+    "scored": false
+  },
+  {
+    "id": "03f593fd2567662610858d10",
+    "sourceFile": "Contest 5-1.doc",
+    "subject": "Biology",
+    "questionText": "Which of the three primary meristem produces the epidermal tissue? (B)",
+    "correctAnswer": "Protoderm",
+    "scored": false
+  },
+  {
+    "id": "6f4f44bfc5ce66771819eb5e",
+    "sourceFile": "Contest 5-1.doc",
+    "subject": "Physics",
+    "questionText": "An object just floats in sea water. Will it float or sink in fresh water? (P)",
+    "correctAnswer": "It will sink (the same volume of fluid is displaced in the two cases; since seawater is denser than freshwater, the buoyant force in the latter is less)",
+    "scored": false
+  },
+  {
+    "id": "36e73dc6913845649ee69b7a",
+    "sourceFile": "Contest 5-1.doc",
+    "subject": "Physics",
+    "questionText": "A fisherman occasionally has to dive below the surface to untangle his fishing nets. Where does the fisherman experience the greatest pressure, below the water surface or on his boat? (P)",
+    "correctAnswer": "Below the surface",
+    "scored": false
+  },
+  {
+    "id": "43ae7555efc46e6af9ec221f",
+    "sourceFile": "Contest 5-1.doc",
+    "subject": null,
+    "questionText": "Give one liquid whose meniscus in a glass tube is convex. (P)",
+    "correctAnswer": "Mercury",
+    "scored": false
+  },
+  {
+    "id": "75f75e525b7c8b49f84d0d37",
+    "sourceFile": "Contest 5-1.doc",
+    "subject": "Physics",
+    "questionText": "The shape of a meniscus of a liquid in a glass tube depends on the relative magnitudes of the forces of attraction between liquid molecules and those between the glass and th liquid molecules. In the case of water which forces are stronger? (P)",
+    "correctAnswer": "Between the glass and liquid molecules are larger",
+    "scored": false
+  },
+  {
+    "id": "c86d470059e49dbff5704d97",
+    "sourceFile": "Contest 5-1.doc",
+    "subject": null,
+    "questionText": "Convert the angular measure to radians. (M) - 45 o",
+    "correctAnswer": "Q. - 60 o. Q. What is the name of the external ear of mammals? (B) Pinna",
+    "scored": false
+  },
+  {
+    "id": "4a550b8d974c9e904b0d3bf8",
+    "sourceFile": "Contest 5-1.doc",
+    "subject": null,
+    "questionText": "Convert the angular measure to radians. (M) Which part of the inner ear is concerned with hearing? (B)",
+    "correctAnswer": "Cochlea",
+    "scored": false
+  },
+  {
+    "id": "e60f4c0244cc5444c20885ed",
+    "sourceFile": "Contest 5-1.doc",
+    "subject": "Physics",
+    "questionText": "Convert the angular measure to radians. (M) Name a process other than radioactivity by which electrons can be generated. (C)",
+    "correctAnswer": "Thermionic emission, cold cathode (field), or photoelectric effect",
+    "scored": false
+  },
+  {
+    "id": "618975cd57001488d20d8a71",
+    "sourceFile": "Contest 5-1.doc",
+    "subject": "Chemistry",
+    "questionText": "Convert the angular measure to radians. (M) Find a formula for the volume of a right cylinder of height, h and base radius, r. (M)",
+    "correctAnswer": "Q. Find a formula for the volume of a right circular cone of height, h and base radius, r. (M) Q. 738, 578 and 496 kJmol-1 are the first ionisation energies for sodium, magnesium and aluminium but not necessarily in the right order. Match the ionisation energies with the corresponding element. (C) Na - 496 kJmol-1 Mg - 738 kJmol-1 Al - 578 kJmol-1",
+    "scored": false
+  },
+  {
+    "id": "b0ad19d0925fb2b43e6188be",
+    "sourceFile": "Contest 5-1.doc",
+    "subject": "Chemistry",
+    "questionText": "Convert the angular measure to radians. (M) 1314, 1681 and 2081 kJmol-1 are the first ionisation energies for fluorine, oxygen and neon but not necessarily in the right order. Match the ionisation energies with the corresponding element. (C)",
+    "correctAnswer": "O - 1314 kJmol-1 F - 1681 kJmol-1 Ne - 2081 kJmol-1",
+    "scored": false
+  },
+  {
+    "id": "c5a129dabd7f71a6a5b11460",
+    "sourceFile": "Contest 5-1.doc",
+    "subject": "Biology",
+    "questionText": "Convert the angular measure to radians. (M) What name is given to the cavity in which the human heart is located? (B)",
+    "correctAnswer": "Pericardium",
+    "scored": false
+  },
+  {
+    "id": "74d1c1298b5afd3fd68408af",
+    "sourceFile": "Contest 5-1.doc",
+    "subject": "Biology",
+    "questionText": "Convert the angular measure to radians. (M) Which part of the mammalian heart pumps deoxygenated blood to the lungs? (B)",
+    "correctAnswer": "Right ventricle",
+    "scored": false
+  },
+  {
+    "id": "c3f8b467108fdb69e4ea519d",
+    "sourceFile": "Contest 5-1.doc",
+    "subject": null,
+    "questionText": "Convert the angular measure to radians. (M) What particle is emitted in the thermionic emission? (C)",
+    "correctAnswer": "Electron",
+    "scored": false
+  },
+  {
+    "id": "d0fd54b5722a82d6aee9ec35",
+    "sourceFile": "Contest 5-1.doc",
+    "subject": "Chemistry",
+    "questionText": "Convert the angular measure to radians. (M) What particle is absorbed in a uranium fission reaction? (C)",
+    "correctAnswer": "Neutron",
+    "scored": false
+  },
+  {
+    "id": "399bad76e9823501e8d3d606",
+    "sourceFile": "Contest 5-1.doc",
+    "subject": null,
+    "questionText": "Convert the angular measure to radians. (M) Express in mathematical form z varies directly as x and inversely as y2. (M)",
+    "correctAnswer": "(k a constant)",
+    "scored": false
+  },
+  {
+    "id": "1ab3106fdd91148a53d47bc0",
+    "sourceFile": "Contest 5-1.doc",
+    "subject": null,
+    "questionText": "Convert the angular measure to radians. (M) Express in mathematical form y is partially constant and partially varies directly as x. (M)",
+    "correctAnswer": "(c and k are constants)",
+    "scored": false
+  },
+  {
+    "id": "5308e2248e1a09f50311c356",
+    "sourceFile": "Contest 5-1.doc",
+    "subject": null,
+    "questionText": "Convert the angular measure to radians. (M) By what method will you separate two liquids of different boiling points? (C)",
+    "correctAnswer": "Fractional distillation",
+    "scored": false
+  },
+  {
+    "id": "63e35034dee49683a743c835",
+    "sourceFile": "Contest 5-1.doc",
+    "subject": null,
+    "questionText": "Convert the angular measure to radians. (M) By what method will you separate two solids? (C)",
+    "correctAnswer": "(Fractional) Crystallization",
+    "scored": false
+  },
+  {
+    "id": "1bf4496abfcbe0eb82f968db",
+    "sourceFile": "Contest 5-1.doc",
+    "subject": null,
+    "questionText": "Convert the angular measure to radians. (M) Name the two simple sugars that combine to form sucrose. (C)",
+    "correctAnswer": "Glucose and fructose",
+    "scored": false
+  },
+  {
+    "id": "f0b70ad65be2fdffe6355037",
+    "sourceFile": "Contest 5-1.doc",
+    "subject": null,
+    "questionText": "Convert the angular measure to radians. (M) Name the two simple sugars that combine to form lactose. (C)",
+    "correctAnswer": "Glucose and galactose",
+    "scored": false
+  },
+  {
+    "id": "ea72f5f0a883ebe5305daa81",
+    "sourceFile": "Contest 5-1.doc",
+    "subject": "Chemistry",
+    "questionText": "Convert the angular measure to radians. (M) An equilibrium reaction is exothermic. How will the equilibrium constant change if the reaction is heated after reaching equilibrium? (C)",
+    "correctAnswer": "Keq will decrease (Le Chatelier Principle)",
+    "scored": false
+  },
+  {
+    "id": "7a3b486816e17cd3476e5fbf",
+    "sourceFile": "Contest 5-1.doc",
+    "subject": "Chemistry",
+    "questionText": "Convert the angular measure to radians. (M) For the equilibrium reaction SO3 = SO2(g) + O2, what is the relationship between its Kp and Kc. (C)",
+    "correctAnswer": "Kp = Kc (RT)1 [ Q. a = 3i - 4j",
+    "scored": false
+  },
+  {
+    "id": "23d27183d63b32681f664ad4",
+    "sourceFile": "Contest 5-1.doc",
+    "subject": null,
+    "questionText": "Find the magnitude of the given vector. (M) a = 5i + 2j",
+    "correctAnswer": "13 []",
+    "scored": false
+  },
+  {
+    "id": "6ea0dc8184538c98a6fb5b6a",
+    "sourceFile": "Contest 5-1.doc",
+    "subject": "Physics",
+    "questionText": "Find the magnitude of the given vector. (M) What is the difference between an excited neutral atom and an atom of the same kind but lower energy? (C)",
+    "correctAnswer": "Electrons in the excited atom occupy higher energy states",
+    "scored": false
+  },
+  {
+    "id": "30383ef9ec8718575caa18c3",
+    "sourceFile": "Contest 5-1.doc",
+    "subject": null,
+    "questionText": "Find the magnitude of the given vector. (M) What particle is emitted when an excited neutral atom de-excites? (C)",
+    "correctAnswer": "Photon (accept light)",
+    "scored": false
+  },
+  {
+    "id": "3b25ab5d42587a150a3abce6",
+    "sourceFile": "Contest 5-1.doc",
+    "subject": null,
+    "questionText": "Explain why there are more flowers than fruits. (B)",
+    "correctAnswer": "In order for fruits to form, a flower should be pollinated. Pollination requires a vector or carrier to transfer the pollen from the anther to the stigma. Hence in the absence of the vector or a carrier, pollination will not occur and that affects fruit formation. The flowers need to mature and produce pollen and stigma, hence all the immature flowers that are yet to be pollinated add up to the total number of flowers allowing them to outnumber the fruits. Pollination may not take place for fruits to develop if male and female flowers are produced at different times. The male pollen may not land on the stigma for fruits to develop if they are separated by significant distance",
+    "scored": false
+  },
+  {
+    "id": "0295c9a1935a361e7e74f47d",
+    "sourceFile": "Contest 5-1.doc",
+    "subject": null,
+    "questionText": "One of the standard methods for purifying gold on a commercial scale in Ghana is Bioleaching. (C)",
+    "correctAnswer": "F",
+    "scored": false
+  },
+  {
+    "id": "dd90ff5bd030af588ef15d09",
+    "sourceFile": "Contest 5-1.doc",
+    "subject": null,
+    "questionText": "Wood louse belongs to the class Arachnida. (B)",
+    "correctAnswer": "F (Crustacea) Q. Sin (-x) = sin x. (M)",
+    "scored": false
+  },
+  {
+    "id": "7a0f8e6640f79982cf044bfa",
+    "sourceFile": "Contest 5-1.doc",
+    "subject": "Physics",
+    "questionText": "Current in photoelectric cell increases as the frequency of light is increased. (P)",
+    "correctAnswer": "F [Photocurrent is determined by photon flux(intensity), not frequency]",
+    "scored": false
+  },
+  {
+    "id": "59bc539ccf9f09e786f63cff",
+    "sourceFile": "Contest 5-1.doc",
+    "subject": "Physics",
+    "questionText": "The stopping potential for a photoelectric cell increases as the frequency of light is increased. (P)",
+    "correctAnswer": "T",
+    "scored": false
+  },
+  {
+    "id": "8d9795c79a566f826082527f",
+    "sourceFile": "Contest 5-1.doc",
+    "subject": "Chemistry",
+    "questionText": "Electrolysis is used in obtaining pure aluminium from alumina. (C)",
+    "correctAnswer": "T",
+    "scored": false
+  },
+  {
+    "id": "2dedd428131a1cfb76b65913",
+    "sourceFile": "Contest 5-1.doc",
+    "subject": null,
+    "questionText": "Yeast is a fungus. (B)",
+    "correctAnswer": "T",
+    "scored": false
+  },
+  {
+    "id": "2638ee44a4beb6a095015309",
+    "sourceFile": "Contest 5-1.doc",
+    "subject": null,
+    "questionText": ". (M)",
+    "correctAnswer": "F [ is approximated as",
+    "scored": false
+  },
+  {
+    "id": "2638ee44a4beb6a095015309",
+    "sourceFile": "Contest 5-1.doc",
+    "subject": null,
+    "questionText": ". (M)",
+    "correctAnswer": "F",
+    "scored": false
+  },
+  {
+    "id": "b2fad0eb3cb7297f2edb2594",
+    "sourceFile": "Contest 5-1.doc",
+    "subject": "Physics",
+    "questionText": "If two masses approaching each other stick together when they collide, the total kinetic energy before the collision equals the total kinetic energy after the collision. (P)",
+    "correctAnswer": "F [Such a collision is inelastic and energy is not conserved]",
+    "scored": false
+  },
+  {
+    "id": "0679ae8bcf25216a52252a61",
+    "sourceFile": "Contest 5-1.doc",
+    "subject": "Physics",
+    "questionText": "Two unequal masses are attached to the ends of a compressed light spring. When the spring is released the initial acceleration of the smaller of the two masses will be larger than that of the other mass. (P)",
+    "correctAnswer": "T [The forces on the masses are equal and opposite; therefore, the magnitude of the acceleration of the smaller mass must be larger than that of the other mass.]",
+    "scored": false
+  },
+  {
+    "id": "32e680d79a7d3e04c2e4bec2",
+    "sourceFile": "Contest 5-1.doc",
+    "subject": "Biology",
+    "questionText": "The epidermal tissue of plants is a simple tissue. (B)",
+    "correctAnswer": "F",
+    "scored": false
+  },
+  {
+    "id": "e69f6d7eb7ae1c9a9b7978c5",
+    "sourceFile": "Contest 5-1.doc",
+    "subject": null,
+    "questionText": "Every integer is a rational number. (M)",
+    "correctAnswer": "T",
+    "scored": false
+  },
+  {
+    "id": "33eff67bb5d248bd14cbfef9",
+    "sourceFile": "Contest 5-1.doc",
+    "subject": "Chemistry",
+    "questionText": "Both SO2 and CO2 are linear molecules. (C)",
+    "correctAnswer": "F [SO2 is a bent molecule]",
+    "scored": false
+  },
+  {
+    "id": "ce1e6a87d09c79e4fcccd7f2",
+    "sourceFile": "Contest 5-1.doc",
+    "subject": "Chemistry",
+    "questionText": "A second order reaction always involves two different reactants. (C)",
+    "correctAnswer": "F",
+    "scored": false
+  },
+  {
+    "id": "24ac36beaeb1931406860ac4",
+    "sourceFile": "Contest 7-1.doc",
+    "subject": "Maths",
+    "questionText": "Identify the triangle. (M) A triangle with no two sides congruent.",
+    "correctAnswer": "Scalene triangle",
+    "scored": false
+  },
+  {
+    "id": "fa6dddac3d7b048f1786e8fd",
+    "sourceFile": "Contest 7-1.doc",
+    "subject": "Maths",
+    "questionText": "Identify the triangle. (M) A triangle with two angles congruent.",
+    "correctAnswer": "Isosceles triangle",
+    "scored": false
+  },
+  {
+    "id": "b360ef5033bff952513ce497",
+    "sourceFile": "Contest 7-1.doc",
+    "subject": "Chemistry",
+    "questionText": "Identify the triangle. (M) What is an empirical formula of a compound? (C)",
+    "correctAnswer": "It is a formula where elements are given in their simplest ratios",
+    "scored": false
+  },
+  {
+    "id": "545996f1686942e4feb13918",
+    "sourceFile": "Contest 7-1.doc",
+    "subject": "Chemistry",
+    "questionText": "Identify the triangle. (M) With the empirical formula of a compound known, what else is needed to be able to determine the molecular formula of a compound? (C)",
+    "correctAnswer": "Molar mass",
+    "scored": false
+  },
+  {
+    "id": "eececf7b8a038dc43b5a19d1",
+    "sourceFile": "Contest 7-1.doc",
+    "subject": "Maths",
+    "questionText": "Identify the triangle. (M) You are given an assortment of infra-red, red, yellow, green and blue light emitting diodes (LEDs) and a beam combiner that can combine light from the diodes to a single beam. What colour of light will be obtained by combining light from the blue and green LEDs? (P)",
+    "correctAnswer": "Cyan",
+    "scored": false
+  },
+  {
+    "id": "fe6733c9de1588960c3457b3",
+    "sourceFile": "Contest 7-1.doc",
+    "subject": "Maths",
+    "questionText": "Identify the triangle. (M) You are given an assortment of infra-red, red, yellow, green and blue light emitting diodes (LEDs) and a beam combiner that can combine light from the diodes to a single beam. What colour of light will be obtained by combining light from the blue and red LEDs? (P)",
+    "correctAnswer": "Magenta",
+    "scored": false
+  },
+  {
+    "id": "73cb71e776776bf375170186",
+    "sourceFile": "Contest 7-1.doc",
+    "subject": "Biology",
+    "questionText": "Identify the triangle. (M) Name the phenomenon in a heterozygote in which both alleles of the pair are expressed in the phenotype. (B)",
+    "correctAnswer": "Co-dominance",
+    "scored": false
+  },
+  {
+    "id": "c383f809017ebbc71b3361e5",
+    "sourceFile": "Contest 7-1.doc",
+    "subject": "Biology",
+    "questionText": "Identify the triangle. (M) What name is given to the alternative forms of a gene which occur at the same locus on the homologous chromosomes? (B)",
+    "correctAnswer": "Allele Q. y = 3x2",
+    "scored": false
+  },
+  {
+    "id": "bb51e2de1e2a32e89ca7ff90",
+    "sourceFile": "Contest 7-1.doc",
+    "subject": "Maths",
+    "questionText": "Express the exponential equation in logarithmic form. (M) .",
+    "correctAnswer": "2 log y = -5 log x + log 2",
+    "scored": false
+  },
+  {
+    "id": "426b1dd36039f4d4be0cca46",
+    "sourceFile": "Contest 7-1.doc",
+    "subject": "Chemistry",
+    "questionText": "Express the exponential equation in logarithmic form. (M) What is the colour of the precipitate formed when lead ions combine with iodide ions? (C)",
+    "correctAnswer": "Yellow (precipitate of PbI2)",
+    "scored": false
+  },
+  {
+    "id": "26325e4f74a7869bf1f41bdd",
+    "sourceFile": "Contest 7-1.doc",
+    "subject": "Chemistry",
+    "questionText": "Express the exponential equation in logarithmic form. (M) What is the colour of the precipitate formed when H2S gas is bubbled through Zn2+ solution? (C)",
+    "correctAnswer": "White (of ZnS)",
+    "scored": false
+  },
+  {
+    "id": "2fae5949848fdd713a4a50ca",
+    "sourceFile": "Contest 7-1.doc",
+    "subject": "Maths",
+    "questionText": "Express the exponential equation in logarithmic form. (M) You are given an assortment of infra-red, yellow, red, green and blue light emitting diodes (LEDs) and a beam combiner that can combine light from the diodes into a single beam. Which of the diodes will you select for building the screen of a large TV? (P)",
+    "correctAnswer": "Red, green and blue",
+    "scored": false
+  },
+  {
+    "id": "3ab45da22ddf3c59982a6cc5",
+    "sourceFile": "Contest 7-1.doc",
+    "subject": "Maths",
+    "questionText": "Express the exponential equation in logarithmic form. (M) You are given an assortment of infra-red, yellow, red, green and blue light emitting diodes (LEDs) and a beam combiner that can combine light from the diodes into a single beam. Which of the diodes will you select for a device that can send invisible messages? (P)",
+    "correctAnswer": "Infra-red",
+    "scored": false
+  },
+  {
+    "id": "852934f6faa4d9a783a46295",
+    "sourceFile": "Contest 7-1.doc",
+    "subject": "Biology",
+    "questionText": "Express the exponential equation in logarithmic form. (M) Name the location within an environment where an organism is able to survive and reproduce. (B)",
+    "correctAnswer": "Habitat",
+    "scored": false
+  },
+  {
+    "id": "f059c0e12301b2bf82fd7afe",
+    "sourceFile": "Contest 7-1.doc",
+    "subject": "Physics",
+    "questionText": "Express the exponential equation in logarithmic form. (M) What name is given to the sum total of the resources that an organism exploits to meet its energy, nutrient and survival demand? (B)",
+    "correctAnswer": "Niche",
+    "scored": false
+  },
+  {
+    "id": "6a57649c5170ab83849a40ef",
+    "sourceFile": "Contest 7-1.doc",
+    "subject": "Maths",
+    "questionText": "Find the general term of the sequence. (M) 1, 4, 9, 16……",
+    "correctAnswer": "Un = n2",
+    "scored": false
+  },
+  {
+    "id": "8b7e651e657da6db7382b469",
+    "sourceFile": "Contest 7-1.doc",
+    "subject": "Maths",
+    "questionText": "Find the general term of the sequence. (M) 1, 3, 5, 7……",
+    "correctAnswer": "Un = 2n - 1",
+    "scored": false
+  },
+  {
+    "id": "ae110a8121c80f95f6dd621e",
+    "sourceFile": "Contest 7-1.doc",
+    "subject": "Chemistry",
+    "questionText": "Find the general term of the sequence. (M) What accounts for the higher covalency in lithium salts? (C)",
+    "correctAnswer": "Smaller size of Li+ high polarising power of lithium ions",
+    "scored": false
+  },
+  {
+    "id": "d46f1f1f80d052d935dc2861",
+    "sourceFile": "Contest 7-1.doc",
+    "subject": "Chemistry",
+    "questionText": "Find the general term of the sequence. (M) Which is stronger, carbon-fluorine bond or carbon-chlorine bond? (C)",
+    "correctAnswer": "Carbon-fluorine bond",
+    "scored": false
+  },
+  {
+    "id": "139eae8a452e934441b362c0",
+    "sourceFile": "Contest 7-1.doc",
+    "subject": "Maths",
+    "questionText": "Find the general term of the sequence. (M) You are given an assortment of infra-red, yellow, red, green and blue light emitting diodes (LEDs) and a beam combiner that can combine light from the diodes into a single beam. Which of the diodes can be used to produce light of the same colour as that of another diode? (P)",
+    "correctAnswer": "Red and green give yellow",
+    "scored": false
+  },
+  {
+    "id": "c49e6065b63dbae1b4b8d9ab",
+    "sourceFile": "Contest 7-1.doc",
+    "subject": "Maths",
+    "questionText": "Find the general term of the sequence. (M) You are given an assortment of infra-red, yellow, red, green and blue light emitting diodes (LEDs) and a beam combiner that can combine light from the diodes into a single beam. Which of the diodes can be used to produce white light? (P)",
+    "correctAnswer": "Red, blue and green (Accept: yellow and blue)",
+    "scored": false
+  },
+  {
+    "id": "248605fc3ac62cbc9eeaa81b",
+    "sourceFile": "Contest 7-1.doc",
+    "subject": "Maths",
+    "questionText": "Find the general term of the sequence. (M) What name is given to the flat part of a leaf? (B)",
+    "correctAnswer": "Lamina/blade",
+    "scored": false
+  },
+  {
+    "id": "85582fff22d3f6a2bc9445df",
+    "sourceFile": "Contest 7-1.doc",
+    "subject": "Maths",
+    "questionText": "Find the general term of the sequence. (M) Which organelle functions in intracellular digestion? (B)",
+    "correctAnswer": "Lysosome Q. C (2, -3) and r = 5",
+    "scored": false
+  },
+  {
+    "id": "437eea552735f169405c015d",
+    "sourceFile": "Contest 7-1.doc",
+    "subject": "Maths",
+    "questionText": "Find the equation of a circle with centre C and radius, r given: (M) C (0, 5) and r = .",
+    "correctAnswer": "x2 + (y - 5)2 = 2",
+    "scored": false
+  },
+  {
+    "id": "0cb9263b5d633f22955e96dc",
+    "sourceFile": "Contest 7-1.doc",
+    "subject": "Maths",
+    "questionText": "Find the equation of a circle with centre C and radius, r given: (M) Q, Give the systematic names of aliphatic esters. (C)",
+    "correctAnswer": "Alkyl alkanoates",
+    "scored": false
+  },
+  {
+    "id": "e26aff32093c8426d7b1c633",
+    "sourceFile": "Contest 7-1.doc",
+    "subject": "Chemistry",
+    "questionText": "Find the equation of a circle with centre C and radius, r given: (M) Give the systematic name for the compound CH3CH2 CONH2. (C)",
+    "correctAnswer": "Propanamide",
+    "scored": false
+  },
+  {
+    "id": "270fe075182d0f34052011f3",
+    "sourceFile": "Contest 7-1.doc",
+    "subject": "Maths",
+    "questionText": "Find the equation of a circle with centre C and radius, r given: (M) You are given an assortment of infra-red, yellow, red, green and blue light emitting diodes (LEDs) and a beam combiner that can combine light from the diodes into a single beam. Name one diode which produces a primary colour? (P)",
+    "correctAnswer": "Red, blue and green diode",
+    "scored": false
+  },
+  {
+    "id": "270fe075182d0f34052011f3",
+    "sourceFile": "Contest 7-1.doc",
+    "subject": "Maths",
+    "questionText": "Find the equation of a circle with centre C and radius, r given: (M) You are given an assortment of infra-red, yellow, red, green and blue light emitting diodes (LEDs) and a beam combiner that can combine light from the diodes into a single beam. Name one diode which produces a primary colour? (P)",
+    "correctAnswer": "Red, blue and green diode",
+    "scored": false
+  },
+  {
+    "id": "420c1e06025b6ccb6532bd78",
+    "sourceFile": "Contest 7-1.doc",
+    "subject": "Biology",
+    "questionText": "Find the equation of a circle with centre C and radius, r given: (M) What name is given to that part of an enzyme that interacts with the substrate? (B)",
+    "correctAnswer": "Active site",
+    "scored": false
+  },
+  {
+    "id": "a3f2ce5089c107b737353f71",
+    "sourceFile": "Contest 7-1.doc",
+    "subject": "Maths",
+    "questionText": "The following is the equation of a circle: . Find i. the coordinates of the centre of the circle ii. the radius of the circle iii. the distance from the point A(-11, -3) to the centre of the circle iv. the length of the tangent from the point A to the circle (M)",
+    "correctAnswer": "i. Centre (2, -3) ii. radius iii. distance from A(-11, -3) to C(2, -3) is 13. iv. length of the tangent 52 + d2 = 132 d2 = 169 - 25 = 144 d = 12",
+    "scored": false
+  },
+  {
+    "id": "80f20c58c2324980ce36afd0",
+    "sourceFile": "Contest 7-1.doc",
+    "subject": null,
+    "questionText": "The seat belt of an automobile protects its wearer by increasing the time the wearer is brought to rest in collision. (P)",
+    "correctAnswer": "T",
+    "scored": false
+  },
+  {
+    "id": "e2195d14aba7fe00464478ad",
+    "sourceFile": "Contest 7-1.doc",
+    "subject": null,
+    "questionText": "Isomers differ in their structures. (C)",
+    "correctAnswer": "T",
+    "scored": false
+  },
+  {
+    "id": "5f446a18dcbd0bb987167492",
+    "sourceFile": "Contest 7-1.doc",
+    "subject": null,
+    "questionText": "Addition of vectors is commutative. (M)",
+    "correctAnswer": "T",
+    "scored": false
+  },
+  {
+    "id": "b1ca9711cd6b3e1ccee1e0bb",
+    "sourceFile": "Contest 7-1.doc",
+    "subject": "Maths",
+    "questionText": "Composition of functions is associative. (M)",
+    "correctAnswer": "T",
+    "scored": false
+  },
+  {
+    "id": "95a5f917c3dfa079b36b88fe",
+    "sourceFile": "Contest 7-1.doc",
+    "subject": "Biology",
+    "questionText": "Each cell of a given animal or plant species has its own fixed number and composition of chromosomes. (B)",
+    "correctAnswer": "T",
+    "scored": false
+  },
+  {
+    "id": "07bc543f3378d1d1ebf804ff",
+    "sourceFile": "Contest 7-1.doc",
+    "subject": null,
+    "questionText": "The suspension system of an automobile is nearly critically damped so that oscillations die down quickly. (P)",
+    "correctAnswer": "T",
+    "scored": false
+  },
+  {
+    "id": "48a9a84d602375b46fef3b87",
+    "sourceFile": "Contest 7-1.doc",
+    "subject": null,
+    "questionText": "Optical isomers polarize light. (C)",
+    "correctAnswer": "F [they bend the plane of polarized light]",
+    "scored": false
+  },
+  {
+    "id": "be23cc38f6d847b5abb60b70",
+    "sourceFile": "Contest 7-1.doc",
+    "subject": "Physics",
+    "questionText": "When some covalent bonds break homolytically energy is given off. (C)",
+    "correctAnswer": "F [energy is required/ absorbed to break bonds]",
+    "scored": false
+  },
+  {
+    "id": "0827d8bbd950bf0dfab53178",
+    "sourceFile": "Contest 7-1.doc",
+    "subject": "Maths",
+    "questionText": "In a geometric sequence, the common ratio is the difference of successive terms. (M)",
+    "correctAnswer": "F [common ratio is the quotient of successive terms.]",
+    "scored": false
+  },
+  {
+    "id": "300d968ee5f2fd051384ffac",
+    "sourceFile": "Contest 7-1.doc",
+    "subject": "Biology",
+    "questionText": "The cells involved in sexual reproduction possess half the number of chromosomes in other cells of the same organism. (B)",
+    "correctAnswer": "T",
+    "scored": false
+  },
+  {
+    "id": "15417b8e44c5bf00346ab756",
+    "sourceFile": "Contest 7-1.doc",
+    "subject": "Maths",
+    "questionText": "A liquid whose contact angle with glass is 5o will not wet glass. (P)",
+    "correctAnswer": "F",
+    "scored": false
+  },
+  {
+    "id": "a3a3a2dab0988ca3cf1a4e64",
+    "sourceFile": "Contest 7-1.doc",
+    "subject": "Maths",
+    "questionText": "If a glass capillary tube is inserted vertically into a liquid whose contact angle with glass is 140o, the level of liquid in the tube is lower than the level outside the tube. (P)",
+    "correctAnswer": "T",
+    "scored": false
+  },
+  {
+    "id": "15ae30b1d1a53bab23f5af1e",
+    "sourceFile": "Contest 7-1.doc",
+    "subject": "Physics",
+    "questionText": "Enthalpy change of a reaction is independent of temperature and pressure. (C)",
+    "correctAnswer": "F",
+    "scored": false
+  },
+  {
+    "id": "3a2df24bc0ffe9c25acd47eb",
+    "sourceFile": "Contest 7-1.doc",
+    "subject": "Maths",
+    "questionText": "A straight line with gradient 'm' and y - intercept 'c' has equation y = mx + c. (M)",
+    "correctAnswer": "T",
+    "scored": false
+  },
+  {
+    "id": "1f3d1b1c0dda2e015b36af9f",
+    "sourceFile": "Contest 7-1.doc",
+    "subject": "Biology",
+    "questionText": "Spongy mesophyll cells possess more chloroplasts than cells of the palisade mesophyll. (B)",
+    "correctAnswer": "F",
+    "scored": false
+  },
+  {
+    "id": "9ff39d81a2c5a1f0e26aa77a",
+    "sourceFile": "Contest 7-1.doc",
+    "subject": "Biology",
+    "questionText": "Guard cells are specialised epidermal cells. (B)",
+    "correctAnswer": "T",
+    "scored": false
   }
 ]
