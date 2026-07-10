@@ -632,6 +632,15 @@ function generateConceptualDistractors(correctAnswer, subject) {
   return picked;
 }
 
+// Matches the placeholder text generateConceptualDistractors() emits when an answer has no
+// DISTRACTOR_OVERRIDES entry and its subject's fallback pool is empty (most commonly a null
+// subject, whose pool lookup returns nothing) - used to detect a distractor set that's
+// entirely useless, not just imperfect.
+const DISTRACTOR_PLACEHOLDER_TEXT = 'no near-neighbor distractor available';
+function isDistractorPlaceholder(option) {
+  return typeof option === 'string' && option.includes(DISTRACTOR_PLACEHOLDER_TEXT);
+}
+
 function generateDistractors(correctAnswer, subject) {
   const numeric = isNumericAnswer(correctAnswer);
   return numeric
@@ -767,14 +776,22 @@ function extractRiddle(fileName, segmentText, fileSubjectHint, warnings) {
   }
   const { clues, questionText, answerText } = parsed;
   const subject = inferSubject(`${questionText} ${answerText}`, fileSubjectHint);
+  const distractors = generateDistractors(answerText, subject);
+  // All 3 distractor slots are the placeholder fallback text - a guaranteed-useless
+  // multiple-choice set (most often a null-subject riddle whose answer also has no
+  // DISTRACTOR_OVERRIDES entry). Same excludeFromServing field/pattern as the TrueFalse
+  // Pattern-2 tag: set at creation, not bolted on later, so it can never accidentally reach a
+  // student even before Stage 4's serving layer exists to read it.
+  const allDistractorsArePlaceholder = distractors.every(isDistractorPlaceholder);
   return [
     {
       ...buildBase(fileName, subject, 'Riddle', questionText),
       questionText,
       correctAnswer: answerText,
-      options: shuffleOptions(answerText, generateDistractors(answerText, subject)),
+      options: shuffleOptions(answerText, distractors),
       clues,
       scored: true,
+      ...(allDistractorsArePlaceholder ? { excludeFromServing: true } : {}),
     },
   ];
 }
