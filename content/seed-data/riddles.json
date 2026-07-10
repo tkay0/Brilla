@@ -40772,5 +40772,337 @@
       }
     ],
     "scored": true
+  },
+  {
+    "id": "e3ebf076a1b529b06c21fb5e",
+    "sourceFile": "Contest 15-1.doc",
+    "subject": "Chemistry",
+    "questionText": "Q. I am a heavy, silvery white metal slightly softer than steel. When I am finely divided, I am attacked by water. Generally I dissolve in acids but I am not affected by alkali. I have as many as 14 isotopes which are all radioactive. My most abundant isotope has a half-life of 4,500 million years. I have an atomic number of 92 and almost 1.5 times as many neutrons. I am named after a planet. I am an important basic nuclear fuel. Who am I?",
+    "correctAnswer": "(C)",
+    "options": [
+      "Isotope",
+      "(C)",
+      "Catalyst",
+      "Buffer"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "Q. I am a heavy, silvery white metal slightly softer than steel. When I am finely divided, I am attacked by water. Generally I dissolve in acids but I am not affected by alkali. I have as many as 14 isotopes which are all radioactive. My most abundant isotope has a half-life of 4,500 million years. I have an atomic number of 92 and almost 1.5 times as many neutrons. I am named after a planet. I am an important basic nuclear fuel."
+      }
+    ],
+    "scored": true
+  },
+  {
+    "id": "880937141b57b24e5b45ba17",
+    "sourceFile": "Contest 31.doc",
+    "subject": "Biology",
+    "questionText": "Q. I am a type of ecological interaction. My name literally means 'sharing the table together'. In my type of relationship one species benefits and the other neither benefits nor harms. Often, the host species provides a home and/or transportation for the other species. The small remora fish enjoying a free ride by the shark is a typical example of my type of association. Who am I?",
+    "correctAnswer": "(B)",
+    "options": [
+      "Ecosystem",
+      "(B)",
+      "Hormone",
+      "Enzyme"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "Q. I am a type of ecological interaction. My name literally means 'sharing the table together'. In my type of relationship one species benefits and the other neither benefits nor harms. Often, the host species provides a home and/or transportation for the other species. The small remora fish enjoying a free ride by the shark is a typical example of my type of association."
+      }
+    ],
+    "scored": true
+  },
+  {
+    "id": "3bcbbbb4eed7df12d8ef1df0",
+    "sourceFile": "MONICAS 1.docx",
+    "subject": "Chemistry",
+    "questionText": "I was discovered by the German chemist Eduard Buchner towards the end of the 19th century But my discovery would have been 20 years earlier. If Louis Pasteur had not confused my presence with fermentation during his experiment with yeast cells However , my savior Buchner proved that I was responsible for the fermentation of sugar when the juice was extracted from the yeast cells Because of this my name literally means “in yeast”Since my discovery , my name is used collectively to refer to substance that acts as a catalyst on specific chemical reaction in the organism. Who am I?",
+    "correctAnswer": "?",
+    "options": [
+      "Catalyst",
+      "Buffer",
+      "?",
+      "Alkane"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "I was discovered by the German chemist Eduard Buchner towards the end of the 19th century"
+      },
+      {
+        "order": 2,
+        "text": "But my discovery would have been 20 years earlier. If Louis Pasteur had not confused my presence with fermentation during his experiment with yeast cells"
+      },
+      {
+        "order": 3,
+        "text": "However , my savior Buchner proved that I was responsible for the fermentation of sugar when the juice was extracted from the yeast cells"
+      },
+      {
+        "order": 4,
+        "text": "Because of this my name literally means “in yeast”Since my discovery , my name is used collectively to refer to substance that acts as a catalyst on specific chemical reaction in the organism."
+      }
+    ],
+    "scored": true
+  },
+  {
+    "id": "8c3085da1edec447e2d93db3",
+    "sourceFile": "MONICAS 1.docx",
+    "subject": "Chemistry",
+    "questionText": "I am a British scientist , born in the year 1799 I contributed immensely to the study of Electrochemistry and electromagnetism My discoveries include principles in Electrolysis diamagnetism and electromagnetic induction The SI unit of Capacitance is named after me. Who am I?",
+    "correctAnswer": "?",
+    "options": [
+      "?",
+      "Buffer",
+      "Isotope",
+      "Electrolyte"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "I am a British scientist , born in the year 1799"
+      },
+      {
+        "order": 2,
+        "text": "I contributed immensely to the study of Electrochemistry and electromagnetism"
+      },
+      {
+        "order": 3,
+        "text": "My discoveries include principles in Electrolysis diamagnetism and electromagnetic induction"
+      },
+      {
+        "order": 4,
+        "text": "The SI unit of Capacitance is named after me."
+      }
+    ],
+    "scored": true
+  },
+  {
+    "id": "a85459f9b812fb7c4c04bc35",
+    "sourceFile": "MONICAS 1.docx",
+    "subject": "Chemistry",
+    "questionText": "I was born to an Austrian chemist in the year 1885. My pure form was discovered in 1925. I have 3 oxidation states in the formation of compounds. I am paramagnet, antiferromagnetic and my structure is hexagonal. The former of my greek name suggests that I am new and the later suggests that I am a twin. If I was to be a Ghanaian government worker, my atomic number suggests that I am a pensioner. Who am I?",
+    "correctAnswer": "?",
+    "options": [
+      "Alkane",
+      "?",
+      "Electrolyte",
+      "Isotope"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "I was born to an Austrian chemist in the year 1885."
+      },
+      {
+        "order": 2,
+        "text": "My pure form was discovered in 1925."
+      },
+      {
+        "order": 3,
+        "text": "I have 3 oxidation states in the formation of compounds."
+      },
+      {
+        "order": 4,
+        "text": "I am paramagnet, antiferromagnetic and my structure is hexagonal."
+      },
+      {
+        "order": 5,
+        "text": "The former of my greek name suggests that I am new and the later suggests that I am a twin."
+      },
+      {
+        "order": 6,
+        "text": "If I was to be a Ghanaian government worker, my atomic number suggests that I am a pensioner."
+      }
+    ],
+    "scored": true
+  },
+  {
+    "id": "143de3ec432a81b035eb7374",
+    "sourceFile": "MONICAS 1.docx",
+    "subject": null,
+    "questionText": "I am a 2 digit number. I am a factor of 180 I am 4 less than a square number When I am divided by 7 there is a remainder of 3 The sum of my digits equals 9 What number is this?",
+    "correctAnswer": "45",
+    "options": [
+      "-45",
+      "52",
+      "4.5",
+      "45"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "I am a 2 digit number."
+      },
+      {
+        "order": 2,
+        "text": "I am a factor of 180"
+      },
+      {
+        "order": 3,
+        "text": "I am 4 less than a square number"
+      },
+      {
+        "order": 4,
+        "text": "When I am divided by 7 there is a remainder of 3"
+      },
+      {
+        "order": 5,
+        "text": "The sum of my digits equals 9"
+      }
+    ],
+    "scored": true
+  },
+  {
+    "id": "aff291deae7cf5c32203cbd9",
+    "sourceFile": "MONICAS 2.docx",
+    "subject": "Physics",
+    "questionText": "I am a type of electric circuit. I am named for a hinged device whose function is to close an opening. I am characterized by a set of inputs whose states determine my output. My simplest kind has only one input and one output. I am the electrical realization of the operators in Boolean algebra. Everything about me is logical. Who am I?",
+    "correctAnswer": "Logic gate",
+    "options": [
+      "Logic gate",
+      "Amplitude",
+      "Refraction",
+      "Resistance"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "I am a type of electric circuit."
+      },
+      {
+        "order": 2,
+        "text": "I am named for a hinged device whose function is to close an opening."
+      },
+      {
+        "order": 3,
+        "text": "I am characterized by a set of inputs whose states determine my output."
+      },
+      {
+        "order": 4,
+        "text": "My simplest kind has only one input and one output."
+      },
+      {
+        "order": 5,
+        "text": "I am the electrical realization of the operators in Boolean algebra."
+      },
+      {
+        "order": 6,
+        "text": "Everything about me is logical."
+      }
+    ],
+    "scored": true
+  },
+  {
+    "id": "e9d24013e7e643a164778384",
+    "sourceFile": "MONICAS 2.docx",
+    "subject": "Biology",
+    "questionText": "I am a molecule with diverse chemical structures, My secretion occurs in response to specific biochemical signals from a wide range of regulatory systems I exit my cell of origin by exocytosis or by means of membrane transport I am used to communicate between organs and tissues for physiological regulation and behavioral activities I work slowly, over time, and affect many different processes, including, Growth and development, Metabolism, Sexual function, Reproduction, Mood I am your body's chemical messengers. Who am I?",
+    "correctAnswer": "Hormone",
+    "options": [
+      "Hormone",
+      "Enzyme",
+      "Chromosome",
+      "Ecosystem"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "I am a molecule with diverse chemical structures,"
+      },
+      {
+        "order": 2,
+        "text": "My secretion occurs in response to specific biochemical signals from a wide range of regulatory systems"
+      },
+      {
+        "order": 3,
+        "text": "I exit my cell of origin by exocytosis or by means of membrane transport"
+      },
+      {
+        "order": 4,
+        "text": "I am used to communicate between organs and tissues for physiological regulation and behavioral activities"
+      },
+      {
+        "order": 5,
+        "text": "I work slowly, over time, and affect many different processes, including, Growth and development, Metabolism, Sexual function, Reproduction, Mood"
+      },
+      {
+        "order": 6,
+        "text": "I am your body's chemical messengers."
+      }
+    ],
+    "scored": true
+  },
+  {
+    "id": "4650d4f7b59989a7f5df6116",
+    "sourceFile": "MONICAS 2.docx",
+    "subject": "Chemistry",
+    "questionText": "I am an organic substance I am a hydrocarbon with a triple bond. I was synthesized in 1862 by Friedrich Wohler. I was formed by the reaction of calcium carbide and water. I am mostly used in welding torches because I have a high temperature. Who am I?",
+    "correctAnswer": "Ethyne",
+    "options": [
+      "Isotope",
+      "Electrolyte",
+      "Buffer",
+      "Ethyne"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "I am an organic substance"
+      },
+      {
+        "order": 2,
+        "text": "I am a hydrocarbon with a triple bond."
+      },
+      {
+        "order": 3,
+        "text": "I was synthesized in 1862 by Friedrich Wohler."
+      },
+      {
+        "order": 4,
+        "text": "I was formed by the reaction of calcium carbide and water."
+      },
+      {
+        "order": 5,
+        "text": "I am mostly used in welding torches because I have a high temperature."
+      }
+    ],
+    "scored": true
+  },
+  {
+    "id": "d1d2e7527777c929ef96413b",
+    "sourceFile": "MONICAS 2.docx",
+    "subject": "Maths",
+    "questionText": "I am an Austrian scientist born in 1887, I was the author of statistical mechanics and thermodynamics, I developed a number of fundamental results in the field of quantum theory, I have an equation in quantum theory which provides a way to calculate a wave 5. 5. function of a system and how it changes dynamically in time, I am also known for the “Schrödinger’s” thought experiment Who am I?",
+    "correctAnswer": "Erwin Rudolf Josef Alexander Schrödinger",
+    "options": [
+      "Coefficient",
+      "Matrix",
+      "Erwin Rudolf Josef Alexander Schrödinger",
+      "Polynomial"
+    ],
+    "clues": [
+      {
+        "order": 1,
+        "text": "I am an Austrian scientist born in 1887,"
+      },
+      {
+        "order": 2,
+        "text": "I was the author of statistical mechanics and thermodynamics,"
+      },
+      {
+        "order": 3,
+        "text": "I developed a number of fundamental results in the field of quantum theory,"
+      },
+      {
+        "order": 4,
+        "text": "I have an equation in quantum theory which provides a way to calculate a wave 5. 5. function of a system and how it changes dynamically in time,"
+      },
+      {
+        "order": 5,
+        "text": "I am also known for the “Schrödinger’s” thought experiment"
+      }
+    ],
+    "scored": true
   }
 ]

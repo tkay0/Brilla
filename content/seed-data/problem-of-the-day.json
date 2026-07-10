@@ -5534,5 +5534,157 @@
     "questionText": "Though I am plentiful in the earth's crust, you would hardly find me pure. Once I am found in the combined state mankind would do everything possible to put me back into my elements. But I wonder why they would purify me at a piggery of all places. Then they would add impurities of their choice to me just to obtain solids of varying properties. With a bit of chromium I become a shining example. With a bit of manganese I become hard enough to be able to support heavy train coaches with all the passengers. Who am I? (C)",
     "correctAnswer": "(Pig/Cast) Iron",
     "scored": false
+  },
+  {
+    "id": "b024012565a41b4bc9f15fbb",
+    "sourceFile": "PROBLEM OF THE DAY-1 (1).doc",
+    "subject": "Physics",
+    "questionText": "Three electrolytic cells containing molten electrolytes are connected in series. One contains molten CoCl3, another molten MnBr2 and the third molten Al2O3. A certain amount of current is passed through the cells until 40g of Br2 are liberated from the MnBr2 cell. [Mn : 55, Br, 80.0, molar volume of gas at STP = 22.4 dm3] Calculate the moles of Cl2 liberated from the CoCl3 cell. Calculate the mass of MnBr2 discharged. Calculate the volume of oxygen at STP liberated from the Al2O3 cell.",
+    "correctAnswer": "MnBr2Mn+Br2 160gBr2 2F but CoCl3 Co + Cl2 2 . 1mo1Br2 1mo1MnBr2 3. Volume (STP) = dm3 = 2.8dm3",
+    "scored": false
+  },
+  {
+    "id": "1b20105ab592fb8b687553e1",
+    "sourceFile": "PROBLEM OF THE DAY-1.doc",
+    "subject": "Biology",
+    "questionText": "Fill in the blanks in the following passage: At several points in ………(1)…………. and TCA cycle, pairs of hydrogen atoms are removed from ………….(2).………and taken up by hydrogen acceptors like ……………(3)…………… a…………(4)………… derived from vitamin B complex. In all ……...(5)………..molecules of ATP are produced from the complete oxidation of one molecule of ……..(6)……… . The electron transport system forms the final stage of ………(7)……… respiration and occurs in the inner ……..(8)……… membranes of ……(9)……… cells. The hydrogen acceptors pass on the electron in hydrogen to a series of electron carriers like the conjugated proteins called ………(10)………... which contain haem.",
+    "correctAnswer": "Glycolysis Substrates NAD (Nicotinamide Adenine Dinucleotide) Coenzyme 38 Glucose Aerobic Mitochondrial Eukaryotic Cytochromes",
+    "scored": false
+  },
+  {
+    "id": "eb3a4bdb5383e560406e2b77",
+    "sourceFile": "PROBLEM OF THE DAY-1.docx",
+    "subject": "Physics",
+    "questionText": "Three electrolytic cells containing molten electrolytes are connected in series. One contains molten CoCl3, another molten MnBr2 and the third molten Al2O3. A certain amount of current is passed through the cells until 40g of Br2 are liberated from the MnBr2 cell. [Mn : 55, Br, 80.0, molar volume of gas at STP = 22.4 dm3] Calculate the moles of Cl2 liberated from the CoCl3 cell. Calculate the mass of MnBr2 discharged. Calculate the volume of oxygen at STP liberated from the Al2O3 cell.",
+    "correctAnswer": "MnBr2Mn+Br2 160gBr2 2F but CoCl3 Co + Cl2 2 . 1mo1Br2 1mo1MnBr2 3. Volume (STP) = dm3 = 2.8dm3",
+    "scored": false
+  },
+  {
+    "id": "34659e344df6e232b810bdc1",
+    "sourceFile": "PROBLEM OF THE DAY-11.doc",
+    "subject": "Chemistry",
+    "questionText": "A thin metal rod has a length of 0.05m . It is warmed up uniformly to a temperature that is 50% higher than the original temperature of 300K. If the co-efficient of linear expansively is 1.0 x 10-4 K-1 , calculate the length of the rod.",
+    "correctAnswer": "Let the new length be l1 and the original length be l0 and let T1 and T0 represent the final and initial temperatures, respectively. Then α = coefficient of linear expansivity l1 - 0.05= 1.0 x 10-4(0.05) ([0.5T0 + T0] - T0 ) l1 - 0.05= 1.0 x 10-4(0.05) (0.5 x 300) l1 = 1.0 x 10-4 (0.05)(0.5 x150) + 0.05 l1 = 0.00075 + 0.005 = 0.05075m",
+    "scored": false
+  },
+  {
+    "id": "094486e7e44257bfa3044ece",
+    "sourceFile": "PROBLEM OF THE DAY-12.doc",
+    "subject": null,
+    "questionText": "Fill in the spaces numbered 1-10 in the following table: COMMON NAME SCIENTIFIC NAME 1 Adansonia sp. Vitamin B1 2 Whooping cough bacterium 3 4 Ancylostoma 5 Crinum natans Okro 6 7 Gallus gallus domesticus Blackfly 8 9 Ananas comosus 10 Delonix",
+    "correctAnswer": "Baobab tree Thiamine Bordetella pertussis Hookworm water spider lily Habiscus esculentus Domestic chicken/ chicken Simulium damnosum Pineapple Flamboyant (tree)",
+    "scored": false
+  },
+  {
+    "id": "ae8160d7cd74e768636b7bfc",
+    "sourceFile": "PROBLEM OF THE DAY-13.doc",
+    "subject": "Chemistry",
+    "questionText": "The iron content of a piece of wire mesh, weighing 14.4g was determined by dissolving the mesh in concentrated H2SO4, adding about 100cm3 of water and filtering off any undissolved solid. The solution was transferred into a 250cm3 volumetric flask and more deionized water added to the mark. 25cm3 of this solution required 20cm3 of 0,20moldm-3 KMnO4 solution for complete reaction. Calculate the percentage iron in the mesh. [Fe: 56.0]",
+    "correctAnswer": "MnO+ 5Fe2+ + 8H+ Mn2+ + 5Fe3+ + 4H2O 0.20moldm-3 M 20cm3 25cm3 Moles Fe in 250cm3: Moles Fe in 250cm3: 0.20 x 56 = 11.2g %Fe=",
+    "scored": false
+  },
+  {
+    "id": "34a0bcd1b7d536ea48060c00",
+    "sourceFile": "PROBLEM OF THE DAY-14.doc",
+    "subject": null,
+    "questionText": "Express in partial fractions",
+    "correctAnswer": "For x = 1 1 = A For x = 2 2 = C For x = 0 0 = 4A + 2B - C 0 = 4 + 2B - 2 2B = -2 and B = -1",
+    "scored": false
+  },
+  {
+    "id": "5c360f3468afb08f960dcfba",
+    "sourceFile": "PROBLEM OF THE DAY-16.doc",
+    "subject": "Physics",
+    "questionText": "Twenty (20) capacitors, C1, C2, C3,… C20, have capacitances in terms of C such that C1=C; C2=C/2; C3=C/3;….C20=C/20. These capacitors are connected in series and a voltage of 20V is applied across the circuit. If C = 420F, calculate the energy stored in the circuit. Hint: The sum of the first n consecutive integers in n (n+1)/2.",
+    "correctAnswer": "Since the capacitors are connected in series, we have the total capacitance CT to be Since C = 420F, we have The energy stored is given by",
+    "scored": false
+  },
+  {
+    "id": "5e70eb9031ca9d2dc35f559b",
+    "sourceFile": "PROBLEM OF THE DAY-2.doc",
+    "subject": "Physics",
+    "questionText": "Light of wavelength 300 nm causes the emission of electrons with a velocity of 4.0 x 105m/s from a certain metallic surface. Calculate the threshold frequency for this surface. Give your answer in scientific notation, to one decimal place of significance. Planck's constant h = 6.6 x 10-34 Js Speed of light in vacuum c = 3.0 x 108 m/s Mass of electron = 9 x 10-31 kg",
+    "correctAnswer": "Let m = mass of electrons v = velocity of electrons f = frequency of incident light fo = threshold frequency = wavelength of incident light Writing the photoelectric equation K.E. = hf - hfo",
+    "scored": false
+  },
+  {
+    "id": "fbd04c17e0cee798df8cf91e",
+    "sourceFile": "PROBLEM OF THE DAY-25.doc",
+    "subject": null,
+    "questionText": "Five cards are marked 1,2,3,4 and 5. The cards are placed in a bag and a card is drawn at random from the bag. The event A is 'the number on the card chosen is less than 4' The event B is 'the number on the card chosen is odd' Find a) P(A) b) P(B) c)P(AB) d) P(AB) e)P(AB)",
+    "correctAnswer": "Sample space S = A= B= AB= AB= P(A)= P(B)= P(AB)= P(AB) = P(AB) =",
+    "scored": false
+  },
+  {
+    "id": "122853623a91349c4455677b",
+    "sourceFile": "PROBLEM OF THE DAY-3.doc",
+    "subject": "Maths",
+    "questionText": "By expanding, Show that Hence solve the equation",
+    "correctAnswer": "Let For y = 2 For y =",
+    "scored": false
+  },
+  {
+    "id": "2607d2eaa51e97b7f5554ab3",
+    "sourceFile": "PROBLEM OF THE DAY-4.doc",
+    "subject": "Chemistry",
+    "questionText": "A solution X contains both NaHCO3 and Na2CO3. 25.0cm3 of it, in a titration need 14.0 cm3 of 0.10 mol dm-3 HCl for neutralization, using phenolphthalein as indicator. 25.0cm3 of the same solution require 36cm3 of the HCl solution for neutralization when methyl orange is used as indicator. Use these experimental results to calculate the concentrations of Na2CO3 and NaHCO3 in X.",
+    "correctAnswer": "Using phenolphthalein as indicator, only Na2CO3 reacts: Na2CO3 + HCl NaHCO3 + NaCl [25cm3, M?] [14.0cm3, 0.10M] The concentration of Na2CO3 is 0.056mol dm-3 Using methyl orange Na2CO3 + 2HCl 2NaCl + CO2 + H2O NaHCO3 + HCl NaCl + CO2 + H2O We can deduce that Na2CO3 will require (2 x 14.0 cm3 = 28 cm3) for complete reaction. So the volume required for the NaHCO3 only will be: 36 - 28 = 8 cm3 The concentration of NaHCO3 is",
+    "scored": false
+  },
+  {
+    "id": "7b9af69198715717fc08da29",
+    "sourceFile": "PROBLEM OF THE DAY-5.doc",
+    "subject": "Physics",
+    "questionText": "A block of wood in the shape of a cube has a mass of 50 kg and is floating at rest in water. Each side of the block is 0.5m long. Calculate the height of the block above the surface of the water. Acceleration due to gravity, g = 10m/s2 Density of water = 1000 kg/ m3",
+    "correctAnswer": "When the block of wood is at rest the weight of the block is equal to the upthrust U, Let m = mass g = acc.due to gravity, 𝛒 = density of water V = submerged volume I.e U = mg; 𝛒gV = mg Where V is submerged volume . We can write this terms of the area A and submerged height h as 𝛒Ah = m h = m/𝛒A h = 50/ (1000 x 0.5 x 0.5 ) h = 50/250 h = 0.2m But, this is the submerged height. Above the water, we have h' = 0.5 - 0.2 h' = 0.3m",
+    "scored": false
+  },
+  {
+    "id": "3794676a1d1fc4c448d28de6",
+    "sourceFile": "PROBLEM OF THE DAY-7.doc",
+    "subject": "Maths",
+    "questionText": "Given that (x - 2) and (x + 3) are factors of the polynomial f(x) = x4 + x3 - 5x2 + ax + b, find the values of 'a' and 'b', and factorize the polynomial completely.",
+    "correctAnswer": "f(x) = x4 + x3 - 5x2 + ax + b (x - 2) factor 16 + 8 - 20 + 2a + b = 0 i.e. 2a + b = -4 (i) (x + 3) factor 81 - 27 - 45 - 3a + b = 0 i.e. 3a - b = 9 (ii) From (i) and (ii), a = 1, b = -6 f(x) = x4 + x3 - 5x2 + x - 6 (x - 2)(x + 3) = x2 + x - 6 x2 + x - 6 f(x) = (x - 2)(x + 3)(x2 + 1)",
+    "scored": false
+  },
+  {
+    "id": "34a65098722060ccdbf66eb7",
+    "sourceFile": "PROBLEM OF THE DAY-8.doc",
+    "subject": null,
+    "questionText": "Five cards are marked 1,2,3,4 and 5. The cards are placed in a bag and a card is drawn at random from the bag. The event A is 'the number on the card chosen is less than 4' The event B is 'the number on the card chosen is odd' Find a) P(A) b) P(B) c)P(AB) d) P(AB) e)P(AB)",
+    "correctAnswer": "Sample space S = A= B= AB= AB= P(A)= P(B)= P(AB)= P(AB) = P(AB) =",
+    "scored": false
+  },
+  {
+    "id": "53bb5217f5cf3262cb154b52",
+    "sourceFile": "PROBLEM OF THE DAY-9.doc",
+    "subject": "Maths",
+    "questionText": "a) Solve the equation 52x - 5x+1 + 4 = 0 b) Solve the simultaneous equations log x + log y = 1 x + y = 11",
+    "correctAnswer": "a) 5 2x - 5x+1 + 4 = (5x)2 - 5(5x) + 4 = 0 Let y 5x y2 - 5y + 4 = 0 (y - 4)(y - 1) = 0 y = 4,1 5x = 4x =, 5x = 11 =0 x =, x = 0 or x = log b) log x + log y = 1 log xy = 1 xy = 10 y = x + y = 11 x + = 11 x2- 11x + 10 = 0 (x - 1) (x - 10) = 0 x = 1 or x = 10 x = 1y = 10 x = 10y = 1 ANSWER: x = 1, y = 10 or x = 10, y = 1",
+    "scored": false
+  },
+  {
+    "id": "4c1bfa207b14eb04896fdfa2",
+    "sourceFile": "PROBLEM OF THE DAY.doc",
+    "subject": "Physics",
+    "questionText": "An air-filled solenoid with a circular cross-section is to be designed such that a magnetic field of 5 x 10-3 T can be created at its centre when a current of 10A is flowing through the coils of wire. The solenoid is to have a radius of 1 cm and a length of 1 m. Assuming that the winding of the solenoid must be only one layer thick, calculate the total length of wire that is required to make the solenoid. Permeability of free space =4π x 10-7Tm/A",
+    "correctAnswer": "We first calculate the number of turns per unit length by using the formula for the solenoid: B = 0nI For a length of 1 m, we just have Now, every turn of the coil has a length equal to the circumference of a circle: , which is also just the length of wire needed for the turn. So the total length L of wire required will be L = N x 2r L = 5 x 10-3 x 2 x 1 x 10-2 4 x 10-7 L = 5 x 10-3 2 x 10-7 L = 25m =======",
+    "scored": false
+  },
+  {
+    "id": "8be5ed320200c607804ce5c0",
+    "sourceFile": "PROBLEM OF THE DAY.docx",
+    "subject": "Chemistry",
+    "questionText": "Compound A and B react in the presence of H3O+ ions to give product C. Experiments were performed to determine the rate law of the reaction, using the initial rate method. Concentrations are given in mol dm-3 while rates are given as mol dm-3s-1. Experiments Number [A] [B] [H3O+] Initial Rate 1 0.02 0.02 0.02 6.0 x 10-4 2 0.02 0.04 0.02 2.4 x 10-3 3 0.06 0.02 0.02 1.8 x 10-3 4 0.02 0.02 0.04 6.0 x 10-4 Determine the rate law and calculate the rate constant k. Give the units of the constant.",
+    "correctAnswer": "Let the rate law be: Rate = k[A]x[B]y[H3O+]z Compare Experiments 1 and 2: Compare Experiments 1 and 4: = = = = = = 4 = 2y y = 2 1 = 2z z = 0 Compare Experiments 1 and 3 = = = 3x 3 = 3x x = 1 Hence the rate law is Rate = k[A]1[B]2[H3O+]0 To calculate k, use Experiment 1 6.0 x 10-4 = k[0.02] [0.02]2 = k x 8 x 10-6 k = 75 Units: s-1 conc-2 = dm6mol-2s-1",
+    "scored": false
+  },
+  {
+    "id": "6cbea70b58e069f0c03317b8",
+    "sourceFile": "problem of the day-26.doc",
+    "subject": "Biology",
+    "questionText": "Fill in the blanks numbered 1-10 in the table below: ORGANISM PHYLUM CLASS ORDER Praying mantid 1. Salamander 2. Antelope 3. Barnacle 4. Sea urchin 5. Pepper 6. Mushroom 7 Fucus 8. Porcupine 9 Spider lily 10.",
+    "correctAnswer": "Dictyoptera Amphibia Artiodactyla Arthropoda Echinoidea Dicotyledoneae. Basidiomycota (or Basidiomycetes) Phaeophyta Rodentia Monocotyledoneae",
+    "scored": false
   }
 ]

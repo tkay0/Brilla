@@ -12786,5 +12786,1925 @@
     "questionText": "Shivering is a metabolic control mechanism to generate heat.",
     "correctAnswer": true,
     "scored": true
+  },
+  {
+    "id": "0273939c644ea7c428e1f69b",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "State whether the following examples of evolutionary advantage are true or false A white moth that lives in a soot covered industrial area.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "34adaa5201bf57ace48d3d72",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "A lion that can run fastest than the rest of his pack",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "06c05e8510e480e8fa93f99b",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "Nut cracking monkeys in an area where nuts are the main source of food",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "7455078884234df8ee87b1cb",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "Dark reactions of photosynthesis are concerned with the conversion light to chemical energy in the form of ATP and NADPH.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "f99660a50abb774e060b5235",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "Dark reactions of photosynthesis utilize trapped energy for the conversion of CO2 to complex organic compounds.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "8185d2f534e97ed7c71fd41c",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "In green plants, the most important pathway for carbon fixation is the Calvin cycle.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "576e64b00639b72644086663",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "State whether the following are true or false when the body is under homeostasis? The body cannot generate its own heat under very cold conditions",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "e674070ac7e6a1aac0905215",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Maths",
+    "questionText": "The functions of the body at that time are able to keep the body at a stable condition.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "a454705cb78fcdc5aa998e9f",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "Blood glucose is under homeostatic condition by only the hormone insulin.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "fd410752b551dc84d610439c",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "There is no difference between homologous and analogous structures",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "c5704556e7fbdb224ea355c1",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "Homologous structures in different species of organisms result from convergent evolution",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "e232bfbb03c9432b38c67231",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "Analogous structures are anatomical similarities in organisms due to a shared ancestry.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "049a42986667d5228108fae7",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Chemistry",
+    "questionText": "A catalyst speeds up a chemical reaction by increasing the activation energy",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "0d854028af8bb030d2899a71",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Chemistry",
+    "questionText": "A catalyst slows down a chemical reaction by increasing the activation energy",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "ff8f237271e62aed9810bde5",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Chemistry",
+    "questionText": "A catalyst has no effect on the speed of a chemical reaction, but increases the amount of product produced",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "1f7e84775f4781e80b8a3408",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "State whether the following functions of insulin are true or false It causes glucose uptake by muscle cells",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "718fffbd48a38844dc1b47d9",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "It inhibits the release of glucagon",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "e993dc4e68261aa27254a3d2",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "It causes the production of glucose in liver cells",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "61b200accebd2c0cbe2a4964",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "Antidiuretic hormone is released by the pituitary gland",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "9fc835582684132d5155acf0",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "Antidiuretic hormone is released by the pituitary gland when there is a balance of water in the body",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "7c0b2357b7894b3b04f9fb80",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "The function of antidiuretic hormone is the same as aldosterone which also help regulate water level in the body",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "14c5aa0bf5826820e3626d61",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "Ecologically and structurally, mosses are more closely related to lichens than to other members of the plant kingdom",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "64d75b0324822a32f90dd5db",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "The most commonly encountered group of bryophytes are the liverworts",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "9f6af00f77f2e71f8a53b27b",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "The sporophyte of a moss contains no chlorophyll of its own and grows parasitically on its gametophyte mother",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "00e102bd6ec18df5bae8bf74",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "State whether the following are true or false about endocrine glands 1. Sweat glands are examples of endocrine glands",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "967d69e61c5871236b801737",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "They may secrete their products either into the bloodstream or outside the body",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "06026ffdb0ea71dae6f8fc5f",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "Some products of endocrine glands are secreted into the gastrointestinal tract to aid in breaking down of food",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "eee8e70a0ef194868fa1f83a",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "State whether the following statements about why majority of the earth’s nitrogen is not available to plants and other living organisms are true or false Majority of the earth’s nitrogen is locked up in geological reservoirs",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "fb2ae5bbda88e2a1adc8713a",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "Most of the nitrogen exists as inorganic nitrogen gas and is not immediately usable to other organisms",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "a33a736783a77c619cc741d2",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "Majority of the nitrogen gas is not able to be converted to other forms",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "85e76efe9ca26263b18ce68d",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "State whether the following are true or false about antidiuretic hormone It constricts the kidneys so that water passively diffuses out of the filtrate",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "f7de036f5408858eb96fb5be",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "It makes the collecting duct permeable so that water can exit the filtrate",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "a027f6369ab6691c1f6fca3c",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "It expands the bladder so that more urine can be carried out by the body",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "71e61eae7e36e54dab137aaa",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "Nematodes are exclusive parasites",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "98b2f43041f61d86bd990006",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "Annelids are different from nematodes in that they have a segmented body",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "72c50f2d0f54c811bd9d7522",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "Nematodes, like annelids, have an elongated cylindrical body",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "14f5a7d1c9380f2a46d81a8c",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Chemistry",
+    "questionText": "At the end of glycolysis there is a net gain of 2ATP molecules per 2 glucose molecules",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "149369e47cd4914687956053",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Chemistry",
+    "questionText": "In glycolysis, 2 ATP molecules are spent and 4 ATP molecules are gained.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "829a68e66c19570ee72588e9",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "ATP in glycolysis is made via oxidative phosphorylation and ATP synthase",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "0c67dbbb84604244d10f1784",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "Mitochondria are single membrane bound organelles found in both plant and animal cells",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "e81726ef184af5ae5444d165",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "The middle lamella is a structure composed of pectin and is used to hold adjacent plant cell walls together",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "b41c356a319da03afeb65bd2",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "Plasmodesmata allow communication and exchange of materials in both plant and animal cells",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "77b86a3c3f7a1e56b72a45e7",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "Both prokaryotes and eukaryotes can have cell walls",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "2954699bd55242b5a07befd5",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "Prokaryotes and eukaryotes have identical ribosomes",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "66f0477930e0253689ca8897",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "The usual method of prokaryote cell division is segmentation",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "d300ce2982d74d062235bd82",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "State whether the following are true or false with respect to co-evolution. Domestic dogs that have been bred for certain phenotypic traits resulting in different breeds",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "6e50a75849e7b1d439eb084a",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "Plants and insects that pollinate them",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "52a58749aa595aea9c186f46",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "Analogous structures, such as fins, that develop on species that are not closely related",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "c3fa1b27b75d89259f1354e9",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Chemistry",
+    "questionText": "State whether the following functions of water in human body are true of false. Acting as a reactant for chemical reactions",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "17b87aeee79a5f185c0d2b5a",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Chemistry",
+    "questionText": "Dissolving non polar compounds",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "63ab84ecca69a5e3e4213fe4",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Chemistry",
+    "questionText": "Acting as a solvent for chemical reactions",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "5af8dfb39c72438d3c488882",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "State whether the following functions of blood are true or false Regulation of body pH and core body temperature.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "245d2fb5f9dd6898c86b351e",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "Secretion of hormones for calcium regulation in blood and bones",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "c9be2ca5d99018c0a770b18d",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Chemistry",
+    "questionText": "Removal waste such as carbon dioxide, urea, and lactic acid",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "00349d1225cd4528c3d4263d",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "State whether the following are true or false. Apart than spreading malaria, anopheles mosquitoes are also vectors of. Yellow fever",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "2bb952b10b9f3814c7355f4d",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "Filariasis",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "edf1ae6f2bcb5c78d7e0eb90",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "Dengue fever",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "321699f9a22a78a86c2ad298",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "Monocot roots have open vascular bundles",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "290de16c08597699e21ec4f3",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "Monocot roots have well developed pith",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "2c4f56608d22423fe4f76777",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "Monocot roots have radially arranged vascular bundles",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "9f8436279d6a53a86409ece7",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "Downs syndrome is caused by extra copy of chromosome 18.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "b27f71bf19a66485ed1eab22",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "Trisomy is a result of non-disjunction.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "8b2bd83bd91ce0958d9d183f",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "Non disjunction most often occurs during anaphase I of meiosis",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "5491848a36cb7e17fc4b807f",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "Some multicellular organisms have amoeboid cells in certain phases of their life",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "9f67b5f8128622fa7c82eb67",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "Plasmodial slime moulds, and the cellular slime moulds live as amoebae during their feeding stage",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "f88fef19dc1c874388d90a68",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "In the immune system of humans and other animals, amoeboid white blood cells pursue invading organisms",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "4eae0e4c7cd8f4f274a805a8",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Maths",
+    "questionText": "State whether the following functions of alveoli are true or false They increase the surface area available for gaseous exchange",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "53e49974d526d7f282c6990d",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "They increase the flow of blood through the lung",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "31e6dedf5e17b7ae92648cf5",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "They filter particulate matter before it enters the blood stream",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "2663b356954dbb78ae22fc8b",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "Any response resulting in curvature of organs towards or away from stimulus is called tropism",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "79d8abf31ea8db91b5e083c2",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "Auxin is produced in root tips and is transported up the stem",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "56e90df97d3830a1488b4c20",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "The activity of vascular cambium is under the control of auxin transport",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "6e75673d12e508a9d6aa844e",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "Alleles are genes which occupy corresponding positions on homologous chromosomes",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "88bf9403e33701616ea5ee6d",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "Alleles control the same characteristic but not necessarily in the same way.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "5984af80db1ec9dffdc17d76",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "Continuous variation can be entirely genetic or result from a combination of genetic and environmental effects",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "b80904dc76aa0f12afdf2d59",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "The natural occurrence of individual plants bearing either staminate or pistillate flowers ensures self-pollination",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "1b9a5652f48fc43356c86ac9",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "The occurrence of a perfect flower, on a single plant favors cross pollination",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "400c6857934590f9949895d2",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "An individual plant that bears both staminate and pistillate flowers are known as monoecious",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "83f4b09b321dd691c0b0bf00",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "The Malpighian layer produces new skin cells and the pigment, melanin, which protects against ultraviolet light.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "04317024ad2ec70744aaf53b",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "The dermis of the skin reduces evaporation from the skin and resists entry of bacteria.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "e0201a89347a46f33384891f",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "Sensory nerve endings, nerve fibres, capillaries, arterioles and venules, sweat glands and ducts, can be found in the cornified layer of the skin",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "e45cfbcbe0bc477569ea68a2",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "State whether the following statements about locust and grasshoppers are true or false. Locusts can form dense swarms and bands while grasshoppers generally do not.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "bf7b619356556bcbad9d1203",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "Both locust and grasshopper belong to the order Orthoptera",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "6d3333f89db6b0eb73663fb1",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "Both locust and grasshopper go through complete metamorphosis",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "7630d0434a514128135933c7",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "State whether the following statements about lipids are true or false Triglycerides are the only known lipids",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "36c09bd53302a3b4c774fd38",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "One type of lipid, the triglycerides, is sequestered as fat in adipose cells, which serve as the energy-storage depot for organisms and also provide thermal insulation",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "a1caa6debc3765dee8d328ee",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Chemistry",
+    "questionText": "If lipids are present in a food substance, Sudan IV solution will stain them blue black",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "ef7643108ee97db5ded5adf6",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "Convergent evolution is the independent evolution of similar structures among related organisms as a result of similar environmental pressures",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "cbc142fbff8a7b8db5000276",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "Genetic drift is a change in the allele frequencies in a small population purely by chance",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "d97c906af5d536ebac349767",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "Adaptation is the equal survival and reproduction of organisms resulting in the preservation of favorable qualities.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "5b9b88b0b92248a53e3d7f04",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "Glycolysis, Krebs cycle and oxidative phosphorylation occur in mitochondria",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "7b483f0b56203482aa089374",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "Mitochondrion have their own ribosomes that are distinct from the normal eukaryotic ribosomes",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "4a39a9752a295e96187be59e",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "The mitochondrial matrix is the space between the inner and the outer membrane of the organelle.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "7337030a5c31cbb32b48025a",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "State whether the following examples of cryptic colouration are true or false. Mottled colours on the moths that rest in lichens",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "0c9a1fd012920148722d28bf",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "Bright colour of an insect pollinated flower",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "06d253e361a7fed6c3783907",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "Bright marks on poisonous tropical frog on variegated leaves",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "4396862d11de96806ca2b293",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "The dark reaction of photosynthesis involves the release of oxygen and the splitting of water",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "42ea660fb1325d0f7ade4b89",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "The dark reaction of photosynthesis involves the reduction of carbon (IV) oxide to organic compounds",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "73fecf5a58282cd3d025f834",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "The dark reaction of photosynthesis involves the photolysis of water and the production of starch",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "d18178652ab1034cb839c64a",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "If a nursing mother is not producing enough milk, then her hormonal system is probably deficient in thyroxin.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "08eb49ea3a5c8d9ed734c884",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "If a nursing mother is not producing enough milk, then her hormonal system is probably deficient in insulin.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "4181d54acc720db8e373454d",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "If a nursing mother is not producing enough milk, then her hormonal system is probably deficient in prolactin.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "c04bfe7b264d3c7c3bdb7e9b",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "Both dicot stems and monocot stems possess a wide pith",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "33613cb202b55109677e9320",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "Both dicot roots and monocot roots possess a wide pith",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "fb8cb42489696930f2da0073",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "Both dicot roots and monocot stems possess a wide pith",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "1a513f0ce541af9dfc0fd77c",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "The two key cations involved in the action potential of nervous transmissions are Na+ and Fe2+",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "8e9f770eabafc5d2ab15fd07",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "The two key cations involved in the action potential of nervous transmissions are Mg2+ and K+.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "105e8cd599fe6b34f6349cee",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "The two keys cation involved in the action potential of nervous transmissions are Fe2+ and Mg2+",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "1fd1ddc61ee4b6832a2b3711",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "Epigeal germination of a seed is characterized by lack of growth of the epicotyl",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "cdc7c5c350ea87c1637dc53e",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "Epigeal germination of a seed is characterized by equal growth of both the hypocotyl and epicotyl",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "d0b7963c501fecf77e4832c7",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "Epigeal germination of a seed is characterized by more rapid elongation of the epicotyl than the hypocotyl",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "a8d24b58630b4af24d257e38",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "Protists can reproduce sexually by meiosis or asexually by simple cell division",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "a89e1aa9c7aeaadaed2eda76",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "Many protists have specialized cellular structures that assist in movement and feeding and act as sensory organs",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "af128f375c1f363d03efb4dc",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "Some protists, are similar to fungi and act as decomposers.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "5404ed6b61cd54d84a78a817",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Maths",
+    "questionText": "Nitrifying bacteria require anaerobic conditions to function, hence flooding aids nitrification.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "6409fbf6bad75cecdce32ac5",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "Nitrifying bacteria are more sensitive to environmental stresses than other types of soil bacteria.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "64d44a8c3d68e103ae8470d9",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "Nitrification rates are slower in very acidic soils, while high alkalinity reduces Nitrobacter activity, causing an unfavourable build-up of nitrite in the soil.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "0532dfdb47624d6a88f7399c",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "State whether the following are true or false about the nucleus of animal cells It is separated from the cytoplasm by a double membrane of phospholipids.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "bba8c3d36aa389952b5fc1b0",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "It contains nuclear pores through which messenger RNA and DNA can exit the cytosol",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "608692e471a25225834ca2e8",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "It contains the nucleolus which is the site for synthesis of ribosomal RNA",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "bd0052633ec29ec076e8f297",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "The majority of bacteria are found in the upper surface layer of soil, thus nitrification declines when ploughing practices are not managed properly.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "5d6250fb01e473f7f35bf998",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Chemistry",
+    "questionText": "Nitrification may be enhanced by the presence of heavy metals and toxic compounds, or excessively high concentrations of ammonia.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "1f3aa76dd5597267f7e541f7",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "Denitrification may be detrimental to crop production, since nitrogen, phosphorus and potassium that are essential nutrients for plant growth, are lost during the process.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "6e69d2e86cec466d6287a67d",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "State whether the following are true or false about parts of a flower. The zygote is diploid",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "c8d86b3745ac12f6600df505",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "The anther is Diploid",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "1160b184f8ee05ebc42e0a79",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "The ovary is diploid",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "fcdb7b2573b1381127e0bcd7",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Chemistry",
+    "questionText": "A codon will code for only one amino acid",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "b7c5428f501e5a0b78b55ac1",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Chemistry",
+    "questionText": "Multiple codons can code for the same amino acid",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "1729e922b49894b7b8d44843",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "The codon found on mRNA are the same as the anticodon found on the tRNA",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "8a218073b866c9481f9270e4",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "Predator feeds on prey, hence both control the other’s population.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "aa7264f9bf98be79a6b5dde9",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "If there is no prey the predator will increase in population beyond carrying capacity",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "3d69ba34acad7fa19770f25d",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "As the number of predators begins to increase, the density of the prey population will increase in response to increased rates of predation",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "e442037c2841922a013d979e",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "As population density increases, birth rate often decreases and death rate typically increases.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "d5b39dcd6a7e50c4cfd9475c",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "Below carrying capacity, populations typically decrease, while above, they typically increase",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "fffbac32c156c9fa4f493199",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "Carrying capacity is a function of only the number of organisms, and the amount of resources each organism consumes.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "a0f6a71cf419cef2748e9ee9",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "State whether the following are true or false about enzymes The activity of an enzyme is affected by temperature but not pH of the system",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "a6f191bfa684b065c2f97cad",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "Enzymes are biological catalysts which do not require other molecules to perform their function",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "65119a2f896ca63f932d8df2",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "The binding of a substrate to an enzyme will change the shape of the enzyme",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "2985b95b1076242b27a76b55",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "State whether the following are true or false about inbreeding Individuals in the population experience reduced fitness.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "02a401c1bb5b197105ef02ee",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Physics",
+    "questionText": "Allele frequency change in a population",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "3fcbb8df93cb996060cc3f19",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "The frequency of homozygote genotypes increase in population.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "3db7a9e544bbab11e3c58fa9",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "How the adult stages of an organism proceeds is one of the fundamental characteristics of an animal body plan",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "6f208ef8e52ad9683aeeadb8",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "The number of tissue types found in embryos is one of the fundamental characteristics of an animal body plan",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "7f9b8589d3d3ee043bd7525e",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "The type of body symmetry is one of the fundamental characteristics of an animal body plan",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "12efeb6568c942be252a6bb2",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "State whether the following structural features of plants that live in dry environments are true or false. They possess thick cuticle, and stomata only on the upper surface of the leaf.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "73a1393ad98dfeed9b506ece",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "They have thin cuticle, and stomata only on the upper surface of the leaf.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "c594978ac4e1aeb1fd0e98ec",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "They have thin cuticle and sunken stomata surrounded by hairs.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "86f296d2a08eae06e234a30f",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "Hydrochloric acid is produced by cells in the lining of the small intestine and is responsible for cleaving peptide bonds",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "7f325cafd24216e137df9d6e",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "Hydrochloric acid in the stomach of mammals activates pepsinogen into the enzyme pepsin, which breaks up the peptides from the protein",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "e470f1dde10a10d83a78ec85",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Chemistry",
+    "questionText": "Hydrochloric acid acts as barrier to pathogens present in food",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "9793acbc8c0b9987ba7ad34d",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "Marine mammals maintain very thick insulating layers of fat that prevent heat loss through the process of evaporation.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "4798ee218644490d3c46a762",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "Marine mammals maintain very thick insulating layers of fat that prevent heat loss through the process of convection",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "3010f4ccce67733564ba8e03",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "Marine mammals maintain very thick insulating layers of fat that prevent heat loss through the process of radiation",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "8936fdbcebf5fbc5bd084e2e",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Maths",
+    "questionText": "State whether the following functions of mature fruit are true of false. Preventing seed dispersal because of their hard out covering.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "9e94a2dc0851302afb2a54c1",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "Synthesis and storage of essential red pigments",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "b88e08d38a0971b1b4d117c9",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "Seed protection and dispersal",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "57b77fefc0758cb04ea62a0a",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "The transport of carbon dioxide by the blood is principally dependent on the solubility of carbon dioxide in the blood",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "6a7f76ff928b80f2ced55f7a",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "The transport of carbon dioxide by the blood is principally dependent on the ability of haemoglobin to bind and transfer carbon dioxide.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "00ea61a0cb8ee9182dcce460",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "The transport of carbon dioxide by the blood is principally dependent on the presence of carbonic anhydrase in red blood cells.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "7d3ab4c7abc501eda1de1cc6",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "When pollen grains are mature, they are composed of diploid cells",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "65082b5216c8d739fea5de3b",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "When pollen grains are mature, they typically are composed of two cells",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "d0c499a381d007f87f97d6d1",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "When pollen grains are mature, they cannot travel for any great distance",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "d6d11dddd76eb85cefec7c0b",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "State whether the following are true or false about a somatic cell of a diploid cell which contains 20 chromosomes during interphase. A gamete will contain 20 chromosomes",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "61580cec0e9343ca23c7af1b",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "A gamete will contain 10 chromosomes",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "73ee2b8801b96eeae85fb27a",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "A somatic cell at metaphase will contain 20 chromatids",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "71ce14fdc5afc422cff70005",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "State whether the following roles are true or false of connective tissues? Protection of internal organs",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "1529e69093a3e6659e26d424",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "Support of internal organs",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "afdf88116a8c73c356b7b3ba",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "Transport of important substances throughout the body",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "1fc88d4b90a10f546881e619",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "The phospholipid has hydrophilic proteins coating both sides the bilayer.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "949de506259d910003608c5d",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "Two layers of proteins are interspersed with phospholipids.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "5171f9a8930c139680cd3542",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "The phospholipid bilayer contains diverse proteins, including some embedded amphipathic proteins that span the bilayer.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "cbf13bfcb3bb1941f69cb2fe",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "Which of the following conditions are true or false with respect to codominance. A black cat and a white cat mate to produce black cats",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "9f68612d689310ca30cc3d9a",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "A black cat and brown cat mate to produce tan cats",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "71557158f166b29d3dc181d4",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "A brown cat and a white cat mate to produce a cat with brown and white spots",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "f711307c6eaf3808a6e3ff9b",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "Within the nerve cell, information moves from axon to cell body to dendrite",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "93f34bd76698f73a5272a714",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "Within the nerve cell, information moves from dendrite to cell body to axon",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "26c009312eb21a9578149d03",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "Within the nerve cell, information moves from cell body to axon to dendrite.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "e0587b35533486dacc1deb85",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "The first step of aerobic respiration is transition reaction. State whether the following statements about transition reaction are true or false. It connects glycolysis to the Krebs cycle.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "8aa5c2b2fe49471845017dd4",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "It gives off carbon dioxide.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "223cacba25816b39fe5a469e",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "It utilizes NAD+ as a coenzyme",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "df3d3c157bf3084589518bfb",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "Viruses are considered nonliving because they can’t mutate and therefore don’t adapt",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "c97cdbdf2eef4af709c2dfae",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "Viruses carry with them their own ribosomes for protein formation",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "fcf4cb8c0b7822e7ee30d1e3",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "Viruses do not need ribosomes for protein formation",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "2cfb8f39faf272ccccfc8a12",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "The Guanine /Cytosine rich regions of DNA strands are held together more strongly than the adenine/thymine rich regions",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "eec5b6316dd15af47df50e9e",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "A double helix occur in both double stranded DNA and double stranded RNA molecules",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "4aeb09d28cb59ef444c08e3f",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "The double helix of a DNA molecule are held together by ionic bonds",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "6d358f44731f0dc9d49fbdbd",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "In a food chain, each succeeding level in a forward direction represents an increase in the number of individuals",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "224ce750faa14c82f6c1f3f2",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Physics",
+    "questionText": "In a food chain, each succeeding level in a forward direction represents a gain in the total energy being transferred",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "b3794dea49c83bfd3c2febfb",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "In a food chain, each succeeding level in a forward direction represents a decrease in the biomass of individuals",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "8802ee9bb2b662e6acab5302",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "Frequency of crossing over between two genes decreases if they are closely placed.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "71e8525a86a59e2569aaff20",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "Crossing over is a source of variation for producing new varieties.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "998949f7560c8a6ebccdf756",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "The strength of linkage between two genes increases if they are closely placed on a centromere.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "c70607053f3ae38040572784",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "Animals aestivate when the environment in which they live becomes cold and wet",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "78b8168e01b3def208718b5b",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "Animals aestivate when the environment in which they live becomes windy and snowy.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "37fb366432890b5925091780",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "Animals aestivate when the environment in which they live becomes warm and humid",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "03536f3d27ff1e2684e1752d",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "Kidney and lungs are located in the anterior half of the mammalian body cavity",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "a703d5f49833d2087f0ace20",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "Heart and ovary are located in the anterior half of the mammalian body cavity",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "49b8b8642030c78dc72c2f4a",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "Heart and kidneys are located in the anterior half of the mammalian body cavity",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "aa4b980a50b90783c9289a01",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "Tissue respiration is important for the absorption of oxygen into the alveoli",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "eef65ae3e02c2e24cc605ce9",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "Tissue respiration is important for release of carbon (IV) oxide into the lungs",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "a08dfe82c030bdae4751a5cb",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "Tissue respiration is important for the exhalation of carbon (IV) oxide from the lungs",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "54adfe1de55ad3b8ce63e7b8",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "In a population of living things, the parameters of size, height, weight and colour are examples of discontinuous variation",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "0466bd14c8abbd3c45f13e1f",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "In a population of living things, the parameters of size, height, weight and colour are examples of physiological variation",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "3874d33e6e2d39d33b5f08f5",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "In a population of living things, the parameters of size, height, weight and colour are examples of non-heritable variation",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "fe5cb0026b68754699a3f0e4",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "ATP is used only in animal cells and not in plant cells",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "64f961533ece552b77e81a3a",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "ATP is needed for chemical, mechanical, and transport processes in organisms",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "39a638a87364956928243c64",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Physics",
+    "questionText": "ATP carries energy between degradative pathways and synthetic pathways",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "574b45853362d76f5e01fc18",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "If the concentration of solutes in the blood rises above a certain level, less water is reabsorbed in the kidney tubules",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "ec7569d9659fbce9dcfef391",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "If the concentration of solutes in the blood rises above a certain level, more salt is reabsorbed in the kidney tubules",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "d8b5e408ca1911f91bd285f0",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "If the concentration of solutes in the blood rises above a certain level, less glucose is reabsorbed in the kidney tubules",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "c10432c87a12eb0b365a5c6e",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "State whether the following are true or false about how one can tell which part of the body a sensory nerve impulse comes from. Impulses from each part of the body are different.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "17d093fca92578525da21e3d",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "Sensations of touch, heat, light etc. are carried by nerve fibres to the brain.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "14656711f174e3035c4f5bc0",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "We learn from experience where the impulses come from",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "ff438374155d655ac3f733d7",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "Aerobic respiration releases oxygen from food during oxidation.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "30a1954e4b0c3cd4a0bb8aea",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "Aerobic respiration converts food to carbon dioxide and water.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "13a76355dfa2632d1f5cc605",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "Anaerobic respiration releases energy from food without using oxygen",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "5c5feb830a24f709b6018924",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "Neurons typically send signals over long distances by generating and propagating action potentials over excitable axonal membrane. State whether the following statements concerning the rate of action potential propagation are true or false. It is faster in large-diameter axons than in small-diameter ones.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "a52c904c4a69a6536512fe37",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "It is faster for a strong stimulus than for a weak one.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "21c24a9c45267d6b66d13b50",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "It is faster in myelinated nerve fibres than in non-myelinated ones.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "67473f97b5020e5eb316c3c2",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "Intake of food does not necessarily result in growth in organisms",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "847685cfa57117b61b74546d",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "There are periods in the lives of organisms where all the food is needed to provide energy and no growth can take place. Cell division usually contributes to growth but growth does not result solely from cell division.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "44454e3fd2ab7341725472da",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "For example, the frog’s egg cell undergoes rapid and repeated cell division but does not increase in size or mass Increase in size usually accompanies growth but unless there is a corresponding increase in mass it cannot be called growth",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "4beae1d3d70ce3a9dcee7712",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "State whether the following statements are true or false of the endocrine system It is composed of glands that secrete chemical messengers into the blood.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "daeddba9aa832e322086039a",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "It is an important regulator of homeostatic mechanisms.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "b209f71ae54b268a9278890c",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "It influences and is influenced by the nervous system",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "8308325cf3c2ee64f284a4b6",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Physics",
+    "questionText": "In order for the lungs to function normally, the intrapleural pressure must change as the respiratory demands of the body change.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "467e6813f2a7307faef6ff74",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Physics",
+    "questionText": "In order for the lungs to function normally, the intrapleural pressure must alternate between being less than and greater than atmospheric pressure.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "0a64980c7ddf9224333e539d",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Physics",
+    "questionText": "In order for the lungs to function normally, the intrapleural pressure must be the same as atmospheric pressure.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "57f277de083ac4ca339b7955",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "Transpiration is a physical process whereas evaporation is a physiological process",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "97eeda4e26ed9b23673d8621",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "In a natural environment, transpiration is a regulated process, whereas evaporation is a non-regulated process.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "4c41f4192407122f825eb7f8",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "The total amount of water that a plant loses through cuticular and lenticular transpiration are more than the water that it loses through stomatal transpiration.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "bf1a53dafa0d1f8173f42918",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "The oxygen binding affinity of haemoglobin is directly related to both the acidity and the concentration of carbon dioxide.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "1ae27319d1ef761c7eab9ed6",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "The oxygen binding affinity of haemoglobin is not related to the acidity and the concentration of carbon dioxide.",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "fd900297b699f711322f62c1",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "The oxygen binding affinity of haemoglobin is inversely related to both the acidity and to the concentration of carbon dioxide.",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "42b1b5aae89d9bb939b5dbb4",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "Insulin activity is not determined by adequate production by beta cells",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "ee4a1014205871d1c429e5f3",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "Insulin activity is determined by adequate number of receptors",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "0431057a2fb58af8565e6b9e",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "Insulin activity is determined by binding affinity between insulin and its receptor",
+    "correctAnswer": true,
+    "scored": true
+  },
+  {
+    "id": "28d06c55dbb401f4cfa9feef",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "The central dogma of molecular biology is the method by which cells transfer nucleic acids into functional molecules. State whether the following are true or false of the central dogma of molecular biology RNA →DNA →Protein",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "cf27e9d00d326bff861de52b",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "Protein → RNA → DNA",
+    "correctAnswer": false,
+    "scored": true
+  },
+  {
+    "id": "095661fafe3c02a5772108a3",
+    "sourceFile": "Biology Questions True or false.docx",
+    "subject": "Biology",
+    "questionText": "DNA → Protein → RNA",
+    "correctAnswer": false,
+    "scored": true
   }
 ]
