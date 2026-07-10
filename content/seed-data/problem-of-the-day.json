@@ -2,7 +2,7 @@
   {
     "id": "a50da04cf28b81a45b0c500e",
     "sourceFile": "Contest 12.doc",
-    "subject": "Maths",
+    "subject": "Physics",
     "questionText": "What is the angle of deviation for light incident at an angle on a plane mirror? (P)",
     "correctAnswer": "Twice the angle of incidence",
     "scored": false
@@ -10,7 +10,7 @@
   {
     "id": "072d52ca8830c0c5714eadd9",
     "sourceFile": "Contest 12.doc",
-    "subject": "Maths",
+    "subject": "Physics",
     "questionText": "If light is incident at 20° to the principal axis of a concave mirror, what will the angle between the axis and the reflected ray be? (P)",
     "correctAnswer": "20°",
     "scored": false
@@ -74,7 +74,7 @@
   {
     "id": "d11bd758fb937dda49b2fba5",
     "sourceFile": "Contest 12.doc",
-    "subject": null,
+    "subject": "Physics",
     "questionText": "Why does an observer far away hear the sound made by a carpenter's hammer a little later than he sees the hammer fall? (P)",
     "correctAnswer": "Speed of sound is much less than that of light",
     "scored": false
@@ -586,7 +586,7 @@
   {
     "id": "f579435b790df792876a7bab",
     "sourceFile": "Contest 14.doc",
-    "subject": null,
+    "subject": "Physics",
     "questionText": "The mechanical advantage of a lever is always greater than 1. (P)",
     "correctAnswer": "False",
     "scored": false
@@ -594,7 +594,7 @@
   {
     "id": "6973972665085a44c1882d9e",
     "sourceFile": "Contest 14.doc",
-    "subject": null,
+    "subject": "Physics",
     "questionText": "Any object distance gives a sharp image in a pinhole camera. (P)",
     "correctAnswer": "True",
     "scored": false
@@ -1162,7 +1162,7 @@
   {
     "id": "776b873f21eb7db083ee7c64",
     "sourceFile": "Contest 18.doc",
-    "subject": "Chemistry",
+    "subject": "Physics",
     "questionText": "Use the discriminant to determine the number of real solutions of the equation (M) When a loud speaker placed 67 cm behind a second loud speaker emits a note together with the other speaker, no sound is heard in front of the speakers. What is the longest wavelength of the note emitted by the speakers? (P)",
     "correctAnswer": "1.34 m [Destructive interference occurs when the path difference is an odd multiple of half the wavelength. The longest wavelength is therefore.]",
     "scored": false
@@ -1290,7 +1290,7 @@
   {
     "id": "88e0ce9db26da9c8523ec2af",
     "sourceFile": "Contest 18.doc",
-    "subject": "Biology",
+    "subject": "Physics",
     "questionText": "Use the discriminant to determine the number of real solutions of the equation (M) How is local action arrested in the simple cell? (P)",
     "correctAnswer": "By using pure Zinc as can be obtained by rubbing the surface of commercial zinc with mercury to cover up impurities on the surface of the zinc electrode",
     "scored": false
@@ -1938,7 +1938,7 @@
   {
     "id": "a21a92361a4219052f643f07",
     "sourceFile": "Contest 20.doc",
-    "subject": null,
+    "subject": "Physics",
     "questionText": "I am a phenomenon of nature. When I appear all darkness disappears, and night becomes as bright as day. I am created by electricity. My arrival is usually presaged by a radio pulse. At times I am accompanied by a thunderous sound. When you here that thunderous clap, seek shelter, because I come in a fiery electric column, in whose path nothing stands. Who am I? (P)",
     "correctAnswer": "Lightening",
     "scored": false
@@ -2186,7 +2186,7 @@
   {
     "id": "0a7dd11278820bb16069d4f0",
     "sourceFile": "Contest 24-2.doc",
-    "subject": "Chemistry",
+    "subject": "Physics",
     "questionText": "Change of the nature of electrodes in the electrolysis of an electrolyte can change the products formed. (C)",
     "correctAnswer": "True",
     "scored": false
@@ -2914,7 +2914,7 @@
   {
     "id": "fe69b969729e7e46ad2c73ce",
     "sourceFile": "Contest 28-2.doc",
-    "subject": "Biology",
+    "subject": "Physics",
     "questionText": "Describe any of the two electrodes in a lead storage battery (or car battery). (C)",
     "correctAnswer": "Q. What name is given to a xylem cell that is tapered at both ends and has thick walls containing pits? (B) Tracheid",
     "scored": false
@@ -3386,7 +3386,7 @@
   {
     "id": "da8ef3cfd66a2cc6baf735b4",
     "sourceFile": "Contest 3-1.doc",
-    "subject": null,
+    "subject": "Biology",
     "questionText": "Mammals and birds have fully developed double circulation. (B)",
     "correctAnswer": "True",
     "scored": false
@@ -4050,7 +4050,7 @@
   {
     "id": "93181341f7e72ead9b7ac895",
     "sourceFile": "Contest 34-1.doc",
-    "subject": "Maths",
+    "subject": "Physics",
     "questionText": "How many images of an object are formed in a pair of mirrors whose reflecting surfaces are inclined at an angle of 90°? (P)",
     "correctAnswer": "3",
     "scored": false
@@ -4058,7 +4058,7 @@
   {
     "id": "484c7de8e1938787a08d4da6",
     "sourceFile": "Contest 34-1.doc",
-    "subject": null,
+    "subject": "Physics",
     "questionText": "How many images of an object are formed in a pair of mirrors whose reflecting surfaces are parallel? (P)",
     "correctAnswer": "An infinite number",
     "scored": false
@@ -4178,7 +4178,7 @@
   {
     "id": "b0320cf4bf69026f34b9dc97",
     "sourceFile": "Contest 34-1.doc",
-    "subject": null,
+    "subject": "Physics",
     "questionText": "One end of a rope is fixed to a rigid support and the other end is wiggled so that a pulse travels towards the fixed end. What will happen to the pulse when it reaches the fixed end? (P)",
     "correctAnswer": "It will be reflected and inverted",
     "scored": false
@@ -4210,7 +4210,7 @@
   {
     "id": "a0225ff5b44e68cc6001637b",
     "sourceFile": "Contest 34-1.doc",
-    "subject": null,
+    "subject": "Physics",
     "questionText": "The mirror images of 2-methyl-2-propanol will not be superimposable. (C)",
     "correctAnswer": "False [will be superimposable, no chiral atom/centre]",
     "scored": false
@@ -4218,7 +4218,7 @@
   {
     "id": "f3e5a55b2967b82600e0a142",
     "sourceFile": "Contest 34-1.doc",
-    "subject": null,
+    "subject": "Physics",
     "questionText": "The mirror images of 2-butanol will be superimposable on each other. (C)",
     "correctAnswer": "False [2-butanol contains a chiral C]",
     "scored": false
@@ -5170,7 +5170,7 @@
   {
     "id": "392b163439a999e3e8af8e89",
     "sourceFile": "Contest 8-1.doc",
-    "subject": null,
+    "subject": "Physics",
     "questionText": "If an astronomical refracting telescope is used in normal adjustment to view an object at infinity, where will the final image be formed? (P)",
     "correctAnswer": "Infinity",
     "scored": false
@@ -5178,7 +5178,7 @@
   {
     "id": "2de31211131ad40d982cb99b",
     "sourceFile": "Contest 8-1.doc",
-    "subject": "Maths",
+    "subject": "Physics",
     "questionText": "If in a normally adjusted astronomical telescope, an object at infinity gives a final image at infinity, how can it be that the observer perceives an image that is larger than the object? (P)",
     "correctAnswer": "The angle subtended by the image at the eye is larger (The eyepiece has a shorter focal length than the objective) Preamble: Find the measure of the angle between two lines if the lines are (M)",
     "scored": false

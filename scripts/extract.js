@@ -457,6 +457,15 @@ const SUBJECT_KEYWORDS = {
     'force', 'velocity', 'acceleration', 'energy', 'current', 'voltage', 'circuit',
     'wave', 'frequency', 'momentum', 'charge', 'magnetic', 'motion', 'friction',
     'pressure', 'refractive', 'lens', 'newton', 'joule', 'radioactivity', 'nuclear',
+    // Optics (mirror/lever/acoustics/electricity vocabulary was entirely missing before,
+    // even though "refractive"/"lens" covered adjacent optics terms) - see the null-subject
+    // riddle diagnostic: "mirror", "image", "lever"/"fulcrum" etc. never matched anything.
+    // "mirror" excludes "mirror symmetry" specifically - a false positive found on a Maths
+    // quadrilateral riddle ("I have mirror symmetry about a diagonal"), the geometry sense
+    // of the word, not optics.
+    { word: 'mirror', excludeIfFollowedBy: 'symmetry' },
+    'image', 'inverted', 'reflect', 'lever', 'fulcrum', 'sound', 'echo',
+    'acoustic', 'electricity', 'electrode',
   ],
   Biology: [
     'cell', 'organism', 'plant', 'animal', 'gene', 'protein', 'enzyme', 'tissue',
@@ -464,6 +473,14 @@ const SUBJECT_KEYWORDS = {
     'taxonomy', 'blood', 'nerve', 'muscle', 'reproduction', 'hormone', 'digestion',
     'evolution', 'cavity', 'membrane', 'phylum', 'genotype', 'phenotype', 'meiosis',
     'mitosis', 'gamete', 'metabolic', 'biological', 'biology',
+    // Ornithology and endocrinology vocabulary - see the null-subject riddle diagnostic
+    // ("bird of prey" and "goitre" riddles scored zero on every subject). "iodine" requires
+    // corroboration - a false positive found on a Chemistry/Physics sublimation riddle that
+    // mentioned iodine only as an offhand example ("Camphor and iodine are two of my several
+    // friends"), not as the riddle's actual subject matter; iodine is also a common Chemistry
+    // element, so on its own it isn't a reliable enough signal for Biology.
+    'bird', 'beak', 'talon', 'ornithology', 'gland', 'goitre',
+    { word: 'iodine', requiresCorroboration: true },
   ],
   Chemistry: [
     'reaction', 'compound', 'element', 'acid', 'base', 'mole', 'moldm', 'solution',
@@ -475,18 +492,44 @@ const SUBJECT_KEYWORDS = {
     'equation', 'function', 'integral', 'derivative', 'probability', 'sequence',
     'matrix', 'polynomial', 'geometry', 'angle', 'triangle', 'differentiate',
     'trigonometric', 'logarithm', 'factorise', 'simplify',
+    // "locus"/"curve" - see the null-subject riddle diagnostic (a geometry riddle about a
+    // locus of points scored zero on every subject despite being unambiguously Maths).
+    'locus', 'curve',
   ],
 };
 
 // Word-boundary match with a tolerated trailing "s"/"es" so plurals ("plants", "gametes")
 // still count - a bare \b...\b would otherwise miss every plural, since strict word-boundary
 // matching (needed to stop "ion" matching inside "reactions") is exact by default.
+// A keyword entry is normally just a string, but can instead be an object for two narrow
+// per-word carve-outs (added after specific false positives were found - not a general
+// mechanism to lean on further without similarly concrete evidence):
+//   - excludeIfFollowedBy: the word doesn't count as a hit when immediately followed by this
+//     other word - e.g. "mirror" followed by "symmetry" is the geometry sense ("mirror
+//     symmetry" / "line of symmetry"), not optics.
+//   - requiresCorroboration: the word only counts as a hit when at least one OTHER
+//     (non-corroboration-requiring) keyword from the same subject also hits - e.g. "iodine"
+//     is also a common Chemistry element, so a single incidental mention (an offhand example
+//     in an unrelated riddle) shouldn't be enough on its own to assign Biology.
+function escapeRegExp(s) {
+  return s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+}
+
 function countKeywordHits(lower, words) {
-  return words.reduce(
-    (acc, w) =>
-      acc + (new RegExp(`\\b${w.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}e?s?\\b`, 'i').test(lower) ? 1 : 0),
-    0
-  );
+  let strongHits = 0;
+  let weakHits = 0;
+  for (const w of words) {
+    const entry = typeof w === 'string' ? { word: w } : w;
+    const exclusion = entry.excludeIfFollowedBy
+      ? `(?!\\s+${escapeRegExp(entry.excludeIfFollowedBy)})`
+      : '';
+    const re = new RegExp(`\\b${escapeRegExp(entry.word)}${exclusion}e?s?\\b`, 'i');
+    if (re.test(lower)) {
+      if (entry.requiresCorroboration) weakHits++;
+      else strongHits++;
+    }
+  }
+  return strongHits + (strongHits > 0 ? weakHits : 0);
 }
 
 // Word-boundary keyword matching (not naive substring - "ion" must not match inside

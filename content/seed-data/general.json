@@ -1231,7 +1231,7 @@
   {
     "id": "b2dc901af2c76f85d44c20ad",
     "sourceFile": "2018 NSMQ Maths Questions.docx",
-    "subject": "Maths",
+    "subject": "Physics",
     "questionText": "3 y = -x2",
     "correctAnswer": "Reflect the graph of y = x2 in the x-axis",
     "scored": false
@@ -5432,7 +5432,7 @@
   {
     "id": "74b2d095fcde3dacf02106cd",
     "sourceFile": "CONTEST 15.doc",
-    "subject": null,
+    "subject": "Maths",
     "questionText": "Find the stationary points of the given curve y = x3 - 3x2 + 6",
     "correctAnswer": "(0, 6) and (2, 2) [dy/dx = 3x2 - 6x = 0, 3x(x - 2) = 0, hence x = 0, x = 2 For x = 0, y = 6 and for x = 2 y = 8 - 12 + 6 = 2, points are (0, 6) and (2, 2) ] y = 3x - x3",
     "scored": false
@@ -5882,7 +5882,7 @@
   {
     "id": "8c41d00098f77f88f2aa1c53",
     "sourceFile": "CONTEST 15.docx",
-    "subject": "Biology",
+    "subject": "Physics",
     "questionText": "Calculate the emf of a voltaic cell with whose cell reaction is as follows: H2 + I2 → 2HI given that the electrode potential of I2/I- is 1.02 volt",
     "correctAnswer": "H2 - 2e → 2H+ 0.00 volt",
     "scored": false
@@ -5890,7 +5890,7 @@
   {
     "id": "b0aacdab5cb0268337ed4029",
     "sourceFile": "CONTEST 16.docx",
-    "subject": null,
+    "subject": "Physics",
     "questionText": "Find the image of the point A(2, 4) under A reflection in the line x = 5",
     "correctAnswer": "(8, 4) [5 – 2 = 3 and 5 + 3 = 8, hence (8, 4)]",
     "scored": false
@@ -6027,7 +6027,7 @@
   {
     "id": "692b729af5ecf7acdae74b84",
     "sourceFile": "CONTEST 16.docx",
-    "subject": "Biology",
+    "subject": "Physics",
     "questionText": "They have shiny, silvery look when clean. They are malleable. They are ductile. They are good conductors of heat They are good conductors of electricity. A 70 kg passenger rides up then down in an elevator. What is the apparent weight of the passenger when the elevator is moving up with constant speed?",
     "correctAnswer": "What is the apparent weight of the passenger when the elevator is moving down with constant speed? What is the apparent weight of the passenger when the elevator falls freely? Fill in the blank The inner membrane of the mitochondria is folded to form shelve like structures known as .__________. Cristae",
     "scored": false
@@ -8466,7 +8466,7 @@
   {
     "id": "9855975a627ad5565a37e3b6",
     "sourceFile": "CONTEST 22.doc",
-    "subject": null,
+    "subject": "Biology",
     "questionText": "What name is given to feathers in birds that provide much of the streamlining and prevents heat loss?",
     "correctAnswer": "Contour Name the feathers in birds that are small, soft with short shafts and barbs that are not interlocked",
     "scored": false,
@@ -8699,7 +8699,7 @@
   {
     "id": "bf143cc0d5460211deee6080",
     "sourceFile": "CONTEST 26.doc",
-    "subject": "Physics",
+    "subject": "Biology",
     "questionText": "What is the time constant for a circuit containing a capacitance of and a resistance of ?",
     "correctAnswer": "What is the resistance in a circuit containing a capacitance of if the time constant of the circuit is ? What name is given to the study of birds? Ornithology What name is given to the study of insects?",
     "scored": false
@@ -8896,7 +8896,7 @@
   {
     "id": "7a7729462d6671e81af3557d",
     "sourceFile": "CONTEST 3 (1).doc",
-    "subject": null,
+    "subject": "Physics",
     "questionText": "Name the instrument by which the first visual image of a virus was obtained.",
     "correctAnswer": "Electron microscope",
     "scored": false
@@ -9142,7 +9142,7 @@
   {
     "id": "e7282073fc6c021e56ccbe63",
     "sourceFile": "CONTEST 3.doc",
-    "subject": null,
+    "subject": "Physics",
     "questionText": "Name the instrument by which the first visual image of a virus was obtained.",
     "correctAnswer": "Electron microscope",
     "scored": false
@@ -9357,7 +9357,7 @@
   {
     "id": "d10a9e322f0862bdd1f13068",
     "sourceFile": "CONTEST 30.doc",
-    "subject": null,
+    "subject": "Maths",
     "questionText": "Find the finite area bounded by the given curve and the x-axis",
     "correctAnswer": "36 [, ]",
     "scored": false,
@@ -10403,7 +10403,7 @@
   {
     "id": "e77a25958008676a2ce9cb3d",
     "sourceFile": "CONTEST 5 (1).doc",
-    "subject": "Chemistry",
+    "subject": "Physics",
     "questionText": "What is an electrochemical cell?",
     "correctAnswer": "A set up consisting of electrodes dipping into an electrolyte in which a chemical reaction generates or uses an electric current. What is the name of a cell that uses an electric current to drive a spontaneous reaction?",
     "scored": false,
@@ -10493,7 +10493,7 @@
   {
     "id": "7a0366399c787e4fc28c1a91",
     "sourceFile": "CONTEST 5 (1).doc",
-    "subject": null,
+    "subject": "Physics",
     "questionText": "The radius of curvature of a concave mirror is 50 cm. What is the focal length of the mirror?",
     "correctAnswer": "25 cm",
     "scored": false
@@ -10501,7 +10501,7 @@
   {
     "id": "dd5a39a1bbf17c1252c44b76",
     "sourceFile": "CONTEST 5 (1).doc",
-    "subject": null,
+    "subject": "Physics",
     "questionText": "A concave mirror forms a real inverted image of an object at the same location on the axis of the mirror as the object. What is the focal length of the mirror if the object is 150 cm from the pole of the mirror?",
     "correctAnswer": "75 cm If x +3y = 2x, find the ratio x : y",
     "scored": false
@@ -10679,7 +10679,7 @@
   {
     "id": "fb85345290f2d30e7639d5ce",
     "sourceFile": "CONTEST 5.doc",
-    "subject": "Chemistry",
+    "subject": "Physics",
     "questionText": "What is an electrochemical cell?",
     "correctAnswer": "A set up consisting of electrodes dipping into an electrolyte in which a chemical reaction generates or uses an electric current. What is the name of a cell that uses an electric current to drive a spontaneous reaction?",
     "scored": false,
@@ -10769,7 +10769,7 @@
   {
     "id": "01d2810565a55d826e121446",
     "sourceFile": "CONTEST 5.doc",
-    "subject": null,
+    "subject": "Physics",
     "questionText": "The radius of curvature of a concave mirror is 50 cm. What is the focal length of the mirror?",
     "correctAnswer": "25 cm",
     "scored": false
@@ -10777,7 +10777,7 @@
   {
     "id": "47a2bdbf4568205f3a374506",
     "sourceFile": "CONTEST 5.doc",
-    "subject": null,
+    "subject": "Physics",
     "questionText": "A concave mirror forms a real inverted image of an object at the same location on the axis of the mirror as the object. What is the focal length of the mirror if the object is 150 cm from the pole of the mirror?",
     "correctAnswer": "75 cm If x +3y = 2x, find the ratio x : y",
     "scored": false
@@ -11932,7 +11932,7 @@
   {
     "id": "ed1b3603f8526d1a87dd0f5d",
     "sourceFile": "CONTEST 8 (1).doc",
-    "subject": null,
+    "subject": "Physics",
     "questionText": "If the sound in front of two loud speakers, one directly behind the other, is first inaudible when the distance between the speakers is 0.65 m as it is increased from zero, what is the wavelength of the sound from the speakers?",
     "correctAnswer": "1.3 m Destructive interference occurs when the path difference is an odd multiple of half wavelengths. The first null occurs when the path difference is half a wavelength",
     "scored": false
@@ -12202,7 +12202,7 @@
   {
     "id": "86556aff9723cf8a3c7d2cca",
     "sourceFile": "CONTEST 8.doc",
-    "subject": null,
+    "subject": "Physics",
     "questionText": "If the sound in front of two loud speakers, one directly behind the other, is first inaudiblewhen the distance between the speakers is 0.65 m as it is increased from zero, what is the wavelength of the sound from the speakers?",
     "correctAnswer": "1.3 m Destructive interference occurs when the path difference is an odd multiple of half wavelengths. The first null occurs when the path difference is half a wavelength",
     "scored": false
@@ -12423,7 +12423,7 @@
   {
     "id": "b1e5a36f864b08c252b5bd09",
     "sourceFile": "CONTEST 9.doc",
-    "subject": null,
+    "subject": "Physics",
     "questionText": "What is the ratio of the intensity of sound at 2 m to the intensity at 10 m from a small speaker?",
     "correctAnswer": "25 [Intensity obeys the inverse square law so .]",
     "scored": false
@@ -12664,7 +12664,7 @@
   {
     "id": "3a96764a57b8a7dfe61d051e",
     "sourceFile": "Contest 1-1.doc",
-    "subject": null,
+    "subject": "Maths",
     "questionText": "Identify the locus. (M) Points in a plane equidistant from a fixed point in the plane.",
     "correctAnswer": "Circle",
     "scored": false
@@ -12672,7 +12672,7 @@
   {
     "id": "0ba7ab429c5981a161427260",
     "sourceFile": "Contest 1-1.doc",
-    "subject": null,
+    "subject": "Maths",
     "questionText": "Identify the locus. (M) Points in a plane equidistant from a given line in the plane.",
     "correctAnswer": "Parallel line to the given line",
     "scored": false
@@ -12960,7 +12960,7 @@
   {
     "id": "ce61a07c37c0c79cd3889178",
     "sourceFile": "Contest 11.doc",
-    "subject": null,
+    "subject": "Physics",
     "questionText": "Rationalise the denominator. (M) Give the characteristics of the intermediate image formed in a normally adjusted astronomical refracting telescope. (P)",
     "correctAnswer": "Real, inverted, diminished",
     "scored": false
@@ -12968,7 +12968,7 @@
   {
     "id": "d799ede88b782e49b2ee55f2",
     "sourceFile": "Contest 11.doc",
-    "subject": null,
+    "subject": "Physics",
     "questionText": "Rationalise the denominator. (M) The size of the pinhole in a pinhole camera is increased. State the effect on the image. (P)",
     "correctAnswer": "Brighter but blurry image",
     "scored": false
@@ -13040,7 +13040,7 @@
   {
     "id": "ce232feade706672e1f84ca1",
     "sourceFile": "Contest 11.doc",
-    "subject": "Maths",
+    "subject": "Physics",
     "questionText": "A 10 cm high object is placed in front of a pinhole camera. The camera screen is 1 cm away from the pinhole. (P) How far must the object be from the pinhole if the image height must be 1cm?",
     "correctAnswer": "10 cm (By similar triangles",
     "scored": false
@@ -13064,7 +13064,7 @@
   {
     "id": "927671938af0faa1890e8930",
     "sourceFile": "Contest 11.doc",
-    "subject": null,
+    "subject": "Physics",
     "questionText": "The image formed in a camera is real and erect. (P)",
     "correctAnswer": "F",
     "scored": false
@@ -13144,7 +13144,7 @@
   {
     "id": "ed6bc71ef370ece1e6621e36",
     "sourceFile": "Contest 11.doc",
-    "subject": null,
+    "subject": "Physics",
     "questionText": "An upright object forms a real, inverted image on the retina. (P)",
     "correctAnswer": "T",
     "scored": false
@@ -13505,7 +13505,7 @@
   {
     "id": "f502ae3cef26e7bc4b6a754b",
     "sourceFile": "Contest 13.doc",
-    "subject": null,
+    "subject": "Physics",
     "questionText": "A blue flower appears blue in white light because it absorbs blue light and reflects all other colours. (P)",
     "correctAnswer": "F",
     "scored": false
@@ -13929,7 +13929,7 @@
   {
     "id": "98383cb909e1e9cb87e54c17",
     "sourceFile": "Contest 17.doc",
-    "subject": "Chemistry",
+    "subject": "Physics",
     "questionText": "The final image in a compound microscope is an inverted virtual image of the intermediate image formed by the objective. (P)",
     "correctAnswer": "F",
     "scored": false
@@ -15241,7 +15241,7 @@
   {
     "id": "22c7b825a347a79ca53bf898",
     "sourceFile": "Contest 25-1-1.doc",
-    "subject": "Biology",
+    "subject": "Physics",
     "questionText": "Find a and b such that (M) Why is a lead storage battery a secondary cell? (C)",
     "correctAnswer": "It can be recharged by passing electricity through the cell",
     "scored": false
@@ -15313,7 +15313,7 @@
   {
     "id": "faa777c84e82334e12f22d0a",
     "sourceFile": "Contest 25-1-1.doc",
-    "subject": null,
+    "subject": "Physics",
     "questionText": "Find a and b such that (M) The point A (3, 4) is reflected in the line y = x and the image point is further reflected in the x-axis. Find the coordinates of the final image point. (M)",
     "correctAnswer": "A'' (4, -3) [",
     "scored": false
@@ -15321,7 +15321,7 @@
   {
     "id": "f9082bc7286e9da1108245e5",
     "sourceFile": "Contest 25-1-1.doc",
-    "subject": null,
+    "subject": "Physics",
     "questionText": "Find a and b such that (M) The point B (-1, 2) is translated by the vector and the image point reflected in the y-axis. Find the coordinates of the final image point. (M)",
     "correctAnswer": "B'' (-2, 4) [",
     "scored": false
@@ -17336,7 +17336,7 @@
   {
     "id": "f9d21c15721bf31d6c9f2f35",
     "sourceFile": "MAIN CONTEST 30.docx",
-    "subject": "Biology",
+    "subject": "Physics",
     "questionText": "Two half-cells A+/A and B+/B have the standard electrode potentials -0.60 and +0.7 volts respectively. Write the equation for the cell reaction, and calculate the emf of a cell that can be created from the two half-cells",
     "correctAnswer": "Cell Reaction: A + B+ → A+ + B Emf = 0.60 + 0.7 = 1.3V",
     "scored": false
@@ -17344,7 +17344,7 @@
   {
     "id": "adb352411681b08307bbce50",
     "sourceFile": "MAIN CONTEST 30.docx",
-    "subject": "Biology",
+    "subject": "Physics",
     "questionText": "Two half-cells C+/C and D2+/D have the standard electrode potentials -0.65 and -0.54 volts respectively. Write the equation for the cell reaction, and calculate the emf of a cell that can be created from the two half-cells.",
     "correctAnswer": "Cell Reaction: 2C + D2+ → 2C+ + D Emf = 0.65 - 0.54 = 0.11v",
     "scored": false
@@ -17352,7 +17352,7 @@
   {
     "id": "5068e6bd74781cb8c9dc1631",
     "sourceFile": "MAIN CONTEST 30.docx",
-    "subject": "Biology",
+    "subject": "Physics",
     "questionText": "Two half-cells E+/E and F+/F have the standard electrode potential +0.72 and +0.32 volts respectively. Write the equation for the cell reaction, and calculate the emf of a cell that can be created from the two half-cells.",
     "correctAnswer": "Cell Reaction: F + E+ → F+ + E Emf = 0.72 - 0.32 = 0.40v",
     "scored": false
@@ -17496,7 +17496,7 @@
   {
     "id": "f630474330161caca3d4e1f7",
     "sourceFile": "MAIN CONTEST 32.docx",
-    "subject": "Biology",
+    "subject": "Physics",
     "questionText": "will be the cell reaction of a cell with positive emf. Consider the two half-cells and their corresponding electrode potentials: B+/B, -0.62V and C+/C, +0.37V. Deduce which of the two B and C can act as a reducing agent in a redox reaction.",
     "correctAnswer": "a) Positive emf: B + C+ → B+ + C",
     "scored": false
