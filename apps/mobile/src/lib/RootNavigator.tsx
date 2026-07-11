@@ -3,7 +3,7 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { Feather } from '@expo/vector-icons';
 import HomeScreen from '../screens/HomeScreen';
-import QuizScreen from '../screens/QuizScreen';
+import QuizStack from './QuizStack';
 import LeaderboardScreen from '../screens/LeaderboardScreen';
 import StoreScreen from '../screens/StoreScreen';
 import ProfileScreen from '../screens/ProfileScreen';
@@ -46,7 +46,7 @@ export function RootNavigator() {
           },
           tabBarLabelStyle: {
             fontFamily: theme.fonts.bodyMedium,
-            fontSize: 11,
+            fontSize: 10,
           },
           tabBarIcon: ({ color, size }) => (
             <Feather name={TAB_ICONS[route.name as keyof RootTabParamList]} color={color} size={size} />
@@ -54,7 +54,7 @@ export function RootNavigator() {
         })}
       >
         <Tab.Screen name="Home" component={HomeScreen} />
-        <Tab.Screen name="Quiz" component={QuizScreen} />
+        <Tab.Screen name="Quiz" component={QuizStack} />
         <Tab.Screen name="Leaderboard" component={LeaderboardScreen} />
         <Tab.Screen name="Store" component={StoreScreen} />
         <Tab.Screen name="Profile" component={ProfileScreen} />
