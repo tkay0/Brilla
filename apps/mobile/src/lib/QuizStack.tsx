@@ -3,6 +3,7 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import QuizScreen from '../screens/QuizScreen';
 import SpeedRaceScreen from '../screens/SpeedRaceScreen';
 import TrueOrFalseScreen from '../screens/TrueOrFalseScreen';
+import RiddlesScreen from '../screens/RiddlesScreen';
 import { PlaceholderScreen } from '../screens/PlaceholderScreen';
 
 export type QuizStackParamList = {
@@ -24,7 +25,7 @@ export function QuizStack() {
       <Stack.Screen name="Practice">{() => <PlaceholderScreen name="Practice" />}</Stack.Screen>
       <Stack.Screen name="SpeedRace" component={SpeedRaceScreen} />
       <Stack.Screen name="TrueOrFalse" component={TrueOrFalseScreen} />
-      <Stack.Screen name="Riddles">{() => <PlaceholderScreen name="Riddles" />}</Stack.Screen>
+      <Stack.Screen name="Riddles" component={RiddlesScreen} />
     </Stack.Navigator>
   );
 }
