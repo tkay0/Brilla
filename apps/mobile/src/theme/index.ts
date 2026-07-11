@@ -8,6 +8,10 @@ export const colors = {
   surface: '#FFFFFF',
   ink: '#14142B',
   inkMuted: '#6E6E80',
+  // Answer-feedback tints (correct/incorrect) - accent doubles as the incorrect color.
+  success: '#12A150',
+  successBg: '#E3F6EA',
+  errorBg: '#FCE7E7',
 } as const;
 
 // 8-10px standard, no larger - keep every radius in this range.
