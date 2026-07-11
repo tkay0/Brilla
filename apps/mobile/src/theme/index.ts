@@ -12,6 +12,8 @@ export const colors = {
   success: '#12A150',
   successBg: '#E3F6EA',
   errorBg: '#FCE7E7',
+  // Timer-bar mid-range tint (last ~25% of time before it turns red).
+  warning: '#F5A623',
 } as const;
 
 // 8-10px standard, no larger - keep every radius in this range.

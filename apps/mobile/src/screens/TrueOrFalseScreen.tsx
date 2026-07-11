@@ -12,62 +12,61 @@ import { theme } from '../theme';
 import type { QuizStackParamList } from '../lib/QuizStack';
 import { useTimedRound } from '../lib/useTimedRound';
 
-type Question = {
+type Statement = {
   subject: string;
-  question: string;
-  options: string[];
-  correctIndex: number;
+  statement: string;
+  answer: boolean;
 };
 
-// Sample questions until the backend exists - cycled through in order, then the round ends.
-const QUESTIONS: Question[] = [
+// Sample statements until the backend exists - cycled through in order, then the round ends.
+const STATEMENTS: Statement[] = [
   {
     subject: 'Physics',
-    question: 'What is the SI unit of force?',
-    options: ['Newton', 'Joule', 'Watt', 'Pascal'],
-    correctIndex: 0,
+    statement: 'Light travels faster than sound.',
+    answer: true,
   },
   {
     subject: 'Chemistry',
-    question: 'What is the chemical symbol for Gold?',
-    options: ['Ag', 'Au', 'Gd', 'Pb'],
-    correctIndex: 1,
+    statement: 'Water is composed of hydrogen and nitrogen.',
+    answer: false,
   },
   {
     subject: 'Biology',
-    question: 'Which organelle is known as the powerhouse of the cell?',
-    options: ['Nucleus', 'Ribosome', 'Mitochondrion', 'Golgi apparatus'],
-    correctIndex: 2,
+    statement: 'The human body has 206 bones as an adult.',
+    answer: true,
   },
   {
     subject: 'Mathematics',
-    question: 'What is the value of π rounded to 2 decimal places?',
-    options: ['3.12', '3.14', '3.16', '3.18'],
-    correctIndex: 1,
+    statement: 'Zero is a prime number.',
+    answer: false,
+  },
+  {
+    subject: 'History',
+    statement: 'The Great Wall of China is visible from the Moon with the naked eye.',
+    answer: false,
   },
 ];
 
-const OPTION_LETTERS = ['A', 'B', 'C', 'D'];
-const ROUND_SECONDS = 35;
+const ROUND_SECONDS = 15;
 const XP_PER_CORRECT = 3;
 
-export default function SpeedRaceScreen() {
+export default function TrueOrFalseScreen() {
   const navigation = useNavigation<NativeStackNavigationProp<QuizStackParamList>>();
   const {
-    question,
+    question: statement,
     secondsLeft,
     phase,
-    selectedAnswer: selectedIndex,
+    selectedAnswer,
     totalXP,
     answered,
     earnedThisQuestion,
-    submitAnswer: handleSelect,
+    submitAnswer,
     advance,
-  } = useTimedRound<Question, number>({
-    questions: QUESTIONS,
+  } = useTimedRound<Statement, boolean>({
+    questions: STATEMENTS,
     roundSeconds: ROUND_SECONDS,
     xpPerCorrect: XP_PER_CORRECT,
-    isCorrect: (q, answer) => answer === q.correctIndex,
+    isCorrect: (s, given) => given === s.answer,
   });
 
   if (phase === 'complete') {
@@ -92,23 +91,23 @@ export default function SpeedRaceScreen() {
           <Pressable onPress={() => navigation.goBack()} hitSlop={8}>
             <Feather name="chevron-left" size={26} color={theme.colors.ink} />
           </Pressable>
-          <Text style={styles.roundLabel}>Speed Race</Text>
+          <Text style={styles.roundLabel}>True or False</Text>
           <View style={styles.headerSpacer} />
         </View>
 
         <View style={styles.metaRow}>
-          <Pill label={question.subject} backgroundColor={theme.colors.bg} textColor={theme.colors.inkMuted} />
+          <Pill label={statement.subject} backgroundColor={theme.colors.bg} textColor={theme.colors.inkMuted} />
           <TimerBar secondsLeft={secondsLeft} totalSeconds={ROUND_SECONDS} />
         </View>
 
-        <Card style={styles.questionCard}>
-          <Text style={theme.type.h3}>{question.question}</Text>
+        <Card style={styles.statementCard}>
+          <Text style={theme.type.h3}>{statement.statement}</Text>
         </Card>
 
         <View style={styles.options}>
-          {question.options.map((option, index) => {
-            const isCorrectOption = index === question.correctIndex;
-            const isSelected = index === selectedIndex;
+          {([true, false] as const).map((value) => {
+            const isCorrectOption = value === statement.answer;
+            const isSelected = value === selectedAnswer;
 
             let tintStyle: ViewStyle = styles.optionDefault;
             if (answered) {
@@ -122,17 +121,14 @@ export default function SpeedRaceScreen() {
             }
 
             return (
-              <Pressable key={option} onPress={() => handleSelect(index)} disabled={answered}>
+              <Pressable key={String(value)} onPress={() => submitAnswer(value)} disabled={answered}>
                 <View style={[styles.option, tintStyle]}>
-                  <View style={styles.optionContent}>
-                    <Text style={styles.optionLetter}>{OPTION_LETTERS[index]}</Text>
-                    <Text style={styles.optionLabel}>{option}</Text>
-                  </View>
+                  <Text style={styles.optionLabel}>{value ? 'True' : 'False'}</Text>
                   {answered && isCorrectOption && (
-                    <Feather name="check" size={18} color={theme.colors.success} />
+                    <Feather name="check" size={22} color={theme.colors.success} />
                   )}
                   {answered && isSelected && !isCorrectOption && (
-                    <Feather name="x" size={18} color={theme.colors.accent} />
+                    <Feather name="x" size={22} color={theme.colors.accent} />
                   )}
                 </View>
               </Pressable>
@@ -181,7 +177,7 @@ const styles = StyleSheet.create({
     justifyContent: 'space-between',
     gap: theme.spacing.sm,
   },
-  questionCard: {
+  statementCard: {
     minHeight: 96,
     justifyContent: 'center',
   },
@@ -191,10 +187,11 @@ const styles = StyleSheet.create({
   option: {
     flexDirection: 'row',
     alignItems: 'center',
-    justifyContent: 'space-between',
+    justifyContent: 'center',
+    gap: theme.spacing.sm,
     backgroundColor: theme.colors.surface,
     borderRadius: theme.radii.lg,
-    padding: theme.spacing.md,
+    paddingVertical: theme.spacing.lg,
   },
   optionDefault: {
     backgroundColor: theme.colors.surface,
@@ -209,17 +206,8 @@ const styles = StyleSheet.create({
     backgroundColor: theme.colors.surface,
     opacity: 0.5,
   },
-  optionContent: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    gap: theme.spacing.sm,
-  },
-  optionLetter: {
-    ...theme.type.bodyMedium,
-    color: theme.colors.inkMuted,
-  },
   optionLabel: {
-    ...theme.type.bodyMedium,
+    ...theme.type.h2,
     color: theme.colors.ink,
   },
   xpFeedback: {
