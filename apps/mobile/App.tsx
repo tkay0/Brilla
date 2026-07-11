@@ -12,11 +12,12 @@ import {
   PlusJakartaSans_500Medium,
   PlusJakartaSans_700Bold,
 } from '@expo-google-fonts/plus-jakarta-sans';
-import StyleGuideScreen from './src/screens/StyleGuideScreen';
+import { RootNavigator } from './src/lib/RootNavigator';
 import { theme } from './src/theme';
 
-// Debug entry point: renders the Style Guide screen directly so the design tokens can be
-// reviewed before any real navigation/screens are built.
+// The Style Guide screen (src/screens/StyleGuideScreen.tsx) did its job proving out the
+// design tokens - it's unmounted from the app now that the navigation shell exists, but the
+// file is kept for reference. Swap it back in here temporarily if the tokens need rechecking.
 export default function App() {
   const [fontsLoaded] = useFonts({
     Sora_600SemiBold,
@@ -37,7 +38,7 @@ export default function App() {
 
   return (
     <SafeAreaProvider>
-      <StyleGuideScreen />
+      <RootNavigator />
       <StatusBar style="dark" />
     </SafeAreaProvider>
   );
