@@ -1,0 +1,115 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client"
+  output   = "../generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+enum RoundType {
+  General
+  SpeedRace
+  ProblemOfDay
+  TrueFalse
+  Riddle
+}
+
+model School {
+  id     String @id @default(cuid())
+  name   String
+  region String
+
+  users User[]
+}
+
+model User {
+  id           String   @id @default(cuid())
+  name         String
+  phone        String?
+  email        String?
+  passwordHash String?
+  schoolId     String
+  // Invariant enforced at the application layer: xp starts at 0 and never drops below 0.
+  xp           Int      @default(0)
+  coinBalance  Int      @default(0)
+  createdAt    DateTime @default(now())
+
+  school          School          @relation(fields: [schoolId], references: [id])
+  attempts        Attempt[]
+  coinPurchases   CoinPurchase[]
+  unlimitedPasses UnlimitedPass[]
+}
+
+model Question {
+  id                 String    @id @default(cuid())
+  subject            String
+  roundType          RoundType
+  sourceFile         String
+  questionText       String
+  correctAnswer      String
+  // JSON array of option strings, used for MCQ-style round types.
+  options            Json?
+  scored             Boolean
+  possiblyCorrupted  Boolean?
+  excludeFromServing Boolean?
+
+  riddleClues RiddleClue[]
+  clozeBlanks ClozeBlank[]
+  attempts    Attempt[]
+}
+
+model RiddleClue {
+  id         String @id @default(cuid())
+  questionId String
+  order      Int
+  clueText   String
+
+  question Question @relation(fields: [questionId], references: [id])
+}
+
+model ClozeBlank {
+  id          String @id @default(cuid())
+  questionId  String
+  order       Int
+  blankAnswer String
+
+  question Question @relation(fields: [questionId], references: [id])
+}
+
+model Attempt {
+  id                  String   @id @default(cuid())
+  userId              String
+  questionId          String
+  selectedOption      String?
+  selfReportedCorrect Boolean?
+  xpEarned            Int
+  attemptedAt         DateTime @default(now())
+
+  user     User     @relation(fields: [userId], references: [id])
+  question Question @relation(fields: [questionId], references: [id])
+}
+
+model CoinPurchase {
+  id        String   @id @default(cuid())
+  userId    String
+  amount    Int
+  priceGHS  Decimal  @db.Decimal(10, 2)
+  provider  String
+  status    String
+  createdAt DateTime @default(now())
+
+  user User @relation(fields: [userId], references: [id])
+}
+
+model UnlimitedPass {
+  id        String   @id @default(cuid())
+  userId    String
+  startedAt DateTime @default(now())
+  expiresAt DateTime
+
+  user User @relation(fields: [userId], references: [id])
+}
