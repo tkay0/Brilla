@@ -2,8 +2,9 @@
 // learn more about it in the docs: https://pris.ly/d/prisma-schema
 
 generator client {
-  provider = "prisma-client"
-  output   = "../generated/prisma"
+  provider     = "prisma-client"
+  output       = "../generated/prisma"
+  moduleFormat = "cjs"
 }
 
 datasource db {
@@ -29,8 +30,8 @@ model School {
 model User {
   id           String   @id @default(cuid())
   name         String
-  phone        String?
-  email        String?
+  phone        String?  @unique
+  email        String?  @unique
   passwordHash String?
   schoolId     String
   // Invariant enforced at the application layer: xp starts at 0 and never drops below 0.
