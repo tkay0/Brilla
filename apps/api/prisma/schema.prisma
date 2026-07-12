@@ -60,7 +60,6 @@ model Question {
   excludeFromServing Boolean?
 
   riddleClues RiddleClue[]
-  clozeBlanks ClozeBlank[]
   attempts    Attempt[]
 }
 
@@ -69,15 +68,6 @@ model RiddleClue {
   questionId String
   order      Int
   clueText   String
-
-  question Question @relation(fields: [questionId], references: [id])
-}
-
-model ClozeBlank {
-  id          String @id @default(cuid())
-  questionId  String
-  order       Int
-  blankAnswer String
 
   question Question @relation(fields: [questionId], references: [id])
 }

@@ -16,11 +16,6 @@ interface SourceClue {
   text: string;
 }
 
-interface SourceBlank {
-  order: number;
-  answer: string;
-}
-
 interface SourceQuestion {
   id: string;
   sourceFile: string;
@@ -29,7 +24,6 @@ interface SourceQuestion {
   correctAnswer: string | boolean;
   options?: string[];
   clues?: SourceClue[];
-  blanks?: SourceBlank[];
   scored: boolean;
   possiblyCorrupted?: boolean;
   excludeFromServing?: boolean;
@@ -154,46 +148,22 @@ async function replaceRiddleClues(items: SourceQuestion[]): Promise<number> {
   return rows.length;
 }
 
-async function replaceClozeBlanks(items: SourceQuestion[]): Promise<number> {
-  const ids = items.map((item) => item.id);
-  await prisma.clozeBlank.deleteMany({ where: { questionId: { in: ids } } });
-
-  const rows = items.flatMap((item) =>
-    (item.blanks ?? []).map((blank) => ({
-      questionId: item.id,
-      order: blank.order,
-      blankAnswer: blank.answer,
-    })),
-  );
-
-  const chunkSize = 1000;
-  for (let i = 0; i < rows.length; i += chunkSize) {
-    await prisma.clozeBlank.createMany({ data: rows.slice(i, i + chunkSize) });
-  }
-
-  return rows.length;
-}
-
 async function importFile(
   file: string,
   roundType: $Enums.RoundType,
-): Promise<{ questions: number; clues: number; blanks: number }> {
+): Promise<{ questions: number; clues: number }> {
   const raw = fs.readFileSync(path.join(CONTENT_DIR, file), 'utf8');
   const items = JSON.parse(raw) as SourceQuestion[];
   const deduped = dedupeById(items, file);
 
   await bulkUpsertQuestions(deduped, roundType);
   const clues = await replaceRiddleClues(deduped);
-  const blanks = await replaceClozeBlanks(deduped);
 
-  return { questions: deduped.length, clues, blanks };
+  return { questions: deduped.length, clues };
 }
 
 async function main() {
-  const summary: Record<
-    string,
-    { questions: number; clues: number; blanks: number }
-  > = {};
+  const summary: Record<string, { questions: number; clues: number }> = {};
 
   for (const { file, roundType } of FILES) {
     console.log(`Importing ${file} as ${roundType}...`);
@@ -204,7 +174,7 @@ async function main() {
   let total = 0;
   for (const [roundType, result] of Object.entries(summary)) {
     console.log(
-      `  ${roundType}: ${result.questions} questions, ${result.clues} clues, ${result.blanks} blanks`,
+      `  ${roundType}: ${result.questions} questions, ${result.clues} clues`,
     );
     total += result.questions;
   }
