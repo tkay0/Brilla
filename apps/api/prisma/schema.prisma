@@ -46,8 +46,9 @@ model User {
 }
 
 model Question {
-  id                 String    @id @default(cuid())
-  subject            String
+  id                 String    @id
+  // Null when the source content couldn't be classified into a subject.
+  subject            String?
   roundType          RoundType
   sourceFile         String
   questionText       String
