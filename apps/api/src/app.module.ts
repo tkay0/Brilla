@@ -6,9 +6,17 @@ import { AuthModule } from './auth/auth.module';
 import { QuestionsModule } from './questions/questions.module';
 import { AttemptsModule } from './attempts/attempts.module';
 import { LeaderboardModule } from './leaderboard/leaderboard.module';
+import { ProfileModule } from './profile/profile.module';
 
 @Module({
-  imports: [PrismaModule, AuthModule, QuestionsModule, AttemptsModule, LeaderboardModule],
+  imports: [
+    PrismaModule,
+    AuthModule,
+    QuestionsModule,
+    AttemptsModule,
+    LeaderboardModule,
+    ProfileModule,
+  ],
   controllers: [AppController],
   providers: [AppService],
 })
