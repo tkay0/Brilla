@@ -5,6 +5,7 @@ import { useNavigation } from '@react-navigation/native';
 import type { NativeStackNavigationProp } from '@react-navigation/native-stack';
 import { Feather } from '@expo/vector-icons';
 import { Card } from '../components/Card';
+import { Header } from '../components/Header';
 import { Pill } from '../components/Pill';
 import { theme } from '../theme';
 import type { QuizStackParamList } from '../lib/QuizStack';
@@ -54,6 +55,7 @@ export default function QuizScreen() {
   return (
     <SafeAreaView style={styles.root} edges={['top', 'bottom']}>
       <ScrollView contentContainerStyle={styles.content}>
+        <Header />
         <Text style={styles.title}>Quiz</Text>
 
         {ROUNDS.map((round) => (

@@ -3,6 +3,7 @@ import { ScrollView, StyleSheet, Text, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { Button } from '../components/Button';
 import { Card } from '../components/Card';
+import { Header } from '../components/Header';
 import { Pill } from '../components/Pill';
 import { theme } from '../theme';
 
@@ -30,6 +31,7 @@ export default function StoreScreen() {
   return (
     <SafeAreaView style={styles.root} edges={['top', 'bottom']}>
       <ScrollView contentContainerStyle={styles.content}>
+        <Header />
         <View style={styles.header}>
           <Text style={styles.title}>Store</Text>
           <Pill label={`🪙 ${COIN_BALANCE}`} backgroundColor={theme.colors.primary} textColor={theme.colors.surface} />

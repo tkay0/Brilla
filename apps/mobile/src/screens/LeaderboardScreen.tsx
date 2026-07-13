@@ -2,6 +2,7 @@ import React from 'react';
 import { ScrollView, StyleSheet, Text, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { Card } from '../components/Card';
+import { Header } from '../components/Header';
 import { theme } from '../theme';
 
 type Player = {
@@ -52,6 +53,7 @@ export default function LeaderboardScreen() {
   return (
     <SafeAreaView style={styles.root} edges={['top', 'bottom']}>
       <ScrollView contentContainerStyle={styles.content}>
+        <Header />
         <Text style={styles.title}>Leaderboard</Text>
 
         <Card style={styles.podiumCard}>

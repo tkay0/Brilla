@@ -3,7 +3,9 @@ import { Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { Feather } from '@expo/vector-icons';
 import { Card } from '../components/Card';
+import { Header } from '../components/Header';
 import { theme } from '../theme';
+import { clearToken } from '../lib/authStore';
 
 // Sample data until auth + a real profile API exist.
 const USER = {
@@ -33,6 +35,7 @@ export default function ProfileScreen() {
   return (
     <SafeAreaView style={styles.root} edges={['top', 'bottom']}>
       <ScrollView contentContainerStyle={styles.content}>
+        <Header />
         <View style={styles.identity}>
           <View style={styles.avatarWrap}>
             <View style={styles.avatar}>
@@ -57,7 +60,11 @@ export default function ProfileScreen() {
 
         <Card style={styles.settingsCard}>
           {SETTINGS_ROWS.map((label) => (
-            <Pressable key={label} style={styles.settingsRow} onPress={() => {}}>
+            <Pressable
+              key={label}
+              style={styles.settingsRow}
+              onPress={label === 'Log out' ? () => clearToken() : () => {}}
+            >
               <Text style={styles.settingsLabel}>{label}</Text>
               <Feather name="chevron-right" size={20} color={theme.colors.inkMuted} />
             </Pressable>

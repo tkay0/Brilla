@@ -1,6 +1,7 @@
 import { StatusBar } from 'expo-status-bar';
 import { ActivityIndicator, View } from 'react-native';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
+import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import {
   useFonts,
   Sora_600SemiBold,
@@ -14,6 +15,8 @@ import {
 } from '@expo-google-fonts/plus-jakarta-sans';
 import { RootNavigator } from './src/lib/RootNavigator';
 import { theme } from './src/theme';
+
+const queryClient = new QueryClient();
 
 // The Style Guide screen (src/screens/StyleGuideScreen.tsx) did its job proving out the
 // design tokens - it's unmounted from the app now that the navigation shell exists, but the
@@ -37,9 +40,11 @@ export default function App() {
   }
 
   return (
-    <SafeAreaProvider>
-      <RootNavigator />
-      <StatusBar style="dark" />
-    </SafeAreaProvider>
+    <QueryClientProvider client={queryClient}>
+      <SafeAreaProvider>
+        <RootNavigator />
+        <StatusBar style="dark" />
+      </SafeAreaProvider>
+    </QueryClientProvider>
   );
 }

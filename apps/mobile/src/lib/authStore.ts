@@ -1,0 +1,51 @@
+import { useSyncExternalStore } from 'react';
+import * as SecureStore from 'expo-secure-store';
+
+const TOKEN_KEY = 'brilla_access_token';
+
+type Listener = () => void;
+
+// undefined = not yet loaded from SecureStore, null = loaded and there is no token.
+let token: string | null | undefined;
+const listeners = new Set<Listener>();
+
+function emit() {
+  listeners.forEach((listener) => listener());
+}
+
+export async function loadToken() {
+  token = (await SecureStore.getItemAsync(TOKEN_KEY)) ?? null;
+  emit();
+  return token;
+}
+
+export async function setToken(next: string) {
+  token = next;
+  await SecureStore.setItemAsync(TOKEN_KEY, next);
+  emit();
+}
+
+export async function clearToken() {
+  token = null;
+  await SecureStore.deleteItemAsync(TOKEN_KEY);
+  emit();
+}
+
+export function getToken() {
+  return token ?? null;
+}
+
+function subscribe(listener: Listener) {
+  listeners.add(listener);
+  return () => listeners.delete(listener);
+}
+
+// Returns undefined while SecureStore hasn't been read yet, null when signed out,
+// or the JWT when signed in - callers gate the auth vs. tab navigator on this.
+export function useAuthToken() {
+  return useSyncExternalStore(
+    subscribe,
+    () => token,
+    () => token,
+  );
+}

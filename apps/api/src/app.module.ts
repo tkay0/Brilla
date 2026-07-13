@@ -7,6 +7,7 @@ import { QuestionsModule } from './questions/questions.module';
 import { AttemptsModule } from './attempts/attempts.module';
 import { LeaderboardModule } from './leaderboard/leaderboard.module';
 import { ProfileModule } from './profile/profile.module';
+import { SchoolsModule } from './schools/schools.module';
 
 @Module({
   imports: [
@@ -16,6 +17,7 @@ import { ProfileModule } from './profile/profile.module';
     AttemptsModule,
     LeaderboardModule,
     ProfileModule,
+    SchoolsModule,
   ],
   controllers: [AppController],
   providers: [AppService],

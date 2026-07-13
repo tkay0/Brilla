@@ -5,6 +5,7 @@ import { useNavigation } from '@react-navigation/native';
 import type { BottomTabNavigationProp } from '@react-navigation/bottom-tabs';
 import { Button } from '../components/Button';
 import { Card } from '../components/Card';
+import { Header } from '../components/Header';
 import { Pill } from '../components/Pill';
 import { theme } from '../theme';
 import type { RootTabParamList } from '../lib/RootNavigator';
@@ -22,10 +23,7 @@ export default function HomeScreen() {
   return (
     <SafeAreaView style={styles.root} edges={['top', 'bottom']}>
       <ScrollView contentContainerStyle={styles.content}>
-        <View style={styles.header}>
-          <Text style={styles.wordmark}>Brilla</Text>
-          <Pill label={SAMPLE_XP} backgroundColor={theme.colors.primary} textColor={theme.colors.surface} />
-        </View>
+        <Header right={<Pill label={SAMPLE_XP} backgroundColor={theme.colors.primary} textColor={theme.colors.surface} />} />
 
         <Card style={styles.card}>
           <Text style={theme.type.h3}>What is NSMQ?</Text>
@@ -58,16 +56,6 @@ const styles = StyleSheet.create({
   content: {
     padding: theme.spacing.md,
     gap: theme.spacing.md,
-  },
-  header: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    justifyContent: 'space-between',
-  },
-  wordmark: {
-    fontFamily: theme.fonts.heading,
-    fontSize: 24,
-    color: theme.colors.primary,
   },
   card: {
     gap: theme.spacing.xs,
