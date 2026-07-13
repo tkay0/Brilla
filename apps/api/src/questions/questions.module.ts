@@ -1,10 +1,11 @@
 import { Module } from '@nestjs/common';
 import { AuthModule } from '../auth/auth.module';
+import { DailyLimitsModule } from '../daily-limits/daily-limits.module';
 import { QuestionsController } from './questions.controller';
 import { QuestionsService } from './questions.service';
 
 @Module({
-  imports: [AuthModule],
+  imports: [AuthModule, DailyLimitsModule],
   controllers: [QuestionsController],
   providers: [QuestionsService],
 })

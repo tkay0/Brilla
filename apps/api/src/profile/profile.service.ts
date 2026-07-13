@@ -1,6 +1,7 @@
 import { Injectable } from '@nestjs/common';
 import { randomUUID } from 'crypto';
 import { PrismaService } from '../prisma/prisma.service';
+import { DailyLimitsService } from '../daily-limits/daily-limits.service';
 import { R2Service } from './r2.service';
 
 const EXTENSION_BY_MIME_TYPE: Record<string, string> = {
@@ -15,7 +16,12 @@ export class ProfileService {
   constructor(
     private readonly prisma: PrismaService,
     private readonly r2: R2Service,
+    private readonly dailyLimits: DailyLimitsService,
   ) {}
+
+  async getLimits(userId: string) {
+    return this.dailyLimits.getRemaining(userId);
+  }
 
   async updateAvatar(userId: string, file: Express.Multer.File) {
     const extension = EXTENSION_BY_MIME_TYPE[file.mimetype] ?? 'jpg';

@@ -1,6 +1,7 @@
 import { Injectable } from '@nestjs/common';
 import { PrismaService } from '../prisma/prisma.service';
 import { RoundType } from '../../generated/prisma/enums.js';
+import { DailyLimitsService } from '../daily-limits/daily-limits.service';
 import { isMcqRoundType, resolveRoundTypes } from './round-type-param.js';
 
 function shuffle<T>(items: T[]): T[] {
@@ -24,10 +25,21 @@ export interface ServedQuestion {
 
 @Injectable()
 export class QuestionsService {
-  constructor(private readonly prisma: PrismaService) {}
+  constructor(
+    private readonly prisma: PrismaService,
+    private readonly dailyLimits: DailyLimitsService,
+  ) {}
 
-  async getBatch(roundTypeParam: string, count: number): Promise<ServedQuestion[]> {
+  async getBatch(
+    userId: string,
+    roundTypeParam: string,
+    count: number,
+  ): Promise<ServedQuestion[]> {
     const roundTypes = resolveRoundTypes(roundTypeParam);
+
+    for (const roundType of roundTypes) {
+      await this.dailyLimits.assertUnderLimit(userId, roundType);
+    }
 
     const candidates = await this.prisma.question.findMany({
       where: {

@@ -49,10 +49,11 @@ export type AttemptResult = {
   xp: number;
 };
 
-export function useQuestions(roundType: QuestionRoundType, count = 10) {
+export function useQuestions(roundType: QuestionRoundType, count = 10, options: { enabled?: boolean } = {}) {
   return useQuery({
     queryKey: ['questions', roundType, count],
     queryFn: () => apiRequest<Question[]>(`/questions/${roundType}?count=${count}`),
+    enabled: options.enabled ?? true,
   });
 }
 
@@ -78,6 +79,18 @@ export function useProfile() {
   return useQuery({
     queryKey: ['profile'],
     queryFn: () => apiRequest<User>('/auth/me'),
+  });
+}
+
+// Remaining questions the user may still answer today for each scored round type
+// (SpeedRace/TrueFalse/Riddle are capped at 20/day; Practice/General/ProblemOfDay are unlimited
+// and not included here).
+export type RoundLimits = Record<'SpeedRace' | 'TrueFalse' | 'Riddle', number>;
+
+export function useProfileLimits() {
+  return useQuery({
+    queryKey: ['profile', 'limits'],
+    queryFn: () => apiRequest<RoundLimits>('/profile/limits'),
   });
 }
 

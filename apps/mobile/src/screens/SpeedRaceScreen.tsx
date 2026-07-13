@@ -1,74 +1,168 @@
-import React from 'react';
-import { Pressable, StyleSheet, Text, View, ViewStyle } from 'react-native';
+import React, { useCallback, useEffect, useState } from 'react';
+import { ActivityIndicator, Pressable, StyleSheet, Text, View, ViewStyle } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { useNavigation } from '@react-navigation/native';
 import type { NativeStackNavigationProp } from '@react-navigation/native-stack';
+import type { BottomTabNavigationProp } from '@react-navigation/bottom-tabs';
 import { Feather } from '@expo/vector-icons';
 import { Button } from '../components/Button';
 import { Card } from '../components/Card';
 import { Pill } from '../components/Pill';
 import { TimerBar } from '../components/TimerBar';
+import { OutOfCoinsModal } from '../components/OutOfCoinsModal';
 import { theme } from '../theme';
 import type { QuizStackParamList } from '../lib/QuizStack';
-import { useTimedRound } from '../lib/useTimedRound';
-
-type Question = {
-  subject: string;
-  question: string;
-  options: string[];
-  correctIndex: number;
-};
-
-// Sample questions until the backend exists - cycled through in order, then the round ends.
-const QUESTIONS: Question[] = [
-  {
-    subject: 'Physics',
-    question: 'What is the SI unit of force?',
-    options: ['Newton', 'Joule', 'Watt', 'Pascal'],
-    correctIndex: 0,
-  },
-  {
-    subject: 'Chemistry',
-    question: 'What is the chemical symbol for Gold?',
-    options: ['Ag', 'Au', 'Gd', 'Pb'],
-    correctIndex: 1,
-  },
-  {
-    subject: 'Biology',
-    question: 'Which organelle is known as the powerhouse of the cell?',
-    options: ['Nucleus', 'Ribosome', 'Mitochondrion', 'Golgi apparatus'],
-    correctIndex: 2,
-  },
-  {
-    subject: 'Mathematics',
-    question: 'What is the value of π rounded to 2 decimal places?',
-    options: ['3.12', '3.14', '3.16', '3.18'],
-    correctIndex: 1,
-  },
-];
+import type { RootTabParamList } from '../lib/RootNavigator';
+import { ApiError } from '../lib/api';
+import { useProfileLimits, useQuestions, useSubmitAttempt } from '../lib/queries';
 
 const OPTION_LETTERS = ['A', 'B', 'C', 'D'];
 const ROUND_SECONDS = 35;
-const XP_PER_CORRECT = 3;
+const QUESTION_COUNT = 10;
+
+// Submitted in place of a real selectedOption on timeout. Scored questions require a
+// selectedOption server-side, and this value can never match a real correctAnswer, so the
+// backend grades it as incorrect and deducts XP the same as any other wrong answer.
+const TIMEOUT_SENTINEL = '__timeout__';
+
+type RoundPhase = 'active' | 'submitting' | 'answered' | 'complete';
 
 export default function SpeedRaceScreen() {
   const navigation = useNavigation<NativeStackNavigationProp<QuizStackParamList>>();
-  const {
-    question,
-    secondsLeft,
-    phase,
-    selectedAnswer: selectedIndex,
-    totalXP,
-    answered,
-    earnedThisQuestion,
-    submitAnswer: handleSelect,
-    advance,
-  } = useTimedRound<Question, number>({
-    questions: QUESTIONS,
-    roundSeconds: ROUND_SECONDS,
-    xpPerCorrect: XP_PER_CORRECT,
-    isCorrect: (q, answer) => answer === q.correctIndex,
-  });
+  const limits = useProfileLimits();
+  const submitAttempt = useSubmitAttempt();
+
+  // Set once a 403 arrives mid-round (the 20/day limit was hit by a submission during play,
+  // not just found stale at screen-open time) - forces the same "try another round" gating
+  // below regardless of what the cached limits still say until they're refetched.
+  const [limitHitMidRound, setLimitHitMidRound] = useState(false);
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const [secondsLeft, setSecondsLeft] = useState(ROUND_SECONDS);
+  const [phase, setPhase] = useState<RoundPhase>('active');
+  const [selectedOption, setSelectedOption] = useState<string | null>(null);
+  const [lastResult, setLastResult] = useState<{ correct: boolean; xpEarned: number } | null>(null);
+  const [totalXP, setTotalXP] = useState(0);
+
+  const speedRaceRemaining = limits.data?.SpeedRace ?? null;
+  const allZero =
+    !!limits.data && limits.data.SpeedRace === 0 && limits.data.TrueFalse === 0 && limits.data.Riddle === 0;
+  const speedRaceExhausted = limitHitMidRound || speedRaceRemaining === 0;
+  const canStartRound = !!limits.data && !allZero && !speedRaceExhausted;
+
+  const questionsQuery = useQuestions('SpeedRace', QUESTION_COUNT, { enabled: canStartRound });
+  const questions = questionsQuery.data;
+  const question = questions?.[currentIndex];
+
+  const submitAnswer = useCallback(
+    (option: string | null) => {
+      if (phase !== 'active' || !question) return;
+      setPhase('submitting');
+      submitAttempt.mutate(
+        { questionId: question.id, selectedOption: option ?? TIMEOUT_SENTINEL },
+        {
+          onSuccess: (result) => {
+            setSelectedOption(option);
+            setLastResult({ correct: result.correct, xpEarned: result.xpEarned });
+            setTotalXP((xp) => xp + result.xpEarned);
+            setPhase('answered');
+          },
+          onError: (error) => {
+            if (error instanceof ApiError && error.status === 403) {
+              setLimitHitMidRound(true);
+              limits.refetch();
+            } else {
+              // Transient/network failure - let the user retry this question rather than
+              // silently eating the answer.
+              setPhase('active');
+            }
+          },
+        },
+      );
+    },
+    [phase, question, submitAttempt, limits],
+  );
+
+  // Countdown ticks once per second while a question is active; hitting 0 submits a timeout
+  // (no selection) the same way an explicit tap would.
+  useEffect(() => {
+    if (phase !== 'active') return;
+    if (secondsLeft <= 0) {
+      submitAnswer(null);
+      return;
+    }
+    const timer = setTimeout(() => setSecondsLeft((s) => s - 1), 1000);
+    return () => clearTimeout(timer);
+  }, [phase, secondsLeft, submitAnswer]);
+
+  function advance() {
+    if (phase !== 'answered' || !questions) return;
+    const next = currentIndex + 1;
+    if (next >= questions.length) {
+      setPhase('complete');
+      return;
+    }
+    setCurrentIndex(next);
+    setSecondsLeft(ROUND_SECONDS);
+    setSelectedOption(null);
+    setLastResult(null);
+    setPhase('active');
+  }
+
+  // Tab navigators keep inactive tabs mounted for fast switching, so just changing tabs
+  // would leave this screen (and its always-visible-while-allZero modal) alive underneath
+  // the Home/Store tab, blocking input there too. Pop this screen off the Quiz stack first
+  // so it actually unmounts before handing off to the parent tab navigator.
+  const goToStore = () => {
+    navigation.popToTop();
+    navigation.getParent<BottomTabNavigationProp<RootTabParamList>>()?.navigate('Store');
+  };
+  const goToHome = () => {
+    navigation.popToTop();
+    navigation.getParent<BottomTabNavigationProp<RootTabParamList>>()?.navigate('Home');
+  };
+
+  if (limits.isLoading) {
+    return (
+      <SafeAreaView style={styles.root} edges={['top', 'bottom']}>
+        <View style={styles.centered}>
+          <ActivityIndicator color={theme.colors.primary} />
+        </View>
+      </SafeAreaView>
+    );
+  }
+
+  if (allZero) {
+    return (
+      <SafeAreaView style={styles.root} edges={['top', 'bottom']}>
+        <OutOfCoinsModal
+          visible
+          onRequestClose={() => navigation.navigate('QuizHome')}
+          onGoToStore={goToStore}
+          onBackToHome={goToHome}
+        />
+      </SafeAreaView>
+    );
+  }
+
+  if (speedRaceExhausted) {
+    return (
+      <SafeAreaView style={styles.root} edges={['top', 'bottom']}>
+        <View style={styles.limitContent}>
+          <Card style={styles.limitCard}>
+            <Feather name="clock" size={28} color={theme.colors.primary} />
+            <Text style={styles.limitTitle}>Speed Race limit reached</Text>
+            <Text style={styles.limitBody}>
+              You&rsquo;ve answered 20 Speed Race questions today. Try True/False or Riddles instead - both
+              are still available.
+            </Text>
+          </Card>
+          <Button label="Play True/False" variant="primary" onPress={() => navigation.navigate('TrueOrFalse')} />
+          <Button label="Play Riddles" variant="secondary" onPress={() => navigation.navigate('Riddles')} />
+          <Button label="Back to Quiz" variant="secondary" onPress={() => navigation.navigate('QuizHome')} />
+        </View>
+      </SafeAreaView>
+    );
+  }
 
   if (phase === 'complete') {
     return (
@@ -76,7 +170,10 @@ export default function SpeedRaceScreen() {
         <View style={styles.completeContent}>
           <Card style={styles.completeCard}>
             <Text style={styles.completeTitle}>Round complete</Text>
-            <Text style={styles.completeXp}>+{totalXP} XP</Text>
+            <Text style={styles.completeXp}>
+              {totalXP >= 0 ? '+' : ''}
+              {totalXP} XP
+            </Text>
             <Text style={styles.completeBody}>Total XP earned this round</Text>
           </Card>
           <Button label="Back to Quiz" variant="primary" onPress={() => navigation.navigate('QuizHome')} />
@@ -84,6 +181,35 @@ export default function SpeedRaceScreen() {
       </SafeAreaView>
     );
   }
+
+  if (questionsQuery.isError) {
+    return (
+      <SafeAreaView style={styles.root} edges={['top', 'bottom']}>
+        <View style={styles.limitContent}>
+          <Card style={styles.limitCard}>
+            <Text style={styles.limitTitle}>Couldn&rsquo;t load questions</Text>
+            <Text style={styles.limitBody}>Check your connection and try again.</Text>
+          </Card>
+          <Button label="Retry" variant="primary" onPress={() => questionsQuery.refetch()} />
+          <Button label="Back to Quiz" variant="secondary" onPress={() => navigation.navigate('QuizHome')} />
+        </View>
+      </SafeAreaView>
+    );
+  }
+
+  if (questionsQuery.isLoading || !question) {
+    return (
+      <SafeAreaView style={styles.root} edges={['top', 'bottom']}>
+        <View style={styles.centered}>
+          <ActivityIndicator color={theme.colors.primary} />
+        </View>
+      </SafeAreaView>
+    );
+  }
+
+  const options = (question.options as string[] | null) ?? [];
+  const answered = phase === 'answered';
+  const earnedThisQuestion = lastResult?.xpEarned ?? 0;
 
   return (
     <SafeAreaView style={styles.root} edges={['top', 'bottom']}>
@@ -97,18 +223,22 @@ export default function SpeedRaceScreen() {
         </View>
 
         <View style={styles.metaRow}>
-          <Pill label={question.subject} backgroundColor={theme.colors.bg} textColor={theme.colors.inkMuted} />
+          <Pill
+            label={question.subject ?? 'General'}
+            backgroundColor={theme.colors.bg}
+            textColor={theme.colors.inkMuted}
+          />
           <TimerBar secondsLeft={secondsLeft} totalSeconds={ROUND_SECONDS} />
         </View>
 
         <Card style={styles.questionCard}>
-          <Text style={theme.type.h3}>{question.question}</Text>
+          <Text style={theme.type.h3}>{question.questionText}</Text>
         </Card>
 
         <View style={styles.options}>
-          {question.options.map((option, index) => {
-            const isCorrectOption = index === question.correctIndex;
-            const isSelected = index === selectedIndex;
+          {options.map((option, index) => {
+            const isCorrectOption = option === question.correctAnswer;
+            const isSelected = option === selectedOption;
 
             let tintStyle: ViewStyle = styles.optionDefault;
             if (answered) {
@@ -122,7 +252,11 @@ export default function SpeedRaceScreen() {
             }
 
             return (
-              <Pressable key={option} onPress={() => handleSelect(index)} disabled={answered}>
+              <Pressable
+                key={option}
+                onPress={() => submitAnswer(option)}
+                disabled={phase !== 'active'}
+              >
                 <View style={[styles.option, tintStyle]}>
                   <View style={styles.optionContent}>
                     <Text style={styles.optionLetter}>{OPTION_LETTERS[index]}</Text>
@@ -140,10 +274,13 @@ export default function SpeedRaceScreen() {
           })}
         </View>
 
+        {phase === 'submitting' && <ActivityIndicator color={theme.colors.primary} />}
+
         {answered && (
           <>
             <Text style={[styles.xpFeedback, earnedThisQuestion > 0 ? styles.xpPositive : styles.xpZero]}>
-              +{earnedThisQuestion} XP
+              {earnedThisQuestion >= 0 ? '+' : ''}
+              {earnedThisQuestion} XP
             </Text>
             <Button label="Continue" variant="primary" onPress={advance} />
           </>
@@ -157,6 +294,11 @@ const styles = StyleSheet.create({
   root: {
     flex: 1,
     backgroundColor: theme.colors.bg,
+  },
+  centered: {
+    flex: 1,
+    alignItems: 'center',
+    justifyContent: 'center',
   },
   content: {
     flex: 1,
@@ -253,5 +395,25 @@ const styles = StyleSheet.create({
   completeBody: {
     ...theme.type.body,
     color: theme.colors.inkMuted,
+  },
+  limitContent: {
+    flex: 1,
+    padding: theme.spacing.md,
+    justifyContent: 'center',
+    gap: theme.spacing.md,
+  },
+  limitCard: {
+    alignItems: 'center',
+    gap: theme.spacing.xs,
+  },
+  limitTitle: {
+    ...theme.type.h2,
+    color: theme.colors.ink,
+    textAlign: 'center',
+  },
+  limitBody: {
+    ...theme.type.body,
+    color: theme.colors.inkMuted,
+    textAlign: 'center',
   },
 });

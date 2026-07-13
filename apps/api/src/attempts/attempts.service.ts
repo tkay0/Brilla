@@ -1,5 +1,6 @@
 import { BadRequestException, Injectable, NotFoundException } from '@nestjs/common';
 import { PrismaService } from '../prisma/prisma.service';
+import { DailyLimitsService } from '../daily-limits/daily-limits.service';
 import { CreateAttemptDto } from './dto/create-attempt.dto';
 
 const CORRECT_XP = 3;
@@ -7,7 +8,10 @@ const INCORRECT_XP = -1;
 
 @Injectable()
 export class AttemptsService {
-  constructor(private readonly prisma: PrismaService) {}
+  constructor(
+    private readonly prisma: PrismaService,
+    private readonly dailyLimits: DailyLimitsService,
+  ) {}
 
   async submit(userId: string, dto: CreateAttemptDto) {
     const question = await this.prisma.question.findUnique({
@@ -16,6 +20,8 @@ export class AttemptsService {
     if (!question) {
       throw new NotFoundException('Question not found.');
     }
+
+    await this.dailyLimits.assertUnderLimit(userId, question.roundType);
 
     let selectedOption: string | null = null;
     let selfReportedCorrect: boolean | null = null;

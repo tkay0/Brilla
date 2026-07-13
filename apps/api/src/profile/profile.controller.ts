@@ -1,6 +1,7 @@
 import {
   Controller,
   FileTypeValidator,
+  Get,
   MaxFileSizeValidator,
   ParseFilePipe,
   Post,
@@ -19,6 +20,11 @@ const MAX_AVATAR_SIZE_BYTES = 5 * 1024 * 1024;
 @UseGuards(JwtAuthGuard)
 export class ProfileController {
   constructor(private readonly profileService: ProfileService) {}
+
+  @Get('limits')
+  getLimits(@CurrentUser() user: { id: string }) {
+    return this.profileService.getLimits(user.id);
+  }
 
   @Post('avatar')
   @UseInterceptors(FileInterceptor('file'))
