@@ -20,8 +20,15 @@ export default function RegisterScreen() {
   const [contact, setContact] = useState('');
   const [password, setPassword] = useState('');
   const [pickerOpen, setPickerOpen] = useState(false);
+  const [schoolQuery, setSchoolQuery] = useState('');
 
   const selectedSchool = useMemo(() => schools?.find((s) => s.id === schoolId) ?? null, [schools, schoolId]);
+
+  const filteredSchools = useMemo(() => {
+    const query = schoolQuery.trim().toLowerCase();
+    if (!query) return schools ?? [];
+    return (schools ?? []).filter((s) => s.name.toLowerCase().includes(query));
+  }, [schools, schoolQuery]);
 
   const canSubmit = name.trim().length > 0 && !!schoolId && contact.trim().length > 0 && password.length >= 8;
 
@@ -109,13 +116,32 @@ export default function RegisterScreen() {
         </Pressable>
       </ScrollView>
 
-      <Modal visible={pickerOpen} animationType="slide" transparent onRequestClose={() => setPickerOpen(false)}>
+      <Modal
+        visible={pickerOpen}
+        animationType="slide"
+        transparent
+        onRequestClose={() => setPickerOpen(false)}
+        onShow={() => setSchoolQuery('')}
+      >
         <Pressable style={styles.modalBackdrop} onPress={() => setPickerOpen(false)}>
-          <View style={styles.modalSheet}>
+          <Pressable style={styles.modalSheet} onPress={() => {}}>
             <Text style={styles.modalTitle}>Select your school</Text>
+            <View style={styles.searchInput}>
+              <Feather name="search" size={18} color={theme.colors.inkMuted} />
+              <TextInput
+                style={styles.searchText}
+                placeholder="Search schools"
+                placeholderTextColor={theme.colors.inkMuted}
+                value={schoolQuery}
+                onChangeText={setSchoolQuery}
+                autoCapitalize="none"
+              />
+            </View>
             <FlatList
-              data={schools ?? []}
+              data={filteredSchools}
               keyExtractor={(item) => item.id}
+              keyboardShouldPersistTaps="handled"
+              ListEmptyComponent={<Text style={styles.noResults}>No schools match &ldquo;{schoolQuery}&rdquo;</Text>}
               renderItem={({ item }) => (
                 <Pressable
                   style={styles.schoolRow}
@@ -129,7 +155,7 @@ export default function RegisterScreen() {
                 </Pressable>
               )}
             />
-          </View>
+          </Pressable>
         </Pressable>
       </Modal>
     </SafeAreaView>
@@ -174,6 +200,28 @@ const styles = StyleSheet.create({
     maxHeight: '70%',
   },
   modalTitle: { ...theme.type.h3, color: theme.colors.ink, marginBottom: theme.spacing.sm },
+  searchInput: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: theme.spacing.xs,
+    backgroundColor: theme.colors.bg,
+    borderRadius: theme.radii.sm,
+    paddingVertical: theme.spacing.sm,
+    paddingHorizontal: theme.spacing.md,
+    marginBottom: theme.spacing.sm,
+  },
+  searchText: {
+    flex: 1,
+    ...theme.type.body,
+    color: theme.colors.ink,
+    padding: 0,
+  },
+  noResults: {
+    ...theme.type.body,
+    color: theme.colors.inkMuted,
+    textAlign: 'center',
+    paddingVertical: theme.spacing.md,
+  },
   schoolRow: { paddingVertical: theme.spacing.sm },
   schoolName: { ...theme.type.bodyMedium, color: theme.colors.ink },
   schoolRegion: { ...theme.type.caption, color: theme.colors.inkMuted },

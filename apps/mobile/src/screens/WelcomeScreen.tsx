@@ -8,8 +8,7 @@ import { Button } from '../components/Button';
 import { theme } from '../theme';
 import type { AuthStackParamList } from '../lib/AuthStack';
 
-// brilla-header-icon-256.png is 256x267; brilla-logo-lockup-1200.png is 1200x474.
-const BADGE_ICON_ASPECT = 256 / 267;
+// brilla-logo-lockup-1200.png is 1200x474.
 const LOCKUP_ASPECT = 1200 / 474;
 
 // Prototype viewBox is 340x320: full-height left edge rounded into a diagonal rising to a
@@ -29,9 +28,7 @@ export default function WelcomeScreen() {
   const navigation = useNavigation<NativeStackNavigationProp<AuthStackParamList>>();
   const { width } = useWindowDimensions();
   const heroHeight = width * (320 / 340);
-  const badgeSize = width * (72 / 340);
-  const badgeOverlap = width * (30 / 340);
-  const lockupWidth = width - theme.spacing.lg * 2;
+  const lockupWidth = (width - theme.spacing.lg * 2) * 0.6;
   const lockupHeight = lockupWidth / LOCKUP_ASPECT;
 
   return (
@@ -51,16 +48,6 @@ export default function WelcomeScreen() {
             clipPath="url(#heroClip)"
           />
         </Svg>
-      </View>
-
-      <View style={[styles.badgeWrap, { marginTop: -badgeOverlap }]}>
-        <View style={[styles.badgeBackdrop, { width: badgeSize, height: badgeSize, borderRadius: badgeSize / 2 }]}>
-          <Image
-            source={require('../../assets/images/brilla-header-icon-256.png')}
-            style={{ width: badgeSize * 0.82, height: (badgeSize * 0.82) / BADGE_ICON_ASPECT }}
-            resizeMode="contain"
-          />
-        </View>
       </View>
 
       <SafeAreaView style={styles.content} edges={['bottom']}>
@@ -92,16 +79,10 @@ export default function WelcomeScreen() {
 
 const styles = StyleSheet.create({
   root: { flex: 1, backgroundColor: theme.colors.bg },
-  badgeWrap: { alignItems: 'center' },
-  badgeBackdrop: {
-    backgroundColor: theme.colors.surface,
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
   content: {
     flex: 1,
     paddingHorizontal: theme.spacing.lg,
-    paddingTop: theme.spacing.md,
+    paddingTop: theme.spacing.lg,
     gap: theme.spacing.sm,
   },
   description: { ...theme.type.body, color: theme.colors.inkMuted, textAlign: 'center' },

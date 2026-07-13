@@ -6,9 +6,11 @@ import type { NativeStackNavigationProp } from '@react-navigation/native-stack';
 import { Feather } from '@expo/vector-icons';
 import { Card } from '../components/Card';
 import { Header } from '../components/Header';
+import { HeaderStatus } from '../components/HeaderStatus';
 import { Pill } from '../components/Pill';
 import { theme } from '../theme';
 import type { QuizStackParamList } from '../lib/QuizStack';
+import { SAMPLE_HEADER_USER } from '../lib/sampleData';
 
 type Round = {
   route: keyof QuizStackParamList;
@@ -55,7 +57,7 @@ export default function QuizScreen() {
   return (
     <SafeAreaView style={styles.root} edges={['top', 'bottom']}>
       <ScrollView contentContainerStyle={styles.content}>
-        <Header />
+        <Header right={<HeaderStatus {...SAMPLE_HEADER_USER} />} />
         <Text style={styles.title}>Quiz</Text>
 
         {ROUNDS.map((round) => (

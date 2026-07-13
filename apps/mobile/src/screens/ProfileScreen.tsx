@@ -1,16 +1,22 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
+import { useNavigation } from '@react-navigation/native';
+import type { BottomTabNavigationProp } from '@react-navigation/bottom-tabs';
 import { Feather } from '@expo/vector-icons';
+import { Avatar } from '../components/Avatar';
 import { Card } from '../components/Card';
 import { Header } from '../components/Header';
+import { OutOfCoinsModal } from '../components/OutOfCoinsModal';
 import { theme } from '../theme';
 import { clearToken } from '../lib/authStore';
+import type { RootTabParamList } from '../lib/RootNavigator';
 
 // Sample data until auth + a real profile API exist.
 const USER = {
   name: 'Kojo Antwi',
   school: 'Accra Academy',
+  avatarUrl: undefined as string | undefined,
 };
 
 const STATS = [
@@ -21,26 +27,17 @@ const STATS = [
 
 const SETTINGS_ROWS = ['Edit profile', 'Notifications', 'Log out'] as const;
 
-function initials(name: string) {
-  return name
-    .split(' ')
-    .map((part) => part[0])
-    .filter(Boolean)
-    .slice(0, 2)
-    .join('')
-    .toUpperCase();
-}
-
 export default function ProfileScreen() {
+  const navigation = useNavigation<BottomTabNavigationProp<RootTabParamList>>();
+  const [outOfCoinsVisible, setOutOfCoinsVisible] = useState(false);
+
   return (
     <SafeAreaView style={styles.root} edges={['top', 'bottom']}>
       <ScrollView contentContainerStyle={styles.content}>
         <Header />
         <View style={styles.identity}>
           <View style={styles.avatarWrap}>
-            <View style={styles.avatar}>
-              <Text style={styles.avatarLabel}>{initials(USER.name)}</Text>
-            </View>
+            <Avatar label={USER.name} source={USER.avatarUrl ? { uri: USER.avatarUrl } : undefined} size={96} />
             <Pressable style={styles.cameraBadge} onPress={() => {}} hitSlop={8}>
               <Feather name="camera" size={14} color={theme.colors.primary} />
             </Pressable>
@@ -70,7 +67,25 @@ export default function ProfileScreen() {
             </Pressable>
           ))}
         </Card>
+
+        <Pressable style={styles.debugRow} onPress={() => setOutOfCoinsVisible(true)}>
+          <Feather name="terminal" size={16} color={theme.colors.inkMuted} />
+          <Text style={styles.debugLabel}>Debug: show &ldquo;out of coins&rdquo; modal</Text>
+        </Pressable>
       </ScrollView>
+
+      <OutOfCoinsModal
+        visible={outOfCoinsVisible}
+        onRequestClose={() => setOutOfCoinsVisible(false)}
+        onGoToStore={() => {
+          setOutOfCoinsVisible(false);
+          navigation.navigate('Store');
+        }}
+        onBackToHome={() => {
+          setOutOfCoinsVisible(false);
+          navigation.navigate('Home');
+        }}
+      />
     </SafeAreaView>
   );
 }
@@ -91,18 +106,6 @@ const styles = StyleSheet.create({
   },
   avatarWrap: {
     position: 'relative',
-  },
-  avatar: {
-    width: 96,
-    height: 96,
-    borderRadius: 48,
-    backgroundColor: theme.colors.primary,
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-  avatarLabel: {
-    ...theme.type.h1,
-    color: theme.colors.surface,
   },
   cameraBadge: {
     position: 'absolute',
@@ -154,5 +157,16 @@ const styles = StyleSheet.create({
   settingsLabel: {
     ...theme.type.bodyMedium,
     color: theme.colors.ink,
+  },
+  debugRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'center',
+    gap: theme.spacing.xs,
+    paddingVertical: theme.spacing.sm,
+  },
+  debugLabel: {
+    ...theme.type.caption,
+    color: theme.colors.inkMuted,
   },
 });
