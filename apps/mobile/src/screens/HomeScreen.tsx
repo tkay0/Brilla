@@ -57,7 +57,11 @@ export default function HomeScreen() {
   return (
     <SafeAreaView style={styles.root} edges={['top', 'bottom']}>
       <ScrollView contentContainerStyle={styles.content}>
-        <Header right={<HeaderStatus {...SAMPLE_HEADER_USER} />} />
+        <Header
+          avatarLabel={SAMPLE_HEADER_USER.name}
+          avatarUrl={SAMPLE_HEADER_USER.avatarUrl}
+          right={<HeaderStatus xp={SAMPLE_HEADER_USER.xp} coins={SAMPLE_HEADER_USER.coins} />}
+        />
 
         <Card style={styles.card}>
           <Text style={theme.type.h3}>What is NSMQ?</Text>
