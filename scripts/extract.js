@@ -297,6 +297,7 @@ function parseQABlocks(bodyText, options = {}) {
       }
       let questionText = pendingQuestionParts.join(' ').trim().replace(QUESTION_PREFIX_RE, '');
       if (preamble) questionText = `${preamble} ${questionText}`;
+      const cleanedQuestionText = cleanText(questionText);
       // Detection only, doesn't change what gets extracted: this block is immediately
       // followed by another answer-led block, with no question block between them - the
       // known "swallowed question" signature (see scope-check-blank-line-gaps.js Pattern 2).
@@ -309,13 +310,20 @@ function parseQABlocks(bodyText, options = {}) {
       // discard it rather than storing it as the answer, so it doesn't end up prefixed onto
       // the real answer text collected from later blocks.
       lastPair = {
-        questionText: cleanText(questionText),
+        questionText: cleanedQuestionText,
         answerText: effectivelyEmpty ? '' : rawAnswer,
         possiblyCorrupted,
       };
       pairs.push(lastPair);
       pendingQuestionParts = [];
-      collectingEmptyAnswer = effectivelyEmpty;
+      // Only keep collecting a forthcoming multi-paragraph answer body when the question
+      // itself is real. If questionText is degenerate (empty/bare stub - see
+      // isDegenerateQuestionText below), we don't actually know whether the upcoming blocks
+      // are "more of this (nonexistent) answer" or the start of an entirely separate next
+      // question, so don't guess: stop here and let the next block begin its own pair. This is
+      // what previously caused a real question ("What name is given to the arrangement of
+      // veins...") to get swallowed verbatim into a degenerate-question pair's answerText.
+      collectingEmptyAnswer = effectivelyEmpty && !isDegenerateQuestionText(cleanedQuestionText);
       continue;
     }
     if (REASON_BLOCK_RE.test(block)) {
@@ -723,42 +731,89 @@ function tryParseCloze(questionText, answerText) {
 // crypto.randomUUID() scheme, where reprocessing a file regenerated every question ID in it
 // even if only one question actually changed. sha256 is called via forward reference to the
 // sha256() function declared later in this file (safe: function declarations are hoisted).
-function questionIdSeed(sourceFile, roundType, text) {
-  return `${sourceFile} ${roundType} ${text.toLowerCase().replace(/\s+/g, ' ').trim()}`;
+//
+// Both questionText AND correctAnswerText feed the seed - not questionText alone. When the
+// source's actual per-item content is an embedded equation/graphic object that the text
+// extractor can't read, questionText degenerates to a stub (a bare list number, a bare
+// subject tag like "(M)") shared by every such item in the file/round. Two genuinely
+// different Q&A pairs sharing that same stub used to collide onto one ID because the answer -
+// the one thing that still distinguishes them - was invisible to the hash.
+function normalizeForId(s) {
+  return String(s).toLowerCase().replace(/\s+/g, ' ').trim();
 }
 
-function buildBase(fileName, subject, roundType, idSeedText) {
-  const id = sha256(questionIdSeed(fileName, roundType, idSeedText)).slice(0, 24);
+function questionIdSeed(sourceFile, roundType, questionText, correctAnswerText) {
+  return `${sourceFile} ${roundType} ${normalizeForId(questionText)} ${normalizeForId(correctAnswerText)}`;
+}
+
+function buildBase(fileName, subject, roundType, questionText, correctAnswerText) {
+  const id = sha256(questionIdSeed(fileName, roundType, questionText, correctAnswerText)).slice(0, 24);
   return { id, sourceFile: fileName, subject };
+}
+
+// A questionText that, after cleaning, carries no real question content: a bare list-item
+// number ("2", "17."), a bare subject tag left over after an embedded equation/graphic was
+// lost in extraction ("(M)", "(B)"), empty, or just generally too short (under ~4 chars) to
+// be a real prompt. Applied across every round type - the extraction gap that produces this
+// isn't specific to one format, so neither is the flag. A row matching this must never reach
+// a student even though a technically-valid Q/A pair was formed around it.
+const BARE_NUMBER_RE = /^\d{1,3}[.)]?$/;
+const BARE_SUBJECT_TAG_RE = /^\([A-Za-z]{1,4}\)$/;
+function isDegenerateQuestionText(text) {
+  const trimmed = (text || '').trim();
+  return trimmed.length < 4 || BARE_NUMBER_RE.test(trimmed) || BARE_SUBJECT_TAG_RE.test(trimmed);
+}
+
+// Merges a round-type-specific corruption signal (if any) with the universal degenerate-
+// questionText check, producing the possiblyCorrupted/excludeFromServing fields to spread onto
+// a question object. `alreadyExcluded` carries a round-specific reason (e.g. TrueFalse's
+// swallowed-next-statement heuristic, Riddle's all-placeholder-distractors case) that should
+// also force excludeFromServing on its own, independent of degeneracy.
+function corruptionFlags(questionText, { alreadyCorrupted = false, alreadyExcluded = false } = {}) {
+  const degenerate = isDegenerateQuestionText(questionText);
+  const flags = {};
+  if (alreadyCorrupted || degenerate) flags.possiblyCorrupted = true;
+  if (alreadyExcluded || degenerate) flags.excludeFromServing = true;
+  return flags;
 }
 
 function extractGeneral(fileName, segmentText, fileSubjectHint, warnings) {
   const { pairs, warnings: qaWarnings } = parseQABlocks(stripHeader(segmentText));
   warnings.push(...qaWarnings.map((w) => `[General] ${w}`));
-  return pairs.map(({ questionText, answerText, possiblyCorrupted }) => ({
-    ...buildBase(fileName, inferSubject(`${questionText} ${answerText}`, fileSubjectHint), 'General', questionText),
-    questionText,
-    correctAnswer: resolveAnswerText(answerText),
-    scored: false,
-    ...(possiblyCorrupted ? { possiblyCorrupted: true } : {}),
-  }));
+  return pairs.map(({ questionText, answerText, possiblyCorrupted }) => {
+    const correctAnswer = resolveAnswerText(answerText);
+    return {
+      ...buildBase(fileName, inferSubject(`${questionText} ${answerText}`, fileSubjectHint), 'General', questionText, correctAnswer),
+      questionText,
+      correctAnswer,
+      scored: false,
+      ...corruptionFlags(questionText, { alreadyCorrupted: possiblyCorrupted }),
+    };
+  });
 }
 
 function extractProblemOfDay(fileName, segmentText, fileSubjectHint, warnings) {
   const { pairs, warnings: qaWarnings } = parseQABlocks(stripHeader(segmentText));
   warnings.push(...qaWarnings.map((w) => `[ProblemOfDay] ${w}`));
-  return pairs.map(({ questionText, answerText }) => {
+  return pairs.map(({ questionText, answerText, possiblyCorrupted }) => {
     const subject = inferSubject(`${questionText} ${answerText}`, fileSubjectHint);
-    const base = buildBase(fileName, subject, 'ProblemOfDay', questionText);
     const cloze = tryParseCloze(questionText, answerText);
     if (cloze) {
-      return { ...base, ...cloze, scored: false };
+      const clozeAnswerText = cloze.blanks.map((b) => b.answer).join(' ');
+      return {
+        ...buildBase(fileName, subject, 'ProblemOfDay', questionText, clozeAnswerText),
+        ...cloze,
+        scored: false,
+        ...corruptionFlags(questionText, { alreadyCorrupted: possiblyCorrupted }),
+      };
     }
+    const correctAnswer = resolveAnswerText(answerText);
     return {
-      ...base,
+      ...buildBase(fileName, subject, 'ProblemOfDay', questionText, correctAnswer),
       questionText,
-      correctAnswer: resolveAnswerText(answerText),
+      correctAnswer,
       scored: false,
+      ...corruptionFlags(questionText, { alreadyCorrupted: possiblyCorrupted }),
     };
   });
 }
@@ -770,11 +825,12 @@ function extractSpeedRace(fileName, segmentText, fileSubjectHint, warnings) {
     const subject = inferSubject(`${questionText} ${answerText}`, fileSubjectHint);
     const correctAnswer = resolveAnswerText(answerText);
     return {
-      ...buildBase(fileName, subject, 'SpeedRace', questionText),
+      ...buildBase(fileName, subject, 'SpeedRace', questionText, correctAnswer),
       questionText,
       correctAnswer,
       options: shuffleOptions(correctAnswer, generateDistractors(correctAnswer, subject)),
       scored: true,
+      ...corruptionFlags(questionText),
     };
   });
 }
@@ -792,20 +848,21 @@ function extractTrueFalse(fileName, segmentText, fileSubjectHint, warnings) {
       warnings.push(`[TrueFalse] Could not parse boolean from answer: "${answerText.slice(0, 40)}..."`);
       continue;
     }
+    // Compare the first letter, not the whole match, so the single-letter "T"/"F" forms
+    // (which don't equal the literal string "true"/"false") are handled the same as the
+    // spelled-out forms.
+    const correctAnswer = /^t/i.test(m[1]);
     out.push({
-      ...buildBase(fileName, inferSubject(questionText, fileSubjectHint), 'TrueFalse', questionText),
+      ...buildBase(fileName, inferSubject(questionText, fileSubjectHint), 'TrueFalse', questionText, String(correctAnswer)),
       questionText,
-      // Compare the first letter, not the whole match, so the single-letter "T"/"F" forms
-      // (which don't equal the literal string "true"/"false") are handled the same as the
-      // spelled-out forms.
-      correctAnswer: /^t/i.test(m[1]),
+      correctAnswer,
       scored: true,
       // Same Pattern-2 lookahead as General (see parseQABlocks): this answer is immediately
       // followed by another answer block, so the next statement is very likely glued onto this
       // one's tail. Because TrueFalse is scored, a corrupted statement must never be served to a
       // student, so carry excludeFromServing alongside the flag from creation - Stage 4's
       // serving layer will read it rather than having to recompute it.
-      ...(possiblyCorrupted ? { possiblyCorrupted: true, excludeFromServing: true } : {}),
+      ...corruptionFlags(questionText, { alreadyCorrupted: possiblyCorrupted, alreadyExcluded: possiblyCorrupted }),
     });
   }
   return out;
@@ -828,13 +885,13 @@ function extractRiddle(fileName, segmentText, fileSubjectHint, warnings) {
   const allDistractorsArePlaceholder = distractors.every(isDistractorPlaceholder);
   return [
     {
-      ...buildBase(fileName, subject, 'Riddle', questionText),
+      ...buildBase(fileName, subject, 'Riddle', questionText, answerText),
       questionText,
       correctAnswer: answerText,
       options: shuffleOptions(answerText, distractors),
       clues,
       scored: true,
-      ...(allDistractorsArePlaceholder ? { excludeFromServing: true } : {}),
+      ...corruptionFlags(questionText, { alreadyExcluded: allDistractorsArePlaceholder }),
     },
   ];
 }
@@ -988,10 +1045,11 @@ function extractSolutionBlockFile(fileName, text, fileSubjectHint) {
 
   const subject = inferSubject(`${questionText} ${answerText}`, fileSubjectHint);
   questions.ProblemOfDay.push({
-    ...buildBase(fileName, subject, 'ProblemOfDay', questionText),
+    ...buildBase(fileName, subject, 'ProblemOfDay', questionText, answerText),
     questionText,
     correctAnswer: answerText,
     scored: false,
+    ...corruptionFlags(questionText),
   });
   return { questions, warnings };
 }
