@@ -6,10 +6,9 @@ import { Card } from '../components/Card';
 import { Header } from '../components/Header';
 import { Pill } from '../components/Pill';
 import { theme } from '../theme';
+import { useProfile } from '../lib/queries';
 
-// Sample data until Paystack + a real wallet balance exist.
-const COIN_BALANCE = '640';
-
+// Sample data until Paystack integration is wired up.
 const PASS = {
   title: 'Premium Pass',
   description: '30 days, unlimited practice',
@@ -28,13 +27,16 @@ const COIN_PACKS: CoinPack[] = [
 ];
 
 export default function StoreScreen() {
+  const profile = useProfile();
+  const coinBalance = profile.data?.coinBalance ?? 0;
+
   return (
     <SafeAreaView style={styles.root} edges={['top', 'bottom']}>
       <ScrollView contentContainerStyle={styles.content}>
         <Header />
         <View style={styles.header}>
           <Text style={styles.title}>Store</Text>
-          <Pill label={`🪙 ${COIN_BALANCE}`} backgroundColor={theme.colors.primary} textColor={theme.colors.surface} />
+          <Pill label={`🪙 ${coinBalance}`} backgroundColor={theme.colors.primary} textColor={theme.colors.surface} />
         </View>
 
         <Card style={styles.passCard}>
