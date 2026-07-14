@@ -11,43 +11,41 @@ import { OutOfCoinsModal } from '../components/OutOfCoinsModal';
 import { theme } from '../theme';
 import { clearToken } from '../lib/authStore';
 import type { RootTabParamList } from '../lib/RootNavigator';
-
-// Sample data until auth + a real profile API exist.
-const USER = {
-  name: 'Kojo Antwi',
-  school: 'Accra Academy',
-  avatarUrl: undefined as string | undefined,
-};
-
-const STATS = [
-  { label: 'XP', value: '1,240' },
-  { label: 'Quizzes', value: '86' },
-  { label: 'Best streak', value: '14' },
-];
+import { useProfile } from '../lib/queries';
 
 const SETTINGS_ROWS = ['Edit profile', 'Notifications', 'Log out'] as const;
 
 export default function ProfileScreen() {
   const navigation = useNavigation<BottomTabNavigationProp<RootTabParamList>>();
   const [outOfCoinsVisible, setOutOfCoinsVisible] = useState(false);
+  const profile = useProfile();
+
+  const stats = [
+    { label: 'XP', value: (profile.data?.xp ?? 0).toLocaleString('en-US') },
+    { label: 'Quizzes', value: '86' },
+    { label: 'Best streak', value: '14' },
+  ];
 
   return (
     <SafeAreaView style={styles.root} edges={['top', 'bottom']}>
       <ScrollView contentContainerStyle={styles.content}>
-        <Header />
+        <Header avatarLabel={profile.data?.name} avatarUrl={profile.data?.avatarUrl} />
         <View style={styles.identity}>
           <View style={styles.avatarWrap}>
-            <Avatar label={USER.name} source={USER.avatarUrl ? { uri: USER.avatarUrl } : undefined} size={96} />
+            <Avatar
+              label={profile.data?.name ?? ''}
+              source={profile.data?.avatarUrl ? { uri: profile.data.avatarUrl } : undefined}
+              size={96}
+            />
             <Pressable style={styles.cameraBadge} onPress={() => {}} hitSlop={8}>
               <Feather name="camera" size={14} color={theme.colors.primary} />
             </Pressable>
           </View>
-          <Text style={styles.name}>{USER.name}</Text>
-          <Text style={styles.school}>{USER.school}</Text>
+          <Text style={styles.name}>{profile.data?.name}</Text>
         </View>
 
         <Card style={styles.statsCard}>
-          {STATS.map((stat) => (
+          {stats.map((stat) => (
             <View key={stat.label} style={styles.statColumn}>
               <Text style={styles.statValue}>{stat.value}</Text>
               <Text style={styles.statLabel}>{stat.label}</Text>
@@ -122,10 +120,6 @@ const styles = StyleSheet.create({
     ...theme.type.h2,
     color: theme.colors.ink,
     marginTop: theme.spacing.sm,
-  },
-  school: {
-    ...theme.type.body,
-    color: theme.colors.inkMuted,
   },
   statsCard: {
     flexDirection: 'row',

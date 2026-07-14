@@ -10,7 +10,7 @@ import { HeaderStatus } from '../components/HeaderStatus';
 import { Pill } from '../components/Pill';
 import { theme } from '../theme';
 import type { QuizStackParamList } from '../lib/QuizStack';
-import { SAMPLE_HEADER_USER } from '../lib/sampleData';
+import { useProfile } from '../lib/queries';
 
 type Round = {
   route: keyof QuizStackParamList;
@@ -53,14 +53,15 @@ const ROUNDS: Round[] = [
 
 export default function QuizScreen() {
   const navigation = useNavigation<NativeStackNavigationProp<QuizStackParamList>>();
+  const profile = useProfile();
 
   return (
     <SafeAreaView style={styles.root} edges={['top', 'bottom']}>
       <ScrollView contentContainerStyle={styles.content}>
         <Header
-          avatarLabel={SAMPLE_HEADER_USER.name}
-          avatarUrl={SAMPLE_HEADER_USER.avatarUrl}
-          right={<HeaderStatus xp={SAMPLE_HEADER_USER.xp} coins={SAMPLE_HEADER_USER.coins} />}
+          avatarLabel={profile.data?.name}
+          avatarUrl={profile.data?.avatarUrl}
+          right={<HeaderStatus xp={profile.data?.xp ?? 0} coins={profile.data?.coinBalance ?? 0} />}
         />
         <Text style={styles.title}>Quiz</Text>
 

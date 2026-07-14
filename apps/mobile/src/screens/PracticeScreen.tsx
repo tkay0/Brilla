@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Pressable, StyleSheet, Text, View } from 'react-native';
+import { ActivityIndicator, Pressable, StyleSheet, Text, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { useNavigation } from '@react-navigation/native';
 import type { NativeStackNavigationProp } from '@react-navigation/native-stack';
@@ -8,74 +8,60 @@ import { Button } from '../components/Button';
 import { Card } from '../components/Card';
 import { theme } from '../theme';
 import type { QuizStackParamList } from '../lib/QuizStack';
+import { useQuestions, useSubmitAttempt } from '../lib/queries';
 
-type GeneralCard = {
-  kind: 'general';
-  question: string;
-  answer: string;
-};
-
-type ProblemOfDayCard = {
-  kind: 'potd';
-  passage: string;
-  answers: string[];
-};
-
-type PracticeCard = GeneralCard | ProblemOfDayCard;
-
-// Sample cards until the backend exists - cycled through in order, then practice ends.
-// Self-paced and self-graded: no timer, no XP, just a local "Got it" / "Missed it" tally.
-const CARDS: PracticeCard[] = [
-  {
-    kind: 'general',
-    question: 'What is the powerhouse of the cell?',
-    answer: 'The mitochondrion.',
-  },
-  {
-    kind: 'general',
-    question: 'What is the chemical formula for table salt?',
-    answer: 'NaCl.',
-  },
-  {
-    kind: 'potd',
-    passage:
-      'During cellular respiration, pairs of hydrogen atoms are removed from (1) and taken up by (2), which becomes reduced in the process.',
-    answers: ['glucose', 'NAD+'],
-  },
-  {
-    kind: 'general',
-    question: 'Who is regarded as the father of modern physics?',
-    answer: 'Albert Einstein.',
-  },
-  {
-    kind: 'potd',
-    passage:
-      'In a right-angled triangle, the square of the length of the (1) is equal to the sum of the squares of the lengths of the other (2) sides.',
-    answers: ['hypotenuse', 'two'],
-  },
-];
+const QUESTION_COUNT = 10;
 
 type SelfReport = 'got-it' | 'missed-it';
 
 export default function PracticeScreen() {
   const navigation = useNavigation<NativeStackNavigationProp<QuizStackParamList>>();
+  const questionsQuery = useQuestions('Practice', QUESTION_COUNT);
+  const submitAttempt = useSubmitAttempt();
   const [currentIndex, setCurrentIndex] = useState(0);
   const [revealed, setRevealed] = useState(false);
   const [complete, setComplete] = useState(false);
   const [reviewedCount, setReviewedCount] = useState(0);
 
-  const card = CARDS[currentIndex];
+  const questions = questionsQuery.data;
+  const question = questions?.[currentIndex];
 
-  function handleReport(_report: SelfReport) {
-    // Self-report is local only - no visible score, just future personal stats.
+  function handleReport(report: SelfReport) {
+    if (!question || !questions) return;
+    submitAttempt.mutate({ questionId: question.id, selfReportedCorrect: report === 'got-it' });
     const next = currentIndex + 1;
     setReviewedCount((count) => count + 1);
-    if (next >= CARDS.length) {
+    if (next >= questions.length) {
       setComplete(true);
       return;
     }
     setCurrentIndex(next);
     setRevealed(false);
+  }
+
+  if (questionsQuery.isError) {
+    return (
+      <SafeAreaView style={styles.root} edges={['top', 'bottom']}>
+        <View style={styles.limitContent}>
+          <Card style={styles.limitCard}>
+            <Text style={styles.limitTitle}>Couldn&rsquo;t load questions</Text>
+            <Text style={styles.limitBody}>Check your connection and try again.</Text>
+          </Card>
+          <Button label="Retry" variant="primary" onPress={() => questionsQuery.refetch()} />
+          <Button label="Back to Quiz" variant="secondary" onPress={() => navigation.navigate('QuizHome')} />
+        </View>
+      </SafeAreaView>
+    );
+  }
+
+  if (questionsQuery.isLoading || !question) {
+    return (
+      <SafeAreaView style={styles.root} edges={['top', 'bottom']}>
+        <View style={styles.centered}>
+          <ActivityIndicator color={theme.colors.primary} />
+        </View>
+      </SafeAreaView>
+    );
   }
 
   if (complete) {
@@ -103,34 +89,20 @@ export default function PracticeScreen() {
           <View style={styles.headerSpacer} />
         </View>
 
-        {card.kind === 'general' ? (
+        {question.roundType === 'ProblemOfDay' ? (
           <Card style={styles.questionCard}>
-            <Text style={theme.type.h3}>{card.question}</Text>
-            {revealed && <Text style={styles.answerText}>{card.answer}</Text>}
+            <Text style={styles.label}>Problem of the Day</Text>
+            <Text style={styles.passageText}>{question.questionText}</Text>
+            {revealed && <Text style={styles.answerText}>{question.correctAnswer}</Text>}
           </Card>
         ) : (
           <Card style={styles.questionCard}>
-            <Text style={styles.label}>Problem of the Day</Text>
-            <Text style={styles.passageText}>{card.passage}</Text>
-            {revealed && (
-              <View style={styles.answersList}>
-                {card.answers.map((answer, index) => (
-                  <Text key={answer} style={styles.answerText}>
-                    {index + 1}. {answer}
-                  </Text>
-                ))}
-              </View>
-            )}
+            <Text style={theme.type.h3}>{question.questionText}</Text>
+            {revealed && <Text style={styles.answerText}>{question.correctAnswer}</Text>}
           </Card>
         )}
 
-        {!revealed && (
-          <Button
-            label={card.kind === 'general' ? 'Reveal answer' : 'Reveal answers'}
-            variant="primary"
-            onPress={() => setRevealed(true)}
-          />
-        )}
+        {!revealed && <Button label="Reveal answer" variant="primary" onPress={() => setRevealed(true)} />}
 
         {revealed && (
           <View style={styles.reportRow}>
@@ -178,8 +150,30 @@ const styles = StyleSheet.create({
     ...theme.type.bodyLg,
     color: theme.colors.ink,
   },
-  answersList: {
+  centered: {
+    flex: 1,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  limitContent: {
+    flex: 1,
+    padding: theme.spacing.md,
+    justifyContent: 'center',
+    gap: theme.spacing.md,
+  },
+  limitCard: {
+    alignItems: 'center',
     gap: theme.spacing.xs,
+  },
+  limitTitle: {
+    ...theme.type.h2,
+    color: theme.colors.ink,
+    textAlign: 'center',
+  },
+  limitBody: {
+    ...theme.type.body,
+    color: theme.colors.inkMuted,
+    textAlign: 'center',
   },
   answerText: {
     ...theme.type.bodyMedium,

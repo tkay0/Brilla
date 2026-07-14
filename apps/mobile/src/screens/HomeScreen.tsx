@@ -11,7 +11,7 @@ import { HeaderStatus } from '../components/HeaderStatus';
 import { Pill } from '../components/Pill';
 import { theme } from '../theme';
 import type { RootTabParamList } from '../lib/RootNavigator';
-import { SAMPLE_HEADER_USER } from '../lib/sampleData';
+import { useProfile } from '../lib/queries';
 
 // Static/sample content until the backend exists (announcement) - wired up for real data
 // later without changing the layout.
@@ -53,14 +53,15 @@ const HALL_OF_FAME: HallOfFameEntry[] = [
 
 export default function HomeScreen() {
   const navigation = useNavigation<BottomTabNavigationProp<RootTabParamList>>();
+  const profile = useProfile();
 
   return (
     <SafeAreaView style={styles.root} edges={['top', 'bottom']}>
       <ScrollView contentContainerStyle={styles.content}>
         <Header
-          avatarLabel={SAMPLE_HEADER_USER.name}
-          avatarUrl={SAMPLE_HEADER_USER.avatarUrl}
-          right={<HeaderStatus xp={SAMPLE_HEADER_USER.xp} coins={SAMPLE_HEADER_USER.coins} />}
+          avatarLabel={profile.data?.name}
+          avatarUrl={profile.data?.avatarUrl}
+          right={<HeaderStatus xp={profile.data?.xp ?? 0} coins={profile.data?.coinBalance ?? 0} />}
         />
 
         <Card style={styles.card}>
