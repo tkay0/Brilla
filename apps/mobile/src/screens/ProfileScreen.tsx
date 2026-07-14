@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { ActivityIndicator, Alert, Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { useNavigation } from '@react-navigation/native';
@@ -10,7 +10,6 @@ import * as ImagePicker from 'expo-image-picker';
 import { Avatar } from '../components/Avatar';
 import { Card } from '../components/Card';
 import { Header } from '../components/Header';
-import { OutOfCoinsModal } from '../components/OutOfCoinsModal';
 import { theme } from '../theme';
 import { clearToken } from '../lib/authStore';
 import type { RootTabParamList } from '../lib/RootNavigator';
@@ -26,7 +25,6 @@ type ProfileScreenNavigationProp = CompositeNavigationProp<
 
 export default function ProfileScreen() {
   const navigation = useNavigation<ProfileScreenNavigationProp>();
-  const [outOfCoinsVisible, setOutOfCoinsVisible] = useState(false);
   const profile = useProfile();
   const schools = useSchools();
   const profileStats = useProfileStats();
@@ -96,10 +94,13 @@ export default function ProfileScreen() {
         </Card>
 
         <Card style={styles.subjectsCard}>
-          <Text style={styles.sectionLabel}>SUBJECTS</Text>
+          <Text style={styles.sectionLabel}>STRONGEST SUBJECTS</Text>
           {profileSubjects.data && profileSubjects.data.length > 0 ? (
-            profileSubjects.data.map((stat) => (
-              <View key={stat.subject} style={styles.subjectRow}>
+            profileSubjects.data.map((stat, index) => (
+              <View
+                key={stat.subject}
+                style={[styles.subjectRow, index > 0 && styles.subjectRowDivider]}
+              >
                 <Text style={styles.subjectName}>{stat.subject}</Text>
                 <Text style={styles.subjectAccuracy}>{stat.accuracy}%</Text>
               </View>
@@ -121,25 +122,7 @@ export default function ProfileScreen() {
             </Pressable>
           ))}
         </Card>
-
-        <Pressable style={styles.debugRow} onPress={() => setOutOfCoinsVisible(true)}>
-          <Feather name="terminal" size={16} color={theme.colors.inkMuted} />
-          <Text style={styles.debugLabel}>Debug: show &ldquo;out of coins&rdquo; modal</Text>
-        </Pressable>
       </ScrollView>
-
-      <OutOfCoinsModal
-        visible={outOfCoinsVisible}
-        onRequestClose={() => setOutOfCoinsVisible(false)}
-        onGoToStore={() => {
-          setOutOfCoinsVisible(false);
-          navigation.navigate('Store');
-        }}
-        onBackToHome={() => {
-          setOutOfCoinsVisible(false);
-          navigation.navigate('Home');
-        }}
-      />
     </SafeAreaView>
   );
 }
@@ -191,7 +174,7 @@ const styles = StyleSheet.create({
   },
   statValue: {
     ...theme.type.h2,
-    color: theme.colors.ink,
+    color: theme.colors.primary,
   },
   statLabel: {
     ...theme.type.caption,
@@ -210,6 +193,11 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'space-between',
+    paddingVertical: theme.spacing.xs,
+  },
+  subjectRowDivider: {
+    borderTopWidth: 1,
+    borderTopColor: theme.colors.bg,
   },
   subjectName: {
     ...theme.type.bodyMedium,
@@ -217,7 +205,8 @@ const styles = StyleSheet.create({
   },
   subjectAccuracy: {
     ...theme.type.bodyMedium,
-    color: theme.colors.inkMuted,
+    fontFamily: theme.fonts.bodyBold,
+    color: theme.colors.accent,
   },
   subjectsEmpty: {
     ...theme.type.body,
@@ -237,16 +226,5 @@ const styles = StyleSheet.create({
   settingsLabel: {
     ...theme.type.bodyMedium,
     color: theme.colors.ink,
-  },
-  debugRow: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    justifyContent: 'center',
-    gap: theme.spacing.xs,
-    paddingVertical: theme.spacing.sm,
-  },
-  debugLabel: {
-    ...theme.type.caption,
-    color: theme.colors.inkMuted,
   },
 });

@@ -5,6 +5,9 @@ import { DailyLimitsService } from '../daily-limits/daily-limits.service';
 import { R2Service } from './r2.service';
 import { UpdateProfileDto } from './dto/update-profile.dto';
 
+// The only subjects questions are classified into (see prisma/schema.prisma Question.subject).
+const SUBJECTS = ['Physics', 'Biology', 'Chemistry', 'Maths'] as const;
+
 const EXTENSION_BY_MIME_TYPE: Record<string, string> = {
   'image/jpeg': 'jpg',
   'image/png': 'png',
@@ -96,7 +99,11 @@ export class ProfileService {
       },
     });
 
-    const totals = new Map<string, { correct: number; total: number }>();
+    // Always report all four subjects, even with zero attempts, so a new user sees a
+    // full 0% breakdown rather than an empty list.
+    const totals = new Map<string, { correct: number; total: number }>(
+      SUBJECTS.map((subject) => [subject, { correct: 0, total: 0 }]),
+    );
     for (const attempt of attempts) {
       const subject = attempt.question.subject as string;
       const correct =
@@ -113,7 +120,7 @@ export class ProfileService {
     return Array.from(totals.entries())
       .map(([subject, { correct, total }]) => ({
         subject,
-        accuracy: Math.round((correct / total) * 100),
+        accuracy: total === 0 ? 0 : Math.round((correct / total) * 100),
         attempts: total,
       }))
       .sort((a, b) => b.accuracy - a.accuracy);

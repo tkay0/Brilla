@@ -3,7 +3,7 @@ import { ActivityIndicator, View } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { Feather } from '@expo/vector-icons';
-import HomeScreen from '../screens/HomeScreen';
+import HomeStack from './HomeStack';
 import QuizStack from './QuizStack';
 import LeaderboardScreen from '../screens/LeaderboardScreen';
 import StoreScreen from '../screens/StoreScreen';
@@ -55,7 +55,7 @@ function MainTabs() {
         ),
       })}
     >
-      <Tab.Screen name="Home" component={HomeScreen} />
+      <Tab.Screen name="Home" component={HomeStack} />
       <Tab.Screen name="Quiz" component={QuizStack} />
       <Tab.Screen name="Leaderboard" component={LeaderboardScreen} />
       <Tab.Screen name="Store" component={StoreScreen} />

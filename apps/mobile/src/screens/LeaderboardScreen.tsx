@@ -1,5 +1,5 @@
 import React from 'react';
-import { ActivityIndicator, ScrollView, StyleSheet, Text, View } from 'react-native';
+import { ActivityIndicator, Image, ScrollView, StyleSheet, Text, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { Avatar } from '../components/Avatar';
 import { Button } from '../components/Button';
@@ -13,10 +13,23 @@ function formatScore(score: number) {
   return score.toLocaleString('en-US');
 }
 
+const FIRST_AVATAR_SIZE = 72;
+const SIDE_AVATAR_SIZE = 56;
+
+// How much of the avatar sits above the card's top edge (vs. tucked inside it).
+const AVATAR_OVERLAP_RATIO = 0.65;
+const FIRST_AVATAR_OVERLAP = Math.round(FIRST_AVATAR_SIZE * AVATAR_OVERLAP_RATIO);
+const SIDE_AVATAR_OVERLAP = Math.round(SIDE_AVATAR_SIZE * AVATAR_OVERLAP_RATIO);
+
+// ribbon.png is 1000x903 - keep that aspect ratio at any width.
+const RIBBON_ASPECT = 903 / 1000;
+const RIBBON_WIDTH = 56;
+
+// Rendered left-to-right as 2nd, 1st, 3rd so the winner sits in the middle, tallest slot.
 const PODIUM_SLOTS = [
-  { index: 1, avatarSize: 56, blockHeight: 130 },
-  { index: 0, avatarSize: 72, blockHeight: 150 },
-  { index: 2, avatarSize: 56, blockHeight: 120 },
+  { index: 1, isFirst: false },
+  { index: 0, isFirst: true },
+  { index: 2, isFirst: false },
 ];
 
 export default function LeaderboardScreen() {
@@ -55,35 +68,63 @@ export default function LeaderboardScreen() {
 
         {data && (
           <>
-            <Card style={styles.podiumCard}>
-              <View style={styles.podiumRow}>
-                {PODIUM_SLOTS.map(({ index, avatarSize, blockHeight }) => {
-                  const player = podium[index];
-                  if (!player) return <View key={index} style={styles.podiumColumn} />;
+            <View style={styles.podiumRow}>
+              {PODIUM_SLOTS.map(({ index, isFirst }) => {
+                const player = podium[index];
+                if (!player) return <View key={index} style={styles.podiumSlot} />;
+                const avatarSource = player.avatarUrl ? { uri: player.avatarUrl } : undefined;
+
+                if (isFirst) {
                   return (
-                    <View key={player.id} style={styles.podiumColumn}>
-                      {player.rank === 1 && <Text style={styles.crown}>👑</Text>}
+                    <View key={player.id} style={styles.podiumSlot}>
+                      <Image
+                        source={require('../../assets/images/ribbon.png')}
+                        style={styles.ribbon}
+                        resizeMode="contain"
+                      />
                       <Avatar
                         label={player.name}
-                        source={player.avatarUrl ? { uri: player.avatarUrl } : undefined}
-                        size={avatarSize}
-                        style={styles.podiumAvatar}
+                        source={avatarSource}
+                        size={FIRST_AVATAR_SIZE}
+                        backgroundColor={theme.colors.surface}
+                        textColor={theme.colors.primary}
+                        style={styles.firstAvatar}
                       />
-                      <View style={[styles.podiumBlock, { height: blockHeight }]}>
-                        <Text style={styles.podiumBlockRank}>{player.rank}</Text>
-                        <Text style={styles.podiumName} numberOfLines={2}>
+                      <View style={styles.firstCard}>
+                        <Text style={styles.firstRank}>{player.rank}</Text>
+                        <Text style={styles.firstName} numberOfLines={1}>
                           {player.name}
                         </Text>
-                        <Text style={styles.podiumScore}>{formatScore(player.xp)} XP</Text>
-                        <Text style={styles.podiumSchool} numberOfLines={2}>
-                          {player.school}
-                        </Text>
+                        <Text style={styles.firstSchool}>{player.school}</Text>
+                        <Text style={styles.firstScore}>{formatScore(player.xp)}</Text>
                       </View>
                     </View>
                   );
-                })}
-              </View>
-            </Card>
+                }
+
+                return (
+                  <View key={player.id} style={styles.podiumSlot}>
+                    <Avatar
+                      label={player.name}
+                      source={avatarSource}
+                      size={SIDE_AVATAR_SIZE}
+                      style={styles.sideAvatar}
+                    />
+                    <View style={styles.sideCard}>
+                      <View style={styles.sideCardStrip} />
+                      <View style={styles.sideCardBody}>
+                        <Text style={styles.sideRank}>{player.rank}</Text>
+                        <Text style={styles.sideName} numberOfLines={1}>
+                          {player.name}
+                        </Text>
+                        <Text style={styles.sideSchool}>{player.school}</Text>
+                        <Text style={styles.sideScore}>{formatScore(player.xp)}</Text>
+                      </View>
+                    </View>
+                  </View>
+                );
+              })}
+            </View>
 
             <Card style={styles.listCard}>
               {data.leaderboard.map((player: LeaderboardEntry, index) => {
@@ -184,56 +225,108 @@ const styles = StyleSheet.create({
     color: theme.colors.inkMuted,
     textAlign: 'center',
   },
-  podiumCard: {
-    paddingBottom: 0,
-  },
   podiumRow: {
     flexDirection: 'row',
     alignItems: 'flex-end',
-    justifyContent: 'center',
     gap: theme.spacing.sm,
   },
-  podiumColumn: {
+  podiumSlot: {
     flex: 1,
     alignItems: 'center',
   },
-  crown: {
-    fontSize: 22,
-    marginBottom: theme.spacing.xs,
+  // Rank 1: navy card, flat bottom, avatar + winner ribbon overlapping the top edge.
+  ribbon: {
+    width: RIBBON_WIDTH,
+    height: RIBBON_WIDTH * RIBBON_ASPECT,
+    marginBottom: -14,
+    zIndex: 2,
   },
-  podiumAvatar: {
-    marginBottom: theme.spacing.xs,
+  firstAvatar: {
+    marginBottom: -FIRST_AVATAR_OVERLAP,
+    zIndex: 1,
+    borderWidth: 2,
+    borderColor: theme.colors.surface,
   },
-  podiumName: {
-    ...theme.type.caption,
-    fontFamily: theme.fonts.bodyMedium,
-    color: theme.colors.ink,
-    textAlign: 'center',
-  },
-  podiumBlock: {
+  firstCard: {
     width: '100%',
-    backgroundColor: theme.colors.bg,
-    borderTopLeftRadius: theme.radii.sm,
-    borderTopRightRadius: theme.radii.sm,
+    minHeight: 205,
+    backgroundColor: theme.colors.primary,
+    borderTopLeftRadius: theme.radii.lg,
+    borderTopRightRadius: theme.radii.lg,
+    borderBottomLeftRadius: 0,
+    borderBottomRightRadius: 0,
     alignItems: 'center',
-    justifyContent: 'flex-start',
-    paddingTop: theme.spacing.sm,
+    paddingTop: FIRST_AVATAR_SIZE - FIRST_AVATAR_OVERLAP + theme.spacing.sm,
+    paddingBottom: theme.spacing.lg,
     paddingHorizontal: theme.spacing.xs,
     gap: 2,
   },
-  podiumBlockRank: {
+  firstRank: {
+    ...theme.type.h2,
+    color: theme.colors.surface,
+  },
+  firstName: {
     ...theme.type.bodyMedium,
-    color: theme.colors.inkMuted,
-    marginBottom: theme.spacing.xs,
+    color: theme.colors.surface,
+    marginTop: theme.spacing.xs,
   },
-  podiumScore: {
+  firstSchool: {
     ...theme.type.caption,
-    color: theme.colors.inkMuted,
+    color: theme.colors.surface,
+    opacity: 0.75,
+    textAlign: 'center',
   },
-  podiumSchool: {
+  firstScore: {
+    ...theme.type.h3,
+    color: theme.colors.surface,
+    marginTop: theme.spacing.xs,
+  },
+  // Rank 2/3: white card, flat bottom, red top strip, avatar overlapping the top edge.
+  sideAvatar: {
+    marginBottom: -SIDE_AVATAR_OVERLAP,
+    zIndex: 1,
+    borderWidth: 2,
+    borderColor: theme.colors.surface,
+  },
+  sideCard: {
+    width: '100%',
+    minHeight: 155,
+    borderTopLeftRadius: theme.radii.lg,
+    borderTopRightRadius: theme.radii.lg,
+    borderBottomLeftRadius: 0,
+    borderBottomRightRadius: 0,
+    backgroundColor: theme.colors.surface,
+    overflow: 'hidden',
+  },
+  sideCardStrip: {
+    height: 2,
+    backgroundColor: theme.colors.accent,
+  },
+  sideCardBody: {
+    alignItems: 'center',
+    paddingTop: SIDE_AVATAR_SIZE - SIDE_AVATAR_OVERLAP + theme.spacing.sm,
+    paddingBottom: theme.spacing.sm,
+    paddingHorizontal: theme.spacing.xs,
+    gap: 2,
+  },
+  sideRank: {
+    ...theme.type.h3,
+    color: theme.colors.accent,
+  },
+  sideName: {
+    ...theme.type.bodyMedium,
+    color: theme.colors.ink,
+    marginTop: theme.spacing.xs,
+  },
+  sideSchool: {
     ...theme.type.caption,
     color: theme.colors.inkMuted,
     textAlign: 'center',
+  },
+  sideScore: {
+    ...theme.type.bodyMedium,
+    fontFamily: theme.fonts.bodyMedium,
+    color: theme.colors.primary,
     marginTop: theme.spacing.xs,
   },
   listCard: {
