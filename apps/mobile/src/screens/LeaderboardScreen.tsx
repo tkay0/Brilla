@@ -1,6 +1,7 @@
-import React from 'react';
-import { ActivityIndicator, Image, ScrollView, StyleSheet, Text, View } from 'react-native';
+import React, { useEffect, useRef, useState } from 'react';
+import { ActivityIndicator, Image, Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
+import { Feather } from '@expo/vector-icons';
 import { Avatar } from '../components/Avatar';
 import { Button } from '../components/Button';
 import { Card } from '../components/Card';
@@ -13,11 +14,12 @@ function formatScore(score: number) {
   return score.toLocaleString('en-US');
 }
 
-const FIRST_AVATAR_SIZE = 72;
+const FIRST_AVATAR_SIZE = 60;
 const SIDE_AVATAR_SIZE = 56;
 
-// How much of the avatar sits above the card's top edge (vs. tucked inside it).
-const AVATAR_OVERLAP_RATIO = 0.65;
+// How much of the avatar sits above the card's top edge (vs. tucked inside it) - just
+// the bottom sliver should rest on the card, per the reference design.
+const AVATAR_OVERLAP_RATIO = 0.15;
 const FIRST_AVATAR_OVERLAP = Math.round(FIRST_AVATAR_SIZE * AVATAR_OVERLAP_RATIO);
 const SIDE_AVATAR_OVERLAP = Math.round(SIDE_AVATAR_SIZE * AVATAR_OVERLAP_RATIO);
 
@@ -34,23 +36,39 @@ const PODIUM_SLOTS = [
 
 export default function LeaderboardScreen() {
   const profile = useProfile();
-  const leaderboardQuery = useLeaderboard(100);
+  const leaderboardQuery = useLeaderboard(500);
 
   const data = leaderboardQuery.data;
   const podium = data?.leaderboard.slice(0, 3) ?? [];
 
+  const scrollRef = useRef<ScrollView>(null);
+  const [listCardY, setListCardY] = useState<number | null>(null);
+  const [meRowY, setMeRowY] = useState<number | null>(null);
+  const hasScrolledRef = useRef(false);
+
+  // A fresh leaderboard load (or a different logged-in user) deserves its own
+  // auto-scroll-to-me pass.
+  useEffect(() => {
+    hasScrolledRef.current = false;
+    setListCardY(null);
+    setMeRowY(null);
+  }, [data?.me.id]);
+
+  useEffect(() => {
+    if (hasScrolledRef.current || listCardY === null || meRowY === null) return;
+    hasScrolledRef.current = true;
+    scrollRef.current?.scrollTo({ y: Math.max(listCardY + meRowY - theme.spacing.md, 0), animated: true });
+  }, [listCardY, meRowY]);
+
   return (
     <SafeAreaView style={styles.root} edges={['top', 'bottom']}>
-      <ScrollView contentContainerStyle={styles.content}>
+      <ScrollView ref={scrollRef} contentContainerStyle={styles.content}>
         <Header
           avatarLabel={profile.data?.name}
           avatarUrl={profile.data?.avatarUrl}
           right={<HeaderStatus xp={profile.data?.xp ?? 0} coins={profile.data?.coinBalance ?? 0} />}
         />
-        <View style={styles.titleBlock}>
-          <Text style={styles.title}>Leaderboard</Text>
-          <Text style={styles.subtitle}>Showing top 100</Text>
-        </View>
+        <Text style={styles.title}>Leaderboard</Text>
 
         {leaderboardQuery.isError && (
           <Card style={styles.limitCard}>
@@ -92,9 +110,7 @@ export default function LeaderboardScreen() {
                       />
                       <View style={styles.firstCard}>
                         <Text style={styles.firstRank}>{player.rank}</Text>
-                        <Text style={styles.firstName} numberOfLines={1}>
-                          {player.name}
-                        </Text>
+                        <Text style={styles.firstName}>{player.name}</Text>
                         <Text style={styles.firstSchool}>{player.school}</Text>
                         <Text style={styles.firstScore}>{formatScore(player.xp)}</Text>
                       </View>
@@ -114,9 +130,7 @@ export default function LeaderboardScreen() {
                       <View style={styles.sideCardStrip} />
                       <View style={styles.sideCardBody}>
                         <Text style={styles.sideRank}>{player.rank}</Text>
-                        <Text style={styles.sideName} numberOfLines={1}>
-                          {player.name}
-                        </Text>
+                        <Text style={styles.sideName}>{player.name}</Text>
                         <Text style={styles.sideSchool}>{player.school}</Text>
                         <Text style={styles.sideScore}>{formatScore(player.xp)}</Text>
                       </View>
@@ -126,7 +140,7 @@ export default function LeaderboardScreen() {
               })}
             </View>
 
-            <Card style={styles.listCard}>
+            <Card style={styles.listCard} onLayout={(e) => setListCardY(e.nativeEvent.layout.y)}>
               {data.leaderboard.map((player: LeaderboardEntry, index) => {
                 const isMe = player.id === data.me.id;
                 const isLast = index === data.leaderboard.length - 1;
@@ -134,6 +148,7 @@ export default function LeaderboardScreen() {
                   <View
                     key={player.id}
                     style={[styles.listRow, !isLast && styles.listRowDivider, isMe && styles.listRowMe]}
+                    onLayout={isMe ? (e) => setMeRowY(e.nativeEvent.layout.y) : undefined}
                   >
                     <Text style={styles.listRank}>{player.rank}</Text>
                     <Avatar
@@ -161,25 +176,14 @@ export default function LeaderboardScreen() {
       </ScrollView>
 
       {data && (
-        <View style={styles.currentUserRow}>
-          <Text style={styles.currentUserRank}>{data.me.rank}</Text>
-          <Avatar
-            label={data.me.name}
-            source={data.me.avatarUrl ? { uri: data.me.avatarUrl } : undefined}
-            size={36}
-            backgroundColor={theme.colors.surface}
-            textColor={theme.colors.primary}
-          />
-          <View style={styles.listNameColumn}>
-            <Text style={styles.currentUserName} numberOfLines={1}>
-              {data.me.name}
-            </Text>
-            <Text style={styles.currentUserSchool} numberOfLines={1}>
-              {data.me.school}
-            </Text>
-          </View>
-          <Text style={styles.currentUserScore}>{formatScore(data.me.xp)}</Text>
-        </View>
+        <Pressable
+          style={styles.goToTop}
+          onPress={() => scrollRef.current?.scrollTo({ y: 0, animated: true })}
+          hitSlop={8}
+        >
+          <Text style={styles.goToTopLabel}>Go to Top</Text>
+          <Feather name="chevron-up" size={16} color={theme.colors.primary} />
+        </Pressable>
       )}
     </SafeAreaView>
   );
@@ -191,20 +195,14 @@ const styles = StyleSheet.create({
     backgroundColor: theme.colors.bg,
   },
   content: {
-    padding: theme.spacing.md,
-    paddingBottom: 100,
+    paddingTop: theme.spacing.sm,
+    paddingHorizontal: theme.spacing.md,
+    paddingBottom: theme.spacing.md,
     gap: theme.spacing.md,
-  },
-  titleBlock: {
-    gap: 2,
   },
   title: {
     ...theme.type.h1,
     color: theme.colors.ink,
-  },
-  subtitle: {
-    ...theme.type.caption,
-    color: theme.colors.inkMuted,
   },
   centered: {
     paddingVertical: theme.spacing.lg,
@@ -249,15 +247,16 @@ const styles = StyleSheet.create({
   },
   firstCard: {
     width: '100%',
-    minHeight: 205,
+    minHeight: 160,
     backgroundColor: theme.colors.primary,
     borderTopLeftRadius: theme.radii.lg,
     borderTopRightRadius: theme.radii.lg,
     borderBottomLeftRadius: 0,
     borderBottomRightRadius: 0,
     alignItems: 'center',
-    paddingTop: FIRST_AVATAR_SIZE - FIRST_AVATAR_OVERLAP + theme.spacing.sm,
-    paddingBottom: theme.spacing.lg,
+    // Just enough to clear the sliver of avatar overlapping the top edge.
+    paddingTop: FIRST_AVATAR_OVERLAP + theme.spacing.xs,
+    paddingBottom: theme.spacing.md,
     paddingHorizontal: theme.spacing.xs,
     gap: 2,
   },
@@ -266,8 +265,10 @@ const styles = StyleSheet.create({
     color: theme.colors.surface,
   },
   firstName: {
-    ...theme.type.bodyMedium,
+    ...theme.type.caption,
+    fontFamily: theme.fonts.bodyMedium,
     color: theme.colors.surface,
+    textAlign: 'center',
     marginTop: theme.spacing.xs,
   },
   firstSchool: {
@@ -279,7 +280,7 @@ const styles = StyleSheet.create({
   firstScore: {
     ...theme.type.h3,
     color: theme.colors.surface,
-    marginTop: theme.spacing.xs,
+    marginTop: theme.spacing.md,
   },
   // Rank 2/3: white card, flat bottom, red top strip, avatar overlapping the top edge.
   sideAvatar: {
@@ -290,7 +291,7 @@ const styles = StyleSheet.create({
   },
   sideCard: {
     width: '100%',
-    minHeight: 155,
+    minHeight: 115,
     borderTopLeftRadius: theme.radii.lg,
     borderTopRightRadius: theme.radii.lg,
     borderBottomLeftRadius: 0,
@@ -304,7 +305,8 @@ const styles = StyleSheet.create({
   },
   sideCardBody: {
     alignItems: 'center',
-    paddingTop: SIDE_AVATAR_SIZE - SIDE_AVATAR_OVERLAP + theme.spacing.sm,
+    // Just enough to clear the sliver of avatar overlapping the top edge.
+    paddingTop: SIDE_AVATAR_OVERLAP + theme.spacing.xs,
     paddingBottom: theme.spacing.sm,
     paddingHorizontal: theme.spacing.xs,
     gap: 2,
@@ -314,8 +316,10 @@ const styles = StyleSheet.create({
     color: theme.colors.accent,
   },
   sideName: {
-    ...theme.type.bodyMedium,
+    ...theme.type.caption,
+    fontFamily: theme.fonts.bodyMedium,
     color: theme.colors.ink,
+    textAlign: 'center',
     marginTop: theme.spacing.xs,
   },
   sideSchool: {
@@ -327,7 +331,7 @@ const styles = StyleSheet.create({
     ...theme.type.bodyMedium,
     fontFamily: theme.fonts.bodyMedium,
     color: theme.colors.primary,
-    marginTop: theme.spacing.xs,
+    marginTop: theme.spacing.md,
   },
   listCard: {
     padding: 0,
@@ -369,33 +373,15 @@ const styles = StyleSheet.create({
     ...theme.type.bodyMedium,
     color: theme.colors.ink,
   },
-  currentUserRow: {
+  goToTop: {
     flexDirection: 'row',
     alignItems: 'center',
-    gap: theme.spacing.sm,
-    backgroundColor: theme.colors.primary,
-    marginHorizontal: theme.spacing.md,
-    marginBottom: theme.spacing.md,
-    padding: theme.spacing.md,
-    borderRadius: theme.radii.lg,
+    justifyContent: 'center',
+    gap: 2,
+    paddingVertical: theme.spacing.sm,
   },
-  currentUserRank: {
+  goToTopLabel: {
     ...theme.type.bodyMedium,
-    color: theme.colors.surface,
-    width: 32,
-    textAlign: 'center',
-  },
-  currentUserName: {
-    ...theme.type.bodyMedium,
-    color: theme.colors.surface,
-  },
-  currentUserSchool: {
-    ...theme.type.caption,
-    color: theme.colors.surface,
-    opacity: 0.8,
-  },
-  currentUserScore: {
-    ...theme.type.bodyMedium,
-    color: theme.colors.surface,
+    color: theme.colors.primary,
   },
 });

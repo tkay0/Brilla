@@ -146,6 +146,7 @@ export function useUploadAvatar() {
     },
     onSuccess: () => {
       queryClient.invalidateQueries({ queryKey: ['profile'] });
+      queryClient.invalidateQueries({ queryKey: ['leaderboard'] });
     },
   });
 }
