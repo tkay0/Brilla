@@ -1,8 +1,10 @@
 import {
+  Body,
   Controller,
   FileTypeValidator,
   Get,
   MaxFileSizeValidator,
+  Patch,
   ParseFilePipe,
   Post,
   UploadedFile,
@@ -13,6 +15,7 @@ import { FileInterceptor } from '@nestjs/platform-express';
 import { JwtAuthGuard } from '../auth/jwt-auth.guard';
 import { CurrentUser } from '../auth/current-user.decorator';
 import { ProfileService } from './profile.service';
+import { UpdateProfileDto } from './dto/update-profile.dto';
 
 const MAX_AVATAR_SIZE_BYTES = 5 * 1024 * 1024;
 
@@ -24,6 +27,16 @@ export class ProfileController {
   @Get('limits')
   getLimits(@CurrentUser() user: { id: string }) {
     return this.profileService.getLimits(user.id);
+  }
+
+  @Get('stats')
+  getStats(@CurrentUser() user: { id: string }) {
+    return this.profileService.getStats(user.id);
+  }
+
+  @Patch()
+  updateProfile(@CurrentUser() user: { id: string }, @Body() dto: UpdateProfileDto) {
+    return this.profileService.updateProfile(user.id, dto);
   }
 
   @Post('avatar')

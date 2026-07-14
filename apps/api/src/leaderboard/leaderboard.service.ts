@@ -34,6 +34,7 @@ export class LeaderboardService {
         name: user.name,
         school: user.school.name,
         xp: user.xp,
+        avatarUrl: user.avatarUrl,
       })),
       me: {
         rank: usersAbove + 1,
@@ -41,6 +42,7 @@ export class LeaderboardService {
         name: currentUser.name,
         school: currentUser.school.name,
         xp: currentUser.xp,
+        avatarUrl: currentUser.avatarUrl,
       },
     };
   }

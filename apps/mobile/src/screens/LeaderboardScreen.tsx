@@ -63,7 +63,12 @@ export default function LeaderboardScreen() {
                   return (
                     <View key={player.id} style={styles.podiumColumn}>
                       {player.rank === 1 && <Text style={styles.crown}>👑</Text>}
-                      <Avatar label={player.name} size={avatarSize} style={styles.podiumAvatar} />
+                      <Avatar
+                        label={player.name}
+                        source={player.avatarUrl ? { uri: player.avatarUrl } : undefined}
+                        size={avatarSize}
+                        style={styles.podiumAvatar}
+                      />
                       <View style={[styles.podiumBlock, { height: blockHeight }]}>
                         <Text style={styles.podiumBlockRank}>{player.rank}</Text>
                         <Text style={styles.podiumName} numberOfLines={2}>
@@ -92,6 +97,7 @@ export default function LeaderboardScreen() {
                     <Text style={styles.listRank}>{player.rank}</Text>
                     <Avatar
                       label={player.name}
+                      source={player.avatarUrl ? { uri: player.avatarUrl } : undefined}
                       size={36}
                       backgroundColor={theme.colors.bg}
                       textColor={theme.colors.primary}
@@ -118,6 +124,7 @@ export default function LeaderboardScreen() {
           <Text style={styles.currentUserRank}>{data.me.rank}</Text>
           <Avatar
             label={data.me.name}
+            source={data.me.avatarUrl ? { uri: data.me.avatarUrl } : undefined}
             size={36}
             backgroundColor={theme.colors.surface}
             textColor={theme.colors.primary}

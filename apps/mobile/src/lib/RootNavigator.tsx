@@ -7,7 +7,7 @@ import HomeScreen from '../screens/HomeScreen';
 import QuizStack from './QuizStack';
 import LeaderboardScreen from '../screens/LeaderboardScreen';
 import StoreScreen from '../screens/StoreScreen';
-import ProfileScreen from '../screens/ProfileScreen';
+import ProfileStack from './ProfileStack';
 import AuthStack from './AuthStack';
 import { loadToken, useAuthToken } from './authStore';
 import { theme } from '../theme';
@@ -59,7 +59,7 @@ function MainTabs() {
       <Tab.Screen name="Quiz" component={QuizStack} />
       <Tab.Screen name="Leaderboard" component={LeaderboardScreen} />
       <Tab.Screen name="Store" component={StoreScreen} />
-      <Tab.Screen name="Profile" component={ProfileScreen} />
+      <Tab.Screen name="Profile" component={ProfileStack} />
     </Tab.Navigator>
   );
 }

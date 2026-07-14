@@ -29,7 +29,14 @@ export type AuthResult = { accessToken: string; user: User };
 
 export type School = { id: string; name: string; region: string };
 
-export type LeaderboardEntry = { rank: number; id: string; name: string; school: string; xp: number };
+export type LeaderboardEntry = {
+  rank: number;
+  id: string;
+  name: string;
+  school: string;
+  xp: number;
+  avatarUrl: string | null;
+};
 export type LeaderboardResponse = { leaderboard: LeaderboardEntry[]; me: LeaderboardEntry };
 
 export type AttemptPayload = {
@@ -91,6 +98,28 @@ export function useProfileLimits() {
   return useQuery({
     queryKey: ['profile', 'limits'],
     queryFn: () => apiRequest<RoundLimits>('/profile/limits'),
+  });
+}
+
+export type ProfileStats = { quizzesCompleted: number; currentStreak: number };
+
+export function useProfileStats() {
+  return useQuery({
+    queryKey: ['profile', 'stats'],
+    queryFn: () => apiRequest<ProfileStats>('/profile/stats'),
+  });
+}
+
+export type UpdateProfilePayload = { name?: string; schoolId?: string };
+
+export function useUpdateProfile() {
+  const queryClient = useQueryClient();
+  return useMutation({
+    mutationFn: (payload: UpdateProfilePayload) => apiRequest<User>('/profile', { method: 'PATCH', body: payload }),
+    onSuccess: () => {
+      queryClient.invalidateQueries({ queryKey: ['profile'] });
+      queryClient.invalidateQueries({ queryKey: ['leaderboard'] });
+    },
   });
 }
 

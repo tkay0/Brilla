@@ -1,9 +1,12 @@
 import React, { useState } from 'react';
-import { Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
+import { ActivityIndicator, Alert, Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { useNavigation } from '@react-navigation/native';
+import type { CompositeNavigationProp } from '@react-navigation/native';
 import type { BottomTabNavigationProp } from '@react-navigation/bottom-tabs';
+import type { NativeStackNavigationProp } from '@react-navigation/native-stack';
 import { Feather } from '@expo/vector-icons';
+import * as ImagePicker from 'expo-image-picker';
 import { Avatar } from '../components/Avatar';
 import { Card } from '../components/Card';
 import { Header } from '../components/Header';
@@ -11,20 +14,53 @@ import { OutOfCoinsModal } from '../components/OutOfCoinsModal';
 import { theme } from '../theme';
 import { clearToken } from '../lib/authStore';
 import type { RootTabParamList } from '../lib/RootNavigator';
-import { useProfile } from '../lib/queries';
+import type { ProfileStackParamList } from '../lib/ProfileStack';
+import { useProfile, useProfileStats, useSchools, useUploadAvatar } from '../lib/queries';
 
-const SETTINGS_ROWS = ['Edit profile', 'Notifications', 'Log out'] as const;
+const SETTINGS_ROWS = ['Edit profile', 'Log out'] as const;
+
+type ProfileScreenNavigationProp = CompositeNavigationProp<
+  NativeStackNavigationProp<ProfileStackParamList>,
+  BottomTabNavigationProp<RootTabParamList>
+>;
 
 export default function ProfileScreen() {
-  const navigation = useNavigation<BottomTabNavigationProp<RootTabParamList>>();
+  const navigation = useNavigation<ProfileScreenNavigationProp>();
   const [outOfCoinsVisible, setOutOfCoinsVisible] = useState(false);
   const profile = useProfile();
+  const schools = useSchools();
+  const profileStats = useProfileStats();
+  const uploadAvatar = useUploadAvatar();
+
+  const schoolName = schools.data?.find((school) => school.id === profile.data?.schoolId)?.name;
 
   const stats = [
     { label: 'XP', value: (profile.data?.xp ?? 0).toLocaleString('en-US') },
-    { label: 'Quizzes', value: '86' },
-    { label: 'Best streak', value: '14' },
+    { label: 'Quizzes', value: (profileStats.data?.quizzesCompleted ?? 0).toLocaleString('en-US') },
+    { label: 'Streak', value: (profileStats.data?.currentStreak ?? 0).toLocaleString('en-US') },
   ];
+
+  async function handlePickAvatar() {
+    const permission = await ImagePicker.requestMediaLibraryPermissionsAsync();
+    if (!permission.granted) {
+      Alert.alert('Permission needed', 'Allow photo access to set a profile picture.');
+      return;
+    }
+
+    const result = await ImagePicker.launchImageLibraryAsync({
+      mediaTypes: ['images'],
+      allowsEditing: true,
+      aspect: [1, 1],
+      quality: 0.8,
+    });
+    if (result.canceled || !result.assets[0]) return;
+
+    const asset = result.assets[0];
+    uploadAvatar.mutate(
+      { uri: asset.uri, name: asset.fileName ?? 'avatar.jpg', type: asset.mimeType ?? 'image/jpeg' },
+      { onError: (error) => Alert.alert('Upload failed', error instanceof Error ? error.message : 'Could not upload your photo. Try again.') },
+    );
+  }
 
   return (
     <SafeAreaView style={styles.root} edges={['top', 'bottom']}>
@@ -37,11 +73,16 @@ export default function ProfileScreen() {
               source={profile.data?.avatarUrl ? { uri: profile.data.avatarUrl } : undefined}
               size={96}
             />
-            <Pressable style={styles.cameraBadge} onPress={() => {}} hitSlop={8}>
-              <Feather name="camera" size={14} color={theme.colors.primary} />
+            <Pressable style={styles.cameraBadge} onPress={handlePickAvatar} disabled={uploadAvatar.isPending} hitSlop={8}>
+              {uploadAvatar.isPending ? (
+                <ActivityIndicator size="small" color={theme.colors.primary} />
+              ) : (
+                <Feather name="camera" size={14} color={theme.colors.primary} />
+              )}
             </Pressable>
           </View>
           <Text style={styles.name}>{profile.data?.name}</Text>
+          {schoolName && <Text style={styles.school}>{schoolName}</Text>}
         </View>
 
         <Card style={styles.statsCard}>
@@ -58,7 +99,7 @@ export default function ProfileScreen() {
             <Pressable
               key={label}
               style={styles.settingsRow}
-              onPress={label === 'Log out' ? () => clearToken() : () => {}}
+              onPress={label === 'Log out' ? () => clearToken() : () => navigation.navigate('EditProfile')}
             >
               <Text style={styles.settingsLabel}>{label}</Text>
               <Feather name="chevron-right" size={20} color={theme.colors.inkMuted} />
@@ -120,6 +161,10 @@ const styles = StyleSheet.create({
     ...theme.type.h2,
     color: theme.colors.ink,
     marginTop: theme.spacing.sm,
+  },
+  school: {
+    ...theme.type.body,
+    color: theme.colors.inkMuted,
   },
   statsCard: {
     flexDirection: 'row',
