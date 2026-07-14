@@ -34,6 +34,11 @@ export class ProfileController {
     return this.profileService.getStats(user.id);
   }
 
+  @Get('subjects')
+  getSubjectStats(@CurrentUser() user: { id: string }) {
+    return this.profileService.getSubjectStats(user.id);
+  }
+
   @Patch()
   updateProfile(@CurrentUser() user: { id: string }, @Body() dto: UpdateProfileDto) {
     return this.profileService.updateProfile(user.id, dto);

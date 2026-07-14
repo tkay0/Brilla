@@ -110,6 +110,15 @@ export function useProfileStats() {
   });
 }
 
+export type SubjectStat = { subject: string; accuracy: number; attempts: number };
+
+export function useProfileSubjects() {
+  return useQuery({
+    queryKey: ['profile', 'subjects'],
+    queryFn: () => apiRequest<SubjectStat[]>('/profile/subjects'),
+  });
+}
+
 export type UpdateProfilePayload = { name?: string; schoolId?: string };
 
 export function useUpdateProfile() {

@@ -15,7 +15,7 @@ import { theme } from '../theme';
 import { clearToken } from '../lib/authStore';
 import type { RootTabParamList } from '../lib/RootNavigator';
 import type { ProfileStackParamList } from '../lib/ProfileStack';
-import { useProfile, useProfileStats, useSchools, useUploadAvatar } from '../lib/queries';
+import { useProfile, useProfileStats, useProfileSubjects, useSchools, useUploadAvatar } from '../lib/queries';
 
 const SETTINGS_ROWS = ['Edit profile', 'Log out'] as const;
 
@@ -30,6 +30,7 @@ export default function ProfileScreen() {
   const profile = useProfile();
   const schools = useSchools();
   const profileStats = useProfileStats();
+  const profileSubjects = useProfileSubjects();
   const uploadAvatar = useUploadAvatar();
 
   const schoolName = schools.data?.find((school) => school.id === profile.data?.schoolId)?.name;
@@ -92,6 +93,20 @@ export default function ProfileScreen() {
               <Text style={styles.statLabel}>{stat.label}</Text>
             </View>
           ))}
+        </Card>
+
+        <Card style={styles.subjectsCard}>
+          <Text style={styles.sectionLabel}>SUBJECTS</Text>
+          {profileSubjects.data && profileSubjects.data.length > 0 ? (
+            profileSubjects.data.map((stat) => (
+              <View key={stat.subject} style={styles.subjectRow}>
+                <Text style={styles.subjectName}>{stat.subject}</Text>
+                <Text style={styles.subjectAccuracy}>{stat.accuracy}%</Text>
+              </View>
+            ))
+          ) : (
+            <Text style={styles.subjectsEmpty}>Complete a quiz to see your subject stats.</Text>
+          )}
         </Card>
 
         <Card style={styles.settingsCard}>
@@ -180,6 +195,32 @@ const styles = StyleSheet.create({
   },
   statLabel: {
     ...theme.type.caption,
+    color: theme.colors.inkMuted,
+  },
+  subjectsCard: {
+    gap: theme.spacing.sm,
+  },
+  sectionLabel: {
+    ...theme.type.caption,
+    fontFamily: theme.fonts.bodyMedium,
+    color: theme.colors.inkMuted,
+    letterSpacing: 1,
+  },
+  subjectRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+  },
+  subjectName: {
+    ...theme.type.bodyMedium,
+    color: theme.colors.ink,
+  },
+  subjectAccuracy: {
+    ...theme.type.bodyMedium,
+    color: theme.colors.inkMuted,
+  },
+  subjectsEmpty: {
+    ...theme.type.body,
     color: theme.colors.inkMuted,
   },
   settingsCard: {

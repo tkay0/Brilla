@@ -86,6 +86,39 @@ export class ProfileService {
     };
   }
 
+  async getSubjectStats(userId: string) {
+    const attempts = await this.prisma.attempt.findMany({
+      where: { userId, question: { subject: { not: null } } },
+      select: {
+        selectedOption: true,
+        selfReportedCorrect: true,
+        question: { select: { subject: true, correctAnswer: true } },
+      },
+    });
+
+    const totals = new Map<string, { correct: number; total: number }>();
+    for (const attempt of attempts) {
+      const subject = attempt.question.subject as string;
+      const correct =
+        attempt.selectedOption !== null
+          ? attempt.selectedOption === attempt.question.correctAnswer
+          : (attempt.selfReportedCorrect ?? false);
+
+      const entry = totals.get(subject) ?? { correct: 0, total: 0 };
+      entry.total += 1;
+      if (correct) entry.correct += 1;
+      totals.set(subject, entry);
+    }
+
+    return Array.from(totals.entries())
+      .map(([subject, { correct, total }]) => ({
+        subject,
+        accuracy: Math.round((correct / total) * 100),
+        attempts: total,
+      }))
+      .sort((a, b) => b.accuracy - a.accuracy);
+  }
+
   async updateProfile(userId: string, dto: UpdateProfileDto) {
     if (dto.schoolId) {
       const school = await this.prisma.school.findUnique({ where: { id: dto.schoolId } });
