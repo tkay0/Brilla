@@ -1,0 +1,957 @@
+slug,name,region,district,category,gender
+achimota-senior-high,Achimota Senior High,Greater Accra,Okaikwei North,A,Mixed
+aburi-girls-senior-high,Aburi Girls' Senior High,Eastern,Akwapim South,A,Girls
+mfantsipim-school,Mfantsipim School,Central,Cape Coast,A,Boys
+presby-boys-senior-high-legon,"Presby Boys' Senior High, Legon",Greater Accra,La Nkwantanang Madina,A,Boys
+adisadel-college,Adisadel College,Central,Cape Coast,A,Boys
+wesley-girls-senior-high-cape-coast,"Wesley Girls' High School, Cape Coast",Central,Cape Coast,A,Girls
+accra-academy,Accra Academy,Greater Accra,Accra,A,Boys
+holy-child-school-cape-coast,"Holy Child School, Cape Coast",Central,Cape Coast,A,Girls
+abomosu-stem-senior-high,Abomosu STEM Senior High,Eastern,Atiwa West,A,Mixed
+prempeh-college,Prempeh College,Ashanti,Kumasi Metro,A,Boys
+kumasi-tech-inst,Kumasi Tech. Inst.,Ashanti,Kumasi Metro,A,Mixed
+st-louis-senior-high-kumasi,"St. Louis Senior High, Kumasi",Ashanti,Kumasi Metro,A,Girls
+ghana-senior-high-koforidua,"Ghana Senior High, Koforidua",Eastern,New Juaben North Municipal,A,Mixed
+accra-tech-trg-centre,Accra Tech. Trg. Centre,Greater Accra,Ayawaso South,A,Mixed
+opoku-ware-senior-high,Opoku Ware School,Ashanti,Kumasi Metro,A,Boys
+st-augustine-s-college-cape-coast,"St. Augustine's College, Cape Coast",Central,Cape Coast,A,Boys
+mawuli-school-ho,"Mawuli School, Ho",Volta,Ho Municipal,A,Mixed
+yaa-asantewaa-girls-senior-high,Yaa Asantewaa Girls Senior High .,Ashanti,Kumasi Metro,A,Girls
+mfantsiman-girls-senior-high,Mfantsiman Girls' Senior High,Central,Mfantseman Municipal,A,Girls
+accra-girls-senior-high,Accra Girls Senior High .,Greater Accra,Ayawaso North,A,Girls
+t-i-ahmadiyya-senior-high-kumasi,"T. I. Ahmadiyya Senior High, Kumasi",Ashanti,Kumasi Metro,A,Mixed
+kumasi-high-school,Kumasi High School,Ashanti,Kumasi Metro,A,Boys
+tamale-senior-high,Tamale Senior High .,Northern,Sagnerigu Municipal,A,Mixed
+koforidua-senior-high-tech,Koforidua Senior High/Tech,Eastern,New Juaben North Municipal,A,Mixed
+st-peter-s-senior-high-nkwatia,"St. Peter's Senior High, Nkwatia",Eastern,Kwahu East,A,Boys
+tema-senior-high,Tema Senior High,Greater Accra,Tema West Municipal,A,Mixed
+cape-coast-tech-inst,Cape Coast Tech. Inst.,Central,Cape Coast,A,Mixed
+ghana-national-college,Ghana National College,Central,Cape Coast,B,Mixed
+ghana-senior-high-tech,Ghana Senior High/Tech,Western,Sekondi Takoradi,A,Boys
+accra-wesley-girls-high,Accra Wesley Girls High,Greater Accra,Accra,C,Girls
+archbishop-porter-girls-snr-high,Archbishop Porter Girls Snr.High .,Western,Sekondi Takoradi,A,Girls
+kpando-tech-inst,Kpando Tech. Inst.,Volta,Kpando Municipal,A,Mixed
+okuapeman-senior-high,Okuapeman Senior High,Eastern,Akwapim North Municipal,A,Mixed
+st-rose-s-senior-high-akwatia,"St. Rose's Senior High, Akwatia",Eastern,Denkyembour,A,Girls
+accra-senior-high,Accra Senior High,Greater Accra,Accra,B,Mixed
+koforidua-tech-inst,Koforidua Tech. Inst.,Eastern,New Juaben South Municipal,A,Mixed
+labone-senior-high,Labone Senior High,Greater Accra,La Dade-Kotopon Municipal,B,Mixed
+st-mary-s-senior-high-korle-gonno,"St. Mary's Senior High, Korle Gonno",Greater Accra,Accra,A,Girls
+st-thomas-aquinas-senior-high-cantoments,"St. Thomas Aquinas Senior High, Cantoments",Greater Accra,La Dade-Kotopon Municipal,A,Boys
+bosomtwe-stem-academy,Bosomtwe STEM Academy,Ashanti,Bosomtwe,A,Boys
+ghana-senior-high-tamale,"Ghana Senior High School, Tamale",Northern,Tamale Metro,A,Mixed
+knust-senior-high,KNUST Senior High,Ashanti,Kumasi Metro,B,Mixed
+st-james-sem-senior-high-abesim,"St. James Sem & Senior High, Abesim",Bono,Sunyani,A,Boys
+abetifi-kyemase-technical-institute,Abetifi Kyemase Technical Institute,Eastern,Kwahu East,A,Mixed
+aggrey-mem-a-m-e-zion-snr-high,Aggrey Mem. A.M.E.Zion Snr. High,Central,Abura Asebu Kwamankese,B,Mixed
+fijai-senior-high,Fijai Senior High,Western,Sekondi Takoradi,A,Mixed
+madina-technical-institute,Madina Technical Institute,Greater Accra,La Nkwantanang Madina,A,Mixed
+armed-forces-senior-high-tech-kumasi,"Armed Forces Senior High/Tech, Kumasi",Ashanti,Kumasi Metro,B,Mixed
+ofori-panin-senior-high,Ofori Panin Senior High,Eastern,Abuakwa North Municipal,A,Mixed
+ada-tech-inst,Ada Tech. Inst.,Greater Accra,Ada East,A,Mixed
+ebenezer-senior-high,Ebenezer Senior High,Greater Accra,Accra,C,Mixed
+konongo-odumase-senior-high,Konongo Odumase Senior High .,Ashanti,Asante Akim Central Municipal,A,Mixed
+ola-girls-senior-high-ho,"OLA Girls Senior High, Ho",Volta,Ho Municipal,A,Girls
+st-john-s-grammar-senior-high,St. John's Grammar Senior High,Greater Accra,Ga North,B,Mixed
+sunyani-senior-high,Sunyani Senior High,Bono,Sunyani,A,Mixed
+tema-meth-day-senior-high,Tema Meth. Day Senior High,Greater Accra,Tema,C,Mixed
+accra-stem-academy,Accra STEM Academy,Greater Accra,Ayawaso West,B,Mixed
+asuansi-tech-inst,Asuansi Tech. Inst.,Central,Abura Asebu Kwamankese,A,Mixed
+bolga-tech-inst,Bolga Tech. Inst.,Upper East,Bolgatanga Municipal,A,Mixed
+kumasi-senior-high-tech,Kumasi Senior High/Tech,Ashanti,Kumasi Metro,C,Mixed
+pentecost-senior-high-koforidua,"Pentecost Senior High,Koforidua",Eastern,New Juaben North Municipal,B,Mixed
+presby-senior-high-tema,"Presby Senior High, Tema",Greater Accra,Tema,C,Mixed
+st-paul-s-tech-inst,St. Paul's Tech. Inst.,Eastern,Abuakwa North Municipal,A,Mixed
+tema-tech-inst,Tema Tech. Inst.,Greater Accra,Tema,A,Mixed
+dabokpa-voc-tech-inst,Dabokpa Voc/Tech. Inst.,Northern,Tamale Metro,A,Mixed
+la-presby-senior-high,La Presby Senior High,Greater Accra,La Dade-Kotopon Municipal,C,Mixed
+methodist-girls-senior-high-mamfe,"Methodist Girls Senior High, Mamfe",Eastern,Akwapim North Municipal,B,Girls
+adako-jachie-technical-institute,Adako Jachie Technical Institute,Ashanti,Ejisu Municipal,A,Mixed
+adu-gyamfi-senior-high,Adu Gyamfi Senior High,Ashanti,Sekyere South,C,Mixed
+anglican-senior-high-kumasi,"Anglican Senior High, Kumasi",Ashanti,Kumasi Metro,B,Mixed
+effiduase-technical-institute,Effiduase Technical Institute,Eastern,New Juaben North Municipal,C,Mixed
+koforidua-gratis-technical-institute,Koforidua GRATIS Technical Institute,Eastern,New Juaben South Municipal,C,Mixed
+kwegyir-aggrey-senior-high,Kwegyir Aggrey Senior High,Central,Mfantseman Municipal,C,Mixed
+pope-john-snr-high-min-sem-koforidua,"Pope John Snr. High & Min. Sem., Koforidua",Eastern,New Juaben North Municipal,A,Boys
+st-john-s-senior-high-sekondi,"St. John's Senior High, Sekondi",Western,Sekondi Takoradi,A,Boys
+takoradi-tech-inst,Takoradi Tech. Inst.,Western,Effia Kwesimintsim Municipal,A,Mixed
+abiriw-presby-technical-institute,Abiriw Presby Technical Institute,Eastern,Okere,C,Mixed
+ada-senior-high-tech,Ada Senior High/Tech.,Greater Accra,Ada West,C,Mixed
+agogo-state-college,Agogo State College,Ashanti,Asante Akim North,C,Mixed
+agric-nzema-senior-high-kumasi,"Agric Nzema Senior High, Kumasi",Ashanti,Kwadaso,C,Mixed
+anlo-tech-inst,Anlo Tech. Inst.,Volta,Anloga,A,Mixed
+awaso-stem-senior-high,Awaso STEM Senior High,Western North,Bibiani Anhwiaso Bekwai,A,Mixed
+christian-methodist-senior-high,Christian Methodist Senior High,Greater Accra,Ga South,C,Mixed
+holy-trinity-senior-high,Holy Trinity Senior High,Greater Accra,Accra,C,Mixed
+kpasenpke-stem-senior-high,Kpasenpke STEM Senior High,North East,West Mamprusi,A,Mixed
+krobo-girls-senior-high,Krobo Girls' Presby Senior High,Eastern,Lower Manya Krobo,A,Girls
+kumasi-academy,Kumasi Academy,Ashanti,Asokore Mampong Municipal,B,Mixed
+navrongo-senior-high,Navrongo Senior High,Upper East,Kasena-Nankani East,A,Mixed
+notre-dame-girls-senior-high-sunyani,"Notre Dame Girls Senior High School, Sunyani",Bono,Sunyani West,A,Girls
+o-reilly-senior-high,O'Reilly Senior High,Greater Accra,Ledzokuku,C,Mixed
+our-lady-of-providence-senior-high,Our Lady of Providence Senior High,Bono,Jaman South,A,Girls
+pentecost-senior-high-kumasi,"Pentecost Senior High, Kumasi",Ashanti,Kumasi Metro,C,Mixed
+presby-senior-high-teshie,"Presby Senior High, Teshie",Greater Accra,Ledzokuku,C,Mixed
+sekondi-college,Sekondi College,Western,Sekondi Takoradi,A,Mixed
+abrafi-senior-high,Abrafi Senior High,Bono East,Techiman North,C,Mixed
+adeiso-presby-senior-high,Adeiso Presby Senior High,Eastern,Upper West Akim Municipal,C,Mixed
+akwatia-tech-inst,Akwatia Tech. Inst.,Eastern,Denkyembour,A,Mixed
+ashiaman-senior-high,Ashiaman Senior High,Greater Accra,Ashiaman,C,Mixed
+assin-foso-technical-institute,Assin Foso Technical Institute,Central,Assin North,A,Mixed
+bolgatanga-senior-high,Bolgatanga Senior High,Upper East,Talensi,A,Mixed
+bosomtwe-girls-stem-senior-high,Bosomtwe Girls STEM Senior High,Ashanti,Bosomtwe,A,Girls
+chemu-senior-high-tech,Chemu Senior High/Tech,Greater Accra,Tema,B,Mixed
+ghanata-senior-high,Ghanata Senior High,Greater Accra,Shai-Osudoku,B,Mixed
+government-technical-institute,Government Technical Institute,Greater Accra,Okaikwei South,B,Mixed
+kibi-technical-institute,Kibi Technical Institute,Eastern,Abuakwa South Municipal,A,Mixed
+kikam-tech-inst,Kikam Tech. Inst.,Western,Ellembele,A,Mixed
+kumasi-wesley-girls-high-sch,Kumasi Wesley Girls High Sch,Ashanti,Kumasi Metro,B,Girls
+kwabenya-comm-senior-high,Kwabenya Comm. Senior High,Greater Accra,Ga East,C,Mixed
+nkoranza-tech-inst,Nkoranza Tech Inst.,Bono East,Nkoranza South,A,Mixed
+notre-dame-sem-senior-high-navrongo,"Notre Dame Sem/ Senior High, Navrongo",Upper East,Kasena-Nankani East,A,Boys
+obuasi-senior-high-tech,Obuasi Senior High/Tech,Ashanti,Obuasi,C,Mixed
+presby-girls-senior-high-school,Presby Girls Senior High School,Ashanti,Asokwa,C,Girls
+presby-senior-high-mampong-akwapim,"Presby Senior High, Mampong Akwapim",Eastern,Akwapim North Municipal,C,Mixed
+presby-senior-high-suhum,"Presby Senior High, Suhum",Eastern,Suhum,C,Mixed
+serwaa-kesse-girls-senior-high,Serwaa Kesse Girls Senior High,Ahafo,Tano North,A,Girls
+suame-technical-institute,Suame Technical Institute,Ashanti,Suame,A,Mixed
+takoradi-senior-high,Takoradi Senior High,Western,Effia Kwesimintsim Municipal,C,Mixed
+tema-mission-technical-institute,Tema Mission Technical Institute,Greater Accra,Tema,A,Mixed
+wesley-grammar-senior-high,Wesley Grammar School,Greater Accra,Ablekuma North,B,Mixed
+winneba-technical-institute,Winneba Technical Institute,Central,Effutu,A,Mixed
+abura-technical-institute,Abura Technical Institute,Western,Ahanta West,C,Mixed
+academy-of-christ-the-king-cape-coast,Academy of Christ the King,Central,Cape Coast,B,Mixed
+adjen-kotoku-senior-high,Adjen Kotoku Senior High,Greater Accra,Ga West,C,Mixed
+agona-swedru-technical-institute,Agona Swedru Technical Institute,Central,Agona West,B,Mixed
+agona-technical-institute,Agona Technical Institute,Ashanti,Sekyere South,B,Mixed
+akuse-methodist-senior-high-tech,Akuse Methodist Senior High/Tech,Eastern,Lower Manya Krobo,C,Mixed
+amasaman-senior-high-tech,Amasaman Senior High/Tech,Greater Accra,Ga West,C,Mixed
+assin-state-college,Assin State College,Central,Assin North,C,Mixed
+awutu-bawjiase-comm-senior-high,Awutu Bawjiase Comm. Senior High School,Central,Awutu Senya East,C,Mixed
+biriwa-technical-institute,Biriwa Technical Institute,Central,Mfantseman Municipal,A,Mixed
+bishop-herman-college,Bishop Herman College,Volta,Kpando Municipal,A,Boys
+business-senior-high-tamale,"Business Senior High, Tamale",Northern,Tamale Metro,C,Mixed
+dormaa-technical-institute,Dormaa Technical Institute,Bono,Dormaa Central,A,Mixed
+east-legon-applied-technology-institute,East Legon Applied Technology Institute,Greater Accra,Accra,A,Mixed
+fiaseman-senior-high,Fiaseman Senior High,Western,Tarkwa-Nsuaem,C,Mixed
+ghana-stem-technical-school,Ghana Stem Technical School,Ashanti,Bosomtwe,C,Mixed
+keta-senior-high-tech,Keta Senior High/Tech .,Volta,Keta Municipal,B,Mixed
+kinbu-senior-high-tech,Kinbu Senior High/Tech,Greater Accra,Korle Klottey,C,Mixed
+komenda-senior-high-tech,Komenda Senior High/Tech.,Central,Komenda/Edina/Eguafo/Abirem Municipal,C,Mixed
+kumasi-girls-senior-high,"Kumasi Girls Senior High,",Ashanti,Kumasi Metro,B,Girls
+mankessim-senior-high-tech,Mankessim Senior High/Tech,Central,Mfantseman Municipal,C,Mixed
+nandom-senior-high,Nandom Senior High,Upper West,Nandom,A,Boys
+ola-girls-senior-high-kenyasi,"OLA Girls Senior High, Kenyasi",Ahafo,Asutifi North,A,Girls
+opportunities-industrialization-tech-inst,Opportunities Industrialization Tech. Inst.,Greater Accra,Ayawaso West,C,Mixed
+osei-tutu-senior-high-akropong,"Osei Tutu Senior High, Akropong",Ashanti,Atwima Nwabiagya,B,Boys
+panfokrom-technical-institute,Panfokrom Technical Institute,Central,Gomoa East,A,Mixed
+presby-senior-high-osu,"Presby Senior High, Osu",Greater Accra,Korle Klottey,C,Mixed
+presby-senior-high-tamale,"Presby Senior High, Tamale",Northern,Tamale Metro,C,Mixed
+presby-senior-high-tech-aburi,"Presby Senior High/Tech, Aburi",Eastern,Akwapim South,C,Mixed
+st-mary-s-boys-senior-high-apowa,"St. Mary's Boys' Senior High, Apowa",Western,Ahanta West,B,Boys
+st-mary-s-girl-s-senior-high-konongo,"St. Mary's Girl's Senior High, Konongo",Ashanti,Asante Akim Central Municipal,B,Girls
+st-monica-s-senior-high-mampong,"St. Monica's Senior High, Mampong",Ashanti,Mampong,B,Girls
+suhum-senior-high-tech,Suhum Senior High/Tech,Eastern,Suhum,B,Mixed
+tamale-technical-institute,Tamale Technical Institute,Northern,Sagnerigu Municipal,C,Mixed
+tarkwa-senior-high,Tarkwa Senior High,Western,Tarkwa-Nsuaem,B,Mixed
+techiman-technical-institute,Techiman Technical Institute,Bono East,Techiman,C,Mixed
+tema-manhean-senior-high-tech,Tema Manhean Senior High/Tech,Greater Accra,Tema,C,Mixed
+wa-tech-inst,Wa Tech. Inst.,Upper West,Wa Municipal,A,Mixed
+west-africa-senior-high,West Africa Senior High,Greater Accra,La Nkwantanang Madina,B,Mixed
+abeaseman-comm-day-senior-high,Abeaseman Comm. Day Senior High,Bono East,Pru,C,Mixed
+abetifi-presby-senior-high,Abetifi Presby Senior High,Eastern,Kwahu East,B,Mixed
+abor-senior-high,Abor Senior High,Volta,Anlo Keta,C,Mixed
+abuakwa-state-college,Abuakwa State College,Eastern,Abuakwa South Municipal,B,Mixed
+aburaman-senior-high,Aburaman Senior High,Central,Abura Asebu Kwamankese,C,Mixed
+acherensua-senior-high,Acherensua Senior High,Ahafo,Asutifi South,B,Mixed
+achiase-senior-high,Achiase Senior High,Eastern,Achiase,B,Mixed
+achiase-technical-institute,Achiase Technical Institute,Ashanti,Juaben Municipal,C,Mixed
+achinakrom-senior-high,Achinakrom Senior High,Ashanti,Ejisu Municipal,C,Mixed
+ada-senior-high,Ada Senior High,Greater Accra,Ada East,B,Mixed
+adabokrom-comm-shs,Adabokrom Comm. SHS,Western North,Bia East,C,Mixed
+adaklu-senior-high,Adaklu Senior High,Volta,Adaklu,C,Mixed
+adidome-senior-high,Adidome Senior High,Volta,Central Tongu,C,Mixed
+adonten-senior-high,Adonten Senior High,Eastern,Akwapim South,B,Mixed
+adventist-girls-senior-high-ntonso,"Adventist Girls Senior High, Ntonso",Ashanti,Kwabre East,C,Girls
+afoako-technical-institute,Afoako Technical Institute,Ashanti,Amansie Central,C,Mixed
+afua-kobi-ampem-girls-senior-high,Afua Kobi Ampem Girls' Senior High,Ashanti,Atwima Kwanwoma,B,Girls
+agona-fankobaa-senior-high,Agona Fankobaa Senior High,Central,Agona West,C,Mixed
+agona-namonwora-comm-senior-high,Agona Namonwora Comm.Senior High,Central,Agona East,C,Mixed
+agona-senior-high-tech,Agona Senior High/Tech,Ashanti,Sekyere South,B,Mixed
+ahafoman-senior-high-tech,Ahafoman Senior High/Tech,Ahafo,Asunafo North,B,Mixed
+ahantaman-girls-senior-high,Ahantaman Girls' Senior High,Western,Shama,B,Girls
+akokoaso-senior-high-tech,Akokoaso Senior High/Tech,Eastern,Akyemansa,C,Mixed
+akrofufu-technical-institute,Akrofufu Technical Institute,Eastern,Atiwa West,C,Mixed
+akuapem-technical-institute,Akuapem Technical Institute,Eastern,Akwapem South,C,Mixed
+akyin-senior-high-school,Akyin Senior High School,Central,Ekumfi,C,Mixed
+amaniampong-senior-high,Amaniampong Senior High,Ashanti,Mampong,C,Mixed
+anfoega-senior-high,Anfoega Senior High,Volta,North Dayi,C,Mixed
+anum-apapam-comm-day,Anum Apapam Comm. Day,Eastern,Ayensuano,C,Mixed
+anum-presby-senior-high,Anum Presby Senior High,Eastern,Asuogyaman,C,Mixed
+anum-presby-technical-institute,Anum Presby Technical Institute,Eastern,Asuogyaman,B,Mixed
+apam-senior-high,Apam Senior High,Central,Gomoa West,B,Mixed
+applied-technology-institute-anyinam,Applied Technology Institute - Anyinam,Eastern,Atiwa East Municipal,C,Mixed
+asanteman-senior-high,Asanteman Senior High,Ashanti,Kumasi Metro,B,Mixed
+ashiaman-tech-voc-inst,Ashiaman Technical Institute,Greater Accra,Ashiaman,C,Mixed
+assin-manso-senior-high,Assin Manso Senior High,Central,Assin South,C,Mixed
+asuom-senior-high,Asuom Senior High,Eastern,Kwaebibirem,C,Mixed
+atwima-kwanwoma-snr-high-tech,Atwima Kwanwoma Snr High/Tech,Ashanti,Atwima Kwanwoma,C,Mixed
+ayanfuri-senior-high,Ayanfuri Senior High,Central,Upper Denkyira West,C,Mixed
+baidoo-bonso-senior-high-tech,Baidoo Bonso Senior High/Tech,Western,Ahanta West,C,Mixed
+bawku-tech-inst,Bawku Tech. Inst.,Upper East,Bawku,A,Mixed
+baworo-technical-institute,Baworo Technical Institute,Ashanti,Ejisu Municipal,C,Mixed
+berekum-presby-senior-high,Berekum Presby Senior High,Bono,Berekum Municipal,A,Mixed
+bibiani-senior-high-tech,Bibiani Senior High/Tech.,Western North,Bibiani Anhwiaso Bekwai,C,Mixed
+bolga-girls-senior-high,Bolga Girls Senior High,Upper East,Bolgatanga Municipal,A,Girls
+bolga-sherigu-comm-senior-high,Bolga Sherigu Comm. Senior High,Upper East,Bolgatanga Municipal,C,Mixed
+bolgatanga-central-technical-institute,Bolgatanga Central Technical Institute,Upper East,Bolgatanga Municipal,C,Mixed
+bompeh-senior-high-tech,Bompeh Senior High./Tech,Western,Sekondi Takoradi,B,Mixed
+bosomtwe-oyoko-comm-senior-high,Bosomtwe Oyoko Comm. Senior High,Ashanti,Bosomtwe,C,Mixed
+c-y-o-tech-voc-inst,C.Y.O. Tech/Voc. Inst.,Volta,Kpando Municipal,C,Mixed
+catholic-technical-institute,Catholic Technical Institute,Ashanti,Kumasi Metro,C,Mixed
+dodowa-technical-institute,Dodowa Technical Institute,Greater Accra,Shai-Osudoku,C,Mixed
+dwamena-akenten-senior-high,Dwamena Akenten Senior High,Ashanti,Offinso,B,Mixed
+dzodze-penyi-senior-high,Dzodze Penyi Senior High,Volta,Ketu North,C,Mixed
+e-p-c-mawuko-girls-senior-high,E.P.C. Mawuko Girls Senior High,Volta,Ho Municipal,B,Girls
+effiduase-senior-high-com,Effiduase Senior High/Com,Ashanti,Sekyere East,C,Mixed
+effiduase-senior-high-tech,Effiduase Senior High/Tech,Ashanti,Sekyere East,C,Mixed
+ejisu-senior-high-tech,Ejisu Senior High/Tech,Ashanti,Ejisu Municipal,B,Mixed
+ejisuman-senior-high,Ejisuman Senior High,Ashanti,Ejisu Municipal,C,Mixed
+ejuraman-technical-institute,Ejuraman Technical Institute,Ashanti,Ejura Sekyedumase,C,Mixed
+fomena-t-i-ahmad-senior-high,Fomena T.I. Ahmadiyya Senior High,Ashanti,Adansi North,B,Mixed
+forces-senior-high-tech-burma-camp,"Forces Senior High/Tech, Burma Camp",Greater Accra,La Dade-Kotopon Municipal,B,Mixed
+frafraha-comm-senior-high,Frafraha Comm. Senior High,Greater Accra,Adentan Municipal,C,Mixed
+gratis-technical-institute-cape-coast,"GRATIS Technical Institute, Cape Coast",Central,Cape Coast,C,Mixed
+gomoa-gyaman-senior-high,Gomoa Gyaman Senior High,Central,Gomoa Central,C,Mixed
+gowrie-senior-high-tech,Gowrie Senior High/Tech.,Upper East,Bongo,C,Mixed
+h-mount-sinai-senior-high,H'Mount Sinai Senior High School,Eastern,Akwapim North Municipal,C,Mixed
+have-tech-inst,Have Tech. Inst.,Volta,Afadzto South,B,Mixed
+holy-child-senior-high-school,Holy Child Senior High School,Upper West,Sisala East,C,Mixed
+holy-family-senior-high,Holy Family Senior High,Upper West,Lambussie-Karni,C,Mixed
+huni-valley-senior-high,Huni Valley Senior High,Western,Prestea Huni Valley,C,Mixed
+j-a-kufuor-senior-high,J. A. Kufuor Senior High,Ashanti,Kumasi Metro,C,Mixed
+j-e-a-mills-senior-high,J.E.A. Mills Senior High,Central,Ekumfi,C,Mixed
+jachie-technical-institute,Jachie Technical Institute,Ashanti,Bosomtwe,C,Mixed
+juaben-technical-institute,Juaben Technical Institute,Ashanti,Juaben Municipal,C,Mixed
+kanda-technical-institute,Kanda Technical Institute,Greater Accra,Ayawaso East,C,Mixed
+kasuliyili-senior-high,Kasuliyili Senior High,Northern,Tolon,C,Mixed
+kofi-adjei-senior-high-tech,Kofi Adjei Senior High/Tech,Ashanti,Kwabre East,C,Mixed
+kongo-senior-high,Kongo Senior High,Upper East,Nabdam,C,Mixed
+krobea-asante-technical-vocational-inst,Krobea Asante Technical & Vocational Inst.,Ashanti,Sekyere East,B,Mixed
+kwabeng-anglican-senior-high-tech,Kwabeng Anglican Senior High/Tech,Eastern,Atiwa West,B,Mixed
+lamashegu-technical-institute,Lamashegu Technical Institute,Northern,Tamale Metro,C,Mixed
+lashibi-comm-day,Lashibi Comm. Day,Greater Accra,Tema West Municipal,C,Mixed
+lawra-senior-high,Lawra Senior High,Upper West,Lawra,A,Mixed
+methodist-senior-high-sekondi,"Methodist Senior High, Sekondi",Western,Sekondi Takoradi,C,Mixed
+methodist-senior-high-tech-biadan,"Methodist Senior High/Tech.,Biadan",Bono,Berekum Municipal,C,Mixed
+methodist-technincal-institute,Methodist Technincal Institute,Ashanti,Kwadaso,B,Mixed
+mpraeso-senior-high,Mpraeso Senior High,Eastern,Kwahu South,B,Mixed
+nalerigu-technical-institute,Nalerigu Technical Institute,North East,East Mamprusi,C,Mixed
+new-abirem-afosu-senior-high,New Abirem/Afosu Senior High,Eastern,Birim North,C,Mixed
+new-juaben-senior-high-com,New Juaben Senior High/Com,Eastern,New Juaben South Municipal,B,Mixed
+new-nsutam-senior-high-tech,New Nsutam Senior High/Tech,Eastern,Fanteakwa South Municipal,C,Mixed
+ngleshie-amanfro-senior-high,Ngleshie Amanfro Senior High,Greater Accra,Ga South,C,Mixed
+nima-technical-institute,Nima Technical Institute,Greater Accra,Ayawaso East,C,Mixed
+nkawie-senior-high-tech,Nkawie Senior High/Tech,Ashanti,Atwima Nwabiagya,C,Mixed
+nkoranza-senior-high-tech,Nkoranza Senior High/Tech,Bono East,Nkoranza South,B,Mixed
+nungua-senior-high,Nungua Senior High,Greater Accra,Krowor,B,Mixed
+nuru-ameen-islamic-senior-high-asewase,"Nuru-Ameen Islamic Senior High, Asewase",Ashanti,Kumasi Metro,B,Mixed
+nyakrom-senior-high-tech,Nyakrom Senior High Tech,Central,Agona West,B,Mixed
+odorgonno-senior-high,Odorgonno Senior High,Greater Accra,Ga Central Municipal,B,Mixed
+ofoase-senior-high-tech,Ofoase Senior High/Tech,Ashanti,Asante Akim South,C,Mixed
+osei-kyeretwie-senior-high,Osei Kyeretwie Senior High,Ashanti,Kumasi Metro,B,Mixed
+osino-presby-senior-high-tech,Osino Presby Senior High/Tech.,Eastern,Fanteakwa South Municipal,C,Mixed
+oti-boateng-senior-high,Oti Boateng Senior High,Eastern,New Juaben North Municipal,B,Mixed
+oyoko-methodist-senior-high,Oyoko Methodist Senior High,Eastern,New Juaben North Municipal,B,Mixed
+pilot-technical-institute,Pilot Technical Institute,Greater Accra,Ayawaso Central,A,Mixed
+bompata-presby-senior-high,"Presby Senior High, Bompata",Ashanti,Asante Akim South,B,Mixed
+presby-senior-high-tech-larteh,"Presby Senior High/Tech, Larteh",Eastern,Akwapim North Municipal,C,Mixed
+queen-of-peace-senior-high-nadowli,"Queen of Peace Senior High, Nadowli",Upper West,Nadowli,B,Mixed
+queens-girls-senior-high-sefwi-awhiaso,"Queens Girls' Senior High, Sefwi Awhiaso",Western North,Bibiani Anhwiaso Bekwai,C,Girls
+s-d-a-senior-high-akim-sekyere,S.D.A. Senior High. Akim Sekyere,Eastern,Atiwa East Municipal,C,Mixed
+sekondi-takoradi-technical-institute,Sekondi Takoradi Technical Institute,Western,Sekondi Takoradi,B,Mixed
+sekondi-technical-institute,Sekondi Technical Institute,Western,Sekondi Takoradi,C,Mixed
+sogakope-technial-institute,Sogakope Technial Institute,Volta,South Tongu Municipal,C,Mixed
+st-augustine-s-senior-high-bogoso,"St. Augustine's Senior High, Bogoso",Western,Prestea Huni Valley,C,Mixed
+st-catherine-girls-senior-high,St. Catherine Girls Senior High School,Volta,South Tongu Municipal,C,Girls
+st-gregory-catholic-senior-high-school,St. Gregory Catholic Senior High School,Central,Gomoa East,C,Mixed
+st-hubert-sem-senior-high-kumasi,"St. Hubert Sem/Senior High, Kumasi",Ashanti,Kumasi Metro,B,Boys
+st-margaret-mary-snr-high-tech,St. Margaret Mary Snr.High/Tech,Greater Accra,Accra,B,Mixed
+st-mary-s-technical-institute-asamankese,"St. Mary's Technical Institute, Asamankese",Eastern,West Akim,A,Mixed
+st-mary-s-technical-institute-tamale,"St. Mary's Technical Institute,Tamale",Northern,Tamale Metro,C,Girls
+st-paul-s-senior-high-asakraka-kwahu,"St. Paul's Senior High, Asakraka Kwahu",Eastern,Kwahu South,C,Mixed
+suhum-technical-institute,Suhum Technical Institute,Eastern,Suhum,B,Mixed
+sunyani-technical-institute,Sunyani Technical Institute,Bono,Sunyani,C,Mixed
+tsc-technical-institute-half-assini,TSC Technical Institute - Half Assini,Western,Jomoro,C,Mixed
+tsc-technical-institute-dormaa-ahenkro,"TSC Technical Institute, Dormaa Ahenkro",Bono,Dormaa Central,C,Mixed
+takoradi-community-technical-institute,Takoradi Community Technical Institute,Western,Effia Kwesimintsim Municipal,C,Mixed
+teshie-tech-instittute,Teshie Tech. Instittute,Greater Accra,Ledzokuku,C,Mixed
+three-town-senior-high,Three Town Senior High,Volta,Ketu South,C,Mixed
+tweneboa-kodua-senior-high,Tweneboa Kodua Senior High,Ashanti,Sekyere Kumawu,B,Mixed
+w-b-m-zion-senior-high-old-tafo,"W.B.M. Zion Senior High, Old Tafo",Eastern,Abuakwa North Municipal,B,Mixed
+wenchi-meth-senior-high,Wenchi Meth. Senior High,Bono,Wenchi,B,Mixed
+winneba-senior-high,Winneba Senior High,Central,Effutu,B,Mixed
+yilo-krobo-senior-high-com,Yilo Krobo Senior High/Com,Eastern,Yilo Krobo,C,Mixed
+zion-senior-high,Zion Senior High,Volta,Anlo Keta,C,Mixed
+zuarungu-senior-high,Zuarungu Senior High,Upper East,Bolgatanga East,C,Mixed
+abakrampa-senior-high-tech,Abakrampa Senior High/Tech,Central,Abura Asebu Kwamankese,C,Mixed
+abeadze-state-college,Abeadze State College,Central,Mfantseman Municipal,C,Mixed
+abetifi-tech-inst,Abetifi Tech. Inst.,Eastern,Kwahu East,B,Mixed
+abosamso-technical-institute,Abosamso Technical Institute,Ashanti,Bosome Freho,C,Mixed
+abutia-senior-high-tchnical,Abutia Senior High/Tchnical,Volta,Ho West,B,Mixed
+adankwaman-senior-high,Adankwaman Senior High,Central,Assin South,B,Mixed
+adanwomase-senior-high,Adanwomase Senior High,Ashanti,Kwabre East,C,Mixed
+adiembra-senior-high,Adiembra Senior High,Western,Sekondi Takoradi,B,Mixed
+adjena-senior-high-tech,Adjena Senior High/Tech.,Eastern,Asuogyaman,C,Mixed
+adjoafua-comm-senior-high,Adjoafua Comm. Senior High,Western North,Bia West,C,Mixed
+adobewora-comm-senior-high,Adobewora Comm. Senior High,Ashanti,Atwima Mponua,C,Mixed
+adrobaa-technical-institute,Adrobaa Technical Institute,Ahafo,Tano North,C,Mixed
+adugyama-comm-senior-high,Adugyama Comm. Senior High,Ashanti,Ahafo Ano South,C,Mixed
+aduman-senior-high,Aduman Senior High,Ashanti,Afigya-Kwabre,B,Mixed
+adventist-senior-high-kumasi,"Adventist Senior High, Kumasi",Ashanti,Kumasi Metro,B,Mixed
+afadjato-senior-high-tech,Afadjato Senior High/Tech.,Volta,Hohoe Municipal,C,Mixed
+afienya-technical-institute,Afienya Technical Institute,Greater Accra,Ningo Prampram,B,Mixed
+afife-senior-high-tech,Afife Senior High Tech.,Volta,Ketu North,C,Mixed
+afigya-senior-high-tech,Afigya Senior High/Tech,Ashanti,Afigya-Kwabre North,C,Mixed
+afigyaman-senior-high-school,Afigyaman Senior High School,Ashanti,Afigya-Kwabre,C,Mixed
+aflao-community-shts,Aflao Community SHTS,Volta,Ketu South,C,Mixed
+agate-comm-senior-high,Agate Comm. Senior High,Volta,Afadzto South,B,Mixed
+agomeda-technical-institute,Agomeda Technical Institute,Greater Accra,Shai-Osudoku,C,Mixed
+agotime-senior-high,Agotime Senior High,Volta,Agortime Ziope,C,Mixed
+ahamansu-islamic-senior-high-school,Ahamansu Islamic Senior High School,Oti,Kadjebi,C,Mixed
+ajumako-afranse-technical-institute,Ajumako-Afranse Technical Institute,Central,Ajumako/Enyan/Esiam,C,Mixed
+akatsi-senior-high-tech,Akatsi Senior High/Tech,Volta,Akatsi South Municipal,C,Mixed
+akim-asafo-senior-high,Akim Asafo Senior High,Eastern,Abuakwa South Municipal,C,Mixed
+akim-swedru-senior-high,Akim Swedru Senior High,Eastern,Birim South,B,Mixed
+akome-senior-high-tech,Akome Senior High/Tech.,Volta,Ho West,C,Mixed
+akontombra-senior-high,Akontombra Senior High,Western North,Sefwi Akontombra,B,Mixed
+akpafu-senior-high-tech-fa8ae9a1-2622-4cd9-938b-21fa233b43c1,Akpafu Senior High/Tech.,Oti,Guan,C,Mixed
+akramaman-senior-high,Akramaman Senior High,Greater Accra,Ga West,C,Mixed
+akro-senior-high-tech,Akro Senior High/Tech,Eastern,Lower Manya Krobo,C,Mixed
+akrodie-technical-institute,Akrodie Technical Institute,Ahafo,Asunafo North,C,Mixed
+akrofuom-senior-high-tech,Akrofuom Senior High/Tech,Ashanti,Akrofuom,B,Mixed
+akroso-senior-high-tech,Akroso Senior High/Tech,Eastern,Asene/Manso/Akroso,C,Mixed
+akumadan-applied-technology-institute,Akumadan Applied Technology Institute,Ashanti,Offinso North,C,Mixed
+akumadan-senior-high,Akumadan Senior High,Ashanti,Offinso North,C,Mixed
+ameyaw-akumfi-senior-high-tech,Akumfi Ameyaw Senior High/Tech.,Bono East,Techiman North,B,Mixed
+akwamuman-senior-high,Akwamuman Senior High,Eastern,Asuogyaman,B,Mixed
+akwesi-awobaa-senior-high,Akwesi Awobaa Senior High/Tech,Ashanti,Ejura Sekyedumase,C,Mixed
+al-azariya-islamic-snr-high-kumasi,"Al-Azariya Islamic Snr. High, Kumasi",Ashanti,Kumasi Metro,B,Mixed
+alavanyo-senior-high-tech,Alavanyo Senior High/Tech.,Volta,Hohoe Municipal,C,Mixed
+amankwakrom-fisheries-agric-tech-inst,Amankwakrom Fisheries Agric. Tech. Inst.,Eastern,Kwahu Afram Plains North,B,Mixed
+amanten-senior-high,Amanten Senior High,Bono East,Atebubu-Amantin,B,Mixed
+amedzofe-technical-institute,Amedzofe Technical Institute,Volta,Ho West,C,Mixed
+amenfiman-senior-high,Amenfiman Senior High,Western,Wassa Amenfi East,B,Mixed
+amoafo-technical-institute,Amoafo Technical Institute,Ashanti,Bekwai,C,Mixed
+amoana-praso-senior-high,Amuana Praso Senior High,Eastern,Birim North,C,Mixed
+anbariya-senior-high-sch,Anbariya Senior High Sch.,Northern,Tamale Metro,C,Mixed
+anfoeta-technical-institute,Anfoeta Technical Institute,Volta,Ho West,C,Mixed
+anlo-afiadenyigba-senior-high,Anlo Afiadenyigba Senior High,Volta,Keta Municipal,C,Mixed
+anlo-awomefia-senior-high,Anlo Awomefia Senior High,Volta,Anlo Keta,C,Mixed
+anlo-senior-high,Anlo Senior High,Volta,Keta Municipal,B,Mixed
+annor-adjaye-senior-high,Annor Adjaye Senior High,Western,Jomoro,C,Mixed
+antoa-senior-high,Antoa Senior High,Ashanti,Kwabre East,C,Mixed
+anum-asamoah-senior-high-tech,Anum Asamoah Senior High/Tech,Ashanti,Atwima Kwanwoma,C,Mixed
+apagya-senior-high,Apagya Senior High,Ashanti,Adansi South,C,Mixed
+apedwa-presby-senior-high,Apedwa Presby Senior High,Eastern,Fanteakwa South Municipal,C,Mixed
+apeguso-senior-high,Apeguso Senior High,Eastern,Asuogyaman,C,Mixed
+aperade-senior-high-tech,Aperade Senior High/Tech.,Eastern,Achiase,C,Mixed
+apesua-comm-senior-high,Apesua Comm. Senior High,Eastern,Yilo Krobo,C,Mixed
+asafora-technical-institute,Asafora Technical Institute,Central,Mfantseman Municipal,C,Mixed
+asakraka-technical-institute,Asakraka Technical Institute,Eastern,Kwahu South,C,Mixed
+asamankese-senior-high,Asamankese Senior High,Eastern,West Akim,B,Mixed
+asankare-technical-institute,Asankare Technical Institute,Ashanti,Asante Akim South,B,Mixed
+asankrangwa-senior-high,Asankrangwa Senior High,Western,Wassa Amenfi West,C,Mixed
+asankrangwa-senior-high-tech,Asankrangwa Senior High/Tech,Western,Wassa Amenfi West,C,Mixed
+asare-bediako-senior-high,Asare Bediako Senior High .,Ashanti,Adansi North,B,Mixed
+asasetre-technical-institute,Asasetre Technical Institute,Western,Ellembele,C,Mixed
+asawinso-senior-high,Asawinso Senior High,Western North,Sefwi Wiawso,B,Mixed
+asesewa-senior-high-school,Asesewa Senior High/Tech,Eastern,Upper Manya Krobo,C,Mixed
+assin-jakai-applied-technology-institute,Assin Jakai Applied Technology Institute,Central,Assin South,C,Mixed
+assin-north-senior-high-tech,Assin North Senior High/Tech,Central,Assin North,C,Mixed
+assin-nsuta-agric-senior-high,Assin Nsuta Senior High School,Central,Assin South,C,Mixed
+asukawkaw-senior-high,Asukawkaw Senior High,Oti,Krachi East,C,Mixed
+asuoso-comm-senior-high,Asuoso Comm. Senior High,Ashanti,Offinso North,C,Mixed
+atebubu-senior-high,Atebubu Senior High,Bono East,Atebubu-Amantin,C,Mixed
+atiavi-senior-high-tech,Atiavi Senior High/Tech,Volta,Anlo Keta,C,Mixed
+atorkor-technical-institute,Atorkor Technical Institute,Volta,Keta Municipal,C,Mixed
+attafuah-senior-high-tech,Attafuah Senior High/Tech,Eastern,Birim Central,B,Mixed
+atweaman-senior-high,Atweaman Senior High,Eastern,Asene/Manso/Akroso,C,Mixed
+avatime-senior-high,Avatime Senior High,Volta,Ho West,C,Mixed
+ave-senior-high,Ave Senior High,Volta,Akatsi North,C,Mixed
+ave-technical-institute,Ave Technical Institute,Volta,Akatsi North,C,Mixed
+avenor-senior-high,Avenor Senior High,Volta,Akatsi South Municipal,C,Mixed
+avenorpeme-technical-institute,Avenorpeme Technical Institute,Volta,Akatsi South Municipal,C,Mixed
+avenui-awudome-technical-institute,Avenui-Awudome Technical Institute,Volta,Ho West,C,Mixed
+aveyime-battor-senior-high-tech,Aveyime Battor Senior High/Tech.,Volta,North Tongu,C,Mixed
+awe-senior-high-tech,Awe Senior High/Tech.,Upper East,Kasena-Nankani Municipal,C,Mixed
+awudome-senior-high,Awudome Senior High .,Volta,Ho Municipal,B,Mixed
+awutu-winton-senior-high,Awutu Winton Senior High,Central,Awutu Senya West,B,Mixed
+axim-girls-senior-high,Axim Girls Senior High,Western,Nzema East,C,Girls
+axim-technical-institute,Axim Technical Institute,Western,Nzema East,B,Mixed
+ayirebi-senior-high,Ayirebi Senior High,Eastern,Akyemansa,C,Mixed
+azeem-namoa-senior-high-tech,Azeem-Namoa Senior High/Tech,Upper East,Bongo,C,Mixed
+badu-senior-high-tech,Badu Senior High/Tech.,Bono,Tain,B,Mixed
+baglo-ridge-senior-high-tech,Baglo Ridge Senior High/Tech.,Oti,Jasikan,B,Mixed
+bamboi-comm-senior-high,Bamboi Comm. Senior High,Savannah,Bole,C,Mixed
+bandaman-senior-high,Bandaman Senior High,Bono,Banda,C,Mixed
+banka-comm-senior-high,Banka Comm. Senior High,Ashanti,Asante Akim South,C,Mixed
+bankoman-senior-high,Bankoman Senior High,Ashanti,Sekyere Kumawu,B,Mixed
+barekese-senior-high,Barekese Senior High School,Ashanti,Atwima Nwabiagya North Municipal,C,Mixed
+bassa-community-senior-high,Bassa Community Senior High,Bono East,Sene East,C,Mixed
+battor-senior-high,Battor Senior High,Volta,North Tongu,C,Mixed
+bawku-senior-high,Bawku Senior High,Upper East,Bawku East,B,Mixed
+bawku-senior-high-tech,Bawku Senior High/Tech.,Upper East,Bawku,C,Mixed
+bechem-presby-senior-high,Bechem Presby Senior High,Ahafo,Tano South,B,Mixed
+bechem-technical-institute,Bechem Technical Institute,Ahafo,Tano South,B,Mixed
+bedeku-technical-institute,Bedeku Technical Institute,Greater Accra,Ada East,C,Mixed
+benkum-senior-high,Benkum Senior High,Eastern,Akwapim North Municipal,B,Mixed
+benso-senior-high-tech,Benso Senior High/Tech,Western,Tarkwa-Nsuaem,C,Mixed
+bepoase-shts,Bepoase Shts,Ashanti,Sekyere South,C,Mixed
+bepong-senior-high-school,Bepong Senior High School,Eastern,Kwahu South,C,Mixed
+beposo-senior-high,Beposo Senior High,Ashanti,Bosomtwe,B,Mixed
+berekum-senior-high,Berekum Senior High,Bono,Berekum Municipal,B,Mixed
+bia-senior-high-tech,Bia Senior High/Tech,Western North,Bia West,B,Mixed
+biakoye-comm-day-school,Biakoye Comm. School,Oti,Biakoye,C,Mixed
+bimbagu-senior-high-tech,Bimbagu Senior High/Tech,North East,Bunkpurugu-Nakpanduri,C,Mixed
+bimbilla-senior-high,Bimbilla Senior High,Northern,Nanumba North,C,Mixed
+binduri-comm-senior-high,Binduri Comm. Day Senior High,Upper East,Binduri,C,Mixed
+birifo-technical-institute,Birifo Technical Institute,Upper West,Lawra,C,Mixed
+birifoh-senior-high-sch,Birifoh Senior High Sch.,Upper West,Lawra,C,Mixed
+bisease-senior-high-com,Bisease Senior High School,Central,Ajumako/Enyan/Esiam,C,Mixed
+boa-amponsem-senior-high,Boa-Amponsem Senior High,Central,Upper Denkyira East Municipal,B,Mixed
+boakye-tromo-senior-high-tech,Boakye Tromo Senior High/Tech,Ahafo,Tano North,B,Mixed
+kwanwoma-senior-high-tech,Boanim Senior High/ Tech Sch,Ashanti,Sekyere South,C,Mixed
+bodi-senior-high,Bodi Senior High,Western North,Bodi,B,Mixed
+bodomase-senior-high-tech,Bodomase Senior High/Tech,Ashanti,Sekyere Kumawu,C,Mixed
+bodwesango-senior-high,Bodwesango Senior High,Ashanti,Adansi North,C,Mixed
+bole-senior-high,Bole Senior High,Savannah,Bole,C,Mixed
+bole-technical-institute,Bole Technical Institute,Savannah,Bole,C,Mixed
+bomaa-comm-senior-high,Bomaa Comm. Senior High,Ahafo,Tano North,B,Mixed
+bongo-senior-high,Bongo Senior High,Upper East,Bongo,C,Mixed
+bongo-technical-institute,Bongo Technical Institute,Upper East,Bongo,C,Mixed
+bonso-nkwanta-technical-institute,Bonso Nkwanta Technical Institute,Western North,Juaboso,C,Mixed
+bontrase-senior-high-tech-sch,Bontrase Senior High Tech. Sch,Central,Awutu Senya,C,Mixed
+bonwire-senior-high-tech,Bonwire Senior High/Tech,Ashanti,Juaben Municipal,C,Mixed
+bonzo-kaku-senior-high,Bonzo-Kaku Senior High,Western,Ellembele,C,Mixed
+bortianor-senior-high-school,Bortianor Senior High School,Greater Accra,Ga South,C,Mixed
+boso-senior-high-technical,Boso Senior High Technical,Eastern,Asuogyaman,C,Mixed
+bosome-senior-high-tech,Bosome Senior High/Tech.,Ashanti,Bosome Freho,C,Mixed
+bosomtwe-senior-high-tech,Bosomtwe Senior High/Tech,Ashanti,Bosome Freho,C,Mixed
+botoku-technical-insitute,Botoku Technical Insitute,Volta,Dayi,C,Mixed
+bowiri-comm-day-school,Bowiri Comm. Day Senior High/Tech.,Oti,Biakoye,C,Mixed
+brakwa-senior-high-tech,Brakwa Senior High/Tech,Central,Asikuma/Odoben/Brakwa,C,Mixed
+breman-asikuma-senior-high,Breman Asikuma Senior High,Central,Asikuma/Odoben/Brakwa,B,Mixed
+breman-asikuma-technical-institute,Breman Asikuma Technical Institute,Central,Asikuma/Odoben/Brakwa,C,Mixed
+bueman-senior-high,Bueman Senior High .,Oti,Jasikan,B,Mixed
+buipe-senior-high,Buipe Senior High,Savannah,Central Gonja,C,Mixed
+buipe-tech-voc-inst,Buipe Technical Institute,Savannah,Central Gonja,C,Mixed
+bunkpurugu-senior-high-tech,Bunkpurugu Senior High/Tech,North East,Bunkpurugu-Nakpanduri,C,Mixed
+business-secretarial-and-technical-institute,Business Secretarial and Technical Institute,Ashanti,Asokwa,C,Mixed
+busunya-senior-high,Busunya Senior High,Bono East,Nkoranza North,C,Mixed
+caring-sisters-technical-institute,Caring Sisters Technical Institute,Volta,Anloga,C,Mixed
+charlotte-dolphyne-technical-institute,Charlotte Dolphyne Technical Institute,Western,Ellembele,B,Mixed
+chereponi-senior-high-tech,Chereponi Senior High/Tech.,North East,Chereponi,C,Mixed
+chiana-senior-high,Chiana Senior High,Upper East,Kasena-Nankani West,C,Mixed
+chiraa-senior-high,Chiraa Senior High,Bono,Sunyani West,B,Mixed
+chirano-comm-day-school,Chirano Comm. Day School,Western North,Bibiani Anhwiaso Bekwai,C,Mixed
+christ-the-king-cath-obuasi,"Christ the King Cath., Obuasi",Ashanti,Obuasi,B,Mixed
+church-of-christ-senior-high,Church Of Christ Senior High,Ashanti,Ejisu Municipal,C,Mixed
+college-of-music-senior-mozano,College of Music Senior High,Central,Gomoa West,C,Mixed
+collins-senior-high-commercial-agogo,"Collins Senior High/Commercial, Agogo",Ashanti,Asante Akim North,B,Mixed
+comboni-tech-voc,Comboni Tech/Voc Inst.,Volta,South Tongu Municipal,B,Mixed
+dabala-senior-high-tech,Dabala Senior High/Tech.,Volta,South Tongu Municipal,C,Mixed
+daboase-senior-high-tech,Daboase Senior High/Tech,Western,Mpohor Wassa East,B,Mixed
+daboya-comm-day-school,Daboya Comm. Day School,Savannah,North Gonja,C,Mixed
+dadease-agric-senior-high,Dadease Agric Senior High,Ashanti,Sekyere Kumawu,C,Mixed
+dadieso-senior-high,Dadieso Senior High,Western North,Suaman,B,Mixed
+daffiamah-senior-high,Daffiamah Senior High,Upper West,Bussie-Issa,C,Mixed
+dagbon-state-senior-high-tech,Dagbon State Senior High/Tech,Northern,Yendi,C,Mixed
+dambai-technical-institute,Dambai Technical Institute,Oti,Krachi East,C,Mixed
+damongo-senior-high,Damongo Senior High,Savannah,West Gonja,C,Mixed
+damongo-technical-institute,Damongo Technical Institute,Savannah,West Gonja,C,Mixed
+danfa-technical-institute,Danfa Technical Institute,Greater Accra,La Nkwantanang Madina,C,Mixed
+danso-agyei-senior-high-technical,Danso Agyei Senior high technical,Ahafo,Asutifi South,C,Mixed
+denkyembour-technical-institute,Denkyembour Technical Institute,Eastern,Denkyembour,C,Mixed
+denyaseman-cath-senior-high,Denyaseman Cath.Senior High,Ashanti,Bekwai,C,Mixed
+derma-comm-day-school,Derma Comm. Day School,Ahafo,Tano South,B,Mixed
+diabene-senior-high-tech,Diabene Senior High/Tech,Western,Sekondi Takoradi,C,Mixed
+diamono-senior-high-sch,Diamono Senior High Sch.,Bono,Jaman North,B,Mixed
+diaso-senior-high,Diaso Senior High,Central,Upper Denkyira West,B,Mixed
+diaspora-girls-senior-high,Diaspora Girls' Senior High,Eastern,Akwapim South,C,Girls
+dodi-papase-senior-high-tech,Dodi-Papase Senior High/Tech,Oti,Kadjebi,C,Mixed
+dofor-senior-high,Dofor Senior High,Volta,North Tongu,C,Mixed
+dompoase-senior-high,Dompoase Senior High,Ashanti,Adansi North,B,Mixed
+don-bosco-voc-tech-inst,Don Bosco Voc./Tech. Inst.,Bono,Sunyani West,B,Mixed
+donkorkrom-agric-senior-high,Donkorkrom Agric Senior High,Eastern,Kwahu Afram Plains North,C,Mixed
+donkro-nkwanta-senior-high-school,Donkro- Nkwanta Senior High School,Bono East,Nkoranza South,C,Mixed
+dormaa-senior-high,Dormaa Senior High,Bono,Dormaa Central,B,Mixed
+dr-hila-liman-senior-high-school,Dr. Hilla Limann Senior High School,Upper West,Sisala West,C,Mixed
+drobo-senior-high,Drobo Senior High,Bono,Jaman South,B,Mixed
+drobonso-senior-high-school,Drobonso Senior High School,Ashanti,Sekyere Afram Plains,C,Mixed
+duadaso-no-1-senior-high-tech,Duadaso No. 1 Senior High/Tech.,Bono,Jaman North,C,Mixed
+dunkwa-senior-high-tech,Dunkwa Senior High/Tech,Central,Upper Denkyira East Municipal,C,Mixed
+dwease-praaso-technical-institute,Dwease-Praaso Technical Institute,Ashanti,Asante Akim Central Municipal,C,Mixed
+dzodze-technical-institute,Dzodze Technical Institute,Volta,Ketu North,C,Mixed
+dzolo-senior-high,Dzolo Senior High,Volta,Ho West,C,Mixed
+e-p-agric-senior-high-tech,E. P. Agric Senior High/Tech.,Northern,Tatale Sanguli,C,Mixed
+e-p-senior-high,E. P. Senior High,Volta,Hohoe Municipal,C,Mixed
+e-p-tech-voc-inst,E.P. Tech/Voc Inst,Volta,Hohoe Municipal,C,Mixed
+edinaman-senior-high,Edinaman Senior High,Central,Komenda/Edina/Eguafo/Abirem Municipal,B,Mixed
+effutu-senior-high-tech,Effutu Senior High/Tech,Central,Cape Coast,C,Mixed
+eguafo-abrem-senior-high,Eguafo-Abrem Senior High,Central,Komenda/Edina/Eguafo/Abirem Municipal,C,Mixed
+ejuraman-anglican-senior-high,Ejuraman Anglican Senior High,Ashanti,Ejura Sekyedumase,C,Mixed
+ekumfi-t-i-ahmadiiyya-snr-high,Ekumfi T. I. Ahmadiiyya SHTS,Central,Ekumfi,B,Mixed
+enyan-denkyira-senior-high,Enyan Denkyira Senior High/Tech,Central,Ajumako/Enyan/Esiam,C,Mixed
+enyan-maim-comm-day-school,Enyan Maim Comm. Day School,Central,Ajumako/Enyan/Esiam,C,Mixed
+enyan-abaasa-technical-institute,Enyan-Abaasa Technical Institute,Central,Ajumako/Enyan/Esiam,B,Mixed
+eremon-senior-high-tech,Eremon Senior High/Tech.,Upper West,Lawra,C,Mixed
+esaase-bontefufuo-snr-high-tech,Esaase Bontefufuo Snr. High/Tech.,Ashanti,Amansie West,C,Mixed
+esiama-senior-high-tech,Esiama Senior High/Tech,Western,Ellembele,B,Mixed
+essipun-technical-institute,Essipun Technical Institute,Western,Sekondi Takoradi,C,Mixed
+fawohoyeden-technical-institute,Fawohoyeden Technical Institute,Ahafo,Asunafo North,C,Mixed
+fettehman-senior-high,Fettehman Senior High,Central,Gomoa East,C,Mixed
+feyiase-senior-high-school,Feyiase Senior High School,Ashanti,Bosomtwe,C,Mixed
+fodoa-comm-senior-high,Fodoa Comm. Senior High,Eastern,Kwahu West,C,Mixed
+fr-dogli-memorial-voc-tech-inst,Fr. Dogli Memorial Technical Institute,Oti,Jasikan,C,Mixed
+fumbisi-senior-high,Fumbisi Senior High,Upper East,Builsa South,C,Mixed
+funsi-senior-high-school,Funsi Senior High School,Upper West,Wa East,C,Mixed
+gratis-technical-institute-bolga,"GRATIS Technical Institute, Bolga",Upper East,Bolgatanga Municipal,C,Mixed
+gratis-technical-institute-tamale,"GRATIS Technical Institute, Tamale",Northern,Tamale Metro,C,Mixed
+gratis-technical-institute-wa,"GRATIS Technical Institute, Wa",Upper West,Wa Municipal,C,Mixed
+gambaga-girls-senior-high,Gambaga Girls Senior High,North East,East Mamprusi,C,Girls
+gambigo-comm-day-senior-high,Gambigo Comm. Day Senior High,Upper East,Bolgatanga East,C,Mixed
+garu-comm-day-senior-high,Garu Comm. Day Senior High,Upper East,Tempane,C,Mixed
+abuadi-tsrefe-comm-senior-high,Gbekor Senior High School,Volta,Adaklu,C,Mixed
+gbewa-technical-institute,Gbewa Technical Institute,Northern,Tamale Metro,C,Mixed
+gbintiri-senior-high-tech,Gbintiri Senior High/Tech,North East,East Mamprusi,C,Mixed
+ghana-muslim-mission-senior-high,Ghana Muslim Mission Senior High,Ashanti,Sekyere Central,B,Mixed
+goka-senior-high-tech,Goka Senior High/Tech.,Bono,Jaman North,B,Mixed
+gomoa-adaa-technical-institute,Gomoa Adaa Technical Institute,Central,Gomoa West,B,Mixed
+gomoa-senior-high-tech,Gomoa Senior High/Tech,Central,Gomoa West,C,Mixed
+guakro-effah-senior-high,Guakro Effah Senior High,Bono East,Techiman North,B,Mixed
+guo-technical-insititute,Guo Technical Insititute,Upper West,Nandom,C,Mixed
+gushegu-senior-high,Gushegu Senior High,Northern,Gushegu,C,Mixed
+gwiraman-comm-senior-high,Gwiraman Comm.Senior High,Western,Nzema East,C,Mixed
+gyaama-pensan-senior-high-tech,Gyaama Pensan Senior High/Tech,Ashanti,Kwabre East,C,Mixed
+gyaase-community-senior-high,Gyaase Community Senior High,Central,Assin North,C,Mixed
+gyamfi-kumanini-senior-high-tech,Gyamfi Kumanini Senior High/Tech,Ahafo,Asutifi North,B,Mixed
+gyarko-comm-day-senior-high,Gyarko Comm. Day Senior High,Bono East,Techiman,C,Mixed
+gyedu-technical-institute,Gyedu Technical Institute,Ahafo,Asutifi North,C,Mixed
+half-assini-senior-high,Half Assini Senior High,Western,Jomoro,B,Mixed
+han-senior-high,Han Senior High,Upper West,Jirapa,C,Mixed
+hemang-buoho-technical-institute,Hemang Buoho Technical Institute,Ashanti,Afigya Kwabre South,C,Mixed
+hidaayah-islamic-senior-high-school,Hidaayah Islamic Senior High School,Bono,Jaman South,C,Mixed
+ho-lokoe-technical-institute,Ho -Lokoe Technical Institute,Volta,Ho Municipal,C,Mixed
+ho-technical-institute,Ho Technical Institute,Volta,Ho Municipal,C,Mixed
+hwidiem-senior-high,Hwidiem Senior High,Ahafo,Asutifi South,B,Mixed
+ibadur-rahman-academy,Ibadur Rahman Academy,Ashanti,Asokore Mampong Municipal,C,Mixed
+islamic-girls-senior-high-suhum,"Islamic Girls Senior High,Suhum",Eastern,Suhum,B,Girls
+islamic-mission-technical-institute,Islamic Mission Technical Institute,Ahafo,Tano North,C,Mixed
+islamic-science-senior-high-tamale,"Islamic Science Senior High, Tamale",Northern,Sagnerigu Municipal,C,Mixed
+islamic-senior-high-wa,"Islamic Senior High, Wa",Upper West,Wa Municipal,C,Mixed
+islamic-senior-high-ampabame,"Islamic Senior High,Kumasi",Ashanti,Kumasi Metro,B,Mixed
+issa-technical-institute,Issa Technical Institute,Upper West,Dafiama Busie Issa,C,Mixed
+istiquaama-snr-high,Istiquaama Snr. High,Bono,Wenchi,B,Mixed
+j-a-kufour-stem-technical-school,J.A. Kufour Stem Technical School,Ashanti,Atwima Nwabiagya North Municipal,C,Mixed
+j-g-knol-voc-instititute,J.G. Knol Technical Instititute,Eastern,Okere,C,Mixed
+jachie-pramso-senior-high,Jachie Pramso Senior High,Ashanti,Bosomtwe,B,Mixed
+jacobu-senior-high-tech,Jacobu Senior High/Tech.,Ashanti,Amansie Central,B,Mixed
+jamiat-al-hidaya-islamic-girls,Jamiat Al-Hidaya Islamic Girls,Upper West,Wa Municipal,C,Girls
+janga-senior-high-tech,Janga Senior High/Tech,North East,West Mamprusi,C,Mixed
+jema-senior-high,Jema Senior High,Bono East,Kintampo South,B,Mixed
+jim-bourton-mem-agric-senior-high,Jim Bourton Mem Agric. Senior High,Volta,Afadzto South,C,Mixed
+jinijini-senior-high,Jinijini Senior High,Bono,Berekum Municipal,B,Mixed
+jirapa-senior-high,Jirapa Senior High,Upper West,Jirapa,C,Mixed
+juaben-senior-high,Juaben Senior High,Ashanti,Juaben Municipal,B,Mixed
+juaboso-senior-high,Juaboso Senior High,Western North,Juaboso,B,Mixed
+juaso-senior-high-tech,Juaso Senior High/Tech,Ashanti,Asante Akim South,C,Mixed
+jubilee-senior-high,Jubilee Senior High,Ashanti,Asante Akim South,C,Mixed
+jukwa-senior-high,Jukwa Senior High/Tech,Central,Twifo Hemang Lower Denkyira,C,Mixed
+kaakyi-technical-institute,Kaakyi Technical Institute,Oti,Kete Krachi,C,Mixed
+kade-senior-high-tech,Kade Senior High/Tech.,Eastern,Kwaebibirem,B,Mixed
+kadjebi-asato-senior-high,Kadjebi-Asato Senior High,Oti,Kadjebi,C,Mixed
+kajaji-senior-high,Kajaji Senior High,Bono East,Sene East,B,Mixed
+kajaji-technical-institute,Kajaji Technical Institute,Bono East,Sene East,C,Mixed
+kaleo-senior-high-tech,Kaleo Senior High/Tech,Upper West,Nadowli,C,Mixed
+kalpohin-senior-high,Kalpohin Senior High,Northern,Sagnerigu Municipal,B,Mixed
+kaneshie-senior-high-tech,Kaneshie Senior High/Tech.,Greater Accra,Accra,C,Mixed
+kanjaga-comm-senior-high,Kanjarga Comm. Senior High,Upper East,Builsa South,C,Mixed
+kanton-senior-high,Kanton Senior High,Upper West,Sisala East,B,Mixed
+karaga-senior-high,Karaga Senior High,Northern,Karaga,C,Mixed
+kedzi-technical-institute,Kedzi Technical Institute,Volta,Keta Municipal,C,Mixed
+kesse-basahyia-senior-high,Kesse Basahyia Senior High School,Bono East,Techiman,C,Mixed
+keta-business-senior-high,Keta Business College,Volta,Keta Municipal,C,Mixed
+kete-krachi-senior-high-tech,Kete Krachi Senior High/Tech.,Oti,Krachi West,C,Mixed
+kibi-senior-high-tech,Kibi Senior High/Tech,Eastern,Abuakwa South Municipal,B,Mixed
+kintampo-senior-high,Kintampo Senior High,Bono East,Kintampo North,C,Mixed
+kintampo-technical-institute,Kintampo Technical Institute,Bono East,Kintampo South,C,Mixed
+klefe-technical-institute,Klefe Technical Institute,Volta,Ho Municipal,C,Mixed
+klikor-senior-high-tech,Klikor Senior High/Tech.,Volta,Ketu South,C,Mixed
+klo-agogo-senior-high,Klo-Agogo Senior High/Tech,Eastern,Yilo Krobo,C,Mixed
+ko-senior-high,Ko Senior High,Upper West,Nandom,C,Mixed
+koase-senior-high-tech,Koase Senior High/Tech,Bono,Wenchi,C,Mixed
+kobina-ansah-shs,Kobina Ansah SHS,Central,Mfantseman Municipal,C,Mixed
+kofi-annan-technical-institute,Kofi Annan Technical Institute,Northern,Kumbungu,C,Mixed
+kofiase-adventist-senior-high-tech,Kofiase Adventist Senior High/Tech.,Ashanti,Mampong,B,Mixed
+krobea-asante-tec-voc-inst,Kokoben Technical Institute,Ashanti,Bosome Freho,C,Mixed
+konadu-yiadom-catholic-senior-high,Konadu Yiadom Catholic Senior High,Ashanti,Sekyere South,B,Mixed
+konkoma-technical-institute,Konkoma Technical Institute,Ashanti,Bosomtwe,C,Mixed
+kpalwega-technical-institute,Kpalwega Technical Institute,Upper East,Bawku East,C,Mixed
+kpandai-senior-high,Kpandai Senior High,Northern,Kpandi,C,Mixed
+kpando-senior-high,Kpando Senior High .,Volta,Kpando Municipal,B,Mixed
+kpassa-senior-high-tech,Kpassa Senior High/Tech,Oti,Nkwanta North,C,Mixed
+kpedze-senior-high,Kpedze Senior High,Volta,Ho West,C,Mixed
+kpeve-senior-high,Kpeve Senior High Tech,Volta,South Dayi,C,Mixed
+kpone-comm-senior-high,Kpone Comm. Senior High,Greater Accra,Kpone-Katamanso,C,Mixed
+kpong-technical-institute,Kpong Technical Institute,Eastern,Lower Manya Krobo,C,Mixed
+kraboa-coaltar-presby-snr-high-tech,Kraboa-Coaltar Presby Snr. High/Tech.,Eastern,Ayensuano,C,Mixed
+krachi-senior-high,Krachi Senior High,Oti,Krachi West,C,Mixed
+krobo-comm-senior-high,Krobo Comm.Senior High,Bono East,Techiman North,C,Mixed
+kukuom-agric-senior-high,Kukuom Agric Senior High,Ahafo,Asunafo South,B,Mixed
+kumawu-technical-institute,Kumawu Technical Institute,Ashanti,Sekyere Kumawu,C,Mixed
+kumbungu-senior-high,Kumbungu Senior High,Northern,Kumbungu,C,Mixed
+kumbungu-vocational-techncal-institute,Kumbungu Vocational Techncal Institute,Northern,Kumbungu,C,Mixed
+kurofa-methodist-senior-high,Kurofa Methodist Senior High Tech,Ashanti,Asante Akim South,C,Mixed
+kusanaba-senior-high,Kusanaba Senior High School,Upper East,Bawku West,C,Mixed
+kusanaba-technical-institute,Kusanaba Technical Institute,Upper East,Bawku West,B,Mixed
+kwabre-senior-high,Kwabre Senior High,Bono East,Nkoranza South,B,Mixed
+kwahu-ridge-senior-high,Kwahu Ridge Senior High,Eastern,Kwahu South,B,Mixed
+kwahu-tafo-senior-high,Kwahu Tafo Senior High,Eastern,Kwahu East,B,Mixed
+kwame-danso-senior-high-tech,Kwame Danso Senior High/Tech,Bono East,Sene West,C,Mixed
+nsein-senior-high,Kwame Nkrumah Senior High,Western,Nzema East,B,Mixed
+kwanyako-senior-high,Kwanyarko Senior High,Central,Agona East,C,Mixed
+kwaobaah-nyanoa-comm-senior-high,Kwaobaah Nyanoa Comm. Senior High,Eastern,Upper West Akim Municipal,C,Mixed
+kwapong-technical-institute,Kwapong Technical Institute,Ahafo,Asunafo South,C,Mixed
+kwarteng-ankomah-senior-high,Kwarteng Ankomah Senior High,Bono East,Techiman,C,Mixed
+kyabobo-girls-senior-high,Kyabobo Girls' School,Oti,Nkwanta South,C,Girls
+kyekyewere-comm-senior-high-school,Kyekyewere Comm. Senior High School,Central,Upper Denkyira East Municipal,C,Mixed
+kyem-amponsah-senior-high-school-fiapre,"Kyem Amponsah Senior High School, Fiapre",Bono,Sunyani West,C,Mixed
+lambussie-comm-senior-high,Lambussie Comm. Senior High School,Upper West,Lambussie-Karni,C,Mixed
+langbinsi-senior-high-tech,Langbinsi Senior High/Tech,North East,East Mamprusi,C,Mixed
+larabanga-senior-high,Larabanga Senior High,Savannah,West Gonja,C,Mixed
+lassie-tuolu-senior-high,Lassie-Tuolu Senior High,Upper West,Wa West,B,Mixed
+leklebi-senior-high,Leklebi Senior High,Volta,Afadzto South,C,Mixed
+libermann-technical-institute,Libermann Technical Institute,Western,Jomoro,C,Mixed
+likpe-senior-high,Likpe Senior High,Oti,Guan,C,Mixed
+loagri-technical-institute,Loagri Technical Institute,North East,Mamprugu Moaduri,C,Mixed
+loggu-comm-day-school,Loggu Comm. Day School,Upper West,Wa East,C,Mixed
+lolobi-technical-institute,Lolobi Technical Institute,Oti,Guan,C,Mixed
+maame-krobo-comm-senior-high,Maame Krobo Comm. Senior High,Eastern,Kwahu Afram Plains South,C,Mixed
+maabang-senior-high-tech,Mabang Senior High/Tech,Ashanti,Ahafo Ano North,B,Mixed
+mafi-kumasi-senior-high-tech,Mafi-Kumasi Senior High/Tech,Volta,Central Tongu,B,Mixed
+mampong-akw-snr-high-tech-for-the-deaf,Mampong/Akw Snr. High/Tech for the Deaf,Eastern,Akwapim North,C,Mixed
+mancell-girls-senior-high-tech,Mancell Girls' Senior High/Tech.,Ashanti,Kumasi Metro,C,Girls
+mando-senior-high-tech,Mando Senior High/Tech.,Central,Ajumako/Enyan/Esiam,C,Mixed
+mangoase-senior-high,Mangoase Senior High,Eastern,Akwapim North Municipal,C,Mixed
+mankessim-technical-institute,Mankessim Technical Institute,Central,Mfantseman Municipal,C,Mixed
+mankranso-senior-high,Mankranso Senior High,Ashanti,Ahafo-Ano South West,C,Mixed
+mansen-senior-high-sch,Mansen Senior High,Bono,Dormaa East,B,Mixed
+manso-adubia-senior-high,Manso-Adubia Senior High,Ashanti,Amansie South,C,Mixed
+manso-amenfi-comm-day-school,Manso-Amenfi Comm. Day School,Western,Wassa Amenfi Central,C,Mixed
+manso-amenfi-technical-institute,Manso-Amenfi Technical Institute,Western,Wassa Amenfi Central,C,Mixed
+mansoman-senior-high,Mansoman Senior High,Ashanti,Amansie West,C,Mixed
+manya-krobo-senior-high,Manya Krobo Senior High,Eastern,Lower Manya Krobo,B,Mixed
+mem-chemfre-comm-senior-high,Mem-Chemfre Comm. Senior High,Eastern,Kwahu Afram Plains North,C,Mixed
+menji-senior-high,Menji Senior High,Bono,Tain,B,Mixed
+mepe-st-kizito-senior-high-tech,Mepe St. Kizito Senior High/Tech.,Volta,North Tongu,C,Mixed
+mesu-akompi-technical-institute,Mesu Akompi Technical Institute,Western,Wassa Amenfi East,C,Mixed
+methodist-high-school-saltpond,"Methodist High School,Saltpond",Central,Mfantseman Municipal,B,Mixed
+mim-senior-high,Mim Senior High,Ahafo,Asunafo North,B,Mixed
+mirigu-community-day-senior-high,Mirigu Community Day Senior High,Upper East,Kasena-Nankani West,C,Mixed
+mokwaa-senior-high-sch,Mokwaa Senior High School,Central,Twifo Ati-Morkwa,C,Mixed
+moree-comm-senior-high,Moree Comm. Senior High,Central,Abura Asebu Kwamankese,C,Mixed
+morso-senior-high-tech,Morso Senior High/Tech,Ashanti,Asante Akim South,C,Mixed
+mozano-senior-high,Mozano Senior High,Central,Gomoa West,B,Mixed
+mpaha-comm-senior-high,Mpaha Comm. Senior High School,Savannah,Central Gonja,C,Mixed
+mpasatia-senior-high-tech,Mpasatia Senior High/Tech,Ashanti,Atwima Mponua,B,Mixed
+mpohor-senior-high,Mpohor Senior High,Western,Mpohor,B,Mixed
+naa-momori-technical-institute,Naa-Momori Technical Institute,Upper West,Wa Municipal,C,Mixed
+sandema-senior-high-tech,Naab Azantilow Senior High/Tech.,Upper East,Builsa North,C,Mixed
+nabango-senior-high-school,Nabango Senior High Tech,Upper East,Kasena-Nankani West,C,Mixed
+nabango-technical-institute,Nabango Technical Institute,Upper East,Kasena-Nankani West,C,Mixed
+nafana-senior-high,Nafana Senior High,Bono,Jaman North,B,Mixed
+nakori-chansa-technical-institute,Nakori Chansa Technical Institute,Upper West,Wa Municipal,C,Mixed
+nakpanduri-senior-high,Nakpanduri Senior High,North East,Bunkpurugu-Yunguo,C,Mixed
+nalerigu-senior-high,Nalerigu Senior High,North East,East Mamprusi,C,Mixed
+namalteng-technical-institute,Namalteng Technical Institute,Upper East,Talensi,C,Mixed
+namong-senior-high-tech,Namong Senior High/Tech,Ashanti,Offinso,C,Mixed
+nana-ampontua-technical-institute,Nana Ampontua Technical Institute,Ashanti,Bekwai,C,Mixed
+nana-brentu-senior-high-tech,Nana Brentu Senior High/Tech,Western North,Aowin Suaman,C,Mixed
+nanton-senior-high-tech,Nanton Senior High/Tech,Northern,Nanton,C,Mixed
+nasuan-senior-high-school,Nasuan Senior High School,North East,Yunyoo-Nasuan,C,Mixed
+navrongo-technical-institute,Navrongo Technical Institute,Upper East,Kasena-Nankani Municipal,C,Mixed
+nchumuruman-comm-day-senior-high,Nchumuruman Comm. Day Senior High,Oti,Krachi Nchumuru,C,Mixed
+ndewura-jakpa-senior-high-tech,Ndewura Jakpa Senior High/Tech.,Savannah,West Gonja,C,Mixed
+nerebehi-technical-institute,Nerebehi Technical Institute,Ashanti,Atwima Nwabiagya,C,Mixed
+new-century-technical-institute,New Century Technical Institute,Greater Accra,Ablekuma West,A,Mixed
+new-ebu-technical-institute,New Ebu Technical Institute,Central,Abura Asebu Kwamankese,C,Mixed
+new-edubiase-senior-high,New Edubiase Senior High,Ashanti,Adansi South,B,Mixed
+new-krokompe-comm-senior-high,New Kokrompe Comm. Senior High,Bono East,Atebubu-Amantin,C,Mixed
+new-longoro-comm-school-dega,New Longoro Comm.School (Dega),Bono East,Kintampo North,C,Mixed
+ngleshie-amanfro-technical-institute,Ngleshie Amanfro Technical Institute,Greater Accra,Ga South,C,Mixed
+nifa-senior-high,Nifa Senior High,Eastern,Okere,B,Mixed
+ningo-senior-high,Ningo Senior High,Greater Accra,Ningo Prampram,B,Mixed
+nkawkaw-senior-high,Nkawkaw Senior High,Eastern,Kwahu West,B,Mixed
+nkenkansu-community-senior-high,Nkenkansu Community Senior High,Ashanti,Offinso North,C,Mixed
+nkonya-senior-high,Nkonya Senior High School,Oti,Biakoye,C,Mixed
+nkoranman-senior-high,Nkoranman Senior High,Bono,Tain,B,Mixed
+nkrankwanta-comm-senior-high,Nkrankwanta Senior High/Tech,Bono,Dormaa West,B,Mixed
+nkroful-agric-senior-high,Nkroful Agric. Senior High/Tech,Western,Ellembele,C,Mixed
+nkwabeng-technical-institute,Nkwabeng Technical Institute,Bono East,Nkoranza South,C,Mixed
+nkwanta-comm-senior-high,Nkwanta Comm.Senior High/Tech,Oti,Nkwanta South,C,Mixed
+nkwanta-senior-high,Nkwanta Senior High,Oti,Nkwanta South,C,Mixed
+nkwatia-presby-senior-high-com,Nkwatia Presby Senior High/Com,Eastern,Kwahu East,B,Mixed
+nkyeraa-senior-high-sch,Nkyeraa Senior High Sch.,Bono,Wenchi,C,Mixed
+northern-school-of-business,Northern School of Business,Northern,Sagnerigu Municipal,C,Mixed
+northern-star-senior-high,Northern Star Senior High,Upper West,Wa Municipal,C,Mixed
+nsaba-presby-senior-high,Nsaba Presby Senior High,Central,Agona East,B,Mixed
+nsawam-senior-high,Nsawam Senior High,Eastern,Nsawam Adoagyiri Municipal,C,Mixed
+nsawkaw-state-senior-high,Nsawkaw State Senior High,Bono,Tain,B,Mixed
+nsawora-edumafa-comm-senior-high-school,Nsawora Edumafa Senior High School,Western North,Sefwi Akontombra,C,Mixed
+nsoatre-technical-institute,Nsoatre Technical Institute,Bono,Sunyani West,B,Mixed
+nsutaman-cath-senior-high,Nsutaman Cath. Senior High,Ashanti,Sekyere Central,B,Mixed
+ntruboman-senior-high,Ntruboman Senior High,Oti,Nkwanta South,C,Mixed
+nuriya-islamic-senior-high-tamale,"Nuriya Islamic Senior High, Tamale",Northern,Tamale Metro,C,Mixed
+nyankumase-ahenkro-snr-high,Nyankumasi Ahenkro Snr. High,Central,Assin South,C,Mixed
+nyinahin-cath-senior-high,Nyinahin Cath. Senior High,Ashanti,Atwima Mponua,C,Mixed
+nyohini-community-technical-institute,Nyohini Community Technical Institute,Northern,Tamale Metro,C,Mixed
+nyong-technical-institute,Nyong Technical Institute,Northern,Karaga,C,Mixed
+o-l-l-girls-senior-high,O.L.L. Girls Senior High,Upper East,Kasena-Nankani Municipal,C,Girls
+obiri-yeboah-senior-high-technical,Obiri Yeboah Senior High/Technical,Central,Assin Central Municipal,C,Mixed
+obrachire-senior-high-tech,Obrachire Senior High/Tech,Central,Awutu Senya,C,Mixed
+oda-senior-high,Oda Senior High,Eastern,Birim Central,B,Mixed
+odoben-senior-high,Odoben Senior High,Central,Asikuma/Odoben/Brakwa,C,Mixed
+odomaseman-senior-high,Odomaseman Senior High,Bono,Sunyani West,B,Mixed
+odupong-comm-day-school,Odupong Comm. Day School,Central,Awutu Senya East,C,Mixed
+offinso-technical-institute,Offinso Technical Institute,Ashanti,Offinso,C,Mixed
+ofoase-kokoben-senior-high,Ofoase Kokoben Senior High,Ashanti,Bekwai,B,Mixed
+oguaa-senior-high-tech,Oguaa Senior High/Tech,Central,Cape Coast,C,Mixed
+ogyeedom-comm-snr-high-tech,Ogyeedom Comm.Snr High/Tech,Central,Gomoa Central,C,Mixed
+okadjakrom-senior-high-tech,Okadjakrom Senior High/Tech.,Oti,Jasikan,B,Mixed
+okomfo-anokye-senior-high,Okomfo Anokye Senior High,Ashanti,Sekyere South,B,Mixed
+onwe-senior-high-senior,Onwe Senior High School,Ashanti,Ejisu Municipal,C,Mixed
+opoku-agyeman-senior-high-tech,Opoku Agyeman Senior High/Tech,Ashanti,Mampong,C,Mixed
+oppong-mem-senior-high,Oppong Mem. Senior High,Ashanti,Bekwai,B,Mixed
+opportunities-industralisation-technical-inst,Opportunities Industralisation Technical Inst.,Western,Sekondi Takoradi,C,Mixed
+osei-adutwum-senior-high,Osei Adutwum Senior High,Ashanti,Bosomtwe,C,Mixed
+osei-bonsu-senior-high,Osei Bonsu Senior High,Bono East,Nkoranza North,B,Mixed
+osudoku-senior-high-tech,Osudoku Senior High/Tech.,Greater Accra,Shai-Osudoku,C,Mixed
+otaakrom-technical-institute,Otaakrom Technical Institute,Ashanti,Atwima Mponua,C,Mixed
+oti-senior-high-tech-sch,Oti Senior High/Tech Sch,Oti,Krachi East,C,Mixed
+otumfuo-osei-tutu-ii-college,Otumfuo Osei Tutu II College,Ashanti,Afigya-Kwabre,B,Mixed
+our-lady-of-fatima-technical-institute,Our Lady of Fatima Technical Institute,Bono,Jaman North,B,Mixed
+our-lady-of-mercy-senior-high,Our Lady of Mercy Senior High,Greater Accra,Tema,B,Mixed
+our-lady-of-mount-carmel-girls-senior-high-techiman,Our Lady of Mount Carmel Girls Senior High,Bono East,Techiman,B,Girls
+owerriman-senior-high,Owerriman Senior High/Tech,Ashanti,Asante Akim North,C,Mixed
+paga-senior-high,Paga Senior High,Upper East,Kasena-Nankani West,C,Mixed
+pakyi-applied-technology-institute,Pakyi Applied Technology Institute,Ashanti,Amansie West,C,Mixed
+parkoso-comm-senior-high,Parkoso Comm. Senior High,Ashanti,Asokore Mampong Municipal,C,Mixed
+peki-senior-high,Peki Senior High,Volta,South Dayi,B,Mixed
+peki-senior-high-technical,Peki Senior High/Technical,Volta,South Dayi,C,Mixed
+piina-senior-high,Piina Senior High,Upper West,Lambussie-Karni,C,Mixed
+pong-tamale-senior-high,Pong-Tamale Senior High,Northern,Savelugu-Nanton Municipal,C,Mixed
+potsin-t-i-ahm-senior-high,Potsin T.I. Ahm. Senior High,Central,Gomoa East,C,Mixed
+prampram-senior-high,Prampram Senior High,Greater Accra,Ningo Prampram,B,Mixed
+prampram-technical-institute,Prampram Technical Institute,Greater Accra,Ningo Prampram,C,Mixed
+prang-senior-high,Prang Senior High,Bono East,Pru,B,Mixed
+presby-boys-model-senior-high,Presby Boys Model Senior High,Eastern,Denkyembour,C,Boys
+presby-shts-nankpanduri,"Presby SHTS, Nankpanduri",North East,Bunkpurugu-Nakpanduri,C,Mixed
+presby-senior-high-begoro,"Presby Senior High, Begoro",Eastern,Fanteakwa North,B,Mixed
+presby-senior-high-tech-adukrom,"Presby Senior High/Tech, Adukrom",Eastern,Okere,C,Mixed
+presby-senior-high-tech-kwamang,"Presby Senior High/Tech, Kwamang",Ashanti,Sekyere Central,C,Mixed
+prestea-senior-high-tech,Prestea Senior High/Tech,Western,Prestea Huni Valley,C,Mixed
+prince-of-peace-girls,Prince Of Peace Girls,Ashanti,Kumasi Metro,C,Girls
+pusiga-comm-day-senior-high-sch,Pusiga Comm. Day Senior High Sch.,Upper East,Pusiga,C,Mixed
+ramseyer-technical-institute,Ramseyer Technical Institute,Ashanti,Asokwa,C,Mixed
+s-d-a-senior-high-school-gomoa-jukwa,"S.D.A Senior High School, Gomoa Jukwa",Central,Gomoa Central,C,Mixed
+s-d-a-senior-high-koforidua,"S.D.A Senior High, Koforidua",Eastern,New Juaben North Municipal,B,Mixed
+s-d-a-senior-high-sunyani,"S.D.A Senior High, Sunyani",Bono,Sunyani,B,Mixed
+s-d-a-senior-high-agona,"S.D.A. Senior High, Agona",Ashanti,Sekyere South,B,Mixed
+s-d-a-senior-high-bekwai,"S.D.A. Senior High, Bekwai",Ashanti,Bekwai,B,Mixed
+saboba-e-p-senior-high,Saboba E.P. Senior High,Northern,Saboba,C,Mixed
+sabronum-methodist-senior-high-tech,Sabronum Methodist Senior High/Tech,Ashanti,Ahafo Ano South,C,Mixed
+sacred-heart-senior-high-nsoatre,"Sacred Heart Senior High, Nsoatre",Bono,Sunyani West,B,Mixed
+sacred-heart-tech-inst,Sacred Heart Tech. Inst.,Greater Accra,Accra,B,Mixed
+sakafia-islamic-senior-high,Sakafia Islamic Senior High,Ashanti,Asokore Mampong Municipal,B,Mixed
+sakogu-senior-high-tech,Sakogu Senior High/Tech,North East,East Mamprusi,C,Mixed
+salaga-senior-high,Salaga Senior High,Savannah,East Gonja,C,Mixed
+salaga-t-i-ahmad-senior-high,Salaga T.I. Ahmad Senior High,Savannah,East Gonja,C,Mixed
+salaga-technical-institute,Salaga Technical Institute,Savannah,East Gonja,C,Mixed
+salvation-army-senior-high-aboabo-dormaa,Salvation Army Senior High,Bono,Dormaa Central,B,Mixed
+salvation-army-senior-high-akim-wenchi,"Salvation Army Senior High, Akim Wenchi",Eastern,Denkyembour,C,Mixed
+samuel-otu-presby-senior-high,Samuel Otu Presby Senior High.,Ahafo,Tano South,B,Mixed
+sandema-senior-high,Sandema Senior High,Upper East,Builsa North,C,Mixed
+sandema-technical-institute,Sandema Technical Institute,Upper East,Builsa North,C,Mixed
+sang-comm-day-school,Sang Comm. Day School,Northern,Mion,C,Mixed
+sankor-comm-day-school,Sankor Senior High School,Western,Ahanta West,C,Mixed
+sankore-senior-high,Sankore Senior High,Ahafo,Asunafo South,B,Mixed
+santa-esther-girls-senior-high,Santa Esther Girls' Senior High,Volta,Hohoe Municipal,C,Girls
+savelugu-senior-high,Savelugu Senior High,Northern,Savelugu-Nanton Municipal,C,Mixed
+savelugu-technical-institute,Savelugu Technical Institute,Northern,Savelugu-Nanton Municipal,C,Mixed
+saviour-senior-high-osiem,"Saviour Senior High, Osiem",Eastern,Abuakwa North Municipal,B,Mixed
+sawla-girls-vocational-institute,Sawla Girls Vocational Institute,Savannah,Sawla Tuna Kalba,C,Girls
+sawla-senior-high-sch,Sawla Senior High Sch.,Savannah,Sawla Tuna Kalba,C,Mixed
+sefwi-bekwai-senior-high,Sefwi Bekwai Senior High,Western North,Bibiani Anhwiaso Bekwai,B,Mixed
+sefwi-wiawso-senior-high,Sefwi-Wiawso Senior High,Western North,Sefwi Wiawso,B,Mixed
+sefwi-wiawso-senior-high-tech,Sefwi-Wiawso Senior High/Tech,Western North,Sefwi Wiawso,B,Mixed
+sekyedumase-senior-high-tech,Sekyedumase Senior High/Tech,Ashanti,Ejura Sekyedumase,B,Mixed
+sekyere-kusi-senior-high-school,Sekyere Kusi Senior High School,Ashanti,Sekyere Kumawu,C,Mixed
+senya-senior-high,Senya Senior High School,Central,Awutu Senya,C,Mixed
+serwaah-nyarko-girls-snr-high,Serwaah Nyarko Girls' Snr. High,Ashanti,Kumasi Metro,B,Girls
+shama-senior-high,Shama Senior High,Western,Shama,B,Mixed
+shama-technical-institute,Shama Technical Institute,Western,Shama,C,Mixed
+shia-senior-hightechnical,Shia Senior HighTechnical,Volta,Ho Municipal,C,Mixed
+siddiq-senior-high-sch,Siddiq Senior High Sch.,Central,Agona West,B,Mixed
+simms-senior-high-com,Simms Senior High/Com.,Ashanti,Kwabre East,C,Mixed
+sirigu-senior-high,Sirigu Senior High,Upper East,Kasena-Nankani West,C,Mixed
+social-welfare-girls-technical-institute,Social Welfare Girls' Technical Institute,Central,Cape Coast,C,Girls
+social-welfare-technical-institute-sunyani,"Social Welfare Technical Institute, Sunyani",Bono,Sunyani,C,Mixed
+sogakope-senior-high,Sogakofe Senior High,Volta,South Tongu Municipal,B,Mixed
+sokode-senior-high-tech,Sokode Senior High/Tech,Volta,Ho Municipal,C,Mixed
+somanya-technical-institute,Somanya Technical Institute,Eastern,Yilo Krobo,C,Mixed
+sombo-senior-high,Sombo Senior High,Upper West,Nadowli-Kaleo,C,Mixed
+some-senior-high,Some Senior High,Volta,Ketu South,C,Mixed
+south-labone-girls-technical-institute,South Labone Girls Technical Institute,Greater Accra,Korle Klottey,C,Girls
+spiritan-senior-high,Spiritan Senior High/Tech,Ashanti,Atwima Nwabiagya North Municipal,C,Mixed
+st-anne-s-vocational-training-institute,St Anne's Vocational Training Institute,Upper West,Nandom,B,Girls
+st-sebastian-cath-senior-high,St Sebastian Cath. Senior High,Ashanti,Juaben Municipal,C,Mixed
+st-theresa-s-technical-institute,St Theresa's Technical Institute,Oti,Krachi Nchumuru,C,Mixed
+st-ann-s-girls-senior-high-sampa,"St. Ann's Girls Senior High, Sampa",Bono,Jaman North,B,Girls
+st-ann-s-technical-institute,St. Ann's Technical Institute,Western,Sekondi Takoradi,C,Girls
+st-anthony-of-padua-senior-high-tech,St. Anthony of Padua Senior High/Tech,Savannah,Bole,C,Mixed
+st-augustine-senior-high-nsapor-berekum,St. Augustine Senior High School,Bono,Berekum West,C,Mixed
+st-augustine-senior-high-tech-saan-charikpong,"St. Augustine Senior High/Tech, Saan Charikpong",Upper West,Nadowli,C,Mixed
+st-basilides-voc-tech-inst,St. Basilides Voc./Tech. Inst.,Upper West,Nadowli-Kaleo,B,Mixed
+st-bernadettes-tech-voc,St. Bernadettes Tech/Voc. Institute,Upper East,Kasena-Nankani East,C,Mixed
+st-charles-senior-high-tamale,"St. Charles Senior High, Tamale",Northern,Tamale Metro,A,Boys
+st-clare-s-technical-institute,St. Clare's Technical Institute,Upper West,Sisala East,C,Mixed
+st-daniel-comboni-tech-voc-inst,St. Daniel Comboni Technical Institute,Volta,Afadzto South,B,Mixed
+st-dominic-s-senior-high-tech-pepease,"St. Dominic's Senior High/Tech, Pepease",Eastern,Kwahu East,B,Mixed
+st-fidelis-senior-high-tech,St. Fidelis Senior High/Tech,Eastern,Kwahu Afram Plains South,C,Mixed
+st-francis-girls-senior-high-jirapa,"St. Francis Girls Senior High, Jirapa",Upper West,Jirapa,A,Girls
+st-francis-seminary-senior-high-buoyem,"St. Francis Seminary Senior High, Buoyem",Bono East,Techiman North,C,Boys
+st-francis-senior-high-tech-akim-oda,St. Francis Senior High/Tech,Eastern,Birim Central,B,Mixed
+st-george-s-senior-high-tech,St. George's Senior High Tech.,Ashanti,Bosomtwe,C,Mixed
+st-jerome-senior-high-abofour,"St. Jerome Senior High, Abofour",Ashanti,Offinso,B,Mixed
+st-john-s-integrated-snr-high-tech,St. John's Integrated Snr. High/Tech,Upper East,Kasena-Nankani Municipal,C,Mixed
+st-john-s-voc-tech-institute,St. John's Voc. Tech. Institute,Upper West,Nandom,B,Mixed
+st-joseph-sem-senior-high-mampong,"St. Joseph Sem/Senior High, Mampong",Ashanti,Mampong,C,Mixed
+st-joseph-senior-high-sefwi-wiawso,"St. Joseph Senior High, Sefwi Wiawso",Western North,Sefwi Wiawso,B,Mixed
+st-joseph-senior-high-tech-ahwiren,"St. Joseph Senior High/Tech, Ahwiren",Ashanti,Bekwai,B,Mixed
+st-joseph-s-tech-inst,St. Joseph's Tech. Inst.,Eastern,Kwahu East,B,Mixed
+st-joseph-s-tech-inst-saboba,"St. Joseph's Tech. Inst., Saboba",Northern,Saboba,B,Mixed
+st-martin-s-senior-high-nsawam,"St. Martin's Senior High, Nsawam",Eastern,Nsawam Adoagyiri Municipal,B,Mixed
+st-mary-s-sem-senior-high-lolobi,St. Mary's Sem.& Senior High School,Oti,Guan,B,Boys
+st-mary-s-voc-tech-inst,St. Mary's Voc./Tech. Inst.,Eastern,Kwahu Afram Plains North,C,Girls
+st-michael-s-senior-high-ahenkro,"St. Michael's Senior High, Ahenkro",Ashanti,Afigya-Kwabre,B,Mixed
+st-michael-s-senior-high-akoase-nkawkaw,"St. Michael's Senior High, Akoase (Nkawkaw)",Eastern,Birim North,C,Mixed
+st-michael-tech-voc-inst,St. Michael's Technical Institute,Ashanti,Bosomtwe,B,Mixed
+st-paul-s-senior-high-denu,"St. Paul's Senior High, Denu",Volta,Ketu South,C,Boys
+st-stephen-s-presby-snr-high-tech-asiakwa,"St. Stephen's Presby Snr. High/Tech, Asiakwa",Eastern,Abuakwa South Municipal,C,Mixed
+st-thomas-senior-high-tech,St. Thomas Senior High/Tech,Eastern,West Akim,C,Mixed
+sumaman-senior-high,Sumaman Senior High,Bono,Jaman North,B,Mixed
+suntreso-technical-institute,Suntreso Technical Institute,Ashanti,Kumasi Metro,C,Mixed
+sunyani-methodist-technical-inst,Sunyani Methodist Technical Inst.,Bono,Sunyani,C,Mixed
+swedru-sch-of-business,Swedru Sch. Of Business,Central,Agona West,C,Mixed
+swedru-senior-high,Swedru Senior High,Central,Agona East,B,Mixed
+t-i-ahmadiyya-girl-s-senior-high-asokore,T. I. Ahmadiyya Girl's Senior High,Ashanti,Sekyere East,B,Girls
+t-i-ahmadiyya-senior-high-wa,"T. I. Ahmadiyya Senior High, Wa",Upper West,Wa Municipal,B,Mixed
+tsc-technical-institute-asankragwa,TSC Technical Institute - Asankragwa,Western,Wassa Amenfi West,C,Mixed
+tsc-technical-institute-bibiani,TSC Technical Institute - Bibiani,Western North,Bibiani Anhwiaso Bekwai,C,Mixed
+tsc-technical-institute-garu,TSC Technical Institute - Garu,Upper East,Tempane,C,Mixed
+tsc-technical-institute-kassena-nankana,TSC Technical Institute -Kassena Nankana,Upper East,Kasena-Nankani East,C,Mixed
+tsc-technical-institute-asamankese,"TSC Technical Institute, Asamankese",Eastern,West Akim Municipal,C,Mixed
+tsc-technical-institute-assin-edubiase,"TSC Technical Institute, Assin Edubiase",Central,Assin Central Municipal,C,Mixed
+tsc-technical-institute-awutu-breku,"TSC Technical Institute, Awutu Breku",Central,Awutu Senya,C,Mixed
+tsc-technical-institute-bechem,"TSC Technical Institute, Bechem",Ahafo,Tano South,C,Mixed
+tsc-technical-institute-bekwai,"TSC Technical Institute, Bekwai",Ashanti,Bekwai,C,Mixed
+tsc-technical-institute-donkorkrom,"TSC Technical Institute, Donkorkrom",Eastern,Kwahu Afram Plains North,C,Mixed
+tsc-technical-institute-drobo,"TSC Technical Institute, Drobo",Bono,Jaman South,C,Mixed
+tsc-technical-institute-goaso,"TSC Technical Institute, Goaso",Ahafo,Asunafo North,C,Mixed
+tsc-technical-institute-konongo,"TSC Technical Institute, Konongo",Ashanti,Asante Akim Central Municipal,C,Mixed
+tsc-technical-institute-mampong,"TSC Technical Institute, Mampong",Ashanti,Mampong,C,Mixed
+tsc-technical-institute-nadowli-kaleo,"TSC Technical Institute, Nadowli - Kaleo",Upper West,Nadowli-Kaleo,C,Mixed
+tsc-technical-institute-sekyere-kumawu,"TSC Technical Institute, Sekyere Kumawu",Ashanti,Sekyere Kumawu,C,Mixed
+takpo-senior-high-sch,Takpo Senior High Sch.,Upper West,Nadowli,C,Mixed
+tarkrosi-comm-senior-high,Takrowase Comm. Senior High,Eastern,Denkyembour,C,Mixed
+takrowase-technical-institute,Takrowase Technical Institute,Eastern,Kwaebibirem,C,Mixed
+tamale-girls-senior-high,Tamale Girls Senior High,Northern,Tamale Metro,B,Girls
+tanyigbe-senior-high,Tanyigbe Senior High,Volta,Ho Municipal,C,Mixed
+tapaman-senior-high-tech,Tapaman Senior High/Tech,Oti,Biakoye,C,Mixed
+tarkwa-technical-institute,Tarkwa Technical Institute,Western,Wassa West,B,Mixed
+tatale-e-p-agric-senior-high-tech,Tatale Technical Institute,Northern,Tatale Sanguli,C,Mixed
+taviefe-comm-senior-high,Taviefe Senior High,Volta,Ho Municipal,C,Mixed
+tawheed-senior-high,Tawheed Senior High.,Ashanti,Asokore Mampong Municipal,B,Mixed
+techiman-senior-high,Techiman Senior High,Bono East,Techiman,B,Mixed
+tempane-senior-high,Tempane Senior High,Upper East,Tempane,C,Mixed
+tepa-senior-high,Tepa Senior High,Ashanti,Ahafo Ano North,B,Mixed
+terchire-senior-high,Terchire Senior High,Ahafo,Tano North,C,Mixed
+tetrefu-technical-institute,Tetrefu Technical Institute,Ashanti,Bosomtwe,C,Mixed
+tibani-technical-institute,Tibani Technical Institute,Upper West,Kaleo Nadowu,C,Mixed
+tijjaniya-senior-high,Tijjaniya Senior High,Ashanti,Sekyere East,C,Mixed
+toase-senior-high,Toase Senior High,Ashanti,Atwima Nwabiagya,B,Mixed
+toh-kpalime-technical-institute,Toh-Kpalime Technical Institute,Volta,South Dayi,C,Mixed
+tolon-senior-high,Tolon Senior High,Northern,Tolon,C,Mixed
+tongo-senior-high-tech,Tongo Senior High/Tech,Upper East,Talensi,C,Mixed
+tongor-senior-high-tech,Tongor Senior High Tech.,Volta,South Dayi,B,Mixed
+tsiame-senior-high,Tsiame Senior High,Volta,Anlo Keta,C,Mixed
+tsibu-technical-institute,Tsibu Technical Institute,Volta,Ho West,C,Mixed
+tsito-senior-high-tech,Tsito Senior High/Tech,Volta,Ho West,C,Mixed
+tumu-senior-high-tech,Tumu Senior High/Tech.,Upper West,Sisala East,C,Mixed
+tuna-senior-high-tech,Tuna Senior High/Tech.,Savannah,Sawla Tuna Kalba,C,Mixed
+tuobodom-senior-high-tech,Tuobodom Senior High/Tech,Bono East,Techiman North,B,Mixed
+tutu-methodist-technical-institute,Tutu Methodist Technical Institute,Eastern,Akwapim North Municipal,C,Mixed
+tweapease-senior-high-school,Tweapease Senior High School,Ashanti,Amansie Central,C,Mixed
+twedie-technical-institute,Twedie Technical Institute,Ashanti,Atwima Kwanwoma,C,Mixed
+twene-amanfo-senior-high-tech,Twene Amanfo Senior High/Tech.,Bono,Sunyani,B,Mixed
+twereku-ampem-senior-high-school,Twereku Ampem Senior High School,Ahafo,Asutifi North,C,Mixed
+twifo-hemang-senior-high-tech,Twifo Hemang Senior High/Tech,Central,Twifo Hemang Lower Denkyira,B,Mixed
+twifo-praso-senior-high,Twifo Praso Senior High,Central,Twifo Ati-Morkwa,B,Mixed
+ullo-senior-high,Ullo Senior High,Upper West,Jirapa,C,Mixed
+university-practice-senior-high,University Practice Senior High,Central,Cape Coast,B,Mixed
+uthman-bin-afam-shs,Uthman Bin Affan Islamic SHS,Western,Ellembele,C,Mixed
+uthmaniya-senior-high-tafo,"Uthmaniya Senior High, Tafo",Ashanti,Kumasi Metro,C,Mixed
+vakpo-senior-high,Vakpo Senior High,Volta,North Dayi,B,Mixed
+vakpo-senior-high-tech,Vakpo Senior High/Tech,Volta,North Dayi,C,Mixed
+ve-comm-senior-high,Ve Comm. Senior High,Volta,Afadzto South,C,Mixed
+ve-golokwati-technical-institute,Ve- Golokwati Technical Institute,Volta,Afadzto South,C,Mixed
+vitting-senior-high-tech,Vitting Senior High/Tech.,Northern,Tamale Metro,C,Mixed
+volo-comm-senior-high,Volo Comm. Senior High,Volta,North Tongu,C,Mixed
+volta-senior-high-school,Volta Senior High School,Volta,Anlo Keta,C,Mixed
+volta-tech-inst,Volta Tech Inst,Volta,Ho Municipal,C,Mixed
+wa-senior-high,Wa Senior High .,Upper West,Wa Municipal,B,Mixed
+wa-senior-high-tech,Wa Senior High/Tech.,Upper West,Wa Municipal,C,Mixed
+walewale-senior-high,Walewale Senior High,North East,West Mamprusi,C,Mixed
+walewale-tech-voc-inst,Walewale Technical Institute,North East,West Mampusi,C,Mixed
+wamanafo-senior-high-tech,Wamanafo Senior High/Tech,Bono,Dormaa East,B,Mixed
+wapuli-comm-senior-high,Wapuli Comm. Senior High,Northern,Saboba,C,Mixed
+wesley-high-school-bekwai,"Wesley High School, Bekwai",Ashanti,Bekwai,C,Mixed
+wesley-senior-high-konongo,"Wesley Senior High, Konongo .",Ashanti,Asante Akim Central Municipal,B,Mixed
+weta-senior-high-tech,Weta Senior High/Tech.,Volta,Ketu North,C,Mixed
+wiafe-akenten-presby-senior-high,Wiafe Akenten Presby Senior High,Ashanti,Offinso North,C,Mixed
+wiaga-comm-senior-high,Wiaga Comm. Senior High,Upper East,Builsa North,C,Mixed
+wioso-shs,Wioso SHS,Ashanti,Ahafo-Ano South West,C,Mixed
+woe-technical-institute,Woe Technical Institute,Volta,Keta Municipal,C,Mixed
+worawora-senior-high,Worawora Senior High,Oti,Biakoye,C,Mixed
+wovenu-senior-high-technical,Wovenu Senior High Technical,Volta,Ketu North,C,Mixed
+wulensi-senior-high,Wulensi Senior High,Northern,Nanumba South,C,Mixed
+wulugu-senior-high,Wulugu Senior High,North East,West Mamprusi,C,Mixed
+yaa-pokua-technical-institute,Yaa Pokua Technical Institute,Ashanti,Offinso North,C,Mixed
+yabram-comm-day-school,Yabram Comm. Day School,Oti,Krachi East,C,Mixed
+yagaba-senior-high-school,Yagaba Senior High School,North East,Mamprugu Moaduri,C,Mixed
+yamfo-anglican-senior-high-school,Yamfo Anglican Senior High School,Ahafo,Tano North,B,Mixed
+yamfo-technical-institute,Yamfo Technical Institute,Ahafo,Tano North,A,Mixed
+yeboah-asuamah-senior-high,Yeboah Asuamah Senior High,Bono East,Techiman,B,Mixed
+yeji-senior-high-tech,Yeji Senior High/Tech,Bono East,Pru,B,Mixed
+yendi-senior-high,Yendi Senior High,Northern,Yendi,B,Mixed
+yizesi-senior-high-school,Yizesi Senior High School,North East,Mamprugu Moaduri,C,Mixed
+yunyoo-senior-high-school,Yunyoo Senior High School,North East,Yunyoo-Nasuan,C,Mixed
+zabzugu-senior-high,Zabzugu Senior High,Northern,Zabzugu,C,Mixed
+zabzugu-technical-institute,Zabzugu Technical Institute,Northern,Zabzugu,C,Mixed
+zamse-senior-high-tech,Zamse Senior High/Tech,Upper East,Bolgatanga Municipal,C,Mixed
+zebilla-senior-high-tech,Zebilla Senior High/Tech,Upper East,Bawku West,B,Mixed
+akpafu-senior-high-tech,Ziavi Senior High/Tech,Volta,Ho Municipal,C,Mixed
+ziope-senior-high-sch,Ziope Senior High Sch.,Volta,Agortime Ziope,C,Mixed
+zorkor-senior-high,Zorkor Senior High,Upper East,Bongo,C,Mixed
+zugu-dabogni-technical-institute,Zugu Dabogni Technical Institute,Northern,Kumbungu,C,Mixed

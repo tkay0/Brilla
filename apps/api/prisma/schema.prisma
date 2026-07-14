@@ -20,7 +20,10 @@ enum RoundType {
 }
 
 model School {
-  id     String @id @default(cuid())
+  id     String  @id @default(cuid())
+  // Stable identifier from the shsselect.com source directory, used to upsert without
+  // duplicating on re-import. Null for schools that predate that import.
+  slug   String? @unique
   name   String
   region String
 
