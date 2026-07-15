@@ -14,6 +14,25 @@ function formatScore(score: number) {
   return score.toLocaleString('en-US');
 }
 
+function formatOrdinal(rank: number) {
+  const mod100 = rank % 100;
+
+  if (mod100 >= 11 && mod100 <= 13) {
+    return `${rank}th`;
+  }
+
+  switch (rank % 10) {
+    case 1:
+      return `${rank}st`;
+    case 2:
+      return `${rank}nd`;
+    case 3:
+      return `${rank}rd`;
+    default:
+      return `${rank}th`;
+  }
+}
+
 const FIRST_AVATAR_SIZE = 60;
 const SIDE_AVATAR_SIZE = 56;
 
@@ -42,9 +61,24 @@ export default function LeaderboardScreen() {
   const podium = data?.leaderboard.slice(0, 3) ?? [];
 
   const scrollRef = useRef<ScrollView>(null);
+  const [canShowGoToTop, setCanShowGoToTop] = useState(false);
   const [listCardY, setListCardY] = useState<number | null>(null);
   const [meRowY, setMeRowY] = useState<number | null>(null);
+  const [pendingScrollToMe, setPendingScrollToMe] = useState(false);
   const hasScrolledRef = useRef(false);
+
+  function scrollToMe(animated = true) {
+    if (listCardY === null || meRowY === null) return false;
+    scrollRef.current?.scrollTo({ y: Math.max(listCardY + meRowY - theme.spacing.md, 0), animated });
+    return true;
+  }
+
+  function handleRankPress() {
+    const didScroll = scrollToMe(true);
+    if (!didScroll) {
+      setPendingScrollToMe(true);
+    }
+  }
 
   // A fresh leaderboard load (or a different logged-in user) deserves its own
   // auto-scroll-to-me pass.
@@ -57,18 +91,35 @@ export default function LeaderboardScreen() {
   useEffect(() => {
     if (hasScrolledRef.current || listCardY === null || meRowY === null) return;
     hasScrolledRef.current = true;
-    scrollRef.current?.scrollTo({ y: Math.max(listCardY + meRowY - theme.spacing.md, 0), animated: true });
+    scrollToMe(true);
   }, [listCardY, meRowY]);
+
+  useEffect(() => {
+    if (!pendingScrollToMe) return;
+    const didScroll = scrollToMe(true);
+    if (didScroll) {
+      setPendingScrollToMe(false);
+    }
+  }, [pendingScrollToMe, listCardY, meRowY]);
+
+  function handleScroll(event: any) {
+    setCanShowGoToTop(event.nativeEvent.contentOffset.y > 0);
+  }
 
   return (
     <SafeAreaView style={styles.root} edges={['top', 'bottom']}>
-      <ScrollView ref={scrollRef} contentContainerStyle={styles.content}>
+      <ScrollView ref={scrollRef} contentContainerStyle={styles.content} onScroll={handleScroll} scrollEventThrottle={16}>
         <Header
           avatarLabel={profile.data?.name}
           avatarUrl={profile.data?.avatarUrl}
           right={<HeaderStatus xp={profile.data?.xp ?? 0} coins={profile.data?.coinBalance ?? 0} />}
         />
         <Text style={styles.title}>Leaderboard</Text>
+        {data && (
+          <Pressable onPress={handleRankPress} hitSlop={8} style={styles.rankCaptionTapArea}>
+            <Text style={styles.rankCaption}>Your rank: {formatOrdinal(data.me.rank)}</Text>
+          </Pressable>
+        )}
 
         {leaderboardQuery.isError && (
           <Card style={styles.limitCard}>
@@ -175,7 +226,7 @@ export default function LeaderboardScreen() {
         )}
       </ScrollView>
 
-      {data && (
+      {data && canShowGoToTop && (
         <Pressable
           style={styles.goToTop}
           onPress={() => scrollRef.current?.scrollTo({ y: 0, animated: true })}
@@ -203,6 +254,15 @@ const styles = StyleSheet.create({
   title: {
     ...theme.type.h1,
     color: theme.colors.ink,
+  },
+  rankCaption: {
+    ...theme.type.caption,
+    fontFamily: theme.fonts.bodyMedium,
+    color: theme.colors.ink,
+    marginTop: -theme.spacing.xs,
+  },
+  rankCaptionTapArea: {
+    alignSelf: 'flex-start',
   },
   centered: {
     paddingVertical: theme.spacing.lg,
