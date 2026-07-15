@@ -1,11 +1,12 @@
 import React, { useState } from 'react';
-import { ActivityIndicator, Pressable, StyleSheet, Text, View } from 'react-native';
+import { Pressable, StyleSheet, Text, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { useNavigation } from '@react-navigation/native';
 import type { NativeStackNavigationProp } from '@react-navigation/native-stack';
 import { Feather } from '@expo/vector-icons';
 import { Button } from '../components/Button';
 import { Card } from '../components/Card';
+import { QuizLoadingSkeleton } from '../components/QuizLoadingSkeleton';
 import { theme } from '../theme';
 import type { QuizStackParamList } from '../lib/QuizStack';
 import { useQuestions, useSubmitAttempt } from '../lib/queries';
@@ -57,9 +58,7 @@ export default function PracticeScreen() {
   if (questionsQuery.isLoading || !question) {
     return (
       <SafeAreaView style={styles.root} edges={['top', 'bottom']}>
-        <View style={styles.centered}>
-          <ActivityIndicator color={theme.colors.primary} />
-        </View>
+        <QuizLoadingSkeleton roundLabel="Practice" showMeta={false} optionCount={0} actionCount={1} />
       </SafeAreaView>
     );
   }

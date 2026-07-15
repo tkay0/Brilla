@@ -1,7 +1,7 @@
-import React from 'react';
-import { Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
+import React, { useCallback, useState } from 'react';
+import { ActivityIndicator, Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
-import { useNavigation } from '@react-navigation/native';
+import { useFocusEffect, useNavigation } from '@react-navigation/native';
 import type { NativeStackNavigationProp } from '@react-navigation/native-stack';
 import { Feather } from '@expo/vector-icons';
 import { Card } from '../components/Card';
@@ -54,6 +54,20 @@ const ROUNDS: Round[] = [
 export default function QuizScreen() {
   const navigation = useNavigation<NativeStackNavigationProp<QuizStackParamList>>();
   const profile = useProfile();
+  const [loadingRoute, setLoadingRoute] = useState<keyof QuizStackParamList | null>(null);
+
+  useFocusEffect(
+    useCallback(() => {
+      setLoadingRoute(null);
+    }, []),
+  );
+
+  function handleRoundPress(route: keyof QuizStackParamList) {
+    setLoadingRoute(route);
+    requestAnimationFrame(() => {
+      navigation.navigate(route);
+    });
+  }
 
   return (
     <SafeAreaView style={styles.root} edges={['top', 'bottom']}>
@@ -66,7 +80,12 @@ export default function QuizScreen() {
         <Text style={styles.title}>Quiz</Text>
 
         {ROUNDS.map((round) => (
-          <Pressable key={round.route} onPress={() => navigation.navigate(round.route)}>
+          <Pressable
+            key={round.route}
+            onPress={() => handleRoundPress(round.route)}
+            disabled={loadingRoute !== null}
+            style={loadingRoute !== null && styles.disabledRoundCard}
+          >
             <Card style={styles.card}>
               <View style={styles.cardHeader}>
                 <Feather name={round.icon} size={24} color={theme.colors.primary} />
@@ -85,6 +104,13 @@ export default function QuizScreen() {
           </Pressable>
         ))}
       </ScrollView>
+
+      {loadingRoute && (
+        <View style={styles.loadingOverlay}>
+          <ActivityIndicator color={theme.colors.primary} />
+          <Text style={styles.loadingLabel}>Loading quiz...</Text>
+        </View>
+      )}
     </SafeAreaView>
   );
 }
@@ -105,6 +131,9 @@ const styles = StyleSheet.create({
   card: {
     gap: theme.spacing.sm,
   },
+  disabledRoundCard: {
+    opacity: 0.7,
+  },
   cardHeader: {
     flexDirection: 'row',
     alignItems: 'flex-start',
@@ -120,5 +149,17 @@ const styles = StyleSheet.create({
   },
   tag: {
     marginLeft: 24 + theme.spacing.sm,
+  },
+  loadingOverlay: {
+    ...StyleSheet.absoluteFill,
+    backgroundColor: 'rgba(243, 243, 248, 0.88)',
+    alignItems: 'center',
+    justifyContent: 'center',
+    gap: theme.spacing.xs,
+  },
+  loadingLabel: {
+    ...theme.type.caption,
+    fontFamily: theme.fonts.bodyMedium,
+    color: theme.colors.inkMuted,
   },
 });

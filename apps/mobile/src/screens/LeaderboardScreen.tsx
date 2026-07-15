@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
-import { ActivityIndicator, Image, Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
+import { Image, Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { Feather } from '@expo/vector-icons';
 import { Avatar } from '../components/Avatar';
@@ -7,6 +7,7 @@ import { Button } from '../components/Button';
 import { Card } from '../components/Card';
 import { Header } from '../components/Header';
 import { HeaderStatus } from '../components/HeaderStatus';
+import { ShimmerBlock } from '../components/ShimmerBlock';
 import { theme } from '../theme';
 import { useLeaderboard, useProfile, type LeaderboardEntry } from '../lib/queries';
 
@@ -130,8 +131,28 @@ export default function LeaderboardScreen() {
         )}
 
         {leaderboardQuery.isLoading && (
-          <View style={styles.centered}>
-            <ActivityIndicator color={theme.colors.primary} />
+          <View style={styles.leaderboardSkeleton}>
+            <Card style={styles.podiumSkeletonCard}>
+              <View style={styles.podiumSkeletonRow}>
+                <ShimmerBlock height={120} style={styles.podiumSkeletonSide} borderRadius={theme.radii.lg} />
+                <ShimmerBlock height={150} style={styles.podiumSkeletonCenter} borderRadius={theme.radii.lg} />
+                <ShimmerBlock height={120} style={styles.podiumSkeletonSide} borderRadius={theme.radii.lg} />
+              </View>
+            </Card>
+
+            <Card style={styles.listCard}>
+              {Array.from({ length: 6 }).map((_, index) => (
+                <View key={index} style={[styles.listSkeletonRow, index < 5 && styles.listRowDivider]}>
+                  <ShimmerBlock width={24} height={16} />
+                  <ShimmerBlock width={36} height={36} borderRadius={18} />
+                  <View style={styles.listSkeletonNameColumn}>
+                    <ShimmerBlock width="74%" height={14} />
+                    <ShimmerBlock width="52%" height={12} />
+                  </View>
+                  <ShimmerBlock width={56} height={16} />
+                </View>
+              ))}
+            </Card>
           </View>
         )}
 
@@ -269,6 +290,24 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
+  leaderboardSkeleton: {
+    gap: theme.spacing.md,
+  },
+  podiumSkeletonCard: {
+    paddingVertical: theme.spacing.md,
+    paddingHorizontal: theme.spacing.sm,
+  },
+  podiumSkeletonRow: {
+    flexDirection: 'row',
+    alignItems: 'flex-end',
+    gap: theme.spacing.sm,
+  },
+  podiumSkeletonSide: {
+    flex: 1,
+  },
+  podiumSkeletonCenter: {
+    flex: 1,
+  },
   limitCard: {
     alignItems: 'center',
     gap: theme.spacing.xs,
@@ -403,6 +442,17 @@ const styles = StyleSheet.create({
     gap: theme.spacing.sm,
     paddingVertical: theme.spacing.md,
     paddingHorizontal: theme.spacing.md,
+  },
+  listSkeletonRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: theme.spacing.sm,
+    paddingVertical: theme.spacing.md,
+    paddingHorizontal: theme.spacing.md,
+  },
+  listSkeletonNameColumn: {
+    flex: 1,
+    gap: theme.spacing.xs,
   },
   listRowDivider: {
     borderBottomWidth: 1,

@@ -10,6 +10,7 @@ import * as ImagePicker from 'expo-image-picker';
 import { Avatar } from '../components/Avatar';
 import { Card } from '../components/Card';
 import { Header } from '../components/Header';
+import { ShimmerBlock } from '../components/ShimmerBlock';
 import { theme } from '../theme';
 import { clearToken } from '../lib/authStore';
 import type { RootTabParamList } from '../lib/RootNavigator';
@@ -30,6 +31,7 @@ export default function ProfileScreen() {
   const profileStats = useProfileStats();
   const profileSubjects = useProfileSubjects();
   const uploadAvatar = useUploadAvatar();
+  const isProfileLoading = profile.isLoading || schools.isLoading || profileStats.isLoading || profileSubjects.isLoading;
 
   const schoolName = schools.data?.find((school) => school.id === profile.data?.schoolId)?.name;
 
@@ -58,6 +60,50 @@ export default function ProfileScreen() {
     uploadAvatar.mutate(
       { uri: asset.uri, name: asset.fileName ?? 'avatar.jpg', type: asset.mimeType ?? 'image/jpeg' },
       { onError: (error) => Alert.alert('Upload failed', error instanceof Error ? error.message : 'Could not upload your photo. Try again.') },
+    );
+  }
+
+  if (isProfileLoading) {
+    return (
+      <SafeAreaView style={styles.root} edges={['top', 'bottom']}>
+        <ScrollView contentContainerStyle={styles.content}>
+          <Header avatarLabel={profile.data?.name} avatarUrl={profile.data?.avatarUrl} />
+
+          <View style={styles.identity}>
+            <ShimmerBlock width={96} height={96} borderRadius={48} />
+            <ShimmerBlock width={160} height={24} style={styles.skeletonName} />
+            <ShimmerBlock width={120} height={16} />
+          </View>
+
+          <Card style={styles.statsCard}>
+            {Array.from({ length: 3 }).map((_, index) => (
+              <View key={index} style={styles.statColumn}>
+                <ShimmerBlock width={54} height={24} />
+                <ShimmerBlock width={44} height={12} />
+              </View>
+            ))}
+          </Card>
+
+          <Card style={styles.subjectsCard}>
+            <ShimmerBlock width={160} height={12} />
+            {Array.from({ length: 3 }).map((_, index) => (
+              <View key={index} style={[styles.subjectRow, index > 0 && styles.subjectRowDivider]}>
+                <ShimmerBlock width={140} height={14} />
+                <ShimmerBlock width={44} height={14} />
+              </View>
+            ))}
+          </Card>
+
+          <Card style={styles.settingsCard}>
+            {Array.from({ length: 2 }).map((_, index) => (
+              <View key={index} style={styles.settingsRow}>
+                <ShimmerBlock width={100} height={16} />
+                <ShimmerBlock width={16} height={16} borderRadius={8} />
+              </View>
+            ))}
+          </Card>
+        </ScrollView>
+      </SafeAreaView>
     );
   }
 
@@ -158,6 +204,9 @@ const styles = StyleSheet.create({
   name: {
     ...theme.type.h2,
     color: theme.colors.ink,
+    marginTop: theme.spacing.sm,
+  },
+  skeletonName: {
     marginTop: theme.spacing.sm,
   },
   school: {

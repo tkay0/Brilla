@@ -10,6 +10,7 @@ import { Card } from '../components/Card';
 import { Pill } from '../components/Pill';
 import { TimerBar } from '../components/TimerBar';
 import { OutOfCoinsModal } from '../components/OutOfCoinsModal';
+import { QuizLoadingSkeleton } from '../components/QuizLoadingSkeleton';
 import { theme } from '../theme';
 import type { QuizStackParamList } from '../lib/QuizStack';
 import type { RootTabParamList } from '../lib/RootNavigator';
@@ -124,9 +125,7 @@ export default function SpeedRaceScreen() {
   if (limits.isLoading) {
     return (
       <SafeAreaView style={styles.root} edges={['top', 'bottom']}>
-        <View style={styles.centered}>
-          <ActivityIndicator color={theme.colors.primary} />
-        </View>
+        <QuizLoadingSkeleton roundLabel="Speed Race" />
       </SafeAreaView>
     );
   }
@@ -200,9 +199,7 @@ export default function SpeedRaceScreen() {
   if (questionsQuery.isLoading || !question) {
     return (
       <SafeAreaView style={styles.root} edges={['top', 'bottom']}>
-        <View style={styles.centered}>
-          <ActivityIndicator color={theme.colors.primary} />
-        </View>
+        <QuizLoadingSkeleton roundLabel="Speed Race" />
       </SafeAreaView>
     );
   }
