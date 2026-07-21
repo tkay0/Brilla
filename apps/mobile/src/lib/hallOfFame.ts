@@ -3,7 +3,7 @@ import { ImageSourcePropType } from 'react-native';
 // NSMQ past-champion schools, ranked by title count (highest first). Crest images live in
 // assets/images/; any entry without a matching file falls back to a school-initials badge.
 export const SCHOOL_IMAGES: Record<string, ImageSourcePropType> = {
-  presec: require('../../assets/images/presec.png'),
+  presec: require('../../assets/images/presec.jpg'),
   prempeh: require('../../assets/images/prempeh.jpg'),
   mfantsipim: require('../../assets/images/mfantsipim.png'),
   'st-peters': require('../../assets/images/st-peters.jpg'),
