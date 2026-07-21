@@ -12,13 +12,21 @@
       "distribution": "internal",
       "android": {
         "buildType": "apk"
+      },
+      "env": {
+        "EXPO_PUBLIC_API_URL": "https://brilla-backend-c435m.ondigitalocean.app",
+        "EXPO_PUBLIC_USE_RN_FETCH": "1"
       }
     },
     "production": {
       "android": {
         "buildType": "app-bundle"
       },
-      "autoIncrement": true
+      "autoIncrement": true,
+      "env": {
+        "EXPO_PUBLIC_API_URL": "https://brilla-backend-c435m.ondigitalocean.app",
+        "EXPO_PUBLIC_USE_RN_FETCH": "1"
+      }
     }
   },
   "submit": {

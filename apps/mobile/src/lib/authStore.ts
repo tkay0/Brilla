@@ -14,20 +14,33 @@ function emit() {
 }
 
 export async function loadToken() {
-  token = (await SecureStore.getItemAsync(TOKEN_KEY)) ?? null;
+  try {
+    token = (await SecureStore.getItemAsync(TOKEN_KEY)) ?? null;
+  } catch (error) {
+    console.error('Failed to load token from SecureStore:', error);
+    token = null;
+  }
   emit();
   return token;
 }
 
 export async function setToken(next: string) {
   token = next;
-  await SecureStore.setItemAsync(TOKEN_KEY, next);
+  try {
+    await SecureStore.setItemAsync(TOKEN_KEY, next);
+  } catch (error) {
+    console.error('Failed to save token to SecureStore:', error);
+  }
   emit();
 }
 
 export async function clearToken() {
   token = null;
-  await SecureStore.deleteItemAsync(TOKEN_KEY);
+  try {
+    await SecureStore.deleteItemAsync(TOKEN_KEY);
+  } catch (error) {
+    console.error('Failed to delete token from SecureStore:', error);
+  }
   emit();
 }
 
